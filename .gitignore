@@ -50,3 +50,11 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
+### yiya ###
+private/**
+!private/README.md
+!private/.gitkeep
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+*.local.md
+

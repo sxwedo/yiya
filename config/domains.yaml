@@ -1,0 +1,9 @@
+domains:
+  - id: agents
+    title: Agent 与 Grok Bot
+    path: domains/agents
+    active: true
+  - id: engineering
+    title: 工程与可维护性
+    path: domains/engineering
+    active: true

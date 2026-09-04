@@ -1,0 +1,8 @@
+okf_version: "0.2"
+# 常用即可；其它 type 按需再用，不必先建目录
+types:
+  - Reference
+  - Entity
+  - Concept
+  - Overview
+  # 按需: Comparison | Synthesis | Question | Decision | Playbook
