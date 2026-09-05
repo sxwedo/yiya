@@ -57,4 +57,32 @@ entries:
     status: claimed
     url: https://mp.weixin.qq.com/s/KW5vvF2w1pkkBW36lLDcAg
     added: 2026-09-05
+  - id: dewu-multiagent-memory
+    path: raw/library/2026/09/dewu-multiagent-memory/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md
+    title: 企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/3vbMPRyK02jT_pJ6Hpx2Kg
+    added: 2026-09-05
+  - id: agent-self-evolution-flywheel
+    path: raw/library/2026/09/agent-self-evolution-flywheel/一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制.md
+    title: 一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/5VDN-T9K8Wr-DaQ15-I6CA
+    added: 2026-09-05
+  - id: semantic-layer-chatbi
+    path: raw/library/2026/09/semantic-layer-chatbi/AI写SQL总在胡编？因为你的数仓没有语义层.md
+    title: AI写SQL总在胡编？因为你的数仓没有语义层
+    domain: engineering
+    status: claimed
+    url: https://mp.weixin.qq.com/s/PXBE64nD0iO_ucexc5-XaQ
+    added: 2026-09-05
+  - id: ai-coding-pm-paradigm
+    path: raw/library/2026/09/ai-coding-pm-paradigm/AI Coding时代，研发项目管理新范式探索与实践.md
+    title: AI Coding时代，研发项目管理新范式探索与实践
+    domain: engineering
+    status: claimed
+    url: https://mp.weixin.qq.com/s/qmNj7b5vOsL3Aji01-7BLw
+    added: 2026-09-05
 

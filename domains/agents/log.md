@@ -1,6 +1,8 @@
 # Agent 与 Grok Bot — Log
 
 ## 2026-09-05
+* **Ingest**: [Agent 自进化飞轮](./references/agent-self-evolution-flywheel.md) → concepts [Agent 自进化飞轮](./concepts/agent-self-evolution-flywheel.md), [Harness 自改进](./concepts/harness-self-improvement.md).
+* **Ingest**: [得物 MultiAgent 记忆](./references/dewu-multiagent-memory.md) → concepts [四层 Agent 记忆](./concepts/four-layer-agent-memory.md), [异步记忆沉淀](./concepts/async-memory-precipitation.md).
 * **Ingest**: [Anthropic 多智能体失效](./references/anthropic-multiagent-failures.md) → concepts [多智能体失效模式](./concepts/multi-agent-failure-modes.md), [多智能体治理](./concepts/multi-agent-governance.md).
 * **Ingest**: [WikiSkill](./references/wikiskill-three-layer.md) → concepts [WikiSkill 三层架构](./concepts/wikiskill-architecture.md), [知识与技能分离](./concepts/knowledge-skill-separation.md).
 * **Ingest**: [Pi vs oh-my-pi](./references/pi-vs-oh-my-pi.md) → entity [Pi](./entities/pi.md), concept [Minimal Agent Harness](./concepts/minimal-agent-harness.md).
