@@ -4,3 +4,5 @@
 * [Evidence Gate](./evidence-gate.md)
 * [Engineering Bot](./engineering-bot.md)
 * [Playbook 反馈闭环](./playbook-feedback-loop.md)
+* [Advisor](./advisor.md)
+* [TTSR](./ttsr.md)

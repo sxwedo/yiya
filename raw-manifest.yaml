@@ -15,3 +15,10 @@ entries:
     status: claimed
     url: https://mp.weixin.qq.com/s/270tAXMKIQDvl5-vOS5nqQ
     added: 2026-09-05
+  - id: oh-my-pi-setup
+    path: raw/library/2026/09/oh-my-pi-setup/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
+    title: oh-my-pi 装完就不管了？这几步配完才真叫好用
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/89D-zKqj71xA5XH6uLtIlg
+    added: 2026-09-05
