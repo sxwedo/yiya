@@ -22,3 +22,39 @@ entries:
     status: claimed
     url: https://mp.weixin.qq.com/s/89D-zKqj71xA5XH6uLtIlg
     added: 2026-09-05
+  - id: agentloop-data-ingress
+    path: raw/library/2026/09/agentloop-data-ingress/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
+    title: 数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/lmZaSJpyTKdBeytRYeIeJg
+    added: 2026-09-05
+  - id: pi-vs-oh-my-pi
+    path: raw/library/2026/09/pi-vs-oh-my-pi/主流 Agent 之「Pi」与「oh-my-pi」介绍.md
+    title: 主流 Agent 之「Pi」与「oh-my-pi」介绍
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/f61ZfTCsCgGZ1mQW1ARcKA
+    added: 2026-09-05
+  - id: wikiskill-three-layer
+    path: raw/library/2026/09/wikiskill-three-layer/谷歌重磅发布WikiSkill，技能可以自己进化了！.md
+    title: 谷歌重磅发布WikiSkill，技能可以自己进化了！
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/rmS1mtEBMdb_png2Nvddvg
+    added: 2026-09-05
+  - id: ng-evals-watershed
+    path: raw/library/2026/09/ng-evals-watershed/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
+    title: 吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals
+    domain: engineering
+    status: claimed
+    url: https://mp.weixin.qq.com/s/inUHNfUlVf-Js8fOdxUZzA
+    added: 2026-09-05
+  - id: anthropic-multiagent-failures
+    path: raw/library/2026/09/anthropic-multiagent-failures/Anthropic最新多智能体研究来了！.md
+    title: Anthropic最新多智能体研究来了！
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/KW5vvF2w1pkkBW36lLDcAg
+    added: 2026-09-05
+
