@@ -1,10 +1,10 @@
 # raw 认领表
 version: 1
-entries: []
-# - id: example-slug
-#   path: raw/library/2026/09/example-slug/原文标题.md
-#   title: 原文标题
-#   domain: agents
-#   status: claimed
-#   url: https://...
-#   added: 2026-09-04
+entries:
+  - id: dewu-delivery-harness
+    path: raw/library/2026/09/dewu-delivery-harness/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md
+    title: 得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/Jcx_3OABcYwzzxWKFgivOA
+    added: 2026-09-05
