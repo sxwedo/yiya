@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:40:00Z }
 related:
+  - claude-academy
   - mena
   - pi
   - minimal-agent-harness
@@ -28,6 +29,7 @@ sources:
 
 ## Related
 
+- [Claude Academy](/entities/claude-academy.md)
 - [mena](/entities/mena.md)
 - [Pi](/entities/pi.md)
 - [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
