@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:45:00Z }
 related:
+  - multi-harness-control-plane
   - pi
   - oh-my-pi
   - grok-bot
@@ -22,6 +23,7 @@ sources:
 
 ## Related
 
+- [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
 - [sxwedo/mena（GitHub）](../references/sxwedo-mena-github.md)
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
+  - multi-harness-control-plane
   - coding-agent-workflow
   - advisor
   - delivery-harness
@@ -26,6 +27,7 @@ sources:
 
 ## Related
 
+- [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Pi](../entities/pi.md)
 

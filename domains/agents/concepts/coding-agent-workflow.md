@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:40:00Z }
 related:
+  - multi-harness-control-plane
   - claude-academy
   - mena
   - pi
@@ -29,6 +30,7 @@ sources:
 
 ## Related
 
+- [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Claude Academy](../entities/claude-academy.md)
 - [mena](../entities/mena.md)
 - [Pi](../entities/pi.md)

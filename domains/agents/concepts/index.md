@@ -23,3 +23,4 @@
 * [WikiSkill 三层架构](./wikiskill-architecture.md)
 * [Coding Agent Workflow](./coding-agent-workflow.md)
 * [Role-first Agent](./role-first-agent.md)
+* [Multi-Harness Control Plane](./multi-harness-control-plane.md)
