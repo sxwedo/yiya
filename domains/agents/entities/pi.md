@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
+  - omarchy
   - pi-dev-site
   - mena
   - coding-agent-workflow
@@ -25,6 +26,7 @@ sources:
 
 ## Related
 
+- [Omarchy](./omarchy.md)
 - [Pi（官网）](../references/pi-dev-site.md)
 - [mena](./mena.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

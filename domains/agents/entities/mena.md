@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:45:00Z }
 related:
+  - omarchy
   - multi-harness-control-plane
   - pi
   - oh-my-pi
@@ -23,6 +24,7 @@ sources:
 
 ## Related
 
+- [Omarchy](./omarchy.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
 - [sxwedo/mena（GitHub）](../references/sxwedo-mena-github.md)
 - [Pi](./pi.md)

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T02:10:00Z }
 related:
+  - omarchy
   - mena
   - pi
   - advisor
@@ -24,6 +25,7 @@ sources:
 
 ## Related
 
+- [Omarchy](./omarchy.md)
 - [mena](./mena.md)
 - [Pi](./pi.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
