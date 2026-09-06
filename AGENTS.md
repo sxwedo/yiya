@@ -51,6 +51,20 @@ sources: []
 ---
 
 
+
+## 两种入库入口
+
+### 成文型（文章 / 长帖）
+- `clix read` 或等价抓正文 → `raw/library/...` + manifest
+- **1 Reference**（可指 raw）+ **1～2** Concept/Entity（具名产品必须有 Entity）
+
+### 书签型（网站 / GitHub 项目 / 工具主页）
+- **不**默认灌整站进 raw
+- 建/更新 **Entity**（具名站点或项目）
+- 再建 **1 条 Reference**：`resource:` 为 URL；正文写「为什么收藏、何时用」；可 `tags: [bookmark]` 或 `[github]`
+- 以后读到站内某篇，再按成文型单独 ingest
+- 已有 Entity 时只补/更新 Reference，勿重复建实体
+
 ## Entity vs Concept
 
 - **Entity**：具名、可指认的对象——产品、框架、公司、人、工具（例：Pi、oh-my-pi、Grok Bot）。

@@ -23,6 +23,17 @@ argument-hint: "[url-or-path] [domain?]"
 
 盘点时按 **Entity → Concept → Reference** 报，避免 Entity 被 Concept 列表淹没。
 
+## 入口判定
+
+- **成文型**（文章/长帖）：走下方「捕捉正文 → raw → Reference → 概念」全流程。
+- **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
+  1. 判定 domain；建或更新 **Entity**
+  2. **一条** Reference：`resource:` = URL；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
+  3. **不要** `clix read` 整站，**不要** 无必要写 raw
+  4. 已有同名 Entity（如 Pi）→ 只补 Reference 与 Related，禁止新建重复实体
+  5. 完成标准：Entity + URL Reference；manifest 可选（无 raw 时可只记 Entity/Ref，或在 Reference 正文注明未进 raw）
+
+
 ## 步骤
 
 ### 1. 捕捉正文
