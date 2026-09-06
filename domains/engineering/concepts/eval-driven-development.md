@@ -27,6 +27,6 @@ sources:
 
 ## Related
 
-- [用不可靠组件造可靠系统](/concepts/unreliable-components-reliable-systems.md)
+- [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)
 - [Agent 自进化飞轮](../../agents/concepts/agent-self-evolution-flywheel.md)
 - [Evidence Gate](../../agents/concepts/evidence-gate.md)

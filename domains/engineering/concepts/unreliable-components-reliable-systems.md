@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [评测驱动开发](/concepts/eval-driven-development.md)
+- [评测驱动开发](./eval-driven-development.md)
