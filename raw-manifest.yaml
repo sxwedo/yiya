@@ -120,3 +120,10 @@ entries:
     status: claimed
     url: https://mp.weixin.qq.com/s/EIXbIqUYcnFHpwAiPsJDEg
     added: 2026-09-06
+  - id: ng-coding-agents-skills
+    path: raw/articles/AI Engineering Skills Map: Using coding agents.md
+    title: "AI Engineering Skills Map: Using coding agents"
+    domain: agents
+    status: claimed
+    url: https://x.com/AndrewYNg/status/2095890279865721217
+    added: 2026-09-06

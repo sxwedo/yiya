@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
+  - coding-agent-workflow
   - oh-my-pi
   - minimal-agent-harness
 sources:
@@ -21,6 +22,7 @@ sources:
 
 ## Related
 
+- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
 - [earendil-works/pi（GitHub）](/references/earendil-pi-github.md)
 - [oh-my-pi](/entities/oh-my-pi.md)
 - [Minimal Agent Harness](/concepts/minimal-agent-harness.md)

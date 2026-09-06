@@ -21,3 +21,4 @@
 * [检索质量 Pipeline](./retrieval-quality-pipeline.md)
 * [TTSR](./ttsr.md)
 * [WikiSkill 三层架构](./wikiskill-architecture.md)
+* [Coding Agent Workflow](./coding-agent-workflow.md)

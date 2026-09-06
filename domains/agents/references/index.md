@@ -2,6 +2,7 @@
 
 * [一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制](./agent-self-evolution-flywheel.md)
 * [数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）](./agentloop-data-ingress.md)
+* [AI Engineering Skills Map: Using coding agents](./ng-coding-agents-skills.md)
 * [Anthropic最新多智能体研究来了！](./anthropic-multiagent-failures.md)
 * [得物知识问答：复合检索 Agent 的系统设计实践](./dewu-compound-retrieval-agent.md)
 * [得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付](./dewu-delivery-harness.md)

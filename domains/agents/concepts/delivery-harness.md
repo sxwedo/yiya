@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - coding-agent-workflow
   - grok-bot
   - agent-self-evolution-flywheel
   - evidence-gate
@@ -31,6 +32,7 @@ sources:
 
 ## Related
 
+- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
 - [Grok Bot](/entities/grok-bot.md)
 - [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
 - [Evidence Gate](/concepts/evidence-gate.md)
