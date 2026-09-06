@@ -11,5 +11,6 @@
 * [一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了](./javaguide-grok-bot-engineering.md)
 * [oh-my-pi 装完就不管了？这几步配完才真叫好用](./oh-my-pi-setup.md)
 * [earendil-works/pi（GitHub）](./earendil-pi-github.md)
+* [sxwedo/mena（GitHub）](./sxwedo-mena-github.md)
 * [主流 Agent 之「Pi」与「oh-my-pi」介绍](./pi-vs-oh-my-pi.md)
 * [谷歌重磅发布WikiSkill，技能可以自己进化了！](./wikiskill-three-layer.md)

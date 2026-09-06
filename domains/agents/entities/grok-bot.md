@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T02:30:00Z }
 related:
+  - mena
   - engineering-bot
   - playbook-feedback-loop
   - delivery-harness
@@ -23,6 +24,7 @@ sources:
 
 ## Related
 
+- [mena](/entities/mena.md)
 - [Engineering Bot](/concepts/engineering-bot.md)
 - [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)
 - [Delivery Harness](/concepts/delivery-harness.md)

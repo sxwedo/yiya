@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T02:10:00Z }
 related:
+  - mena
   - pi
   - advisor
   - ttsr
@@ -23,6 +24,7 @@ sources:
 
 ## Related
 
+- [mena](/entities/mena.md)
 - [Pi](/entities/pi.md)
 - [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
 - [Advisor](/concepts/advisor.md)

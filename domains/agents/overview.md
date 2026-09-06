@@ -21,6 +21,7 @@ sources: []
 | [Grok Bot](./entities/grok-bot.md) | 工程多智能体产品：Engineering Bot 带队 + Cloud Agent 进仓 |
 | [Pi](./entities/pi.md) | earendil-works 极简终端编码代理框架（pi.dev） |
 | [oh-my-pi](./entities/oh-my-pi.md) | batteries-included 终端编码代理（omp.sh），Rust 核心 |
+| [mena](./entities/mena.md) | local-first 编码代理 CLI：启动/会话/Skills/MCP 巡检 |
 
 （具名产品/框架入库时在此追加；跨域权威可升 `shared/entities`。）
 
