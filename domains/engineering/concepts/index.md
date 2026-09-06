@@ -12,3 +12,4 @@
 * [Semantic Service](./semantic-service.md)
 * [Text2Semantic2SQL](./text2semantic2sql.md)
 * [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)
+* [Multi-action Feed Ranking](./multi-action-feed-ranking.md)

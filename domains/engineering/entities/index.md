@@ -1,3 +1,3 @@
 # entities
 
-（空。有页再列。）
+* [x-algorithm](./x-algorithm.md)

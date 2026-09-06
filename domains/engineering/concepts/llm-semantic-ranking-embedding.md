@@ -6,6 +6,8 @@ status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:05:00Z }
 related:
+  - x-algorithm
+  - multi-action-feed-ranking
   - embedding-hard-negatives
 sources:
   - /references/meituan-llm-search-ranking.md
@@ -19,4 +21,6 @@ sources:
 
 ## Related
 
+- [x-algorithm](../entities/x-algorithm.md)
+- [Multi-action Feed Ranking](./multi-action-feed-ranking.md)
 - [表征难负样本](./embedding-hard-negatives.md)

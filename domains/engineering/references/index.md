@@ -6,3 +6,4 @@
 * [美团搜索3.0：LLM 语义表征在排序模型的探索与应用](./meituan-llm-search-ranking.md)
 * [吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals](./ng-evals-watershed.md)
 * [AI写SQL总在胡编？因为你的数仓没有语义层](./semantic-layer-chatbi.md)
+* [X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？](./bright-ospo-x-algorithm.md)

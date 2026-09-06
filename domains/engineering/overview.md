@@ -1,7 +1,7 @@
 ---
 type: Overview
 title: "工程与可维护性"
-description: "工程与可维护性鸟瞰：收 Ontology/语义层、评测与工程效率治理；具名产品见 entities（本域暂无）。"
+description: "工程与可维护性鸟瞰：收 Ontology/语义层、评测与工程效率治理；具名产品见 entities。"
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T02:30:00Z }
@@ -18,7 +18,7 @@ sources: []
 
 | Entity | 一句话 |
 |--------|--------|
-| （暂无） | 本域目前以 Concept + Reference 为主；出现具名产品/框架时在此追加 |
+| [x-algorithm](./entities/x-algorithm.md) | xAI 开源 X 推荐栈：多动作预测 + 排序过滤 |
 
 ## 怎么逛
 

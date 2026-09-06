@@ -134,3 +134,10 @@ entries:
     status: claimed
     url: https://x.com/jinchenma_ai/status/2094984812251746424
     added: 2026-09-06
+  - id: bright-ospo-x-algorithm
+    path: raw/articles/明说开源/X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？.md
+    title: "X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？"
+    domain: engineering
+    status: claimed
+    url: https://x.com/Bright_OSPO/status/2095072411284812248
+    added: 2026-09-06
