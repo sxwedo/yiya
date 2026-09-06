@@ -31,10 +31,10 @@ shared/                        # 跨域实体
 
 | 类型 | 做什么 |
 |---|---|
-| 成文 | `clix read` → `articles/<作者>/` + manifest → Entity/Concept 直链 raw |
+| 成文 | `clix read` → `articles/<作者>/`（头含 `url:`）→ Entity/Concept 直链 raw |
 | 书签 | 追加 bookmarks 表 → Entity + Reference（指向表） |
 
-成文认领：`raw-manifest.yaml`。书签不 per-link claim。细则与完成标准见 `yiya-ingest`。入库后做「自生长」结构体检（见下）。
+**无** `raw-manifest.yaml`。查重靠 raw 头 `url:`；认领=已有 Concept/Entity（或 Reference）链到该 raw。细则见 `yiya-ingest`。入库后做「自生长」结构体检（见下）。
 
 ## OKF 最小字段
 
@@ -70,6 +70,6 @@ related: []
 
 ## 红线
 
-- 未认领成文 raw 不写正式概念
+- 成文 raw 入库时须写/更新链到它的 Concept/Entity；查重先扫 raw 的 `url:`
 - 不删 raw 原件（除非人类明确授权）
 - 不类型集邮；不平行发明第二套元数据

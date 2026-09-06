@@ -30,7 +30,7 @@ argument-hint: "[url-or-path] [domain?]"
 - **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
   1. 判定 domain；建或更新 **Entity**
   2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 表格一行（项目/站点、URL、作者、简介）；**不**建 per-project stub 目录，禁止整站正文
-  3. 书签**不**需要 per-link `raw-manifest.yaml` claim
+  3. 书签不进任何认领表（只在 bookmarks 表 + Entity/Reference）
   4. **一条** Reference：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
   5. **不要** `clix read` 整站
   6. 已有同名 Entity（如 Pi）→ 只补 Reference、书签条目与 Related，禁止新建重复实体
@@ -46,13 +46,13 @@ argument-hint: "[url-or-path] [domain?]"
 
 ### 2. 写入 raw
 
-1. 先放 `raw/_inbox/`（或一步到位 articles，但仍须写 manifest）。
-2. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 frontmatter `author:` 短名，去掉尾部 `(@handle)`；无作者用 `_unknown`；非法路径字符去掉或改全角）。
-3. 配图：`raw/articles/_media/<slug>/`（`<slug>` 短、稳定、偏 ASCII；**不**放进作者目录）；正文相对链接写成 `../_media/<slug>/...`。
-4. 更新根目录 `raw-manifest.yaml`（成文型）：
-   - `id`、`path`（`raw/articles/<作者>/<人话标题>.md`）、`title`、`domain`、`status: claimed`、`url`（如有）、`added`
+1. **查重**：扫 `raw/articles/**/*.md` 的 frontmatter `url:`（及书签表 URL），已存在则停止或只补链，勿重复建 raw。
+2. 先放 `raw/_inbox/`（或一步到位 articles）。
+3. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 frontmatter `author:` 短名，去掉尾部 `(@handle)`；无作者用 `_unknown`；非法路径字符去掉或改全角）。**必须**有 `url:`（无 URL 的本地稿可写 `url: local:` + 说明）。
+4. 配图：`raw/articles/_media/<slug>/`（`<slug>` 短、稳定、偏 ASCII；**不**放进作者目录）；正文相对链接写成 `../_media/<slug>/...`。
+5. **不要**写 `raw-manifest.yaml`（已废除）。
 
-`domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体资料可 `shared`。
+`domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体资料可 `shared`。认领=下一步知识页链上该 raw。
 
 ### 3. 编纂 1～2 个概念/实体（默认）
 
@@ -89,12 +89,12 @@ argument-hint: "[url-or-path] [domain?]"
 
 ### 7. 回报
 
-用简短列表告诉用户：raw 路径、manifest id、新建了哪些 OKF 页；若有结构建议一并附上。不要贴长文。
+用简短列表告诉用户：raw 路径、新建了哪些 OKF 页；若有结构建议一并附上。不要贴长文。
 
 ## 完成标准
 
 - [ ] 成文型：`raw/articles/<作者>/<人话标题>.md`（配图在 `_media/<slug>/`）；书签型：已追加到 `raw/bookmarks/github.md` 或 `sites.md`
-- [ ] 成文型：`raw-manifest.yaml` 已 claimed（书签型无需 per-link claim）
+- [ ] 成文型：raw 头有 `url:`；已查重无重复；至少一页 Concept/Entity（或 Reference）链到该 raw
 - [ ] 成文默认**无** Reference；若建了则 `resource:` 相对 + Notes `[打开 raw](...)`。书签型必须有 Reference
 - [ ] Concept/Entity `sources`（或 Related）能点到 raw
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）
