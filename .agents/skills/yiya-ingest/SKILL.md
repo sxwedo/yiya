@@ -16,16 +16,17 @@ argument-hint: "[url-or-path] [domain?]"
 
 一文默认只产出：
 
-1. **一条** `type: Reference`
-2. **1～2 个**高信号页：若文中有**具名产品/框架/公司/人**，其中至少 **1 个必须是 Entity**；模式/方法用 Concept。禁止只写 Concept、把产品名埋在正文里。
+1. **1～2 个**高信号页：若文中有**具名产品/框架/公司/人**，其中至少 **1 个必须是 Entity**；模式/方法用 Concept。禁止只写 Concept、把产品名埋在正文里。
+2. Concept/Entity 的 `sources` + Related **直链 raw**（相对路径）。**默认不建** Reference。
+3. **才建 Reference**：① 一文拆出 ≥2 个 Concept/Entity 要共用来源卡；② **书签型**（仍要 Reference）。
 
-禁止 Comparison / Synthesis / Question / Decision「集邮」。有清晰洞见再另开页。
+禁止 Comparison / Synthesis / Question / Decision「集邮」。有清晰洞见再另开页。历史 Reference 不批量删。
 
-盘点时按 **Entity → Concept → Reference** 报，避免 Entity 被 Concept 列表淹没。
+盘点时按 **Entity → Concept →（可选）Reference** 报，避免 Entity 被 Concept 列表淹没。
 
 ## 入口判定
 
-- **成文型**（文章/长帖）：走下方「捕捉正文 → raw → Reference → 概念」全流程。
+- **成文型**（文章/长帖）：走下方「捕捉正文 → raw → 概念/实体（直链 raw）」；仅多概念共用时才加 Reference。
 - **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
   1. 判定 domain；建或更新 **Entity**
   2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 表格一行（项目/站点、URL、作者、简介）；**不**建 per-project stub 目录，禁止整站正文
@@ -53,23 +54,22 @@ argument-hint: "[url-or-path] [domain?]"
 
 `domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体资料可 `shared`。
 
-### 3. 建 Reference
+### 3. 编纂 1～2 个概念/实体（默认）
 
-在目标 bundle（`domains/<id>/` 或 `shared/`）的 `references/`：
+- 用 `templates/concept.md` 或 `templates/entity.md`
+- `sources` **直链 raw**（相对路径，如 `../../../raw/articles/<作者>/原文标题.md`）；Related 也可链 raw
+- 只写以后还会被引用的稳定知识，不要复述全文
+- **互链**：同文拆出的概念彼此加 `## Related` + 相对路径（同目录 `./foo.md`；同 bundle `../entities/bar.md`）；跨域用 `../../<domain>/concepts/...`。可写 `related:` frontmatter。不要建 backlinks 目录；**禁止**以 `/` 开头的路径。
+
+### 4. 建 Reference（仅当需要）
+
+仅当：一书 ≥2 概念共用，或书签型。在目标 bundle 的 `references/`：
 
 - 复制 `templates/reference.md`
 - `type: Reference`
-- `resource` 用**相对路径**指向 raw（成文：`../../../raw/articles/<作者>/原文标题.md`；书签：`../../../raw/bookmarks/github.md` / `sites.md`）。**禁止**以 `/` 开头（GitHub 当仓库根）
-- Notes **首条**加可点链：`[打开 raw](相对路径)`；外链 URL 可另写
-- `domain`、`generated`、`title`、`description` 填好
-- 正文写极短要点 + 入库价值（几条即可）
-
-### 4. 编纂 1～2 个概念/实体
-
-- 用 `templates/concept.md` 或 `templates/entity.md`
-- `sources` 指向刚建的 Reference（bundle 内路径，如 `/references/....md`）
-- 只写以后还会被引用的稳定知识，不要复述全文
-- **互链**：同文拆出的概念彼此加 `## Related` + 相对路径（同目录 `./foo.md`；同 bundle `../entities/bar.md`）；跨域用 `../../<domain>/concepts/...`。可写 `related:` frontmatter。不要建 backlinks 目录；**禁止**以 `/` 开头的路径。
+- `resource` 用**相对路径**指向 raw（成文：`../../../raw/articles/<作者>/原文标题.md`；书签：`../../../raw/bookmarks/github.md` / `sites.md`）。**禁止**以 `/` 开头
+- Notes **首条**加 `[打开 raw](相对路径)`；外链 URL 可另写
+- 各 Concept/Entity 的 `sources` 可指这条 Reference，**或**仍直链 raw（二者择一写清即可）
 
 ### 5. 维护索引与 log
 
@@ -84,6 +84,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 - [ ] 成文型：`raw/articles/<作者>/<人话标题>.md`（配图在 `_media/<slug>/`）；书签型：已追加到 `raw/bookmarks/github.md` 或 `sites.md`
 - [ ] 成文型：`raw-manifest.yaml` 已 claimed（书签型无需 per-link claim）
-- [ ] 恰好 1 条 Reference（除非用户明确要求更多来源）；`resource:` 相对路径 + Notes 有 `[打开 raw](...)`
+- [ ] 成文默认**无** Reference；若建了则 `resource:` 相对 + Notes `[打开 raw](...)`。书签型必须有 Reference
+- [ ] Concept/Entity `sources`（或 Related）能点到 raw
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）
 - [ ] `log.md` 已更新

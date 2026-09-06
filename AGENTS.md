@@ -58,23 +58,33 @@ sources: []
 ### 成文型（文章 / 长帖）
 - `clix read` 或等价抓正文 → `raw/articles/<作者>/<人话标题>.md` + manifest claim
 - 配图放入 `raw/articles/_media/<slug>/`，正文链接写成 `../_media/<slug>/...`
-- **1 Reference**（可指 raw）+ **1～2** Concept/Entity（具名产品必须有 Entity）
-- Reference → raw：**必须**可点。`resource:` 用相对路径（如 `../../../raw/articles/<作者>/<标题>.md`，**禁止**开头 `/`）；Notes 首条加 `[打开 raw](相对路径)`
+- **默认**：建 **1～2** Concept/Entity（具名产品必须有 Entity）；`sources` + Related **直链 raw**（相对路径，如 `../../../raw/articles/<作者>/<标题>.md`）
+- **才建 Reference**：一文拆出 **≥2** 个 Concept/Entity 需要共用同一来源卡时。若建，则 `resource:` 相对路径 + Notes `[打开 raw](...)`（禁开头 `/`）
+- **现有** Reference 页先保留，不批量删除；新入库按上两条
 
 ### 书签型（网站 / GitHub 项目 / 工具主页）
 - **不**默认灌整站进 raw；**不要** `clix read` 全站
 - **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 的**表格行**（列：项目/站点、URL、作者、简介；**不**建 per-project stub 目录）
 - 书签**不**需要 per-link `raw-manifest.yaml` claim
-- 建/更新 **Entity** + **1 条 Reference**：`resource:` 指向 `../../../raw/bookmarks/github.md` 或 `sites.md`（相对路径，禁开头 `/`）；Notes 加 `[打开 raw](...)`；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
+- 建/更新 **Entity** + **1 条 Reference**（书签型保留来源卡）：`resource:` 指向 `../../../raw/bookmarks/github.md` 或 `sites.md`；Notes 加 `[打开 raw](...)`；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
+- Entity `sources`/Related 可同时直链 bookmarks 表
 - 以后读到站内某篇，再按成文型单独 ingest
 - 已有 Entity 时只补/更新 Reference 与书签条目，勿重复建实体
+
+
+## Reference 层（可选）
+
+- Reference = 原文卡（摘要、外链、打开 raw、一书多概念共用），**不是**每篇必建。
+- Concept/Entity 默认可在 `sources` 与 Related 写 raw 相对路径，无需经过 Reference。
+- 仍建 Reference：① 一书 ≥2 概念共用；② 书签型。
+- 历史 Reference 保留；GitHub 上 `resource:` / Notes 须相对可点。
 
 ## Entity vs Concept
 
 - **Entity**：具名、可指认的对象——产品、框架、公司、人、工具（例：Pi、oh-my-pi、Grok Bot）。
 - **Concept**：可复用的模式、方法、术语（例：Delivery Harness、Evidence Gate）。
 - 一文同时出现「产品 + 模式」时：产品建/链 **Entity**，模式建 **Concept**，二者 `Related` 互链。
-- 盘点/问答列出知识时固定顺序：**Domain → Entity → Concept → Reference**（Entity 不可淹没在 Concept 长列表里）。
+- 盘点/问答列出知识时固定顺序：**Domain → Entity → Concept →（可选）Reference**（Entity 不可淹没在 Concept 长列表里；无 Reference 时 sources 直链 raw）。
 - 口语里的「派 / 阵营」对应 **Entity（及与之 Related 的 Concept）**，不要为此新开 Domain。
 
 ## 概念互链（双链）
@@ -87,9 +97,9 @@ sources: []
 
 ## Ingest 默认要瘦
 
-入库请走 **`.agents/skills/yiya-ingest`**。默认：1 Reference + 1～2 Concept/Entity。禁止类型集邮。
+入库请走 **`.agents/skills/yiya-ingest`**。默认：1～2 Concept/Entity，**直链 raw**；Reference **可选**（一书多概念共用或书签型）。禁止类型集邮。
 
-常驻目录：`references/` `entities/` `concepts/`。其它类型目录按需再建。
+常驻目录：`entities/` `concepts/`；`references/` 按需。其它类型目录按需再建。
 
 ---
 
