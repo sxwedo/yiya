@@ -6,13 +6,15 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
+  - pi-dev-site
   - mena
   - coding-agent-workflow
   - oh-my-pi
   - minimal-agent-harness
 sources:
-  - /references/earendil-pi-github.md
-  - /references/pi-vs-oh-my-pi.md
+  - ../references/pi-dev-site.md
+  - ../references/earendil-pi-github.md
+  - ../references/pi-vs-oh-my-pi.md
 ---
 
 # Summary
@@ -23,6 +25,7 @@ sources:
 
 ## Related
 
+- [Pi（官网）](../references/pi-dev-site.md)
 - [mena](./mena.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [earendil-works/pi（GitHub）](../references/earendil-pi-github.md)

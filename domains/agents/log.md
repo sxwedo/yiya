@@ -30,3 +30,4 @@
 - 2026-09-06：书签 `github.md`/`sites.md` 改为表格（URL / 作者 / 简介）
 * **Bookmark**: [Claude Academy](./entities/claude-academy.md) ← sites.md (2026-09-06).
 * **Ingest**: [万字长文｜Grok Bot 从入门到精通](./references/jinchenma-grok-bot-guide.md) → [Role-first Agent](./concepts/role-first-agent.md) + Entity Grok Bot (2026-09-06).
+* **Bookmark**: [Pi（官网）](./references/pi-dev-site.md) → sites.md / Entity Pi (2026-09-06).
