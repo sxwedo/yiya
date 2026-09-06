@@ -148,3 +148,10 @@ entries:
     status: claimed
     url: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
     added: 2026-09-06
+  - id: jinchenma-self-growing-kb
+    path: raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
+    title: "你需要的不再是一个云笔记，而是一个会自己生长的AI知识库"
+    domain: shared
+    status: claimed
+    url: https://x.com/jinchenma_ai/status/2082127769992061074
+    added: 2026-09-06

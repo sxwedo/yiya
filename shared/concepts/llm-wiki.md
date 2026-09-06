@@ -6,8 +6,10 @@ status: draft
 domain: shared
 generated: { by: agent:yiya-librarian, at: 2026-09-06T11:40:00Z }
 related:
+  - self-growing-kb
   - karpathy
 sources:
+  - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
   - ../references/karpathy-llm-wiki.md
 ---
 
@@ -21,6 +23,7 @@ yiya 落地：raw（articles/bookmarks）+ domains/shared 当 wiki + AGENTS/skil
 
 ## Related
 
+- [Self-growing Knowledge Base](./self-growing-kb.md)
 - [Andrej Karpathy](../entities/karpathy.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)
 - [打开 raw](../../raw/articles/Karpathy/LLM Wiki.md)
