@@ -18,6 +18,7 @@ sources: []
 
 | Entity | 一句话 |
 |--------|--------|
+| [Grok Bot](./entities/grok-bot.md) | 工程多智能体产品：Engineering Bot 带队 + Cloud Agent 进仓 |
 | [Pi](./entities/pi.md) | earendil-works 极简终端编码代理框架（pi.dev） |
 | [oh-my-pi](./entities/oh-my-pi.md) | batteries-included 终端编码代理（omp.sh），Rust 核心 |
 

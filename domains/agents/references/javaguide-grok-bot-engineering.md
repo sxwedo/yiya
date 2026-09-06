@@ -17,3 +17,8 @@ sources: []
 - 接续：共享看板（Notion / TASKS.md）记 PR、阻塞、下一步；定时巡检 CI/冲突/告警。
 - 升级：运营 Bot（Jenny）复盘失误 → 更新 Playbook → 其他 Bot 加载新规则。
 - 入库价值：对照本库已有 Delivery Harness / Evidence Gate，补「角色分层 + 任务接续」两块。
+
+## Related
+
+- [Grok Bot](/entities/grok-bot.md)
+- [Engineering Bot](/concepts/engineering-bot.md)

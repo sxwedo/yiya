@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - grok-bot
   - agent-self-evolution-flywheel
   - evidence-gate
   - harness-self-improvement
@@ -30,6 +31,7 @@ sources:
 
 ## Related
 
+- [Grok Bot](/entities/grok-bot.md)
 - [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
 - [Evidence Gate](/concepts/evidence-gate.md)
 - [Harness 自改进](/concepts/harness-self-improvement.md)

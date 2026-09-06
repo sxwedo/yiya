@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
 related:
+  - grok-bot
   - playbook-feedback-loop
 sources:
   - /references/javaguide-grok-bot-engineering.md
@@ -26,4 +27,5 @@ sources:
 
 ## Related
 
+- [Grok Bot](/entities/grok-bot.md)
 - [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)
