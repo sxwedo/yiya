@@ -47,7 +47,7 @@ sources: []
 ---
 ```
 
-链接优先 `/concepts/foo.md` 这种 bundle 根相对路径。
+同目录互链优先 `./foo.md`（GitHub 可点）；跨目录用相对路径如 `../entities/bar.md`。**不要**用以 `/` 开头的路径（GitHub 会当仓库根 → 404）。
 
 ---
 
@@ -78,9 +78,9 @@ sources: []
 
 ## 概念互链（双链）
 
-- 相关 Concept/Entity **必须**在正文加 `## Related`，用 bundle 根路径互链，如 `[Evidence Gate](/concepts/evidence-gate.md)`。
+- 相关 Concept/Entity **必须**在正文加 `## Related`，用**相对路径**互链：同目录 `./evidence-gate.md`；同 bundle 跨子目录 `../entities/pi.md`；跨域 `../../engineering/concepts/semantic-layer.md`。
 - 可同步 frontmatter `related: [slug, ...]`（同域 slug）。
-- 跨域用相对路径，如 `../../engineering/concepts/semantic-layer.md`。
+- **禁止** `[x](/concepts/...)` 这种仓库根绝对路径（GitHub 网页 404；Obsidian 也可用相对路径）。
 - **不**单独建 backlinks 目录；反链交给 Obsidian / 图谱工具从出站链计算。
 - 同一 Reference 拆出的概念彼此互链；主题相近的族（记忆 / harness / 语义层等）至少连成小团。
 

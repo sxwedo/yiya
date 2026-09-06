@@ -26,5 +26,6 @@
 * **Initialization**: Slim scaffold (references / entities / concepts only).
 * **Ingest**: [AI Engineering Skills Map: Using coding agents](./references/ng-coding-agents-skills.md) → [Coding Agent Workflow](./concepts/coding-agent-workflow.md) (2026-09-06).
 * **Bookmark**: [mena](./entities/mena.md) ← [sxwedo/mena](./references/sxwedo-mena-github.md) (2026-09-06).
+- 2026-09-06：Related 互链改相对路径约定（禁 `/concepts/...`，以免 GitHub 404）
 - 2026-09-06：书签 `github.md`/`sites.md` 改为表格（URL / 作者 / 简介）
 * **Bookmark**: [Claude Academy](./entities/claude-academy.md) ← sites.md (2026-09-06).
