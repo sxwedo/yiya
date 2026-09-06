@@ -1,6 +1,7 @@
 # Agent 与 Grok Bot — Log
 
 ## 2026-09-06
+* **Ingest**: [得物复合检索 Agent](./references/dewu-compound-retrieval-agent.md) → concepts [复合检索 Agent](./concepts/compound-retrieval-agent.md), [检索质量 Pipeline](./concepts/retrieval-quality-pipeline.md).
 * **Ingest**: [货拉拉记忆在线侧](./references/huolala-llm-memory-online.md) → concepts [历史不等于记忆](./concepts/history-vs-memory.md), [在线记忆流水线](./concepts/online-memory-pipeline.md).
 
 ## 2026-09-05

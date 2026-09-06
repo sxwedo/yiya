@@ -113,4 +113,11 @@ entries:
     status: claimed
     url: https://mp.weixin.qq.com/s/I0VABHpREzTbRTC9NOM2zg
     added: 2026-09-06
+  - id: dewu-compound-retrieval-agent
+    path: raw/library/2026/09/dewu-compound-retrieval-agent/得物知识问答：复合检索 Agent 的系统设计实践.md
+    title: 得物知识问答：复合检索 Agent 的系统设计实践
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/EIXbIqUYcnFHpwAiPsJDEg
+    added: 2026-09-06
 

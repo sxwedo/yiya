@@ -3,6 +3,7 @@
 * [一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制](./agent-self-evolution-flywheel.md)
 * [数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）](./agentloop-data-ingress.md)
 * [Anthropic最新多智能体研究来了！](./anthropic-multiagent-failures.md)
+* [得物知识问答：复合检索 Agent 的系统设计实践](./dewu-compound-retrieval-agent.md)
 * [得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付](./dewu-delivery-harness.md)
 * [企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术](./dewu-multiagent-memory.md)
 * [货拉拉大模型记忆系统（一）：从提取到召回的工程实践](./huolala-llm-memory-online.md)
