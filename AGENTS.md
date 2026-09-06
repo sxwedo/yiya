@@ -25,7 +25,7 @@
 
 ## raw
 
-- 书签：`raw/bookmarks/github.md` / `sites.md`（追加列表条目；不建 per-project stub）
+- 书签：`raw/bookmarks/github.md` / `sites.md`（Markdown 表格追加行：项目、URL、作者、简介；不建 per-project stub）
 - 成文：`raw/articles/<作者>/<人话标题>.md`（按作者分目录；无作者 `_unknown/`；无 YYYY/MM、无 slug 目录）
 - 配图：`raw/articles/_media/<slug>/`（保持顶层，不进作者目录）；正文内相对链接 `../_media/<slug>/...`
 - 认领：成文型改 `raw-manifest.yaml`（`domain` + `path`）；书签**不** per-link claim
@@ -62,7 +62,7 @@ sources: []
 
 ### 书签型（网站 / GitHub 项目 / 工具主页）
 - **不**默认灌整站进 raw；**不要** `clix read` 全站
-- **追加**到 `raw/bookmarks/github.md` 或 `sites.md`（title + url + added；**不**建 per-project stub 目录）
+- **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 的**表格行**（列：项目/站点、URL、作者、简介；**不**建 per-project stub 目录）
 - 书签**不**需要 per-link `raw-manifest.yaml` claim
 - 建/更新 **Entity** + **1 条 Reference**：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
 - 以后读到站内某篇，再按成文型单独 ingest

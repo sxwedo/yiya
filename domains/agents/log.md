@@ -26,3 +26,4 @@
 * **Initialization**: Slim scaffold (references / entities / concepts only).
 * **Ingest**: [AI Engineering Skills Map: Using coding agents](./references/ng-coding-agents-skills.md) → [Coding Agent Workflow](./concepts/coding-agent-workflow.md) (2026-09-06).
 * **Bookmark**: [mena](./entities/mena.md) ← [sxwedo/mena](./references/sxwedo-mena-github.md) (2026-09-06).
+- 2026-09-06：书签 `github.md`/`sites.md` 改为表格（URL / 作者 / 简介）

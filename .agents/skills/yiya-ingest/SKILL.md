@@ -28,7 +28,7 @@ argument-hint: "[url-or-path] [domain?]"
 - **成文型**（文章/长帖）：走下方「捕捉正文 → raw → Reference → 概念」全流程。
 - **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
   1. 判定 domain；建或更新 **Entity**
-  2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md`（title + url + added）；**不**建 per-project stub 目录，禁止整站正文
+  2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 表格一行（项目/站点、URL、作者、简介）；**不**建 per-project stub 目录，禁止整站正文
   3. 书签**不**需要 per-link `raw-manifest.yaml` claim
   4. **一条** Reference：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
   5. **不要** `clix read` 整站
