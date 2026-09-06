@@ -5,7 +5,7 @@ description: "明说开源解读 x-algorithm 开源：召回→用户状态→Ph
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T10:20:00Z }
-resource: /raw/articles/明说开源/X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？.md
+resource: ../../../raw/articles/明说开源/X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？.md
 sources: []
 related:
   - x-algorithm
@@ -13,6 +13,8 @@ related:
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/明说开源/X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？.md)
 
 - 原文：https://x.com/Bright_OSPO/status/2095072411284812248；仓库 https://github.com/xai-org/x-algorithm
 - 核心句：预测的不只是「会不会点开」，还包括「看完之后会做什么」。

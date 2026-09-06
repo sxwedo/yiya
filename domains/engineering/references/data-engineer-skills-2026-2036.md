@@ -5,11 +5,13 @@ description: "数字化与AI之知与行：DE 竞争力从数据搬运上移到�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:12:00Z }
-resource: /raw/articles/数字化与AI之知与行/未来十年数据工程师完整能力清单（2026-2036）.md
+resource: ../../../raw/articles/数字化与AI之知与行/未来十年数据工程师完整能力清单（2026-2036）.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/数字化与AI之知与行/未来十年数据工程师完整能力清单（2026-2036）.md)
 
 - 趋势：ETL/SQL 交 Data-Agent；瓶颈向上：搬运 → 治理 → 业务语义 → AI 体系管控。
 - 耗时序：语义与指标共识 > 治理合规 > 多架构运维 > 技术债 > 数据产品 > 跨组织协作。

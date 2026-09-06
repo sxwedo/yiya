@@ -5,11 +5,13 @@ description: "昀启AI+：Ontology 作为企业语义资产（Fact·Logic·Actio
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:10:00Z }
-resource: /raw/articles/昀启AI+/AI Native 服务架构（二）：从 DDD 到 Ontology.md
+resource: ../../../raw/articles/昀启AI+/AI Native 服务架构（二）：从 DDD 到 Ontology.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/昀启AI+/AI Native 服务架构（二）：从 DDD 到 Ontology.md)
 
 - Agent 需要跨系统身份、指标口径、规则版本、证据与行动边界；DDD 限界上下文内词典不够。
 - 三层：Fact（对象/关系/状态）· Logic（指标/规则/策略）· Action（受约束动作+证据）。

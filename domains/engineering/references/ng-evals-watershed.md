@@ -5,11 +5,13 @@ description: "解读 Andrew Ng：构建 AI 应用六项子技能中，评测驱�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:25:00Z }
-resource: /raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
+resource: ../../../raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md)
 
 - 总前提：AI 应用输出不可预测 → 构建是强迭代过程，瀑布流程图对不上。
 - 六项：LLM 基础 · 用数据接地 · 构建 agentic 系统 · 评测驱动开发 · 生产环境运营 · 机器学习基础。

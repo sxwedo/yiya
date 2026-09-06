@@ -5,7 +5,7 @@ description: "Anthropic Claude Academy 书签：官方学院首页，学用 Clau
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T09:58:00Z }
-resource: /raw/bookmarks/sites.md
+resource: ../../../raw/bookmarks/sites.md
 tags: [bookmark]
 sources: []
 related:
@@ -13,6 +13,8 @@ related:
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/bookmarks/sites.md)
 
 - **为什么收藏**：Anthropic 官方学习入口，后续对照 Claude Code / Platform 能力与课程用。
 - **何时用**：找官方课、产品线总览、AI Fluency 框架时。

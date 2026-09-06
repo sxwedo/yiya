@@ -59,7 +59,8 @@ argument-hint: "[url-or-path] [domain?]"
 
 - 复制 `templates/reference.md`
 - `type: Reference`
-- `resource` 指向 `/raw/articles/<作者>/原文标题.md`（或原文 URL；书签可指向 `/raw/bookmarks/github.md` / `sites.md`）
+- `resource` 用**相对路径**指向 raw（成文：`../../../raw/articles/<作者>/原文标题.md`；书签：`../../../raw/bookmarks/github.md` / `sites.md`）。**禁止**以 `/` 开头（GitHub 当仓库根）
+- Notes **首条**加可点链：`[打开 raw](相对路径)`；外链 URL 可另写
 - `domain`、`generated`、`title`、`description` 填好
 - 正文写极短要点 + 入库价值（几条即可）
 
@@ -83,6 +84,6 @@ argument-hint: "[url-or-path] [domain?]"
 
 - [ ] 成文型：`raw/articles/<作者>/<人话标题>.md`（配图在 `_media/<slug>/`）；书签型：已追加到 `raw/bookmarks/github.md` 或 `sites.md`
 - [ ] 成文型：`raw-manifest.yaml` 已 claimed（书签型无需 per-link claim）
-- [ ] 恰好 1 条 Reference（除非用户明确要求更多来源）
+- [ ] 恰好 1 条 Reference（除非用户明确要求更多来源）；`resource:` 相对路径 + Notes 有 `[打开 raw](...)`
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）
 - [ ] `log.md` 已更新

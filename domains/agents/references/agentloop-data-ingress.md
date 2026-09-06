@@ -5,11 +5,13 @@ description: "阿里云云原生：AgentLoop 以 OTel + 探针做数据接入；
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
-resource: /raw/articles/阿里云云原生/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
+resource: ../../../raw/articles/阿里云云原生/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/阿里云云原生/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md)
 
 - 底座：OpenTelemetry + 探针；Trace ID 串联模型调用与工具调用，还原执行拓扑。
 - 四种接入：通用 Agent 一键；框架 SDK（如 AgentScope）；高代码注解；eBPF 无侵入兜底。

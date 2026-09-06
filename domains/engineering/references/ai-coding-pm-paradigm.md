@@ -5,11 +5,13 @@ description: "腾讯云开发者/腾讯健康：个体 AI 提效≠组织提效�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:28:00Z }
-resource: /raw/articles/腾讯云开发者/AI Coding时代，研发项目管理新范式探索与实践.md
+resource: ../../../raw/articles/腾讯云开发者/AI Coding时代，研发项目管理新范式探索与实践.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/腾讯云开发者/AI Coding时代，研发项目管理新范式探索与实践.md)
 
 - 现象：AI 编码提速后，端到端交付体感未同步变快；P85 曾顽固停在多迭代外。
 - 公式：组织效率 = 价值创造时间 /（价值创造时间 + 组织摩擦时间）。

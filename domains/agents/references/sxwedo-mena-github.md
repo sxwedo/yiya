@@ -5,7 +5,7 @@ description: "mena 官方仓库书签：local-first 编码代理 CLI 源码与�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:45:00Z }
-resource: /raw/bookmarks/github.md
+resource: ../../../raw/bookmarks/github.md
 tags: [bookmark, github]
 sources: []
 related:
@@ -13,6 +13,8 @@ related:
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/bookmarks/github.md)
 
 - **为什么收藏**：自用/自研的本机编码代理启动与巡检工具；对接多 provider 会话、Skills、MCP。
 - **何时用**：装/升级 mena、查命令与安全模型、对照各 agent 的 launch/session 能力时。

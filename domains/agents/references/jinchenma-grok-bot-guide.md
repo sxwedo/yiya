@@ -5,7 +5,7 @@ description: "金尘马：Grok Bot 入门实操——数字员工岗位、五组
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T10:15:00Z }
-resource: /raw/articles/金尘马/万字长文｜Grok Bot 从入门到精通.md
+resource: ../../../raw/articles/金尘马/万字长文｜Grok Bot 从入门到精通.md
 sources: []
 related:
   - grok-bot
@@ -14,6 +14,8 @@ related:
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/金尘马/万字长文｜Grok Bot 从入门到精通.md)
 
 - 原文：https://x.com/jinchenma_ai/status/2094984812251746424（与 JavaGuide 转述的 Lingxi 文不同，本文为完整入门长文）。
 - 主张：从「对话中心」转向「长期岗位」；每个 Bot = 一名数字员工。

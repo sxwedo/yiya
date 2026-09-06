@@ -5,11 +5,13 @@ description: "得物技术：MultiAgent 平台四层记忆（Working/Session/Use
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:20:00Z }
-resource: /raw/articles/得物技术/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md
+resource: ../../../raw/articles/得物技术/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/得物技术/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md)
 
 - 记忆是执行链路一部分，不是外挂拼 Prompt。
 - 四层生命周期：Working（一步）/ Session（会话）/ User（跨 Agent 偏好事实）/ Agent（任务经验与协作约定）。

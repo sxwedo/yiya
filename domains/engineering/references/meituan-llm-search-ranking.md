@@ -5,11 +5,13 @@ description: "美团技术：服务零售精排三期实践——LLM 语义向�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:05:00Z }
-resource: /raw/articles/美团技术团队/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
+resource: ../../../raw/articles/美团技术团队/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/美团技术团队/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md)
 
 - 动机：词面匹配遇语义 Gap（如「宠物 SPA+洗澡」↔「萌宠清洁护理套餐」）。
 - 一期：特殊 Token 聚合 + 64 维 cosine 分桶；验证可行，长尾体验提升明显。

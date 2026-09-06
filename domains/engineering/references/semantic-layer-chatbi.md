@@ -5,11 +5,13 @@ description: "听挽风讲大数据：ChatBI 幻觉根因是口径不在语料�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:25:00Z }
-resource: /raw/articles/听挽风讲大数据/AI写SQL总在胡编？因为你的数仓没有语义层.md
+resource: ../../../raw/articles/听挽风讲大数据/AI写SQL总在胡编？因为你的数仓没有语义层.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/听挽风讲大数据/AI写SQL总在胡编？因为你的数仓没有语义层.md)
 
 - 案例：同问「华东高价值用户 GMV 环比」，AI 与财务口径相反——非模型大小问题。
 - 幻觉必然：公司口径不在训练语料；在无答案处找答案只能编。

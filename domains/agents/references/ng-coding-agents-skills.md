@@ -5,7 +5,7 @@ description: "Andrew Ng：AI 工程技能地图之一——用 coding agents 的
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:40:00Z }
-resource: /raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md
+resource: ../../../raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md
 sources: []
 related:
   - coding-agent-workflow
@@ -13,6 +13,8 @@ related:
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md)
 
 - 原文：https://x.com/AndrewYNg/status/2095890279865721217（X 长文，2026-09-04）。
 - 高层工作流仍像传统软件，但重心从写代码转向：决定做什么、架构、写规格、验收输出。

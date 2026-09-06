@@ -59,12 +59,13 @@ sources: []
 - `clix read` 或等价抓正文 → `raw/articles/<作者>/<人话标题>.md` + manifest claim
 - 配图放入 `raw/articles/_media/<slug>/`，正文链接写成 `../_media/<slug>/...`
 - **1 Reference**（可指 raw）+ **1～2** Concept/Entity（具名产品必须有 Entity）
+- Reference → raw：**必须**可点。`resource:` 用相对路径（如 `../../../raw/articles/<作者>/<标题>.md`，**禁止**开头 `/`）；Notes 首条加 `[打开 raw](相对路径)`
 
 ### 书签型（网站 / GitHub 项目 / 工具主页）
 - **不**默认灌整站进 raw；**不要** `clix read` 全站
 - **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 的**表格行**（列：项目/站点、URL、作者、简介；**不**建 per-project stub 目录）
 - 书签**不**需要 per-link `raw-manifest.yaml` claim
-- 建/更新 **Entity** + **1 条 Reference**：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
+- 建/更新 **Entity** + **1 条 Reference**：`resource:` 指向 `../../../raw/bookmarks/github.md` 或 `sites.md`（相对路径，禁开头 `/`）；Notes 加 `[打开 raw](...)`；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
 - 以后读到站内某篇，再按成文型单独 ingest
 - 已有 Entity 时只补/更新 Reference 与书签条目，勿重复建实体
 

@@ -5,11 +5,13 @@ description: "货拉拉技术：跨会话记忆在线侧——任务调度、事
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:08:00Z }
-resource: /raw/articles/货拉拉技术/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
+resource: ../../../raw/articles/货拉拉技术/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/货拉拉技术/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md)
 
 - 立场：记忆不是保存过去，而是让过去在需要时以正确方式回来；长窗口≠记忆系统。
 - 在线四步：任务调度 → 记忆提取（可独立理解的事实）→ 记忆管理（关联/画像/标签）→ 混合检索+重排。

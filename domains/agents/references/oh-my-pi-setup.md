@@ -5,11 +5,13 @@ description: "AI智闻说：把 oh-my-pi 从默认能用调到好用——Adviso
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:11:00Z }
-resource: /raw/articles/AI智闻说/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
+resource: ../../../raw/articles/AI智闻说/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/AI智闻说/oh-my-pi 装完就不管了？这几步配完才真叫好用.md)
 
 - oh-my-pi（omp）= Pi 的 batteries-included fork：LSP/DAP、Advisor、Hashline、TTSR、/review、Skills 兼容。
 - 调优要点：`WATCHDOG.yml` 开 Advisor（1 coder + 1 reviewer）；装 pi-crew / pi-hermes-memory / pi-guardrails；挂沙箱（推荐 Gondolin）。

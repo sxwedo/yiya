@@ -5,11 +5,13 @@ description: "Datawhale 解读 Anthropic 多智能体研究：协作成本、低
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
-resource: /raw/articles/Datawhale/Anthropic最新多智能体研究来了！.md
+resource: ../../../raw/articles/Datawhale/Anthropic最新多智能体研究来了！.md
 sources: []
 ---
 
 # Notes
+
+- **仓库原文**：[打开 raw](../../../raw/articles/Datawhale/Anthropic最新多智能体研究来了！.md)
 
 - 原文：https://www.anthropic.com/research/multiagent-systems
 - 场景：漏洞检测（45 agents）、协作开发文字冒险、互不知情的代码迁移。
