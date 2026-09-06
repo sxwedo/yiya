@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T00:00:00Z }
 related:
+  - gitmcp
   - mena
   - coding-agent-workflow
 sources:
@@ -20,6 +21,7 @@ sources:
 
 ## Related
 
+- [GitMCP](./gitmcp.md)
 - [MCP（站点书签）](../references/mcp-site.md)
 - [mena](./mena.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

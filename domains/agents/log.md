@@ -35,3 +35,4 @@
 * **Ingest**: [Multi-Harness Control Plane](./concepts/multi-harness-control-plane.md) ← Smartpig raw（直链，无 Reference）(2026-09-06). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [Omarchy](./entities/omarchy.md) + [站点 Ref](./references/omarchy-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [MCP](./entities/mcp.md) + [站点 Ref](./references/mcp-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
+* **Bookmark**: [GitMCP](./entities/gitmcp.md) + [站点 Ref](./references/gitmcp-site.md) ← `raw/bookmarks/sites.md`（挂 MCP；未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。

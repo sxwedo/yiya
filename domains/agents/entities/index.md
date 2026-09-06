@@ -7,3 +7,4 @@
 * [Pi](./pi.md)
 * [Omarchy](./omarchy.md)
 * [Model Context Protocol (MCP)](./mcp.md)
+* [GitMCP](./gitmcp.md)

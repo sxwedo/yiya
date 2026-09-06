@@ -19,3 +19,4 @@
 * [谷歌重磅发布WikiSkill，技能可以自己进化了！](./wikiskill-three-layer.md)
 * [Omarchy（站点）](./omarchy-site.md)
 * [MCP（站点）](./mcp-site.md)
+* [GitMCP（站点）](./gitmcp-site.md)
