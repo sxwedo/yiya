@@ -5,6 +5,8 @@ description: "把 Agent 变强拆成 Raw（不可变轨迹）、Wiki（可复用
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:24:00Z }
+related:
+  - knowledge-skill-separation
 sources:
   - /references/wikiskill-three-layer.md
 ---
@@ -18,3 +20,7 @@ sources:
 3. **Skills Layer** — 当前生效技能（如 `SKILL.md`）+ 溯源（`PURPOSE.md` 指向对应 Pattern）。
 
 进化循环：用当前 Skill 跑 rollout → Maintainer 更新 Wiki → Proposer 基于 Wiki 提补丁 → Gating 在验证集决定接受/回滚。训练推理阶段不访问 Wiki，避免「查答案」污染轨迹。
+
+## Related
+
+- [知识与技能分离](/concepts/knowledge-skill-separation.md)

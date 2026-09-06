@@ -5,6 +5,11 @@ description: "把分散系统中的数据、规则与能力组织成可理解、
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:10:00Z }
+related:
+  - semantic-engineer
+  - semantic-layer
+  - semantic-service
+  - text2semantic2sql
 sources:
   - /references/ai-native-ontology.md
 ---
@@ -18,3 +23,10 @@ sources:
 - **Action** — 动作契约、权限/审批前置、执行证据链。
 
 建设应复用 DDD/数仓/微服务资产，补齐跨上下文桥接与运行时语义，并以 Semantic Service 交付，而非只写文档。
+
+## Related
+
+- [语义工程师](/concepts/semantic-engineer.md)
+- [语义层](/concepts/semantic-layer.md)
+- [Semantic Service](/concepts/semantic-service.md)
+- [Text2Semantic2SQL](/concepts/text2semantic2sql.md)

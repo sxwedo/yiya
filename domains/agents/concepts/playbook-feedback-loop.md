@@ -5,6 +5,10 @@ description: "从任务失误复盘到更新共享 Playbook，并让其他 Bot �
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
+related:
+  - agent-self-evolution-flywheel
+  - delivery-harness
+  - engineering-bot
 sources:
   - /references/javaguide-grok-bot-engineering.md
 ---
@@ -22,3 +26,9 @@ sources:
 - Code Review 总漏某类问题 → 补专用 Review Skill
 
 密钥、禁写目录等硬边界应进权限规则 / Hook / Sandbox；只靠聊天提醒只管当前会话。与 Delivery Harness 的 Repair Loop 同族：终点是「下一次同类错误更早失败」。
+
+## Related
+
+- [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
+- [Delivery Harness](/concepts/delivery-harness.md)
+- [Engineering Bot](/concepts/engineering-bot.md)

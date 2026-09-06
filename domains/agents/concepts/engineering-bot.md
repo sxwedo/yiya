@@ -5,6 +5,8 @@ description: "长期运行、带岗位记忆与工具权限的工程角色 Bot�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
+related:
+  - playbook-feedback-loop
 sources:
   - /references/javaguide-grok-bot-engineering.md
 ---
@@ -21,3 +23,7 @@ sources:
 人保留产品取舍、权限不足、影响面大的修改；运行中的常规跟进交给 Engineering Bot。领域长期专守，是为了让发任务时带上的规格更具体，而不是把所有上下文塞进单次会话。
 
 与「多开几个 IDE Agent」的差别：麻烦从任务跑起来之后才开始——权限等待、测试卡住、PR 无人查截图与 Diff——需要有人（或 Bot）在仓外持续跟进。
+
+## Related
+
+- [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)

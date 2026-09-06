@@ -5,6 +5,8 @@ description: "以 OpenTelemetry 探针采集 Agent 运行轨迹：用 Trace ID �
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
+related:
+  - agent-telemetry-ingress
 sources:
   - /references/agentloop-data-ingress.md
 ---
@@ -16,3 +18,7 @@ sources:
 为何用 OTel：可观测性事实标准，接入不锁定、数据可互通；探针可在少侵入业务逻辑的前提下串联采集点。目标是：今天接入的数据，未来任何 OTel 生态都能消费。
 
 旁路采集（如独立 Pilot 进程）是常见配套：采集开销与故障不进入 Agent 执行关键路径——数据发不出去时，Agent 仍可继续工作。
+
+## Related
+
+- [Agent 遥测接入形态](/concepts/agent-telemetry-ingress.md)

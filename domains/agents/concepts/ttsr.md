@@ -5,6 +5,9 @@ description: "Time-Traveling Stream Rules：规则平时休眠不占上下文，
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:11:00Z }
+related:
+  - advisor
+  - minimal-agent-harness
 sources:
   - /references/oh-my-pi-setup.md
 ---
@@ -18,3 +21,8 @@ sources:
 适合硬约束、不必每轮看见的规则：禁止危险命令、禁止吞异常、禁止特定反模式等。目标是省上下文，同时在真正要犯错时拦住。
 
 与 Advisor 的差别：TTSR 是确定性规则触发；Advisor 是第二模型语义旁听。可并存。
+
+## Related
+
+- [Advisor](/concepts/advisor.md)
+- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)

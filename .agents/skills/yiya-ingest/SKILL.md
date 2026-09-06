@@ -53,6 +53,7 @@ argument-hint: "[url-or-path] [domain?]"
 - 用 `templates/concept.md` 或 `templates/entity.md`
 - `sources` 指向刚建的 Reference（bundle 内路径，如 `/references/....md`）
 - 只写以后还会被引用的稳定知识，不要复述全文
+- **互链**：同文拆出的概念彼此加 `## Related` + `/concepts/...`；与库内已有近邻概念也补上（跨域用 `../../<domain>/concepts/...`）。可写 `related:` frontmatter。不要建 backlinks 目录。
 
 ### 5. 维护索引与 log
 

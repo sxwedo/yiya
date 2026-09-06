@@ -5,6 +5,8 @@ description: "多 Agent 系统的核心不是堆叠数量，而是提供信任�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
+related:
+  - multi-agent-failure-modes
 sources:
   - /references/anthropic-multiagent-failures.md
 ---
@@ -21,3 +23,7 @@ sources:
 - 共享协调面（如中心论坛）及其边界
 
 与 Engineering Bot 分层不同：此处焦点是多执行体之间的全局风险与制度设计，而非「人—带队 Bot—执行 Agent」的岗位分工。
+
+## Related
+
+- [多智能体失效模式](/concepts/multi-agent-failure-modes.md)

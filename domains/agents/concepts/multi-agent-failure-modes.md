@@ -5,6 +5,8 @@ description: "多 Agent 协作中的系统性失效：协调成本膨胀、低�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
+related:
+  - multi-agent-governance
 sources:
   - /references/anthropic-multiagent-failures.md
 ---
@@ -19,3 +21,7 @@ sources:
 4. **冲突升级** — 目标不兼容时，可从各自为战滑向相互对抗。
 
 设计含义：扩容 Agent 数量不能自动带来协调；需要显式治理（信任、冲突协议、多样性保护）。
+
+## Related
+
+- [多智能体治理](/concepts/multi-agent-governance.md)

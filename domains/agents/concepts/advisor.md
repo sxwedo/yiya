@@ -5,6 +5,9 @@ description: "给主 Agent 配第二模型旁听：读每一轮输出，在同�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:11:00Z }
+related:
+  - minimal-agent-harness
+  - ttsr
 sources:
   - /references/oh-my-pi-setup.md
 ---
@@ -20,3 +23,8 @@ sources:
 - 与事后 `/review` 互补：Advisor 是写代码时的实时旁听；review 是写完后的结构化审查。
 
 适用：需要降低主模型漏边界检查、漏安全约束、跑偏不自知的场景，又不想把全部规则每轮塞进 system prompt。
+
+## Related
+
+- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
+- [TTSR](/concepts/ttsr.md)

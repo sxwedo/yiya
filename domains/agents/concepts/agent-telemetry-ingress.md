@@ -5,6 +5,8 @@ description: "按 Agent 形态与改造意愿选择成本最低的数据接入�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
+related:
+  - agent-otel-probe
 sources:
   - /references/agentloop-data-ingress.md
 ---
@@ -19,3 +21,7 @@ sources:
 4. **无侵入（如 eBPF）** — 不改代码，适存量/闭源/先看数据再决定埋点。
 
 四种方式可并存，按改造意愿选成本最低的一条。接入后还需应用级标识（如 Service Name）与鉴权凭证，才能在 workspace 内区分来源并做后续评估圈定。
+
+## Related
+
+- [Agent OTel 探针](/concepts/agent-otel-probe.md)

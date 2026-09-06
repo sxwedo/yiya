@@ -50,6 +50,14 @@ sources: []
 
 ---
 
+## 概念互链（双链）
+
+- 相关 Concept/Entity **必须**在正文加 `## Related`，用 bundle 根路径互链，如 `[Evidence Gate](/concepts/evidence-gate.md)`。
+- 可同步 frontmatter `related: [slug, ...]`（同域 slug）。
+- 跨域用相对路径，如 `../../engineering/concepts/semantic-layer.md`。
+- **不**单独建 backlinks 目录；反链交给 Obsidian / 图谱工具从出站链计算。
+- 同一 Reference 拆出的概念彼此互链；主题相近的族（记忆 / harness / 语义层等）至少连成小团。
+
 ## Ingest 默认要瘦
 
 入库请走 **`.agents/skills/yiya-ingest`**。默认：1 Reference + 1～2 Concept/Entity。禁止类型集邮。

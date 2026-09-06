@@ -5,6 +5,12 @@ description: "包裹在模型之外的交付控制系统：合同锁事实、边
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
+related:
+  - agent-self-evolution-flywheel
+  - evidence-gate
+  - harness-self-improvement
+  - minimal-agent-harness
+  - playbook-feedback-loop
 sources:
   - /references/dewu-delivery-harness.md
 ---
@@ -21,3 +27,11 @@ sources:
 4. **Repair Loop** — 真实反馈落入 Repair Case；只有改变下一次默认行为（测试 / 门禁 / 合同）才算被系统吸收。
 
 适用场景：单人（或少量人）用 Agent 并行推进多运行时交付，需要可追溯、可停机、可升级的质量秩序。
+
+## Related
+
+- [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
+- [Evidence Gate](/concepts/evidence-gate.md)
+- [Harness 自改进](/concepts/harness-self-improvement.md)
+- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
+- [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)

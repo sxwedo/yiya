@@ -5,6 +5,11 @@ description: "评测→记忆→落地→控制四齿咬合的工程闭环：每
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:22:00Z }
+related:
+  - delivery-harness
+  - eval-driven-development
+  - harness-self-improvement
+  - playbook-feedback-loop
 sources:
   - /references/agent-self-evolution-flywheel.md
 ---
@@ -19,3 +24,10 @@ sources:
 4. **控制** — 人当教练与裁判，防隐蔽累积偏移；冷启动第一圈须人推。
 
 瓶颈通常不在单点技术，而在环节间数据通路是否接通。
+
+## Related
+
+- [Delivery Harness](/concepts/delivery-harness.md)
+- [Harness 自改进](/concepts/harness-self-improvement.md)
+- [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)
+- [评测驱动开发](../../engineering/concepts/eval-driven-development.md)

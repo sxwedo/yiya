@@ -5,6 +5,8 @@ description: "在召回之后用分级筛选提升精准度：快速通道、交
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:25:00Z }
+related:
+  - compound-retrieval-agent
 sources:
   - /references/dewu-compound-retrieval-agent.md
 ---
@@ -18,3 +20,7 @@ sources:
 3. **LLM Grading** — 逐条精评相关性，再截断。
 
 宜挂在中间件/钩子上对 Agent 透明，各阶段可开关。召回管「找全」，Pipeline 管「找准」；只加一层 Reranker 往往不够。
+
+## Related
+
+- [复合检索 Agent](/concepts/compound-retrieval-agent.md)

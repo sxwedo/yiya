@@ -5,6 +5,11 @@ description: "通过持久化改记忆、Skill、Prompt、工具与工作流来�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:22:00Z }
+related:
+  - agent-self-evolution-flywheel
+  - delivery-harness
+  - evidence-gate
+  - minimal-agent-harness
 sources:
   - /references/agent-self-evolution-flywheel.md
 ---
@@ -18,3 +23,10 @@ sources:
 - **Model 进化**：改参数，持久最强但成本与风险最高。
 
 当下主战场是 Harness：即时、可控；收益可来自更少迭代与更低 token，而不动模型。与 Delivery Harness / Minimal Harness 概念相邻：此处强调「配套系统可被评测驱动地持续改写」。
+
+## Related
+
+- [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
+- [Delivery Harness](/concepts/delivery-harness.md)
+- [Evidence Gate](/concepts/evidence-gate.md)
+- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)

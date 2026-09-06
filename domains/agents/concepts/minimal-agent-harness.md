@@ -5,6 +5,12 @@ description: "极简代理框架哲学：核心只保留原语（Primitives, not
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
+related:
+  - advisor
+  - delivery-harness
+  - evidence-gate
+  - harness-self-improvement
+  - ttsr
 sources:
   - /references/pi-vs-oh-my-pi.md
 ---
@@ -16,3 +22,11 @@ sources:
 收益：低上下文税、行为边界清晰、可无限扩展。代价：开箱能力弱，团队需投入扩展开发与维护。
 
 对照面是 **Batteries Included**：原生装好 LSP/DAP/评审/协作等，换取上手速度与一致性，但核心更重、定制路径不同。选型应看「要不要自己造轮子」而非价格（两者常同为开源自备模型）。
+
+## Related
+
+- [Advisor](/concepts/advisor.md)
+- [Delivery Harness](/concepts/delivery-harness.md)
+- [Evidence Gate](/concepts/evidence-gate.md)
+- [Harness 自改进](/concepts/harness-self-improvement.md)
+- [TTSR](/concepts/ttsr.md)
