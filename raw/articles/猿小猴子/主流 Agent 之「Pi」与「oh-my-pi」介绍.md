@@ -18,13 +18,13 @@ date: "2026-08-05 10:53:47"
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 核心定位 |                                                                                                                                                                                                                                                                                                           最小化可扩展框架（Minimal Harness）  <br/>用户自行构建功能                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                           「电池已装」增强代理（Batteries Included）  <br/>原生集成 IDE 级工具                                                                                                                                                                                                                                                                                                            |
 | 核心引擎 |                                                                                                                                                                                                                                                                                           TypeScript / Node.js（Bun 运行时）  <br/>统一 LLM API 层（@earendil-works/pi-ai）                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                               Rust 核心引擎（100k+ 行原生代码）  <br/>优化的工具调用与状态管理                                                                                                                                                                                                                                                                                                                |
-| 官方链接 |https://pi.dev/![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_1.png)  <br/>https://github.com/earendil-works/pi![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_2.png)  <br/>https://pi.dev/docs/latest/![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_3.png)|https://omp.sh/![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_4.png)  <br/>https://github.com/can1357/oh-my-pi![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_5.png)  <br/>https://github.com/can1357/oh-my-pi/tree/main/docs![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_6.png)|
+| 官方链接 |https://pi.dev/![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_1.png)  <br/>https://github.com/earendil-works/pi![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_2.png)  <br/>https://pi.dev/docs/latest/![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_3.png)|https://omp.sh/![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_4.png)  <br/>https://github.com/can1357/oh-my-pi![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_5.png)  <br/>https://github.com/can1357/oh-my-pi/tree/main/docs![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_6.png)|
 | 费用模式 |                                                                                                                                                                                                                                                                                                               MIT 开源免费  <br/>用户自担模型 API / 订阅费用                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                         MIT 开源免费  <br/>用户自担模型 API 费用（BYO API Key / BYO Model）                                                                                                                                                                                                                                                                                                          |
 |第三方集成 |                                                                                                                                                                                                                                                                                             自定义提供商· MCP 扩展 · SDK · RPC  <br/>容器化（Gondolin / Docker / OpenShell）                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                     LSP（53 语言服务器）· DAP（14 调试适配器）  <br/>浏览器自动化· 子代理 · 协作中继 · 网络搜索链                                                                                                                                                                                                                                                                                                      |
 
 **【交叉验证结论】两者均非「封闭式 SaaS 产品」，而是「开源代理框架 + 用户自备模型接入」的技术生态。选择 Pi 更适合追求极简可控、希望深度定制扩展的开发者；选择 oh-my-pi 更适合需要开箱即用的 IDE 级终端工具链（重构、调试、浏览器自动化、团队协作）的工程师团队。**
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_7.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_7.png)
 
 ## **本教程内容结构说明**
 
@@ -99,83 +99,83 @@ oh-my-pi 的官方定位是「原生终端编码代理，内置 IDE」（A cod
 
 **官方主站（产品介绍、演示、安装入口）:** https://pi.dev/
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_8.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_8.png)
 
 **官方文档首页（完整使用手册）:** https://pi.dev/docs/latest
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_9.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_9.png)
 
 **快速入门指南（Quickstart）:** https://pi.dev/docs/latest/quickstart
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_10.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_10.png)
 
 **提供商配置文档（Subscription / API Key / Auth File）:** https://pi.dev/docs/latest/providers
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_11.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_11.png)
 
 **扩展开发文档（TypeScript 模块）:** https://pi.dev/docs/latest/extensions
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_12.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_12.png)
 
 **技能（Skills）文档:** https://pi.dev/docs/latest/skills
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_13.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_13.png)
 
 **提示模板（Prompt Templates）文档:** https://pi.dev/docs/latest/prompt-templates
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_14.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_14.png)
 
 **主题（Themes）文档:** https://pi.dev/docs/latest/themes
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_15.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_15.png)
 
 **包系统（Packages / 包市场）:** https://pi.dev/packages
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_16.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_16.png)
 
 **GitHub 主仓库（源码、Issues、PR、发布）:** https://github.com/earendil-works/pi
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_17.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_17.png)
 
 **GitHub 代码浏览（packages 目录结构）:** https://github.com/earendil-works/pi/tree/main/packages
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_18.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_18.png)
 
 **README 原始内容（Markdown 格式）:** https://raw.githubusercontent.com/earendil-works/pi/main/README.md
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_19.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_19.png)
 
 **许可证文件（MIT）:** https://github.com/earendil-works/pi/blob/main/LICENSE
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_20.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_20.png)
 
 **安全策略（SECURITY.md）:** https://github.com/earendil-works/pi/blob/main/SECURITY.md
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_21.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_21.png)
 
 **贡献指南（CONTRIBUTING.md）:** https://github.com/earendil-works/pi/blob/main/CONTRIBUTING.md
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_22.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_22.png)
 
 **Discord 社区邀请（根据 README 及网页信息交叉验证）:** https://discord.com/invite/3cU7Bz4UPx
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_23.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_23.png)
 
 **npm 包发布页（@earendil-works/pi-coding-agent）:** https://www.npmjs.com/package/@earendil-works/pi-coding-agent
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_24.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_24.png)
 
 **安装脚本（curl 安装入口）:** https://pi.dev/install.sh
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_25.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_25.png)
 
 **项目 RFC（长期计划与设计提案）:** https://rfc.earendil.com/keyword/pi/
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_26.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_26.png)
 
 **会话分享示例（公开 Gist 渲染）:** https://pi.dev/session/[#0ea51497613daf7e1de28ee99950b074]()
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_27.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_27.png)
 
 ### 3.2 oh-my-pi （ omp.sh ）官方链接体系 ###
 
@@ -183,55 +183,55 @@ oh-my-pi 的官方定位是「原生终端编码代理，内置 IDE」（A cod
 
 **官方主站（产品介绍、安装命令、功能演示）:** https://omp.sh/
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_28.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_28.png)
 
 **GitHub 主仓库（源码、Issues、PR、发布、文档目录）:** https://github.com/can1357/oh-my-pi
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_29.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_29.png)
 
 **GitHub 文档目录（docs 文件夹，含详细配置说明）:** https://github.com/can1357/oh-my-pi/tree/main/docs
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_30.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_30.png)
 
 **README 原始内容（Markdown 格式）:** https://raw.githubusercontent.com/can1357/oh-my-pi/main/README.md
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_31.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_31.png)
 
 **许可证文件（MIT 许可）:** https://github.com/can1357/oh-my-pi/blob/main/LICENSE
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_32.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_32.png)
 
 **安装脚本入口（curl -fsSL https://omp.sh/install | sh）:** https://omp.sh/install
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_33.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_33.png)
 
 **协作中继服务（默认 my.omp.sh，用于 /collab 功能）:** https://my.omp.sh
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_34.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_34.png)
 
 **Discord 社区（根据 GitHub 及每个开发者页面信息交叉验证）:** https://discord.gg/4NMW9cdXZa
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_35.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_35.png)
 
 **开源替代品参考页面（含功能特征列表与 MIT 许可确认）:** https://www.opensourcealternatives.to/item/oh-my-pi
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_36.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_36.png)
 
 **独立评测对比（oh-my-pi vs Pi，标准计算平台，2026-08-03 发布）:** https://standardcompute.com/best-ai-agent/oh-my-pi-vs-pi
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_37.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_37.png)
 
 **独立用户指南（配置 models.yml 与 config.yml 的完整示例）:** https://acchapm1.github.io/tutorials/Oh-My-Pi/omp-beginner-guide
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_38.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_38.png)
 
 **开源社区评测（Stork.ai，2026-07-02 发布，含费用分析）:** https://www.stork.ai/en/oh-my-pi
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_39.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_39.png)
 
 **独立评测（Standard Compute，oh-my-pi vs OpenCode，2026-08-03 发布）:** https://standardcompute.com/best-ai-agent/oh-my-pi-vs-opencode
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_40.jpg)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_40.jpg)
 
 ## 四、第三部分：安装与配置详解
 
@@ -612,5 +612,5 @@ omp
 
 **【时效提示】本内容基于截至 2026 年 8 月 4 日（亚洲/上海时区）的官方公开资料、GitHub 仓库最新提交记录、官方文档页面访问验证、独立第三方评测（Standard Compute 2026-08-03、Stork.ai 2026-07-02、opensourcealternatives.to 2026-06-12、usagepricing.com 2026-06-16、独立用户指南 2026 年发布）及开源社区信息的交叉验证整理。技术生态（尤其是开源代理框架、LLM 提供商 API、终端编码工具）演进速度极快，功能、价格、安装方式与第三方集成状态可能在本内容发布后发生显著变化。强烈建议读者在实际应用前访问以下官方渠道获取最新信息：Pi 官方站点 https://pi.dev/、oh-my-pi 官方站点 https://omp.sh/、Pi GitHub 仓库 https://github.com/earendil-works/pi、oh-my-pi GitHub 仓库 https://github.com/can1357/oh-my-pi。**
 
-![](./_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_41.png)
+![](../_media/pi-vs-oh-my-pi/猿小猴子_f61ZfTCsCgGZ1mQW1ARcKA_41.png)
 

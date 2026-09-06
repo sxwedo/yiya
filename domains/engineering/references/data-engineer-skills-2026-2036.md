@@ -5,7 +5,7 @@ description: "数字化与AI之知与行：DE 竞争力从数据搬运上移到�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:12:00Z }
-resource: /raw/articles/未来十年数据工程师完整能力清单（2026-2036）.md
+resource: /raw/articles/数字化与AI之知与行/未来十年数据工程师完整能力清单（2026-2036）.md
 sources: []
 ---
 

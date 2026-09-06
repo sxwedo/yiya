@@ -25,7 +25,7 @@ Pi 由 Mario Zechner 开发，定位是极简终端编程工具，核心小到�
 
 截至 2026 年 7 月，oh-my-pi 在 GitHub 上已有近 1.6 万星，内置 32 个工具、14 个 LSP 操作、28 个 DAP 操作，Rust 核心约 5.5 万行。
 
-![](./_media/oh-my-pi-setup/AI智闻说_89D-zKqj71xA5XH6uLtIlg_1.png)
+![](../_media/oh-my-pi-setup/AI智闻说_89D-zKqj71xA5XH6uLtIlg_1.png)
 
 下方表格列的是跟最佳实践最相关的几项能力，不是完整功能清单：
 
@@ -92,7 +92,7 @@ oh-my-pi 的扩展系统跟 Pi 一脉相承：TypeScript 扩展装完即生效�
 
 推荐 Gondolin。它把认证和 Pi 自身留在宿主机上，只有底层工具和 shell 命令路由到微型虚拟机里执行。你的 API Key 不会进容器，文件系统也只暴露工作目录。装起来不复杂，安全性比裸跑好一大截。
 
-![](./_media/oh-my-pi-setup/AI智闻说_89D-zKqj71xA5XH6uLtIlg_2.png)
+![](../_media/oh-my-pi-setup/AI智闻说_89D-zKqj71xA5XH6uLtIlg_2.png)
 
 Docker 方案适合 CI/CD 或给团队成员统一环境。整个 Pi 进程跑在容器中，只挂载指定工作目录，CPU/内存受限，宿主网络断开，agent 做不了超出容器范围的事。
 
@@ -108,7 +108,7 @@ oh-my-pi 的 Hashline 机制换了个思路：模型不重新输入要改的行�
 
 小模型的受益尤其明显。很多小模型输出格式不稳定，用传统 str\_replace 经常匹配不上，Hashline 降低了格式要求，通过率大幅提升。
 
-![](./_media/oh-my-pi-setup/AI智闻说_89D-zKqj71xA5XH6uLtIlg_3.png)
+![](../_media/oh-my-pi-setup/AI智闻说_89D-zKqj71xA5XH6uLtIlg_3.png)
 
 ## TTSR（时序流规则）：规则平时不占上下文，偏了才出手
 

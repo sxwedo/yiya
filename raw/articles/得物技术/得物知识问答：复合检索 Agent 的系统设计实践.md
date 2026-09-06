@@ -7,7 +7,7 @@ date: "2026-08-12 10:30:00"
 
 # 📰 得物知识问答：复合检索 Agent 的系统设计实践
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_1.gif)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_1.gif)
 
 ## 目录
 
@@ -101,13 +101,13 @@ date: "2026-08-12 10:30:00"
 
 ### Agent 自主决策的复合检索架构
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_2.jpg)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_2.jpg)
 
 ### 多源并行检索能力
 
 Agent 可用的工具覆盖知识库数据源 + 三类个人飞书数据源，全部根据用户的前端勾选和权限动态激活。Agent 自主判断何时调用哪个工具，整个过程对用户透明：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_3.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_3.png)
 
 **权限隔离的两个层面：**知识库层按业务领域或部门划分，不同用户拥有不同的可访问知识库列表；飞书生态层通过 UserCallContext 注入用户的飞书 openId，API 按当前用户的身份返回数据。同一个问题，不同用户看到的结果是不同的。
 
@@ -115,7 +115,7 @@ Agent 可用的工具覆盖知识库数据源 + 三类个人飞书数据源，�
 
 ### 自主决策能力
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_4.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_4.png)
 
 传统 RAG 的流程是单向的：用户提问 → 向量检索 → 拼接上下文 → 生成回答。Agent 在这个流程里是被动的——检索到什么就用什么，无法判断信息是否充分，也不会主动补充检索。 
 
@@ -149,7 +149,7 @@ Agent 做决策的依据来自我们精心设计的结构化提示词中的策�
 
 我们在 AGENTS.md 中设计了一套结构化的 Agent 提示词，它不是简单的指令列表，而是一个完整的**决策流程图**：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_5.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_5.png)
 
 这套提示词的设计精髓在于：**它不是告诉 Agent 怎么做，而是告诉 Agent 做什么和为什么**。Agent 在 ReAct 循环中自主决定具体的执行细节——用哪些工具、搜几次、是否需要精读、什么时候停止。
 
@@ -197,7 +197,7 @@ RAG 系统的质量由两个指标决定：**召回率**——有没有把相关
 
 我们不是在向量检索结果上只做一次过滤，而是构建了一个三阶段 Pipeline，每个阶段解决不同层面的问题：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_6.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_6.png)
 
 ### 实现方式：AgentScope Middleware
 
@@ -338,7 +338,7 @@ SSE 断点续传的需求，不止来自"服务器宕机"这种极端情况。�
 
 ### 以下为三种恢复路径的对比图：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_7.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_7.png)
 
 ### 关键设计决策
 
@@ -364,7 +364,7 @@ SSE 断点续传的需求，不止来自"服务器宕机"这种极端情况。�
 
 回到最初的问题。我们的答案不在某一个算法或某一项技术上，而在系统设计的整体思路。以下是与"标准 RAG 套壳"的六个关键差异：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_8.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_8.png)
 
 ### 核心创新点
 
@@ -402,11 +402,11 @@ AgentScope 框架已内置长期记忆、对话压缩、技能系统、子代理
 
 基于不同业务维度的三组评测集（覆盖知识库、飞书文档、飞书消息、飞书妙记四类数据源），全量人工标注，评测结果如下：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_9.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_9.png)
 
 另外在技术选型阶段，我们将 AgentScope 2.0 与 Java 生态的主流 AI 框架进行了详细对比：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_10.png)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_10.png)
 
 ### 往期回顾
 
@@ -434,5 +434,5 @@ AgentScope 框架已内置长期记忆、对话压缩、技能系统、子代理
 
 如有任何疑问，或想要了解更多技术资讯，请添加小助手微信：
 
-![](./_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_11.jpg)
+![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_11.jpg)
 

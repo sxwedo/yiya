@@ -77,7 +77,7 @@ DDD 并不排斥这些内容，问题在于在实际实现中往往把它们分�
 
 在客户健康度场景中，三层各有明确分工。
 
-![](./_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_1.jpg)
+![](../_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_1.jpg)
 
 **Fact 层**先解决"客户是谁"。CRM 中的"星辰科技"、工单系统中的"星辰科技有限公司"和财务平台里的企业编号，需要映射为同一个 Customer。商机阶段、合同到期日、近 30 天工单量和最近登录时间仍由各自的权威系统提供，但通过统一对象对外呈现。
 
@@ -93,7 +93,7 @@ DDD 并不排斥这些内容，问题在于在实际实现中往往把它们分�
 
 下图是从业务场景到语义服务落地的完整架构视图：
 
-![](./_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_2.png)
+![](../_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_2.png)
 
 ## 六步构建：从已有资产到可运行的语义服务
 
@@ -103,7 +103,7 @@ DDD 并不排斥这些内容，问题在于在实际实现中往往把它们分�
 
 ----------
 
-![](./_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_3.png)
+![](../_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_3.png)
 
 ### Step 1：识别场景 ###
 
@@ -255,7 +255,7 @@ Action: issue_renewal_coupon
 
 最后，把前五步形成的资产装入运行时，而不是停留在文档或 ER 图中。这个运行时对 Agent、Workflow、业务应用和 BI 提供统一接口。
 
-![](./_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_4.jpg)
+![](../_media/ai-native-ontology/昀启AI_6eYr4EueWYr0kMRrf4hcVg_4.jpg)
 
 工程形态不必一步到位。初期可以采用模块化单体验证价值，边界稳定后再按负载和团队职责拆分；如果早期场景只有分析需求，Metrics Layer 可能已经足够。
 

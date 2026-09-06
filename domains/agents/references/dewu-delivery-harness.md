@@ -5,7 +5,7 @@ description: "得物技术复盘：用 Delivery Harness（Version Contract / Exe
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
-resource: /raw/articles/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md
+resource: /raw/articles/得物技术/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md
 sources: []
 ---
 

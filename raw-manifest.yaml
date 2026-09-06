@@ -2,126 +2,126 @@
 version: 1
 entries:
   - id: dewu-delivery-harness
-    path: raw/articles/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md
+    path: raw/articles/得物技术/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md
     title: 得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/Jcx_3OABcYwzzxWKFgivOA
     added: 2026-09-05
   - id: javaguide-grok-bot-engineering
-    path: raw/articles/一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了.md
+    path: raw/articles/JavaGuide/一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了.md
     title: 一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/270tAXMKIQDvl5-vOS5nqQ
     added: 2026-09-05
   - id: oh-my-pi-setup
-    path: raw/articles/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
+    path: raw/articles/AI智闻说/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
     title: oh-my-pi 装完就不管了？这几步配完才真叫好用
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/89D-zKqj71xA5XH6uLtIlg
     added: 2026-09-05
   - id: agentloop-data-ingress
-    path: raw/articles/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
+    path: raw/articles/阿里云云原生/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
     title: 数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/lmZaSJpyTKdBeytRYeIeJg
     added: 2026-09-05
   - id: pi-vs-oh-my-pi
-    path: raw/articles/主流 Agent 之「Pi」与「oh-my-pi」介绍.md
+    path: raw/articles/猿小猴子/主流 Agent 之「Pi」与「oh-my-pi」介绍.md
     title: 主流 Agent 之「Pi」与「oh-my-pi」介绍
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/f61ZfTCsCgGZ1mQW1ARcKA
     added: 2026-09-05
   - id: wikiskill-three-layer
-    path: raw/articles/谷歌重磅发布WikiSkill，技能可以自己进化了！.md
+    path: raw/articles/Datawhale/谷歌重磅发布WikiSkill，技能可以自己进化了！.md
     title: 谷歌重磅发布WikiSkill，技能可以自己进化了！
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/rmS1mtEBMdb_png2Nvddvg
     added: 2026-09-05
   - id: ng-evals-watershed
-    path: raw/articles/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
+    path: raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
     title: 吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals
     domain: engineering
     status: claimed
     url: https://mp.weixin.qq.com/s/inUHNfUlVf-Js8fOdxUZzA
     added: 2026-09-05
   - id: anthropic-multiagent-failures
-    path: raw/articles/Anthropic最新多智能体研究来了！.md
+    path: raw/articles/Datawhale/Anthropic最新多智能体研究来了！.md
     title: Anthropic最新多智能体研究来了！
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/KW5vvF2w1pkkBW36lLDcAg
     added: 2026-09-05
   - id: dewu-multiagent-memory
-    path: raw/articles/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md
+    path: raw/articles/得物技术/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md
     title: 企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/3vbMPRyK02jT_pJ6Hpx2Kg
     added: 2026-09-05
   - id: agent-self-evolution-flywheel
-    path: raw/articles/一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制.md
+    path: raw/articles/腾讯技术工程/一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制.md
     title: 一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/5VDN-T9K8Wr-DaQ15-I6CA
     added: 2026-09-05
   - id: semantic-layer-chatbi
-    path: raw/articles/AI写SQL总在胡编？因为你的数仓没有语义层.md
+    path: raw/articles/听挽风讲大数据/AI写SQL总在胡编？因为你的数仓没有语义层.md
     title: AI写SQL总在胡编？因为你的数仓没有语义层
     domain: engineering
     status: claimed
     url: https://mp.weixin.qq.com/s/PXBE64nD0iO_ucexc5-XaQ
     added: 2026-09-05
   - id: ai-coding-pm-paradigm
-    path: raw/articles/AI Coding时代，研发项目管理新范式探索与实践.md
+    path: raw/articles/腾讯云开发者/AI Coding时代，研发项目管理新范式探索与实践.md
     title: AI Coding时代，研发项目管理新范式探索与实践
     domain: engineering
     status: claimed
     url: https://mp.weixin.qq.com/s/qmNj7b5vOsL3Aji01-7BLw
     added: 2026-09-05
   - id: meituan-llm-search-ranking
-    path: raw/articles/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
+    path: raw/articles/美团技术团队/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
     title: 美团搜索3.0：LLM 语义表征在排序模型的探索与应用
     domain: engineering
     status: claimed
     url: https://mp.weixin.qq.com/s/QAnbNhmRBz40kkq9l5xTjQ
     added: 2026-09-06
   - id: huolala-llm-memory-online
-    path: raw/articles/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
+    path: raw/articles/货拉拉技术/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
     title: 货拉拉大模型记忆系统（一）：从提取到召回的工程实践
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/zfCf9-qOAlefs7t631c8lg
     added: 2026-09-06
   - id: ai-native-ontology
-    path: raw/articles/AI Native 服务架构（二）：从 DDD 到 Ontology.md
+    path: raw/articles/昀启AI+/AI Native 服务架构（二）：从 DDD 到 Ontology.md
     title: AI Native 服务架构（二）：从 DDD 到 Ontology
     domain: engineering
     status: claimed
     url: https://mp.weixin.qq.com/s/6eYr4EueWYr0kMRrf4hcVg
     added: 2026-09-06
   - id: data-engineer-skills-2026-2036
-    path: raw/articles/未来十年数据工程师完整能力清单（2026-2036）.md
+    path: raw/articles/数字化与AI之知与行/未来十年数据工程师完整能力清单（2026-2036）.md
     title: 未来十年数据工程师完整能力清单（2026-2036）
     domain: engineering
     status: claimed
     url: https://mp.weixin.qq.com/s/I0VABHpREzTbRTC9NOM2zg
     added: 2026-09-06
   - id: dewu-compound-retrieval-agent
-    path: raw/articles/得物知识问答：复合检索 Agent 的系统设计实践.md
+    path: raw/articles/得物技术/得物知识问答：复合检索 Agent 的系统设计实践.md
     title: 得物知识问答：复合检索 Agent 的系统设计实践
     domain: agents
     status: claimed
     url: https://mp.weixin.qq.com/s/EIXbIqUYcnFHpwAiPsJDEg
     added: 2026-09-06
   - id: ng-coding-agents-skills
-    path: raw/articles/AI Engineering Skills Map: Using coding agents.md
+    path: raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md
     title: "AI Engineering Skills Map: Using coding agents"
     domain: agents
     status: claimed

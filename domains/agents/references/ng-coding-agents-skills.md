@@ -5,7 +5,7 @@ description: "Andrew Ng：AI 工程技能地图之一——用 coding agents 的
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:40:00Z }
-resource: /raw/articles/AI Engineering Skills Map: Using coding agents.md
+resource: /raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md
 sources: []
 related:
   - coding-agent-workflow

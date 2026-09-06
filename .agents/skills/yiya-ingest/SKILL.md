@@ -46,10 +46,10 @@ argument-hint: "[url-or-path] [domain?]"
 ### 2. 写入 raw
 
 1. 先放 `raw/_inbox/`（或一步到位 articles，但仍须写 manifest）。
-2. 成文：`raw/articles/<人话标题>.md`（**扁平**；非法路径字符去掉或改全角）。
-3. 配图：`raw/articles/_media/<slug>/`（`<slug>` 短、稳定、偏 ASCII）；正文相对链接写成 `./_media/<slug>/...`。
+2. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 frontmatter `author:` 短名，去掉尾部 `(@handle)`；无作者用 `_unknown`；非法路径字符去掉或改全角）。
+3. 配图：`raw/articles/_media/<slug>/`（`<slug>` 短、稳定、偏 ASCII；**不**放进作者目录）；正文相对链接写成 `../_media/<slug>/...`。
 4. 更新根目录 `raw-manifest.yaml`（成文型）：
-   - `id`、`path`（`raw/articles/<人话标题>.md`）、`title`、`domain`、`status: claimed`、`url`（如有）、`added`
+   - `id`、`path`（`raw/articles/<作者>/<人话标题>.md`）、`title`、`domain`、`status: claimed`、`url`（如有）、`added`
 
 `domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体资料可 `shared`。
 
@@ -59,7 +59,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 - 复制 `templates/reference.md`
 - `type: Reference`
-- `resource` 指向 `/raw/articles/原文标题.md`（或原文 URL；书签可指向 `/raw/bookmarks/github.md` / `sites.md`）
+- `resource` 指向 `/raw/articles/<作者>/原文标题.md`（或原文 URL；书签可指向 `/raw/bookmarks/github.md` / `sites.md`）
 - `domain`、`generated`、`title`、`description` 填好
 - 正文写极短要点 + 入库价值（几条即可）
 
@@ -81,7 +81,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] 成文型：`raw/articles/<人话标题>.md`（配图在 `_media/<slug>/`）；书签型：已追加到 `raw/bookmarks/github.md` 或 `sites.md`
+- [ ] 成文型：`raw/articles/<作者>/<人话标题>.md`（配图在 `_media/<slug>/`）；书签型：已追加到 `raw/bookmarks/github.md` 或 `sites.md`
 - [ ] 成文型：`raw-manifest.yaml` 已 claimed（书签型无需 per-link claim）
 - [ ] 恰好 1 条 Reference（除非用户明确要求更多来源）
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）

@@ -13,7 +13,7 @@ date: "2026-08-29 15:42:24"
 
 当多个 AI Agent 组队完成一个复杂任务时，会发生什么？
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_1.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_1.png)
 
 ```
 
@@ -41,7 +41,7 @@ Anthropic 最近发布了一项研究，系统性地测试了多 Agent 系统在
 
 在漏洞检测实验中，Mythos Preview 模型上的 45 个协作 Agent 找到了 266 个漏洞，而独立并行的 Agent 只找到了 21 个。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_2.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_2.png)
 
 看起来协作效果很好，但细看数据会发现两个问题。
 
@@ -51,11 +51,11 @@ Anthropic 最近发布了一项研究，系统性地测试了多 Agent 系统在
 
 在协作开发实验中，不同模型的表现差异很大。较早的模型（如 Sonnet 4.6 和 Opus 4.6）协作得很差，它们虽然往同一个代码库提交代码，但大部分 PR（pull request，代码合并请求）无法合并，因为经常冲突。较新的模型（如 Opus 4.8）解决了冲突问题，但代价是几乎不合作，绝大多数 Agent 只维护自己拥有的文件。只有最新的 Sonnet 5 能在保持高 PR 合并率的同时，真正共享代码协作。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_3.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_3.png)
 
 PR 的数量更能说明问题。一次 80 个 Agent 的运行里，Sonnet 4.6 开了 876 个 PR，Opus 4.6 开了 980 个，但真正合并进去的只有十分之一左右。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_4.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_4.png)
 
 协调的难点在于，当 Agent 开始依赖彼此的工作时，冲突和同步问题会急剧增加。
 
@@ -79,11 +79,11 @@ PR 的数量更能说明问题。一次 80 个 Agent 的运行里，Sonnet 4.6 �
 
 第一个是说谎检测实验。每个 Agent 需要在四个侦察兵的报告基础上做决策，其中一个侦察兵会说谎。研究团队对比了"信任所有人"的朴素策略和"发现矛盾就排除"的智能策略。结果显示，Mythos 5 和 Opus 4.8 这类较新的模型能更好地通过对比不同侦察兵报告之间的矛盾（交叉验证）来识别谎言，但这种能力在所有模型中都没有完全成熟。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_5.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_5.png)
 
 第二个是隐藏信息实验。四个 Agent 一组，每个场景跑 400 轮，团队把事实分散到这组 Agent 中，让它们通过讨论做决策。有些信息是共享的（所有人都知道），有些是独有的（只有某个 Agent 知道）。实验发现，群体讨论往往会收敛到共享信息上，即使独有信息指向完全不同的结论。具体来看，只有 Mythos 5 有 85% 的概率选中那个藏在个体手里的正确答案，其余四个模型都在 17% 到 36% 之间，而单独一个 Agent 掌握全部信息时的上限约为 96%。这跟人类群体决策中的"信息级联"现象类似（即群体倾向于跟随先发言者的意见，导致信息单一化）。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_6.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_6.png)
 
 核心问题在于，Agent 缺乏人类社会的信任机制。人类可以通过声誉、成本信号、第三方仲裁等方式建立信任，但 Agent 之间没有这些机制。一个 Agent 的信息来源是否可靠，它是否在说谎，其他 Agent 很难判断。
 
@@ -97,11 +97,11 @@ PR 的数量更能说明问题。一次 80 个 Agent 的运行里，Sonnet 4.6 �
 
 冲突的收场方式分四类。98% 的 Mythos 5 以休战收场，Sonnet 4.6 和 Opus 4.6 多以武力或未解决告终。还有一部分冲突以放弃升级收场，除一个 Agent 外，其他都拒绝继续对抗，Opus 4.8 有三分之一属于这一类。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_7.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_7.png)
 
 从解决耗时看，Sonnet 4.6 有 47 次、Opus 4.6 有 48 次冲突始终没解决，占到各自 120 次运行的四成。Opus 4.8 和 Mythos 系列的中位数在 1 小时左右，但也有拖到 3 小时以上的。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_8.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_8.png)
 
 这种协调能力并不随模型能力单调提升。Mythos Preview 经常先动用武力锁定对手，然后再达成休战。
 
@@ -111,7 +111,7 @@ Anthropic 的研究表明，多 Agent 系统的风险不是单个 Agent 对齐�
 
 协调不会因为模型变强就自己长出来。我们需要为 Agent 设计新的社会基础设施，包括信任机制、冲突解决协议。论文只提了中心论坛作为可能方案，我们还需要探索一些论文还没给出答案的方向，比如防止从众的多样性保护机制。这些问题的解决可能需要重新思考多 Agent 系统的架构设计，而不是简单地堆叠更多 Agent。
 
-![](./_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_9.png)
+![](../_media/anthropic-multiagent-failures/Datawhale_KW5vvF2w1pkkBW36lLDcAg_9.png)
 
 ### 一起“**点****赞”****三连**↓
 

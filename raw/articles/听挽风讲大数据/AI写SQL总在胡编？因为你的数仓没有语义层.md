@@ -23,19 +23,19 @@ date: "2026-08-23 04:00:00"
 
 不是它不想答对，是它真的不知道。所以幻觉不是模型 bug，是数学必然：**让 AI 在没有答案的地方找答案，它只能编。** 换 GPT-100 也一样。
 
-![](./_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_1.png)
+![](../_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_1.png)
 
 ### 02 语义层：把口径搬进机器
 
 解法不是多喂文档，是给数仓建一个语义层。一句话定义：**语义层是把口径知识工程化——指标、维度、粒度、筛选规则，从人脑和文档里，搬进机器可读的结构。** 原子指标、派生指标、维度关系全部定义清楚，横在物理表和 AI 之间。
 
-![](./_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_2.png)
+![](../_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_2.png)
 
 语义层长什么样？粗看是几行指标定义，细看是两层：逻辑层定义口径，物理层映射到具体表和字段——中间是确定的翻译规则，配上血缘元数据。它不神秘，就是一份机器能执行的"口径说明书"。
 
 有了语义层，AI 查数的方式整个变了。它不再写 SQL——写 SQL 等于让它猜表、猜字段、猜聚合逻辑。它变成"选口径"：选哪个指标、按哪个维度、加什么筛选。选完之后，SQL 由语义引擎确定性地翻译。
 
-![](./_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_3.png)
+![](../_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_3.png)
 
 这一步是范式级的：从 Text2SQL，变成 Text2Semantic2SQL。幻觉从"生成层"被压到"选择层"，而选择空间被语义模型锁死——AI 只能在有定义的口径里选，选不到就承认没有。
 
@@ -47,7 +47,7 @@ date: "2026-08-23 04:00:00"
 
 第一站，口径写在文档里，靠人读——靠人看的规则，注定退化。 第二站，口径落进指标库，结构化、可校验——从"约定"变"校验"。 第三站，就是语义层——口径变成机器可执行的模型，AI 和 BI 直接消费，口径改一处，全链路生效。
 
-![](./_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_4.png)
+![](../_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_4.png)
 
 走到第三站，最大的坑已经不是技术，是"谁有权定义语义"。每个业务线各建各的语义模型，等于把"三张 GMV 表"的问题，从物理表层面搬到了语义层面——表对不上变成模型对不上，更隐蔽。所以语义模型的原子口径，只能有一份，挂在公共层。宪法要延伸到语义层。
 
@@ -55,7 +55,7 @@ date: "2026-08-23 04:00:00"
 
 现在评估一组指标要不要语义化，我问三问。
 
-![](./_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_5.png)
+![](../_media/semantic-layer-chatbi/听挽风讲大数据_PXBE64nD0iO_ucexc5-XaQ_5.png)
 
 第一，会被 AI 或 BI 直接消费吗？消费方越多，语义化的杠杆越大，值得建。
 

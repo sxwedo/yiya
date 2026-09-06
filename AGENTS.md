@@ -26,8 +26,8 @@
 ## raw
 
 - 书签：`raw/bookmarks/github.md` / `sites.md`（追加列表条目；不建 per-project stub）
-- 成文：`raw/articles/<人话标题>.md`（**扁平**，无 YYYY/MM、无 slug 目录）
-- 配图：`raw/articles/_media/<slug>/`；正文内相对链接 `./_media/<slug>/...`
+- 成文：`raw/articles/<作者>/<人话标题>.md`（按作者分目录；无作者 `_unknown/`；无 YYYY/MM、无 slug 目录）
+- 配图：`raw/articles/_media/<slug>/`（保持顶层，不进作者目录）；正文内相对链接 `../_media/<slug>/...`
 - 认领：成文型改 `raw-manifest.yaml`（`domain` + `path`）；书签**不** per-link claim
 - 禁止按域复制原件
 
@@ -56,8 +56,8 @@ sources: []
 ## 两种入库入口
 
 ### 成文型（文章 / 长帖）
-- `clix read` 或等价抓正文 → `raw/articles/<人话标题>.md` + manifest claim
-- 配图放入 `raw/articles/_media/<slug>/`，正文链接写成 `./_media/<slug>/...`
+- `clix read` 或等价抓正文 → `raw/articles/<作者>/<人话标题>.md` + manifest claim
+- 配图放入 `raw/articles/_media/<slug>/`，正文链接写成 `../_media/<slug>/...`
 - **1 Reference**（可指 raw）+ **1～2** Concept/Entity（具名产品必须有 Entity）
 
 ### 书签型（网站 / GitHub 项目 / 工具主页）

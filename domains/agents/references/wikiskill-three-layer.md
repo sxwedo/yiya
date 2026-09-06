@@ -5,7 +5,7 @@ description: "Datawhale 解读 Google Research WikiSkill：Raw / Wiki / Skills �
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:24:00Z }
-resource: /raw/articles/谷歌重磅发布WikiSkill，技能可以自己进化了！.md
+resource: /raw/articles/Datawhale/谷歌重磅发布WikiSkill，技能可以自己进化了！.md
 sources: []
 ---
 

@@ -5,7 +5,7 @@ description: "解读 Andrew Ng：构建 AI 应用六项子技能中，评测驱�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:25:00Z }
-resource: /raw/articles/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
+resource: /raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
 sources: []
 ---
 

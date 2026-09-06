@@ -9,11 +9,11 @@ date: "2026-08-19 00:45:00"
 
 关注腾讯云开发者，一手技术干货提前解锁👇
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_1.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_1.png)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_2.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_2.png)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_3.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_3.png)
 
 开发者公众号专属群聊
 
@@ -27,7 +27,7 @@ date: "2026-08-19 00:45:00"
 
 AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端到端交付周期"，会发现团队收益并没有被充分兑现——研发效率、组织协调、交付效率三者，呈现出明显的"分化"：
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_4.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_4.png)
 
 备注：
 
@@ -37,7 +37,7 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 中位数在改善，但 P85始终顽固地停在 3 个双周迭代以上——远超“一个双周迭代内交付”的预期。AI 提升的研发个体效率并没有转化为组织交付效率。下面是几个真实的交付周期数据（剔除法定假日和周末，按工作日计算）：
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_5.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_5.png)
 
 # 02
 
@@ -57,7 +57,7 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 组织摩擦究竟有多大？以下是我们分析的四个真实案例。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_6.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_6.png)
 
 它们的共同点是：真正编码的时间很短，绝大部分周期都耗在了"协作"上。换句话说：**AI Coding 提升了"编码效率"，但组织提效还需要进一步解决"协作效率"问题。**
 
@@ -69,7 +69,7 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 过去，PM工作更多关注"任务有没有人做""节点有没有延期""风险有没有暴露"。这些工作在今天依然重要，是项目顺利交付的基础。但在 AI 时代，仅仅保障节点不失控已经不够：当AI极大的提升了编码效率之后，项目排期、协作、联调、质量和状态流转等环节中的低效因素被极速放大。项目管理工作需要强化**效率治理**：在保障项目按质交付的基础上，持续发现并消除影响项目过程效率的摩擦与损耗。主要从两个维度入手：
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_7.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_7.png)
 
 两个独立价值维度：先把 PM 从事务性工作中解放出来，再用解放出来的精力去治理组织摩擦
 
@@ -107,7 +107,7 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 这为后续分析组织摩擦，建立了统一的语义基础。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_8.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_8.png)
 
 ### 4.2 第二步 ·数据可信：校准状态推断 ###
 
@@ -115,7 +115,7 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 因此，我们重新设计状态流转机制：借助于 TAPD 自动化规则，由任务状态变化、评审完成、测试流转、发布节点等事件自动驱动状态变化，从"人工汇报状态"转向"系统推断状态"。 
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_9.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_9.png)
 
 这样，阶段耗时、等待时长、Lead Time 等指标才真正具有统计意义，也为 AI 持续分析提供了可信的数据基础。**数字化不是目的。可信的数据，才是 AI 发挥价值的前提。**
 
@@ -129,9 +129,9 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 过去，项目经理每天需要在大量任务中寻找问题；现在，AI 持续完成第一轮筛选，项目经理直接面对需要判断和推动的重点事项。项目管理开始从"推进任务"，转向"治理等待"，及时解决整个项目组协作过程中的问题。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_10.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_10.png)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_11.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_11.png)
 
 ### 4.4 第四步 ·瓶颈挖掘：系统级优化 ###
 
@@ -147,9 +147,9 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 相比发现单个风险，更重要的是识别长期存在的组织瓶颈，并持续推动优化。项目管理关注的对象，也从"一个个需求、一项项任务"，逐步转向"整个组织交付系统"。 
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_12.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_12.png)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_13.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_13.png)
 
 ### 4.5 小结：四步是一条递进的治理路径 ###
 
@@ -171,7 +171,7 @@ AI 辅助开发后，研发个体产出有明显提升，但把视角拉到"端�
 
 AI 负责：发现问题、定位任务、呈现数据 ｜ PM 负责：判断原因、决定调配、推动解决
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_14.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_14.png)
 
 ### 5.1 项目治理 Skill：建立项目运行的数字化基础 ###
 
@@ -179,7 +179,7 @@ AI 负责：发现问题、定位任务、呈现数据 ｜ PM 负责：判断原
 
 在腾讯健康项目中，我们先对工作流和自动化规则做治理，把状态流转从"人手动更新"尽量转为"规则触发"。直接结果是：阶段耗时、等待时长、状态停留时间，才真正具有统计意义。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_15.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_15.png)
 
 腾讯健康项目治理：自动化 & 工作流
 
@@ -193,9 +193,9 @@ AI 负责：发现问题、定位任务、呈现数据 ｜ PM 负责：判断原
 
 * **晚间复盘**自动对比当天变化，回看晨间推进事项有没有进展——哪些需求推进了、哪些未变化、哪些新进入或恶化，从而形成"早上定行动、晚上看结果"的闭环。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_16.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_16.png)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_17.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_17.png)
 
 **健康度分析-**解决的是"周期性问题"：项目为什么慢、慢在哪、下一步该治理什么？
 
@@ -203,7 +203,7 @@ AI 负责：发现问题、定位任务、呈现数据 ｜ PM 负责：判断原
 
 把"感觉上很忙""好像一直在返工""某阶段总是在等"，转化成可解释的数据证据。 
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_18.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_18.png)
 
 交付效率分析 / 质量分析/改进建议
 
@@ -213,33 +213,33 @@ AI 负责：发现问题、定位任务、呈现数据 ｜ PM 负责：判断原
 
 这个 Skill 的目标不是替代 PM 做排期决策，而是把需求规模、角色依赖、人员负载、阶段先后关系结构化呈现出来，辅助 PM 更快形成可执行的排期方案。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_19.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_19.png)
 
 ### 5.4 实践成果：用数据说话 ###
 
 成果一 · PM 个体提效：从"找问题"到"解问题"
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_20.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_20.png)
 
 提效后：由 Skill 自动产出晨间快照、晚间复盘、健康度分析，PM 聚焦决策。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_21.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_21.png)
 
 ### **成果二 · 组织提效：整体提速，交付可预测性倍增** ###
 
 在 AI 辅助的项目管理新范式下，工具负责持续暴露异常，PM据此实施的协作机制调整，研发效率开始逐步传递到整个项目交付过程。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_22.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_22.png)
 
 过去这些协作问题通常要等到联调冲突，版本延期或迭代复盘才暴露，滞后1—2周； 
 
 现在问题发现从"事后1—2周"提前到"风险出现的1—3天内"，PM的介入窗口从"延期已成事实"前移到"风险刚开始累积"。以下是实际项目中的几个案例说明：
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_23.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_23.png)
 
 以业务需求交付周期为例，呈现出"整体提速、交付可预测性倍增（P85 与中位数差距缩小）"的良好态势——意味着组织从"部分需求快、部分需求慢"的分化状态，走向更稳定、更可预期的交付节奏。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_24.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_24.png)
 
 腾讯健康-业务需求交付效率周期趋势（2025-10 \~ 2026-05）：中位数 19→9 天，P85 52→23 天，可预测性 33→15 天
 
@@ -247,7 +247,7 @@ AI 负责：发现问题、定位任务、呈现数据 ｜ PM 负责：判断原
 
 * 中位数首次进入个位数（9 天）：意味着项目内一半以上的需求，可以在 2 周（一个双周迭代）内闭环。
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_25.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_25.png)
 
 交付周期分布明细：≤14 天占比升至 71%，\>30 天与 ≥60 天持续收敛
 
@@ -265,19 +265,19 @@ AI 工具（代码生成自动化测试）缩短了常规任务的吞吐时间�
 
 感谢你读到这里，不如关注一下？👇
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_26.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_26.png)
 
 扫码领取腾讯云开发者专属服务器代金券！
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_27.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_27.png)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_28.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_28.png)
 
-[![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_29.png)](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247695850&idx=1&sn=ecfbc2739caa6d9ebda151aadc400c8a&scene=21#wechat_redirect)
+[![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_29.png)](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247695850&idx=1&sn=ecfbc2739caa6d9ebda151aadc400c8a&scene=21#wechat_redirect)
 
-[![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_30.png)](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247695865&idx=1&sn=d300189a3247bb4da82e03c2c1d9e772&scene=21#wechat_redirect)
+[![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_30.png)](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247695865&idx=1&sn=d300189a3247bb4da82e03c2c1d9e772&scene=21#wechat_redirect)
 
-[![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_31.png)](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247695963&idx=1&sn=29f18a2db784e1ddb56796af76543688&scene=21#wechat_redirect)
+[![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_31.png)](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247695963&idx=1&sn=29f18a2db784e1ddb56796af76543688&scene=21#wechat_redirect)
 
-![](./_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_32.png)
+![](../_media/ai-coding-pm-paradigm/腾讯云开发者_qmNj7b5vOsL3Aji01-7BLw_32.png)
 

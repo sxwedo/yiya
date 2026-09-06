@@ -5,7 +5,7 @@ description: "JavaGuide 转述 Lingxi Li《Grok Bot for Engineering》：工程 
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
-resource: /raw/articles/一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了.md
+resource: /raw/articles/JavaGuide/一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了.md
 sources: []
 ---
 
