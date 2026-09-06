@@ -24,5 +24,7 @@ sources:
 
 ## Related
 
+- [oh-my-pi](/entities/oh-my-pi.md)
+
 - [Advisor](/concepts/advisor.md)
 - [Minimal Agent Harness](/concepts/minimal-agent-harness.md)

@@ -6,9 +6,8 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
-  - advisor
+  - oh-my-pi
   - minimal-agent-harness
-  - ttsr
 sources:
   - /references/pi-vs-oh-my-pi.md
 ---
@@ -21,6 +20,5 @@ sources:
 
 ## Related
 
+- [oh-my-pi](/entities/oh-my-pi.md)
 - [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
-- [Advisor](/concepts/advisor.md)
-- [TTSR](/concepts/ttsr.md)

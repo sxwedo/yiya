@@ -1,6 +1,7 @@
 # Agent 与 Grok Bot — Log
 
 ## 2026-09-06
+* **Entity**: 新建 [oh-my-pi](./entities/oh-my-pi.md)；更新 [Pi](./entities/pi.md) 与 overview 实体表；Advisor/TTSR/Minimal Harness 互链产品实体。
 * **Decision**: 明确 Entity=具名产品/人；盘点顺序 Domain→Entity→Concept→Reference；修复「Pi 派」误解的根因（展示+词表+overview 空）。
 * **Update**: 存量 Concept/Entity 补 `## Related` 互链与 `related:`；规则写入根 AGENTS.md / yiya-ingest。
 * **Ingest**: [得物复合检索 Agent](./references/dewu-compound-retrieval-agent.md) → concepts [复合检索 Agent](./concepts/compound-retrieval-agent.md), [检索质量 Pipeline](./concepts/retrieval-quality-pipeline.md).

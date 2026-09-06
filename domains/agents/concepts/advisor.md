@@ -26,5 +26,7 @@ sources:
 
 ## Related
 
+- [oh-my-pi](/entities/oh-my-pi.md)
+
 - [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
 - [TTSR](/concepts/ttsr.md)

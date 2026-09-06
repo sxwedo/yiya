@@ -25,6 +25,10 @@ sources:
 
 ## Related
 
+- [Pi](/entities/pi.md)
+
+- [oh-my-pi](/entities/oh-my-pi.md)
+
 - [Advisor](/concepts/advisor.md)
 - [Delivery Harness](/concepts/delivery-harness.md)
 - [Evidence Gate](/concepts/evidence-gate.md)
