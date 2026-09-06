@@ -1,3 +1,3 @@
 # references
 
-（空。）
+* [LLM Wiki](./karpathy-llm-wiki.md)

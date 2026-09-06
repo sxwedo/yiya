@@ -22,3 +22,7 @@ sources: []
 - [Grok Bot](../domains/agents/entities/grok-bot.md)
 - [Pi](../domains/agents/entities/pi.md)
 - [oh-my-pi](../domains/agents/entities/oh-my-pi.md)
+
+## 跨域纲领
+
+- [LLM Wiki](./concepts/llm-wiki.md)（[Karpathy](./entities/karpathy.md)）

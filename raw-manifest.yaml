@@ -141,3 +141,10 @@ entries:
     status: claimed
     url: https://x.com/Bright_OSPO/status/2095072411284812248
     added: 2026-09-06
+  - id: karpathy-llm-wiki
+    path: raw/articles/Karpathy/LLM Wiki.md
+    title: "LLM Wiki"
+    domain: shared
+    status: claimed
+    url: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+    added: 2026-09-06

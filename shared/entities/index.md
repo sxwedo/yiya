@@ -1,3 +1,3 @@
 # entities
 
-（空。）
+* [Andrej Karpathy](./karpathy.md)
