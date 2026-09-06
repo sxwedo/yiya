@@ -59,11 +59,12 @@ sources: []
 - **1 Reference**（可指 raw）+ **1～2** Concept/Entity（具名产品必须有 Entity）
 
 ### 书签型（网站 / GitHub 项目 / 工具主页）
-- **不**默认灌整站进 raw
-- 建/更新 **Entity**（具名站点或项目）
-- 再建 **1 条 Reference**：`resource:` 为 URL；正文写「为什么收藏、何时用」；可 `tags: [bookmark]` 或 `[github]`
+- **不**默认灌整站进 raw；**不要** `clix read` 全站
+- **必须**写一条 raw 链接 stub：`raw/library/YYYY/MM/<slug>/`，文件名用人话标题或短名如 `github.md`；正文只含 URL + 极短元数据（`title` / `url` / `date` / `kind: bookmark`），禁止整站正文
+- **必须**在 `raw-manifest.yaml` claimed
+- 建/更新 **Entity** + **1 条 Reference**：`resource:` 优先指向该 raw stub；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
 - 以后读到站内某篇，再按成文型单独 ingest
-- 已有 Entity 时只补/更新 Reference，勿重复建实体
+- 已有 Entity 时只补/更新 Reference 与 stub，勿重复建实体
 
 ## Entity vs Concept
 

@@ -1,6 +1,7 @@
 # Agent 与 Grok Bot — Log
 
 ## 2026-09-06
+* **Update**: 书签型必须写 raw 链接 stub + claimed；回填 [earendil-works/pi](./references/earendil-pi-github.md) stub。
 * **Update**: AGENTS + yiya-ingest 增加书签型入口（Entity + URL Reference，不灌整站）。
 * **Entity**: 新建 [oh-my-pi](./entities/oh-my-pi.md)；更新 [Pi](./entities/pi.md) 与 overview 实体表；Advisor/TTSR/Minimal Harness 互链产品实体。
 * **Decision**: 明确 Entity=具名产品/人；盘点顺序 Domain→Entity→Concept→Reference；修复「Pi 派」误解的根因（展示+词表+overview 空）。

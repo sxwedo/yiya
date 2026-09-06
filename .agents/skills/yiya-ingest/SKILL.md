@@ -28,10 +28,12 @@ argument-hint: "[url-or-path] [domain?]"
 - **成文型**（文章/长帖）：走下方「捕捉正文 → raw → Reference → 概念」全流程。
 - **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
   1. 判定 domain；建或更新 **Entity**
-  2. **一条** Reference：`resource:` = URL；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
-  3. **不要** `clix read` 整站，**不要** 无必要写 raw
-  4. 已有同名 Entity（如 Pi）→ 只补 Reference 与 Related，禁止新建重复实体
-  5. 完成标准：Entity + URL Reference；manifest 可选（无 raw 时可只记 Entity/Ref，或在 Reference 正文注明未进 raw）
+  2. **必须**写 raw 链接 stub：`raw/library/YYYY/MM/<slug>/`（如 `github.md`）；正文仅 URL + 极短元数据（`title` / `url` / `date` / `kind: bookmark`），禁止整站正文
+  3. **必须**在 `raw-manifest.yaml` claimed
+  4. **一条** Reference：`resource:` 优先指向该 raw stub；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
+  5. **不要** `clix read` 整站
+  6. 已有同名 Entity（如 Pi）→ 只补 Reference、stub 与 Related，禁止新建重复实体
+  7. 完成标准：Entity + Reference + raw stub + claimed
 
 
 ## 步骤
@@ -79,7 +81,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] raw 正文在 `library/YYYY/MM/<slug>/` 且文件名人话标题
+- [ ] raw 在 `library/YYYY/MM/<slug>/`：成文型为人话标题正文；书签型为链接 stub（如 `github.md`，仅 URL + 元数据）
 - [ ] `raw-manifest.yaml` 已 claimed
 - [ ] 恰好 1 条 Reference（除非用户明确要求更多来源）
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）

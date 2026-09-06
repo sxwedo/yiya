@@ -121,3 +121,10 @@ entries:
     url: https://mp.weixin.qq.com/s/EIXbIqUYcnFHpwAiPsJDEg
     added: 2026-09-06
 
+  - id: earendil-pi-github
+    path: raw/library/2026/09/earendil-pi-github/github.md
+    title: earendil-works/pi（GitHub）
+    domain: agents
+    status: claimed
+    url: https://github.com/earendil-works/pi
+    added: 2026-09-06
