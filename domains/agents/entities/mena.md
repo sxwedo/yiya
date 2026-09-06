@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:45:00Z }
 related:
+  - mcp
   - omarchy
   - multi-harness-control-plane
   - pi
@@ -24,6 +25,7 @@ sources:
 
 ## Related
 
+- [Model Context Protocol (MCP)](./mcp.md)
 - [Omarchy](./omarchy.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
 - [sxwedo/mena（GitHub）](../references/sxwedo-mena-github.md)

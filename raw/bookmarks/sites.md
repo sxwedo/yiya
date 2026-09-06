@@ -5,3 +5,4 @@
 | Claude Academy | https://academy.claude.com | Anthropic | Anthropic 官方学院：学用 Claude（Code/Cowork/Platform 等）与 AI Fluency 课程 |
 | Pi | https://pi.dev | earendil-works | 极简终端编码代理官网：文档、扩展、Packages、Skills |
 | Omarchy | https://omarchy.org | DHH / 37signals | DHH 的意见化 Arch+Hyprland 桌面：把 coding agent 当一等公民（懒加载启动器 + 系统 skill） |
+| Model Context Protocol | https://modelcontextprotocol.io/ | Anthropic / 社区 | 连接 AI 应用与外部系统的开放标准（工具/数据/工作流；常比作 AI 的 USB-C） |

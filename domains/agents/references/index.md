@@ -18,3 +18,4 @@
 * [主流 Agent 之「Pi」与「oh-my-pi」介绍](./pi-vs-oh-my-pi.md)
 * [谷歌重磅发布WikiSkill，技能可以自己进化了！](./wikiskill-three-layer.md)
 * [Omarchy（站点）](./omarchy-site.md)
+* [MCP（站点）](./mcp-site.md)

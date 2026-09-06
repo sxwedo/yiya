@@ -6,3 +6,4 @@
 * [oh-my-pi](./oh-my-pi.md)
 * [Pi](./pi.md)
 * [Omarchy](./omarchy.md)
+* [Model Context Protocol (MCP)](./mcp.md)
