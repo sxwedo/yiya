@@ -20,5 +20,5 @@ sources: []
 
 ## Related
 
-- [Grok Bot](/entities/grok-bot.md)
-- [Engineering Bot](/concepts/engineering-bot.md)
+- [Grok Bot](../entities/grok-bot.md)
+- [Engineering Bot](../concepts/engineering-bot.md)

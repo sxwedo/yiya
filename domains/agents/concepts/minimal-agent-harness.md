@@ -26,13 +26,13 @@ sources:
 
 ## Related
 
-- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
-- [Pi](/entities/pi.md)
+- [Coding Agent Workflow](./coding-agent-workflow.md)
+- [Pi](../entities/pi.md)
 
-- [oh-my-pi](/entities/oh-my-pi.md)
+- [oh-my-pi](../entities/oh-my-pi.md)
 
-- [Advisor](/concepts/advisor.md)
-- [Delivery Harness](/concepts/delivery-harness.md)
-- [Evidence Gate](/concepts/evidence-gate.md)
-- [Harness 自改进](/concepts/harness-self-improvement.md)
-- [TTSR](/concepts/ttsr.md)
+- [Advisor](./advisor.md)
+- [Delivery Harness](./delivery-harness.md)
+- [Evidence Gate](./evidence-gate.md)
+- [Harness 自改进](./harness-self-improvement.md)
+- [TTSR](./ttsr.md)

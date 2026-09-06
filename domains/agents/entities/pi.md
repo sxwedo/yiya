@@ -23,8 +23,8 @@ sources:
 
 ## Related
 
-- [mena](/entities/mena.md)
-- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
-- [earendil-works/pi（GitHub）](/references/earendil-pi-github.md)
-- [oh-my-pi](/entities/oh-my-pi.md)
-- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
+- [mena](./mena.md)
+- [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [earendil-works/pi（GitHub）](../references/earendil-pi-github.md)
+- [oh-my-pi](./oh-my-pi.md)
+- [Minimal Agent Harness](../concepts/minimal-agent-harness.md)

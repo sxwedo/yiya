@@ -30,6 +30,6 @@ sources:
 
 ## Related
 
-- [Delivery Harness](/concepts/delivery-harness.md)
-- [Harness 自改进](/concepts/harness-self-improvement.md)
-- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
+- [Delivery Harness](./delivery-harness.md)
+- [Harness 自改进](./harness-self-improvement.md)
+- [Minimal Agent Harness](./minimal-agent-harness.md)

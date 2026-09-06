@@ -30,7 +30,7 @@ sources:
 
 ## Related
 
-- [Grok Bot](/entities/grok-bot.md)
-- [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
-- [Delivery Harness](/concepts/delivery-harness.md)
-- [Engineering Bot](/concepts/engineering-bot.md)
+- [Grok Bot](../entities/grok-bot.md)
+- [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
+- [Delivery Harness](./delivery-harness.md)
+- [Engineering Bot](./engineering-bot.md)

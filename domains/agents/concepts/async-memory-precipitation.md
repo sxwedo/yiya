@@ -24,6 +24,6 @@ sources:
 
 ## Related
 
-- [四层 Agent 记忆](/concepts/four-layer-agent-memory.md)
-- [历史不等于记忆](/concepts/history-vs-memory.md)
-- [在线记忆流水线](/concepts/online-memory-pipeline.md)
+- [四层 Agent 记忆](./four-layer-agent-memory.md)
+- [历史不等于记忆](./history-vs-memory.md)
+- [在线记忆流水线](./online-memory-pipeline.md)

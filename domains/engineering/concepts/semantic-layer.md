@@ -23,8 +23,8 @@ sources:
 
 ## Related
 
-- [业务 Ontology](/concepts/business-ontology.md)
-- [语义工程师](/concepts/semantic-engineer.md)
-- [Semantic Service](/concepts/semantic-service.md)
-- [Text2Semantic2SQL](/concepts/text2semantic2sql.md)
+- [业务 Ontology](./business-ontology.md)
+- [语义工程师](./semantic-engineer.md)
+- [Semantic Service](./semantic-service.md)
+- [Text2Semantic2SQL](./text2semantic2sql.md)
 - [WikiSkill 三层架构](../../agents/concepts/wikiskill-architecture.md)

@@ -23,4 +23,4 @@ sources:
 
 ## Related
 
-- [知识与技能分离](/concepts/knowledge-skill-separation.md)
+- [知识与技能分离](./knowledge-skill-separation.md)

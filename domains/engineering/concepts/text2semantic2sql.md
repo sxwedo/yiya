@@ -22,7 +22,7 @@ sources:
 
 ## Related
 
-- [业务 Ontology](/concepts/business-ontology.md)
-- [语义工程师](/concepts/semantic-engineer.md)
-- [语义层](/concepts/semantic-layer.md)
-- [Semantic Service](/concepts/semantic-service.md)
+- [业务 Ontology](./business-ontology.md)
+- [语义工程师](./semantic-engineer.md)
+- [语义层](./semantic-layer.md)
+- [Semantic Service](./semantic-service.md)

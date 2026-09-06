@@ -26,7 +26,7 @@ sources:
 
 ## Related
 
-- [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
-- [Delivery Harness](/concepts/delivery-harness.md)
-- [Evidence Gate](/concepts/evidence-gate.md)
-- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
+- [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
+- [Delivery Harness](./delivery-harness.md)
+- [Evidence Gate](./evidence-gate.md)
+- [Minimal Agent Harness](./minimal-agent-harness.md)

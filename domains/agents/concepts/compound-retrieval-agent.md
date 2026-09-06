@@ -20,5 +20,5 @@ sources:
 
 ## Related
 
-- [检索质量 Pipeline](/concepts/retrieval-quality-pipeline.md)
+- [检索质量 Pipeline](./retrieval-quality-pipeline.md)
 - [LLM 排序语义表征](../../engineering/concepts/llm-semantic-ranking-embedding.md)

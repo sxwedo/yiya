@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [PM 效率治理](/concepts/pm-efficiency-governance.md)
+- [PM 效率治理](./pm-efficiency-governance.md)

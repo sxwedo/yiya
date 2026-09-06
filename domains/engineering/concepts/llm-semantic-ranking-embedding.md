@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [表征难负样本](/concepts/embedding-hard-negatives.md)
+- [表征难负样本](./embedding-hard-negatives.md)

@@ -27,5 +27,5 @@ sources:
 
 ## Related
 
-- [Grok Bot](/entities/grok-bot.md)
-- [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)
+- [Grok Bot](../entities/grok-bot.md)
+- [Playbook 反馈闭环](./playbook-feedback-loop.md)

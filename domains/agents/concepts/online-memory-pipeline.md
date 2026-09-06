@@ -26,6 +26,6 @@ sources:
 
 ## Related
 
-- [异步记忆沉淀](/concepts/async-memory-precipitation.md)
-- [四层 Agent 记忆](/concepts/four-layer-agent-memory.md)
-- [历史不等于记忆](/concepts/history-vs-memory.md)
+- [异步记忆沉淀](./async-memory-precipitation.md)
+- [四层 Agent 记忆](./four-layer-agent-memory.md)
+- [历史不等于记忆](./history-vs-memory.md)

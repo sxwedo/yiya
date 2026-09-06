@@ -20,4 +20,4 @@ related:
 
 ## Related
 
-- [Pi](/entities/pi.md)
+- [Pi](../entities/pi.md)

@@ -21,4 +21,4 @@ sources:
 
 ## Related
 
-- [Agent 遥测接入形态](/concepts/agent-telemetry-ingress.md)
+- [Agent 遥测接入形态](./agent-telemetry-ingress.md)

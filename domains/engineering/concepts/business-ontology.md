@@ -26,7 +26,7 @@ sources:
 
 ## Related
 
-- [语义工程师](/concepts/semantic-engineer.md)
-- [语义层](/concepts/semantic-layer.md)
-- [Semantic Service](/concepts/semantic-service.md)
-- [Text2Semantic2SQL](/concepts/text2semantic2sql.md)
+- [语义工程师](./semantic-engineer.md)
+- [语义层](./semantic-layer.md)
+- [Semantic Service](./semantic-service.md)
+- [Text2Semantic2SQL](./text2semantic2sql.md)

@@ -21,4 +21,4 @@ related:
 
 ## Related
 
-- [Claude Academy](/entities/claude-academy.md)
+- [Claude Academy](../entities/claude-academy.md)

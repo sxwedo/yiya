@@ -20,12 +20,12 @@ sources:
 
 **oh-my-pi**（omp）定位「原生终端编码代理，内置 IDE」。在 Pi 极简哲学之上用 Rust 核心重构，开箱提供 LSP、DAP、子代理、Advisor、TTSR、Hashline、协作与浏览器能力。
 
-选型对照：要极简可控与自建扩展 → [Pi](/entities/pi.md)；要开箱 IDE 级工具链 → oh-my-pi。站点：https://omp.sh/
+选型对照：要极简可控与自建扩展 → [Pi](./pi.md)；要开箱 IDE 级工具链 → oh-my-pi。站点：https://omp.sh/
 
 ## Related
 
-- [mena](/entities/mena.md)
-- [Pi](/entities/pi.md)
-- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
-- [Advisor](/concepts/advisor.md)
-- [TTSR](/concepts/ttsr.md)
+- [mena](./mena.md)
+- [Pi](./pi.md)
+- [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
+- [Advisor](../concepts/advisor.md)
+- [TTSR](../concepts/ttsr.md)

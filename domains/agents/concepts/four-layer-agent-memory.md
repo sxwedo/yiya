@@ -27,7 +27,7 @@ sources:
 
 ## Related
 
-- [异步记忆沉淀](/concepts/async-memory-precipitation.md)
-- [历史不等于记忆](/concepts/history-vs-memory.md)
-- [在线记忆流水线](/concepts/online-memory-pipeline.md)
+- [异步记忆沉淀](./async-memory-precipitation.md)
+- [历史不等于记忆](./history-vs-memory.md)
+- [在线记忆流水线](./online-memory-pipeline.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)

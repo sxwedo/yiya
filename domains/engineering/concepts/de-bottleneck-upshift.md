@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [语义工程师](/concepts/semantic-engineer.md)
+- [语义工程师](./semantic-engineer.md)

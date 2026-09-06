@@ -25,13 +25,13 @@ sources:
 
 要在各阶段有效，还需五块能力：**引导工作流**（速度/成本/风险/人力权衡）、**赋能自主度**（交互 vs 委派、上下文与并行）、**评审产出**（行为/功能验证、agentic review）、**定制 agent 与环境**（Skills/MCP/hooks、`AGENTS.md` 等常驻上下文）、**coding agent 基础**（检索、上下文、子代理、harness 包模型）。
 
-与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](/concepts/minimal-agent-harness.md)、[Delivery Harness](/concepts/delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
+与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
 
 ## Related
 
-- [Claude Academy](/entities/claude-academy.md)
-- [mena](/entities/mena.md)
-- [Pi](/entities/pi.md)
-- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
-- [Delivery Harness](/concepts/delivery-harness.md)
-- [AI Engineering Skills Map: Using coding agents](/references/ng-coding-agents-skills.md)
+- [Claude Academy](../entities/claude-academy.md)
+- [mena](../entities/mena.md)
+- [Pi](../entities/pi.md)
+- [Minimal Agent Harness](./minimal-agent-harness.md)
+- [Delivery Harness](./delivery-harness.md)
+- [AI Engineering Skills Map: Using coding agents](../references/ng-coding-agents-skills.md)

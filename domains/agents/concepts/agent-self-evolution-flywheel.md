@@ -27,7 +27,7 @@ sources:
 
 ## Related
 
-- [Delivery Harness](/concepts/delivery-harness.md)
-- [Harness 自改进](/concepts/harness-self-improvement.md)
-- [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)
+- [Delivery Harness](./delivery-harness.md)
+- [Harness 自改进](./harness-self-improvement.md)
+- [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)

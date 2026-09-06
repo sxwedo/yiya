@@ -26,4 +26,4 @@ sources:
 
 ## Related
 
-- [多智能体失效模式](/concepts/multi-agent-failure-modes.md)
+- [多智能体失效模式](./multi-agent-failure-modes.md)

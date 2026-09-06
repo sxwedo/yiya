@@ -22,8 +22,8 @@ sources:
 
 ## Related
 
-- [sxwedo/mena（GitHub）](/references/sxwedo-mena-github.md)
-- [Pi](/entities/pi.md)
-- [oh-my-pi](/entities/oh-my-pi.md)
-- [Grok Bot](/entities/grok-bot.md)
-- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
+- [sxwedo/mena（GitHub）](../references/sxwedo-mena-github.md)
+- [Pi](./pi.md)
+- [oh-my-pi](./oh-my-pi.md)
+- [Grok Bot](./grok-bot.md)
+- [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

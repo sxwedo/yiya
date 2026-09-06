@@ -24,4 +24,4 @@ sources:
 
 ## Related
 
-- [多智能体治理](/concepts/multi-agent-governance.md)
+- [多智能体治理](./multi-agent-governance.md)

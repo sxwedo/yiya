@@ -22,4 +22,4 @@ sources:
 
 ## Related
 
-- [WikiSkill 三层架构](/concepts/wikiskill-architecture.md)
+- [WikiSkill 三层架构](./wikiskill-architecture.md)

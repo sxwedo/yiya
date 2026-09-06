@@ -21,6 +21,6 @@ sources:
 
 ## Related
 
-- [异步记忆沉淀](/concepts/async-memory-precipitation.md)
-- [四层 Agent 记忆](/concepts/four-layer-agent-memory.md)
-- [在线记忆流水线](/concepts/online-memory-pipeline.md)
+- [异步记忆沉淀](./async-memory-precipitation.md)
+- [四层 Agent 记忆](./four-layer-agent-memory.md)
+- [在线记忆流水线](./online-memory-pipeline.md)

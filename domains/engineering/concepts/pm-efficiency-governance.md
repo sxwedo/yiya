@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [组织摩擦](/concepts/organizational-friction.md)
+- [组织摩擦](./organizational-friction.md)

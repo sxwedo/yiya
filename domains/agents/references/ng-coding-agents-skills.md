@@ -23,5 +23,5 @@ related:
 
 ## Related
 
-- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
-- [Pi](/entities/pi.md)
+- [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [Pi](../entities/pi.md)

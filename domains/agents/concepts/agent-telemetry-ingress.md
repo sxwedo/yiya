@@ -24,4 +24,4 @@ sources:
 
 ## Related
 
-- [Agent OTel 探针](/concepts/agent-otel-probe.md)
+- [Agent OTel 探针](./agent-otel-probe.md)

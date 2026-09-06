@@ -24,9 +24,9 @@ AI 可按已定口径生成 SQL，但不能自主裁决口径冲突。变更管�
 
 ## Related
 
-- [业务 Ontology](/concepts/business-ontology.md)
-- [数据工程瓶颈上移](/concepts/de-bottleneck-upshift.md)
-- [语义层](/concepts/semantic-layer.md)
-- [Semantic Service](/concepts/semantic-service.md)
-- [Text2Semantic2SQL](/concepts/text2semantic2sql.md)
+- [业务 Ontology](./business-ontology.md)
+- [数据工程瓶颈上移](./de-bottleneck-upshift.md)
+- [语义层](./semantic-layer.md)
+- [Semantic Service](./semantic-service.md)
+- [Text2Semantic2SQL](./text2semantic2sql.md)
 - [知识与技能分离](../../agents/concepts/knowledge-skill-separation.md)

@@ -21,4 +21,4 @@ related:
 
 ## Related
 
-- [mena](/entities/mena.md)
+- [mena](../entities/mena.md)

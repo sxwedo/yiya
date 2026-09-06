@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [LLM 排序语义表征](/concepts/llm-semantic-ranking-embedding.md)
+- [LLM 排序语义表征](./llm-semantic-ranking-embedding.md)

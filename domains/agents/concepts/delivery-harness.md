@@ -32,10 +32,10 @@ sources:
 
 ## Related
 
-- [Coding Agent Workflow](/concepts/coding-agent-workflow.md)
-- [Grok Bot](/entities/grok-bot.md)
-- [Agent 自进化飞轮](/concepts/agent-self-evolution-flywheel.md)
-- [Evidence Gate](/concepts/evidence-gate.md)
-- [Harness 自改进](/concepts/harness-self-improvement.md)
-- [Minimal Agent Harness](/concepts/minimal-agent-harness.md)
-- [Playbook 反馈闭环](/concepts/playbook-feedback-loop.md)
+- [Coding Agent Workflow](./coding-agent-workflow.md)
+- [Grok Bot](../entities/grok-bot.md)
+- [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
+- [Evidence Gate](./evidence-gate.md)
+- [Harness 自改进](./harness-self-improvement.md)
+- [Minimal Agent Harness](./minimal-agent-harness.md)
+- [Playbook 反馈闭环](./playbook-feedback-loop.md)

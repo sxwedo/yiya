@@ -23,4 +23,4 @@ sources:
 
 ## Related
 
-- [复合检索 Agent](/concepts/compound-retrieval-agent.md)
+- [复合检索 Agent](./compound-retrieval-agent.md)
