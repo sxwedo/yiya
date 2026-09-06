@@ -34,7 +34,7 @@ shared/                        # 跨域实体
 | 成文 | `clix read` → `articles/<作者>/` + manifest → Entity/Concept 直链 raw |
 | 书签 | 追加 bookmarks 表 → Entity + Reference（指向表） |
 
-成文认领：`raw-manifest.yaml`。书签不 per-link claim。细则与完成标准见 `yiya-ingest`。
+成文认领：`raw-manifest.yaml`。书签不 per-link claim。细则与完成标准见 `yiya-ingest`。入库后做「自生长」结构体检（见下）。
 
 ## OKF 最小字段
 
@@ -52,6 +52,21 @@ related: []
 ```
 
 必有 `type`。保留名：`index.md` / `log.md`。
+
+
+## 自生长（ingest 后）
+
+每次入库（成文或书签）完成后，对照当前 `AGENTS.md` / 目录做一次**结构体检**，问：
+
+- 是否需要**新 Domain**（主题成簇且会反复查养，而非一次性话题）？
+- 是否要改**路由**（该进 agents / engineering / shared）？
+- 是否要改**约定**（raw 命名、书签表列、Reference 规则、互链习惯）？
+- 是否出现应升格到 `shared` 的跨域实体？
+
+**有影响**：用短列表提示用户「建议改什么 + 为什么」；**等用户明确说「改」**再动 AGENTS/目录/skill（结构争议可 @Ori）。用户说「不改」则只在 `log.md` 记一笔跳过。
+**无影响**：安静收口，不提问。
+
+禁止：入库顺手擅自开域、擅自大改 AGENTS。
 
 ## 红线
 

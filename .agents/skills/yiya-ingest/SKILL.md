@@ -76,9 +76,20 @@ argument-hint: "[url-or-path] [domain?]"
 - 更新该 bundle `log.md`（新在前，日期 `YYYY-MM-DD`）
 - 仅当有新页时，更新对应子目录 `index.md` 与必要时 `overview.md`
 
-### 6. 回报
+### 6. 结构体检（自生长）
 
-用简短列表告诉用户：raw 路径、manifest id、新建了哪些 OKF 页。不要贴长文。
+对照根 `AGENTS.md` 与当前目录，判断本批入库是否冲击约定：
+
+- 新 Domain？改路由？改 raw/书签/Reference/互链约定？跨域实体应升 `shared`？
+
+**有实质建议**：回报里用短列表写出「建议改什么 + 为什么」，**停住等用户**说「改」再动 AGENTS/目录（可 @Ori）；说「不改」则 `log.md` 记跳过。
+**无影响**：跳过提问，直接下一步。
+
+禁止顺手开域或大改约定。
+
+### 7. 回报
+
+用简短列表告诉用户：raw 路径、manifest id、新建了哪些 OKF 页；若有结构建议一并附上。不要贴长文。
 
 ## 完成标准
 
@@ -88,3 +99,4 @@ argument-hint: "[url-or-path] [domain?]"
 - [ ] Concept/Entity `sources`（或 Related）能点到 raw
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）
 - [ ] `log.md` 已更新
+- [ ] 已做结构体检：无影响则沉默；有影响则已提示用户并等待「改/不改」
