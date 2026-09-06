@@ -6,11 +6,13 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T02:30:00Z }
 related:
+  - role-first-agent
   - mena
   - engineering-bot
   - playbook-feedback-loop
   - delivery-harness
 sources:
+  - /references/jinchenma-grok-bot-guide.md
   - /references/javaguide-grok-bot-engineering.md
 ---
 
@@ -24,6 +26,8 @@ sources:
 
 ## Related
 
+- [万字长文｜Grok Bot 从入门到精通](../references/jinchenma-grok-bot-guide.md)
+- [Role-first Agent](../concepts/role-first-agent.md)
 - [mena](./mena.md)
 - [Engineering Bot](../concepts/engineering-bot.md)
 - [Playbook 反馈闭环](../concepts/playbook-feedback-loop.md)

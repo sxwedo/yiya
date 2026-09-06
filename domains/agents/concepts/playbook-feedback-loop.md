@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
 related:
+  - role-first-agent
   - grok-bot
   - agent-self-evolution-flywheel
   - delivery-harness
@@ -30,6 +31,7 @@ sources:
 
 ## Related
 
+- [Role-first Agent](./role-first-agent.md)
 - [Grok Bot](../entities/grok-bot.md)
 - [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
 - [Delivery Harness](./delivery-harness.md)

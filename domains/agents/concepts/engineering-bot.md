@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
 related:
+  - role-first-agent
   - grok-bot
   - playbook-feedback-loop
 sources:
@@ -27,5 +28,6 @@ sources:
 
 ## Related
 
+- [Role-first Agent](./role-first-agent.md)
 - [Grok Bot](../entities/grok-bot.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)

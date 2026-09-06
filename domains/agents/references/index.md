@@ -9,6 +9,7 @@
 * [得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付](./dewu-delivery-harness.md)
 * [企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术](./dewu-multiagent-memory.md)
 * [货拉拉大模型记忆系统（一）：从提取到召回的工程实践](./huolala-llm-memory-online.md)
+* [万字长文｜Grok Bot 从入门到精通](./jinchenma-grok-bot-guide.md)
 * [一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了](./javaguide-grok-bot-engineering.md)
 * [oh-my-pi 装完就不管了？这几步配完才真叫好用](./oh-my-pi-setup.md)
 * [earendil-works/pi（GitHub）](./earendil-pi-github.md)

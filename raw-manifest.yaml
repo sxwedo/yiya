@@ -127,3 +127,10 @@ entries:
     status: claimed
     url: https://x.com/AndrewYNg/status/2095890279865721217
     added: 2026-09-06
+  - id: jinchenma-grok-bot-guide
+    path: raw/articles/金尘马/万字长文｜Grok Bot 从入门到精通.md
+    title: "万字长文｜Grok Bot 从入门到精通"
+    domain: agents
+    status: claimed
+    url: https://x.com/jinchenma_ai/status/2094984812251746424
+    added: 2026-09-06
