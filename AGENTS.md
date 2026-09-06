@@ -50,6 +50,15 @@ sources: []
 
 ---
 
+
+## Entity vs Concept
+
+- **Entity**：具名、可指认的对象——产品、框架、公司、人、工具（例：Pi、oh-my-pi、Grok Bot）。
+- **Concept**：可复用的模式、方法、术语（例：Delivery Harness、Evidence Gate）。
+- 一文同时出现「产品 + 模式」时：产品建/链 **Entity**，模式建 **Concept**，二者 `Related` 互链。
+- 盘点/问答列出知识时固定顺序：**Domain → Entity → Concept → Reference**（Entity 不可淹没在 Concept 长列表里）。
+- 口语里的「派 / 阵营」对应 **Entity（及与之 Related 的 Concept）**，不要为此新开 Domain。
+
 ## 概念互链（双链）
 
 - 相关 Concept/Entity **必须**在正文加 `## Related`，用 bundle 根路径互链，如 `[Evidence Gate](/concepts/evidence-gate.md)`。

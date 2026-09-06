@@ -17,9 +17,11 @@ argument-hint: "[url-or-path] [domain?]"
 一文默认只产出：
 
 1. **一条** `type: Reference`
-2. **1～2 个**高信号 `Concept` 或 `Entity`
+2. **1～2 个**高信号页：若文中有**具名产品/框架/公司/人**，其中至少 **1 个必须是 Entity**；模式/方法用 Concept。禁止只写 Concept、把产品名埋在正文里。
 
 禁止 Comparison / Synthesis / Question / Decision「集邮」。有清晰洞见再另开页。
+
+盘点时按 **Entity → Concept → Reference** 报，避免 Entity 被 Concept 列表淹没。
 
 ## 步骤
 
