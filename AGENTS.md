@@ -1,110 +1,60 @@
-# yiya — Agent 手册（精简版）
+# yiya
 
-三件事：
-1. **LLM Wiki**：raw → 编纂 → 更新 log
-2. **OKF v0.2**：概念 = Markdown + YAML；**必有 `type`**；路径即 id；保留名 `index.md` / `log.md`
-3. **Domain**：写入 `domains/<id>/` 或 `shared/`，不要一锅炖
+三层：**raw（原料）→ domains/shared（知识）→ AGENTS/skills（约定）**。
 
-可调用流程在 [`.agents/skills/`](.agents/skills/)（ingest / lint / new-domain / promote-to-shared）。
+流程 skill：`.agents/skills/`（`yiya-ingest` / `yiya-lint` / `yiya-new-domain` / `yiya-promote-to-shared`）。
 
----
+## 架构
 
-## 路由
+```
+raw/
+  _inbox/                      # 未分域
+  bookmarks/github.md|sites.md # 表格：项目/站点 · URL · 作者 · 简介
+  articles/<作者>/<标题>.md    # 成文；无作者 → _unknown/
+  articles/_media/<slug>/      # 配图（不进作者目录）
+domains/<id>/                  # OKF bundle：entities/ · concepts/ · references/（按需）
+shared/                        # 跨域实体
+```
 
-| 内容 | 写入 |
+域路由见 `config/domains.yaml`。敏感进 `private/`（不进 git）。
+
+## 四条规矩
+
+1. **raw 正文不改**（除非人类授权删除/替换）
+2. **成文默认**：1～2 个 Entity/Concept，`sources` + Related **直链 raw**（相对路径）
+3. **Reference 可选**：仅一书 ≥2 概念共用，或书签型；历史 Reference 先留
+4. **链接一律相对路径**（`./x.md`、`../entities/y.md`、`../../../raw/...`）；**禁**以 `/` 开头（GitHub 404）
+
+具名产品/框架/人 → **Entity**；模式/方法 → **Concept**。盘点顺序：Domain → Entity → Concept →（可选）Reference。
+
+## 入库摘要
+
+| 类型 | 做什么 |
 |---|---|
-| 未分域剪藏 | `raw/_inbox/` |
-| 跨域实体（人/公司/通用工具） | `shared/` |
-| Agent / Grok Bot / harness | `domains/agents/` |
-| 工程与可维护性 | `domains/engineering/` |
-| 敏感 | `private/`（不进 git） |
+| 成文 | `clix read` → `articles/<作者>/` + manifest → Entity/Concept 直链 raw |
+| 书签 | 追加 bookmarks 表 → Entity + Reference（指向表） |
 
-域表：`config/domains.yaml`。新域用 skill `yiya-new-domain`。
-
----
-
-## raw
-
-- 书签：`raw/bookmarks/github.md` / `sites.md`（Markdown 表格追加行：项目、URL、作者、简介；不建 per-project stub）
-- 成文：`raw/articles/<作者>/<人话标题>.md`（按作者分目录；无作者 `_unknown/`；无 YYYY/MM、无 slug 目录）
-- 配图：`raw/articles/_media/<slug>/`（保持顶层，不进作者目录）；正文内相对链接 `../_media/<slug>/...`
-- 认领：成文型改 `raw-manifest.yaml`（`domain` + `path`）；书签**不** per-link claim
-- 禁止按域复制原件
-
----
+成文认领：`raw-manifest.yaml`。书签不 per-link claim。细则与完成标准见 `yiya-ingest`。
 
 ## OKF 最小字段
 
 ```yaml
 ---
-type: Concept          # Reference | Entity | Concept | Overview（先够用）
+type: Concept   # Entity | Concept | Reference | Overview
 title: ""
 description: ""
-status: draft          # draft | stable | deprecated
+status: draft   # draft | stable | deprecated
 domain: agents
 generated: { by: agent:ori, at: 2026-09-04T00:00:00Z }
-sources: []
+sources: []     # 优先相对路径指向 raw 或 Reference
+related: []
 ---
 ```
 
-同目录互链优先 `./foo.md`（GitHub 可点）；跨目录用相对路径如 `../entities/bar.md`。**不要**用以 `/` 开头的路径（GitHub 会当仓库根 → 404）。
-
----
-
-
-
-## 两种入库入口
-
-### 成文型（文章 / 长帖）
-- `clix read` 或等价抓正文 → `raw/articles/<作者>/<人话标题>.md` + manifest claim
-- 配图放入 `raw/articles/_media/<slug>/`，正文链接写成 `../_media/<slug>/...`
-- **默认**：建 **1～2** Concept/Entity（具名产品必须有 Entity）；`sources` + Related **直链 raw**（相对路径，如 `../../../raw/articles/<作者>/<标题>.md`）
-- **才建 Reference**：一文拆出 **≥2** 个 Concept/Entity 需要共用同一来源卡时。若建，则 `resource:` 相对路径 + Notes `[打开 raw](...)`（禁开头 `/`）
-- **现有** Reference 页先保留，不批量删除；新入库按上两条
-
-### 书签型（网站 / GitHub 项目 / 工具主页）
-- **不**默认灌整站进 raw；**不要** `clix read` 全站
-- **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 的**表格行**（列：项目/站点、URL、作者、简介；**不**建 per-project stub 目录）
-- 书签**不**需要 per-link `raw-manifest.yaml` claim
-- 建/更新 **Entity** + **1 条 Reference**（书签型保留来源卡）：`resource:` 指向 `../../../raw/bookmarks/github.md` 或 `sites.md`；Notes 加 `[打开 raw](...)`；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
-- Entity `sources`/Related 可同时直链 bookmarks 表
-- 以后读到站内某篇，再按成文型单独 ingest
-- 已有 Entity 时只补/更新 Reference 与书签条目，勿重复建实体
-
-
-## Reference 层（可选）
-
-- Reference = 原文卡（摘要、外链、打开 raw、一书多概念共用），**不是**每篇必建。
-- Concept/Entity 默认可在 `sources` 与 Related 写 raw 相对路径，无需经过 Reference。
-- 仍建 Reference：① 一书 ≥2 概念共用；② 书签型。
-- 历史 Reference 保留；GitHub 上 `resource:` / Notes 须相对可点。
-
-## Entity vs Concept
-
-- **Entity**：具名、可指认的对象——产品、框架、公司、人、工具（例：Pi、oh-my-pi、Grok Bot）。
-- **Concept**：可复用的模式、方法、术语（例：Delivery Harness、Evidence Gate）。
-- 一文同时出现「产品 + 模式」时：产品建/链 **Entity**，模式建 **Concept**，二者 `Related` 互链。
-- 盘点/问答列出知识时固定顺序：**Domain → Entity → Concept →（可选）Reference**（Entity 不可淹没在 Concept 长列表里；无 Reference 时 sources 直链 raw）。
-- 口语里的「派 / 阵营」对应 **Entity（及与之 Related 的 Concept）**，不要为此新开 Domain。
-
-## 概念互链（双链）
-
-- 相关 Concept/Entity **必须**在正文加 `## Related`，用**相对路径**互链：同目录 `./evidence-gate.md`；同 bundle 跨子目录 `../entities/pi.md`；跨域 `../../engineering/concepts/semantic-layer.md`。
-- 可同步 frontmatter `related: [slug, ...]`（同域 slug）。
-- **禁止** `[x](/concepts/...)` 这种仓库根绝对路径（GitHub 网页 404；Obsidian 也可用相对路径）。
-- **不**单独建 backlinks 目录；反链交给 Obsidian / 图谱工具从出站链计算。
-- 同一 Reference 拆出的概念彼此互链；主题相近的族（记忆 / harness / 语义层等）至少连成小团。
-
-## Ingest 默认要瘦
-
-入库请走 **`.agents/skills/yiya-ingest`**。默认：1～2 Concept/Entity，**直链 raw**；Reference **可选**（一书多概念共用或书签型）。禁止类型集邮。
-
-常驻目录：`entities/` `concepts/`；`references/` 按需。其它类型目录按需再建。
-
----
+必有 `type`。保留名：`index.md` / `log.md`。
 
 ## 红线
 
-- 未认领 raw 不写正式概念
+- 未认领成文 raw 不写正式概念
 - 不删 raw 原件（除非人类明确授权）
-- 不平行发明第二套元数据（用 OKF 的 `sources` / `generated` / `verified` / `status`）
+- 不类型集邮；不平行发明第二套元数据
