@@ -1,5 +1,8 @@
 # Agent 与 Grok Bot — Log
 
+## 2026-09-06
+* **Ingest**: [货拉拉记忆在线侧](./references/huolala-llm-memory-online.md) → concepts [历史不等于记忆](./concepts/history-vs-memory.md), [在线记忆流水线](./concepts/online-memory-pipeline.md).
+
 ## 2026-09-05
 * **Ingest**: [Agent 自进化飞轮](./references/agent-self-evolution-flywheel.md) → concepts [Agent 自进化飞轮](./concepts/agent-self-evolution-flywheel.md), [Harness 自改进](./concepts/harness-self-improvement.md).
 * **Ingest**: [得物 MultiAgent 记忆](./references/dewu-multiagent-memory.md) → concepts [四层 Agent 记忆](./concepts/four-layer-agent-memory.md), [异步记忆沉淀](./concepts/async-memory-precipitation.md).

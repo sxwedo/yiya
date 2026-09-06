@@ -85,4 +85,32 @@ entries:
     status: claimed
     url: https://mp.weixin.qq.com/s/qmNj7b5vOsL3Aji01-7BLw
     added: 2026-09-05
+  - id: meituan-llm-search-ranking
+    path: raw/library/2026/09/meituan-llm-search-ranking/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
+    title: 美团搜索3.0：LLM 语义表征在排序模型的探索与应用
+    domain: engineering
+    status: claimed
+    url: https://mp.weixin.qq.com/s/QAnbNhmRBz40kkq9l5xTjQ
+    added: 2026-09-06
+  - id: huolala-llm-memory-online
+    path: raw/library/2026/09/huolala-llm-memory-online/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
+    title: 货拉拉大模型记忆系统（一）：从提取到召回的工程实践
+    domain: agents
+    status: claimed
+    url: https://mp.weixin.qq.com/s/zfCf9-qOAlefs7t631c8lg
+    added: 2026-09-06
+  - id: ai-native-ontology
+    path: raw/library/2026/09/ai-native-ontology/AI Native 服务架构（二）：从 DDD 到 Ontology.md
+    title: AI Native 服务架构（二）：从 DDD 到 Ontology
+    domain: engineering
+    status: claimed
+    url: https://mp.weixin.qq.com/s/6eYr4EueWYr0kMRrf4hcVg
+    added: 2026-09-06
+  - id: data-engineer-skills-2026-2036
+    path: raw/library/2026/09/data-engineer-skills-2026-2036/未来十年数据工程师完整能力清单（2026-2036）.md
+    title: 未来十年数据工程师完整能力清单（2026-2036）
+    domain: engineering
+    status: claimed
+    url: https://mp.weixin.qq.com/s/I0VABHpREzTbRTC9NOM2zg
+    added: 2026-09-06
 
