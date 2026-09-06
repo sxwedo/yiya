@@ -7,7 +7,7 @@ date: "2026-08-26 09:36:00"
 
 # 📰 一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_1.gif)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_1.gif)
 
 作者：yannisyang、ethanytzhou
 
@@ -31,7 +31,7 @@ date: "2026-08-26 09:36:00"
 
 读完这一篇，你应该能清楚地知道：自进化系统的每个环节该怎么搭、环节之间该怎么接、落地时该先做什么后做什么、以及哪些地方千万不能踩。
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_2.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_2.jpg)
 
 ### 我的核心立场有三个：
 
@@ -81,7 +81,7 @@ date: "2026-08-26 09:36:00"
 >
 >
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_3.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_3.jpg)
 
 "自进化"这个词被用得很滥。有人拿 Self-Refine（让 Agent 多改几版输出）叫自进化，有人拿 Agent RL（训模型权重）叫自进化。它们是完全不同的东西。
 
@@ -119,7 +119,7 @@ date: "2026-08-26 09:36:00"
 >
 >
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_4.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_4.jpg)
 
 ### 1.1 我的核心论断：评测在自进化中的角色被严重低估了 ###
 
@@ -141,13 +141,13 @@ date: "2026-08-26 09:36:00"
 
 ### 1.2 评测体系的七大核心难题 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_5.png)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_5.png)
 
 评测系统面临一个结构性的**精度 × 成本 × 覆盖面**三难困境——精度高则成本高，成本低则覆盖窄，覆盖广则精度和成本都难控。没有银弹，只能分层组合。
 
 在这个三难困境之下，实践中会碰到七个具体的难题。我把它们按"最致命→最常见"的顺序排列：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_6.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_6.jpg)
 
 **难题一：弱评估器——最致命的问题，排在第一位。**
 
@@ -211,7 +211,7 @@ date: "2026-08-26 09:36:00"
 
 ### 1.3 建设要点：怎么搭一套可信的评测体系 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_7.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_7.jpg)
 
 一套完整的评测体系需要回答四个问题：**用什么手段评 → 评测集怎么管理 → 评完怎么处理结果 → 怎么确保评测器本身可信。** 下面逐一展开。
 
@@ -219,7 +219,7 @@ date: "2026-08-26 09:36:00"
 
 **建设要点一：评测手段分层组合，把成本花在刀刃上。**
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_8.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_8.jpg)
 
 核心原则：**能用便宜方法覆盖的场景，不要用贵的方法。** 从底层到顶层：
 
@@ -247,7 +247,7 @@ date: "2026-08-26 09:36:00"
 
 我的建议是**评测集三分法**，严格职责分离：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_9.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_9.jpg)
 
 * **train 集**——只用于诊断阶段：告诉系统"哪类问题失败率最高"、"失败模式是什么"。诊断信息可以暴露给LLM（用于生成修复方案），但不用于"判断谁更好"。
 
@@ -273,7 +273,7 @@ date: "2026-08-26 09:36:00"
 
 评测完的下一步必须是诊断归因——按失败类型分组、分析失败模式、定位根因。然后根据根因的类型，走不同的处理链路：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_10.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_10.jpg)
 
 **系统性问题**（多个case出现同类错误模式）→ 触发 Skill/Prompt 更新，同时写入 Playbook 作为"已知方向"供后续实验参考。
 
@@ -297,7 +297,7 @@ date: "2026-08-26 09:36:00"
 
 我建议四种互补机制：
 
-## ![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_11.jpg)
+## ![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_11.jpg)
 
 ### 1.4 Skill 评测的特殊性——证明 Skill "真的有用"比想象中难 ###
 
@@ -305,7 +305,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 这个问题比看起来复杂得多。**很多 Skill 看似有效，实际上只是和模型能力碰巧重叠了——Skill的存在只是"恰好和Agent本来就会做的事一样"。**
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_12.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_12.jpg)
 
 我认为 Skill 评测至少需要通过**四层验证**，才能说"这个Skill真的有价值"：
 
@@ -347,7 +347,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 ### 1.5 评测体系避坑清单 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_13.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_13.jpg)
 
 评测解决了"发现问题"和"判断好坏"——但发现了问题之后呢？好的经验怎么被记住、坏的教训怎么不被遗忘？这就是下一章要解决的问题。
 
@@ -361,7 +361,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 >
 >
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_14.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_14.jpg)
 
 ### 2.1 我的核心论断：记忆做不好，比没有记忆更差 ###
 
@@ -375,7 +375,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 ### 2.2 记忆的三环矛盾与十大难点 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_15.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_15.jpg)
 
 记忆系统需要同时解决**写入、存储、读取**三个环节的矛盾。我把每个环节的具体难点展开如下：
 
@@ -421,7 +421,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 **三层晋升机制（来自[self-improving-agent Skill](https://www.modelscope.cn/skills/@pskoett/self-improving-agent)，SkillHub高下载量热门Skill）：**
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_16.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_16.jpg)
 
 精妙之处：先用低门槛解决"忘记记录"（层级1），再通过门槛层层筛选把有价值的内容往上升级。越往上质量越高、噪声越少。
 
@@ -429,11 +429,11 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 ### 2.4 建设要点二：存储——"分层架构 + 生命周期管理" ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_17.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_17.jpg)
 
 分层架构已成为业界共识（[Hermes Agent](https://github.com/NousResearch/hermes-agent) 56K+ Star、多个开源 Agent Memory 框架等验证）：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_18.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_18.jpg)
 
 **分层的核心价值**：大多数系统卡在"原始对话→向量库"的单层模式——什么都存一个池子，全凭向量相似度召回。**分层让存储有结构、召回有层次**——默认用顶层（轻量高密度），需要时才钻取到下层（详细有证据）。更精细的做法是细化为四层（L0原始对话→L1原子事实→L2场景块→L3用户画像），核心是"默认L3，按需钻取L1/L0"。
 
@@ -451,7 +451,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 ### 2.5 建设要点三：读取——"渐进披露 + 严格预算" ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_19.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_19.jpg)
 
 我总结的"从粗到细、按需钻取"模型：
 
@@ -477,7 +477,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 ### 2.6 记忆系统避坑清单 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_20.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_20.jpg)
 
 评测告诉我们"哪里有问题"，记忆帮我们"记住经验和教训"——但光知道问题、光有经验还不够。经验要变成实际的改进才有价值——从"知道该怎么做"到"真的改好了并安全上线"之间，还有一段不短的路。这就是下一章要讲的：落地工程化。（注意：记忆解决的是"存什么、怎么治理、怎么召回"；落地解决的是"改什么、怎么生成修复、怎么安全上线"——它们的核心矛盾不同，所以分开讲。）
 
@@ -491,13 +491,13 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 >
 >
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_21.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_21.jpg)
 
 ### 3.1 我的核心论断：自动化 ≠ 全自动 ###
 
 很多人对"自进化"的想象是——Agent自己发现问题、自己改、自己上线——全程无人。**这在当前阶段是危险的幻想。** 原因有三：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_22.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_22.jpg)
 
 **第一，LLM生成的修复质量不可控。** 它能看到代码和评测输出，但看不到代码背后的历史决策、业务约束、API规范。结果是——"修复"了问题A，覆盖掉了上次人工精心调整的逻辑。
 
@@ -511,7 +511,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 从"评测发现问题"到"改进真正生效"，完整链路远比想象中长。我把它拆为八个环节——**每个环节都有明确的输入、输出和失败处理，断了任何一环，进化就停滞。**
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_23.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_23.jpg)
 
 逐一展开每个环节的核心要点和典型出错方式：
 
@@ -539,7 +539,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 ### 3.3 关键建设要点 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_24.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_24.jpg)
 
 **建设要点一：三路信号汇聚。** 修复方向不能只靠"这次评测哪些case失败了"——信息量不够。至少汇聚三路：
 
@@ -553,7 +553,7 @@ Skill 是 Harness 层进化的核心产出物——它把经验沉淀为可复�
 
 **建设要点二：安全门控分层——自动在前，人工在后。**
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_25.png)![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_26.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_25.png)![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_26.jpg)
 
 前四层过滤掉95%低质变体——到人手上的是"大概率有效"的候选。**让人做选择题而非填空题。**
 
@@ -615,7 +615,7 @@ Skill/Prompt/记忆的每次变更都必须有：
 
 [Anthropic Dreaming 2026.5](https://cloud.tencent.com/developer/article/2668950) 提出的**Dreaming**机制正是解决这个问题的：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_27.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_27.jpg)
 
 **核心思路：** 一个专职的异步进程（不在任务执行时运行，而是像"睡觉做梦"一样在空闲时运行），定期审阅一批历史会话轨迹，寻找以下模式：
 
@@ -647,7 +647,7 @@ Skill/Prompt/记忆的每次变更都必须有：
 
 ### 3.5 落地避坑清单 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_28.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_28.jpg)
 
 到这里，评测、记忆、落地三个环节都讲完了——Agent已经能自动发现问题、积累经验、产出修复方案并安全上线。但还有一个根本问题没有解决：**谁来确保这个自动运转的系统不会在错误方向上越跑越远？** 技术层面的门控能防住单次回归，但防不住缓慢的方向偏移。这就是最后一个齿轮——人机协作——要解决的事。
 
@@ -661,7 +661,7 @@ Skill/Prompt/记忆的每次变更都必须有：
 >
 >
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_29.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_29.jpg)
 
 ### 4.1 我的核心论断：人的角色是教练和裁判，不是操作者 ###
 
@@ -673,7 +673,7 @@ Skill/Prompt/记忆的每次变更都必须有：
 
 ### 4.2 分级自主模型 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_30.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_30.jpg)
 
 ### 动态升降级：
 
@@ -685,7 +685,7 @@ Skill/Prompt/记忆的每次变更都必须有：
 
 ### 4.3 五个必须有人的关键节点 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_31.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_31.jpg)
 
 无论Level多高，这五个节点**永远**不能交给Agent。不是"当前技术做不到"的权宜之计——而是**系统设计上的刚性约束**。
 
@@ -711,7 +711,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ### 4.4 审核疲劳：落地中最常见的失败模式 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_32.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_32.jpg)
 
 理想：关键节点有人审。现实：**什么都弹审核，人三天后不看直接通过**——比没有审核更危险，因为它给了"有人审了"的虚假安全感。
 
@@ -763,7 +763,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ### 我的解法是三层防护：
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_33.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_33.jpg)
 
 **① 定期方向性审计（最关键）。** 每月花半天时间，人工审查Agent最近一段时间的进化轨迹：
 
@@ -781,7 +781,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ### 4.6 人机协作避坑清单 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_34.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_34.jpg)
 
 四个齿轮各自讲完了。但正如开篇所说——拆开来做每一块都能说"我做了"，关键是它们怎么咬合成一个持续转动的飞轮。最后一章，我们把四个齿轮装到一起。
 
@@ -789,7 +789,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ## 五、飞轮——四个齿怎么咬合起来持续转动？
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_35.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_35.jpg)
 
 前四章分别讲了信号、积累、落地、控制。但**拆开来做每一块都能说"我做了"，合在一起却不产生复利**——这是开篇提出的核心问题。
 
@@ -799,7 +799,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 飞轮能转起来的前提是：**每个环节的输出，恰好是下一个环节的输入。** 任何一条数据通路断了，飞轮就卡住。
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_36.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_36.jpg)
 
 具体来说，四条关键数据通路是：
 
@@ -837,7 +837,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ### 5.3 一个重要观察：什么样的场景最容易跑通？ ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_37.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_37.jpg)
 
 观察已经成功跑通全闭环的案例——工单自动修复场景（解决率从不到30%提升至近90%）、内容推荐场景（真实CTR驱动进化）、长期记忆增强场景（LongMemEval基准显著提升）——它们共享两个特征：
 
@@ -847,7 +847,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ### 5.4 从零到一的落地路线 ###
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_38.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_38.jpg)
 
 ### Phase 1：最小闭环（1-2 周）。
 
@@ -867,7 +867,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 
 ## 收束
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_39.jpg)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_39.jpg)
 
 写到这里，把全文的核心信息浓缩为**三条原则和一个行动建议**：
 
@@ -903,7 +903,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 >
 >
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_40.gif)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_40.gif)
 
-![](./media/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_41.png)
+![](./_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_41.png)
 

@@ -28,12 +28,12 @@ argument-hint: "[url-or-path] [domain?]"
 - **成文型**（文章/长帖）：走下方「捕捉正文 → raw → Reference → 概念」全流程。
 - **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
   1. 判定 domain；建或更新 **Entity**
-  2. **必须**写 raw 链接 stub：`raw/library/YYYY/MM/<slug>/`（如 `github.md`）；正文仅 URL + 极短元数据（`title` / `url` / `date` / `kind: bookmark`），禁止整站正文
-  3. **必须**在 `raw-manifest.yaml` claimed
-  4. **一条** Reference：`resource:` 优先指向该 raw stub；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
+  2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md`（title + url + added）；**不**建 per-project stub 目录，禁止整站正文
+  3. 书签**不**需要 per-link `raw-manifest.yaml` claim
+  4. **一条** Reference：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
   5. **不要** `clix read` 整站
-  6. 已有同名 Entity（如 Pi）→ 只补 Reference、stub 与 Related，禁止新建重复实体
-  7. 完成标准：Entity + Reference + raw stub + claimed
+  6. 已有同名 Entity（如 Pi）→ 只补 Reference、书签条目与 Related，禁止新建重复实体
+  7. 完成标准：Entity + Reference + bookmarks 列表条目
 
 
 ## 步骤
@@ -45,11 +45,11 @@ argument-hint: "[url-or-path] [domain?]"
 
 ### 2. 写入 raw
 
-1. 先放 `raw/_inbox/`（或一步到位 library，但仍须写 manifest）。
-2. 目录：`raw/library/YYYY/MM/<slug>/`（**只到月**；`<slug>` 短、稳定、偏 ASCII）。
-3. 正文文件名 = **原文标题**（人话）；非法路径字符去掉或改全角；配图放同级 `media/`。
-4. 更新根目录 `raw-manifest.yaml`：
-   - `id`、`path`、`title`、`domain`、`status: claimed`、`url`（如有）、`added`
+1. 先放 `raw/_inbox/`（或一步到位 articles，但仍须写 manifest）。
+2. 成文：`raw/articles/<人话标题>.md`（**扁平**；非法路径字符去掉或改全角）。
+3. 配图：`raw/articles/_media/<slug>/`（`<slug>` 短、稳定、偏 ASCII）；正文相对链接写成 `./_media/<slug>/...`。
+4. 更新根目录 `raw-manifest.yaml`（成文型）：
+   - `id`、`path`（`raw/articles/<人话标题>.md`）、`title`、`domain`、`status: claimed`、`url`（如有）、`added`
 
 `domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体资料可 `shared`。
 
@@ -59,7 +59,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 - 复制 `templates/reference.md`
 - `type: Reference`
-- `resource` 指向 `/raw/library/YYYY/MM/<slug>/原文标题.md`（或原文 URL）
+- `resource` 指向 `/raw/articles/原文标题.md`（或原文 URL；书签可指向 `/raw/bookmarks/github.md` / `sites.md`）
 - `domain`、`generated`、`title`、`description` 填好
 - 正文写极短要点 + 入库价值（几条即可）
 
@@ -81,8 +81,8 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] raw 在 `library/YYYY/MM/<slug>/`：成文型为人话标题正文；书签型为链接 stub（如 `github.md`，仅 URL + 元数据）
-- [ ] `raw-manifest.yaml` 已 claimed
+- [ ] 成文型：`raw/articles/<人话标题>.md`（配图在 `_media/<slug>/`）；书签型：已追加到 `raw/bookmarks/github.md` 或 `sites.md`
+- [ ] 成文型：`raw-manifest.yaml` 已 claimed（书签型无需 per-link claim）
 - [ ] 恰好 1 条 Reference（除非用户明确要求更多来源）
 - [ ] Concept/Entity ≤ 2（除非用户明确要求加页）
 - [ ] `log.md` 已更新

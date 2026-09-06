@@ -5,7 +5,7 @@ description: "腾讯技术工程：Agent 自进化四齿飞轮——评测信号
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:22:00Z }
-resource: /raw/library/2026/09/agent-self-evolution-flywheel/一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制.md
+resource: /raw/articles/一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制.md
 sources: []
 ---
 

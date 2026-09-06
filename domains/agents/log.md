@@ -1,6 +1,7 @@
 # Agent 与 Grok Bot — Log
 
 ## 2026-09-06
+* **Update**: raw 层改为扁平 `articles/<人话标题>.md` + `bookmarks/` 列表；去掉 `library/YYYY/MM` 与 per-bookmark stub。
 * **Update**: 书签型必须写 raw 链接 stub + claimed；回填 [earendil-works/pi](./references/earendil-pi-github.md) stub。
 * **Update**: AGENTS + yiya-ingest 增加书签型入口（Entity + URL Reference，不灌整站）。
 * **Entity**: 新建 [oh-my-pi](./entities/oh-my-pi.md)；更新 [Pi](./entities/pi.md) 与 overview 实体表；Advisor/TTSR/Minimal Harness 互链产品实体。

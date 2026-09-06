@@ -5,7 +5,7 @@ description: "昀启AI+：Ontology 作为企业语义资产（Fact·Logic·Actio
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:10:00Z }
-resource: /raw/library/2026/09/ai-native-ontology/AI Native 服务架构（二）：从 DDD 到 Ontology.md
+resource: /raw/articles/AI Native 服务架构（二）：从 DDD 到 Ontology.md
 sources: []
 ---
 

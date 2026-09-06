@@ -5,7 +5,7 @@ description: "美团技术：服务零售精排三期实践——LLM 语义向�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:05:00Z }
-resource: /raw/library/2026/09/meituan-llm-search-ranking/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
+resource: /raw/articles/美团搜索3.0：LLM 语义表征在排序模型的探索与应用.md
 sources: []
 ---
 

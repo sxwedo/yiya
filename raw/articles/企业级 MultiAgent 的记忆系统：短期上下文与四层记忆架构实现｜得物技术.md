@@ -7,7 +7,7 @@ date: "2026-08-26 10:30:00"
 
 # 📰 企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_1.gif)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_1.gif)
 
 ## 目录
 
@@ -65,7 +65,7 @@ date: "2026-08-26 10:30:00"
 
 - 整体架构：**后端基于 Spring Boot 3 和 Java 17，Agent 编排采用 AgentScope。新建 Agent 默认将 longMemoryProvider 设为 MEMOS，但 openLongMemory 默认关闭；开启后，请求开始时短期会话历史和长期记忆并行加载，会话结束后由 onSessionEndAsync 异步完成筛选、去重和长期沉淀。短期记忆以 MySQL 为持久化底座、Redis 为热点缓存，长期记忆以 MemOS 为主路径，同时保留 MySQL/Mem0 路由作为兼容路径。
 
-- ![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_2.jpg)
+- ![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_2.jpg)
 
 - 本文只展开记忆模块的实现：**包括四层记忆模型、短期历史的读取与写入、MemOS 的按 scope 检索，以及会话结束后的异步沉淀。
 
@@ -73,31 +73,31 @@ date: "2026-08-26 10:30:00"
 
 ### 记忆架构概览
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_3.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_3.jpg)
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_4.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_4.jpg)
 
 ### Agent 四层记忆模型
 
 四层分别对应不同的生命周期：Working Memory 只服务当前一步推理；Session Memory 保存会话内的消息历史；User Memory 记录跨 Agent 共享的偏好和稳定事实，对应 MemOS 的 user\_profile；Agent Memory 保存某个 Agent 的任务经验和协作约定，对应 agent\_{agentId}。会话结束后，新增消息经过判断和去重，再从 Session 层沉淀到 User 或 Agent 层。
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_5.png)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_5.png)
 
 Agent 四层记忆模型：Working、Session、User 与 Agent Memory 的读取、作用域和异步沉淀链路。
 
 ### 记忆类型
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_6.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_6.jpg)
 
 **四层模型与 MemOS 类型是两套分类维度：**四层模型描述信息的生命周期和作用域；MemOS 的 text\_mem、pref\_mem、skill\_mem、tool\_mem 描述记忆内容形态，不能直接与四层一一对应。
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_7.png)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_7.png)
 
 **当前路由行为：**longMemoryProvider 未配置、Agent 不存在或读取配置异常时，MemoryRpcServiceImpl 选择 MySQL；明确配置为 MEMOS 或 Mem0 时才进入对应 Provider。MemOS 查询异常由 Provider 自身记录日志并返回空结果，当前不会自动切换到 MySQL。
 
 ### 记忆加载流程
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_8.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_8.jpg)
 
 **一次请求的记忆路径**可以概括为：AgentExecutor[#execute]() 解析上下文参数后，在 memoryLoadExecutor 中并行启动短期记忆和长期记忆 Future。短期链路读取 ConversationMemory；长期链路调用 queryMemory，由 MemoryRpcServiceImpl 按 Agent 配置选择 MEMOS、Mem0 或 MySQL。
 
@@ -111,11 +111,11 @@ Agent 四层记忆模型：Working、Session、User 与 Agent Memory 的读取�
 
 ### 短期记忆 vs 长期记忆
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_9.png)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_9.png)
 
 ### 关键组件及方法
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_10.png)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_10.png)
 
 ### 三
 
@@ -123,7 +123,7 @@ Agent 四层记忆模型：Working、Session、User 与 Agent Memory 的读取�
 
 短期记忆（Session Memory）保存当前会话中按时间排列的对话历史，是指代消解和多轮推理的直接上下文。实现重点是读取时延、Redis/MySQL 回退以及 Token 窗口控制。
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_11.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_11.jpg)
 
 加载流程图
 
@@ -181,13 +181,13 @@ return recentWindow;
 
 ### Token 窗口控制策略
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_12.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_12.jpg)
 
 ### 四
 
 ### 短期记忆写入详情
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_13.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_13.jpg)
 
 写入时序图
 
@@ -234,7 +234,7 @@ messages.forEach(message -> {
 
 ### 长期记忆加载实现详解
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_14.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_14.jpg)
 
 加载时序图
 
@@ -328,7 +328,7 @@ result.sort((a, b) -> {
 
 ### 搜索参数说明：
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_15.png)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_15.png)
 
 readableCubeIds 当前包含 user\_profile 和 agent\_{agentId}；同时开启 preference 检索，prefTopK=6 用于补充用户偏好。检索结果随后还会经过 score \< 0.3 过滤和单条 1000 字符截断，避免低相关或过长内容挤占上下文。
 
@@ -379,7 +379,7 @@ user\_profile 最多占 60% 预算；如果实际占用更少，剩余空间分�
 
 ### 长期记忆写入实现详解
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_16.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_16.jpg)
 
 写入时序图
 
@@ -529,5 +529,5 @@ for (int i = 0; i < memoryList.size(); i++) {
 
 如有任何疑问，或想要了解更多技术资讯，请添加小助手微信：
 
-![](./media/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_17.jpg)
+![](./_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_17.jpg)
 

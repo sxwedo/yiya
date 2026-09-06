@@ -5,7 +5,7 @@ description: "猿小猴子：Pi（极简 harness）与 oh-my-pi（batteries incl
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
-resource: /raw/library/2026/09/pi-vs-oh-my-pi/主流 Agent 之「Pi」与「oh-my-pi」介绍.md
+resource: /raw/articles/主流 Agent 之「Pi」与「oh-my-pi」介绍.md
 sources: []
 ---
 

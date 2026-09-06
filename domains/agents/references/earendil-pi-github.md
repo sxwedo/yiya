@@ -5,7 +5,7 @@ description: "Pi 官方仓库书签：极简终端编码代理框架源码与发
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T03:14:00Z }
-resource: /raw/library/2026/09/earendil-pi-github/github.md
+resource: /raw/bookmarks/github.md
 tags: [bookmark, github]
 sources: []
 related:
@@ -16,7 +16,7 @@ related:
 
 - **为什么收藏**：Pi 实体对应的上游仓库；看源码、Issue、Release、README 与扩展示例时从这里进。
 - **何时用**：要对齐官方 API/扩展原语、提 PR、或核对版本能力时；日常选型说明仍看成文型 [Pi vs oh-my-pi](./pi-vs-oh-my-pi.md)。
-- **raw**：书签 stub（仅 URL），原文 URL 仍为 https://github.com/earendil-works/pi
+- **raw**：收入 `raw/bookmarks/github.md` 列表；原文 URL 仍为 https://github.com/earendil-works/pi
 
 ## Related
 

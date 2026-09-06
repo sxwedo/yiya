@@ -7,7 +7,7 @@ date: "2026-09-02 10:30:00"
 
 # 📰 得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_1.gif)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_1.gif)
 
 ## 目录
 
@@ -37,11 +37,11 @@ date: "2026-09-02 10:30:00"
 
 - 随着业务推进和协作范围扩大，一次需求常常要穿过多个工程与运行时。我开始让 AI 并行参与这些模块的开发。代码产出速度明显提高，一个人也像拥有了一支"虚拟全栈团队"。
 
-- ![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_2.png)
+- ![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_2.png)
 
 - AI 参与多模块协作后，一个人的有效工程半径得到扩展。
 
-- ![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_3.png)
+- ![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_3.png)
 
 - Codex 基于近期任务记录给出的开发能力评价。
 
@@ -55,7 +55,7 @@ date: "2026-09-02 10:30:00"
 
 **一次语义分叉：一个数字如何影响整条交付链**
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_4.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_4.png)
 
 真正让我警惕的第一个语义分叉很小：拼团页面里一个看似普通的进度数字，目标人数究竟取最低成团数，还是当前可售库存？
 
@@ -65,11 +65,11 @@ date: "2026-09-02 10:30:00"
 
 这里的核心是一条业务语义分叉。AI 未必更容易猜错，却能用极高速度把一次猜测扩散成接口、页面、海报和测试里的共同前提。
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_5.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_5.png)
 
 原始讨论
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_6.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_6.png)
 
 成团目标与满团目标讨论
 
@@ -93,7 +93,7 @@ Prompt 继续承载意图和上下文；权限、发布与证据门禁则交给�
 
 四个组件共同形成一条闭环：Version Contract 给出事实；Execution Boundary 约束执行；Evidence Gate 决定是否推进；Repair Loop 再把真实反馈写回合同。
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_7.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_7.png)
 
 ### 四
 
@@ -113,7 +113,7 @@ Prompt 继续承载意图和上下文；权限、发布与证据门禁则交给�
 
 同一需求从开发、UI 与接口联动、联调修复、验收整改到发布收口，全程复用第一次创建的 worktree 和分支。涉及多个代码仓时，每个仓库各保留一个工作现场。因此这里的隔离单位可以写成一句公式：一个需求 × 一个仓库 = 一个 worktree。多个仓库通过同一份版本合同关联，却不会共享未提交文件、分支状态和依赖现场。
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_8.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_8.png)
 
 Worktree 生命周期：只读任务不建树；首次写入先核对基线，再按仓库隔离工作现场；开发到发布收口持续复用，生产证据完整后才能安全清理。
 
@@ -121,15 +121,15 @@ Worktree 生命周期：只读任务不建树；首次写入先核对基线，�
 
 下面是一份经过抽象的版本合同结构示意：多份需求与技术文档进入同一版本，不同代码仓分别声明交付范围；测试、预发、统一验收与生产发布分别记录状态，未完成项保持 pending。图中只展示结构，不对应真实版本、仓库或发布数据。
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_9.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_9.png)
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_10.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_10.png)
 
 ### 五
 
 **Harness 第二层：Evidence Gate 决定能不能往前走**
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_11.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_11.png)
 
 Evidence Gate 不接受一句“代码完成”。编译、单测、接口验证、真实设备验收、生产发布和稳定分支合入，是六个不同状态；每一步都要拿出与结论匹配的证据。
 
@@ -137,11 +137,11 @@ Evidence Gate 不接受一句“代码完成”。编译、单测、接口验证
 
 **统一验收报告是一张“文档—需求—用例—证据”映射，而不是一段完成宣言。**任何人都应能沿着它找到命令结果、真机截图、运行记录和未覆盖项。文档读取失败、规则没有用例、跨模块没有回执，状态统一保持 pending。
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_12.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_12.png)
 
 匿名验收矩阵
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_13.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_13.png)
 
 产品风格匿名 Mock
 
@@ -176,7 +176,7 @@ Repair Loop 处理的是系统记忆。对跨模块、跨环境或容易复发�
 
 ### 真实战役：一笔多 SKU 订单穿过多个运行时
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_14.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_14.png)
 
 这套 Harness 第一次完整经受跨运行时考验，是一次多 SKU 履约改造。
 
@@ -186,7 +186,7 @@ Repair Loop 处理的是系统记忆。对跨模块、跨环境或容易复发�
 
 多 SKU 履约的跨运行时链路。用户端、管理端、Node 服务与 Go 服务分属不同运行时，但必须共同保持订单级原子性。
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_15.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_15.png)
 
 Delivery Harness 在这里做了一件关键的事：把“订单级原子性”从一句产品口径变成跨运行时不变量。产品文档定义语义；接口合同约束输入输出；服务端校验资源与状态；测试主动构造部分失败的反例；验收报告记录跨服务结果；相关代码仓分别保留分支、提交与发布证据。
 
@@ -194,7 +194,7 @@ Delivery Harness 在这里做了一件关键的事：把“订单级原子性”
 
 ### 硬账本：已经建立的能力与待补齐的环节
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_16.png)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_16.png)
 
 这套系统已经可以运行，但还不是一张可以宣布"大功告成"的架构图。目前还有三个方面需要继续建设。
 
@@ -246,5 +246,5 @@ AI Native 交付的终局，是让模型承担越来越多执行工作，同时�
 
 如有任何疑问，或想要了解更多技术资讯，请添加小助手微信：
 
-![](./media/得物技术_Jcx_3OABcYwzzxWKFgivOA_17.jpg)
+![](./_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_17.jpg)
 

@@ -17,7 +17,7 @@ date: "2026-08-23 13:54:34"
 
 作业交了。
 
-![](./media/O神经网络_inUHNfUlVf-Js8fOdxUZzA_1.png)
+![](./_media/ng-evals-watershed/O神经网络_inUHNfUlVf-Js8fOdxUZzA_1.png)
 
 这一项底下压着六项子技能。**LLM 基础**，**用数据接地**，**构建 agentic 系统**，**评测驱动开发**，**生产环境运营**，**机器学习基础**。
 
@@ -75,7 +75,7 @@ date: "2026-08-23 13:54:34"
 
 六项全部展开太长，我挑密度最高的部分摊给你，对着自查会很有数。
 
-![](./media/O神经网络_inUHNfUlVf-Js8fOdxUZzA_2.jpg)
+![](./_media/ng-evals-watershed/O神经网络_inUHNfUlVf-Js8fOdxUZzA_2.jpg)
 
 **LLM 基础**。tokenize 怎么工作，context window 里放什么、放多少，缓存命中和 knowledge cutoff 怎么算，采样参数怎么调，什么时候上多模态，什么时候开 tool calling。
 

@@ -5,7 +5,7 @@ description: "AI智闻说：把 oh-my-pi 从默认能用调到好用——Adviso
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:11:00Z }
-resource: /raw/library/2026/09/oh-my-pi-setup/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
+resource: /raw/articles/oh-my-pi 装完就不管了？这几步配完才真叫好用.md
 sources: []
 ---
 

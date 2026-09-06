@@ -5,7 +5,7 @@ description: "货拉拉技术：跨会话记忆在线侧——任务调度、事
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:08:00Z }
-resource: /raw/library/2026/09/huolala-llm-memory-online/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
+resource: /raw/articles/货拉拉大模型记忆系统（一）：从提取到召回的工程实践.md
 sources: []
 ---
 

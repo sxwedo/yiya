@@ -5,7 +5,7 @@ description: "腾讯云开发者/腾讯健康：个体 AI 提效≠组织提效�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:28:00Z }
-resource: /raw/library/2026/09/ai-coding-pm-paradigm/AI Coding时代，研发项目管理新范式探索与实践.md
+resource: /raw/articles/AI Coding时代，研发项目管理新范式探索与实践.md
 sources: []
 ---
 

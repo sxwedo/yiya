@@ -5,7 +5,7 @@ description: "Datawhale 解读 Anthropic 多智能体研究：协作成本、低
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
-resource: /raw/library/2026/09/anthropic-multiagent-failures/Anthropic最新多智能体研究来了！.md
+resource: /raw/articles/Anthropic最新多智能体研究来了！.md
 sources: []
 ---
 

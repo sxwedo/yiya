@@ -13,7 +13,7 @@ date: "2026-08-30 15:19:22"
 
 一个 Agent 到底凭什么越来越强？有人靠更大的模型，有人靠更多数据。就在前天，Google Research 最新发布的 WikiSkill 给出了另一条答案：给 Agent 搭一套三层知识架构，让技能自己进化。
 
-![](./media/Datawhale_rmS1mtEBMdb_png2Nvddvg_1.png)
+![](./_media/wikiskill-three-layer/Datawhale_rmS1mtEBMdb_png2Nvddvg_1.png)
 
 ```
 
@@ -23,7 +23,7 @@ date: "2026-08-30 15:19:22"
 
 这套架构的核心是把"经验"和"知识"分开。以前的技能进化方法（EvoSkill、Trace2Skill、SkillOpt）分析完执行轨迹就直接改 Skill，经验用一次就丢。WikiSkill 在中间加了一层持久知识库，让经验先沉淀、再复用。
 
-![](./media/Datawhale_rmS1mtEBMdb_png2Nvddvg_2.jpg)
+![](./_media/wikiskill-three-layer/Datawhale_rmS1mtEBMdb_png2Nvddvg_2.jpg)
 
 ## 一、三层架构：把经验、知识和技能分开
 
@@ -75,7 +75,7 @@ PURPOSE.md 解决的是"这个技能为什么存在"的问题。当技能需要�
 
 ## 三、实验结果：9B 加 Skill，超过 27B 裸模型
 
-![](./media/Datawhale_rmS1mtEBMdb_png2Nvddvg_3.jpg)
+![](./_media/wikiskill-three-layer/Datawhale_rmS1mtEBMdb_png2Nvddvg_3.jpg)
 
 在五个基准、五个模型上的实验结果：
 
@@ -87,7 +87,7 @@ PURPOSE.md 解决的是"这个技能为什么存在"的问题。当技能需要�
 
 消融实验确认 Wiki 的价值。 去掉 Wiki 访问后，平均分从 63.7% 降至 48.7%，回落约 15 个百分点。Wiki Maintainer 积累的跨迭代知识是 Skill Proposer 能解决复杂失败模式的前提。
 
-![](./media/Datawhale_rmS1mtEBMdb_png2Nvddvg_4.jpg)
+![](./_media/wikiskill-three-layer/Datawhale_rmS1mtEBMdb_png2Nvddvg_4.jpg)
 
 ## 写在最后：Agent 持续变强，靠的不只是更大的模型
 
@@ -95,7 +95,7 @@ WikiSkill 的贡献不是一个新算法，是一个架构设计：把经验、�
 
 对做 Agent 的人来说，这意味着别再只盯着模型规模和 prompt 调优。搭一套三层知识架构，让经验沉淀为知识，让知识指导进化，才是 Agent 能持续变强的底层逻辑。
 
-![](./media/Datawhale_rmS1mtEBMdb_png2Nvddvg_5.png)
+![](./_media/wikiskill-three-layer/Datawhale_rmS1mtEBMdb_png2Nvddvg_5.png)
 
 ### 一起“**点****赞”****三连**↓
 

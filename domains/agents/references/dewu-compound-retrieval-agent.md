@@ -5,7 +5,7 @@ description: "得物技术：基于 AgentScope HarnessAgent 的复合检索—�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:25:00Z }
-resource: /raw/library/2026/09/dewu-compound-retrieval-agent/得物知识问答：复合检索 Agent 的系统设计实践.md
+resource: /raw/articles/得物知识问答：复合检索 Agent 的系统设计实践.md
 sources: []
 ---
 

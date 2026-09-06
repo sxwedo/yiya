@@ -9,7 +9,7 @@ date: "2026-09-01 13:37:00"
 
 今天看到 SpaceX AI 工程师 Lingxi Li 分享的一篇文章，收益匪浅：《Grok Bot for Engineering》。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_1.jpg)Grok Bot for Engineering
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_1.jpg)Grok Bot for Engineering
 
 简单分享一下，这篇文航里几个很夸张的数字：有团队成员一个月提交了 2,000 多个 PR；作者以前最多手动管理 15 个 Cloud Agent，现在这套系统同时跑着 200 多个。
 
@@ -25,11 +25,11 @@ Grok Bot 给出的答案是：**在 Cloud Agent 前面再放一层工程 Bot**�
 
 这里的 Bot，指 Grok Bot 里长期运行、带着岗位记忆和工具权限的 AI 角色。工程 Bot 接任务、创建并跟进 Cloud Agent，Cloud Agent 则进入代码库修改和测试。可以简单理解为：前者带队，后者干具体任务。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_2.png)Grok Bot 两层工程团队：人负责关键判断，工程 Bot 负责带队，Cloud Agent 负责执行
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_2.png)Grok Bot 两层工程团队：人负责关键判断，工程 Bot 负责带队，Cloud Agent 负责执行
 
 作者给五个工程 Bot 分了长期负责的领域。Baltata 管移动端共享层和 iOS，Shaoruru 管桌面端与 CI/CD，Hogan 处理基础设施和归属不明确的问题，Craig 负责 Android，Quill 则盯 Agent Harness。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_3.jpg)五个负责不同领域的工程 Bot
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_3.jpg)五个负责不同领域的工程 Bot
 
 每个 Bot 都有自己的记忆，能装下的上下文也有限。让它长期守着一个领域，发任务时带上的规格、设计原则和 Skill 会更具体。
 
@@ -53,13 +53,13 @@ Grok Bot 给出的答案是：**在 Cloud Agent 前面再放一层工程 Bot**�
 
 截图只能证明页面确实变了，代码质量还要看测试和 Diff。Agent 连项目都启动不了时，开再多任务也只会多出几个等待人工处理的窗口。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_4.png)PR 交付证据闭环：测试、截图和 Diff 通过验收后，任务才进入 Review
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_4.png)PR 交付证据闭环：测试、截图和 Diff 通过验收后，任务才进入 Review
 
 ## 每 30 分钟扫一次 Notion
 
 任务跨过一次会话后，光看聊天记录很难知道它停在哪。作者让工程 Bot 共同维护一个 Notion 数据库，每隔 30 分钟检查其中的 PR：CI 有没有失败、是否出现合并冲突、Bugbot 和安全告警是否成立。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_5.jpg)工程 Bot 共同维护的 Notion 任务看板
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_5.jpg)工程 Bot 共同维护的 Notion 任务看板
 
 发现问题，工程 Bot 就找到原来的 Cloud Agent 继续处理，并把任务改回 `Working`。CI、冲突和告警都处理好以后，状态才会变成 `Ready for Review`，接着再跑一次独立代码审查。
 
@@ -69,11 +69,11 @@ Grok Bot 给出的答案是：**在 Cloud Agent 前面再放一层工程 Bot**�
 
 Jenny 是这支队伍里唯一不写代码的 Bot。每天凌晨 5 点，它分别和工程 Bot 做一次 1:1，过一遍 Playbook 和阻塞，也负责给新 Bot 做入职。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_6.jpg)运营 Bot Jenny 提醒工程 Bot 阅读 Playbook
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_6.jpg)运营 Bot Jenny 提醒工程 Bot 阅读 Playbook
 
 某个 Bot 过早结束任务，Jenny 会回看它当时的判断，找到漏掉的步骤，再更新 Playbook，并把变化告诉其他 Bot。下次碰到同类任务，新的规则已经在上下文里了。
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_7.png)Jenny 复盘闭环：从任务出错到更新 Playbook，再由其他 Bot 加载新规则
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_7.png)Jenny 复盘闭环：从任务出错到更新 Playbook，再由其他 Bot 加载新规则
 
 普通项目用不着专门做一个 Jenny。假设 Agent 连续几次跑错测试命令，把正确命令和适用目录写进 `AGENTS.md`；要是漏掉的是合并前必须执行的检查，就让 CI 卡住；Code Review 总漏权限问题，再补一份专门的 Review Skill。
 
@@ -95,7 +95,7 @@ Jenny 是这支队伍里唯一不写代码的 Bot。每天凌晨 5 点，它分�
 
 原文地址：**https://x.com/lingxi/article/2094493172516966781**
 
-![](./media/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_8.png)
+![](./_media/javaguide-grok-bot-engineering/JavaGuide_270tAXMKIQDvl5-vOS5nqQ_8.png)
 
 **⭐️推荐阅读**:
 

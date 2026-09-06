@@ -25,9 +25,10 @@
 
 ## raw
 
-- 物理唯一：`raw/library/YYYY/MM/<slug>/`（**只到月**）
-- 正文文件名 = **原文标题**（人话）；配图放同级 `media/`
-- 认领：改 `raw-manifest.yaml`（`domain` + `path`）
+- 书签：`raw/bookmarks/github.md` / `sites.md`（追加列表条目；不建 per-project stub）
+- 成文：`raw/articles/<人话标题>.md`（**扁平**，无 YYYY/MM、无 slug 目录）
+- 配图：`raw/articles/_media/<slug>/`；正文内相对链接 `./_media/<slug>/...`
+- 认领：成文型改 `raw-manifest.yaml`（`domain` + `path`）；书签**不** per-link claim
 - 禁止按域复制原件
 
 ---
@@ -55,16 +56,17 @@ sources: []
 ## 两种入库入口
 
 ### 成文型（文章 / 长帖）
-- `clix read` 或等价抓正文 → `raw/library/...` + manifest
+- `clix read` 或等价抓正文 → `raw/articles/<人话标题>.md` + manifest claim
+- 配图放入 `raw/articles/_media/<slug>/`，正文链接写成 `./_media/<slug>/...`
 - **1 Reference**（可指 raw）+ **1～2** Concept/Entity（具名产品必须有 Entity）
 
 ### 书签型（网站 / GitHub 项目 / 工具主页）
 - **不**默认灌整站进 raw；**不要** `clix read` 全站
-- **必须**写一条 raw 链接 stub：`raw/library/YYYY/MM/<slug>/`，文件名用人话标题或短名如 `github.md`；正文只含 URL + 极短元数据（`title` / `url` / `date` / `kind: bookmark`），禁止整站正文
-- **必须**在 `raw-manifest.yaml` claimed
-- 建/更新 **Entity** + **1 条 Reference**：`resource:` 优先指向该 raw stub；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
+- **追加**到 `raw/bookmarks/github.md` 或 `sites.md`（title + url + added；**不**建 per-project stub 目录）
+- 书签**不**需要 per-link `raw-manifest.yaml` claim
+- 建/更新 **Entity** + **1 条 Reference**：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写「为什么收藏、何时用」；`tags` 含 `bookmark`（GitHub 再加 `github`）
 - 以后读到站内某篇，再按成文型单独 ingest
-- 已有 Entity 时只补/更新 Reference 与 stub，勿重复建实体
+- 已有 Entity 时只补/更新 Reference 与书签条目，勿重复建实体
 
 ## Entity vs Concept
 

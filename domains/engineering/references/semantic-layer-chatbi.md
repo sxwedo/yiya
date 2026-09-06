@@ -5,7 +5,7 @@ description: "听挽风讲大数据：ChatBI 幻觉根因是口径不在语料�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:25:00Z }
-resource: /raw/library/2026/09/semantic-layer-chatbi/AI写SQL总在胡编？因为你的数仓没有语义层.md
+resource: /raw/articles/AI写SQL总在胡编？因为你的数仓没有语义层.md
 sources: []
 ---
 

@@ -5,7 +5,7 @@ description: "阿里云云原生：AgentLoop 以 OTel + 探针做数据接入；
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
-resource: /raw/library/2026/09/agentloop-data-ingress/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
+resource: /raw/articles/数据飞轮的起点：四种方式把 Agent 连进 AgentLoop丨AgentLoop 数据飞轮实践（二）.md
 sources: []
 ---
 

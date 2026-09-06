@@ -30,13 +30,13 @@ date: "2026-08-31 10:30:00"
 
 AgentLoop 的数据接入构建在 OTel（OpenTelemetry）标准协议之上，以探针的形式工作：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_1.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_1.png)
 
 图 1：基于 OTel 标准协议的探针接入
 
 探针会把 Agent 里各个调模型的地方、调工具的地方都以 Trace ID 的形式串联起来，并且把上下文的依赖关系完整串联，形成一张 Trace 拓扑图：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_2.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_2.png)
 
 图 2：Trace 拓扑：探针以 Trace ID 串联模型调用与工具调用，
 
@@ -62,7 +62,7 @@ Agent 的形态千差万别，一套接入方式不可能通吃。针对不同�
 
 如果 Agent 是基于 AgentScope 这类 Agent 框架研发的，直接通过集成方式就能快速完成数据的对接和上报：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_3.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_3.png)
 
 图 3：基于 AgentScope 框架的 Agent 通过集成方式接入
 
@@ -72,7 +72,7 @@ Agent 的形态千差万别，一套接入方式不可能通吃。针对不同�
 
 高代码场景（包括用 AI-coding 方式自研的 Agent）可以引用 AgentLoop 的依赖包，在程序里需要埋点的地方用注解的方式采集数据，上报到云端：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_4.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_4.png)
 
 图 4：自定义高代码接入：依赖包 + 注解方式采集
 
@@ -82,7 +82,7 @@ Agent 的形态千差万别，一套接入方式不可能通吃。针对不同�
 
 如果完全不想改代码，可以用 eBPF 方案——通过内核级的监控，无需修改任何代码即可对接。它能够观测到 Agent 与模型网关之间的交互、执行工具过程中的指令，同时覆盖模型调用和 Agent 执行的观测：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_5.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_5.png)
 
 图 5：eBPF 无侵入接入：内核级监控
 
@@ -100,7 +100,7 @@ eBPF 工作在内核层，采集对应用完全透明——适合存量系统、
 
 接入时有两个必填概念。所有数据都在同一个 AgentSpace（workspace）之下，那么怎么区分数据从哪个应用来、是谁上报的？答案就是这两个字段：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_6.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_6.png)
 
 图 6：Service Name 区分应用，License Key 用于鉴权
 
@@ -128,7 +128,7 @@ eBPF 工作在内核层，采集对应用完全透明——适合存量系统、
 
 先在控制台获取 License Key，然后执行安装命令：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_7.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_7.png)
 
 图 7：在机器上执行安装命令，部署 LoongSuite Pilot
 
@@ -138,7 +138,7 @@ eBPF 工作在内核层，采集对应用完全透明——适合存量系统、
 
 整个采集机制是：安装一个 LoongSuite Pilot——它是一个旁路进程；Claude Code 的配置里加了一些 webhook，会把相关信息发送到 Pilot 进程，再由 Pilot 上报到云端：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_8.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_8.png)
 
 图 8：采集链路：Claude Code 经 webhook 发送到
 
@@ -150,7 +150,7 @@ LoongSuite Pilot 旁路进程，再上报云端（示意图）
 
 安装完成后，hooks 已经配置在 settings.json 里：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_9.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_9.png)
 
 图 9：settings.json 里已安装好 hooks
 
@@ -160,13 +160,13 @@ LoongSuite Pilot 旁路进程，再上报云端（示意图）
 
 重启后做一次测试，Agent 正常响应。接着到观测页面确认数据是否上报：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_10.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_10.png)
 
 图 10：观测页已能看到上报的数据
 
 数据已经上报上来了。点开链路明细，可以看到完整的执行链路，包括大模型的处理步骤：
 
-![](./media/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_11.png)
+![](./_media/agentloop-data-ingress/阿里云云原生_lmZaSJpyTKdBeytRYeIeJg_11.png)
 
 图 11：链路明细中可见大模型处理步骤
 
