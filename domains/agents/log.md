@@ -1,6 +1,7 @@
 # Agent 与 harness — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | X 书签 (216–265/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (209–584/584) 成功 7 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (159–208/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (109–158/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。

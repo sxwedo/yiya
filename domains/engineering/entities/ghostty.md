@@ -12,6 +12,7 @@ related:
 sources:
   - ../references/ghostty-site.md
   - ../references/zerebos-ghostty-config-github.md
+  - ../../../raw/articles/阿蔺A-Lin/Ghostty 终端入门指南：安装、配置、用起来.md
 ---
 
 # Summary
@@ -25,3 +26,4 @@ sources:
 - [Ghostty（站点书签）](../references/ghostty-site.md)
 - [Starship](./starship.md)
 - [zerebos/ghostty-config（GitHub）](../references/zerebos-ghostty-config-github.md)
+- [Ghostty 终端入门指南：安装、配置、用起来](../../../raw/articles/阿蔺A-Lin/Ghostty 终端入门指南：安装、配置、用起来.md)

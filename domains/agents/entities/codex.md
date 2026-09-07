@@ -22,6 +22,7 @@ sources:
   - ../../../raw/articles/Ren/每天刷两小时推特，看到的还是二手转述。这 12 个源直接看一手，建议收藏：.md
   - ../../../raw/articles/Tiger/ChatGPT Codex 手机号二次验证的解决方法.md
   - ../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md
+  - ../../../raw/articles/AIGCLINK/阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活.md
 ---
 
 # Summary
@@ -42,3 +43,4 @@ sources:
 - [每天刷两小时推特，看到的还是二手转述。这 12 个源直接看一手，建议收藏：](../../../raw/articles/Ren/每天刷两小时推特，看到的还是二手转述。这 12 个源直接看一手，建议收藏：.md)
 - [ChatGPT Codex 手机号二次验证的解决方法](../../../raw/articles/Tiger/ChatGPT Codex 手机号二次验证的解决方法.md)
 - [获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。](../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md)
+- [阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活](../../../raw/articles/AIGCLINK/阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活.md)

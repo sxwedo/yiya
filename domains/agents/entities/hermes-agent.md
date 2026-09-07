@@ -16,6 +16,7 @@ sources:
   - ../../../raw/articles/Teknium 🪽/Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and.md
   - ../../../raw/articles/岚叔/上手 Hermes Agent 后建议先尝试的十件事情.md
   - ../../../raw/articles/Mr. Buzzoni/－ Most people treat notes, models, and agents as three separate worlds.md
+  - ../../../raw/articles/Zaid/The problem with AI agents right now.md
 ---
 
 # Summary
@@ -31,3 +32,4 @@ sources:
 - [Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and](../../../raw/articles/Teknium 🪽/Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and.md)
 - [上手 Hermes Agent 后建议先尝试的十件事情](../../../raw/articles/岚叔/上手 Hermes Agent 后建议先尝试的十件事情.md)
 - [－ Most people treat notes, models, and agents as three separate worlds](../../../raw/articles/Mr. Buzzoni/－ Most people treat notes, models, and agents as three separate worlds.md)
+- [The problem with AI agents right now](../../../raw/articles/Zaid/The problem with AI agents right now.md)

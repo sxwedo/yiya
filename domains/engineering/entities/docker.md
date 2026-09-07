@@ -9,6 +9,7 @@ related:
   - docker-docs
 sources:
   - ../references/docker-docs.md
+  - ../../../raw/articles/GitHubDaily/给最近求职面试的同学，推荐一款开源的简历编辑器：Magic Resume，所见即得，边写边看效果。.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 ## Related
 
 - [Docker Docs](../references/docker-docs.md)
+- [给最近求职面试的同学，推荐一款开源的简历编辑器：Magic Resume，所见即得，边写边看效果。](../../../raw/articles/GitHubDaily/给最近求职面试的同学，推荐一款开源的简历编辑器：Magic Resume，所见即得，边写边看效果。.md)

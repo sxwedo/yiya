@@ -18,6 +18,7 @@ sources:
   - ../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md
   - ../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md
   - ../../../raw/articles/Rahul/There are 8 billion people on the planet.md
+  - ../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md
 ---
 
 # Summary
@@ -35,3 +36,4 @@ sources:
 - [for anyone asking where to learn this stuff－](../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md)
 - [A free open-source model is running 300 parallel agents across 4,000 coordinated steps](../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md)
 - [There are 8 billion people on the planet](../../../raw/articles/Rahul/There are 8 billion people on the planet.md)
+- [今天来看腾讯的开发工程师的初面题。](../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md)

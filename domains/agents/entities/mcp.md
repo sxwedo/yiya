@@ -27,6 +27,7 @@ sources:
   - ../../../raw/articles/Suryansh Tiwari/Claude Code feels completely different once you install this.md
   - ../../../raw/articles/Jason Zhu/Anthropic于2026年3月12日推出“Claude Certified.md
   - ../../../raw/articles/Ren/如何写出工业级 Skill.md
+  - ../../../raw/articles/AI Will/Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课程：.md
 ---
 
 # Summary
@@ -56,3 +57,4 @@ sources:
 - [Claude Code feels completely different once you install this](../../../raw/articles/Suryansh Tiwari/Claude Code feels completely different once you install this.md)
 - [Anthropic于2026年3月12日推出“Claude Certified](../../../raw/articles/Jason Zhu/Anthropic于2026年3月12日推出“Claude Certified.md)
 - [如何写出工业级 Skill](../../../raw/articles/Ren/如何写出工业级 Skill.md)
+- [Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课程：](../../../raw/articles/AI Will/Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课程：.md)
