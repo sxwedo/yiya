@@ -24,6 +24,7 @@ sources:
   - ../../../raw/articles/MIKE/How to Create Loops with Claude.md
   - ../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md
   - ../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md
+  - ../../../raw/articles/Roan/this is f－cking dangerous.md
 ---
 
 # Definition
@@ -53,3 +54,4 @@ sources:
 - [How to Create Loops with Claude](../../../raw/articles/MIKE/How to Create Loops with Claude.md)
 - [Loop Engineering－ The AI skill every builder needs in 2026](../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md)
 - [Stop Being the Loop. Here's How to Make Claude Work While You Sleep](../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md)
+- [this is f*cking dangerous](../../../raw/articles/Roan/this is f－cking dangerous.md)

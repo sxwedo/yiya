@@ -21,6 +21,8 @@ sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Amto/119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。.md
   - ../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md
+  - ../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md
+  - ../../../raw/articles/花叔/你的下一个员工，何必是同事。.md
 ---
 
 # Summary
@@ -45,3 +47,5 @@ sources:
 - [anthropics-skills-github](../references/anthropics-skills-github.md)
 - [119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。](../../../raw/articles/Amto/119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。.md)
 - [A2A：当 Agent 开始自己找人干活](../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md)
+- [New skill: /apple-design](../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md)
+- [你的下一个员工，何必是同事。](../../../raw/articles/花叔/你的下一个员工，何必是同事。.md)
