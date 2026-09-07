@@ -10,6 +10,7 @@ related:
   - mena
   - mcp
   - pi
+  - grok-build
   - advisor
   - ttsr
   - minimal-agent-harness
@@ -30,6 +31,7 @@ sources:
 - [mena](./mena.md)
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Pi](./pi.md)
+- [Grok Build](./grok-build.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
 - [Advisor](../concepts/advisor.md)
 - [TTSR](../concepts/ttsr.md)

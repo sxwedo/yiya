@@ -10,6 +10,7 @@ tags: [bookmark]
 sources: []
 related:
   - trendshift
+  - hacker-news
 ---
 
 # Notes
@@ -22,3 +23,4 @@ related:
 ## Related
 
 - [Trendshift](../entities/trendshift.md)
+- [Hacker News](../../../shared/entities/hacker-news.md)

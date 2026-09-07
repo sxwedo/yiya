@@ -1,6 +1,9 @@
 # shared — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | [Hacker News](https://news.ycombinator.com/) → Entity [Hacker News](./entities/hacker-news.md) + Reference [站点](./references/hacker-news-site.md)；链 [Trendshift](../domains/agents/entities/trendshift.md)。跨域外探源放 shared，不开新闻域。
+* **2026-09-07 ingest** | 链 [Obsidian](./entities/obsidian.md) 到 [Proof](../domains/agents/entities/proof.md)（本地 vault vs 人机共写文档面）。
+* **2026-09-07 schema** | 书签加 `tools.md`：打开即用的检测/查询。产品站仍 `sites.md`。
 * **2026-09-07 schema** | 书签拆三表：`github.md` 仓库 · `sites.md` 产品站 · `docs.md` 文档门户。文档 URL 不再进 sites.md。
 * **2026-09-07 ingest** | [Grokipedia](https://grokipedia.com/) → Entity [Grokipedia](./entities/grokipedia.md) + Reference [站点](./references/grokipedia-site.md)；改 [LLM Wiki](./concepts/llm-wiki.md)，链 Self-growing KB。结构体检：公开百科放 shared，不挂 Grok Bot。
 * **2026-09-07 ingest** | 链 [AGENTS.md](../domains/agents/entities/agents-md.md) 到 [LLM Wiki](./concepts/llm-wiki.md)（schema 文件名即该规范）。

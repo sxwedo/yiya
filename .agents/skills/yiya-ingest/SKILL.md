@@ -27,11 +27,11 @@ argument-hint: "[url-or-path] [domain?]"
 先看 URL 形态，再选成文或书签。
 
 - **成文型**（文章/长帖，或一篇有稳定标题的官方指南/规范）：走「捕捉正文 → raw → 盘点已有 → 续写或建页」。官方文档作者用官方名，不用 `_unknown`。
-- **书签型**（网站首页、GitHub 仓库、产品主页、**docs 门户/根**）：
+- **书签型**（网站首页、GitHub 仓库、产品主页、**docs 门户/根**、打开即用的在线工具）：
   1. 判定 domain；在目标域 + `shared` 的 `entities/` 找同产品，已有则只补 Reference、书签行与 Related，不新开第二张产品 Entity
-  2. 按 URL 追加一行（只收入口）：`github.com/org/repo` → `github.md`；文档门户 / docs 根 → `docs.md`；其余产品/机构首页 → `sites.md`
+  2. 按 URL 追加一行（只收入口）：`github.com/org/repo` → `github.md`；文档门户 / docs 根 → `docs.md`；打开即用的检测/查询 → `tools.md`；其余产品/机构首页 → `sites.md`。打开就能跑一次（Ping、looking glass、whois）进 `tools.md`；要安装或当产品用的仍进 `sites.md`
   3. 书签只写对应表 + Entity/Reference
-  4. **一条** Reference：`resource:` 指向**该行所在表**（github / sites / docs）；`tags` 含 `bookmark`（GitHub 再加 `github`）。docs 门户 Notes 可写常用深链
+  4. **一条** Reference：`resource:` 指向**该行所在表**（github / sites / docs / tools）；`tags` 含 `bookmark`（GitHub 再加 `github`）。docs 门户与工具页 Notes 可写常用深链
   5. 完成：Entity（新建或更新）+ Reference + 对应表一行
 - **官方文档怎么判**（成文或书签，不开第四种 raw）：
   | 形态 | 走 | 完成标准 |
@@ -51,7 +51,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 成文型：
 
-1. **查重**：扫 `raw/articles/**/*.md` 的 `url:`，以及 `bookmarks/github.md` / `sites.md` / `docs.md` 的 URL；已存在则停止或只补链。
+1. **查重**：扫 `raw/articles/**/*.md` 的 `url:`，以及 `bookmarks/github.md` / `sites.md` / `docs.md` / `tools.md` 的 URL；已存在则停止或只补链。
 2. 先放 `raw/_inbox/`（或一步到位 articles）。
 3. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 `author:` 短名，去掉 `(@handle)`；无作者用 `_unknown`）。**必须**有 `url:`（本地稿可 `url: local:` + 说明）。
 4. 配图：`raw/articles/_media/<slug>/`；正文链接 `../_media/<slug>/...`。
@@ -85,7 +85,7 @@ argument-hint: "[url-or-path] [domain?]"
 仅当**书签型**，或成文里多页确需共用一张来源卡（仍优先都直链 raw）。在目标 bundle 的 `references/`：
 
 - 复制 `templates/reference.md`；`type: Reference`
-- `resource` 相对路径指向 raw（成文：`../../../raw/articles/<作者>/…`；书签：`../../../raw/bookmarks/github.md` / `sites.md` / `docs.md`）
+- `resource` 相对路径指向 raw（成文：`../../../raw/articles/<作者>/…`；书签：`../../../raw/bookmarks/github.md` / `sites.md` / `docs.md` / `tools.md`）
 - Notes 首条 `[打开 raw](相对路径)`
 
 ### 6. 维护索引与 log
@@ -109,7 +109,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] 成文型：raw 已写入且头有 `url:`；书签型：已追加 `github.md` / `sites.md` / `docs.md` 中对应表；回写：用户说了「回写」，无新 raw
+- [ ] 成文型：raw 已写入且头有 `url:`；书签型：已追加 `github.md` / `sites.md` / `docs.md` / `tools.md` 中对应表；回写：用户说了「回写」，无新 raw
 - [ ] 已做「盘点已有」，每个候选是改 / 链 / 建之一；同簇已有页已碰
 - [ ] 至少一页 Concept/Entity（或书签 Reference）链到该 raw
 - [ ] 成文默认无新 Reference；书签型有 Reference（`resource:` 相对 + Notes `[打开 raw]`）

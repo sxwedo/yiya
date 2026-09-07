@@ -8,7 +8,7 @@
 |---|---|
 | `raw/articles/<作者>/<标题>.md` | 成文（frontmatter 须有 `url:`） |
 | `raw/articles/_media/<slug>/` | 配图（不进作者目录） |
-| `raw/bookmarks/github.md` · `sites.md` · `docs.md` | 书签：GitHub / 产品站 / 文档门户 |
+| `raw/bookmarks/github.md` · `sites.md` · `docs.md` · `tools.md` | 书签：GitHub / 产品站 / 文档门户 / 在线工具 |
 | `raw/_inbox/` | 未分域 |
 | `domains/<id>/` | 领域 OKF bundle（entities / concepts / references） |
 | `shared/` | 跨域实体与纲领 |

@@ -9,6 +9,9 @@ related:
   - fastmcp
   - gitmcp
   - langchain
+  - mineru
+  - proof
+  - pilot-protocol
   - mena
   - pi
   - oh-my-pi
@@ -28,6 +31,9 @@ sources:
 - [FastMCP](./fastmcp.md)
 - [GitMCP](./gitmcp.md)
 - [LangChain](./langchain.md)
+- [MinerU](./mineru.md)
+- [Proof](./proof.md)
+- [Pilot Protocol](./pilot-protocol.md)
 - [MCP（站点书签）](../references/mcp-site.md)
 - [mena](./mena.md)
 - [Pi](./pi.md)

@@ -5,7 +5,8 @@ description: "GitHub 仓库实时动量榜：在上升期捕捉趋势，而非�
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T03:50:00Z }
-related: []
+related:
+  - hacker-news
 sources:
   - ../references/trendshift-site.md
 ---
@@ -17,3 +18,4 @@ sources:
 ## Related
 
 - [Trendshift（站点书签）](../references/trendshift-site.md)
+- [Hacker News](../../../shared/entities/hacker-news.md)

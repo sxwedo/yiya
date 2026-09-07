@@ -8,6 +8,7 @@
 * [Ghostty（站点）](./ghostty-site.md) — ghostty.org 书签：原生 GPU 终端模拟器官方站，文档与下载入口。
 * [github/gitignore（GitHub）](./github-gitignore.md) — github/gitignore 书签：GitHub 官方 .gitignore 模板集入口。
 * [美团搜索3.0：LLM 语义表征在排序模型的探索与应用](./meituan-llm-search-ranking.md) — 美团技术：服务零售精排三期实践——LLM 语义向量 + cosine 注入排序；从验证到 Query-POI-Deal 三元体系再到跨场景复用。
+* [ping.pe（工具）](./ping-pe-tool.md) — ping.pe：多地 Ping、MTR、TCP 端口、DNS 与 BGP looking glass。
 * [吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals](./ng-evals-watershed.md) — 解读 Andrew Ng：构建 AI 应用六项子技能中，评测驱动开发是区分出色构建者的最重要特质。
 * [AI写SQL总在胡编？因为你的数仓没有语义层](./semantic-layer-chatbi.md) — 听挽风讲大数据：ChatBI 幻觉根因是口径不在语料；语义层把指标/维度工程化，走 Text2Semantic2SQL。
 * [Starship（站点）](./starship-site.md) — starship.rs 书签：跨 shell 提示符官方站，安装与配置入口。

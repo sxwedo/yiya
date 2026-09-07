@@ -12,6 +12,9 @@ related:
   - pi
   - oh-my-pi
   - grok-bot
+  - grok-build
+  - skills-sh
+  - herdr
   - coding-agent-workflow
 sources:
   - ../references/sxwedo-mena-github.md
@@ -32,4 +35,7 @@ sources:
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [Grok Bot](./grok-bot.md)
+- [Grok Build](./grok-build.md)
+- [skills.sh](./skills-sh.md)
+- [Herdr](./herdr.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

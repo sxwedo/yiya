@@ -24,6 +24,7 @@ sources: []
 - [Andrej Karpathy](./entities/karpathy.md)
 - [Google DeepMind](./entities/deepmind.md)
 - [Grokipedia](./entities/grokipedia.md)
+- [Hacker News](./entities/hacker-news.md)
 - [Obsidian](./entities/obsidian.md)
 
 ## 跨域纲领

@@ -9,6 +9,7 @@ related:
   - pi
   - oh-my-pi
   - mena
+  - herdr
 sources:
   - ../references/omarchy-site.md
 ---
@@ -25,3 +26,4 @@ sources:
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [mena](./mena.md)
+- [Herdr](./herdr.md)

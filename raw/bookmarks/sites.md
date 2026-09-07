@@ -3,6 +3,7 @@
 | 站点 | URL | 作者/方 | 简介 |
 |---|---|---|---|
 | Claude Academy | https://academy.claude.com | Anthropic | Anthropic 官方学院：学用 Claude（Code/Cowork/Platform 等）与 AI Fluency 课程 |
+| Claude Blog | https://claude.com/blog/ | Anthropic | Anthropic 官方博客：Claude 产品、研究与工程文章 |
 | Pi | https://pi.dev | earendil-works | 极简终端编码代理官网：文档、扩展、Packages、Skills |
 | Omarchy | https://omarchy.org | DHH / 37signals | DHH 的意见化 Arch+Hyprland 桌面：把 coding agent 当一等公民（懒加载启动器 + 系统 skill） |
 | Model Context Protocol | https://modelcontextprotocol.io/ | Anthropic / 社区 | 连接 AI 应用与外部系统的开放标准（工具/数据/工作流；常比作 AI 的 USB-C） |
@@ -18,3 +19,11 @@
 | Ghostty | https://ghostty.org/ | Mitchell Hashimoto | 原生 GPU 终端模拟器（Zig）；不是 Electron，也不是 shell 提示符 |
 | AGENTS.md | https://agents.md/ | agents.md | 仓内给编码代理读的约定文件（对人用 README，对 Agent 用 AGENTS.md） |
 | Grokipedia | https://grokipedia.com/ | xAI | xAI 用 Grok 生成/核验的在线百科；条目不可直接众包编辑 |
+| MinerU | https://mineru.net/ | OpenDataLab | 面向 Agent 和 RAG 的文档解析：PDF / Office / 图片 → Markdown / JSON |
+| skills.sh | https://skills.sh/ | Vercel | Agent Skills 开放目录与排行榜；`npx skills` 一键装到多家编码代理 |
+| Herdr | https://herdr.dev/ | herdr / Can Celik | 编码代理终端运行时：后台持有会话，合盖不断；不替换各家 CLI |
+| Proof | https://proofeditor.ai/ | Every | 人与 Agent 共写的文档编辑器：在场、评论、建议、出处轨 |
+| Hacker News | https://news.ycombinator.com/ | Y Combinator | 黑客新闻板：链接 + 讨论；Show HN / Ask HN |
+| Grok Build | https://x.ai/open-source | xAI | 开源终端编码代理：harness + TUI（xai-org/grok-build）；模型仍走 API |
+| Raft | https://raft.build/zh-cn/ | Raft | 人与 Agent 共用频道工作空间：长期身份/记忆，本机 daemon 跑各家运行时 |
+| Pilot Protocol | https://pilotprotocol.network/ | Pilot Protocol | Agent 组网 overlay：加密 P2P、应用商店、MCP；默认可信才互通 |

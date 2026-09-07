@@ -11,6 +11,7 @@ related:
   - multi-harness-control-plane
   - mena
   - pi
+  - skills-sh
   - minimal-agent-harness
   - delivery-harness
 sources:
@@ -36,6 +37,7 @@ sources:
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [mena](../entities/mena.md)
 - [Pi](../entities/pi.md)
+- [skills.sh](../entities/skills-sh.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [Delivery Harness](./delivery-harness.md)
 - [AI Engineering Skills Map: Using coding agents](../references/ng-coding-agents-skills.md)

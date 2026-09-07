@@ -10,6 +10,7 @@ related:
   - llm-wiki
   - karpathy
   - self-growing-kb
+  - proof
 sources:
   - ../references/obsidian-site.md
 ---
@@ -26,3 +27,4 @@ sources:
 - [LLM Wiki](../concepts/llm-wiki.md)
 - [Andrej Karpathy](./karpathy.md)
 - [Self-growing Knowledge Base](../concepts/self-growing-kb.md)
+- [Proof](../../domains/agents/entities/proof.md)

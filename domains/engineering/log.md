@@ -1,6 +1,8 @@
 # 工程与可维护性 — Log
 
 ## 2026-09-07
+* **2026-09-07 schema** | [ping.pe](./references/ping-pe-tool.md) 迁 `raw/bookmarks/tools.md`（打开即用的在线工具不再进 sites.md）。
+* **2026-09-07 ingest** | [ping.pe](https://ping.pe/) → Entity [ping.pe](./entities/ping-pe.md) + Reference [工具](./references/ping-pe-tool.md)。overview 收补多地网络诊断。
 * **2026-09-07 schema** | [Docker Docs](./references/docker-docs.md) 的 `resource` 改指向 `raw/bookmarks/docs.md`（文档门户不再进 sites.md）。
 * **2026-09-07 ingest** | [Ghostty](https://ghostty.org/) → Entity [Ghostty](./entities/ghostty.md) + Reference [站点](./references/ghostty-site.md)；链 [Starship](./entities/starship.md)。overview 收补终端模拟器。
 * **2026-09-07 ingest** | [Starship](https://starship.rs/) → Entity [Starship](./entities/starship.md) + Reference [站点](./references/starship-site.md)。overview 收补跨 shell 提示符。

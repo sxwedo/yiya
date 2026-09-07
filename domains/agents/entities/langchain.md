@@ -7,6 +7,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T00:15:00Z }
 related:
   - mcp
+  - mineru
   - coding-agent-workflow
   - langchain-docs
 sources:
@@ -22,5 +23,6 @@ sources:
 
 - [LangChain（站点书签）](../references/langchain-site.md)
 - [LangChain Docs](../references/langchain-docs.md)
+- [MinerU](./mineru.md)
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

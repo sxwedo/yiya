@@ -10,6 +10,7 @@ related:
   - pi
   - coding-agent-workflow
   - multi-harness-control-plane
+  - skills-sh
   - llm-wiki
 sources:
   - ../references/agents-md-site.md
@@ -27,4 +28,5 @@ sources:
 - [Pi](./pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
+- [skills.sh](./skills-sh.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)

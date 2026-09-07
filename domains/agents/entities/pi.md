@@ -13,6 +13,9 @@ related:
   - agents-md
   - coding-agent-workflow
   - oh-my-pi
+  - skills-sh
+  - herdr
+  - grok-build
   - minimal-agent-harness
 sources:
   - ../references/pi-dev-site.md
@@ -36,4 +39,7 @@ sources:
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [earendil-works/pi（GitHub）](../references/earendil-pi-github.md)
 - [oh-my-pi](./oh-my-pi.md)
+- [skills.sh](./skills-sh.md)
+- [Herdr](./herdr.md)
+- [Grok Build](./grok-build.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
