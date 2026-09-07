@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-05T15:25:00Z }
 related:
   - agent-self-evolution-flywheel
   - evidence-gate
+  - four-layer-agent-memory
   - unreliable-components-reliable-systems
 sources:
   - ../references/ng-evals-watershed.md
@@ -30,3 +31,4 @@ sources:
 - [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)
 - [Agent 自进化飞轮](../../agents/concepts/agent-self-evolution-flywheel.md)
 - [Evidence Gate](../../agents/concepts/evidence-gate.md)
+- [四层 Agent 记忆](../../agents/concepts/four-layer-agent-memory.md)

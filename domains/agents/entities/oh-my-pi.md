@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T02:10:00Z }
 related:
   - omarchy
   - mena
+  - mcp
   - pi
   - advisor
   - ttsr
@@ -27,6 +28,7 @@ sources:
 
 - [Omarchy](./omarchy.md)
 - [mena](./mena.md)
+- [Model Context Protocol (MCP)](./mcp.md)
 - [Pi](./pi.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
 - [Advisor](../concepts/advisor.md)

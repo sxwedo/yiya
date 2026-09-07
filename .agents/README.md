@@ -1,11 +1,11 @@
 # .agents
 
-本仓库给 Agent 用的 **Skills**（可调用流程）。常驻规则仍在仓库根 [`AGENTS.md`](../AGENTS.md)。
+本仓库给 Agent 用的 **Skills**（可调用流程）。常驻规则与**问答协议**在仓库根 [`AGENTS.md`](../AGENTS.md)。问答没有独立 skill。
 
 | Skill | 何时用 |
 |---|---|
-| [`yiya-ingest`](./skills/yiya-ingest/SKILL.md) | 把文章/链接/剪藏入库并编纂少量知识 |
-| [`yiya-lint`](./skills/yiya-lint/SKILL.md) | 检查某个 domain / shared bundle |
+| [`yiya-ingest`](./skills/yiya-ingest/SKILL.md) | 入库（成文/书签/docs 根）或用户说「回写」时把结论续写进已有页 |
+| [`yiya-lint`](./skills/yiya-lint/SKILL.md) | 检查某个 domain / shared bundle（知识项仅当用户说全面体检 / lint 知识） |
 | [`yiya-new-domain`](./skills/yiya-new-domain/SKILL.md) | 新增一个领域 bundle |
 | [`yiya-promote-to-shared`](./skills/yiya-promote-to-shared/SKILL.md) | 把跨域实体升格到 `shared/` |
 

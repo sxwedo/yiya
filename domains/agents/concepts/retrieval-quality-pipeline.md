@@ -7,6 +7,8 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:25:00Z }
 related:
   - compound-retrieval-agent
+  - llm-semantic-ranking-embedding
+  - embedding-hard-negatives
 sources:
   - ../references/dewu-compound-retrieval-agent.md
 ---
@@ -21,6 +23,10 @@ sources:
 
 宜挂在中间件/钩子上对 Agent 透明，各阶段可开关。召回管「找全」，Pipeline 管「找准」；只加一层 Reranker 往往不够。
 
+排序侧把语义相关做成可学习向量，见 [LLM 排序语义表征](../../engineering/concepts/llm-semantic-ranking-embedding.md)；负例质量见 [表征难负样本](../../engineering/concepts/embedding-hard-negatives.md)。此处焦点是 Agent 召回之后的分级筛选。
+
 ## Related
 
 - [复合检索 Agent](./compound-retrieval-agent.md)
+- [LLM 排序语义表征](../../engineering/concepts/llm-semantic-ranking-embedding.md)
+- [表征难负样本](../../engineering/concepts/embedding-hard-negatives.md)

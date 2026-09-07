@@ -10,6 +10,7 @@ related:
   - semantic-engineer
   - semantic-layer
   - text2semantic2sql
+  - mcp
 sources:
   - ../references/ai-native-ontology.md
 ---
@@ -18,10 +19,11 @@ sources:
 
 **Semantic Service** 是 Ontology 的服务化交付形态：查询事实、计算判断、执行受控动作并留下审计证据；底层系统差异由 Adapter 消化。
 
-Agent 应面向 Semantic Service 编排，而不是把业务逻辑塞进提示词或散落工具代码。接口可表现为 API / MCP Resource / Tool；定义需结构化存储并纳入版本与契约测试。
+Agent 应面向 Semantic Service 编排，而不是把业务逻辑塞进提示词或散落工具代码。接口可表现为 API / [MCP](../../agents/entities/mcp.md) Resource / Tool；定义需结构化存储并纳入版本与契约测试。协议本体在 agents 域，此处只是消费面。
 
 ## Related
 
+- [Model Context Protocol (MCP)](../../agents/entities/mcp.md)
 - [业务 Ontology](./business-ontology.md)
 - [语义工程师](./semantic-engineer.md)
 - [语义层](./semantic-layer.md)

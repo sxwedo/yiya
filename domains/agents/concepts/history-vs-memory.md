@@ -11,13 +11,14 @@ related:
   - online-memory-pipeline
 sources:
   - ../references/huolala-llm-memory-online.md
+  - ../references/dewu-multiagent-memory.md
 ---
 
 # Definition
 
 **历史不等于记忆**。历史按时间堆积消息；记忆要把信息提炼成可复用的事实、关系与任务进展，并判断新信息是补充、修正还是覆盖旧状态。
 
-长上下文只提高「一次能读多少」，不解决「状态如何持续维护」。不带历史则失忆；全量历史则 token 膨胀且仍要临时判新旧。专门记忆系统的价值是让历史有生命力：更新、合并、遗忘，并在需要时以合适形式参与当下判断。
+长上下文只提高「一次能读多少」，不解决「状态如何持续维护」。不带历史则失忆；全量历史则 token 膨胀且仍要临时判新旧。专门记忆系统的价值是让历史有生命力：更新、合并、遗忘，并在需要时以合适形式参与当下判断。得物把可复用状态按生命周期拆成四层，见 [四层 Agent 记忆](./four-layer-agent-memory.md)。
 
 ## Related
 

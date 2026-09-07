@@ -1,6 +1,7 @@
-# Agent 与 Grok Bot — Log
+# Agent 与 harness — Log
 
 ## 2026-09-07
+* **2026-09-07 schema** | overview 拓宽（MCP/运行面/学院）；Trendshift 标外探源；WikiSkill↔LLM Wiki；LangChain↔MCP；检索质量↔排序表征；记忆簇互补 sources。标题改为 Agent 与 harness。
 * **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话；overview 实体表与目录对齐（11 个 Entity）。
 
 ## 2026-09-06

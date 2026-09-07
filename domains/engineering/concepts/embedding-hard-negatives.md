@@ -7,6 +7,7 @@ domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-06T00:05:00Z }
 related:
   - llm-semantic-ranking-embedding
+  - retrieval-quality-pipeline
 sources:
   - ../references/meituan-llm-search-ranking.md
 ---
@@ -20,3 +21,4 @@ sources:
 ## Related
 
 - [LLM 排序语义表征](./llm-semantic-ranking-embedding.md)
+- [检索质量 Pipeline](../../agents/concepts/retrieval-quality-pipeline.md)

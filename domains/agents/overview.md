@@ -1,18 +1,18 @@
 ---
 type: Overview
-title: "Agent 与 Grok Bot"
-description: "Agent 与 Grok Bot 鸟瞰：收 Agent / harness / 编码代理工具与相关模式；具名产品见 entities。"
+title: "Agent 与 harness"
+description: "Agent 运行时、harness、MCP 生态与编码代理产品；具名产品见 entities。"
 status: draft
 domain: agents
-generated: { by: agent:yiya-librarian, at: 2026-09-07T00:00:00Z }
+generated: { by: agent:yiya-librarian, at: 2026-09-07T18:00:00Z }
 sources: []
 ---
 
 # Scope
 
-**收**：Agent 运行时与 harness、记忆/评测/检索模式、具名编码代理产品（如 Pi、oh-my-pi）、多智能体协作与治理。
+**收**：Agent 运行时与 harness、记忆/评测/检索模式、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot）、MCP 协议及其上的 server/框架、agent 运行面（桌面/本机壳）、官方学院、多智能体协作与治理。
 
-**不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；跨域权威实体升格后放 `shared/entities`。
+**不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；跨域权威实体升格后放 `shared/entities`。外探源（如 Trendshift）可建 Entity，不当作成品 harness。
 
 ## 本域实体
 
@@ -28,11 +28,16 @@ sources: []
 | [oh-my-pi](./entities/oh-my-pi.md) | batteries-included 终端编码代理（omp.sh），Rust 核心 |
 | [Omarchy](./entities/omarchy.md) | DHH 的 Arch 桌面：coding agent CLI 当系统一等公民 |
 | [Pi](./entities/pi.md) | earendil-works 极简终端编码代理框架（pi.dev） |
-| [Trendshift](./entities/trendshift.md) | GitHub 仓库实时动量榜，上升期捕捉趋势 |
+
+### 外探源
+
+| Entity | 一句话 |
+|--------|--------|
+| [Trendshift](./entities/trendshift.md) | GitHub 仓库实时动量榜，上升期捕捉趋势；不是 agent 产品 |
 
 （具名产品/框架入库时在此追加；跨域权威可升 `shared/entities`。）
 
 ## 怎么逛
 
-1. 先看 `entities/`（产品/框架）
+1. 先看 `entities/`（产品/框架）与类型 `index.md`
 2. 再看 `concepts/`（模式）与 `references/`（来源）

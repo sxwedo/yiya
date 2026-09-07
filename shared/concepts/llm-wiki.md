@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T11:40:00Z }
 related:
   - self-growing-kb
   - karpathy
+  - wikiskill-architecture
 sources:
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
   - ../references/karpathy-llm-wiki.md
@@ -21,8 +22,11 @@ sources:
 
 yiya 落地：raw（articles/bookmarks）+ domains/shared 当 wiki + AGENTS/skills；Reference 仅按需。
 
+与 [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md) 同族三层（Raw → 编纂 → 可执行层）：本页是个人知识库的编译 wiki；WikiSkill 是 Agent 技能从知识里进化。对照见该页。
+
 ## Related
 
+- [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)
 - [Self-growing Knowledge Base](./self-growing-kb.md)
 - [Andrej Karpathy](../entities/karpathy.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)

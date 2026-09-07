@@ -4,13 +4,11 @@ title: ""
 description: ""
 status: draft
 domain: ""
-generated: { by: agent:ori, at: 1970-01-01T00:00:00Z }
-related: []
+generated: { by: agent:yiya-librarian, at: 1970-01-01T00:00:00Z }
 sources: []
+related: []
 ---
 
 # Summary
 
 ## Related
-
-- [相关概念](./example.md)

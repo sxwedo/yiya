@@ -7,6 +7,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:24:00Z }
 related:
   - wikiskill-architecture
+  - llm-wiki
 sources:
   - ../references/wikiskill-three-layer.md
 ---
@@ -23,3 +24,4 @@ sources:
 ## Related
 
 - [WikiSkill 三层架构](./wikiskill-architecture.md)
+- [LLM Wiki](../../../shared/concepts/llm-wiki.md)

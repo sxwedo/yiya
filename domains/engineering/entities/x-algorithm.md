@@ -8,8 +8,10 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T10:20:00Z }
 related:
   - multi-action-feed-ranking
   - llm-semantic-ranking-embedding
+  - x-algorithm-github
 sources:
   - ../references/bright-ospo-x-algorithm.md
+  - ../references/x-algorithm-github.md
 ---
 
 # Summary
@@ -21,3 +23,4 @@ sources:
 - [Multi-action Feed Ranking](../concepts/multi-action-feed-ranking.md)
 - [LLM 排序语义表征](../concepts/llm-semantic-ranking-embedding.md)
 - [X 的推荐算法：你刷到下一条帖子之前，后台发生了什么？](../references/bright-ospo-x-algorithm.md)
+- [xai-org/x-algorithm（GitHub）](../references/x-algorithm-github.md)

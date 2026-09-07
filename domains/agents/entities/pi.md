@@ -9,6 +9,7 @@ related:
   - omarchy
   - pi-dev-site
   - mena
+  - mcp
   - coding-agent-workflow
   - oh-my-pi
   - minimal-agent-harness
@@ -28,6 +29,7 @@ sources:
 
 - [Omarchy](./omarchy.md)
 - [Pi（官网）](../references/pi-dev-site.md)
+- [Model Context Protocol (MCP)](./mcp.md)
 - [mena](./mena.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [earendil-works/pi（GitHub）](../references/earendil-pi-github.md)

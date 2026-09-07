@@ -8,7 +8,10 @@ generated: { by: agent:yiya-librarian, at: 2026-09-07T00:00:00Z }
 related:
   - fastmcp
   - gitmcp
+  - langchain
   - mena
+  - pi
+  - oh-my-pi
   - coding-agent-workflow
 sources:
   - ../references/mcp-site.md
@@ -24,6 +27,9 @@ sources:
 
 - [FastMCP](./fastmcp.md)
 - [GitMCP](./gitmcp.md)
+- [LangChain](./langchain.md)
 - [MCP（站点书签）](../references/mcp-site.md)
 - [mena](./mena.md)
+- [Pi](./pi.md)
+- [oh-my-pi](./oh-my-pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

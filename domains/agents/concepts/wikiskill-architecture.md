@@ -7,6 +7,8 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:24:00Z }
 related:
   - knowledge-skill-separation
+  - llm-wiki
+  - self-growing-kb
 sources:
   - ../references/wikiskill-three-layer.md
 ---
@@ -21,6 +23,10 @@ sources:
 
 进化循环：用当前 Skill 跑 rollout → Maintainer 更新 Wiki → Proposer 基于 Wiki 提补丁 → Gating 在验证集决定接受/回滚。训练推理阶段不访问 Wiki，避免「查答案」污染轨迹。
 
+与 [LLM Wiki](../../../shared/concepts/llm-wiki.md) 同族：都是 Raw 不可变、Wiki 可复利。差别：LLM Wiki 编的是人读的个人知识库；WikiSkill 编的是 Agent 技能进化用的模式库。普通人/OPC 场景见 [Self-growing Knowledge Base](../../../shared/concepts/self-growing-kb.md)。
+
 ## Related
 
 - [知识与技能分离](./knowledge-skill-separation.md)
+- [LLM Wiki](../../../shared/concepts/llm-wiki.md)
+- [Self-growing Knowledge Base](../../../shared/concepts/self-growing-kb.md)

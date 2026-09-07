@@ -23,10 +23,11 @@ argument-hint: "<domain-id> [title]"
      active: true   # 或不确定时先 false
    ```
 4. 创建目录与文件（照抄 `domains/agents` 的瘦结构）：
-   - `domains/<id>/index.md`（含 `okf_version: "0.2"`）
-   - `log.md` `overview.md` `README.md` `AGENTS.md`
+   - `domains/<id>/index.md`（含 `okf_version: "0.2"`；只作文件夹封面，查询走 overview + 类型 index）
+   - `log.md` `overview.md` `README.md` `AGENTS.md`（AGENTS 写：继承根约定；本域 `domain:` 写 `<id>`；流程走根 `.agents/skills/`）
    - `references/index.md` `entities/index.md` `concepts/index.md`
    - 类型 index 格式：`* [Title](./x.md) — <description>`（空目录可只留标题，首条入库时再写一句话）
+   - `overview.md` 写「收什么/不收什么」；「怎么逛」先 entities 再 concepts
 5. 更新 `shared/map.md` 表格加一行。
 
 ## 完成标准

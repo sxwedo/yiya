@@ -9,6 +9,8 @@ related:
   - x-algorithm
   - multi-action-feed-ranking
   - embedding-hard-negatives
+  - retrieval-quality-pipeline
+  - compound-retrieval-agent
 sources:
   - ../references/meituan-llm-search-ranking.md
 ---
@@ -24,3 +26,5 @@ sources:
 - [x-algorithm](../entities/x-algorithm.md)
 - [Multi-action Feed Ranking](./multi-action-feed-ranking.md)
 - [表征难负样本](./embedding-hard-negatives.md)
+- [检索质量 Pipeline](../../agents/concepts/retrieval-quality-pipeline.md)
+- [复合检索 Agent](../../agents/concepts/compound-retrieval-agent.md)

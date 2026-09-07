@@ -1,6 +1,6 @@
 domains:
   - id: agents
-    title: Agent 与 Grok Bot
+    title: Agent 与 harness
     path: domains/agents
     active: true
   - id: engineering

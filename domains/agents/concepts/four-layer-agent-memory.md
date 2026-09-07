@@ -12,6 +12,7 @@ related:
   - online-memory-pipeline
 sources:
   - ../references/dewu-multiagent-memory.md
+  - ../references/huolala-llm-memory-online.md
 ---
 
 # Definition
@@ -23,7 +24,7 @@ sources:
 3. **User Memory** — 跨 Agent 共享的偏好与稳定事实。
 4. **Agent Memory** — 某个 Agent 的任务经验与协作约定。
 
-内容形态（文本/偏好/技能/工具记忆等）是另一分类维度，不与四层一一对应。会话结束后，新增信息经判断与去重，从 Session 沉淀到 User 或 Agent 层。
+内容形态（文本/偏好/技能/工具记忆等）是另一分类维度，不与四层一一对应。会话结束后，新增信息经判断与去重，从 Session 沉淀到 User 或 Agent 层。货拉拉侧强调「历史≠记忆」与在线提取流水线，见 [历史不等于记忆](./history-vs-memory.md)、[在线记忆流水线](./online-memory-pipeline.md)——分层是作用域，流水线是怎么写进去。
 
 ## Related
 

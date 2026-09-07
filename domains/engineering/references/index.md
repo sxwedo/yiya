@@ -9,3 +9,4 @@
 * [美团搜索3.0：LLM 语义表征在排序模型的探索与应用](./meituan-llm-search-ranking.md) — 美团技术：服务零售精排三期实践——LLM 语义向量 + cosine 注入排序；从验证到 Query-POI-Deal 三元体系再到跨场景复用。
 * [吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals](./ng-evals-watershed.md) — 解读 Andrew Ng：构建 AI 应用六项子技能中，评测驱动开发是区分出色构建者的最重要特质。
 * [AI写SQL总在胡编？因为你的数仓没有语义层](./semantic-layer-chatbi.md) — 听挽风讲大数据：ChatBI 幻觉根因是口径不在语料；语义层把指标/维度工程化，走 Text2Semantic2SQL。
+* [xai-org/x-algorithm（GitHub）](./x-algorithm-github.md) — x-algorithm 官方仓库书签：X 推荐算法开源生产栈入口。

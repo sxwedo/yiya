@@ -10,6 +10,7 @@ sources: []
 related:
   - x-algorithm
   - multi-action-feed-ranking
+  - x-algorithm-github
 ---
 
 # Notes
@@ -25,3 +26,4 @@ related:
 
 - [x-algorithm](../entities/x-algorithm.md)
 - [Multi-action Feed Ranking](../concepts/multi-action-feed-ranking.md)
+- [xai-org/x-algorithm（GitHub）](./x-algorithm-github.md)

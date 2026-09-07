@@ -18,11 +18,13 @@ argument-hint: "[path-to-page]"
 3. 源域页处理二选一（优先问用户）：
    - **stub**：保留文件，`status: deprecated` 或正文仅链到 shared；或
    - **删除**源页并全局改链接（破坏性，需明确同意）。
-4. 更新相关域与 `shared` 的 `log.md`、相关 `index.md`。
-5. 搜索仓库内旧路径链接并改为 shared 路径。
+4. 更新相关域与 `shared` 的 `log.md`、类型 `index.md`。
+5. 若源域 `overview.md` 实体表有该行，删掉或改成指向 shared；`shared/map.md` 跨域实体列表补一行。
+6. 搜索仓库内旧路径链接并改为 shared 路径。
 
 ## 完成标准
 
 - [ ] shared 上有唯一权威页
 - [ ] 原域不再维护第二份正文
+- [ ] 源域 overview 实体表与 `shared/map.md` 已对齐
 - [ ] 断链已处理或已列入报告
