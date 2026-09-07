@@ -26,6 +26,9 @@ sources:
   - ../../raw/articles/墓碑科技/你在 X 存了多少个书签？.md
   - ../../raw/articles/金尘马/卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！.md
   - ../../raw/articles/泊舟/Obsidian零基础教程.md
+  - ../../raw/articles/金尘马/我用这套方法，0成本复刻了价值2999元的写作专家团.md
+  - ../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md
+  - ../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md
 ---
 
 # Summary
@@ -50,3 +53,6 @@ sources:
 - [你在 X 存了多少个书签？](../../raw/articles/墓碑科技/你在 X 存了多少个书签？.md)
 - [卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！](../../raw/articles/金尘马/卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！.md)
 - [Obsidian零基础教程](../../raw/articles/泊舟/Obsidian零基础教程.md)
+- [我用这套方法，0成本复刻了价值2999元的写作专家团](../../raw/articles/金尘马/我用这套方法，0成本复刻了价值2999元的写作专家团.md)
+- [Hello everyone, leopardracer here!](../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md)
+- [Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记](../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md)

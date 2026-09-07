@@ -1,6 +1,7 @@
 # shared — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | X 书签 (266–315/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (159–208/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (109–158/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (58–108/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。

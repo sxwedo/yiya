@@ -30,6 +30,7 @@ sources:
   - ../references/antinomie-lab-pi-book-github.md
   - ../references/hahhforest-pi-textbook-github.md
   - ../../../raw/articles/Geek/Pi-Agent 教程：10 章把 Agent.md
+  - ../../../raw/articles/Pi/Our sessions have been messaging each other for months btw ;).md
 ---
 
 # Summary
@@ -57,3 +58,4 @@ sources:
 - [antinomie-lab/pi-book（GitHub）](../references/antinomie-lab-pi-book-github.md)
 - [hahhforest/pi-textbook（GitHub）](../references/hahhforest-pi-textbook-github.md)
 - [Pi-Agent 教程：10 章把 Agent](../../../raw/articles/Geek/Pi-Agent 教程：10 章把 Agent.md)
+- [Our sessions have been messaging each other for months btw ;)](../../../raw/articles/Pi/Our sessions have been messaging each other for months btw ;).md)

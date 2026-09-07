@@ -17,6 +17,7 @@ related:
 sources:
   - ../references/herdr-site.md
   - ../references/herdrdev-herdr-github.md
+  - ../../../raw/articles/1024/今天找到了一个超级好用的AI提示词工具——PromptFill，开源免费。.md
 ---
 
 # Summary
@@ -35,3 +36,4 @@ sources:
 - [Puffo](./puffo.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
 - [herdrdev/herdr（GitHub）](../references/herdrdev-herdr-github.md)
+- [今天找到了一个超级好用的AI提示词工具——PromptFill，开源免费。](../../../raw/articles/1024/今天找到了一个超级好用的AI提示词工具——PromptFill，开源免费。.md)

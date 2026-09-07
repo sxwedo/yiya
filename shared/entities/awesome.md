@@ -11,6 +11,9 @@ related:
 sources:
   - ../references/sindresorhus-awesome-github.md
   - ../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md
+  - ../../raw/articles/yan5xu/给关注了半年的agent team 交份作业。.md
+  - ../../raw/articles/GitHubDaily/做科研最头疼的，往往不是实验本身，而是读不完的文献、洗不完的数据，还有做不完的汇报 PPT。.md
+  - ../../raw/articles/LinearUncle/最近在做harness，建议大家把下面这些大佬的开源harness项目全部下载下来参考。.md
 ---
 
 # Summary
@@ -22,3 +25,6 @@ sources:
 - [sindresorhus/awesome（GitHub）](../references/sindresorhus-awesome-github.md)
 - [HelloGitHub](./hellogithub.md)
 - [类 同事.skills 整理，欢迎补充：](../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md)
+- [给关注了半年的agent team 交份作业。](../../raw/articles/yan5xu/给关注了半年的agent team 交份作业。.md)
+- [做科研最头疼的，往往不是实验本身，而是读不完的文献、洗不完的数据，还有做不完的汇报 PPT。](../../raw/articles/GitHubDaily/做科研最头疼的，往往不是实验本身，而是读不完的文献、洗不完的数据，还有做不完的汇报 PPT。.md)
+- [最近在做harness，建议大家把下面这些大佬的开源harness项目全部下载下来参考。](../../raw/articles/LinearUncle/最近在做harness，建议大家把下面这些大佬的开源harness项目全部下载下来参考。.md)

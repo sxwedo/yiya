@@ -23,6 +23,7 @@ sources:
   - ../../../raw/articles/Tiger/ChatGPT Codex 手机号二次验证的解决方法.md
   - ../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md
   - ../../../raw/articles/AIGCLINK/阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活.md
+  - ../../../raw/articles/Vela/新的一年，戒掉信息囤积症，用 Warp + Codex 把积灰的 X 书签快速变成自己的 AI 记忆库。.md
 ---
 
 # Summary
@@ -44,3 +45,4 @@ sources:
 - [ChatGPT Codex 手机号二次验证的解决方法](../../../raw/articles/Tiger/ChatGPT Codex 手机号二次验证的解决方法.md)
 - [获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。](../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md)
 - [阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活](../../../raw/articles/AIGCLINK/阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活.md)
+- [新的一年，戒掉信息囤积症，用 Warp + Codex 把积灰的 X 书签快速变成自己的 AI 记忆库。](../../../raw/articles/Vela/新的一年，戒掉信息囤积症，用 Warp + Codex 把积灰的 X 书签快速变成自己的 AI 记忆库。.md)

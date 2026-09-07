@@ -50,6 +50,24 @@ sources:
   - ../../../raw/articles/小耳👂Jane｜Xiaoer/大概知道能干什么就很好了，加深理解.md
   - ../../../raw/articles/Hanako/asked an anthropic engineer how his loops run on a closed laptop.md
   - ../../../raw/articles/meng shao/－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成.md
+  - ../../../raw/articles/Berryxia.AI/🔥 Browser Use CLI真香！终端操控真实Chrome的神器来了！.md
+  - ../../../raw/articles/Berryxia.AI/兄弟们，Claude Code 终于有「全代码库视觉地图」了！.md
+  - ../../../raw/articles/吕立青_JimmyLv 2𐃏26/Anthropic 发了份 32 页的 Claude Skills 构建指南，把技能开发从规划到分发整个生命周期讲透了。.md
+  - ../../../raw/articles/SHILL HOUSE/Real.md
+  - ../../../raw/articles/志辉/卧槽，逆天了，找到一个做优质skills的新思路.md
+  - ../../../raw/articles/Mr Panda/Goal + Loop + Workflows 三大利器.md
+  - ../../../raw/articles/离谱/Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！.md
+  - ../../../raw/articles/Khairallah AL-Awady/Everyone is talking about AI agents.md
+  - ../../../raw/articles/WquGuru/Oh My Opencode绝对是2026上班第一天最值得学的工具，附上简明教程：.md
+  - ../../../raw/articles/雪踏乌云/OpenAI 内部发了份 PDF，讲他们自家工程师是怎么用 Codex 的.md
+  - ../../../raw/articles/宝玉/Claude Code 省 Token 指南：慎用 1M 上下文，不开新会话或者总是开新会话都不对.md
+  - ../../../raw/articles/Madni Aghadi/How to Turn Claude Code Into a Full Team of Specialists－.md
+  - ../../../raw/articles/Yanhua/用 Claude Code 两个月，我学到的一切.md
+  - ../../../raw/articles/Vince 聊开发/我靠，原来 CLAUDE.md 还有这么多门道，以前真是白写了。.md
+  - ../../../raw/articles/Gorden Sun/AI产品推荐榜 2025.10.10更新.md
+  - ../../../raw/articles/Geek/CCG-Workflow（Claude + Codex + Gemini）是一个基于 Claude Code CLI 的多模型协作智能开发工作流系统。.md
+  - ../../../raw/articles/Hedy.eth 🎮/刚刷到 Claude 官网，.md
+  - ../../../raw/articles/Yanhua/Claude Code 的 －goal 和 －loop，很多人没用过的最强功能.md
 ---
 
 # Summary
@@ -101,3 +119,21 @@ sources:
 - [大概知道能干什么就很好了，加深理解](../../../raw/articles/小耳👂Jane｜Xiaoer/大概知道能干什么就很好了，加深理解.md)
 - [asked an anthropic engineer how his loops run on a closed laptop](../../../raw/articles/Hanako/asked an anthropic engineer how his loops run on a closed laptop.md)
 - [－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成](../../../raw/articles/meng shao/－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成.md)
+- [🔥 Browser Use CLI真香！终端操控真实Chrome的神器来了！](../../../raw/articles/Berryxia.AI/🔥 Browser Use CLI真香！终端操控真实Chrome的神器来了！.md)
+- [兄弟们，Claude Code 终于有「全代码库视觉地图」了！](../../../raw/articles/Berryxia.AI/兄弟们，Claude Code 终于有「全代码库视觉地图」了！.md)
+- [Anthropic 发了份 32 页的 Claude Skills 构建指南，把技能开发从规划到分发整个生命周期讲透了。](../../../raw/articles/吕立青_JimmyLv 2𐃏26/Anthropic 发了份 32 页的 Claude Skills 构建指南，把技能开发从规划到分发整个生命周期讲透了。.md)
+- [Real](../../../raw/articles/SHILL HOUSE/Real.md)
+- [卧槽，逆天了，找到一个做优质skills的新思路](../../../raw/articles/志辉/卧槽，逆天了，找到一个做优质skills的新思路.md)
+- [Goal + Loop + Workflows 三大利器](../../../raw/articles/Mr Panda/Goal + Loop + Workflows 三大利器.md)
+- [Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！](../../../raw/articles/离谱/Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！.md)
+- [Everyone is talking about AI agents](../../../raw/articles/Khairallah AL-Awady/Everyone is talking about AI agents.md)
+- [Oh My Opencode绝对是2026上班第一天最值得学的工具，附上简明教程：](../../../raw/articles/WquGuru/Oh My Opencode绝对是2026上班第一天最值得学的工具，附上简明教程：.md)
+- [OpenAI 内部发了份 PDF，讲他们自家工程师是怎么用 Codex 的](../../../raw/articles/雪踏乌云/OpenAI 内部发了份 PDF，讲他们自家工程师是怎么用 Codex 的.md)
+- [Claude Code 省 Token 指南：慎用 1M 上下文，不开新会话或者总是开新会话都不对](../../../raw/articles/宝玉/Claude Code 省 Token 指南：慎用 1M 上下文，不开新会话或者总是开新会话都不对.md)
+- [How to Turn Claude Code Into a Full Team of Specialists－](../../../raw/articles/Madni Aghadi/How to Turn Claude Code Into a Full Team of Specialists－.md)
+- [用 Claude Code 两个月，我学到的一切](../../../raw/articles/Yanhua/用 Claude Code 两个月，我学到的一切.md)
+- [我靠，原来 CLAUDE.md 还有这么多门道，以前真是白写了。](../../../raw/articles/Vince 聊开发/我靠，原来 CLAUDE.md 还有这么多门道，以前真是白写了。.md)
+- [AI产品推荐榜 2025.10.10更新](../../../raw/articles/Gorden Sun/AI产品推荐榜 2025.10.10更新.md)
+- [CCG-Workflow（Claude + Codex + Gemini）是一个基于 Claude Code CLI 的多模型协作智能开发工作流系统。](../../../raw/articles/Geek/CCG-Workflow（Claude + Codex + Gemini）是一个基于 Claude Code CLI 的多模型协作智能开发工作流系统。.md)
+- [刚刷到 Claude 官网，](../../../raw/articles/Hedy.eth 🎮/刚刷到 Claude 官网，.md)
+- [Claude Code 的 －goal 和 －loop，很多人没用过的最强功能](../../../raw/articles/Yanhua/Claude Code 的 －goal 和 －loop，很多人没用过的最强功能.md)

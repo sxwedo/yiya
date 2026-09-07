@@ -40,6 +40,24 @@ sources:
   - ../../../raw/articles/老白（每日 AI 干货✊）/牛 x 啊，一个印度独立开发者，.md
   - ../../../raw/articles/UNICORN⚡️🦄/互联网妈的还是很有意思.md
   - ../../../raw/articles/RelaxView/开源TTS直接卷疯了！园区诈骗又有新武器？.md
+  - ../../../raw/articles/向阳乔木/这个Github库真不错，任何视频号视频，在微信内置浏览器打开。.md
+  - ../../../raw/articles/Tw93/想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。.md
+  - ../../../raw/articles/宝玉/手绘风信息图提示词.md
+  - ../../../raw/articles/Rey｜英语自由与判断/使用AI 10倍速学习的提示词.md
+  - ../../../raw/articles/Akshay 🚀/about loop engineering.md
+  - ../../../raw/articles/M./EDU 教育邮箱系统，.md
+  - ../../../raw/articles/猫小姐学AI/108个世界顶级认知.md
+  - ../../../raw/articles/Vincent/终于有人把Hermes+Gemma 4讲透了！UP主讲得非常细致，逻辑清晰，15分钟就能学会的保姆级教程，建议收藏！.md
+  - ../../../raw/articles/Ian (伊恩)/又发现一个赛博善人：Inspora，专门收集优质作品.md
+  - ../../../raw/articles/流氓兔🐰/狂刷这70本书，脑子真的会变快🔥q.md
+  - ../../../raw/articles/Xudong Han/分享一下智谱创始人唐杰老师 @jietang 昨天刚在WB上发的文章吧.md
+  - ../../../raw/articles/kaize/Loop Engineering - From Prompting to Looping.md
+  - ../../../raw/articles/Jason Zhu/太强了 小耳.md
+  - ../../../raw/articles/Bitturing/🔥马斯克：五步工作法 = 提效核心！.md
+  - ../../../raw/articles/Mmina_Globalization/🧳 2025 独立开发“穷鬼全家桶” 能白嫖绝不花钱！.md
+  - ../../../raw/articles/Roland.W/全文没有一处在教你做IP.md
+  - ../../../raw/articles/退役星灵艺术鉴赏家/Google 开源了 distribute agent runtime 框架 [github.com－google－ax](http－－－github.com－google－ax).md
+  - ../../../raw/articles/傅盛/黄仁勋：创新不是从精英里挑出来的，是从试错里长出来的；末位淘汰不是激励，是扼杀活力。.md
 ---
 
 # Definition
@@ -89,3 +107,21 @@ sources:
 - [牛 x 啊，一个印度独立开发者，](../../../raw/articles/老白（每日 AI 干货✊）/牛 x 啊，一个印度独立开发者，.md)
 - [互联网妈的还是很有意思](../../../raw/articles/UNICORN⚡️🦄/互联网妈的还是很有意思.md)
 - [开源TTS直接卷疯了！园区诈骗又有新武器？](../../../raw/articles/RelaxView/开源TTS直接卷疯了！园区诈骗又有新武器？.md)
+- [这个Github库真不错，任何视频号视频，在微信内置浏览器打开。](../../../raw/articles/向阳乔木/这个Github库真不错，任何视频号视频，在微信内置浏览器打开。.md)
+- [想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。](../../../raw/articles/Tw93/想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。.md)
+- [手绘风信息图提示词](../../../raw/articles/宝玉/手绘风信息图提示词.md)
+- [使用AI 10倍速学习的提示词](../../../raw/articles/Rey｜英语自由与判断/使用AI 10倍速学习的提示词.md)
+- [about loop engineering](../../../raw/articles/Akshay 🚀/about loop engineering.md)
+- [EDU 教育邮箱系统，](../../../raw/articles/M./EDU 教育邮箱系统，.md)
+- [108个世界顶级认知](../../../raw/articles/猫小姐学AI/108个世界顶级认知.md)
+- [终于有人把Hermes+Gemma 4讲透了！UP主讲得非常细致，逻辑清晰，15分钟就能学会的保姆级教程，建议收藏！](../../../raw/articles/Vincent/终于有人把Hermes+Gemma 4讲透了！UP主讲得非常细致，逻辑清晰，15分钟就能学会的保姆级教程，建议收藏！.md)
+- [又发现一个赛博善人：Inspora，专门收集优质作品](../../../raw/articles/Ian (伊恩)/又发现一个赛博善人：Inspora，专门收集优质作品.md)
+- [狂刷这70本书，脑子真的会变快🔥q](../../../raw/articles/流氓兔🐰/狂刷这70本书，脑子真的会变快🔥q.md)
+- [分享一下智谱创始人唐杰老师 @jietang 昨天刚在WB上发的文章吧](../../../raw/articles/Xudong Han/分享一下智谱创始人唐杰老师 @jietang 昨天刚在WB上发的文章吧.md)
+- [Loop Engineering - From Prompting to Looping](../../../raw/articles/kaize/Loop Engineering - From Prompting to Looping.md)
+- [太强了 小耳](../../../raw/articles/Jason Zhu/太强了 小耳.md)
+- [🔥马斯克：五步工作法 = 提效核心！](../../../raw/articles/Bitturing/🔥马斯克：五步工作法 = 提效核心！.md)
+- [🧳 2025 独立开发“穷鬼全家桶” 能白嫖绝不花钱！](../../../raw/articles/Mmina_Globalization/🧳 2025 独立开发“穷鬼全家桶” 能白嫖绝不花钱！.md)
+- [全文没有一处在教你做IP](../../../raw/articles/Roland.W/全文没有一处在教你做IP.md)
+- [Google 开源了 distribute agent runtime 框架 [github.com－google－ax](http－－－github.com－google－ax)](../../../raw/articles/退役星灵艺术鉴赏家/Google 开源了 distribute agent runtime 框架 [github.com－google－ax](http－－－github.com－google－ax).md)
+- [黄仁勋：创新不是从精英里挑出来的，是从试错里长出来的；末位淘汰不是激励，是扼杀活力。](../../../raw/articles/傅盛/黄仁勋：创新不是从精英里挑出来的，是从试错里长出来的；末位淘汰不是激励，是扼杀活力。.md)
