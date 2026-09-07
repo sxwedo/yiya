@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:22:00Z }
 related:
+  - loop-engineering
   - agent-self-evolution-flywheel
   - delivery-harness
   - evidence-gate
@@ -27,6 +28,7 @@ sources:
 
 ## Related
 
+- [Loop Engineering](./loop-engineering.md)
 - [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Evidence Gate](./evidence-gate.md)

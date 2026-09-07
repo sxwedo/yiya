@@ -6,46 +6,19 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T17:00:00Z }
 related:
-  - skills-sh-site
+  - coding-agent-workflow
+  - loop-engineering
   - pi
   - mena
   - agents-md
   - knowledge-skill-separation
-  - proof
-  - pilot-protocol
-  - coding-agent-workflow
-  - mattpocock-skills-github
-  - alchaincyf-nuwa-skill-github
-  - markdown-viewer-skills-github
-  - op7418-guizang-ppt-skill-github
-  - coreyhaines31-marketingskills-github
-  - jimliu-baoyu-skills-github
-  - multica-ai-andrej-karpathy-skills-github
-  - tjboudreaux-cc-thinking-skills-github
-  - voltagent-awesome-openclaw-skills-github
-  - github-awesome-copilot-github
-  - builderio-skills-github
-  - dietrichgebert-ponytail-github
-  - yaojingang-yao-meta-skill-github
-  - tw93-kami-github
 sources:
   - ../references/skills-sh-site.md
   - ../references/mattpocock-skills-github.md
-  - ../references/alchaincyf-nuwa-skill-github.md
-  - ../references/markdown-viewer-skills-github.md
-  - ../references/op7418-guizang-ppt-skill-github.md
-  - ../references/coreyhaines31-marketingskills-github.md
   - ../references/jimliu-baoyu-skills-github.md
   - ../references/multica-ai-andrej-karpathy-skills-github.md
-  - ../references/tjboudreaux-cc-thinking-skills-github.md
-  - ../references/voltagent-awesome-openclaw-skills-github.md
-  - ../references/github-awesome-copilot-github.md
   - ../references/builderio-skills-github.md
-  - ../references/dietrichgebert-ponytail-github.md
-  - ../references/yaojingang-yao-meta-skill-github.md
-  - ../references/tw93-kami-github.md
-  - ../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md
-  - ../../../raw/articles/花叔/你的下一个员工，何必是同事。.md
+  - ../references/anthropics-skills-github.md
 ---
 
 # Summary
@@ -56,27 +29,15 @@ sources:
 
 ## Related
 
-- [skills.sh（站点）](../references/skills-sh-site.md)
+- [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [Loop Engineering](../concepts/loop-engineering.md)
 - [Pi](./pi.md)
 - [mena](./mena.md)
 - [AGENTS.md](./agents-md.md)
 - [知识与技能分离](../concepts/knowledge-skill-separation.md)
-- [Proof](./proof.md)
-- [Pilot Protocol](./pilot-protocol.md)
-- [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
-- [mattpocock/skills（GitHub）](../references/mattpocock-skills-github.md)
-- [alchaincyf/nuwa-skill（GitHub）](../references/alchaincyf-nuwa-skill-github.md)
-- [markdown-viewer/skills（GitHub）](../references/markdown-viewer-skills-github.md)
-- [op7418/guizang-ppt-skill（GitHub）](../references/op7418-guizang-ppt-skill-github.md)
-- [coreyhaines31/marketingskills（GitHub）](../references/coreyhaines31-marketingskills-github.md)
-- [JimLiu/baoyu-skills（GitHub）](../references/jimliu-baoyu-skills-github.md)
-- [multica-ai/andrej-karpathy-skills（GitHub）](../references/multica-ai-andrej-karpathy-skills-github.md)
-- [tjboudreaux/cc-thinking-skills（GitHub）](../references/tjboudreaux-cc-thinking-skills-github.md)
-- [VoltAgent/awesome-openclaw-skills（GitHub）](../references/voltagent-awesome-openclaw-skills-github.md)
-- [github/awesome-copilot（GitHub）](../references/github-awesome-copilot-github.md)
-- [BuilderIO/skills（GitHub）](../references/builderio-skills-github.md)
-- [DietrichGebert/ponytail（GitHub）](../references/dietrichgebert-ponytail-github.md)
-- [yaojingang/yao-meta-skill（GitHub）](../references/yaojingang-yao-meta-skill-github.md)
-- [tw93/Kami（GitHub）](../references/tw93-kami-github.md)
-- [New skill－ －apple-design](../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md)
-- [你的下一个员工，何必是同事。](../../../raw/articles/花叔/你的下一个员工，何必是同事。.md)
+- [skills-sh-site](../references/skills-sh-site.md)
+- [mattpocock-skills-github](../references/mattpocock-skills-github.md)
+- [jimliu-baoyu-skills-github](../references/jimliu-baoyu-skills-github.md)
+- [multica-ai-andrej-karpathy-skills-github](../references/multica-ai-andrej-karpathy-skills-github.md)
+- [builderio-skills-github](../references/builderio-skills-github.md)
+- [anthropics-skills-github](../references/anthropics-skills-github.md)
