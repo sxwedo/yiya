@@ -14,7 +14,7 @@ related:
   - harness-self-improvement
   - ttsr
 sources:
-  - /references/pi-vs-oh-my-pi.md
+  - ../references/pi-vs-oh-my-pi.md
 ---
 
 # Definition

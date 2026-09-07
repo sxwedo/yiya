@@ -13,8 +13,8 @@ related:
   - ttsr
   - minimal-agent-harness
 sources:
-  - /references/pi-vs-oh-my-pi.md
-  - /references/oh-my-pi-setup.md
+  - ../references/pi-vs-oh-my-pi.md
+  - ../references/oh-my-pi-setup.md
 ---
 
 # Summary

@@ -9,7 +9,7 @@ related:
   - advisor
   - minimal-agent-harness
 sources:
-  - /references/oh-my-pi-setup.md
+  - ../references/oh-my-pi-setup.md
 ---
 
 # Definition

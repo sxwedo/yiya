@@ -12,7 +12,7 @@ related:
   - text2semantic2sql
   - wikiskill-architecture
 sources:
-  - /references/semantic-layer-chatbi.md
+  - ../references/semantic-layer-chatbi.md
 ---
 
 # Definition

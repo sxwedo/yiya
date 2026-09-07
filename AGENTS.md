@@ -21,18 +21,22 @@ shared/                        # 跨域实体
 ## 四条规矩
 
 1. **raw 正文不改**（除非人类授权删除/替换）
-2. **成文默认**：1～2 个 Entity/Concept，`sources` + Related **直链 raw**（相对路径）
+2. **成文先续写**：在目标域 + `shared` 的 `entities/` `concepts/` 找同指称对象；能改则改旧页并追加 `sources`；新稳定对象才建页。合计 ≤2 次写入（改或建）。`sources` + Related **直链 raw**（相对路径）
 3. **Reference 可选**：仅一书 ≥2 概念共用，或书签型；历史 Reference 先留
 4. **链接一律相对路径**（`./x.md`、`../entities/y.md`、`../../../raw/...`）；**禁**以 `/` 开头（GitHub 404）
 
 具名产品/框架/人 → **Entity**；模式/方法 → **Concept**。盘点顺序：Domain → Entity → Concept →（可选）Reference。
 
+## 问答
+
+先读 `shared/map.md` 与目标域 `overview.md` / 类型 `index.md`，用已有 Concept/Entity 作答，引用相对路径。wiki 缺口才读 raw。可沉淀的结论走 `yiya-ingest` 回写（同样先改旧页）。
+
 ## 入库摘要
 
 | 类型 | 做什么 |
 |---|---|
-| 成文 | `clix read` → `articles/<作者>/`（头含 `url:`）→ Entity/Concept 直链 raw |
-| 书签 | 追加 bookmarks 表 → Entity + Reference（指向表） |
+| 成文 | `clix read` → `articles/<作者>/`（头含 `url:`）→ 先改已有 Entity/Concept，否则建页；直链 raw |
+| 书签 | 追加 bookmarks 表 → 更新或新建 Entity + Reference（指向表） |
 
 **无** `raw-manifest.yaml`。查重靠 raw 头 `url:`；认领=已有 Concept/Entity（或 Reference）链到该 raw。细则见 `yiya-ingest`。入库后做「自生长」结构体检（见下）。
 

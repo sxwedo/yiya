@@ -11,7 +11,7 @@ related:
   - harness-self-improvement
   - playbook-feedback-loop
 sources:
-  - /references/agent-self-evolution-flywheel.md
+  - ../references/agent-self-evolution-flywheel.md
 ---
 
 # Definition

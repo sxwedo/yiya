@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
 related:
   - agent-otel-probe
 sources:
-  - /references/agentloop-data-ingress.md
+  - ../references/agentloop-data-ingress.md
 ---
 
 # Definition

@@ -11,7 +11,7 @@ related:
   - semantic-service
   - text2semantic2sql
 sources:
-  - /references/ai-native-ontology.md
+  - ../references/ai-native-ontology.md
 ---
 
 # Definition

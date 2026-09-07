@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T00:25:00Z }
 related:
   - compound-retrieval-agent
 sources:
-  - /references/dewu-compound-retrieval-agent.md
+  - ../references/dewu-compound-retrieval-agent.md
 ---
 
 # Definition

@@ -10,7 +10,7 @@ related:
   - grok-bot
   - playbook-feedback-loop
 sources:
-  - /references/javaguide-grok-bot-engineering.md
+  - ../references/javaguide-grok-bot-engineering.md
 ---
 
 # Definition

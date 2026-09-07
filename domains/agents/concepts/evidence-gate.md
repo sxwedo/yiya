@@ -10,7 +10,7 @@ related:
   - harness-self-improvement
   - minimal-agent-harness
 sources:
-  - /references/dewu-delivery-harness.md
+  - ../references/dewu-delivery-harness.md
 ---
 
 # Definition

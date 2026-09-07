@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
 related:
   - multi-agent-governance
 sources:
-  - /references/anthropic-multiagent-failures.md
+  - ../references/anthropic-multiagent-failures.md
 ---
 
 # Definition

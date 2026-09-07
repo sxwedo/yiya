@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-05T16:28:00Z }
 related:
   - pm-efficiency-governance
 sources:
-  - /references/ai-coding-pm-paradigm.md
+  - ../references/ai-coding-pm-paradigm.md
 ---
 
 # Definition

@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T00:12:00Z }
 related:
   - semantic-engineer
 sources:
-  - /references/data-engineer-skills-2026-2036.md
+  - ../references/data-engineer-skills-2026-2036.md
 ---
 
 # Definition

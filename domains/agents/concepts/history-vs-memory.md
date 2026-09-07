@@ -10,7 +10,7 @@ related:
   - four-layer-agent-memory
   - online-memory-pipeline
 sources:
-  - /references/huolala-llm-memory-online.md
+  - ../references/huolala-llm-memory-online.md
 ---
 
 # Definition

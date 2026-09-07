@@ -1,5 +1,8 @@
 # 工程与可维护性 — Log
 
+## 2026-09-07
+* **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话。
+
 ## 2026-09-06
 * **Ingest**: [DE 能力清单 2026-2036](./references/data-engineer-skills-2026-2036.md) → concepts [数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md), [语义工程师](./concepts/semantic-engineer.md).
 * **Ingest**: [AI Native Ontology](./references/ai-native-ontology.md) → concepts [业务 Ontology](./concepts/business-ontology.md), [Semantic Service](./concepts/semantic-service.md).

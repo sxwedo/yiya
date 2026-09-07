@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-05T15:24:00Z }
 related:
   - wikiskill-architecture
 sources:
-  - /references/wikiskill-three-layer.md
+  - ../references/wikiskill-three-layer.md
 ---
 
 # Definition

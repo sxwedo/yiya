@@ -13,4 +13,4 @@ sources: []
 
 ## Related
 
-- [相关概念](/concepts/example.md)
+- [相关概念](./example.md)

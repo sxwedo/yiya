@@ -9,7 +9,7 @@ related:
   - llm-semantic-ranking-embedding
   - retrieval-quality-pipeline
 sources:
-  - /references/dewu-compound-retrieval-agent.md
+  - ../references/dewu-compound-retrieval-agent.md
 ---
 
 # Definition

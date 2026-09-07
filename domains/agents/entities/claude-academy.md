@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T09:58:00Z }
 related:
   - coding-agent-workflow
 sources:
-  - /references/claude-academy-site.md
+  - ../references/claude-academy-site.md
 ---
 
 # Summary

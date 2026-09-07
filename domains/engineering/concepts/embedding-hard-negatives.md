@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T00:05:00Z }
 related:
   - llm-semantic-ranking-embedding
 sources:
-  - /references/meituan-llm-search-ranking.md
+  - ../references/meituan-llm-search-ranking.md
 ---
 
 # Definition

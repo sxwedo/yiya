@@ -12,7 +12,7 @@ related:
   - delivery-harness
   - engineering-bot
 sources:
-  - /references/javaguide-grok-bot-engineering.md
+  - ../references/javaguide-grok-bot-engineering.md
 ---
 
 # Definition

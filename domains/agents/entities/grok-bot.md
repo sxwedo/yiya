@@ -12,8 +12,8 @@ related:
   - playbook-feedback-loop
   - delivery-harness
 sources:
-  - /references/jinchenma-grok-bot-guide.md
-  - /references/javaguide-grok-bot-engineering.md
+  - ../references/jinchenma-grok-bot-guide.md
+  - ../references/javaguide-grok-bot-engineering.md
 ---
 
 # Summary

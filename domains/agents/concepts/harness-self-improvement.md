@@ -11,7 +11,7 @@ related:
   - evidence-gate
   - minimal-agent-harness
 sources:
-  - /references/agent-self-evolution-flywheel.md
+  - ../references/agent-self-evolution-flywheel.md
 ---
 
 # Definition

@@ -9,7 +9,7 @@ related:
   - x-algorithm
   - llm-semantic-ranking-embedding
 sources:
-  - /references/bright-ospo-x-algorithm.md
+  - ../references/bright-ospo-x-algorithm.md
 ---
 
 # Definition

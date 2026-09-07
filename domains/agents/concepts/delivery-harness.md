@@ -15,7 +15,7 @@ related:
   - minimal-agent-harness
   - playbook-feedback-loop
 sources:
-  - /references/dewu-delivery-harness.md
+  - ../references/dewu-delivery-harness.md
 ---
 
 # Definition

@@ -9,7 +9,7 @@ related:
   - minimal-agent-harness
   - ttsr
 sources:
-  - /references/oh-my-pi-setup.md
+  - ../references/oh-my-pi-setup.md
 ---
 
 # Definition

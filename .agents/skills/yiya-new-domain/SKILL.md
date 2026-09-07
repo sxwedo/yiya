@@ -26,13 +26,11 @@ argument-hint: "<domain-id> [title]"
    - `domains/<id>/index.md`（含 `okf_version: "0.2"`）
    - `log.md` `overview.md` `README.md` `AGENTS.md`
    - `references/index.md` `entities/index.md` `concepts/index.md`
+   - 类型 index 格式：`* [Title](./x.md) — <description>`（空目录可只留标题，首条入库时再写一句话）
 5. 更新 `shared/map.md` 表格加一行。
-6. 根 `AGENTS.md` 路由表补一行（若有显式表格）。
 
 ## 完成标准
 
 - [ ] `config/domains.yaml` 已登记
 - [ ] 瘦 bundle 可打开，`overview` 写了「收什么/不收什么」占位或实写
 - [ ] `shared/map.md` 已链到新域
-
-**不要**预创建 comparisons / syntheses / questions / decisions / scripts。

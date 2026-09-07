@@ -10,7 +10,7 @@ related:
   - multi-action-feed-ranking
   - embedding-hard-negatives
 sources:
-  - /references/meituan-llm-search-ranking.md
+  - ../references/meituan-llm-search-ranking.md
 ---
 
 # Definition

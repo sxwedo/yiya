@@ -1,5 +1,8 @@
 # Agent 与 Grok Bot — Log
 
+## 2026-09-07
+* **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话；overview 实体表与目录对齐（11 个 Entity）。
+
 ## 2026-09-06
 - 2026-09-07：记录自主调研 TODO（梦境 + 外探），见 `raw/_inbox/research/TODO.md`；未实现
 - 2026-09-06：废除 `raw-manifest.yaml`；查重靠 raw `url:`，认领靠知识页链 raw

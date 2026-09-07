@@ -14,7 +14,7 @@ related:
   - grok-bot
   - coding-agent-workflow
 sources:
-  - /references/sxwedo-mena-github.md
+  - ../references/sxwedo-mena-github.md
 ---
 
 # Summary

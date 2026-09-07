@@ -16,7 +16,7 @@ related:
   - minimal-agent-harness
   - delivery-harness
 sources:
-  - /references/ng-coding-agents-skills.md
+  - ../references/ng-coding-agents-skills.md
 ---
 
 # Definition

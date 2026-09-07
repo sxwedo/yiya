@@ -1,16 +1,21 @@
 # yiya
 
-个人知识库（精简）：**LLM Wiki 流程 + OKF 文件契约 + Domain 分域**。
+个人知识库：**LLM Wiki 流程 + OKF 文件契约 + Domain 分域**。
+
+三层：`raw/` 原料 → `domains/` + `shared/` 知识 → `AGENTS.md` + skills 约定。细则见根 `AGENTS.md`。
 
 | 路径 | 作用 |
 |---|---|
-| `raw/` | 原件（按月 `YYYY/MM/<slug>/`，正文用人话标题） |
-| `raw-manifest.yaml` | 认领表 |
-| `domains/<id>/` | 领域 OKF bundle |
-| `shared/` | 跨域实体 |
-| `AGENTS.md` | 常驻规则 |
-| `.agents/skills/` | 可调用流程（ingest / lint / …） |
-| `templates/` | Reference / Entity / Concept |
+| `raw/articles/<作者>/<标题>.md` | 成文（frontmatter 须有 `url:`） |
+| `raw/articles/_media/<slug>/` | 配图（不进作者目录） |
+| `raw/bookmarks/github.md` · `sites.md` | 书签表 |
+| `raw/_inbox/` | 未分域 |
+| `domains/<id>/` | 领域 OKF bundle（entities / concepts / references） |
+| `shared/` | 跨域实体与纲领 |
+| `AGENTS.md` | Agent 常驻规则 |
+| `.agents/skills/` | ingest / lint / new-domain / promote-to-shared |
+| `templates/` | Entity / Concept / Reference |
+| `config/domains.yaml` | 域路由 |
 
 起步域：`agents`、`engineering`。先养一个域即可。
 

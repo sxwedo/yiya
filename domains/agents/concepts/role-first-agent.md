@@ -10,7 +10,7 @@ related:
   - engineering-bot
   - playbook-feedback-loop
 sources:
-  - /references/jinchenma-grok-bot-guide.md
+  - ../references/jinchenma-grok-bot-guide.md
 ---
 
 # Definition

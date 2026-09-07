@@ -8,7 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-05T15:25:00Z }
 related:
   - eval-driven-development
 sources:
-  - /references/ng-evals-watershed.md
+  - ../references/ng-evals-watershed.md
 ---
 
 # Definition

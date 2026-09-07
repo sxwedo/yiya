@@ -13,7 +13,7 @@ related:
   - semantic-service
   - text2semantic2sql
 sources:
-  - /references/data-engineer-skills-2026-2036.md
+  - ../references/data-engineer-skills-2026-2036.md
 ---
 
 # Definition

@@ -11,7 +11,7 @@ related:
   - history-vs-memory
   - online-memory-pipeline
 sources:
-  - /references/dewu-multiagent-memory.md
+  - ../references/dewu-multiagent-memory.md
 ---
 
 # Definition

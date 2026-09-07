@@ -9,7 +9,7 @@ related:
   - multi-action-feed-ranking
   - llm-semantic-ranking-embedding
 sources:
-  - /references/bright-ospo-x-algorithm.md
+  - ../references/bright-ospo-x-algorithm.md
 ---
 
 # Summary

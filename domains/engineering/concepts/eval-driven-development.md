@@ -10,7 +10,7 @@ related:
   - evidence-gate
   - unreliable-components-reliable-systems
 sources:
-  - /references/ng-evals-watershed.md
+  - ../references/ng-evals-watershed.md
 ---
 
 # Definition

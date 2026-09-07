@@ -11,7 +11,7 @@ related:
   - semantic-layer
   - semantic-service
 sources:
-  - /references/semantic-layer-chatbi.md
+  - ../references/semantic-layer-chatbi.md
 ---
 
 # Definition
