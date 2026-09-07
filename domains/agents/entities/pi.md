@@ -29,6 +29,7 @@ sources:
   - ../references/buchidonggua-dg-ai-notes-github.md
   - ../references/antinomie-lab-pi-book-github.md
   - ../references/hahhforest-pi-textbook-github.md
+  - ../../../raw/articles/Geek/Pi-Agent 教程：10 章把 Agent.md
 ---
 
 # Summary
@@ -55,3 +56,4 @@ sources:
 - [buchidonggua/dg-ai-notes（GitHub）](../references/buchidonggua-dg-ai-notes-github.md)
 - [antinomie-lab/pi-book（GitHub）](../references/antinomie-lab-pi-book-github.md)
 - [hahhforest/pi-textbook（GitHub）](../references/hahhforest-pi-textbook-github.md)
+- [Pi-Agent 教程：10 章把 Agent](../../../raw/articles/Geek/Pi-Agent 教程：10 章把 Agent.md)

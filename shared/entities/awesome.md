@@ -10,6 +10,7 @@ related:
   - hellogithub
 sources:
   - ../references/sindresorhus-awesome-github.md
+  - ../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 
 - [sindresorhus/awesome（GitHub）](../references/sindresorhus-awesome-github.md)
 - [HelloGitHub](./hellogithub.md)
+- [类 同事.skills 整理，欢迎补充：](../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md)

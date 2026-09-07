@@ -19,6 +19,9 @@ sources:
   - ../../../raw/articles/Tibo/Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6.md
   - ../../../raw/articles/OpenAI/Codex now works directly in Chrome on macOS and Windows.md
   - ../../../raw/articles/AYi/免费领6个月ChatGPT Pro，.md
+  - ../../../raw/articles/Ren/每天刷两小时推特，看到的还是二手转述。这 12 个源直接看一手，建议收藏：.md
+  - ../../../raw/articles/Tiger/ChatGPT Codex 手机号二次验证的解决方法.md
+  - ../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md
 ---
 
 # Summary
@@ -36,3 +39,6 @@ sources:
 - [Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6](../../../raw/articles/Tibo/Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6.md)
 - [Codex now works directly in Chrome on macOS and Windows](../../../raw/articles/OpenAI/Codex now works directly in Chrome on macOS and Windows.md)
 - [免费领6个月ChatGPT Pro，](../../../raw/articles/AYi/免费领6个月ChatGPT Pro，.md)
+- [每天刷两小时推特，看到的还是二手转述。这 12 个源直接看一手，建议收藏：](../../../raw/articles/Ren/每天刷两小时推特，看到的还是二手转述。这 12 个源直接看一手，建议收藏：.md)
+- [ChatGPT Codex 手机号二次验证的解决方法](../../../raw/articles/Tiger/ChatGPT Codex 手机号二次验证的解决方法.md)
+- [获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。](../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md)

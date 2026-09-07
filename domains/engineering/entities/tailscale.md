@@ -11,6 +11,7 @@ related:
   - pilot-protocol
 sources:
   - ../references/tailscale-site.md
+  - ../../../raw/articles/向阳乔木/最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错：.md
 ---
 
 # Summary
@@ -24,3 +25,4 @@ sources:
 - [Tailscale（站点）](../references/tailscale-site.md)
 - [ping.pe](./ping-pe.md)
 - [Pilot Protocol](../../agents/entities/pilot-protocol.md)
+- [最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错：](../../../raw/articles/向阳乔木/最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错：.md)

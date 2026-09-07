@@ -24,6 +24,8 @@ sources:
   - ../references/kepano-obsidian-skills-github.md
   - ../../raw/articles/Moysei/One evening of setup. A vault that files itself at 7 a.m., and a model that opens every.md
   - ../../raw/articles/墓碑科技/你在 X 存了多少个书签？.md
+  - ../../raw/articles/金尘马/卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！.md
+  - ../../raw/articles/泊舟/Obsidian零基础教程.md
 ---
 
 # Summary
@@ -46,3 +48,5 @@ sources:
 - [yiya](./yiya.md)
 - [One evening of setup. A vault that files itself at 7 a.m., and a model that opens every](../../raw/articles/Moysei/One evening of setup. A vault that files itself at 7 a.m., and a model that opens every.md)
 - [你在 X 存了多少个书签？](../../raw/articles/墓碑科技/你在 X 存了多少个书签？.md)
+- [卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！](../../raw/articles/金尘马/卧槽！刚发现一个能读取微信聊天记录的工具，私域运营神器啊！.md)
+- [Obsidian零基础教程](../../raw/articles/泊舟/Obsidian零基础教程.md)

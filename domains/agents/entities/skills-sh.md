@@ -45,6 +45,7 @@ sources:
   - ../references/yaojingang-yao-meta-skill-github.md
   - ../references/tw93-kami-github.md
   - ../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md
+  - ../../../raw/articles/花叔/你的下一个员工，何必是同事。.md
 ---
 
 # Summary
@@ -78,3 +79,4 @@ sources:
 - [yaojingang/yao-meta-skill（GitHub）](../references/yaojingang-yao-meta-skill-github.md)
 - [tw93/Kami（GitHub）](../references/tw93-kami-github.md)
 - [New skill－ －apple-design](../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md)
+- [你的下一个员工，何必是同事。](../../../raw/articles/花叔/你的下一个员工，何必是同事。.md)

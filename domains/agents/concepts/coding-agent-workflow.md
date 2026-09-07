@@ -57,6 +57,21 @@ sources:
   - ../../../raw/articles/𝗠𝗿𝗬𝗘𝗘/我这些年科学上网的姿势.md
   - ../../../raw/articles/鸟哥 － 蓝鸟会🕊️/兄弟们炸裂了！白嫖党的春天又来了 一个Cloudflare账号干翻所有付费机场.md
   - ../../../raw/articles/铁手/三招！.md
+  - ../../../raw/articles/roman/Acabo de cancelar YouTube Premium.md
+  - ../../../raw/articles/karminski-牙医/你有没有一直想学大模型原理，但是感觉教程都太晦涩难懂了？.md
+  - ../../../raw/articles/🌹MIDNIGHT🌹ROSE🌹/有趣的科学小实验.md
+  - ../../../raw/articles/Sunshine/学会逆向思维有多爽？生活中的一些逆向思维小技巧，学会逆向思维的重要性。反向思考。之前的角色内容需要和谐一下（重制加长版），本视频由小云雀Seedance2.0创作生成.md
+  - ../../../raw/articles/歸藏(guizang.ai)/妈的，终于把 Chrome 上的 Gemini 开了.md
+  - ../../../raw/articles/Adrian Punk/Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件.md
+  - ../../../raw/articles/冰河/相信我，看完这个视频，定会对你的财富观念有翻天覆地般的改变！.md
+  - ../../../raw/articles/宝玉/别把整个 GitHub 装进 Skills，Skills 的正确用法.md
+  - ../../../raw/articles/宝玉/为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？.md
+  - ../../../raw/articles/Movez/Andrej Karpathy－.md
+  - ../../../raw/articles/奶昔🥤/没梯子了咋办？出一期CF白嫖搭建教程.md
+  - ../../../raw/articles/Mr Panda/范式转换不是旧框架的修修补补，而是整个世界观的更替（内含书单）.md
+  - ../../../raw/articles/马方说管理/战时参考.md
+  - ../../../raw/articles/Jesse/你还在低头对中英文字幕理解Youtuber在讲什么吗？.md
+  - ../../../raw/articles/Rahul/Most developers learn AI by copying tutorials.md
 ---
 
 # Definition
@@ -123,3 +138,18 @@ sources:
 - [我这些年科学上网的姿势](../../../raw/articles/𝗠𝗿𝗬𝗘𝗘/我这些年科学上网的姿势.md)
 - [兄弟们炸裂了！白嫖党的春天又来了 一个Cloudflare账号干翻所有付费机场](../../../raw/articles/鸟哥 － 蓝鸟会🕊️/兄弟们炸裂了！白嫖党的春天又来了 一个Cloudflare账号干翻所有付费机场.md)
 - [三招！](../../../raw/articles/铁手/三招！.md)
+- [Acabo de cancelar YouTube Premium](../../../raw/articles/roman/Acabo de cancelar YouTube Premium.md)
+- [你有没有一直想学大模型原理，但是感觉教程都太晦涩难懂了？](../../../raw/articles/karminski-牙医/你有没有一直想学大模型原理，但是感觉教程都太晦涩难懂了？.md)
+- [有趣的科学小实验](../../../raw/articles/🌹MIDNIGHT🌹ROSE🌹/有趣的科学小实验.md)
+- [学会逆向思维有多爽？生活中的一些逆向思维小技巧，学会逆向思维的重要性。反向思考。之前的角色内容需要和谐一下（重制加长版），本视频由小云雀Seedance2.0创作生成](../../../raw/articles/Sunshine/学会逆向思维有多爽？生活中的一些逆向思维小技巧，学会逆向思维的重要性。反向思考。之前的角色内容需要和谐一下（重制加长版），本视频由小云雀Seedance2.0创作生成.md)
+- [妈的，终于把 Chrome 上的 Gemini 开了](../../../raw/articles/歸藏(guizang.ai)/妈的，终于把 Chrome 上的 Gemini 开了.md)
+- [Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件](../../../raw/articles/Adrian Punk/Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件.md)
+- [相信我，看完这个视频，定会对你的财富观念有翻天覆地般的改变！](../../../raw/articles/冰河/相信我，看完这个视频，定会对你的财富观念有翻天覆地般的改变！.md)
+- [别把整个 GitHub 装进 Skills，Skills 的正确用法](../../../raw/articles/宝玉/别把整个 GitHub 装进 Skills，Skills 的正确用法.md)
+- [为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？](../../../raw/articles/宝玉/为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？.md)
+- [Andrej Karpathy－](../../../raw/articles/Movez/Andrej Karpathy－.md)
+- [没梯子了咋办？出一期CF白嫖搭建教程](../../../raw/articles/奶昔🥤/没梯子了咋办？出一期CF白嫖搭建教程.md)
+- [范式转换不是旧框架的修修补补，而是整个世界观的更替（内含书单）](../../../raw/articles/Mr Panda/范式转换不是旧框架的修修补补，而是整个世界观的更替（内含书单）.md)
+- [战时参考](../../../raw/articles/马方说管理/战时参考.md)
+- [你还在低头对中英文字幕理解Youtuber在讲什么吗？](../../../raw/articles/Jesse/你还在低头对中英文字幕理解Youtuber在讲什么吗？.md)
+- [Most developers learn AI by copying tutorials](../../../raw/articles/Rahul/Most developers learn AI by copying tutorials.md)

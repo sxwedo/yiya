@@ -99,6 +99,27 @@ sources:
   - ../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md
   - ../../../raw/articles/Bill The Investor/Claude Code 一团糟。直到你安装了这个。有一个名为 claude-code-setup 的 Anthropic.md
   - ../../../raw/articles/宝玉/别再用提示词去 AI 味了，方向就是错的.md
+  - ../../../raw/articles/Lonely/🚨 开发者重磅福利！.md
+  - ../../../raw/articles/Vince 聊开发/写好 CLAUDE.md 的 8 条经验：让 Claude Code 更懂你的项目.md
+  - ../../../raw/articles/宝玉/Ralph Wiggum 插件：让 Claude Code “通宵干活”.md
+  - ../../../raw/articles/Atenov int./6 months of ChatGPT Pro for one evening in Claude Code. OpenAI opened a form for.md
+  - ../../../raw/articles/Kyrie/用好 Loop 能让你事半功倍，六个实战场景教你驾驭循环工程.md
+  - ../../../raw/articles/Akshay 🚀/How to setup your Claude code project－.md
+  - ../../../raw/articles/AYi/说个暴论，AI界的iPhone时刻可能就要到来了。.md
+  - ../../../raw/articles/香蕉Banana/分享10个我目前在用的 Skill.md
+  - ../../../raw/articles/周览资源/用 Claude Code 写代码的人，真的建议把 Trellis 装上。.md
+  - ../../../raw/articles/GitHubDaily/谷歌 Gemini 团队主管 Addy Osmani，最近开源的 Agent Skills，狂揽了 18000+ GitHub Star。.md
+  - ../../../raw/articles/比特币橙子Trader/卧槽！真心强烈推荐所有人，不管你懂不懂技术，只要你想在AI时代做商业、搞投资或者抓住时代红利，都去狠狠刷一遍Anthropic官方的这场超神分享！.md
+  - ../../../raw/articles/宝玉/分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。.md
+  - ../../../raw/articles/rody/Claude writes your code, hands it over, and 3 tests are failing.md
+  - ../../../raw/articles/周尔复/把 Anthropic 官方出的 Claude Code in Action 翻译成中文版了。.md
+  - ../../../raw/articles/向阳乔木/安装superpowers 这个牛逼的Claude 插件。.md
+  - ../../../raw/articles/铁锤人/4 个工作 Skill + 2 个运维 Skill，装完 Claude 直接变工作搭档.md
+  - ../../../raw/articles/meng shao/Anthropic 官方发布的 Skills 构建完整指南（33页）.md
+  - ../../../raw/articles/AYi/我把全网的 Codex Skill 扒了一遍：最该装的几个、安装方法、资源仓库都整理好了，看这一篇就够了！.md
+  - ../../../raw/articles/Justin/配合上 Google AI Pro 的六人共享搬家套餐，美滋滋.md
+  - ../../../raw/articles/Jiayuan (JY) Zhang/andrej-karpathy-skills 成为了 GitHub 历史前 50 的项目。.md
+  - ../../../raw/articles/WY/一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月).md
 ---
 
 # Summary
@@ -190,3 +211,24 @@ sources:
 - [the four pillars of loop engineering](../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md)
 - [Claude Code 一团糟。直到你安装了这个。有一个名为 claude-code-setup 的 Anthropic](../../../raw/articles/Bill The Investor/Claude Code 一团糟。直到你安装了这个。有一个名为 claude-code-setup 的 Anthropic.md)
 - [别再用提示词去 AI 味了，方向就是错的](../../../raw/articles/宝玉/别再用提示词去 AI 味了，方向就是错的.md)
+- [🚨 开发者重磅福利！](../../../raw/articles/Lonely/🚨 开发者重磅福利！.md)
+- [写好 CLAUDE.md 的 8 条经验：让 Claude Code 更懂你的项目](../../../raw/articles/Vince 聊开发/写好 CLAUDE.md 的 8 条经验：让 Claude Code 更懂你的项目.md)
+- [Ralph Wiggum 插件：让 Claude Code “通宵干活”](../../../raw/articles/宝玉/Ralph Wiggum 插件：让 Claude Code “通宵干活”.md)
+- [6 months of ChatGPT Pro for one evening in Claude Code. OpenAI opened a form for](../../../raw/articles/Atenov int./6 months of ChatGPT Pro for one evening in Claude Code. OpenAI opened a form for.md)
+- [用好 Loop 能让你事半功倍，六个实战场景教你驾驭循环工程](../../../raw/articles/Kyrie/用好 Loop 能让你事半功倍，六个实战场景教你驾驭循环工程.md)
+- [How to setup your Claude code project－](../../../raw/articles/Akshay 🚀/How to setup your Claude code project－.md)
+- [说个暴论，AI界的iPhone时刻可能就要到来了。](../../../raw/articles/AYi/说个暴论，AI界的iPhone时刻可能就要到来了。.md)
+- [分享10个我目前在用的 Skill](../../../raw/articles/香蕉Banana/分享10个我目前在用的 Skill.md)
+- [用 Claude Code 写代码的人，真的建议把 Trellis 装上。](../../../raw/articles/周览资源/用 Claude Code 写代码的人，真的建议把 Trellis 装上。.md)
+- [谷歌 Gemini 团队主管 Addy Osmani，最近开源的 Agent Skills，狂揽了 18000+ GitHub Star。](../../../raw/articles/GitHubDaily/谷歌 Gemini 团队主管 Addy Osmani，最近开源的 Agent Skills，狂揽了 18000+ GitHub Star。.md)
+- [卧槽！真心强烈推荐所有人，不管你懂不懂技术，只要你想在AI时代做商业、搞投资或者抓住时代红利，都去狠狠刷一遍Anthropic官方的这场超神分享！](../../../raw/articles/比特币橙子Trader/卧槽！真心强烈推荐所有人，不管你懂不懂技术，只要你想在AI时代做商业、搞投资或者抓住时代红利，都去狠狠刷一遍Anthropic官方的这场超神分享！.md)
+- [分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。](../../../raw/articles/宝玉/分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。.md)
+- [Claude writes your code, hands it over, and 3 tests are failing](../../../raw/articles/rody/Claude writes your code, hands it over, and 3 tests are failing.md)
+- [把 Anthropic 官方出的 Claude Code in Action 翻译成中文版了。](../../../raw/articles/周尔复/把 Anthropic 官方出的 Claude Code in Action 翻译成中文版了。.md)
+- [安装superpowers 这个牛逼的Claude 插件。](../../../raw/articles/向阳乔木/安装superpowers 这个牛逼的Claude 插件。.md)
+- [4 个工作 Skill + 2 个运维 Skill，装完 Claude 直接变工作搭档](../../../raw/articles/铁锤人/4 个工作 Skill + 2 个运维 Skill，装完 Claude 直接变工作搭档.md)
+- [Anthropic 官方发布的 Skills 构建完整指南（33页）](../../../raw/articles/meng shao/Anthropic 官方发布的 Skills 构建完整指南（33页）.md)
+- [我把全网的 Codex Skill 扒了一遍：最该装的几个、安装方法、资源仓库都整理好了，看这一篇就够了！](../../../raw/articles/AYi/我把全网的 Codex Skill 扒了一遍：最该装的几个、安装方法、资源仓库都整理好了，看这一篇就够了！.md)
+- [配合上 Google AI Pro 的六人共享搬家套餐，美滋滋](../../../raw/articles/Justin/配合上 Google AI Pro 的六人共享搬家套餐，美滋滋.md)
+- [andrej-karpathy-skills 成为了 GitHub 历史前 50 的项目。](../../../raw/articles/Jiayuan (JY) Zhang/andrej-karpathy-skills 成为了 GitHub 历史前 50 的项目。.md)
+- [一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月)](../../../raw/articles/WY/一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月).md)

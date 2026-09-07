@@ -25,6 +25,8 @@ sources:
   - ../../../raw/articles/Khairallah AL-Awady/Every solo founder hits the same wall.md
   - ../../../raw/articles/宝玉/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md
   - ../../../raw/articles/Suryansh Tiwari/Claude Code feels completely different once you install this.md
+  - ../../../raw/articles/Jason Zhu/Anthropic于2026年3月12日推出“Claude Certified.md
+  - ../../../raw/articles/Ren/如何写出工业级 Skill.md
 ---
 
 # Summary
@@ -52,3 +54,5 @@ sources:
 - [Every solo founder hits the same wall](../../../raw/articles/Khairallah AL-Awady/Every solo founder hits the same wall.md)
 - [来自 Codex 官方团队的分享：如何把 Codex 用到极致](../../../raw/articles/宝玉/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md)
 - [Claude Code feels completely different once you install this](../../../raw/articles/Suryansh Tiwari/Claude Code feels completely different once you install this.md)
+- [Anthropic于2026年3月12日推出“Claude Certified](../../../raw/articles/Jason Zhu/Anthropic于2026年3月12日推出“Claude Certified.md)
+- [如何写出工业级 Skill](../../../raw/articles/Ren/如何写出工业级 Skill.md)

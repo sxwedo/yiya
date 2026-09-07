@@ -12,6 +12,7 @@ related:
 sources:
   - ../references/deepseek-ai-deepseek-harness-github.md
   - ../../../raw/articles/Russell/万字长文：Deepseek Harness 一文全看懂！！.md
+  - ../../../raw/articles/超级个体｜柿子/OpenClaw 保姆级教程（基础篇）.md
 ---
 
 # Summary
@@ -24,3 +25,4 @@ sources:
 - [Pi](./pi.md)
 - [Grok Build](./grok-build.md)
 - [万字长文：Deepseek Harness 一文全看懂！！](../../../raw/articles/Russell/万字长文：Deepseek Harness 一文全看懂！！.md)
+- [OpenClaw 保姆级教程（基础篇）](../../../raw/articles/超级个体｜柿子/OpenClaw 保姆级教程（基础篇）.md)
