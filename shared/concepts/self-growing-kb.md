@@ -12,6 +12,7 @@ related:
   - grokipedia
 sources:
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
+  - ../../raw/articles/老张来了/Karpathy 最新分享：用 LLM 搭建个人知识库，告别 RAG 的低效循环.md
 ---
 
 # Definition
@@ -29,3 +30,4 @@ sources:
 - [Obsidian](../entities/obsidian.md)
 - [Grokipedia](../entities/grokipedia.md)
 - [打开 raw](../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md)
+- [Karpathy 最新分享：用 LLM 搭建个人知识库，告别 RAG 的低效循环](../../raw/articles/老张来了/Karpathy 最新分享：用 LLM 搭建个人知识库，告别 RAG 的低效循环.md)

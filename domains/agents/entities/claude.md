@@ -74,6 +74,31 @@ sources:
   - ../../../raw/articles/AI Edge/Claude Skills－ Ultimate Guide (March 2026).md
   - ../../../raw/articles/Bill The Investor/有人为 Claude Code 提供了永久记忆功能，它在 48 小时内获得了 4.6 万颗星。单次会话的 Token 消耗减少了.md
   - ../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md
+  - ../../../raw/articles/Mr Panda/CLAUDE CODE 最佳实践：从－－能用－－到－－真的好用－－.md
+  - ../../../raw/articles/Movez/Claude Code creator－－2068074207687201043.md
+  - ../../../raw/articles/rody/Anthropic's main manager－.md
+  - ../../../raw/articles/Rahul/this is f－cking gold.md
+  - ../../../raw/articles/Roan/this is f－cking dangerous.md
+  - ../../../raw/articles/Rahul/I run a one-person business.md
+  - ../../../raw/articles/鱼总聊AI/Claude 稳定使用4年 + 不封号终极指南：静态住宅IP + 指纹浏览器 + 优质付款卡.md
+  - ../../../raw/articles/Alex Kotliarskyi 🇺🇦/How to graph-max with Codex and 5.6 Sol－.md
+  - ../../../raw/articles/Steve (Builder.io)/Introducing －visual-plan - a skill to generate rich, visual plans for Claude Code and.md
+  - ../../../raw/articles/Tw93/你不知道的 AI Coding：非技术人的上手、场景与实战.md
+  - ../../../raw/articles/Claude/Tinkering, prototyping, and seeing what happens with Claude Design－.md
+  - ../../../raw/articles/Luyu Zhang/我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。.md
+  - ../../../raw/articles/angel/Cómo crear Loops en Fable 5.md
+  - ../../../raw/articles/Yuker/Claude Code 零基础进阶：高手都在用的 Skill 2.0 架构指南（附完整步骤）.md
+  - ../../../raw/articles/数字生命卡兹克/分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。.md
+  - ../../../raw/articles/Suryansh Tiwari/Most AI Systems Are Built Wrong.md
+  - ../../../raw/articles/Berryxia.AI/兄弟们，技术架构图终于有救了！ 🤯.md
+  - ../../../raw/articles/Berryxia.AI/兄弟们！Anthropic刚刚把“用AI建一家公司”的完整蓝图正式公开了。.md
+  - ../../../raw/articles/唐华斑竹🦅/Claude Code 用到这个程度，我算是开眼了.md
+  - ../../../raw/articles/H.E. Justin Sun 👨‍🚀 🌞/史上最强 AI 中转站 [B.AI](http－－－B.AI) 白来了。.md
+  - ../../../raw/articles/KK.aWSB/Karpathy 在一次采访里说了个很扎心的点：.md
+  - ../../../raw/articles/Hanako/Most people use Claude one prompt at a time.md
+  - ../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md
+  - ../../../raw/articles/Bill The Investor/Claude Code 一团糟。直到你安装了这个。有一个名为 claude-code-setup 的 Anthropic.md
+  - ../../../raw/articles/宝玉/别再用提示词去 AI 味了，方向就是错的.md
 ---
 
 # Summary
@@ -140,3 +165,28 @@ sources:
 - [Claude Skills－ Ultimate Guide (March 2026)](../../../raw/articles/AI Edge/Claude Skills－ Ultimate Guide (March 2026).md)
 - [有人为 Claude Code 提供了永久记忆功能，它在 48 小时内获得了 4.6 万颗星。单次会话的 Token 消耗减少了](../../../raw/articles/Bill The Investor/有人为 Claude Code 提供了永久记忆功能，它在 48 小时内获得了 4.6 万颗星。单次会话的 Token 消耗减少了.md)
 - [Loop Engineering－ The AI skill every builder needs in 2026](../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md)
+- [CLAUDE CODE 最佳实践：从－－能用－－到－－真的好用－－](../../../raw/articles/Mr Panda/CLAUDE CODE 最佳实践：从－－能用－－到－－真的好用－－.md)
+- [Claude Code creator－](../../../raw/articles/Movez/Claude Code creator－－2068074207687201043.md)
+- [Anthropic's main manager－](../../../raw/articles/rody/Anthropic's main manager－.md)
+- [this is f－cking gold](../../../raw/articles/Rahul/this is f－cking gold.md)
+- [this is f－cking dangerous](../../../raw/articles/Roan/this is f－cking dangerous.md)
+- [I run a one-person business](../../../raw/articles/Rahul/I run a one-person business.md)
+- [Claude 稳定使用4年 + 不封号终极指南：静态住宅IP + 指纹浏览器 + 优质付款卡](../../../raw/articles/鱼总聊AI/Claude 稳定使用4年 + 不封号终极指南：静态住宅IP + 指纹浏览器 + 优质付款卡.md)
+- [How to graph-max with Codex and 5.6 Sol－](../../../raw/articles/Alex Kotliarskyi 🇺🇦/How to graph-max with Codex and 5.6 Sol－.md)
+- [Introducing －visual-plan - a skill to generate rich, visual plans for Claude Code and](../../../raw/articles/Steve (Builder.io)/Introducing －visual-plan - a skill to generate rich, visual plans for Claude Code and.md)
+- [你不知道的 AI Coding：非技术人的上手、场景与实战](../../../raw/articles/Tw93/你不知道的 AI Coding：非技术人的上手、场景与实战.md)
+- [Tinkering, prototyping, and seeing what happens with Claude Design－](../../../raw/articles/Claude/Tinkering, prototyping, and seeing what happens with Claude Design－.md)
+- [我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。](../../../raw/articles/Luyu Zhang/我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。.md)
+- [Cómo crear Loops en Fable 5](../../../raw/articles/angel/Cómo crear Loops en Fable 5.md)
+- [Claude Code 零基础进阶：高手都在用的 Skill 2.0 架构指南（附完整步骤）](../../../raw/articles/Yuker/Claude Code 零基础进阶：高手都在用的 Skill 2.0 架构指南（附完整步骤）.md)
+- [分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。](../../../raw/articles/数字生命卡兹克/分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。.md)
+- [Most AI Systems Are Built Wrong](../../../raw/articles/Suryansh Tiwari/Most AI Systems Are Built Wrong.md)
+- [兄弟们，技术架构图终于有救了！ 🤯](../../../raw/articles/Berryxia.AI/兄弟们，技术架构图终于有救了！ 🤯.md)
+- [兄弟们！Anthropic刚刚把“用AI建一家公司”的完整蓝图正式公开了。](../../../raw/articles/Berryxia.AI/兄弟们！Anthropic刚刚把“用AI建一家公司”的完整蓝图正式公开了。.md)
+- [Claude Code 用到这个程度，我算是开眼了](../../../raw/articles/唐华斑竹🦅/Claude Code 用到这个程度，我算是开眼了.md)
+- [史上最强 AI 中转站 [B.AI](http－－－B.AI) 白来了。](../../../raw/articles/H.E. Justin Sun 👨‍🚀 🌞/史上最强 AI 中转站 [B.AI](http－－－B.AI) 白来了。.md)
+- [Karpathy 在一次采访里说了个很扎心的点：](../../../raw/articles/KK.aWSB/Karpathy 在一次采访里说了个很扎心的点：.md)
+- [Most people use Claude one prompt at a time](../../../raw/articles/Hanako/Most people use Claude one prompt at a time.md)
+- [the four pillars of loop engineering](../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md)
+- [Claude Code 一团糟。直到你安装了这个。有一个名为 claude-code-setup 的 Anthropic](../../../raw/articles/Bill The Investor/Claude Code 一团糟。直到你安装了这个。有一个名为 claude-code-setup 的 Anthropic.md)
+- [别再用提示词去 AI 味了，方向就是错的](../../../raw/articles/宝玉/别再用提示词去 AI 味了，方向就是错的.md)

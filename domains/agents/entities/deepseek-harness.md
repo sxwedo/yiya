@@ -11,6 +11,7 @@ related:
   - grok-build
 sources:
   - ../references/deepseek-ai-deepseek-harness-github.md
+  - ../../../raw/articles/Russell/万字长文：Deepseek Harness 一文全看懂！！.md
 ---
 
 # Summary
@@ -22,3 +23,4 @@ sources:
 - [deepseek-ai/deepseek-harness（GitHub）](../references/deepseek-ai-deepseek-harness-github.md)
 - [Pi](./pi.md)
 - [Grok Build](./grok-build.md)
+- [万字长文：Deepseek Harness 一文全看懂！！](../../../raw/articles/Russell/万字长文：Deepseek Harness 一文全看懂！！.md)

@@ -21,6 +21,8 @@ sources:
   - ../references/usegrokbot-site.md
   - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md
   - ../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md
+  - ../../../raw/articles/Miles Deutscher/Grok Bot－ The Ultimate Guide.md
+  - ../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md
 ---
 
 # Summary
@@ -46,3 +48,5 @@ sources:
 - [UseGrokBot（站点）](../references/usegrokbot-site.md)
 - [The Complete Guide to pstack Pt. 1](../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md)
 - [Every AI tool you have used so far waits for you. You open it, you ask, it answers, you](../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md)
+- [Grok Bot－ The Ultimate Guide](../../../raw/articles/Miles Deutscher/Grok Bot－ The Ultimate Guide.md)
+- [Every Grok Bot Hack I Know (Aug 2026)](../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md)

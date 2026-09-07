@@ -40,6 +40,23 @@ sources:
   - ../../../raw/articles/Aron厚玉/不用吃二手的屎.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
   - ../../../raw/articles/AI探路者Tim/停止对Gemini说'帮我写简历'。.md
+  - ../../../raw/articles/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT.md
+  - ../../../raw/articles/知识分享官/2024年7大翻墙（科学上网）主流软件介绍⬇️.md
+  - ../../../raw/articles/诺鸭船长3/Telegram 全网最全使用指南：从入门到榨干.md
+  - ../../../raw/articles/Dan Farrelly/The Agent Loop Architecture.md
+  - ../../../raw/articles/财经数据库/清华心理系高才生，用9分钟！教会你看懂这个世上98%的人。.md
+  - ../../../raw/articles/dli 🇺🇸/如何摆脱“碳水脸”？.md
+  - ../../../raw/articles/0x鸣人/有人问黄仁勋：AI会取代人类的工作吗？.md
+  - ../../../raw/articles/川启/如何50元拿下海外一年电话卡？全网最便宜海外 eSIM 曝光.md
+  - ../../../raw/articles/Tw93/假如你的朋友最近需要更新简历，一定要把 Kami 推荐给他，我单独细致优化了一个版本，单独让 Kami 写简历变得非常好用好看清晰，让他把他的原生素材 md 准备好，然后对着.md
+  - ../../../raw/articles/叫我阿杭/很多人诧异：为什么那些非科班出身、没有提示词工程经验的人，反而能写出最硬核的 Prompt？.md
+  - ../../../raw/articles/Jason/实操教程｜2026 年实测，全程不用手机号,注册一个 Google 账号.md
+  - ../../../raw/articles/Shraddha Bharuka/🧵 Learn SQL in 16 Pages 📘.md
+  - ../../../raw/articles/dontbesilent/今日最大收获：知道了 Michael Polanyi 这个人.md
+  - ../../../raw/articles/姚金刚/开源一个贝叶斯决策Skill.md
+  - ../../../raw/articles/𝗠𝗿𝗬𝗘𝗘/我这些年科学上网的姿势.md
+  - ../../../raw/articles/鸟哥 － 蓝鸟会🕊️/兄弟们炸裂了！白嫖党的春天又来了 一个Cloudflare账号干翻所有付费机场.md
+  - ../../../raw/articles/铁手/三招！.md
 ---
 
 # Definition
@@ -89,3 +106,20 @@ sources:
 - [不用吃二手的屎](../../../raw/articles/Aron厚玉/不用吃二手的屎.md)
 - [You check every step your agents take. Not because you want to, but because nothing else](../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md)
 - [停止对Gemini说'帮我写简历'。](../../../raw/articles/AI探路者Tim/停止对Gemini说'帮我写简历'。.md)
+- [预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT](../../../raw/articles/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT.md)
+- [2024年7大翻墙（科学上网）主流软件介绍⬇️](../../../raw/articles/知识分享官/2024年7大翻墙（科学上网）主流软件介绍⬇️.md)
+- [Telegram 全网最全使用指南：从入门到榨干](../../../raw/articles/诺鸭船长3/Telegram 全网最全使用指南：从入门到榨干.md)
+- [The Agent Loop Architecture](../../../raw/articles/Dan Farrelly/The Agent Loop Architecture.md)
+- [清华心理系高才生，用9分钟！教会你看懂这个世上98%的人。](../../../raw/articles/财经数据库/清华心理系高才生，用9分钟！教会你看懂这个世上98%的人。.md)
+- [如何摆脱“碳水脸”？](../../../raw/articles/dli 🇺🇸/如何摆脱“碳水脸”？.md)
+- [有人问黄仁勋：AI会取代人类的工作吗？](../../../raw/articles/0x鸣人/有人问黄仁勋：AI会取代人类的工作吗？.md)
+- [如何50元拿下海外一年电话卡？全网最便宜海外 eSIM 曝光](../../../raw/articles/川启/如何50元拿下海外一年电话卡？全网最便宜海外 eSIM 曝光.md)
+- [假如你的朋友最近需要更新简历，一定要把 Kami 推荐给他，我单独细致优化了一个版本，单独让 Kami 写简历变得非常好用好看清晰，让他把他的原生素材 md 准备好，然后对着](../../../raw/articles/Tw93/假如你的朋友最近需要更新简历，一定要把 Kami 推荐给他，我单独细致优化了一个版本，单独让 Kami 写简历变得非常好用好看清晰，让他把他的原生素材 md 准备好，然后对着.md)
+- [很多人诧异：为什么那些非科班出身、没有提示词工程经验的人，反而能写出最硬核的 Prompt？](../../../raw/articles/叫我阿杭/很多人诧异：为什么那些非科班出身、没有提示词工程经验的人，反而能写出最硬核的 Prompt？.md)
+- [实操教程｜2026 年实测，全程不用手机号,注册一个 Google 账号](../../../raw/articles/Jason/实操教程｜2026 年实测，全程不用手机号,注册一个 Google 账号.md)
+- [🧵 Learn SQL in 16 Pages 📘](../../../raw/articles/Shraddha Bharuka/🧵 Learn SQL in 16 Pages 📘.md)
+- [今日最大收获：知道了 Michael Polanyi 这个人](../../../raw/articles/dontbesilent/今日最大收获：知道了 Michael Polanyi 这个人.md)
+- [开源一个贝叶斯决策Skill](../../../raw/articles/姚金刚/开源一个贝叶斯决策Skill.md)
+- [我这些年科学上网的姿势](../../../raw/articles/𝗠𝗿𝗬𝗘𝗘/我这些年科学上网的姿势.md)
+- [兄弟们炸裂了！白嫖党的春天又来了 一个Cloudflare账号干翻所有付费机场](../../../raw/articles/鸟哥 － 蓝鸟会🕊️/兄弟们炸裂了！白嫖党的春天又来了 一个Cloudflare账号干翻所有付费机场.md)
+- [三招！](../../../raw/articles/铁手/三招！.md)
