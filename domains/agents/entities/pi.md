@@ -31,6 +31,8 @@ sources:
   - ../references/hahhforest-pi-textbook-github.md
   - ../../../raw/articles/Geek/Pi-Agent 教程：10 章把 Agent.md
   - ../../../raw/articles/Pi/Our sessions have been messaging each other for months btw ;).md
+  - ../../../raw/articles/yibie/推荐这期 Pi 插件合集。Pi 作为最小 agent harness，真正的扩展能力来自社区插件——从一键装 17 个扩展的 pi-agent-extensions 到让你在.md
+  - ../../../raw/articles/小墨同学/万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务.md
 ---
 
 # Summary
@@ -59,3 +61,5 @@ sources:
 - [hahhforest/pi-textbook（GitHub）](../references/hahhforest-pi-textbook-github.md)
 - [Pi-Agent 教程：10 章把 Agent](../../../raw/articles/Geek/Pi-Agent 教程：10 章把 Agent.md)
 - [Our sessions have been messaging each other for months btw ;)](../../../raw/articles/Pi/Our sessions have been messaging each other for months btw ;).md)
+- [推荐这期 Pi 插件合集。Pi 作为最小 agent harness，真正的扩展能力来自社区插件——从一键装 17 个扩展的 pi-agent-extensions 到让你在](../../../raw/articles/yibie/推荐这期 Pi 插件合集。Pi 作为最小 agent harness，真正的扩展能力来自社区插件——从一键装 17 个扩展的 pi-agent-extensions 到让你在.md)
+- [万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务](../../../raw/articles/小墨同学/万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务.md)

@@ -19,6 +19,7 @@ sources:
   - ../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md
   - ../../../raw/articles/Rahul/There are 8 billion people on the planet.md
   - ../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md
+  - ../../../raw/articles/Polo贱🕊️－ 来Gate事件合约抢百万积分/GitHub 45k星星优秀项目介绍：hello-agents.md
 ---
 
 # Summary
@@ -37,3 +38,4 @@ sources:
 - [A free open-source model is running 300 parallel agents across 4,000 coordinated steps](../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md)
 - [There are 8 billion people on the planet](../../../raw/articles/Rahul/There are 8 billion people on the planet.md)
 - [今天来看腾讯的开发工程师的初面题。](../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md)
+- [GitHub 45k星星优秀项目介绍：hello-agents](../../../raw/articles/Polo贱🕊️－ 来Gate事件合约抢百万积分/GitHub 45k星星优秀项目介绍：hello-agents.md)

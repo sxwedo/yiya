@@ -14,6 +14,7 @@ related:
   - llm-wiki
 sources:
   - ../references/agents-md-site.md
+  - ../../../raw/articles/超级个体｜柿子/openclaw保姆级教学（中级篇）.md
 ---
 
 # Summary
@@ -30,3 +31,4 @@ sources:
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
 - [skills.sh](./skills-sh.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
+- [openclaw保姆级教学（中级篇）](../../../raw/articles/超级个体｜柿子/openclaw保姆级教学（中级篇）.md)

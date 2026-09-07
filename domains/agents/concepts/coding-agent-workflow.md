@@ -58,6 +58,18 @@ sources:
   - ../../../raw/articles/Roland.W/全文没有一处在教你做IP.md
   - ../../../raw/articles/退役星灵艺术鉴赏家/Google 开源了 distribute agent runtime 框架 [github.com－google－ax](http－－－github.com－google－ax).md
   - ../../../raw/articles/傅盛/黄仁勋：创新不是从精英里挑出来的，是从试错里长出来的；末位淘汰不是激励，是扼杀活力。.md
+  - ../../../raw/articles/花叔/虽迟但到！一大堆人找我要的《Loop Engineering橙皮书📙》来了。.md
+  - ../../../raw/articles/Roland.W/没见过这么爽的教程.md
+  - ../../../raw/articles/Bysir/性价比拉满，一图配齐独立开发者全生命周期工具.md
+  - ../../../raw/articles/大梦想家迪士尼/朋友们的 Google Pro 都不要浪费了.md
+  - ../../../raw/articles/数字生命卡兹克/就在昨天，我把之前给公司内部用的，花了将近一个月时间开发的 AI 热点监控网站，AIHOT，免费开放给所有人了。.md
+  - ../../../raw/articles/Eyo Eyo, PhD/Free for beginners－.md
+  - ../../../raw/articles/GitHubDaily/初学者想系统学习大语言模型技术，网上资料虽多但过于零散，不知道该从何学起、按什么顺序深入。.md
+  - ../../../raw/articles/纯棉短裤/分享个edu教育临时邮件服务.md
+  - ../../../raw/articles/Wang Shuyi/Codex 升级到新版后，支持了 －`－goal－` 命令，也就是人给出最终目标，剩下的事儿都让 Codex 来操心即可。我于是非常贪婪地给出了要求：「给我做一个 3A.md
+  - ../../../raw/articles/四多2038/0 元打造专属于你的纯净代理 IP，高速稳定还无限流量.md
+  - ../../../raw/articles/铁手/比能力更重要的是你的工作逻辑.md
+  - ../../../raw/articles/李东bbsky/学编程、写代码的时候，最重要的是始终记住这三大核心概念：过程（Process）、数据（Data）、抽象（Abstraction）。这三个词，几乎贯穿了整个计算机科学。.md
 ---
 
 # Definition
@@ -125,3 +137,15 @@ sources:
 - [全文没有一处在教你做IP](../../../raw/articles/Roland.W/全文没有一处在教你做IP.md)
 - [Google 开源了 distribute agent runtime 框架 [github.com－google－ax](http－－－github.com－google－ax)](../../../raw/articles/退役星灵艺术鉴赏家/Google 开源了 distribute agent runtime 框架 [github.com－google－ax](http－－－github.com－google－ax).md)
 - [黄仁勋：创新不是从精英里挑出来的，是从试错里长出来的；末位淘汰不是激励，是扼杀活力。](../../../raw/articles/傅盛/黄仁勋：创新不是从精英里挑出来的，是从试错里长出来的；末位淘汰不是激励，是扼杀活力。.md)
+- [虽迟但到！一大堆人找我要的《Loop Engineering橙皮书📙》来了。](../../../raw/articles/花叔/虽迟但到！一大堆人找我要的《Loop Engineering橙皮书📙》来了。.md)
+- [没见过这么爽的教程](../../../raw/articles/Roland.W/没见过这么爽的教程.md)
+- [性价比拉满，一图配齐独立开发者全生命周期工具](../../../raw/articles/Bysir/性价比拉满，一图配齐独立开发者全生命周期工具.md)
+- [朋友们的 Google Pro 都不要浪费了](../../../raw/articles/大梦想家迪士尼/朋友们的 Google Pro 都不要浪费了.md)
+- [就在昨天，我把之前给公司内部用的，花了将近一个月时间开发的 AI 热点监控网站，AIHOT，免费开放给所有人了。](../../../raw/articles/数字生命卡兹克/就在昨天，我把之前给公司内部用的，花了将近一个月时间开发的 AI 热点监控网站，AIHOT，免费开放给所有人了。.md)
+- [Free for beginners－](../../../raw/articles/Eyo Eyo, PhD/Free for beginners－.md)
+- [初学者想系统学习大语言模型技术，网上资料虽多但过于零散，不知道该从何学起、按什么顺序深入。](../../../raw/articles/GitHubDaily/初学者想系统学习大语言模型技术，网上资料虽多但过于零散，不知道该从何学起、按什么顺序深入。.md)
+- [分享个edu教育临时邮件服务](../../../raw/articles/纯棉短裤/分享个edu教育临时邮件服务.md)
+- [Codex 升级到新版后，支持了 －`－goal－` 命令，也就是人给出最终目标，剩下的事儿都让 Codex 来操心即可。我于是非常贪婪地给出了要求：「给我做一个 3A](../../../raw/articles/Wang Shuyi/Codex 升级到新版后，支持了 －`－goal－` 命令，也就是人给出最终目标，剩下的事儿都让 Codex 来操心即可。我于是非常贪婪地给出了要求：「给我做一个 3A.md)
+- [0 元打造专属于你的纯净代理 IP，高速稳定还无限流量](../../../raw/articles/四多2038/0 元打造专属于你的纯净代理 IP，高速稳定还无限流量.md)
+- [比能力更重要的是你的工作逻辑](../../../raw/articles/铁手/比能力更重要的是你的工作逻辑.md)
+- [学编程、写代码的时候，最重要的是始终记住这三大核心概念：过程（Process）、数据（Data）、抽象（Abstraction）。这三个词，几乎贯穿了整个计算机科学。](../../../raw/articles/李东bbsky/学编程、写代码的时候，最重要的是始终记住这三大核心概念：过程（Process）、数据（Data）、抽象（Abstraction）。这三个词，几乎贯穿了整个计算机科学。.md)

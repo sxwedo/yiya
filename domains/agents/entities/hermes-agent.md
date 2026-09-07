@@ -17,6 +17,8 @@ sources:
   - ../../../raw/articles/岚叔/上手 Hermes Agent 后建议先尝试的十件事情.md
   - ../../../raw/articles/Mr. Buzzoni/－ Most people treat notes, models, and agents as three separate worlds.md
   - ../../../raw/articles/Zaid/The problem with AI agents right now.md
+  - ../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md
+  - ../../../raw/articles/Will Yang/今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。.md
 ---
 
 # Summary
@@ -33,3 +35,5 @@ sources:
 - [上手 Hermes Agent 后建议先尝试的十件事情](../../../raw/articles/岚叔/上手 Hermes Agent 后建议先尝试的十件事情.md)
 - [－ Most people treat notes, models, and agents as three separate worlds](../../../raw/articles/Mr. Buzzoni/－ Most people treat notes, models, and agents as three separate worlds.md)
 - [The problem with AI agents right now](../../../raw/articles/Zaid/The problem with AI agents right now.md)
+- [A Taxonomy of Self-evolving Agents](../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md)
+- [今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。](../../../raw/articles/Will Yang/今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。.md)

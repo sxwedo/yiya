@@ -68,6 +68,31 @@ sources:
   - ../../../raw/articles/Geek/CCG-Workflow（Claude + Codex + Gemini）是一个基于 Claude Code CLI 的多模型协作智能开发工作流系统。.md
   - ../../../raw/articles/Hedy.eth 🎮/刚刷到 Claude 官网，.md
   - ../../../raw/articles/Yanhua/Claude Code 的 －goal 和 －loop，很多人没用过的最强功能.md
+  - ../../../raw/articles/rody/You type the same 30-second instruction to Claude Code 20 times a week.md
+  - ../../../raw/articles/宝玉/团队内的 skills 管理和维护的一点经验分享（以 codex cli 用的 .agents－skills 目录为例）：.md
+  - ../../../raw/articles/Kshitij Mishra － AI & Tech/Someone on GitHub just shared a massive list of free projects that are ridiculously good.md
+  - ../../../raw/articles/志辉/再来个硬核的 Claude Skills 仓库.md
+  - ../../../raw/articles/Matt Pocock/I've been thinking about this quote for a solid 24 hours.md
+  - ../../../raw/articles/Alex/From prompter to loop designer－ the 10-step roadmap.md
+  - ../../../raw/articles/数字生命卡兹克/想玩Loop Engineering，可以先从这6个Hook玩法开始。.md
+  - ../../../raw/articles/AI Guides/Loop Engineering In 5 Minutes. No Code Required.md
+  - ../../../raw/articles/雪踏乌云/扒完了泄露的 Claude Code 源码，我发现“Vibe Coding”的尽头其实是工程化.md
+  - ../../../raw/articles/看不懂的SOL/Claude Code进阶指南：装这9个Skill才算真正上手.md
+  - ../../../raw/articles/实践哥 Li/Claude Code 动态工作流： 每个任务都可以有自己的 Harness【译】.md
+  - ../../../raw/articles/Xudong Han/推荐一本免费的 AI 书：《Agentic AI 漫游指南》。.md
+  - ../../../raw/articles/宝玉/Codex 的野心，MCP 和 Skill 的下一步.md
+  - ../../../raw/articles/泊舟/蚂蚁开源了一个对AI非常友好的制作信息图的开源项目，.md
+  - ../../../raw/articles/Codez/How to build a team of AI agents－ 9 stages from first agent to production crew.md
+  - ../../../raw/articles/AI Guides/Fable 5 Is Wasted Without This Setup.md
+  - ../../../raw/articles/余温/原来 Codex 桌面端也能直接用 －goal，这玩意儿太香了.md
+  - ../../../raw/articles/Bot/⚠️警告：建完这个Karpathy知识系统后，你会彻底告别信息焦虑.md
+  - ../../../raw/articles/Yanhua/你是不是还在这样写提示词：“帮我做这个”、或“修复这个错误”？.md
+  - ../../../raw/articles/Vince 聊开发/很多人不知道什么时候该用 Hooks。.md
+  - ../../../raw/articles/Vincent/Anthropic 这个演讲有点东西。🤯.md
+  - ../../../raw/articles/宝玉/Q：我们公司有十几个微服务，现在想让开发用 AI Agent 来做系统设计和编码。问题是一个 user story 经常需要多个微服务协作，Agent.md
+  - ../../../raw/articles/Yuker/Claude 4.6 最新功能：必须要懂的 Agent Team 小白入门指南（内含完整步骤）.md
+  - ../../../raw/articles/M./白嫖Google的GCP VPS，.md
+  - ../../../raw/articles/Zion（全球交友版）/搞定土耳其区Apple ID和ChatGPT 订阅了，花了76人民币开通一个月的Plus。.md
 ---
 
 # Summary
@@ -137,3 +162,28 @@ sources:
 - [CCG-Workflow（Claude + Codex + Gemini）是一个基于 Claude Code CLI 的多模型协作智能开发工作流系统。](../../../raw/articles/Geek/CCG-Workflow（Claude + Codex + Gemini）是一个基于 Claude Code CLI 的多模型协作智能开发工作流系统。.md)
 - [刚刷到 Claude 官网，](../../../raw/articles/Hedy.eth 🎮/刚刷到 Claude 官网，.md)
 - [Claude Code 的 －goal 和 －loop，很多人没用过的最强功能](../../../raw/articles/Yanhua/Claude Code 的 －goal 和 －loop，很多人没用过的最强功能.md)
+- [You type the same 30-second instruction to Claude Code 20 times a week](../../../raw/articles/rody/You type the same 30-second instruction to Claude Code 20 times a week.md)
+- [团队内的 skills 管理和维护的一点经验分享（以 codex cli 用的 .agents－skills 目录为例）：](../../../raw/articles/宝玉/团队内的 skills 管理和维护的一点经验分享（以 codex cli 用的 .agents－skills 目录为例）：.md)
+- [Someone on GitHub just shared a massive list of free projects that are ridiculously good](../../../raw/articles/Kshitij Mishra － AI & Tech/Someone on GitHub just shared a massive list of free projects that are ridiculously good.md)
+- [再来个硬核的 Claude Skills 仓库](../../../raw/articles/志辉/再来个硬核的 Claude Skills 仓库.md)
+- [I've been thinking about this quote for a solid 24 hours](../../../raw/articles/Matt Pocock/I've been thinking about this quote for a solid 24 hours.md)
+- [From prompter to loop designer－ the 10-step roadmap](../../../raw/articles/Alex/From prompter to loop designer－ the 10-step roadmap.md)
+- [想玩Loop Engineering，可以先从这6个Hook玩法开始。](../../../raw/articles/数字生命卡兹克/想玩Loop Engineering，可以先从这6个Hook玩法开始。.md)
+- [Loop Engineering In 5 Minutes. No Code Required](../../../raw/articles/AI Guides/Loop Engineering In 5 Minutes. No Code Required.md)
+- [扒完了泄露的 Claude Code 源码，我发现“Vibe Coding”的尽头其实是工程化](../../../raw/articles/雪踏乌云/扒完了泄露的 Claude Code 源码，我发现“Vibe Coding”的尽头其实是工程化.md)
+- [Claude Code进阶指南：装这9个Skill才算真正上手](../../../raw/articles/看不懂的SOL/Claude Code进阶指南：装这9个Skill才算真正上手.md)
+- [Claude Code 动态工作流： 每个任务都可以有自己的 Harness【译】](../../../raw/articles/实践哥 Li/Claude Code 动态工作流： 每个任务都可以有自己的 Harness【译】.md)
+- [推荐一本免费的 AI 书：《Agentic AI 漫游指南》。](../../../raw/articles/Xudong Han/推荐一本免费的 AI 书：《Agentic AI 漫游指南》。.md)
+- [Codex 的野心，MCP 和 Skill 的下一步](../../../raw/articles/宝玉/Codex 的野心，MCP 和 Skill 的下一步.md)
+- [蚂蚁开源了一个对AI非常友好的制作信息图的开源项目，](../../../raw/articles/泊舟/蚂蚁开源了一个对AI非常友好的制作信息图的开源项目，.md)
+- [How to build a team of AI agents－ 9 stages from first agent to production crew](../../../raw/articles/Codez/How to build a team of AI agents－ 9 stages from first agent to production crew.md)
+- [Fable 5 Is Wasted Without This Setup](../../../raw/articles/AI Guides/Fable 5 Is Wasted Without This Setup.md)
+- [原来 Codex 桌面端也能直接用 －goal，这玩意儿太香了](../../../raw/articles/余温/原来 Codex 桌面端也能直接用 －goal，这玩意儿太香了.md)
+- [⚠️警告：建完这个Karpathy知识系统后，你会彻底告别信息焦虑](../../../raw/articles/Bot/⚠️警告：建完这个Karpathy知识系统后，你会彻底告别信息焦虑.md)
+- [你是不是还在这样写提示词：“帮我做这个”、或“修复这个错误”？](../../../raw/articles/Yanhua/你是不是还在这样写提示词：“帮我做这个”、或“修复这个错误”？.md)
+- [很多人不知道什么时候该用 Hooks。](../../../raw/articles/Vince 聊开发/很多人不知道什么时候该用 Hooks。.md)
+- [Anthropic 这个演讲有点东西。🤯](../../../raw/articles/Vincent/Anthropic 这个演讲有点东西。🤯.md)
+- [Q：我们公司有十几个微服务，现在想让开发用 AI Agent 来做系统设计和编码。问题是一个 user story 经常需要多个微服务协作，Agent](../../../raw/articles/宝玉/Q：我们公司有十几个微服务，现在想让开发用 AI Agent 来做系统设计和编码。问题是一个 user story 经常需要多个微服务协作，Agent.md)
+- [Claude 4.6 最新功能：必须要懂的 Agent Team 小白入门指南（内含完整步骤）](../../../raw/articles/Yuker/Claude 4.6 最新功能：必须要懂的 Agent Team 小白入门指南（内含完整步骤）.md)
+- [白嫖Google的GCP VPS，](../../../raw/articles/M./白嫖Google的GCP VPS，.md)
+- [搞定土耳其区Apple ID和ChatGPT 订阅了，花了76人民币开通一个月的Plus。](../../../raw/articles/Zion（全球交友版）/搞定土耳其区Apple ID和ChatGPT 订阅了，花了76人民币开通一个月的Plus。.md)

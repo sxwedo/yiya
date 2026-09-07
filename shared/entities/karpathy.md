@@ -26,6 +26,7 @@ sources:
   - ../../raw/articles/Smartpig/Andrej Karpathy 用 2 小时演示了他日常如何使用 AI.md
   - ../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md
   - ../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md
+  - ../../raw/articles/AYi/程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，.md
 ---
 
 # Summary
@@ -53,3 +54,4 @@ sources:
 - [Andrej Karpathy 用 2 小时演示了他日常如何使用 AI](../../raw/articles/Smartpig/Andrej Karpathy 用 2 小时演示了他日常如何使用 AI.md)
 - [Obsidian + Claude Code = 你的个人生活操作系统](../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md)
 - [Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！](../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md)
+- [程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，](../../raw/articles/AYi/程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，.md)

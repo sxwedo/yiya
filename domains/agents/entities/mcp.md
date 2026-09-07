@@ -28,6 +28,9 @@ sources:
   - ../../../raw/articles/Jason Zhu/Anthropic于2026年3月12日推出“Claude Certified.md
   - ../../../raw/articles/Ren/如何写出工业级 Skill.md
   - ../../../raw/articles/AI Will/Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课程：.md
+  - ../../../raw/articles/Orange AI/最近跟藏师傅聊天，都感觉到深深的共鸣。.md
+  - ../../../raw/articles/Mr Panda/HERMES AGENT：NOUS RESEARCH 打造的开源自主 AI 智能体.md
+  - ../../../raw/articles/宝玉/智能体工程的 8 个等级【译】.md
 ---
 
 # Summary
@@ -58,3 +61,6 @@ sources:
 - [Anthropic于2026年3月12日推出“Claude Certified](../../../raw/articles/Jason Zhu/Anthropic于2026年3月12日推出“Claude Certified.md)
 - [如何写出工业级 Skill](../../../raw/articles/Ren/如何写出工业级 Skill.md)
 - [Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课程：](../../../raw/articles/AI Will/Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课程：.md)
+- [最近跟藏师傅聊天，都感觉到深深的共鸣。](../../../raw/articles/Orange AI/最近跟藏师傅聊天，都感觉到深深的共鸣。.md)
+- [HERMES AGENT：NOUS RESEARCH 打造的开源自主 AI 智能体](../../../raw/articles/Mr Panda/HERMES AGENT：NOUS RESEARCH 打造的开源自主 AI 智能体.md)
+- [智能体工程的 8 个等级【译】](../../../raw/articles/宝玉/智能体工程的 8 个等级【译】.md)
