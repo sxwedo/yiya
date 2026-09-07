@@ -27,6 +27,7 @@ sources:
   - ../../../raw/articles/雪踏乌云/Codex X Chrome插件配置使用保姆级教程.md
   - ../../../raw/articles/向阳乔木/OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工.md
   - ../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md
+  - ../../../raw/articles/Vincent/Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。.md
 ---
 
 # Summary
@@ -52,3 +53,4 @@ sources:
 - [Codex X Chrome插件配置使用保姆级教程](../../../raw/articles/雪踏乌云/Codex X Chrome插件配置使用保姆级教程.md)
 - [OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工](../../../raw/articles/向阳乔木/OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工.md)
 - [CodeX 新功能，又是一个独宠 MAC 的功能！！！](../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md)
+- [Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。](../../../raw/articles/Vincent/Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。.md)

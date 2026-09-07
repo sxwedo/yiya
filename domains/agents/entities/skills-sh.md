@@ -19,6 +19,7 @@ sources:
   - ../references/multica-ai-andrej-karpathy-skills-github.md
   - ../references/builderio-skills-github.md
   - ../references/anthropics-skills-github.md
+  - ../../../raw/articles/Amto/119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。.md
 ---
 
 # Summary
@@ -41,3 +42,4 @@ sources:
 - [multica-ai-andrej-karpathy-skills-github](../references/multica-ai-andrej-karpathy-skills-github.md)
 - [builderio-skills-github](../references/builderio-skills-github.md)
 - [anthropics-skills-github](../references/anthropics-skills-github.md)
+- [119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。](../../../raw/articles/Amto/119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。.md)

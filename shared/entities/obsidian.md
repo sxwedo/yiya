@@ -29,6 +29,7 @@ sources:
   - ../../raw/articles/金尘马/我用这套方法，0成本复刻了价值2999元的写作专家团.md
   - ../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md
   - ../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md
+  - ../../raw/articles/Yanhua/最近在使用Obsidian探索内容创作自动化，推荐宝玉老师这个自动配图Agent，可以选择Gemini模型或者ModelScope模型。.md
 ---
 
 # Summary
@@ -56,3 +57,4 @@ sources:
 - [我用这套方法，0成本复刻了价值2999元的写作专家团](../../raw/articles/金尘马/我用这套方法，0成本复刻了价值2999元的写作专家团.md)
 - [Hello everyone, leopardracer here!](../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md)
 - [Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记](../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md)
+- [最近在使用Obsidian探索内容创作自动化，推荐宝玉老师这个自动配图Agent，可以选择Gemini模型或者ModelScope模型。](../../raw/articles/Yanhua/最近在使用Obsidian探索内容创作自动化，推荐宝玉老师这个自动配图Agent，可以选择Gemini模型或者ModelScope模型。.md)

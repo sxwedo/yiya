@@ -9,6 +9,7 @@ related:
   - johnshall-shadowrocket-adblock-rules-forever-github
 sources:
   - ../references/johnshall-shadowrocket-adblock-rules-forever-github.md
+  - ../../../raw/articles/鱼总聊AI/2－7 🎯 我在Github找到了这个开源免费的规则库：.md
 ---
 
 # Summary
@@ -18,3 +19,4 @@ sources:
 ## Related
 
 - [Johnshall/Shadowrocket-ADBlock-Rules-Forever（GitHub）](../references/johnshall-shadowrocket-adblock-rules-forever-github.md)
+- [2－7 🎯 我在Github找到了这个开源免费的规则库：](../../../raw/articles/鱼总聊AI/2－7 🎯 我在Github找到了这个开源免费的规则库：.md)

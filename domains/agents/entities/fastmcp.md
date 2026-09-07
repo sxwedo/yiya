@@ -12,6 +12,7 @@ related:
 sources:
   - ../references/fastmcp-site.md
   - ../references/prefecthq-fastmcp-github.md
+  - ../../../raw/articles/知野/Hermes Skills Hub 生产精选：这7个Skill直接帮你跑通生产.md
 ---
 
 # Summary
@@ -26,3 +27,4 @@ sources:
 - [Model Context Protocol (MCP)](./mcp.md)
 - [PrefectHQ/fastmcp（GitHub）](../references/prefecthq-fastmcp-github.md)
 - [Prefect](../../engineering/entities/prefect.md)
+- [Hermes Skills Hub 生产精选：这7个Skill直接帮你跑通生产](../../../raw/articles/知野/Hermes Skills Hub 生产精选：这7个Skill直接帮你跑通生产.md)

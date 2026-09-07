@@ -30,6 +30,8 @@ sources:
   - ../../raw/articles/阿西_出海（2.0版）/3 步带你搭建 Karpathy 同款 AI 知识库（附教程）.md
   - ../../raw/articles/obssnnn/Andrej Karpathy－.md
   - ../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md
+  - ../../raw/articles/Joey Lee/1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑.md
+  - ../../raw/articles/AI_Explorer/list of 10 active AI researchers on X－.md
 ---
 
 # Summary
@@ -61,3 +63,5 @@ sources:
 - [3 步带你搭建 Karpathy 同款 AI 知识库（附教程）](../../raw/articles/阿西_出海（2.0版）/3 步带你搭建 Karpathy 同款 AI 知识库（附教程）.md)
 - [Andrej Karpathy－](../../raw/articles/obssnnn/Andrej Karpathy－.md)
 - [CLAUDE.md 终于有人把最全用法讲清楚了](../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md)
+- [1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑](../../raw/articles/Joey Lee/1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑.md)
+- [list of 10 active AI researchers on X－](../../raw/articles/AI_Explorer/list of 10 active AI researchers on X－.md)

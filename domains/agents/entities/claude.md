@@ -115,6 +115,31 @@ sources:
   - ../../../raw/articles/YAHA學堂/今天才发现 #claude 提供了官方的生成提示词的工具，非常好用。.md
   - ../../../raw/articles/宝玉/“Skill 不就是长一点的提示词吗？”.md
   - ../../../raw/articles/Nico Lopez/un resumen que esta bueno saber－.md
+  - ../../../raw/articles/Berryxia.AI/🔥兄弟们！手里的OpenClaw龙虾可以先放一放了！.md
+  - ../../../raw/articles/海拉鲁编程客/# 从降智到小动作－ Claude Code 平替计划.md
+  - ../../../raw/articles/Yadong Xie/一个神奇的发现.md
+  - ../../../raw/articles/AYi/这绝对是最棒的企业 AI 转型指南，教你如何让公司彻底拥抱 AI 变革。.md
+  - ../../../raw/articles/huangserva/一位谷歌云工程师刚刚展示了.md
+  - ../../../raw/articles/Alex/Anthropic just released 5 Claude workshops on the new skill every AI builder needs－ Loop.md
+  - ../../../raw/articles/烟花老师/Harness Engineering：AI 工程师的下一个战场！.md
+  - ../../../raw/articles/Mr Panda/如何沉淀 SKILL：把重复劳动变成可复用的能力.md
+  - ../../../raw/articles/lifcc/2026 年真正能让你 coding 效率起飞的 10 个 Claude Code － Codex 高星 GitHub 仓库.md
+  - ../../../raw/articles/诺鸭船长3/Tailscale 全网最全使用指南：从入门到榨干.md
+  - ../../../raw/articles/苏乐/10分钟学会CLAUDE.md－ 从入门到精通.md
+  - ../../../raw/articles/宝玉/为什么你的－－AI 优先－－战略可能大错特错？.md
+  - ../../../raw/articles/Zhixiong Pan/在一周内，AI 三巨头仿佛达成默契，全面押注医疗－健康领域：.md
+  - ../../../raw/articles/鱼总聊AI/凌晨3点，我的龙虾发来了一条－－死刑通知－.md
+  - ../../../raw/articles/Roland.W/AI实施科学：一个2030年之前必将诞生的领域.md
+  - ../../../raw/articles/实践哥 Li/8 个 Claude Code Hooks 实战（译）.md
+  - ../../../raw/articles/Nate Herk/Build & Sell Grok Bots (2 Hour Course).md
+  - ../../../raw/articles/meng shao/Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6.md
+  - ../../../raw/articles/AI少年/GitHub CLI算是一个比较重要很多很多人使用Agent的时候都可能用的到一个CLI，我又整理了几个大厂比较常用的CLI。.md
+  - ../../../raw/articles/Serena 木瓜/Loop Engineering 实操指南：告别 AI 返工.md
+  - ../../../raw/articles/Lonely/Fable 5 实战指南：发现你的未知「译」.md
+  - ../../../raw/articles/程意/如何用一句话来干完别人一整天的活.md
+  - ../../../raw/articles/雪踏乌云/Token省35%、工具调用暴降94%！本地知识图谱改变的5个编程习惯.md
+  - ../../../raw/articles/soar/试了一些 agent loop 工具之后，发现还是 ralph 香.md
+  - ../../../raw/articles/meng shao/AI 工程能力的四个层级：从入门到高阶，逐步讲解了每个阶段需要掌握的核心技能，感谢 @zachly 分享！.md
 ---
 
 # Summary
@@ -231,3 +256,28 @@ sources:
 - [今天才发现 #claude 提供了官方的生成提示词的工具，非常好用。](../../../raw/articles/YAHA學堂/今天才发现 #claude 提供了官方的生成提示词的工具，非常好用。.md)
 - [“Skill 不就是长一点的提示词吗？”](../../../raw/articles/宝玉/“Skill 不就是长一点的提示词吗？”.md)
 - [un resumen que esta bueno saber－](../../../raw/articles/Nico Lopez/un resumen que esta bueno saber－.md)
+- [🔥兄弟们！手里的OpenClaw龙虾可以先放一放了！](../../../raw/articles/Berryxia.AI/🔥兄弟们！手里的OpenClaw龙虾可以先放一放了！.md)
+- [# 从降智到小动作－ Claude Code 平替计划](../../../raw/articles/海拉鲁编程客/# 从降智到小动作－ Claude Code 平替计划.md)
+- [一个神奇的发现](../../../raw/articles/Yadong Xie/一个神奇的发现.md)
+- [这绝对是最棒的企业 AI 转型指南，教你如何让公司彻底拥抱 AI 变革。](../../../raw/articles/AYi/这绝对是最棒的企业 AI 转型指南，教你如何让公司彻底拥抱 AI 变革。.md)
+- [一位谷歌云工程师刚刚展示了](../../../raw/articles/huangserva/一位谷歌云工程师刚刚展示了.md)
+- [Anthropic just released 5 Claude workshops on the new skill every AI builder needs－ Loop](../../../raw/articles/Alex/Anthropic just released 5 Claude workshops on the new skill every AI builder needs－ Loop.md)
+- [Harness Engineering：AI 工程师的下一个战场！](../../../raw/articles/烟花老师/Harness Engineering：AI 工程师的下一个战场！.md)
+- [如何沉淀 SKILL：把重复劳动变成可复用的能力](../../../raw/articles/Mr Panda/如何沉淀 SKILL：把重复劳动变成可复用的能力.md)
+- [2026 年真正能让你 coding 效率起飞的 10 个 Claude Code － Codex 高星 GitHub 仓库](../../../raw/articles/lifcc/2026 年真正能让你 coding 效率起飞的 10 个 Claude Code － Codex 高星 GitHub 仓库.md)
+- [Tailscale 全网最全使用指南：从入门到榨干](../../../raw/articles/诺鸭船长3/Tailscale 全网最全使用指南：从入门到榨干.md)
+- [10分钟学会CLAUDE.md－ 从入门到精通](../../../raw/articles/苏乐/10分钟学会CLAUDE.md－ 从入门到精通.md)
+- [为什么你的－－AI 优先－－战略可能大错特错？](../../../raw/articles/宝玉/为什么你的－－AI 优先－－战略可能大错特错？.md)
+- [在一周内，AI 三巨头仿佛达成默契，全面押注医疗－健康领域：](../../../raw/articles/Zhixiong Pan/在一周内，AI 三巨头仿佛达成默契，全面押注医疗－健康领域：.md)
+- [凌晨3点，我的龙虾发来了一条－－死刑通知－](../../../raw/articles/鱼总聊AI/凌晨3点，我的龙虾发来了一条－－死刑通知－.md)
+- [AI实施科学：一个2030年之前必将诞生的领域](../../../raw/articles/Roland.W/AI实施科学：一个2030年之前必将诞生的领域.md)
+- [8 个 Claude Code Hooks 实战（译）](../../../raw/articles/实践哥 Li/8 个 Claude Code Hooks 实战（译）.md)
+- [Build & Sell Grok Bots (2 Hour Course)](../../../raw/articles/Nate Herk/Build & Sell Grok Bots (2 Hour Course).md)
+- [Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6](../../../raw/articles/meng shao/Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6.md)
+- [GitHub CLI算是一个比较重要很多很多人使用Agent的时候都可能用的到一个CLI，我又整理了几个大厂比较常用的CLI。](../../../raw/articles/AI少年/GitHub CLI算是一个比较重要很多很多人使用Agent的时候都可能用的到一个CLI，我又整理了几个大厂比较常用的CLI。.md)
+- [Loop Engineering 实操指南：告别 AI 返工](../../../raw/articles/Serena 木瓜/Loop Engineering 实操指南：告别 AI 返工.md)
+- [Fable 5 实战指南：发现你的未知「译」](../../../raw/articles/Lonely/Fable 5 实战指南：发现你的未知「译」.md)
+- [如何用一句话来干完别人一整天的活](../../../raw/articles/程意/如何用一句话来干完别人一整天的活.md)
+- [Token省35%、工具调用暴降94%！本地知识图谱改变的5个编程习惯](../../../raw/articles/雪踏乌云/Token省35%、工具调用暴降94%！本地知识图谱改变的5个编程习惯.md)
+- [试了一些 agent loop 工具之后，发现还是 ralph 香](../../../raw/articles/soar/试了一些 agent loop 工具之后，发现还是 ralph 香.md)
+- [AI 工程能力的四个层级：从入门到高阶，逐步讲解了每个阶段需要掌握的核心技能，感谢 @zachly 分享！](../../../raw/articles/meng shao/AI 工程能力的四个层级：从入门到高阶，逐步讲解了每个阶段需要掌握的核心技能，感谢 @zachly 分享！.md)

@@ -86,6 +86,20 @@ sources:
   - ../../../raw/articles/lifcc/OpenAI 发布了 GPT-5.6 Sol 的官方 Prompting Guide。明确告诉我们：GPT-5.6 的最优 prompting 方式，和 GPT-5.5 －.md
   - ../../../raw/articles/余温/你的 AI Agent 现在能搜推特了。.md
   - ../../../raw/articles/黄小木/用飞书多维表格打造你的数字分身.md
+  - ../../../raw/articles/陈成/看了内部某团队的 Skills 实战分享，两篇加起来一万多字，最大的收获不是怎么写 Skill，而是怎么「不写」。.md
+  - ../../../raw/articles/傅盛/谷歌推出实验性AI浏览器Disco，浏览器大战再升级！.md
+  - ../../../raw/articles/Matt Pocock/Everyone's banging on about loops.md
+  - ../../../raw/articles/mousepotato/终端里下一个工具：Yoinks。.md
+  - ../../../raw/articles/池建强/周末看了个 OpenAI 论坛的内部分享，叫 Vibe Engineering。.md
+  - ../../../raw/articles/unicode/I tested every Grok Bot template that exists. 28 of them saved me $15k－year.md
+  - ../../../raw/articles/karminski-牙医/向量数据库脑电图来啦!.md
+  - ../../../raw/articles/算岛/每年 3 毛钱，白嫖一个德国手机号 沃达丰免费 eSIM 保姆级教程.md
+  - ../../../raw/articles/Tw93/假如你想把一个命令脚本变成一个原生的 Mac 应用，可以试试 Platypus.md
+  - ../../../raw/articles/鱼总聊AI/兄弟们，Giffgaff重新上架了，有需求的可以去购买。.md
+  - ../../../raw/articles/记得爱强/我是第一个做推特会员自助开通网站的.md
+  - ../../../raw/articles/siddontang/你选择什么样的基础架构，最终就会成长为什么样的公司.md
+  - ../../../raw/articles/Raft/Don't talk to me, talk to my agents.md
+  - ../../../raw/articles/车九 （低价蓝V代开）/支付宝跟微信的支付通道已经添加了哈.md
 ---
 
 # Definition
@@ -181,3 +195,17 @@ sources:
 - [OpenAI 发布了 GPT-5.6 Sol 的官方 Prompting Guide。明确告诉我们：GPT-5.6 的最优 prompting 方式，和 GPT-5.5 －](../../../raw/articles/lifcc/OpenAI 发布了 GPT-5.6 Sol 的官方 Prompting Guide。明确告诉我们：GPT-5.6 的最优 prompting 方式，和 GPT-5.5 －.md)
 - [你的 AI Agent 现在能搜推特了。](../../../raw/articles/余温/你的 AI Agent 现在能搜推特了。.md)
 - [用飞书多维表格打造你的数字分身](../../../raw/articles/黄小木/用飞书多维表格打造你的数字分身.md)
+- [看了内部某团队的 Skills 实战分享，两篇加起来一万多字，最大的收获不是怎么写 Skill，而是怎么「不写」。](../../../raw/articles/陈成/看了内部某团队的 Skills 实战分享，两篇加起来一万多字，最大的收获不是怎么写 Skill，而是怎么「不写」。.md)
+- [谷歌推出实验性AI浏览器Disco，浏览器大战再升级！](../../../raw/articles/傅盛/谷歌推出实验性AI浏览器Disco，浏览器大战再升级！.md)
+- [Everyone's banging on about loops](../../../raw/articles/Matt Pocock/Everyone's banging on about loops.md)
+- [终端里下一个工具：Yoinks。](../../../raw/articles/mousepotato/终端里下一个工具：Yoinks。.md)
+- [周末看了个 OpenAI 论坛的内部分享，叫 Vibe Engineering。](../../../raw/articles/池建强/周末看了个 OpenAI 论坛的内部分享，叫 Vibe Engineering。.md)
+- [I tested every Grok Bot template that exists. 28 of them saved me $15k－year](../../../raw/articles/unicode/I tested every Grok Bot template that exists. 28 of them saved me $15k－year.md)
+- [向量数据库脑电图来啦!](../../../raw/articles/karminski-牙医/向量数据库脑电图来啦!.md)
+- [每年 3 毛钱，白嫖一个德国手机号 沃达丰免费 eSIM 保姆级教程](../../../raw/articles/算岛/每年 3 毛钱，白嫖一个德国手机号 沃达丰免费 eSIM 保姆级教程.md)
+- [假如你想把一个命令脚本变成一个原生的 Mac 应用，可以试试 Platypus](../../../raw/articles/Tw93/假如你想把一个命令脚本变成一个原生的 Mac 应用，可以试试 Platypus.md)
+- [兄弟们，Giffgaff重新上架了，有需求的可以去购买。](../../../raw/articles/鱼总聊AI/兄弟们，Giffgaff重新上架了，有需求的可以去购买。.md)
+- [我是第一个做推特会员自助开通网站的](../../../raw/articles/记得爱强/我是第一个做推特会员自助开通网站的.md)
+- [你选择什么样的基础架构，最终就会成长为什么样的公司](../../../raw/articles/siddontang/你选择什么样的基础架构，最终就会成长为什么样的公司.md)
+- [Don't talk to me, talk to my agents](../../../raw/articles/Raft/Don't talk to me, talk to my agents.md)
+- [支付宝跟微信的支付通道已经添加了哈](../../../raw/articles/车九 （低价蓝V代开）/支付宝跟微信的支付通道已经添加了哈.md)
