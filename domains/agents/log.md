@@ -39,3 +39,4 @@
 * **Bookmark**: [GitMCP](./entities/gitmcp.md) + [站点 Ref](./references/gitmcp-site.md) ← `raw/bookmarks/sites.md`（挂 MCP；未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [FastMCP](./entities/fastmcp.md) + [站点 Ref](./references/fastmcp-site.md) ← `raw/bookmarks/sites.md`（挂 MCP；未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [LangChain](./entities/langchain.md) + [站点 Ref](./references/langchain-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
+* **Bookmark**: [Trendshift](./entities/trendshift.md) + [站点 Ref](./references/trendshift-site.md) ← `raw/bookmarks/sites.md`（未灌站；可作外探源）(2026-09-07). 结构体检：无新 Domain/约定改动。

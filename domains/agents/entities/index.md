@@ -10,3 +10,4 @@
 * [GitMCP](./gitmcp.md)
 * [FastMCP](./fastmcp.md)
 * [LangChain](./langchain.md)
+* [Trendshift](./trendshift.md)
