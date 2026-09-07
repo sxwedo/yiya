@@ -7,6 +7,7 @@ domain: shared
 generated: { by: agent:yiya-librarian, at: 2026-09-07T12:00:00Z }
 related:
   - deepmind-site
+  - discovery-loop
 sources:
   - ../references/deepmind-site.md
 ---
@@ -18,3 +19,4 @@ sources:
 ## Related
 
 - [Google DeepMind（站点书签）](../references/deepmind-site.md)
+- [Discovery Loop](./discovery-loop.md)

@@ -7,6 +7,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T09:58:00Z }
 related:
   - claude
+  - xiaoshan-xuetang
   - coding-agent-workflow
 sources:
   - ../references/claude-academy-site.md
@@ -22,4 +23,5 @@ sources:
 
 - [Claude Academy（站点书签）](../references/claude-academy-site.md)
 - [Claude](./claude.md)
+- [小山学堂](./xiaoshan-xuetang.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

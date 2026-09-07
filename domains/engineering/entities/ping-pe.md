@@ -7,6 +7,7 @@ domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-07T23:58:00Z }
 related:
   - ping-pe-tool
+  - tailscale
 sources:
   - ../references/ping-pe-tool.md
 ---
@@ -18,3 +19,4 @@ sources:
 ## Related
 
 - [ping.pe（工具）](../references/ping-pe-tool.md)
+- [Tailscale](./tailscale.md)

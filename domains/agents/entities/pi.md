@@ -16,11 +16,13 @@ related:
   - skills-sh
   - herdr
   - grok-build
+  - pi-agent-book
   - minimal-agent-harness
 sources:
   - ../references/pi-dev-site.md
   - ../references/earendil-pi-github.md
   - ../references/pi-vs-oh-my-pi.md
+  - ../references/pi-agent-book.md
 ---
 
 # Summary
@@ -42,4 +44,5 @@ sources:
 - [skills.sh](./skills-sh.md)
 - [Herdr](./herdr.md)
 - [Grok Build](./grok-build.md)
+- [π-agent book](../references/pi-agent-book.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)

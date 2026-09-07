@@ -10,7 +10,7 @@ sources: []
 
 # Scope
 
-**收**：业务 Ontology / 语义层与 Text2SQL、Embedding/排序评测、不可靠组件上的可靠系统、PM/组织效率与去瓶颈升档；工程运行时与仓库卫生参考（容器平台、官方 ignore 模板、终端模拟器、跨 shell 提示符、多地网络诊断等）。
+**收**：业务 Ontology / 语义层与 Text2SQL、Embedding/排序评测、不可靠组件上的可靠系统、PM/组织效率与去瓶颈升档；工程运行时与仓库卫生参考（容器平台、官方 ignore 模板、终端模拟器、跨 shell 提示符、多地网络诊断、零配置 mesh VPN 等）。
 
 **不收**：Agent 运行时 / harness / 编码代理产品（见 `agents`）；跨域权威实体升格后放 `shared/entities`。
 
@@ -23,6 +23,7 @@ sources: []
 | [github/gitignore](./entities/gitignore.md) | GitHub 官方 .gitignore 模板集（语言/框架/OS） |
 | [ping.pe](./entities/ping-pe.md) | 多地 Ping / MTR / 端口 / BGP 诊断 |
 | [Starship](./entities/starship.md) | 跨 shell 极简提示符（Rust） |
+| [Tailscale](./entities/tailscale.md) | WireGuard mesh VPN：设备直连加密、NAT 穿透、ACL |
 | [x-algorithm](./entities/x-algorithm.md) | xAI 开源 X 推荐栈：多动作预测 + 排序过滤 |
 
 ## 怎么逛

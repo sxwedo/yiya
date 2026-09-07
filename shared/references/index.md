@@ -1,6 +1,7 @@
 # references
 
 * [Google DeepMind（站点）](./deepmind-site.md) — deepmind.google 书签：Google DeepMind 实验室与模型/研究总入口。
+* [Discovery Loop（站点）](./discovery-loop-site.md) — discoveryloop.com 书签：自动化科学发现实验室入口。
 * [Grokipedia（站点）](./grokipedia-site.md) — grokipedia.com：xAI 公开 AI 百科入口，对照个人 LLM Wiki。
 * [Hacker News（站点）](./hacker-news-site.md) — news.ycombinator.com 书签：HN 首页入口。
 * [LLM Wiki](./karpathy-llm-wiki.md) — Karpathy：用 LLM 增量维护个人 wiki 的纲领——raw 不可改、wiki 由 LLM 写、schema 管约定；ingest/query/lint。

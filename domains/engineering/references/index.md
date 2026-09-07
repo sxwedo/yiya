@@ -12,4 +12,5 @@
 * [吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals](./ng-evals-watershed.md) — 解读 Andrew Ng：构建 AI 应用六项子技能中，评测驱动开发是区分出色构建者的最重要特质。
 * [AI写SQL总在胡编？因为你的数仓没有语义层](./semantic-layer-chatbi.md) — 听挽风讲大数据：ChatBI 幻觉根因是口径不在语料；语义层把指标/维度工程化，走 Text2Semantic2SQL。
 * [Starship（站点）](./starship-site.md) — starship.rs 书签：跨 shell 提示符官方站，安装与配置入口。
+* [Tailscale（站点）](./tailscale-site.md) — tailscale.com 书签：WireGuard mesh VPN 产品入口。
 * [xai-org/x-algorithm（GitHub）](./x-algorithm-github.md) — x-algorithm 官方仓库书签：X 推荐算法开源生产栈入口。

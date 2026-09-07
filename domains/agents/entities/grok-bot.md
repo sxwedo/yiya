@@ -9,13 +9,16 @@ related:
   - role-first-agent
   - grok-build
   - raft
+  - puffo
   - mena
   - engineering-bot
   - playbook-feedback-loop
   - delivery-harness
+  - usegrokbot-site
 sources:
   - ../references/jinchenma-grok-bot-guide.md
   - ../references/javaguide-grok-bot-engineering.md
+  - ../references/usegrokbot-site.md
 ---
 
 # Summary
@@ -24,7 +27,7 @@ sources:
 
 验收强调可复查证据（截图须体现需求变化、测试命令与 Diff）；共享看板接续任务；运营/元 Bot 复盘失误后写入 Playbook，供其他 Bot 加载（见 [Playbook 反馈闭环](../concepts/playbook-feedback-loop.md)）。
 
-对照本域 [Delivery Harness](../concepts/delivery-harness.md)：同属「仓外控制面」，Grok Bot 更强调角色分层与任务接续，Harness 更强调合同/边界/证据门禁/修复写回。
+对照本域 [Delivery Harness](../concepts/delivery-harness.md)：同属「仓外控制面」，Grok Bot 更强调角色分层与任务接续，Harness 更强调合同/边界/证据门禁/修复写回。社区怎么用见 [UseGrokBot](../references/usegrokbot-site.md)（筛选公开帖与用例，不是产品本体）。
 
 ## Related
 
@@ -32,8 +35,10 @@ sources:
 - [Role-first Agent](../concepts/role-first-agent.md)
 - [Grok Build](./grok-build.md)
 - [Raft](./raft.md)
+- [Puffo](./puffo.md)
 - [mena](./mena.md)
 - [Engineering Bot](../concepts/engineering-bot.md)
 - [Playbook 反馈闭环](../concepts/playbook-feedback-loop.md)
 - [Delivery Harness](../concepts/delivery-harness.md)
 - [一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了](../references/javaguide-grok-bot-engineering.md)
+- [UseGrokBot（站点）](../references/usegrokbot-site.md)

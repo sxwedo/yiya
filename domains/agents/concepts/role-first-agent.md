@@ -9,6 +9,7 @@ related:
   - grok-bot
   - engineering-bot
   - playbook-feedback-loop
+  - usegrokbot-site
 sources:
   - ../references/jinchenma-grok-bot-guide.md
 ---
@@ -27,3 +28,4 @@ sources:
 - [Engineering Bot](./engineering-bot.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [万字长文｜Grok Bot 从入门到精通](../references/jinchenma-grok-bot-guide.md)
+- [UseGrokBot（站点）](../references/usegrokbot-site.md)

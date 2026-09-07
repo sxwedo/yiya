@@ -12,6 +12,7 @@ related:
   - mena
   - pi
   - skills-sh
+  - xiaoshan-xuetang
   - minimal-agent-harness
   - delivery-harness
 sources:
@@ -38,6 +39,7 @@ sources:
 - [mena](../entities/mena.md)
 - [Pi](../entities/pi.md)
 - [skills.sh](../entities/skills-sh.md)
+- [小山学堂](../entities/xiaoshan-xuetang.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [Delivery Harness](./delivery-harness.md)
 - [AI Engineering Skills Map: Using coding agents](../references/ng-coding-agents-skills.md)

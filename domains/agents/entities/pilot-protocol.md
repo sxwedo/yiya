@@ -10,6 +10,7 @@ related:
   - mcp
   - skills-sh
   - raft
+  - tailscale
 sources:
   - ../references/pilot-protocol-site.md
 ---
@@ -26,3 +27,4 @@ sources:
 - [Model Context Protocol (MCP)](./mcp.md)
 - [skills.sh](./skills-sh.md)
 - [Raft](./raft.md)
+- [Tailscale](../../engineering/entities/tailscale.md)

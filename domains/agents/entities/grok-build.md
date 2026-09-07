@@ -11,6 +11,7 @@ related:
   - pi
   - oh-my-pi
   - mena
+  - xiaoshan-xuetang
 sources:
   - ../references/grok-build-site.md
 ---
@@ -28,3 +29,4 @@ sources:
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [mena](./mena.md)
+- [小山学堂](./xiaoshan-xuetang.md)

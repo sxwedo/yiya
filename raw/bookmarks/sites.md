@@ -27,3 +27,8 @@
 | Grok Build | https://x.ai/open-source | xAI | 开源终端编码代理：harness + TUI（xai-org/grok-build）；模型仍走 API |
 | Raft | https://raft.build/zh-cn/ | Raft | 人与 Agent 共用频道工作空间：长期身份/记忆，本机 daemon 跑各家运行时 |
 | Pilot Protocol | https://pilotprotocol.network/ | Pilot Protocol | Agent 组网 overlay：加密 P2P、应用商店、MCP；默认可信才互通 |
+| Discovery Loop | https://www.discoveryloop.com/ | Discovery Loop | 自动化实验闭环以加速科学与工程；先从机器学习研究做起 |
+| 小山学堂 | https://xueai.miyang.cn/ | 米羊科技 / 洛小山 | 免费 AI 产品课：Harness、Agent、MCP；含解剖 Grok Build |
+| Puffo | https://beta.puffo.ai/ | Puffo | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
+| Tailscale | https://tailscale.com/ | Tailscale | WireGuard mesh VPN：设备直连加密、NAT 穿透、身份与 ACL |
+| UseGrokBot | https://usegrokbot.com/zh-cn | UseGrokBot | Grok Bot 发现中心：筛选公开帖与用例，不是产品本体 |

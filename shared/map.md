@@ -23,6 +23,7 @@ sources: []
 
 - [Andrej Karpathy](./entities/karpathy.md)
 - [Google DeepMind](./entities/deepmind.md)
+- [Discovery Loop](./entities/discovery-loop.md)
 - [Grokipedia](./entities/grokipedia.md)
 - [Hacker News](./entities/hacker-news.md)
 - [Obsidian](./entities/obsidian.md)

@@ -10,7 +10,7 @@ sources: []
 
 # Scope
 
-**收**：Agent 运行时与 harness、记忆/评测/检索模式、面向 Agent/RAG 的文档解析、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot、Grok Build）、MCP 协议及其上的 server/框架、仓内常驻约定（AGENTS.md）、Agent Skills 目录与安装 CLI（skills.sh）、GitHub 仓的可读化（MCP server、生成项目 Wiki）、agent 运行面（桌面/本机壳、终端会话运行时）、人与 Agent 共写文档编辑器、人机频道工作空间、Agent 组网 overlay、官方学院、多智能体协作与治理。
+**收**：Agent 运行时与 harness、记忆/评测/检索模式、面向 Agent/RAG 的文档解析、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot、Grok Build）、MCP 协议及其上的 server/框架、仓内常驻约定（AGENTS.md）、Agent Skills 目录与安装 CLI（skills.sh）、GitHub 仓的可读化（MCP server、生成项目 Wiki）、agent 运行面（桌面/本机壳、终端会话运行时）、人与 Agent 共写文档编辑器、人机频道工作空间、Agent 组网 overlay、学院与培训课程、多智能体协作与治理。
 
 **不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；跨域权威实体升格后放 `shared/entities`。外探源（如 Trendshift）可建 Entity，不当作成品 harness。
 
@@ -21,6 +21,7 @@ sources: []
 | [AGENTS.md](./entities/agents-md.md) | 仓内给 Agent 读的约定文件（规范：agents.md） |
 | [Claude](./entities/claude.md) | Anthropic 助手与编码产品线；博客 claude.com/blog |
 | [Claude Academy](./entities/claude-academy.md) | Anthropic 官方学院：学用 Claude 与 AI Fluency |
+| [小山学堂](./entities/xiaoshan-xuetang.md) | 免费 AI 产品课：Harness / Agent / MCP；含解剖 Grok Build |
 | [Code Wiki](./entities/code-wiki.md) | Google：Gemini 为 GitHub 仓生成并随提交更新的 Wiki |
 | [FastMCP](./entities/fastmcp.md) | Prefect 的 MCP 应用框架：Python server/client/Apps |
 | [GitMCP](./entities/gitmcp.md) | 公开 GitHub 仓 → Remote MCP（gitmcp.io） |
@@ -36,6 +37,7 @@ sources: []
 | [Pi](./entities/pi.md) | earendil-works 极简终端编码代理框架（pi.dev） |
 | [Pilot Protocol](./entities/pilot-protocol.md) | Agent 组网 overlay：加密 P2P、应用商店、MCP |
 | [Proof](./entities/proof.md) | 人与 Agent 共写文档：在场、评论、建议、出处轨 |
+| [Puffo](./entities/puffo.md) | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
 | [Raft](./entities/raft.md) | 人与 Agent 共用频道工作空间；本机 daemon 跑各家运行时 |
 | [skills.sh](./entities/skills-sh.md) | Agent Skills 开放目录与 `npx skills` 安装 CLI |
 | [Zread](./entities/zread.md) | GitHub 仓 → 结构化项目 Wiki（github.com → zread.ai） |

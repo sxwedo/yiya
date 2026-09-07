@@ -10,6 +10,7 @@ tags: [bookmark]
 sources: []
 related:
   - pi
+  - pi-agent-book
 ---
 
 # Notes
@@ -24,3 +25,4 @@ related:
 
 - [Pi](../entities/pi.md)
 - [earendil-works/pi（GitHub）](./earendil-pi-github.md)
+- [π-agent book](./pi-agent-book.md)

@@ -1,6 +1,11 @@
 # Agent 与 harness — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | [UseGrokBot](https://usegrokbot.com/zh-cn) → 已有 Entity [Grok Bot](./entities/grok-bot.md) + Reference [站点](./references/usegrokbot-site.md)；链 [Role-first Agent](./concepts/role-first-agent.md)。不开第二张产品卡。
+* **2026-09-07 ingest** | 链 [Pilot Protocol](./entities/pilot-protocol.md) 到 [Tailscale](../engineering/entities/tailscale.md)（Agent overlay vs 设备 mesh VPN）。
+* **2026-09-07 ingest** | [Puffo](https://beta.puffo.ai/) → Entity [Puffo](./entities/puffo.md) + Reference [站点](./references/puffo-site.md)；链 [Raft](./entities/raft.md)、[Grok Bot](./entities/grok-bot.md)、[Herdr](./entities/herdr.md)。
+* **2026-09-07 ingest** | [π-agent book](https://books.antinomie.org/pi/) → 已有 Entity [Pi](./entities/pi.md) + Reference [π-agent book](./references/pi-agent-book.md)（`docs.md`）；链 [Minimal Agent Harness](./concepts/minimal-agent-harness.md)。不开第二张产品卡。
+* **2026-09-07 ingest** | [小山学堂](https://xueai.miyang.cn/) → Entity [小山学堂](./entities/xiaoshan-xuetang.md) + Reference [站点](./references/xiaoshan-xuetang-site.md)；链 [Claude Academy](./entities/claude-academy.md)、[Grok Build](./entities/grok-build.md)、[Coding Agent Workflow](./concepts/coding-agent-workflow.md)。overview 收补学院与培训课程。
 * **2026-09-07 ingest** | [Pilot Protocol](https://pilotprotocol.network/) → Entity [Pilot Protocol](./entities/pilot-protocol.md) + Reference [站点](./references/pilot-protocol-site.md)；链 [MCP](./entities/mcp.md)、[skills.sh](./entities/skills-sh.md)、[Raft](./entities/raft.md)。overview 收补 Agent 组网 overlay。
 * **2026-09-07 ingest** | [Raft](https://raft.build/zh-cn/) → Entity [Raft](./entities/raft.md) + Reference [站点](./references/raft-site.md)；链 [Grok Bot](./entities/grok-bot.md)、[Proof](./entities/proof.md)、[Herdr](./entities/herdr.md)、[多智能体治理](./concepts/multi-agent-governance.md)。overview 收补人机频道工作空间。
 * **2026-09-07 ingest** | [Grok Build](https://x.ai/open-source) → Entity [Grok Build](./entities/grok-build.md) + Reference [站点](./references/grok-build-site.md)；链 [Grok Bot](./entities/grok-bot.md)、[Pi](./entities/pi.md)、[oh-my-pi](./entities/oh-my-pi.md)、[mena](./entities/mena.md)。不开第二张 xAI 机构卡。

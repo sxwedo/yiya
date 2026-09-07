@@ -1,6 +1,7 @@
 # shared — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | [Discovery Loop](https://www.discoveryloop.com/) → Entity [Discovery Loop](./entities/discovery-loop.md) + Reference [站点](./references/discovery-loop-site.md)；链 [Google DeepMind](./entities/deepmind.md)、[评测驱动开发](../domains/engineering/concepts/eval-driven-development.md)。实验室放 shared，不是新域。
 * **2026-09-07 ingest** | [Hacker News](https://news.ycombinator.com/) → Entity [Hacker News](./entities/hacker-news.md) + Reference [站点](./references/hacker-news-site.md)；链 [Trendshift](../domains/agents/entities/trendshift.md)。跨域外探源放 shared，不开新闻域。
 * **2026-09-07 ingest** | 链 [Obsidian](./entities/obsidian.md) 到 [Proof](../domains/agents/entities/proof.md)（本地 vault vs 人机共写文档面）。
 * **2026-09-07 schema** | 书签加 `tools.md`：打开即用的检测/查询。产品站仍 `sites.md`。

@@ -5,6 +5,7 @@
 * [Anthropic最新多智能体研究来了！](./anthropic-multiagent-failures.md) — Datawhale 解读 Anthropic 多智能体研究：协作成本、低方差从众、信息淹没与冲突升级；多 Agent 是治理问题。
 * [AGENTS.md（站点）](./agents-md-site.md) — agents.md 书签：仓内 Agent 约定文件的规范入口。
 * [Claude Academy（站点）](./claude-academy-site.md) — Anthropic Claude Academy 书签：官方学院首页，学用 Claude 与 AI Fluency。
+* [小山学堂（站点）](./xiaoshan-xuetang-site.md) — xueai.miyang.cn 书签：小山学堂免费 AI 产品课入口。
 * [Claude Blog](./claude-blog.md) — claude.com/blog：Anthropic 官方博客，Claude 产品与研究文章目录。
 * [Claude Code Docs](./claude-code-docs.md) — code.claude.com/docs：Claude Code 官方文档门户。
 * [Code Wiki（站点）](./code-wiki-site.md) — codewiki.google 书签：Google Gemini 为公开 GitHub 仓生成并维护的代码 Wiki。
@@ -15,6 +16,7 @@
 * [FastMCP（站点）](./fastmcp-site.md) — gofastmcp.com 书签：FastMCP 框架文档与入门入口。
 * [GitMCP（站点）](./gitmcp-site.md) — gitmcp.io 书签：公开 GitHub 仓一键 Remote MCP 入口。
 * [Grok Build（站点）](./grok-build-site.md) — x.ai/open-source 书签：Grok Build 开源终端编码代理入口。
+* [UseGrokBot（站点）](./usegrokbot-site.md) — usegrokbot.com 书签：Grok Bot 社区发现中心，筛选公开帖与用例。
 * [Herdr（站点）](./herdr-site.md) — herdr.dev 书签：编码代理终端运行时入口。
 * [货拉拉大模型记忆系统（一）：从提取到召回的工程实践](./huolala-llm-memory-online.md) — 货拉拉技术：跨会话记忆在线侧——任务调度、事实提取、记忆管理、混合检索；历史≠记忆，离线睡眠篇另述。
 * [一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了](./javaguide-grok-bot-engineering.md) — JavaGuide 转述 Lingxi Li《Grok Bot for Engineering》：工程 Bot 带队、Cloud Agent 执行，用证据与看板放大并行。
@@ -27,8 +29,10 @@
 * [oh-my-pi 装完就不管了？这几步配完才真叫好用](./oh-my-pi-setup.md) — AI智闻说：把 oh-my-pi 从默认能用调到好用——Advisor、扩展、沙箱、Hashline、TTSR、/review。
 * [Omarchy（站点）](./omarchy-site.md) — omarchy.org 书签：DHH Agentic Linux 官网与手册入口。
 * [Pi（官网）](./pi-dev-site.md) — pi.dev 书签：文档、扩展、Packages 与 Skills 入口。
+* [π-agent book](./pi-agent-book.md) — books.antinomie.org/pi：从代码解读 pi-agent-core，把 agent 循环做成库。
 * [Pilot Protocol（站点）](./pilot-protocol-site.md) — pilotprotocol.network 书签：Agent 组网 overlay 入口。
 * [Proof（站点）](./proof-site.md) — proofeditor.ai 书签：人与 Agent 共写文档编辑器入口。
+* [Puffo（站点）](./puffo-site.md) — beta.puffo.ai 书签：Puffo 人机加密群聊入口。
 * [Raft（站点）](./raft-site.md) — raft.build 书签：人与 Agent 共用频道工作空间入口。
 * [skills.sh（站点）](./skills-sh-site.md) — skills.sh 书签：Agent Skills 开放目录与排行榜入口。
 * [主流 Agent 之「Pi」与「oh-my-pi」介绍](./pi-vs-oh-my-pi.md) — 猿小猴子：Pi（极简 harness）与 oh-my-pi（batteries included）对照——哲学、能力、选型场景。

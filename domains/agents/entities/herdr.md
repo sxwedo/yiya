@@ -11,6 +11,7 @@ related:
   - omarchy
   - pi
   - raft
+  - puffo
   - multi-harness-control-plane
 sources:
   - ../references/herdr-site.md
@@ -29,4 +30,5 @@ sources:
 - [Omarchy](./omarchy.md)
 - [Pi](./pi.md)
 - [Raft](./raft.md)
+- [Puffo](./puffo.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)

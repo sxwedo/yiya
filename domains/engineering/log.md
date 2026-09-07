@@ -1,6 +1,8 @@
 # 工程与可维护性 — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | [Tailscale](https://tailscale.com/) → Entity [Tailscale](./entities/tailscale.md) + Reference [站点](./references/tailscale-site.md)；链 [ping.pe](./entities/ping-pe.md)、[Pilot Protocol](../agents/entities/pilot-protocol.md)。overview 收补零配置 mesh VPN。
+* **2026-09-07 ingest** | 链 [评测驱动开发](./concepts/eval-driven-development.md) 到 [Discovery Loop](../../shared/entities/discovery-loop.md)（人工评测纪律 vs 把实验闭环自动化）。
 * **2026-09-07 schema** | [ping.pe](./references/ping-pe-tool.md) 迁 `raw/bookmarks/tools.md`（打开即用的在线工具不再进 sites.md）。
 * **2026-09-07 ingest** | [ping.pe](https://ping.pe/) → Entity [ping.pe](./entities/ping-pe.md) + Reference [工具](./references/ping-pe-tool.md)。overview 收补多地网络诊断。
 * **2026-09-07 schema** | [Docker Docs](./references/docker-docs.md) 的 `resource` 改指向 `raw/bookmarks/docs.md`（文档门户不再进 sites.md）。

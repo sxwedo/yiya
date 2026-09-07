@@ -13,6 +13,7 @@ related:
   - evidence-gate
   - harness-self-improvement
   - ttsr
+  - pi-agent-book
 sources:
   - ../references/pi-vs-oh-my-pi.md
 ---
@@ -30,7 +31,7 @@ sources:
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Pi](../entities/pi.md)
-
+- [π-agent book](../references/pi-agent-book.md)
 - [oh-my-pi](../entities/oh-my-pi.md)
 
 - [Advisor](./advisor.md)

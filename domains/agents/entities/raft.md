@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-07T18:40:00Z }
 related:
   - raft-site
   - grok-bot
+  - puffo
   - proof
   - herdr
   - pilot-protocol
@@ -26,6 +27,7 @@ sources:
 
 - [Raft（站点）](../references/raft-site.md)
 - [Grok Bot](./grok-bot.md)
+- [Puffo](./puffo.md)
 - [Proof](./proof.md)
 - [Herdr](./herdr.md)
 - [Pilot Protocol](./pilot-protocol.md)
