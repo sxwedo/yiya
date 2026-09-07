@@ -33,6 +33,7 @@ sources:
   - ../../../raw/articles/Pi/Our sessions have been messaging each other for months btw ;).md
   - ../../../raw/articles/yibie/推荐这期 Pi 插件合集。Pi 作为最小 agent harness，真正的扩展能力来自社区插件——从一键装 17 个扩展的 pi-agent-extensions 到让你在.md
   - ../../../raw/articles/小墨同学/万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务.md
+  - ../../../raw/articles/Yuu💖/pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－).md
 ---
 
 # Summary
@@ -63,3 +64,4 @@ sources:
 - [Our sessions have been messaging each other for months btw ;)](../../../raw/articles/Pi/Our sessions have been messaging each other for months btw ;).md)
 - [推荐这期 Pi 插件合集。Pi 作为最小 agent harness，真正的扩展能力来自社区插件——从一键装 17 个扩展的 pi-agent-extensions 到让你在](../../../raw/articles/yibie/推荐这期 Pi 插件合集。Pi 作为最小 agent harness，真正的扩展能力来自社区插件——从一键装 17 个扩展的 pi-agent-extensions 到让你在.md)
 - [万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务](../../../raw/articles/小墨同学/万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务.md)
+- [pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－)](../../../raw/articles/Yuu💖/pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－).md)

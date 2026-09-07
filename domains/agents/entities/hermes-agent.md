@@ -19,6 +19,7 @@ sources:
   - ../../../raw/articles/Zaid/The problem with AI agents right now.md
   - ../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md
   - ../../../raw/articles/Will Yang/今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。.md
+  - ../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md
 ---
 
 # Summary
@@ -37,3 +38,4 @@ sources:
 - [The problem with AI agents right now](../../../raw/articles/Zaid/The problem with AI agents right now.md)
 - [A Taxonomy of Self-evolving Agents](../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md)
 - [今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。](../../../raw/articles/Will Yang/今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。.md)
+- [十分钟带你玩转Hermes赫妹Agent](../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md)

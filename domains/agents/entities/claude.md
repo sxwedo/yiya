@@ -93,6 +93,28 @@ sources:
   - ../../../raw/articles/Yuker/Claude 4.6 最新功能：必须要懂的 Agent Team 小白入门指南（内含完整步骤）.md
   - ../../../raw/articles/M./白嫖Google的GCP VPS，.md
   - ../../../raw/articles/Zion（全球交友版）/搞定土耳其区Apple ID和ChatGPT 订阅了，花了76人民币开通一个月的Plus。.md
+  - ../../../raw/articles/Mr Panda/通过分析 Claude Code 和 OpenClaw Harness工程方法的实践.md
+  - ../../../raw/articles/宝玉/经过试用，Claude Design 将会是跟 Claude Code 一样重要的产品，千万别低估它的潜力。.md
+  - ../../../raw/articles/Leo｜LeoLabs.me/一张 U 卡搞定所有 AI 订阅：不封号，首月返现 50%，Max 一年省 $600.md
+  - ../../../raw/articles/宝玉/Lex Fridman 播客深度解读 AI 现状：中美竞争、模型对比、规模定律、AGI 时间线.md
+  - ../../../raw/articles/海洋馆馆长/公司的 SQL 仔和数据分析师要被这个开源神器干失业了！老板直接用自然语言提问，AI 就能自动打通底层数据库生成数据报表，关键是还不会胡乱捏造指标。.md
+  - ../../../raw/articles/花叔/Claude Code之父 @bcherny 亲自分享他怎么用cc，这很难得。.md
+  - ../../../raw/articles/噪点noisepoint/一文教你0基础玩转Claude Code，小白也能看懂的框架指南.md
+  - ../../../raw/articles/Ryo/面试官：最近有什么claude code 技巧分享吗？.md
+  - ../../../raw/articles/关木/既然 codex 都支持 skills 了，那就收集一下 skills 导航站。.md
+  - ../../../raw/articles/Towards AI/what the hell is graph engineering really.md
+  - ../../../raw/articles/huangserva/用过的应该都知道.md
+  - ../../../raw/articles/极客杰尼/整理的太好了，plan mode 真好用，推荐看！.md
+  - ../../../raw/articles/Berryxia.AI/按头学习－ 让 AI 真正做好复杂任务，需要一套什么样的系统？（Anthropic官工程师实践指南）.md
+  - ../../../raw/articles/向阳乔木/感觉苹果礼品卡才是硬通货！订阅Claude Code方便。.md
+  - ../../../raw/articles/0x小师妹/3 个白嫖 GPT-5.5 － Claude 4.7 模型的渠道+ 避坑指南.md
+  - ../../../raw/articles/海拉鲁编程客/昨天 claude 的可视化图表看起来非常牛逼.md
+  - ../../../raw/articles/huangserva/肝了几天,来回打磨了快 30 遍,.md
+  - ../../../raw/articles/向阳乔木/Obsidian CEO写的Skill，基于X用户调研。.md
+  - ../../../raw/articles/Rohit/Loops explained－ Claude, GPT, Mira, and what actually works.md
+  - ../../../raw/articles/YAHA學堂/今天才发现 #claude 提供了官方的生成提示词的工具，非常好用。.md
+  - ../../../raw/articles/宝玉/“Skill 不就是长一点的提示词吗？”.md
+  - ../../../raw/articles/Nico Lopez/un resumen que esta bueno saber－.md
 ---
 
 # Summary
@@ -187,3 +209,25 @@ sources:
 - [Claude 4.6 最新功能：必须要懂的 Agent Team 小白入门指南（内含完整步骤）](../../../raw/articles/Yuker/Claude 4.6 最新功能：必须要懂的 Agent Team 小白入门指南（内含完整步骤）.md)
 - [白嫖Google的GCP VPS，](../../../raw/articles/M./白嫖Google的GCP VPS，.md)
 - [搞定土耳其区Apple ID和ChatGPT 订阅了，花了76人民币开通一个月的Plus。](../../../raw/articles/Zion（全球交友版）/搞定土耳其区Apple ID和ChatGPT 订阅了，花了76人民币开通一个月的Plus。.md)
+- [通过分析 Claude Code 和 OpenClaw Harness工程方法的实践](../../../raw/articles/Mr Panda/通过分析 Claude Code 和 OpenClaw Harness工程方法的实践.md)
+- [经过试用，Claude Design 将会是跟 Claude Code 一样重要的产品，千万别低估它的潜力。](../../../raw/articles/宝玉/经过试用，Claude Design 将会是跟 Claude Code 一样重要的产品，千万别低估它的潜力。.md)
+- [一张 U 卡搞定所有 AI 订阅：不封号，首月返现 50%，Max 一年省 $600](../../../raw/articles/Leo｜LeoLabs.me/一张 U 卡搞定所有 AI 订阅：不封号，首月返现 50%，Max 一年省 $600.md)
+- [Lex Fridman 播客深度解读 AI 现状：中美竞争、模型对比、规模定律、AGI 时间线](../../../raw/articles/宝玉/Lex Fridman 播客深度解读 AI 现状：中美竞争、模型对比、规模定律、AGI 时间线.md)
+- [公司的 SQL 仔和数据分析师要被这个开源神器干失业了！老板直接用自然语言提问，AI 就能自动打通底层数据库生成数据报表，关键是还不会胡乱捏造指标。](../../../raw/articles/海洋馆馆长/公司的 SQL 仔和数据分析师要被这个开源神器干失业了！老板直接用自然语言提问，AI 就能自动打通底层数据库生成数据报表，关键是还不会胡乱捏造指标。.md)
+- [Claude Code之父 @bcherny 亲自分享他怎么用cc，这很难得。](../../../raw/articles/花叔/Claude Code之父 @bcherny 亲自分享他怎么用cc，这很难得。.md)
+- [一文教你0基础玩转Claude Code，小白也能看懂的框架指南](../../../raw/articles/噪点noisepoint/一文教你0基础玩转Claude Code，小白也能看懂的框架指南.md)
+- [面试官：最近有什么claude code 技巧分享吗？](../../../raw/articles/Ryo/面试官：最近有什么claude code 技巧分享吗？.md)
+- [既然 codex 都支持 skills 了，那就收集一下 skills 导航站。](../../../raw/articles/关木/既然 codex 都支持 skills 了，那就收集一下 skills 导航站。.md)
+- [what the hell is graph engineering really](../../../raw/articles/Towards AI/what the hell is graph engineering really.md)
+- [用过的应该都知道](../../../raw/articles/huangserva/用过的应该都知道.md)
+- [整理的太好了，plan mode 真好用，推荐看！](../../../raw/articles/极客杰尼/整理的太好了，plan mode 真好用，推荐看！.md)
+- [按头学习－ 让 AI 真正做好复杂任务，需要一套什么样的系统？（Anthropic官工程师实践指南）](../../../raw/articles/Berryxia.AI/按头学习－ 让 AI 真正做好复杂任务，需要一套什么样的系统？（Anthropic官工程师实践指南）.md)
+- [感觉苹果礼品卡才是硬通货！订阅Claude Code方便。](../../../raw/articles/向阳乔木/感觉苹果礼品卡才是硬通货！订阅Claude Code方便。.md)
+- [3 个白嫖 GPT-5.5 － Claude 4.7 模型的渠道+ 避坑指南](../../../raw/articles/0x小师妹/3 个白嫖 GPT-5.5 － Claude 4.7 模型的渠道+ 避坑指南.md)
+- [昨天 claude 的可视化图表看起来非常牛逼](../../../raw/articles/海拉鲁编程客/昨天 claude 的可视化图表看起来非常牛逼.md)
+- [肝了几天,来回打磨了快 30 遍,](../../../raw/articles/huangserva/肝了几天,来回打磨了快 30 遍,.md)
+- [Obsidian CEO写的Skill，基于X用户调研。](../../../raw/articles/向阳乔木/Obsidian CEO写的Skill，基于X用户调研。.md)
+- [Loops explained－ Claude, GPT, Mira, and what actually works](../../../raw/articles/Rohit/Loops explained－ Claude, GPT, Mira, and what actually works.md)
+- [今天才发现 #claude 提供了官方的生成提示词的工具，非常好用。](../../../raw/articles/YAHA學堂/今天才发现 #claude 提供了官方的生成提示词的工具，非常好用。.md)
+- [“Skill 不就是长一点的提示词吗？”](../../../raw/articles/宝玉/“Skill 不就是长一点的提示词吗？”.md)
+- [un resumen que esta bueno saber－](../../../raw/articles/Nico Lopez/un resumen que esta bueno saber－.md)

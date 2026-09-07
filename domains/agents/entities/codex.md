@@ -24,6 +24,9 @@ sources:
   - ../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md
   - ../../../raw/articles/AIGCLINK/阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活.md
   - ../../../raw/articles/Vela/新的一年，戒掉信息囤积症，用 Warp + Codex 把积灰的 X 书签快速变成自己的 AI 记忆库。.md
+  - ../../../raw/articles/雪踏乌云/Codex X Chrome插件配置使用保姆级教程.md
+  - ../../../raw/articles/向阳乔木/OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工.md
+  - ../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md
 ---
 
 # Summary
@@ -46,3 +49,6 @@ sources:
 - [获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。](../../../raw/articles/投机实验室/获得1.9亿次观看的深度好文：如何用一天时间重启你的人生。.md)
 - [阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活](../../../raw/articles/AIGCLINK/阿里最新开源了一个实时语音Harness：Qwen-Audio-Agent，让你的Agent能像打电话一样对话，你边说边想，它边听边干活.md)
 - [新的一年，戒掉信息囤积症，用 Warp + Codex 把积灰的 X 书签快速变成自己的 AI 记忆库。](../../../raw/articles/Vela/新的一年，戒掉信息囤积症，用 Warp + Codex 把积灰的 X 书签快速变成自己的 AI 记忆库。.md)
+- [Codex X Chrome插件配置使用保姆级教程](../../../raw/articles/雪踏乌云/Codex X Chrome插件配置使用保姆级教程.md)
+- [OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工](../../../raw/articles/向阳乔木/OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工.md)
+- [CodeX 新功能，又是一个独宠 MAC 的功能！！！](../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md)

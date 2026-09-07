@@ -31,6 +31,7 @@ sources:
   - ../../../raw/articles/Orange AI/最近跟藏师傅聊天，都感觉到深深的共鸣。.md
   - ../../../raw/articles/Mr Panda/HERMES AGENT：NOUS RESEARCH 打造的开源自主 AI 智能体.md
   - ../../../raw/articles/宝玉/智能体工程的 8 个等级【译】.md
+  - ../../../raw/articles/Ethan － Builder/什么是 Eval？为什么它决定了 AI 项目能不能真正落地.md
 ---
 
 # Summary
@@ -64,3 +65,4 @@ sources:
 - [最近跟藏师傅聊天，都感觉到深深的共鸣。](../../../raw/articles/Orange AI/最近跟藏师傅聊天，都感觉到深深的共鸣。.md)
 - [HERMES AGENT：NOUS RESEARCH 打造的开源自主 AI 智能体](../../../raw/articles/Mr Panda/HERMES AGENT：NOUS RESEARCH 打造的开源自主 AI 智能体.md)
 - [智能体工程的 8 个等级【译】](../../../raw/articles/宝玉/智能体工程的 8 个等级【译】.md)
+- [什么是 Eval？为什么它决定了 AI 项目能不能真正落地](../../../raw/articles/Ethan － Builder/什么是 Eval？为什么它决定了 AI 项目能不能真正落地.md)

@@ -70,6 +70,22 @@ sources:
   - ../../../raw/articles/四多2038/0 元打造专属于你的纯净代理 IP，高速稳定还无限流量.md
   - ../../../raw/articles/铁手/比能力更重要的是你的工作逻辑.md
   - ../../../raw/articles/李东bbsky/学编程、写代码的时候，最重要的是始终记住这三大核心概念：过程（Process）、数据（Data）、抽象（Abstraction）。这三个词，几乎贯穿了整个计算机科学。.md
+  - ../../../raw/articles/Matt Pocock/Here's a full, step-by-step tutorial－.md
+  - ../../../raw/articles/宝玉/大多数公司根本没有为 AI 做好准备.md
+  - ../../../raw/articles/饼干哥哥AGI（2.0）/我用n8n+飞书监控了100 个AI头部博主公众号动态，借势解决「选题」困境.md
+  - ../../../raw/articles/Matt Pocock/Keep up with my skills here－.md
+  - ../../../raw/articles/lumxss/审美翻车别怪模型，是它没读懂设计语言。.md
+  - ../../../raw/articles/雨哥向前冲/这发出来，好担心你们给人撸秃噜皮！Gpt5.5免费用到8月1号，都悠着点，人家老外也不容易！.md
+  - ../../../raw/articles/Geek/又一个漂亮订阅管理系统 帮助你轻松管理和追踪各种订阅服务的费用和续费情况.md
+  - ../../../raw/articles/Asa/𝕏 Money 推送到中文区啦，活期利息 6 个点，马斯克的美国版微信能否成功？（文末附开通方案）.md
+  - ../../../raw/articles/Dr.周/不同位置的肚子疼.md
+  - ../../../raw/articles/GitHubDaily/开发视频分析应用，要实现检测、识别、追踪、行为分析等功能，从零开始编写代码，那工作量巨大的。.md
+  - ../../../raw/articles/h100envy/An Anthropic senior dev just dropped an 11-page breakdown on －Loop Engineering.－.md
+  - ../../../raw/articles/狮国游民/面试官：'你简历上这8个月的空白期怎么解释？'.md
+  - ../../../raw/articles/知识分享官/发现一个学习AI知识的网站：Datawhale.md
+  - ../../../raw/articles/lifcc/OpenAI 发布了 GPT-5.6 Sol 的官方 Prompting Guide。明确告诉我们：GPT-5.6 的最优 prompting 方式，和 GPT-5.5 －.md
+  - ../../../raw/articles/余温/你的 AI Agent 现在能搜推特了。.md
+  - ../../../raw/articles/黄小木/用飞书多维表格打造你的数字分身.md
 ---
 
 # Definition
@@ -149,3 +165,19 @@ sources:
 - [0 元打造专属于你的纯净代理 IP，高速稳定还无限流量](../../../raw/articles/四多2038/0 元打造专属于你的纯净代理 IP，高速稳定还无限流量.md)
 - [比能力更重要的是你的工作逻辑](../../../raw/articles/铁手/比能力更重要的是你的工作逻辑.md)
 - [学编程、写代码的时候，最重要的是始终记住这三大核心概念：过程（Process）、数据（Data）、抽象（Abstraction）。这三个词，几乎贯穿了整个计算机科学。](../../../raw/articles/李东bbsky/学编程、写代码的时候，最重要的是始终记住这三大核心概念：过程（Process）、数据（Data）、抽象（Abstraction）。这三个词，几乎贯穿了整个计算机科学。.md)
+- [Here's a full, step-by-step tutorial－](../../../raw/articles/Matt Pocock/Here's a full, step-by-step tutorial－.md)
+- [大多数公司根本没有为 AI 做好准备](../../../raw/articles/宝玉/大多数公司根本没有为 AI 做好准备.md)
+- [我用n8n+飞书监控了100 个AI头部博主公众号动态，借势解决「选题」困境](../../../raw/articles/饼干哥哥AGI（2.0）/我用n8n+飞书监控了100 个AI头部博主公众号动态，借势解决「选题」困境.md)
+- [Keep up with my skills here－](../../../raw/articles/Matt Pocock/Keep up with my skills here－.md)
+- [审美翻车别怪模型，是它没读懂设计语言。](../../../raw/articles/lumxss/审美翻车别怪模型，是它没读懂设计语言。.md)
+- [这发出来，好担心你们给人撸秃噜皮！Gpt5.5免费用到8月1号，都悠着点，人家老外也不容易！](../../../raw/articles/雨哥向前冲/这发出来，好担心你们给人撸秃噜皮！Gpt5.5免费用到8月1号，都悠着点，人家老外也不容易！.md)
+- [又一个漂亮订阅管理系统 帮助你轻松管理和追踪各种订阅服务的费用和续费情况](../../../raw/articles/Geek/又一个漂亮订阅管理系统 帮助你轻松管理和追踪各种订阅服务的费用和续费情况.md)
+- [𝕏 Money 推送到中文区啦，活期利息 6 个点，马斯克的美国版微信能否成功？（文末附开通方案）](../../../raw/articles/Asa/𝕏 Money 推送到中文区啦，活期利息 6 个点，马斯克的美国版微信能否成功？（文末附开通方案）.md)
+- [不同位置的肚子疼](../../../raw/articles/Dr.周/不同位置的肚子疼.md)
+- [开发视频分析应用，要实现检测、识别、追踪、行为分析等功能，从零开始编写代码，那工作量巨大的。](../../../raw/articles/GitHubDaily/开发视频分析应用，要实现检测、识别、追踪、行为分析等功能，从零开始编写代码，那工作量巨大的。.md)
+- [An Anthropic senior dev just dropped an 11-page breakdown on －Loop Engineering.－](../../../raw/articles/h100envy/An Anthropic senior dev just dropped an 11-page breakdown on －Loop Engineering.－.md)
+- [面试官：'你简历上这8个月的空白期怎么解释？'](../../../raw/articles/狮国游民/面试官：'你简历上这8个月的空白期怎么解释？'.md)
+- [发现一个学习AI知识的网站：Datawhale](../../../raw/articles/知识分享官/发现一个学习AI知识的网站：Datawhale.md)
+- [OpenAI 发布了 GPT-5.6 Sol 的官方 Prompting Guide。明确告诉我们：GPT-5.6 的最优 prompting 方式，和 GPT-5.5 －](../../../raw/articles/lifcc/OpenAI 发布了 GPT-5.6 Sol 的官方 Prompting Guide。明确告诉我们：GPT-5.6 的最优 prompting 方式，和 GPT-5.5 －.md)
+- [你的 AI Agent 现在能搜推特了。](../../../raw/articles/余温/你的 AI Agent 现在能搜推特了。.md)
+- [用飞书多维表格打造你的数字分身](../../../raw/articles/黄小木/用飞书多维表格打造你的数字分身.md)

@@ -27,6 +27,9 @@ sources:
   - ../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md
   - ../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md
   - ../../raw/articles/AYi/程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，.md
+  - ../../raw/articles/阿西_出海（2.0版）/3 步带你搭建 Karpathy 同款 AI 知识库（附教程）.md
+  - ../../raw/articles/obssnnn/Andrej Karpathy－.md
+  - ../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md
 ---
 
 # Summary
@@ -55,3 +58,6 @@ sources:
 - [Obsidian + Claude Code = 你的个人生活操作系统](../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md)
 - [Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！](../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md)
 - [程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，](../../raw/articles/AYi/程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，.md)
+- [3 步带你搭建 Karpathy 同款 AI 知识库（附教程）](../../raw/articles/阿西_出海（2.0版）/3 步带你搭建 Karpathy 同款 AI 知识库（附教程）.md)
+- [Andrej Karpathy－](../../raw/articles/obssnnn/Andrej Karpathy－.md)
+- [CLAUDE.md 终于有人把最全用法讲清楚了](../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md)
