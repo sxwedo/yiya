@@ -11,3 +11,4 @@
 | LangChain | https://www.langchain.com | LangChain | 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）+ LangSmith 工程平台 |
 | Trendshift | https://trendshift.io | Trendshift | GitHub 仓库实时动量榜（上升期捕捉，非峰值后），GitHub Trending 替代 |
 | Google DeepMind | https://deepmind.google/ | Google DeepMind | Google 的 AI 研究实验室总入口：Gemini/Gemma 等模型，以及科学与机器人方向 |
+| Docker Docs | https://docs.docker.com/ | Docker | Docker 官方文档门户：Engine / Compose / Desktop / Build 等入口 |

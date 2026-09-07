@@ -1,11 +1,11 @@
 ---
 name: yiya-ingest
 description: >-
-  Ingest a URL, article, or local clip into the yiya personal knowledge base
-  (LLM Wiki + OKF + Domain), or file a durable Q&A conclusion back onto existing
-  pages. Use when the user asks to 入库, ingest, 抓取后写知识, claim raw, 回写,
-  or process a link/file into yiya. Also when they say "按 ingest 跑"
-  or mention clix read / download then generate knowledge.
+  Ingest a URL, article, official docs page, or local clip into the yiya
+  personal knowledge base (LLM Wiki + OKF + Domain), or file a durable Q&A
+  conclusion back onto existing pages. Use when the user asks to 入库, ingest,
+  抓取后写知识, claim raw, 回写, or process a link/file into yiya. Also when they
+  say "按 ingest 跑", mention clix read, or drop a docs.example.com URL.
 argument-hint: "[url-or-path] [domain?]"
 ---
 
@@ -27,20 +27,28 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 入口判定
 
-- **成文型**（文章/长帖）：走下方「捕捉正文 → raw → 盘点已有 → 续写或建页」。
-- **书签型**（网站首页、GitHub 仓库、产品主页，用户只丢 URL、不要整站）：
-  1. 判定 domain；**先**在目标域 + `shared` 的 `entities/` 找同名，已有则只补 Reference、书签行与 Related
-  2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 表格一行（项目/站点、URL、作者、简介）；禁止整站正文
+先看 URL 形态，再选成文或书签。
+
+- **成文型**（文章/长帖，或一篇有稳定标题的官方指南/规范）：走下方「捕捉正文 → raw → 盘点已有 → 续写或建页」。官方文档作者用官方名（Docker、GitHub、Google DeepMind），不用 `_unknown`。
+- **书签型**（网站首页、GitHub 仓库、产品主页、**docs 门户/根**，用户只丢 URL）：
+  1. 判定 domain；**先**在目标域 + `shared` 的 `entities/` 找同产品，已有则只补 Reference Notes 深链、书签行与 Related
+  2. **追加**到 `raw/bookmarks/github.md` 或 `sites.md` 表格一行（项目/站点、URL、作者、简介）；只收入口，整站/整棵文档树停在入口
   3. 书签不进任何认领表（只在 bookmarks 表 + Entity/Reference）
-  4. **一条** Reference：`resource:` 可指向对应 bookmarks 列表（或原文 URL）；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）
+  4. **一条** Reference：`resource:` 指向对应 bookmarks 列表；正文写收藏理由；`tags` 含 `bookmark`（GitHub 再加 `github`）。docs 门户可在 Notes 写常用深链，不另建 Entity
   5. 完成标准：Entity（新建或更新）+ Reference + bookmarks 列表条目
+- **官方文档怎么判**（仍走上面两条，不开第三种 raw）：
+  | 形态 | 走 | 完成标准 |
+  |---|---|---|
+  | 文档门户 / docs 根（如 `https://docs.docker.com/`） | 书签 | 挂**产品** Entity；已有则只补深链 |
+  | 一篇能读完的指南/规范 | 成文 | 先改该产品 Entity / 相关 Concept |
+  | 整棵文档树、API 全表、一串平行章节 | 书签 | 只收 docs 根；等用户指定单篇再成文 |
 - **回写**（问答沉淀、无新 raw）：跳过捕捉与写入 raw，从「盘点已有」起跑；默认只改旧页。
 
 ## 步骤
 
 ### 1. 捕捉正文
 
-成文型：用户给了 URL 则用其指定工具（如 `clix read <url>`）拉取；失败则停住报错，停在缺口处。已是本地文件则直接用。回写入口跳过本步。
+成文型：用户给了 URL 则用其指定工具（如 `clix read <url>`）拉取**这一页**；失败则停住报错，停在缺口处。已是本地文件则直接用。书签型与 docs 根、回写入口跳过本步。
 
 ### 2. 写入 raw
 

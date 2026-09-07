@@ -18,6 +18,8 @@ sources: []
 
 | Entity | 一句话 |
 |--------|--------|
+| [Docker](./entities/docker.md) | 容器平台；官方文档门户 docs.docker.com |
+| [github/gitignore](./entities/gitignore.md) | GitHub 官方 .gitignore 模板集（语言/框架/OS） |
 | [x-algorithm](./entities/x-algorithm.md) | xAI 开源 X 推荐栈：多动作预测 + 排序过滤 |
 
 ## 怎么逛

@@ -35,8 +35,10 @@ shared/                        # 跨域实体
 
 | 类型 | 做什么 |
 |---|---|
-| 成文 | `clix read` → `articles/<作者>/`（头含 `url:`）→ 先改已有 Entity/Concept，否则建页；直链 raw |
-| 书签 | 追加 bookmarks 表 → 更新或新建 Entity + Reference（指向表） |
+| 成文 | 文章/长帖，或一篇有稳定标题的官方指南：`clix read` → `articles/<作者>/`（官方文档作者用官方名）→ 先改已有 Entity/Concept |
+| 书签 | 首页、GitHub、产品页、**docs 门户/根** → bookmarks 表 → 更新或新建产品 Entity + Reference |
+
+**官方文档**：门户/docs 根当书签并挂已有产品 Entity（只补深链，不新开第二张卡）；单篇指南当成文先续写；整棵文档树只收入口。细则见 `yiya-ingest`。
 
 **无** `raw-manifest.yaml`。查重靠 raw 头 `url:`；认领=已有 Concept/Entity（或 Reference）链到该 raw。细则见 `yiya-ingest`。入库后做「自生长」结构体检（见下）。
 
