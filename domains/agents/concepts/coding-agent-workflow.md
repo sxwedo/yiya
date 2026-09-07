@@ -134,6 +134,10 @@ sources:
   - ../../../raw/articles/诺鸭船长3/RSS全网最全使用指南：从入门到榨干.md
   - ../../../raw/articles/Steve (Builder.io)/Skill and source here－ [github.com－BuilderIO－skil…](https－－－github.com－BuilderIO－skills).md
   - ../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md
+  - ../../../raw/articles/别开枪自己人/记住，能救命.md
+  - ../../../raw/articles/宝玉/为什么说 Skills 不是 Agent？.md
+  - ../../../raw/articles/歸藏(guizang.ai)/用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。.md
+  - ../../../raw/articles/魏乘风｜AI变现/有人在闲鱼买Apple礼品卡买到黑卡导致账户被封.md
 ---
 
 # Definition
@@ -277,3 +281,7 @@ sources:
 - [RSS全网最全使用指南：从入门到榨干](../../../raw/articles/诺鸭船长3/RSS全网最全使用指南：从入门到榨干.md)
 - [Skill and source here－ [github.com－BuilderIO－skil…](https－－－github.com－BuilderIO－skills)](../../../raw/articles/Steve (Builder.io)/Skill and source here－ [github.com－BuilderIO－skil…](https－－－github.com－BuilderIO－skills).md)
 - [我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了](../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md)
+- [记住，能救命](../../../raw/articles/别开枪自己人/记住，能救命.md)
+- [为什么说 Skills 不是 Agent？](../../../raw/articles/宝玉/为什么说 Skills 不是 Agent？.md)
+- [用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。](../../../raw/articles/歸藏(guizang.ai)/用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。.md)
+- [有人在闲鱼买Apple礼品卡买到黑卡导致账户被封](../../../raw/articles/魏乘风｜AI变现/有人在闲鱼买Apple礼品卡买到黑卡导致账户被封.md)

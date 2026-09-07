@@ -35,6 +35,7 @@ sources:
   - ../../../raw/articles/小墨同学/万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务.md
   - ../../../raw/articles/Yuu💖/pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－).md
   - ../../../raw/articles/Pi/Tips to get the most out of －tree－.md
+  - ../../../raw/articles/MateMatt/Agent 底层状态机编排演进-让你搭建出大厂标准的 Agent 架构.md
 ---
 
 # Summary
@@ -67,3 +68,4 @@ sources:
 - [万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务](../../../raw/articles/小墨同学/万字长文 － Pi Agent 零基础实操：从打开终端到完成第一个真实任务.md)
 - [pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－)](../../../raw/articles/Yuu💖/pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－).md)
 - [Tips to get the most out of －tree－](../../../raw/articles/Pi/Tips to get the most out of －tree－.md)
+- [Agent 底层状态机编排演进-让你搭建出大厂标准的 Agent 架构](../../../raw/articles/MateMatt/Agent 底层状态机编排演进-让你搭建出大厂标准的 Agent 架构.md)

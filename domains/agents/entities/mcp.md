@@ -37,6 +37,7 @@ sources:
   - ../../../raw/articles/宝玉/注册地址：[rsvp.withgoogle.com－events－google-…](https－－－rsvp.withgoogle.com－events－google-ai-ag.md
   - ../../../raw/articles/比特币橙子Trader/Codex App － CLI 也可以直接接入股票、财报、SEC 文件和金融新闻数据了。.md
   - ../../../raw/articles/汉松/Harness 工程实践：如何让 Agent 完成自主迭代.md
+  - ../../../raw/articles/Smartpig/为什么 AI Agent 正在逐步“去 MCP 化”，重新拥抱 CLI？.md
 ---
 
 # Summary
@@ -76,3 +77,4 @@ sources:
 - [注册地址：[rsvp.withgoogle.com－events－google-…](https－－－rsvp.withgoogle.com－events－google-ai-ag](../../../raw/articles/宝玉/注册地址：[rsvp.withgoogle.com－events－google-…](https－－－rsvp.withgoogle.com－events－google-ai-ag.md)
 - [Codex App － CLI 也可以直接接入股票、财报、SEC 文件和金融新闻数据了。](../../../raw/articles/比特币橙子Trader/Codex App － CLI 也可以直接接入股票、财报、SEC 文件和金融新闻数据了。.md)
 - [Harness 工程实践：如何让 Agent 完成自主迭代](../../../raw/articles/汉松/Harness 工程实践：如何让 Agent 完成自主迭代.md)
+- [为什么 AI Agent 正在逐步“去 MCP 化”，重新拥抱 CLI？](../../../raw/articles/Smartpig/为什么 AI Agent 正在逐步“去 MCP 化”，重新拥抱 CLI？.md)

@@ -182,6 +182,14 @@ sources:
   - ../../../raw/articles/Jason Zhu/这个学习Claude Code的教程真的不错.md
   - ../../../raw/articles/Berryxia.AI/本周AI agent领域悄然发生了一个有意思的现象。.md
   - ../../../raw/articles/Yanhua/忙碌人士的Claude Skills入门（一个可能比MCP更大的功能）😎.md
+  - ../../../raw/articles/阿川 － AI thinking/这个非常实用！用claudecode的建议都看看.md
+  - ../../../raw/articles/泊舟/Claude Code 真正好用的10个技巧！（Anthropic内部团队亲测版）.md
+  - ../../../raw/articles/子茄/现在有什么好的agent session管理工具么？感觉现在的harness问题已经不是单个对话框的问题了，而是session开多了，找不到之前的上下文。。。.md
+  - ../../../raw/articles/花叔/Claude Code发布Agent View，多任务流的ADHD患者有救了.md
+  - ../../../raw/articles/supermao/很难想象 pi 这个项目 4429 次 commit，claude 只 commit 了一次.md
+  - ../../../raw/articles/李韭二/谁能想到MCP都已经凉了.md
+  - ../../../raw/articles/meng shao/迈向 2026：构建以 LLM 为核心的系统化协作编程工作流.md
+  - ../../../raw/articles/小互/Claude code 自动帮我下载并翻译的这个视频.md
 ---
 
 # Summary
@@ -365,3 +373,11 @@ sources:
 - [这个学习Claude Code的教程真的不错](../../../raw/articles/Jason Zhu/这个学习Claude Code的教程真的不错.md)
 - [本周AI agent领域悄然发生了一个有意思的现象。](../../../raw/articles/Berryxia.AI/本周AI agent领域悄然发生了一个有意思的现象。.md)
 - [忙碌人士的Claude Skills入门（一个可能比MCP更大的功能）😎](../../../raw/articles/Yanhua/忙碌人士的Claude Skills入门（一个可能比MCP更大的功能）😎.md)
+- [这个非常实用！用claudecode的建议都看看](../../../raw/articles/阿川 － AI thinking/这个非常实用！用claudecode的建议都看看.md)
+- [Claude Code 真正好用的10个技巧！（Anthropic内部团队亲测版）](../../../raw/articles/泊舟/Claude Code 真正好用的10个技巧！（Anthropic内部团队亲测版）.md)
+- [现在有什么好的agent session管理工具么？感觉现在的harness问题已经不是单个对话框的问题了，而是session开多了，找不到之前的上下文。。。](../../../raw/articles/子茄/现在有什么好的agent session管理工具么？感觉现在的harness问题已经不是单个对话框的问题了，而是session开多了，找不到之前的上下文。。。.md)
+- [Claude Code发布Agent View，多任务流的ADHD患者有救了](../../../raw/articles/花叔/Claude Code发布Agent View，多任务流的ADHD患者有救了.md)
+- [很难想象 pi 这个项目 4429 次 commit，claude 只 commit 了一次](../../../raw/articles/supermao/很难想象 pi 这个项目 4429 次 commit，claude 只 commit 了一次.md)
+- [谁能想到MCP都已经凉了](../../../raw/articles/李韭二/谁能想到MCP都已经凉了.md)
+- [迈向 2026：构建以 LLM 为核心的系统化协作编程工作流](../../../raw/articles/meng shao/迈向 2026：构建以 LLM 为核心的系统化协作编程工作流.md)
+- [Claude code 自动帮我下载并翻译的这个视频](../../../raw/articles/小互/Claude code 自动帮我下载并翻译的这个视频.md)

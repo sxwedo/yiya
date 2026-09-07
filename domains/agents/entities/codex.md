@@ -33,6 +33,7 @@ sources:
   - ../../../raw/articles/雪踏乌云/目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读.md
   - ../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md
   - ../../../raw/articles/岚叔/codex 新增了remote-control 命令🎉.md
+  - ../../../raw/articles/Tiger/我自己的ChatGPT账号，登录codex的时候，基本都遇到了二次手机号验证，注意，是第二次手机号验证，设置了以后，都解决了呀，现在登录没有在让我验证手机号的情况，我发了教程以后.md
 ---
 
 # Summary
@@ -64,3 +65,4 @@ sources:
 - [目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读](../../../raw/articles/雪踏乌云/目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读.md)
 - [结合最近写skill的一些心得，总结了一个Skill设计五步法：](../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md)
 - [codex 新增了remote-control 命令🎉](../../../raw/articles/岚叔/codex 新增了remote-control 命令🎉.md)
+- [我自己的ChatGPT账号，登录codex的时候，基本都遇到了二次手机号验证，注意，是第二次手机号验证，设置了以后，都解决了呀，现在登录没有在让我验证手机号的情况，我发了教程以后](../../../raw/articles/Tiger/我自己的ChatGPT账号，登录codex的时候，基本都遇到了二次手机号验证，注意，是第二次手机号验证，设置了以后，都解决了呀，现在登录没有在让我验证手机号的情况，我发了教程以后.md)
