@@ -120,6 +120,11 @@ sources:
   - ../../../raw/articles/Justin/配合上 Google AI Pro 的六人共享搬家套餐，美滋滋.md
   - ../../../raw/articles/Jiayuan (JY) Zhang/andrej-karpathy-skills 成为了 GitHub 历史前 50 的项目。.md
   - ../../../raw/articles/WY/一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月).md
+  - ../../../raw/articles/Russell/多智能体协作调查：Agent 到底该怎么分工.md
+  - ../../../raw/articles/huangserva/别再卷模型了，2026 年 Agent 的胜负手在 Harness！给你的Agent 搭－－操作系统－－吧.md
+  - ../../../raw/articles/Boris Cherny/Mistakes happen. As a team, the important thing is to recognize it’s never an.md
+  - ../../../raw/articles/GitTrend/Karpathy 一丢代码，全网程序员集体进化了！.md
+  - ../../../raw/articles/Rahul/How To Build AI Agents in 2026 (That Actually Work).md
 ---
 
 # Summary
@@ -232,3 +237,8 @@ sources:
 - [配合上 Google AI Pro 的六人共享搬家套餐，美滋滋](../../../raw/articles/Justin/配合上 Google AI Pro 的六人共享搬家套餐，美滋滋.md)
 - [andrej-karpathy-skills 成为了 GitHub 历史前 50 的项目。](../../../raw/articles/Jiayuan (JY) Zhang/andrej-karpathy-skills 成为了 GitHub 历史前 50 的项目。.md)
 - [一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月)](../../../raw/articles/WY/一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月).md)
+- [多智能体协作调查：Agent 到底该怎么分工](../../../raw/articles/Russell/多智能体协作调查：Agent 到底该怎么分工.md)
+- [别再卷模型了，2026 年 Agent 的胜负手在 Harness！给你的Agent 搭－－操作系统－－吧](../../../raw/articles/huangserva/别再卷模型了，2026 年 Agent 的胜负手在 Harness！给你的Agent 搭－－操作系统－－吧.md)
+- [Mistakes happen. As a team, the important thing is to recognize it’s never an](../../../raw/articles/Boris Cherny/Mistakes happen. As a team, the important thing is to recognize it’s never an.md)
+- [Karpathy 一丢代码，全网程序员集体进化了！](../../../raw/articles/GitTrend/Karpathy 一丢代码，全网程序员集体进化了！.md)
+- [How To Build AI Agents in 2026 (That Actually Work)](../../../raw/articles/Rahul/How To Build AI Agents in 2026 (That Actually Work).md)

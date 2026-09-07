@@ -23,6 +23,7 @@ sources:
   - ../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md
   - ../../../raw/articles/Miles Deutscher/Grok Bot－ The Ultimate Guide.md
   - ../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md
+  - ../../../raw/articles/金尘马/发现一个小众但比 boss 直聘还要精准的招聘渠道.md
 ---
 
 # Summary
@@ -50,3 +51,4 @@ sources:
 - [Every AI tool you have used so far waits for you. You open it, you ask, it answers, you](../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md)
 - [Grok Bot－ The Ultimate Guide](../../../raw/articles/Miles Deutscher/Grok Bot－ The Ultimate Guide.md)
 - [Every Grok Bot Hack I Know (Aug 2026)](../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md)
+- [发现一个小众但比 boss 直聘还要精准的招聘渠道](../../../raw/articles/金尘马/发现一个小众但比 boss 直聘还要精准的招聘渠道.md)

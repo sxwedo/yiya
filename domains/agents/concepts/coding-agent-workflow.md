@@ -72,6 +72,7 @@ sources:
   - ../../../raw/articles/马方说管理/战时参考.md
   - ../../../raw/articles/Jesse/你还在低头对中英文字幕理解Youtuber在讲什么吗？.md
   - ../../../raw/articles/Rahul/Most developers learn AI by copying tutorials.md
+  - ../../../raw/articles/超级个体｜柿子/分享我自用的一些强大的免费视频下载工具：.md
 ---
 
 # Definition
@@ -153,3 +154,4 @@ sources:
 - [战时参考](../../../raw/articles/马方说管理/战时参考.md)
 - [你还在低头对中英文字幕理解Youtuber在讲什么吗？](../../../raw/articles/Jesse/你还在低头对中英文字幕理解Youtuber在讲什么吗？.md)
 - [Most developers learn AI by copying tutorials](../../../raw/articles/Rahul/Most developers learn AI by copying tutorials.md)
+- [分享我自用的一些强大的免费视频下载工具：](../../../raw/articles/超级个体｜柿子/分享我自用的一些强大的免费视频下载工具：.md)
