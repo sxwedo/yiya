@@ -30,6 +30,8 @@ sources:
   - ../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md
   - ../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md
   - ../../raw/articles/Yanhua/最近在使用Obsidian探索内容创作自动化，推荐宝玉老师这个自动配图Agent，可以选择Gemini模型或者ModelScope模型。.md
+  - ../../raw/articles/Frank Wang 玉伯/YouMind 创业路上的非共识选择.md
+  - ../../raw/articles/Corey Chiu/最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian.md
 ---
 
 # Summary
@@ -58,3 +60,5 @@ sources:
 - [Hello everyone, leopardracer here!](../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md)
 - [Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记](../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md)
 - [最近在使用Obsidian探索内容创作自动化，推荐宝玉老师这个自动配图Agent，可以选择Gemini模型或者ModelScope模型。](../../raw/articles/Yanhua/最近在使用Obsidian探索内容创作自动化，推荐宝玉老师这个自动配图Agent，可以选择Gemini模型或者ModelScope模型。.md)
+- [YouMind 创业路上的非共识选择](../../raw/articles/Frank Wang 玉伯/YouMind 创业路上的非共识选择.md)
+- [最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian](../../raw/articles/Corey Chiu/最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian.md)

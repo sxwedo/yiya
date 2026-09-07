@@ -25,6 +25,8 @@ sources:
   - ../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md
   - ../../../raw/articles/金尘马/发现一个小众但比 boss 直聘还要精准的招聘渠道.md
   - ../../../raw/articles/lifcc/Grok Bot 上线 17 天。有好多人问我这玩意到底能干啥？.md
+  - ../../../raw/articles/Mai Yang/X 上最值得关注的 21 个 Grok Bot 探索者.md
+  - ../../../raw/articles/小互/Grok Bot 内部实践指南：.md
 ---
 
 # Summary
@@ -54,3 +56,5 @@ sources:
 - [Every Grok Bot Hack I Know (Aug 2026)](../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md)
 - [发现一个小众但比 boss 直聘还要精准的招聘渠道](../../../raw/articles/金尘马/发现一个小众但比 boss 直聘还要精准的招聘渠道.md)
 - [Grok Bot 上线 17 天。有好多人问我这玩意到底能干啥？](../../../raw/articles/lifcc/Grok Bot 上线 17 天。有好多人问我这玩意到底能干啥？.md)
+- [X 上最值得关注的 21 个 Grok Bot 探索者](../../../raw/articles/Mai Yang/X 上最值得关注的 21 个 Grok Bot 探索者.md)
+- [Grok Bot 内部实践指南：](../../../raw/articles/小互/Grok Bot 内部实践指南：.md)

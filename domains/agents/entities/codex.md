@@ -32,6 +32,7 @@ sources:
   - ../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md
   - ../../../raw/articles/雪踏乌云/目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读.md
   - ../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md
+  - ../../../raw/articles/岚叔/codex 新增了remote-control 命令🎉.md
 ---
 
 # Summary
@@ -62,3 +63,4 @@ sources:
 - [打开Codex，设定目标或直接对话，提示词如下：](../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md)
 - [目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读](../../../raw/articles/雪踏乌云/目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读.md)
 - [结合最近写skill的一些心得，总结了一个Skill设计五步法：](../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md)
+- [codex 新增了remote-control 命令🎉](../../../raw/articles/岚叔/codex 新增了remote-control 命令🎉.md)

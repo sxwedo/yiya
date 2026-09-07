@@ -120,6 +120,20 @@ sources:
   - ../../../raw/articles/Geek Lite/一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。.md
   - ../../../raw/articles/小樱💞｜实用工具分享/🔥 iPhone 防盗神级自动化（快捷指令）.md
   - ../../../raw/articles/桃桃 AI 分享📓/工作能力强的人，都会搭建工作系统❗❗.md
+  - ../../../raw/articles/AI探路者Tim/说话没逻辑，真的太吃亏了！.md
+  - ../../../raw/articles/实践哥 Li/Workflow 有 6 种形式。.md
+  - ../../../raw/articles/Cander/Cloudflare 免费资源大全.md
+  - ../../../raw/articles/泊舟/我们在写提示词的时候需要写一个角色，这时候赋予AI一个好的Title就非常重要了，这里给大家分享一些Title.md
+  - ../../../raw/articles/桃桃 AI 分享📓/不会分析问题？麦肯锡七步法让你秒变职场智囊。.md
+  - ../../../raw/articles/向阳乔木/身边不少程序员朋友，都喜欢看YC的Hackernews.md
+  - ../../../raw/articles/白骏知识分享/刘震云67岁谈40岁感悟.md
+  - ../../../raw/articles/小森/挺多人私聊我的，一个一个回复又太慢太麻烦，直接发出来吧。主打为爱发电，希望不要被搞。.md
+  - ../../../raw/articles/AYi/微软CEO Satya Nadella这篇文章.md
+  - ../../../raw/articles/Logan Kilpatrick/Over 1.3 quadrillion tokens a month across Google, so much progress － ) so much more to.md
+  - ../../../raw/articles/dunik/259 pull requests in 30 days, and a human typed exactly zero of them.md
+  - ../../../raw/articles/诺鸭船长3/RSS全网最全使用指南：从入门到榨干.md
+  - ../../../raw/articles/Steve (Builder.io)/Skill and source here－ [github.com－BuilderIO－skil…](https－－－github.com－BuilderIO－skills).md
+  - ../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md
 ---
 
 # Definition
@@ -249,3 +263,17 @@ sources:
 - [一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。](../../../raw/articles/Geek Lite/一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。.md)
 - [🔥 iPhone 防盗神级自动化（快捷指令）](../../../raw/articles/小樱💞｜实用工具分享/🔥 iPhone 防盗神级自动化（快捷指令）.md)
 - [工作能力强的人，都会搭建工作系统❗❗](../../../raw/articles/桃桃 AI 分享📓/工作能力强的人，都会搭建工作系统❗❗.md)
+- [说话没逻辑，真的太吃亏了！](../../../raw/articles/AI探路者Tim/说话没逻辑，真的太吃亏了！.md)
+- [Workflow 有 6 种形式。](../../../raw/articles/实践哥 Li/Workflow 有 6 种形式。.md)
+- [Cloudflare 免费资源大全](../../../raw/articles/Cander/Cloudflare 免费资源大全.md)
+- [我们在写提示词的时候需要写一个角色，这时候赋予AI一个好的Title就非常重要了，这里给大家分享一些Title](../../../raw/articles/泊舟/我们在写提示词的时候需要写一个角色，这时候赋予AI一个好的Title就非常重要了，这里给大家分享一些Title.md)
+- [不会分析问题？麦肯锡七步法让你秒变职场智囊。](../../../raw/articles/桃桃 AI 分享📓/不会分析问题？麦肯锡七步法让你秒变职场智囊。.md)
+- [身边不少程序员朋友，都喜欢看YC的Hackernews](../../../raw/articles/向阳乔木/身边不少程序员朋友，都喜欢看YC的Hackernews.md)
+- [刘震云67岁谈40岁感悟](../../../raw/articles/白骏知识分享/刘震云67岁谈40岁感悟.md)
+- [挺多人私聊我的，一个一个回复又太慢太麻烦，直接发出来吧。主打为爱发电，希望不要被搞。](../../../raw/articles/小森/挺多人私聊我的，一个一个回复又太慢太麻烦，直接发出来吧。主打为爱发电，希望不要被搞。.md)
+- [微软CEO Satya Nadella这篇文章](../../../raw/articles/AYi/微软CEO Satya Nadella这篇文章.md)
+- [Over 1.3 quadrillion tokens a month across Google, so much progress － ) so much more to](../../../raw/articles/Logan Kilpatrick/Over 1.3 quadrillion tokens a month across Google, so much progress － ) so much more to.md)
+- [259 pull requests in 30 days, and a human typed exactly zero of them](../../../raw/articles/dunik/259 pull requests in 30 days, and a human typed exactly zero of them.md)
+- [RSS全网最全使用指南：从入门到榨干](../../../raw/articles/诺鸭船长3/RSS全网最全使用指南：从入门到榨干.md)
+- [Skill and source here－ [github.com－BuilderIO－skil…](https－－－github.com－BuilderIO－skills)](../../../raw/articles/Steve (Builder.io)/Skill and source here－ [github.com－BuilderIO－skil…](https－－－github.com－BuilderIO－skills).md)
+- [我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了](../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md)

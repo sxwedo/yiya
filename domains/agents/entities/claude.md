@@ -157,6 +157,31 @@ sources:
   - ../../../raw/articles/Jason Young/新范式还是碎钞机？Claude Code Agent Teams 浅度解析.md
   - ../../../raw/articles/小墨同学/如果你也想开始学习 Pi，可以看看我的学习分享🔥.md
   - ../../../raw/articles/Jason Zhu/我靠 这个agent-flow给我的cc装上了.md
+  - ../../../raw/articles/老张来了/将Claude Code 接入Telegram（保姆级教程）.md
+  - ../../../raw/articles/darkzodchi/Anthropic engineer－.md
+  - ../../../raw/articles/数字生命卡兹克/用好Agent最重要的技巧不是Skills，是这四个字。.md
+  - ../../../raw/articles/阿蔺A-Lin/Karpathy 的知识库方案，差一个能搜全网的工具.md
+  - ../../../raw/articles/Hedy.eth 🎮/一个 Anthropic 前研究员，.md
+  - ../../../raw/articles/出海去孵化器/号称 Shopify 2.3 万工程师背后的 Claude Code 配置.md
+  - ../../../raw/articles/AI最严厉的父亲/2026 年 AI 编程三强横评：OpenCode － Claude Code － Codex（新人向）.md
+  - ../../../raw/articles/Rachel🥥/一行命令，让所有Agent共享大脑.md
+  - ../../../raw/articles/爆裂队长NEXT/Agent 会话历史别浪费：把 Claude Code 和 Codex 的历史变成本地知识库.md
+  - ../../../raw/articles/Berryxia.AI/🚀 Claude Code 内置神技上线！.md
+  - ../../../raw/articles/拾一.max-fast/每次发截图，评论区总有人问：这是什么字体？.md
+  - ../../../raw/articles/Vince 聊开发/claude-code-setup 插件实战指南：让 Claude Code 真正读懂你的项目：.md
+  - ../../../raw/articles/得否/有没有那种，可以丢个推特长文链接，自动把文章保存为markdown的工具呀？.md
+  - ../../../raw/articles/小奇说/Cloudflare 自建永久免费节点保姆级教程（超详细）.md
+  - ../../../raw/articles/LinearUncle/herdr非常适合harness一起组队干活！.md
+  - ../../../raw/articles/victor-wu.eth/已经安装好了 opencode的 Oh My OpenCode ，直接一气化三清，可以召唤 codex － cc － gemini.md
+  - ../../../raw/articles/小码哥/Claude Code 命令大全（2026 最新版，夯爆了！）.md
+  - ../../../raw/articles/Xudong Han/🤝 开源项目推荐：AgentSpace —— 人机共创，一站式协作工作空间.md
+  - ../../../raw/articles/lumxss/整理了一下Claude Code本周星标前四的Skill，分享给在折腾这个的朋友。.md
+  - ../../../raw/articles/Mr Panda/为每个任务量身定做：Claude Code 动态工作流完全指南.md
+  - ../../../raw/articles/Prajwal Tomar/The builders shipping AI apps in 2026 are splitting into two groups.md
+  - ../../../raw/articles/路飞 🏴‍☠️ AI 研究员🧐/如何将 Claude Code 的性能提升 92 倍.md
+  - ../../../raw/articles/Jason Zhu/这个学习Claude Code的教程真的不错.md
+  - ../../../raw/articles/Berryxia.AI/本周AI agent领域悄然发生了一个有意思的现象。.md
+  - ../../../raw/articles/Yanhua/忙碌人士的Claude Skills入门（一个可能比MCP更大的功能）😎.md
 ---
 
 # Summary
@@ -315,3 +340,28 @@ sources:
 - [新范式还是碎钞机？Claude Code Agent Teams 浅度解析](../../../raw/articles/Jason Young/新范式还是碎钞机？Claude Code Agent Teams 浅度解析.md)
 - [如果你也想开始学习 Pi，可以看看我的学习分享🔥](../../../raw/articles/小墨同学/如果你也想开始学习 Pi，可以看看我的学习分享🔥.md)
 - [我靠 这个agent-flow给我的cc装上了](../../../raw/articles/Jason Zhu/我靠 这个agent-flow给我的cc装上了.md)
+- [将Claude Code 接入Telegram（保姆级教程）](../../../raw/articles/老张来了/将Claude Code 接入Telegram（保姆级教程）.md)
+- [Anthropic engineer－](../../../raw/articles/darkzodchi/Anthropic engineer－.md)
+- [用好Agent最重要的技巧不是Skills，是这四个字。](../../../raw/articles/数字生命卡兹克/用好Agent最重要的技巧不是Skills，是这四个字。.md)
+- [Karpathy 的知识库方案，差一个能搜全网的工具](../../../raw/articles/阿蔺A-Lin/Karpathy 的知识库方案，差一个能搜全网的工具.md)
+- [一个 Anthropic 前研究员，](../../../raw/articles/Hedy.eth 🎮/一个 Anthropic 前研究员，.md)
+- [号称 Shopify 2.3 万工程师背后的 Claude Code 配置](../../../raw/articles/出海去孵化器/号称 Shopify 2.3 万工程师背后的 Claude Code 配置.md)
+- [2026 年 AI 编程三强横评：OpenCode － Claude Code － Codex（新人向）](../../../raw/articles/AI最严厉的父亲/2026 年 AI 编程三强横评：OpenCode － Claude Code － Codex（新人向）.md)
+- [一行命令，让所有Agent共享大脑](../../../raw/articles/Rachel🥥/一行命令，让所有Agent共享大脑.md)
+- [Agent 会话历史别浪费：把 Claude Code 和 Codex 的历史变成本地知识库](../../../raw/articles/爆裂队长NEXT/Agent 会话历史别浪费：把 Claude Code 和 Codex 的历史变成本地知识库.md)
+- [🚀 Claude Code 内置神技上线！](../../../raw/articles/Berryxia.AI/🚀 Claude Code 内置神技上线！.md)
+- [每次发截图，评论区总有人问：这是什么字体？](../../../raw/articles/拾一.max-fast/每次发截图，评论区总有人问：这是什么字体？.md)
+- [claude-code-setup 插件实战指南：让 Claude Code 真正读懂你的项目：](../../../raw/articles/Vince 聊开发/claude-code-setup 插件实战指南：让 Claude Code 真正读懂你的项目：.md)
+- [有没有那种，可以丢个推特长文链接，自动把文章保存为markdown的工具呀？](../../../raw/articles/得否/有没有那种，可以丢个推特长文链接，自动把文章保存为markdown的工具呀？.md)
+- [Cloudflare 自建永久免费节点保姆级教程（超详细）](../../../raw/articles/小奇说/Cloudflare 自建永久免费节点保姆级教程（超详细）.md)
+- [herdr非常适合harness一起组队干活！](../../../raw/articles/LinearUncle/herdr非常适合harness一起组队干活！.md)
+- [已经安装好了 opencode的 Oh My OpenCode ，直接一气化三清，可以召唤 codex － cc － gemini](../../../raw/articles/victor-wu.eth/已经安装好了 opencode的 Oh My OpenCode ，直接一气化三清，可以召唤 codex － cc － gemini.md)
+- [Claude Code 命令大全（2026 最新版，夯爆了！）](../../../raw/articles/小码哥/Claude Code 命令大全（2026 最新版，夯爆了！）.md)
+- [🤝 开源项目推荐：AgentSpace —— 人机共创，一站式协作工作空间](../../../raw/articles/Xudong Han/🤝 开源项目推荐：AgentSpace —— 人机共创，一站式协作工作空间.md)
+- [整理了一下Claude Code本周星标前四的Skill，分享给在折腾这个的朋友。](../../../raw/articles/lumxss/整理了一下Claude Code本周星标前四的Skill，分享给在折腾这个的朋友。.md)
+- [为每个任务量身定做：Claude Code 动态工作流完全指南](../../../raw/articles/Mr Panda/为每个任务量身定做：Claude Code 动态工作流完全指南.md)
+- [The builders shipping AI apps in 2026 are splitting into two groups](../../../raw/articles/Prajwal Tomar/The builders shipping AI apps in 2026 are splitting into two groups.md)
+- [如何将 Claude Code 的性能提升 92 倍](../../../raw/articles/路飞 🏴‍☠️ AI 研究员🧐/如何将 Claude Code 的性能提升 92 倍.md)
+- [这个学习Claude Code的教程真的不错](../../../raw/articles/Jason Zhu/这个学习Claude Code的教程真的不错.md)
+- [本周AI agent领域悄然发生了一个有意思的现象。](../../../raw/articles/Berryxia.AI/本周AI agent领域悄然发生了一个有意思的现象。.md)
+- [忙碌人士的Claude Skills入门（一个可能比MCP更大的功能）😎](../../../raw/articles/Yanhua/忙碌人士的Claude Skills入门（一个可能比MCP更大的功能）😎.md)

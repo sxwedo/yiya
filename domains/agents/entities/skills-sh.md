@@ -20,6 +20,7 @@ sources:
   - ../references/builderio-skills-github.md
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Amto/119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。.md
+  - ../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md
 ---
 
 # Summary
@@ -43,3 +44,4 @@ sources:
 - [builderio-skills-github](../references/builderio-skills-github.md)
 - [anthropics-skills-github](../references/anthropics-skills-github.md)
 - [119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。](../../../raw/articles/Amto/119k星！前 Vercel 工程师把他压箱底的 Claude 工作流全公开了。.md)
+- [A2A：当 Agent 开始自己找人干活](../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md)
