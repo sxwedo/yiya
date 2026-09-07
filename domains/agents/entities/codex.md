@@ -16,6 +16,9 @@ sources:
   - ../references/openai-codex-github.md
   - ../references/openai-openai-cookbook-github.md
   - ../references/openai-codex-plugin-cc-github.md
+  - ../../../raw/articles/Tibo/Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6.md
+  - ../../../raw/articles/OpenAI/Codex now works directly in Chrome on macOS and Windows.md
+  - ../../../raw/articles/AYi/免费领6个月ChatGPT Pro，.md
 ---
 
 # Summary
@@ -30,3 +33,6 @@ sources:
 - [Claude](./claude.md)
 - [Pi](./pi.md)
 - [Grok Build](./grok-build.md)
+- [Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6](../../../raw/articles/Tibo/Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6.md)
+- [Codex now works directly in Chrome on macOS and Windows](../../../raw/articles/OpenAI/Codex now works directly in Chrome on macOS and Windows.md)
+- [免费领6个月ChatGPT Pro，](../../../raw/articles/AYi/免费领6个月ChatGPT Pro，.md)

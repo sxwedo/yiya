@@ -16,6 +16,7 @@ sources:
   - ../references/langchain-docs.md
   - ../references/langchain-ai-openwiki-github.md
   - ../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md
+  - ../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md
 ---
 
 # Summary
@@ -31,3 +32,4 @@ sources:
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [langchain-ai/openwiki（GitHub）](../references/langchain-ai-openwiki-github.md)
 - [for anyone asking where to learn this stuff－](../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md)
+- [A free open-source model is running 300 parallel agents across 4,000 coordinated steps](../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md)

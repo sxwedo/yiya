@@ -22,6 +22,7 @@ sources:
   - ../references/aaaaalexis-obsidian-cupertino-github.md
   - ../references/kepano-obsidian-minimal-github.md
   - ../references/kepano-obsidian-skills-github.md
+  - ../../raw/articles/Moysei/One evening of setup. A vault that files itself at 7 a.m., and a model that opens every.md
 ---
 
 # Summary
@@ -42,3 +43,4 @@ sources:
 - [kepano/obsidian-minimal（GitHub）](../references/kepano-obsidian-minimal-github.md)
 - [kepano/obsidian-skills（GitHub）](../references/kepano-obsidian-skills-github.md)
 - [yiya](./yiya.md)
+- [One evening of setup. A vault that files itself at 7 a.m., and a model that opens every](../../raw/articles/Moysei/One evening of setup. A vault that files itself at 7 a.m., and a model that opens every.md)

@@ -54,6 +54,26 @@ sources:
   - ../../../raw/articles/Rahul/I thought I was using AI to code.md
   - ../../../raw/articles/AI最严厉的父亲/2030年大预言：会用AI的人进入新贵族，不会用的人变成数字农奴.md
   - ../../../raw/articles/Movez/Claude Code creator－.md
+  - ../../../raw/articles/MIKE/How to Create Loops with Claude.md
+  - ../../../raw/articles/Rahul/How to build your first AI agent (Full guide).md
+  - ../../../raw/articles/Xiao Tan/ClaudeCode 你想知道的所有秘密，源码深度研究报告.md
+  - ../../../raw/articles/Codez/Anthropic just released 5 workshops on building self-improving agentic systems from.md
+  - ../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md
+  - ../../../raw/articles/Codez/Anthropic Managed Agents team－.md
+  - ../../../raw/articles/Anatoli Kopadze/AI Agents. What they are and how to Build Your Own Step by Step.md
+  - ../../../raw/articles/Codez/Most Claude Code users still write their workflows by hand. They chain prompts, copy.md
+  - ../../../raw/articles/Tw93/挺有趣，听朋友说我这几篇文章成为了现在 AI 岗位面试准备必读的文章，那我来汇总一下给大伙好啦，希望有帮助，当然也祝福最近从传统岗位工程师转型成 AI.md
+  - ../../../raw/articles/Archive/Most builders fight the loop. The loop is fine. The folder underneath isn't set up.md
+  - ../../../raw/articles/David Ondrej/Agentic Engineering Setup (after 2,000+ hours).md
+  - ../../../raw/articles/科技混子Chris/停止对Claude说'做这个'.md
+  - ../../../raw/articles/徐跑跑/整理了一份 AI 订阅跳楼价渠道合集.md
+  - ../../../raw/articles/Machina/How to master graph engineering (Full Course).md
+  - ../../../raw/articles/Google AI Developers/Introducing Gemini CLI, a light and powerful open-source AI agent that brings Gemini.md
+  - ../../../raw/articles/Tw93/你不知道的大模型训练：原理、路径与新实践.md
+  - ../../../raw/articles/宝玉/构建 Claude Code 的经验：我们如何使用 Skills【译】.md
+  - ../../../raw/articles/AI Edge/Claude Skills－ Ultimate Guide (March 2026).md
+  - ../../../raw/articles/Bill The Investor/有人为 Claude Code 提供了永久记忆功能，它在 48 小时内获得了 4.6 万颗星。单次会话的 Token 消耗减少了.md
+  - ../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md
 ---
 
 # Summary
@@ -100,3 +120,23 @@ sources:
 - [I thought I was using AI to code](../../../raw/articles/Rahul/I thought I was using AI to code.md)
 - [2030年大预言：会用AI的人进入新贵族，不会用的人变成数字农奴](../../../raw/articles/AI最严厉的父亲/2030年大预言：会用AI的人进入新贵族，不会用的人变成数字农奴.md)
 - [Claude Code creator－](../../../raw/articles/Movez/Claude Code creator－.md)
+- [How to Create Loops with Claude](../../../raw/articles/MIKE/How to Create Loops with Claude.md)
+- [How to build your first AI agent (Full guide)](../../../raw/articles/Rahul/How to build your first AI agent (Full guide).md)
+- [ClaudeCode 你想知道的所有秘密，源码深度研究报告](../../../raw/articles/Xiao Tan/ClaudeCode 你想知道的所有秘密，源码深度研究报告.md)
+- [Anthropic just released 5 workshops on building self-improving agentic systems from](../../../raw/articles/Codez/Anthropic just released 5 workshops on building self-improving agentic systems from.md)
+- [Stop Being the Loop. Here's How to Make Claude Work While You Sleep](../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md)
+- [Anthropic Managed Agents team－](../../../raw/articles/Codez/Anthropic Managed Agents team－.md)
+- [AI Agents. What they are and how to Build Your Own Step by Step](../../../raw/articles/Anatoli Kopadze/AI Agents. What they are and how to Build Your Own Step by Step.md)
+- [Most Claude Code users still write their workflows by hand. They chain prompts, copy](../../../raw/articles/Codez/Most Claude Code users still write their workflows by hand. They chain prompts, copy.md)
+- [挺有趣，听朋友说我这几篇文章成为了现在 AI 岗位面试准备必读的文章，那我来汇总一下给大伙好啦，希望有帮助，当然也祝福最近从传统岗位工程师转型成 AI](../../../raw/articles/Tw93/挺有趣，听朋友说我这几篇文章成为了现在 AI 岗位面试准备必读的文章，那我来汇总一下给大伙好啦，希望有帮助，当然也祝福最近从传统岗位工程师转型成 AI.md)
+- [Most builders fight the loop. The loop is fine. The folder underneath isn't set up](../../../raw/articles/Archive/Most builders fight the loop. The loop is fine. The folder underneath isn't set up.md)
+- [Agentic Engineering Setup (after 2,000+ hours)](../../../raw/articles/David Ondrej/Agentic Engineering Setup (after 2,000+ hours).md)
+- [停止对Claude说'做这个'](../../../raw/articles/科技混子Chris/停止对Claude说'做这个'.md)
+- [整理了一份 AI 订阅跳楼价渠道合集](../../../raw/articles/徐跑跑/整理了一份 AI 订阅跳楼价渠道合集.md)
+- [How to master graph engineering (Full Course)](../../../raw/articles/Machina/How to master graph engineering (Full Course).md)
+- [Introducing Gemini CLI, a light and powerful open-source AI agent that brings Gemini](../../../raw/articles/Google AI Developers/Introducing Gemini CLI, a light and powerful open-source AI agent that brings Gemini.md)
+- [你不知道的大模型训练：原理、路径与新实践](../../../raw/articles/Tw93/你不知道的大模型训练：原理、路径与新实践.md)
+- [构建 Claude Code 的经验：我们如何使用 Skills【译】](../../../raw/articles/宝玉/构建 Claude Code 的经验：我们如何使用 Skills【译】.md)
+- [Claude Skills－ Ultimate Guide (March 2026)](../../../raw/articles/AI Edge/Claude Skills－ Ultimate Guide (March 2026).md)
+- [有人为 Claude Code 提供了永久记忆功能，它在 48 小时内获得了 4.6 万颗星。单次会话的 Token 消耗减少了](../../../raw/articles/Bill The Investor/有人为 Claude Code 提供了永久记忆功能，它在 48 小时内获得了 4.6 万颗星。单次会话的 Token 消耗减少了.md)
+- [Loop Engineering－ The AI skill every builder needs in 2026](../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md)

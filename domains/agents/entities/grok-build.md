@@ -14,6 +14,7 @@ related:
   - xiaoshan-xuetang
 sources:
   - ../references/grok-build-site.md
+  - ../../../raw/articles/SpaceXAI/We've open-sourced Grok Build and have reset usage limits for all users.md
 ---
 
 # Summary
@@ -30,3 +31,4 @@ sources:
 - [oh-my-pi](./oh-my-pi.md)
 - [mena](./mena.md)
 - [小山学堂](./xiaoshan-xuetang.md)
+- [We've open-sourced Grok Build and have reset usage limits for all users](../../../raw/articles/SpaceXAI/We've open-sourced Grok Build and have reset usage limits for all users.md)

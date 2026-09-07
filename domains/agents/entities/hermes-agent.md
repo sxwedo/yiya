@@ -13,6 +13,8 @@ related:
 sources:
   - ../references/nousresearch-hermes-agent-github.md
   - ../references/alchaincyf-hermes-agent-orange-book-github.md
+  - ../../../raw/articles/Teknium 🪽/Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and.md
+  - ../../../raw/articles/岚叔/上手 Hermes Agent 后建议先尝试的十件事情.md
 ---
 
 # Summary
@@ -25,3 +27,5 @@ sources:
 - [alchaincyf/hermes-agent-orange-book（GitHub）](../references/alchaincyf-hermes-agent-orange-book-github.md)
 - [Pi](./pi.md)
 - [Grok Build](./grok-build.md)
+- [Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and](../../../raw/articles/Teknium 🪽/Hermes Agent now comes packaged with Karpathy's LLM-Wiki for creating knowledgebases and.md)
+- [上手 Hermes Agent 后建议先尝试的十件事情](../../../raw/articles/岚叔/上手 Hermes Agent 后建议先尝试的十件事情.md)

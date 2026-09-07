@@ -10,6 +10,7 @@ related:
   - mcp
 sources:
   - ../references/panniantong-agent-reach-github.md
+  - ../../../raw/articles/向阳乔木/劝一句：龙虾越火，越应该研究Skill，千万别跑偏！附送乔帮主精选Skills.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 
 - [Panniantong/Agent-Reach（GitHub）](../references/panniantong-agent-reach-github.md)
 - [Model Context Protocol (MCP)](./mcp.md)
+- [劝一句：龙虾越火，越应该研究Skill，千万别跑偏！附送乔帮主精选Skills](../../../raw/articles/向阳乔木/劝一句：龙虾越火，越应该研究Skill，千万别跑偏！附送乔帮主精选Skills.md)

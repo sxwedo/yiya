@@ -24,6 +24,7 @@ sources:
   - ../../../raw/articles/ClaudeDevs/MCP 2026-07-28 is live and it's the largest update to the protocol since launch.md
   - ../../../raw/articles/Khairallah AL-Awady/Every solo founder hits the same wall.md
   - ../../../raw/articles/宝玉/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md
+  - ../../../raw/articles/Suryansh Tiwari/Claude Code feels completely different once you install this.md
 ---
 
 # Summary
@@ -50,3 +51,4 @@ sources:
 - [MCP 2026-07-28 is live and it's the largest update to the protocol since launch](../../../raw/articles/ClaudeDevs/MCP 2026-07-28 is live and it's the largest update to the protocol since launch.md)
 - [Every solo founder hits the same wall](../../../raw/articles/Khairallah AL-Awady/Every solo founder hits the same wall.md)
 - [来自 Codex 官方团队的分享：如何把 Codex 用到极致](../../../raw/articles/宝玉/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md)
+- [Claude Code feels completely different once you install this](../../../raw/articles/Suryansh Tiwari/Claude Code feels completely different once you install this.md)

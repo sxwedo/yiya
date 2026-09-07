@@ -18,6 +18,11 @@ sources:
   - ../../raw/articles/Raytar/Andrej Karpathy joined Anthropic five weeks ago.md
   - ../../raw/articles/Avi Chawla/Karpathy said something you'll regret ignoring－.md
   - ../../raw/articles/Andrej Karpathy/Fireside chat at Sequoia Ascent 2026 from a －~week ago. Some highlights－.md
+  - ../../raw/articles/Hanako/KARPATHY JUST KILLED THE PROMPT ERA WITH A SINGLE DOCUMENT.md
+  - ../../raw/articles/Codez/Andrej Karpathy just dropped a 6-hour course on how to build LLMs from scratch－.md
+  - ../../raw/articles/金尘马/一文讲清楚，普通人和中小企业如何搭建AI知识库.md
+  - ../../raw/articles/Mr. Buzzoni/KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE.md
+  - ../../raw/articles/Charly Wargnier ♨️/🚨 @Karpathy predicted the power of the －－LLM Wiki.－－ Google just formalized it.md
 ---
 
 # Summary
@@ -37,3 +42,8 @@ sources:
 - [Andrej Karpathy joined Anthropic five weeks ago](../../raw/articles/Raytar/Andrej Karpathy joined Anthropic five weeks ago.md)
 - [Karpathy said something you'll regret ignoring－](../../raw/articles/Avi Chawla/Karpathy said something you'll regret ignoring－.md)
 - [Fireside chat at Sequoia Ascent 2026 from a －~week ago. Some highlights－](../../raw/articles/Andrej Karpathy/Fireside chat at Sequoia Ascent 2026 from a －~week ago. Some highlights－.md)
+- [KARPATHY JUST KILLED THE PROMPT ERA WITH A SINGLE DOCUMENT](../../raw/articles/Hanako/KARPATHY JUST KILLED THE PROMPT ERA WITH A SINGLE DOCUMENT.md)
+- [Andrej Karpathy just dropped a 6-hour course on how to build LLMs from scratch－](../../raw/articles/Codez/Andrej Karpathy just dropped a 6-hour course on how to build LLMs from scratch－.md)
+- [一文讲清楚，普通人和中小企业如何搭建AI知识库](../../raw/articles/金尘马/一文讲清楚，普通人和中小企业如何搭建AI知识库.md)
+- [KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE](../../raw/articles/Mr. Buzzoni/KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE.md)
+- [🚨 @Karpathy predicted the power of the －－LLM Wiki.－－ Google just formalized it](../../raw/articles/Charly Wargnier ♨️/🚨 @Karpathy predicted the power of the －－LLM Wiki.－－ Google just formalized it.md)

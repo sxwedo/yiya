@@ -28,6 +28,18 @@ sources:
   - ../../../raw/articles/Ernesto Lopez/Vibe coding without sending this prompt first, is a waste of time.md
   - ../../../raw/articles/Khairallah AL-Awady/How To Become An AI Engineer in 2026 (Without a CS Degree).md
   - ../../../raw/articles/Matt Pocock/Steps to become a senior programmer－.md
+  - ../../../raw/articles/花叔/98页的🦞OpenClaw橙皮书👉[my.feishu.cn－wiki－H27Iw9uss…](https－－－my.feishu.cn－wiki－H27Iw9ussiaYboky.md
+  - ../../../raw/articles/Charly Wargnier ♨️/🚨 You need to see this.md
+  - ../../../raw/articles/奶昔🥤/最近几天看到很多网友在说梯子崩了…….md
+  - ../../../raw/articles/苍何/《OpenClaw 从入门到精通指南》正式发布，开源免费！.md
+  - ../../../raw/articles/Akshay 🚀/Loop Engineering Clearly Explained.md
+  - ../../../raw/articles/天策/《国行 iPhone → 开启满血 AI，全图文流程X平台首发版》——闲鱼小红书副业赚钱版.md
+  - ../../../raw/articles/Mengke Wang/成就伟大之前，先学会卖东西.md
+  - ../../../raw/articles/风清扬/马老板开始招聘了，可兼职可全职，感觉比全职工资都高，内容也很简单，帮助训练ai.md
+  - ../../../raw/articles/歸藏(guizang.ai)/开源个 Skill｜彻底解决小红、小绿书配图难题.md
+  - ../../../raw/articles/Aron厚玉/不用吃二手的屎.md
+  - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
+  - ../../../raw/articles/AI探路者Tim/停止对Gemini说'帮我写简历'。.md
 ---
 
 # Definition
@@ -65,3 +77,15 @@ sources:
 - [Vibe coding without sending this prompt first, is a waste of time](../../../raw/articles/Ernesto Lopez/Vibe coding without sending this prompt first, is a waste of time.md)
 - [How To Become An AI Engineer in 2026 (Without a CS Degree)](../../../raw/articles/Khairallah AL-Awady/How To Become An AI Engineer in 2026 (Without a CS Degree).md)
 - [Steps to become a senior programmer－](../../../raw/articles/Matt Pocock/Steps to become a senior programmer－.md)
+- [98页的🦞OpenClaw橙皮书👉[my.feishu.cn－wiki－H27Iw9uss…](https－－－my.feishu.cn－wiki－H27Iw9ussiaYboky](../../../raw/articles/花叔/98页的🦞OpenClaw橙皮书👉[my.feishu.cn－wiki－H27Iw9uss…](https－－－my.feishu.cn－wiki－H27Iw9ussiaYboky.md)
+- [🚨 You need to see this](../../../raw/articles/Charly Wargnier ♨️/🚨 You need to see this.md)
+- [最近几天看到很多网友在说梯子崩了……](../../../raw/articles/奶昔🥤/最近几天看到很多网友在说梯子崩了…….md)
+- [《OpenClaw 从入门到精通指南》正式发布，开源免费！](../../../raw/articles/苍何/《OpenClaw 从入门到精通指南》正式发布，开源免费！.md)
+- [Loop Engineering Clearly Explained](../../../raw/articles/Akshay 🚀/Loop Engineering Clearly Explained.md)
+- [《国行 iPhone → 开启满血 AI，全图文流程X平台首发版》——闲鱼小红书副业赚钱版](../../../raw/articles/天策/《国行 iPhone → 开启满血 AI，全图文流程X平台首发版》——闲鱼小红书副业赚钱版.md)
+- [成就伟大之前，先学会卖东西](../../../raw/articles/Mengke Wang/成就伟大之前，先学会卖东西.md)
+- [马老板开始招聘了，可兼职可全职，感觉比全职工资都高，内容也很简单，帮助训练ai](../../../raw/articles/风清扬/马老板开始招聘了，可兼职可全职，感觉比全职工资都高，内容也很简单，帮助训练ai.md)
+- [开源个 Skill｜彻底解决小红、小绿书配图难题](../../../raw/articles/歸藏(guizang.ai)/开源个 Skill｜彻底解决小红、小绿书配图难题.md)
+- [不用吃二手的屎](../../../raw/articles/Aron厚玉/不用吃二手的屎.md)
+- [You check every step your agents take. Not because you want to, but because nothing else](../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md)
+- [停止对Gemini说'帮我写简历'。](../../../raw/articles/AI探路者Tim/停止对Gemini说'帮我写简历'。.md)

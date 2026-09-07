@@ -10,6 +10,7 @@ related:
   - mineru
 sources:
   - ../references/unclecode-crawl4ai-github.md
+  - ../../../raw/articles/露西的百宝箱/10个GitHub仓库帮你爬取整个互联网.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 
 - [unclecode/crawl4ai（GitHub）](../references/unclecode-crawl4ai-github.md)
 - [MinerU](./mineru.md)
+- [10个GitHub仓库帮你爬取整个互联网](../../../raw/articles/露西的百宝箱/10个GitHub仓库帮你爬取整个互联网.md)

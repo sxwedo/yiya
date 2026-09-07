@@ -10,6 +10,7 @@ related:
   - docker
 sources:
   - ../references/nginx-nginx-github.md
+  - ../../../raw/articles/Oxye漆华/关于VPN搭建.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 
 - [nginx/nginx（GitHub）](../references/nginx-nginx-github.md)
 - [Docker](./docker.md)
+- [关于VPN搭建](../../../raw/articles/Oxye漆华/关于VPN搭建.md)

@@ -1,6 +1,7 @@
 # 工程与可维护性 — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | X 书签 (58–108/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (1–57/584) 成功 56 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | sxwedo GitHub 星标 148 仓 → `raw/bookmarks/github.md`；本域新建 Entity 55、挂已有 1（各一条 GitHub Reference）。
 * **2026-09-07 ingest** | [gitignore.io](https://www.toptal.com/developers/gitignore) → 已有 Entity [github/gitignore](./entities/gitignore.md) + Reference [工具](./references/gitignore-io.md)（`tools.md`）。不开第二张产品卡。
