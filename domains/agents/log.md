@@ -1,6 +1,7 @@
 # Agent 与 Grok Bot — Log
 
 ## 2026-09-06
+- 2026-09-07：记录自主调研 TODO（梦境 + 外探），见 `raw/_inbox/research/TODO.md`；未实现
 - 2026-09-06：废除 `raw-manifest.yaml`；查重靠 raw `url:`，认领靠知识页链 raw
 * **Update**: raw 成文按作者分目录 `articles/<作者>/<人话标题>.md`；`_media/` 保持顶层；正文链接改为 `../_media/`；同步 manifest / Reference resource / AGENTS / ingest skill。
 * **Update**: raw 层改为扁平 `articles/<人话标题>.md` + `bookmarks/` 列表；去掉 `library/YYYY/MM` 与 per-bookmark stub。
