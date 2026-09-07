@@ -18,7 +18,6 @@ related:
 - **为什么收藏**：Agent/工具集成的标准入口；对照本机 MCP 注册与各 harness 能力扩展。
 - **何时用**：查协议概念、建 server/client、生态客户端列表。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://modelcontextprotocol.io/
-- **未灌站**：书签型，无整站正文。
 
 ## Related
 

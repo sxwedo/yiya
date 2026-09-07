@@ -2,10 +2,10 @@
 
 ## 2026-09-07
 * **2026-09-07 schema** | 文档书签迁 `raw/bookmarks/docs.md`；[LangChain Docs](./references/langchain-docs.md) 单独 Reference，产品站仍 [langchain-site](./references/langchain-site.md)。
-* **2026-09-07 ingest** | [LangChain Docs](https://docs.langchain.com/) → 已有 Entity [LangChain](./entities/langchain.md)，只补书签行与 [站点](./references/langchain-site.md) 深链（docs 根，未灌树、未新开卡）。结构体检：无新 Domain。
-* **2026-09-07 ingest** | [AGENTS.md](https://agents.md/) → Entity [AGENTS.md](./entities/agents-md.md) + Reference [站点](./references/agents-md-site.md)（书签，未灌站）；改 [Pi](./entities/pi.md)、[Coding Agent Workflow](./concepts/coding-agent-workflow.md)、[Multi-Harness Control Plane](./concepts/multi-harness-control-plane.md)，链 [LLM Wiki](../../shared/concepts/llm-wiki.md)。结构体检：无新 Domain。
-* **2026-09-07 ingest** | [Code Wiki](https://codewiki.google/) → Entity [Code Wiki](./entities/code-wiki.md) + Reference [站点](./references/code-wiki-site.md)（书签，未灌站）；改 [Zread](./entities/zread.md)、[GitMCP](./entities/gitmcp.md)，链 [LLM Wiki](../../shared/concepts/llm-wiki.md)。结构体检：无新 Domain。
-* **2026-09-07 ingest** | [Zread](https://zread.ai/) → Entity [Zread](./entities/zread.md) + Reference [站点](./references/zread-site.md)（书签，未灌站）；改 [GitMCP](./entities/gitmcp.md)，链 [LLM Wiki](../../shared/concepts/llm-wiki.md)。结构体检：无新 Domain。
+* **2026-09-07 ingest** | [LangChain Docs](https://docs.langchain.com/) → 已有 Entity [LangChain](./entities/langchain.md)，只补书签行与 [站点](./references/langchain-site.md) 深链。
+* **2026-09-07 ingest** | [AGENTS.md](https://agents.md/) → Entity [AGENTS.md](./entities/agents-md.md) + Reference [站点](./references/agents-md-site.md)；改 [Pi](./entities/pi.md)、[Coding Agent Workflow](./concepts/coding-agent-workflow.md)、[Multi-Harness Control Plane](./concepts/multi-harness-control-plane.md)，链 [LLM Wiki](../../shared/concepts/llm-wiki.md)。
+* **2026-09-07 ingest** | [Code Wiki](https://codewiki.google/) → Entity [Code Wiki](./entities/code-wiki.md) + Reference [站点](./references/code-wiki-site.md)；改 [Zread](./entities/zread.md)、[GitMCP](./entities/gitmcp.md)，链 [LLM Wiki](../../shared/concepts/llm-wiki.md)。
+* **2026-09-07 ingest** | [Zread](https://zread.ai/) → Entity [Zread](./entities/zread.md) + Reference [站点](./references/zread-site.md)；改 [GitMCP](./entities/gitmcp.md)，链 [LLM Wiki](../../shared/concepts/llm-wiki.md)。
 * **2026-09-07 schema** | overview 拓宽（MCP/运行面/学院）；Trendshift 标外探源；WikiSkill↔LLM Wiki；LangChain↔MCP；检索质量↔排序表征；记忆簇互补 sources。标题改为 Agent 与 harness。
 * **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话；overview 实体表与目录对齐（11 个 Entity）。
 
@@ -42,10 +42,10 @@
 * **Bookmark**: [Claude Academy](./entities/claude-academy.md) ← sites.md (2026-09-06).
 * **Ingest**: [万字长文｜Grok Bot 从入门到精通](./references/jinchenma-grok-bot-guide.md) → [Role-first Agent](./concepts/role-first-agent.md) + Entity Grok Bot (2026-09-06).
 * **Bookmark**: [Pi（官网）](./references/pi-dev-site.md) → sites.md / Entity Pi (2026-09-06).
-* **Ingest**: [Multi-Harness Control Plane](./concepts/multi-harness-control-plane.md) ← Smartpig raw（直链，无 Reference）(2026-09-06). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [Omarchy](./entities/omarchy.md) + [站点 Ref](./references/omarchy-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [MCP](./entities/mcp.md) + [站点 Ref](./references/mcp-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [GitMCP](./entities/gitmcp.md) + [站点 Ref](./references/gitmcp-site.md) ← `raw/bookmarks/sites.md`（挂 MCP；未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [FastMCP](./entities/fastmcp.md) + [站点 Ref](./references/fastmcp-site.md) ← `raw/bookmarks/sites.md`（挂 MCP；未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [LangChain](./entities/langchain.md) + [站点 Ref](./references/langchain-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-07). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [Trendshift](./entities/trendshift.md) + [站点 Ref](./references/trendshift-site.md) ← `raw/bookmarks/sites.md`（未灌站；可作外探源）(2026-09-07). 结构体检：无新 Domain/约定改动。
+* **Ingest**: [Multi-Harness Control Plane](./concepts/multi-harness-control-plane.md) ← Smartpig raw（直链，无 Reference）(2026-09-06).
+* **Bookmark**: [Omarchy](./entities/omarchy.md) + [站点 Ref](./references/omarchy-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).
+* **Bookmark**: [MCP](./entities/mcp.md) + [站点 Ref](./references/mcp-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).
+* **Bookmark**: [GitMCP](./entities/gitmcp.md) + [站点 Ref](./references/gitmcp-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).
+* **Bookmark**: [FastMCP](./entities/fastmcp.md) + [站点 Ref](./references/fastmcp-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).
+* **Bookmark**: [LangChain](./entities/langchain.md) + [站点 Ref](./references/langchain-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).
+* **Bookmark**: [Trendshift](./entities/trendshift.md) + [站点 Ref](./references/trendshift-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).

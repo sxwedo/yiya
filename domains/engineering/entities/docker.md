@@ -13,7 +13,7 @@ sources:
 
 # Summary
 
-**Docker** 是容器平台（引擎、镜像、Compose、Desktop、Build）。本库先收产品本身；官方文档门户为 https://docs.docker.com/ ，具体指南等有单篇 URL 再成文。
+**Docker** 是容器平台（引擎、镜像、Compose、Desktop、Build）。官方文档：https://docs.docker.com/ 。
 
 定位：工程运行时与交付工具，不是编码代理 harness。
 

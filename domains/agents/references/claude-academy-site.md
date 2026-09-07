@@ -19,7 +19,6 @@ related:
 - **为什么收藏**：Anthropic 官方学习入口，后续对照 Claude Code / Platform 能力与课程用。
 - **何时用**：找官方课、产品线总览、AI Fluency 框架时。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://academy.claude.com
-- **未灌站**：书签型，无整站正文。
 
 ## Related
 

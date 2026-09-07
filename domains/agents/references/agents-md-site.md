@@ -18,7 +18,6 @@ related:
 - **为什么收藏**：编码代理常驻上下文的共同文件名；对照本库根 `AGENTS.md` 与各 harness 的 CLAUDE.md 等变体。
 - **何时用**：写/核对仓内 Agent 约定、看哪些工具认这份文件。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://agents.md/
-- **未灌站**：规范首页书签，无整站正文。
 
 ## Related
 

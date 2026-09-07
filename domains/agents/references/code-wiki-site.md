@@ -19,7 +19,6 @@ related:
 - **何时用**：读公开 GitHub 仓的生成文档、对照架构图、或问该仓。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://codewiki.google/
 - **常用深链**：`https://codewiki.google/github.com/<owner>/<repo>` · https://codewiki.google/faq
-- **未灌站**：产品首页书签，无整站正文。
 
 ## Related
 

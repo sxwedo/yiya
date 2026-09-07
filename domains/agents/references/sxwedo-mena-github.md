@@ -19,7 +19,6 @@ related:
 - **为什么收藏**：自用/自研的本机编码代理启动与巡检工具；对接多 provider 会话、Skills、MCP。
 - **何时用**：装/升级 mena、查命令与安全模型、对照各 agent 的 launch/session 能力时。
 - **raw**：收入 `raw/bookmarks/github.md`；原文 URL https://github.com/sxwedo/mena
-- **未灌仓**：书签型，无整仓正文。
 
 ## Related
 

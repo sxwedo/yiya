@@ -16,7 +16,7 @@ sources:
 
 # Summary
 
-**Code Wiki**（https://codewiki.google/）是 Google 用 Gemini 给公开 GitHub 仓编的交互文档：自然语言摘要、架构图、链回源码，以及「问这个仓」的对话（上下文是这份 wiki，不是泛聊天）。公开预览免费。直达：`codewiki.google/github.com/owner/repo`。私有仓/Gemini CLI 扩展另开，本库先收站点。
+**Code Wiki**（https://codewiki.google/）是 Google 用 Gemini 给公开 GitHub 仓编的交互文档：自然语言摘要、架构图、链回源码，以及「问这个仓」的对话（上下文是这份 wiki，不是泛聊天）。公开预览免费。直达：`codewiki.google/github.com/owner/repo`。
 
 定位：仓 → **持续更新的代码 Wiki**，不是 harness。同簇 [Zread](./zread.md) 也是仓 → 项目 Wiki（智谱；地址栏换域）；[GitMCP](./gitmcp.md) 是仓 → MCP。个人知识编译见 [LLM Wiki](../../../shared/concepts/llm-wiki.md)。
 

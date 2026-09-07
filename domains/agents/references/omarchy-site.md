@@ -18,7 +18,6 @@ related:
 - **为什么收藏**：Agentic Linux 桌面总入口；对照本机多 harness / Pi / oh-my-pi 运行环境。
 - **何时用**：查安装、AI/agent 手册、默认 skill 与启动器约定。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://omarchy.org
-- **未灌站**：书签型，无整站正文。
 - 深链参考：https://omarchy.org/manual/ai/
 
 ## Related

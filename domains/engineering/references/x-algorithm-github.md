@@ -18,7 +18,6 @@ related:
 - **为什么收藏**：x-algorithm 实体对应的上游仓库；看源码、Issue、README 时从这里进。
 - **何时用**：核对召回/多动作预测/排序实现；解读文章仍看 [X 的推荐算法…](./bright-ospo-x-algorithm.md)。
 - **raw**：收入 `raw/bookmarks/github.md` 表格；原文 URL https://github.com/xai-org/x-algorithm
-- **未灌仓**：书签型，无整仓正文。
 
 ## Related
 

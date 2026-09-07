@@ -2,11 +2,11 @@
 
 ## 2026-09-07
 * **2026-09-07 schema** | [Docker Docs](./references/docker-docs.md) 的 `resource` 改指向 `raw/bookmarks/docs.md`（文档门户不再进 sites.md）。
-* **2026-09-07 ingest** | [Ghostty](https://ghostty.org/) → Entity [Ghostty](./entities/ghostty.md) + Reference [站点](./references/ghostty-site.md)（书签，未灌站）；链 [Starship](./entities/starship.md)。overview 收补终端模拟器。结构体检：无新 Domain。
-* **2026-09-07 ingest** | [Starship](https://starship.rs/) → Entity [Starship](./entities/starship.md) + Reference [站点](./references/starship-site.md)（书签，未灌站）。overview 收补跨 shell 提示符。结构体检：无新 Domain。
+* **2026-09-07 ingest** | [Ghostty](https://ghostty.org/) → Entity [Ghostty](./entities/ghostty.md) + Reference [站点](./references/ghostty-site.md)；链 [Starship](./entities/starship.md)。overview 收补终端模拟器。
+* **2026-09-07 ingest** | [Starship](https://starship.rs/) → Entity [Starship](./entities/starship.md) + Reference [站点](./references/starship-site.md)。overview 收补跨 shell 提示符。
 * **2026-09-07 schema** | overview 补工程运行时/仓库卫生；怎么逛改先 entities；补 [x-algorithm GitHub 书签](./references/x-algorithm-github.md)；Semantic Service↔MCP；排序表征↔检索质量。
-* **2026-09-07 ingest** | [Docker Docs](https://docs.docker.com/) → Entity [Docker](./entities/docker.md) + Reference [Docs](./references/docker-docs.md)（docs 根书签，未灌站）。结构体检：无新 Domain。
-* **2026-09-07 ingest** | [github/gitignore](https://github.com/github/gitignore) → Entity [github/gitignore](./entities/gitignore.md) + Reference [GitHub](./references/github-gitignore.md)（书签，未灌仓）。结构体检：无新 Domain/约定改动。
+* **2026-09-07 ingest** | [Docker Docs](https://docs.docker.com/) → Entity [Docker](./entities/docker.md) + Reference [Docs](./references/docker-docs.md)。
+* **2026-09-07 ingest** | [github/gitignore](https://github.com/github/gitignore) → Entity [github/gitignore](./entities/gitignore.md) + Reference [GitHub](./references/github-gitignore.md)。
 * **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话。
 
 ## 2026-09-06

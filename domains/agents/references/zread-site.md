@@ -19,7 +19,6 @@ related:
 - **何时用**：读陌生 GitHub 仓、看生成 Wiki、或把地址栏 `github.com` 换成 `zread.ai`。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://zread.ai/
 - **常用深链**：公开仓 `https://zread.ai/<user>/<repo>`（对应 `github.com/<user>/<repo>`）
-- **未灌站**：产品首页书签，无整站正文。
 
 ## Related
 

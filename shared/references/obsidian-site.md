@@ -19,7 +19,6 @@ related:
 - **何时用**：装客户端、查官方能力；wiki 怎么养仍看 [LLM Wiki](../concepts/llm-wiki.md)。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://obsidian.md/
 - **常用深链**：https://help.obsidian.md/ · https://obsidian.md/download · https://obsidian.md/clipper
-- **未灌站**：产品首页书签，无整站正文。
 
 ## Related
 

@@ -16,7 +16,7 @@ sources:
 
 # Summary
 
-**Zread**（https://zread.ai/）用 LLM 读公开 GitHub 仓，生成可浏览、可问答的项目 Wiki（架构、模块、依赖）。快捷方式：把 `github.com` 换成 `zread.ai`。另有本地 CLI（`zread generate`，文档落在 `.zread/wiki/`），本库先收站点入口。
+**Zread**（https://zread.ai/）用 LLM 读公开 GitHub 仓，生成可浏览、可问答的项目 Wiki（架构、模块、依赖）。快捷方式：把 `github.com` 换成 `zread.ai`。另有本地 CLI（`zread generate`，文档落在 `.zread/wiki/`）。
 
 定位：仓 → **给人/Agent 读的代码 Wiki**，不是 harness。同簇还有 Google [Code Wiki](./code-wiki.md)（Gemini，提交后更新；`codewiki.google/github.com/…`）。「给仓加可读上下文」另见 [GitMCP](./gitmcp.md)（仓 → MCP）。个人知识编译见 [LLM Wiki](../../../shared/concepts/llm-wiki.md)。
 

@@ -18,7 +18,6 @@ related:
 - **为什么收藏**：外探/热榜候选源；比官方 Trending 更偏「上升动量」。
 - **何时用**：扫当日热仓、挑可入库候选（仍须你点头再 ingest）。
 - **raw**：收入 `raw/bookmarks/sites.md` 表格；原文 URL https://trendshift.io
-- **未灌站**：书签型，无整站正文。
 
 ## Related
 

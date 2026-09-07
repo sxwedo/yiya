@@ -18,7 +18,6 @@ related:
 - **为什么收藏**：官方、按语言/框架可查的忽略规则总表，开新仓或补 `.gitignore` 时从这里抄。
 - **何时用**：对某语言/工具的默认忽略项、或核对社区模板是否已晋升。
 - **raw**：收入 `raw/bookmarks/github.md` 表格；原文 URL https://github.com/github/gitignore
-- **未灌站**：书签型，无整仓正文。
 
 ## Related
 
