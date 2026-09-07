@@ -13,8 +13,10 @@ related:
   - raft
   - puffo
   - multi-harness-control-plane
+  - herdrdev-herdr-github
 sources:
   - ../references/herdr-site.md
+  - ../references/herdrdev-herdr-github.md
 ---
 
 # Summary
@@ -32,3 +34,4 @@ sources:
 - [Raft](./raft.md)
 - [Puffo](./puffo.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
+- [herdrdev/herdr（GitHub）](../references/herdrdev-herdr-github.md)

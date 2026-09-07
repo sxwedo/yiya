@@ -1,6 +1,7 @@
 # Agent 与 harness — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | sxwedo GitHub 星标 148 仓 → `raw/bookmarks/github.md`；本域新建 Entity 45、挂已有 31（各一条 GitHub Reference）。
 * **2026-09-07 ingest** | [UseGrokBot](https://usegrokbot.com/zh-cn) → 已有 Entity [Grok Bot](./entities/grok-bot.md) + Reference [站点](./references/usegrokbot-site.md)；链 [Role-first Agent](./concepts/role-first-agent.md)。不开第二张产品卡。
 * **2026-09-07 ingest** | 链 [Pilot Protocol](./entities/pilot-protocol.md) 到 [Tailscale](../engineering/entities/tailscale.md)（Agent overlay vs 设备 mesh VPN）。
 * **2026-09-07 ingest** | [Puffo](https://beta.puffo.ai/) → Entity [Puffo](./entities/puffo.md) + Reference [站点](./references/puffo-site.md)；链 [Raft](./entities/raft.md)、[Grok Bot](./entities/grok-bot.md)、[Herdr](./entities/herdr.md)。

@@ -24,3 +24,48 @@
 * [skills.sh](./skills-sh.md) — Vercel 的 Agent Skills 开放目录与 CLI：按安装量浏览技能包，用 npx skills 装进多家编码代理。
 * [Trendshift](./trendshift.md) — GitHub 仓库实时动量榜：在上升期捕捉趋势，而非峰值之后；定位为 GitHub Trending 的替代入口。
 * [Zread](./zread.md) — 把 GitHub 仓编译成结构化项目 Wiki：架构图、模块说明、文档内问答；地址栏 github.com 换成 zread.ai 即开。
+* [Obelisk](./obelisk.md) — 编码代理历史会话 / 子代理 / 工作流可查询
+* [Ruflo](./ruflo.md) — 多智能体 swarm 的 meta-harness
+* [DeepSeek Harness](./deepseek-harness.md) — DeepSeek 官方 harness：一切皆插件
+* [AgentsView](./agentsview.md) — 编码代理会话检索、分析与 token 统计
+* [TeamAI CLI](./teamai-cli.md) — 腾讯团队 AI Native CLI
+* [TencentDB Agent Memory](./tencentdb-agent-memory.md) — 团队级 Agent 记忆中枢
+* [Graphify](./graphify.md) — 代码 / 文档 / SQL / PDF → 可查询知识图谱
+* [MemPalace](./mempalace.md) — 开源 AI 记忆系统
+* [Hermes Agent](./hermes-agent.md) — Nous Research 开源 Agent：随使用生长
+* [Ralph](./ralph.md) — 按 PRD 反复跑直到条目完成的自主循环
+* [cc-connect](./cc-connect.md) — 本机编码代理桥接到即时通讯
+* [Open Design](./open-design.md) — DeepSeek Harness 设计插件；开源 Claude Design 替代
+* [Horizon](./horizon.md) — AI 新闻雷达，中英日报
+* [OpenSpec](./openspec.md) — 面向编码助手的规格驱动开发
+* [OpenCLI](./opencli.md) — 网站变 CLI，Agent 复用已登录浏览器
+* [从零开始构建智能体](./hello-agents.md) — Datawhale Agent 原理与实践教程
+* [GitNexus](./gitnexus.md) — 零服务器、客户端代码智能引擎
+* [gnhf](./gnhf.md) — 睡前把任务交给 agent 过夜跑
+* [CodeGraph](./codegraph.md) — 预索引代码知识图谱，给 Claude Code / Codex / Gemini 用
+* [Understand Anything](./understand-anything.md) — 代码 → 可交互知识图谱
+* [easy-vibe](./easy-vibe.md) — Datawhale vibe coding 入门课
+* [Agentic Design Patterns](./agentic-design-patterns.md) — Gulli 的 Agent 模式书与笔记
+* [Trellis](./trellis.md) — Agent harness
+* [Langflow](./langflow.md) — 可视化构建并部署 Agent 工作流
+* [Agent Zero](./agent-zero.md) — 开源 Agent 框架
+* [OpenSquilla](./opensquilla.md) — 同预算更高智能密度的 token 高效 Agent
+* [Composio](./composio.md) — Agent 工具包、检索、鉴权与沙箱
+* [Distilly](./distilly.md) — 把思维方式蒸馏成可复用 Skills
+* [ECC](./ecc.md) — harness 性能优化：skills / instincts / memory / security
+* [cc-switch](./cc-switch.md) — Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手
+* [Gemini CLI](./gemini-cli.md) — Gemini 官方终端 Agent
+* [Crawl4AI](./crawl4ai.md) — 面向 LLM 的开源爬虫
+* [llm-universe](./llm-universe.md) — Datawhale 大模型应用开发教程
+* [Paseo](./paseo.md) — 桌面 / 手机编排多个编码代理
+* [深入理解 AI Agent](./ai-agent-book.md) — 李博杰：Agent 设计原理与工程实践
+* [OpenWorker](./openworker.md) — 桌面 AI 同事：交付成品而非聊天
+* [OpenMinis](./openminis.md) — 跨平台开源 AI Agent 应用
+* [PraisonAI](./praisonai.md) — 编排 24/7 AI 劳动力
+* [AI 产品从入门到精通](./learn-ai.md) — 面向 AI 产品经理的培训课
+* [Agent-Reach](./agent-reach.md) — 给 Agent 读 / 搜 Twitter、Reddit、YouTube
+* [Open Code Review](./open-code-review.md) — 阿里混部代码评审
+* [Codex](./codex.md) — OpenAI 终端轻量编码代理
+* [Orca](./orca.md) — 并行 agent 舰队的 ADE
+* [CLI-Anything](./cli-anything.md) — 让任意软件变成 Agent-native CLI
+* [Foundations of LLMs](./foundations-of-llms.md) — 浙大 LLM 基础教材

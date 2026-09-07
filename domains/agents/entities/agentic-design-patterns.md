@@ -1,0 +1,22 @@
+---
+type: Entity
+title: "Agentic Design Patterns"
+description: "Gulli 的 Agent 模式书与笔记"
+status: draft
+domain: agents
+generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
+related:
+  - evoiz-agentic-design-patterns-github
+  - hello-agents
+sources:
+  - ../references/evoiz-agentic-design-patterns-github.md
+---
+
+# Summary
+
+**Agentic Design Patterns** 的上游仓库是 [evoiz/Agentic-Design-Patterns](https://github.com/evoiz/Agentic-Design-Patterns)。Gulli 的 Agent 模式书与笔记。
+
+## Related
+
+- [evoiz/Agentic-Design-Patterns（GitHub）](../references/evoiz-agentic-design-patterns-github.md)
+- [从零开始构建智能体](./hello-agents.md)

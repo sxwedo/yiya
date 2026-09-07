@@ -27,6 +27,13 @@ sources: []
 - [Grokipedia](./entities/grokipedia.md)
 - [Hacker News](./entities/hacker-news.md)
 - [Obsidian](./entities/obsidian.md)
+- [yiya](./entities/yiya.md)
+- [llmwiki](./entities/llmwiki.md)
+- [科技爱好者周刊](./entities/ruanyf-weekly.md)
+- [史记知识库](./entities/shiji-kb.md)
+- [HelloGitHub](./entities/hellogithub.md)
+- [awesome](./entities/awesome.md)
+- [Github Ranking](./entities/github-ranking.md)
 
 ## 跨域纲领
 
@@ -35,7 +42,7 @@ sources: []
 
 ## 簇入口
 
-- **知识库三层**：[LLM Wiki](./concepts/llm-wiki.md) · [WikiSkill](../domains/agents/concepts/wikiskill-architecture.md) · 人读 IDE [Obsidian](./entities/obsidian.md) · 公开对照 [Grokipedia](./entities/grokipedia.md)
+- **知识库三层**：[LLM Wiki](./concepts/llm-wiki.md) · 本库 [yiya](./entities/yiya.md) · [WikiSkill](../domains/agents/concepts/wikiskill-architecture.md) · 人读 IDE [Obsidian](./entities/obsidian.md) · 公开对照 [Grokipedia](./entities/grokipedia.md)
 - **Harness**：[domains/agents/overview.md](../domains/agents/overview.md)（Pi / oh-my-pi / Grok Bot）
 - **记忆**：[四层 Agent 记忆](../domains/agents/concepts/four-layer-agent-memory.md)
 - **语义层**：[语义层](../domains/engineering/concepts/semantic-layer.md)

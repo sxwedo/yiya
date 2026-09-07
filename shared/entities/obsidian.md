@@ -11,8 +11,17 @@ related:
   - karpathy
   - self-growing-kb
   - proof
+  - anubisnekhet-anuppuccin-github
+  - aaaaalexis-obsidian-cupertino-github
+  - kepano-obsidian-minimal-github
+  - kepano-obsidian-skills-github
+  - yiya
 sources:
   - ../references/obsidian-site.md
+  - ../references/anubisnekhet-anuppuccin-github.md
+  - ../references/aaaaalexis-obsidian-cupertino-github.md
+  - ../references/kepano-obsidian-minimal-github.md
+  - ../references/kepano-obsidian-skills-github.md
 ---
 
 # Summary
@@ -28,3 +37,8 @@ sources:
 - [Andrej Karpathy](./karpathy.md)
 - [Self-growing Knowledge Base](../concepts/self-growing-kb.md)
 - [Proof](../../domains/agents/entities/proof.md)
+- [AnubisNekhet/AnuPpuccin（GitHub）](../references/anubisnekhet-anuppuccin-github.md)
+- [aaaaalexis/obsidian-cupertino（GitHub）](../references/aaaaalexis-obsidian-cupertino-github.md)
+- [kepano/obsidian-minimal（GitHub）](../references/kepano-obsidian-minimal-github.md)
+- [kepano/obsidian-skills（GitHub）](../references/kepano-obsidian-skills-github.md)
+- [yiya](./yiya.md)

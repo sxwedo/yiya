@@ -16,6 +16,9 @@ related:
   - skills-sh
   - herdr
   - coding-agent-workflow
+  - yiya
+  - clix
+  - muse
 sources:
   - ../references/sxwedo-mena-github.md
 ---
@@ -39,3 +42,6 @@ sources:
 - [skills.sh](./skills-sh.md)
 - [Herdr](./herdr.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [yiya](../../../shared/entities/yiya.md)
+- [clix](../../engineering/entities/clix.md)
+- [muse](../../engineering/entities/muse.md)

@@ -7,8 +7,11 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T00:00:00Z }
 related:
   - mcp
+  - prefecthq-fastmcp-github
+  - prefect
 sources:
   - ../references/fastmcp-site.md
+  - ../references/prefecthq-fastmcp-github.md
 ---
 
 # Summary
@@ -21,3 +24,5 @@ sources:
 
 - [FastMCP（站点书签）](../references/fastmcp-site.md)
 - [Model Context Protocol (MCP)](./mcp.md)
+- [PrefectHQ/fastmcp（GitHub）](../references/prefecthq-fastmcp-github.md)
+- [Prefect](../../engineering/entities/prefect.md)

@@ -16,8 +16,10 @@ related:
   - pi
   - oh-my-pi
   - coding-agent-workflow
+  - punkpeye-awesome-mcp-servers-github
 sources:
   - ../references/mcp-site.md
+  - ../references/punkpeye-awesome-mcp-servers-github.md
 ---
 
 # Summary
@@ -39,3 +41,4 @@ sources:
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [punkpeye/awesome-mcp-servers（GitHub）](../references/punkpeye-awesome-mcp-servers-github.md)

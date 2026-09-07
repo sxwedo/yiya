@@ -41,6 +41,51 @@ sources: []
 | [Raft](./entities/raft.md) | 人与 Agent 共用频道工作空间；本机 daemon 跑各家运行时 |
 | [skills.sh](./entities/skills-sh.md) | Agent Skills 开放目录与 `npx skills` 安装 CLI |
 | [Zread](./entities/zread.md) | GitHub 仓 → 结构化项目 Wiki（github.com → zread.ai） |
+| [Obelisk](./entities/obelisk.md) | 编码代理历史会话 / 子代理 / 工作流可查询 |
+| [Ruflo](./entities/ruflo.md) | 多智能体 swarm 的 meta-harness |
+| [DeepSeek Harness](./entities/deepseek-harness.md) | DeepSeek 官方 harness：一切皆插件 |
+| [AgentsView](./entities/agentsview.md) | 编码代理会话检索、分析与 token 统计 |
+| [TeamAI CLI](./entities/teamai-cli.md) | 腾讯团队 AI Native CLI |
+| [TencentDB Agent Memory](./entities/tencentdb-agent-memory.md) | 团队级 Agent 记忆中枢 |
+| [Graphify](./entities/graphify.md) | 代码 / 文档 / SQL / PDF → 可查询知识图谱 |
+| [MemPalace](./entities/mempalace.md) | 开源 AI 记忆系统 |
+| [Hermes Agent](./entities/hermes-agent.md) | Nous Research 开源 Agent：随使用生长 |
+| [Ralph](./entities/ralph.md) | 按 PRD 反复跑直到条目完成的自主循环 |
+| [cc-connect](./entities/cc-connect.md) | 本机编码代理桥接到即时通讯 |
+| [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
+| [Horizon](./entities/horizon.md) | AI 新闻雷达，中英日报 |
+| [OpenSpec](./entities/openspec.md) | 面向编码助手的规格驱动开发 |
+| [OpenCLI](./entities/opencli.md) | 网站变 CLI，Agent 复用已登录浏览器 |
+| [从零开始构建智能体](./entities/hello-agents.md) | Datawhale Agent 原理与实践教程 |
+| [GitNexus](./entities/gitnexus.md) | 零服务器、客户端代码智能引擎 |
+| [gnhf](./entities/gnhf.md) | 睡前把任务交给 agent 过夜跑 |
+| [CodeGraph](./entities/codegraph.md) | 预索引代码知识图谱，给 Claude Code / Codex / Gemini 用 |
+| [Understand Anything](./entities/understand-anything.md) | 代码 → 可交互知识图谱 |
+| [easy-vibe](./entities/easy-vibe.md) | Datawhale vibe coding 入门课 |
+| [Agentic Design Patterns](./entities/agentic-design-patterns.md) | Gulli 的 Agent 模式书与笔记 |
+| [Trellis](./entities/trellis.md) | Agent harness |
+| [Langflow](./entities/langflow.md) | 可视化构建并部署 Agent 工作流 |
+| [Agent Zero](./entities/agent-zero.md) | 开源 Agent 框架 |
+| [OpenSquilla](./entities/opensquilla.md) | 同预算更高智能密度的 token 高效 Agent |
+| [Composio](./entities/composio.md) | Agent 工具包、检索、鉴权与沙箱 |
+| [Distilly](./entities/distilly.md) | 把思维方式蒸馏成可复用 Skills |
+| [ECC](./entities/ecc.md) | harness 性能优化：skills / instincts / memory / security |
+| [cc-switch](./entities/cc-switch.md) | Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手 |
+| [Gemini CLI](./entities/gemini-cli.md) | Gemini 官方终端 Agent |
+| [Crawl4AI](./entities/crawl4ai.md) | 面向 LLM 的开源爬虫 |
+| [llm-universe](./entities/llm-universe.md) | Datawhale 大模型应用开发教程 |
+| [Paseo](./entities/paseo.md) | 桌面 / 手机编排多个编码代理 |
+| [深入理解 AI Agent](./entities/ai-agent-book.md) | 李博杰：Agent 设计原理与工程实践 |
+| [OpenWorker](./entities/openworker.md) | 桌面 AI 同事：交付成品而非聊天 |
+| [OpenMinis](./entities/openminis.md) | 跨平台开源 AI Agent 应用 |
+| [PraisonAI](./entities/praisonai.md) | 编排 24/7 AI 劳动力 |
+| [AI 产品从入门到精通](./entities/learn-ai.md) | 面向 AI 产品经理的培训课 |
+| [Agent-Reach](./entities/agent-reach.md) | 给 Agent 读 / 搜 Twitter、Reddit、YouTube |
+| [Open Code Review](./entities/open-code-review.md) | 阿里混部代码评审 |
+| [Codex](./entities/codex.md) | OpenAI 终端轻量编码代理 |
+| [Orca](./entities/orca.md) | 并行 agent 舰队的 ADE |
+| [CLI-Anything](./entities/cli-anything.md) | 让任意软件变成 Agent-native CLI |
+| [Foundations of LLMs](./entities/foundations-of-llms.md) | 浙大 LLM 基础教材 |
 
 ### 外探源
 

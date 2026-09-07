@@ -1,6 +1,7 @@
 # 工程与可维护性 — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | sxwedo GitHub 星标 148 仓 → `raw/bookmarks/github.md`；本域新建 Entity 55、挂已有 1（各一条 GitHub Reference）。
 * **2026-09-07 ingest** | [gitignore.io](https://www.toptal.com/developers/gitignore) → 已有 Entity [github/gitignore](./entities/gitignore.md) + Reference [工具](./references/gitignore-io.md)（`tools.md`）。不开第二张产品卡。
 * **2026-09-07 ingest** | [Tailscale](https://tailscale.com/) → Entity [Tailscale](./entities/tailscale.md) + Reference [站点](./references/tailscale-site.md)；链 [ping.pe](./entities/ping-pe.md)、[Pilot Protocol](../agents/entities/pilot-protocol.md)。overview 收补零配置 mesh VPN。
 * **2026-09-07 ingest** | 链 [评测驱动开发](./concepts/eval-driven-development.md) 到 [Discovery Loop](../../shared/entities/discovery-loop.md)（人工评测纪律 vs 把实验闭环自动化）。

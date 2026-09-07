@@ -8,8 +8,12 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T11:40:00Z }
 related:
   - llm-wiki
   - obsidian
+  - karpathy-autoresearch-github
+  - yiya
+  - llmwiki
 sources:
   - ../references/karpathy-llm-wiki.md
+  - ../references/karpathy-autoresearch-github.md
 ---
 
 # Summary
@@ -22,3 +26,6 @@ sources:
 - [Obsidian](./obsidian.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)
 - [打开 raw](../../raw/articles/Karpathy/LLM Wiki.md)
+- [karpathy/autoresearch（GitHub）](../references/karpathy-autoresearch-github.md)
+- [yiya](./yiya.md)
+- [llmwiki](./llmwiki.md)

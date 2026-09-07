@@ -8,8 +8,10 @@ generated: { by: agent:yiya-librarian, at: 2026-09-07T23:00:00Z }
 related:
   - ghostty-site
   - starship
+  - zerebos-ghostty-config-github
 sources:
   - ../references/ghostty-site.md
+  - ../references/zerebos-ghostty-config-github.md
 ---
 
 # Summary
@@ -22,3 +24,4 @@ sources:
 
 - [Ghostty（站点书签）](../references/ghostty-site.md)
 - [Starship](./starship.md)
+- [zerebos/ghostty-config（GitHub）](../references/zerebos-ghostty-config-github.md)

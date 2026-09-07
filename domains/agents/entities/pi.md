@@ -18,11 +18,17 @@ related:
   - grok-build
   - pi-agent-book
   - minimal-agent-harness
+  - buchidonggua-dg-ai-notes-github
+  - antinomie-lab-pi-book-github
+  - hahhforest-pi-textbook-github
 sources:
   - ../references/pi-dev-site.md
   - ../references/earendil-pi-github.md
   - ../references/pi-vs-oh-my-pi.md
   - ../references/pi-agent-book.md
+  - ../references/buchidonggua-dg-ai-notes-github.md
+  - ../references/antinomie-lab-pi-book-github.md
+  - ../references/hahhforest-pi-textbook-github.md
 ---
 
 # Summary
@@ -46,3 +52,6 @@ sources:
 - [Grok Build](./grok-build.md)
 - [π-agent book](../references/pi-agent-book.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
+- [buchidonggua/dg-ai-notes（GitHub）](../references/buchidonggua-dg-ai-notes-github.md)
+- [antinomie-lab/pi-book（GitHub）](../references/antinomie-lab-pi-book-github.md)
+- [hahhforest/pi-textbook（GitHub）](../references/hahhforest-pi-textbook-github.md)

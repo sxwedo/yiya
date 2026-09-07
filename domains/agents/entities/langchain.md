@@ -10,9 +10,11 @@ related:
   - mineru
   - coding-agent-workflow
   - langchain-docs
+  - langchain-ai-openwiki-github
 sources:
   - ../references/langchain-site.md
   - ../references/langchain-docs.md
+  - ../references/langchain-ai-openwiki-github.md
 ---
 
 # Summary
@@ -26,3 +28,4 @@ sources:
 - [MinerU](./mineru.md)
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [langchain-ai/openwiki（GitHub）](../references/langchain-ai-openwiki-github.md)

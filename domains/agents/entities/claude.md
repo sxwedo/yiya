@@ -9,9 +9,23 @@ related:
   - claude-blog
   - claude-code-docs
   - claude-academy
+  - anthropics-claude-cookbooks-github
+  - anthropics-claude-plugins-official-github
+  - anthropics-claude-code-github
+  - zhanghandong-harness-engineering-from-cc-to-ai-coding-github
+  - claude-code-best-claude-code-github
+  - composiohq-awesome-claude-skills-github
+  - anthropics-skills-github
 sources:
   - ../references/claude-blog.md
   - ../references/claude-code-docs.md
+  - ../references/anthropics-claude-cookbooks-github.md
+  - ../references/anthropics-claude-plugins-official-github.md
+  - ../references/anthropics-claude-code-github.md
+  - ../references/zhanghandong-harness-engineering-from-cc-to-ai-coding-github.md
+  - ../references/claude-code-best-claude-code-github.md
+  - ../references/composiohq-awesome-claude-skills-github.md
+  - ../references/anthropics-skills-github.md
 ---
 
 # Summary
@@ -23,3 +37,10 @@ sources:
 - [Claude Blog](../references/claude-blog.md)
 - [Claude Code Docs](../references/claude-code-docs.md)
 - [Claude Academy](./claude-academy.md)
+- [anthropics/claude-cookbooks（GitHub）](../references/anthropics-claude-cookbooks-github.md)
+- [anthropics/claude-plugins-official（GitHub）](../references/anthropics-claude-plugins-official-github.md)
+- [anthropics/claude-code（GitHub）](../references/anthropics-claude-code-github.md)
+- [ZhangHanDong/harness-engineering-from-cc-to-ai-coding（GitHub）](../references/zhanghandong-harness-engineering-from-cc-to-ai-coding-github.md)
+- [claude-code-best/claude-code（GitHub）](../references/claude-code-best-claude-code-github.md)
+- [ComposioHQ/awesome-claude-skills（GitHub）](../references/composiohq-awesome-claude-skills-github.md)
+- [anthropics/skills（GitHub）](../references/anthropics-skills-github.md)

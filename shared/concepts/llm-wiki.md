@@ -14,6 +14,8 @@ related:
   - code-wiki
   - agents-md
   - grokipedia
+  - yiya
+  - llmwiki
 sources:
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
   - ../references/karpathy-llm-wiki.md
@@ -25,7 +27,7 @@ sources:
 
 与 RAG 上传文件的差别：问题答案与矛盾标注会**沉淀进 wiki**，下次查询直接用已编译知识。配套操作：ingest、query（好答可回写）、lint；导航靠 `index.md` + `log.md`。
 
-yiya 落地：raw（articles/bookmarks）+ domains/shared 当 wiki + AGENTS/skills；Reference 仅按需。人读面用 [Obsidian](../entities/obsidian.md)（Karpathy：Obsidian 是 IDE，LLM 是程序员，wiki 是代码库）。
+本库落地见 [yiya](../entities/yiya.md)：raw（articles/bookmarks）+ domains/shared 当 wiki + AGENTS/skills；Reference 仅按需。开源对照实现见 [llmwiki](../entities/llmwiki.md)。人读面用 [Obsidian](../entities/obsidian.md)（Karpathy：Obsidian 是 IDE，LLM 是程序员，wiki 是代码库）。
 
 与 [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md) 同族三层（Raw → 编纂 → 可执行层）：本页是个人知识库的编译 wiki；WikiSkill 是 Agent 技能从知识里进化。对照见该页。[Zread](../../domains/agents/entities/zread.md)、[Code Wiki](../../domains/agents/entities/code-wiki.md) 也是「编译成 wiki」，但对象是 GitHub 代码仓，不是你策展的 raw。[Grokipedia](../entities/grokipedia.md) 是 xAI 的公开百科（Grok 写条目），不是个人 vault。
 
@@ -37,6 +39,8 @@ yiya 落地：raw（articles/bookmarks）+ domains/shared 当 wiki + AGENTS/skil
 - [Code Wiki](../../domains/agents/entities/code-wiki.md)
 - [Obsidian](../entities/obsidian.md)
 - [Grokipedia](../entities/grokipedia.md)
+- [yiya](../entities/yiya.md)
+- [llmwiki](../entities/llmwiki.md)
 - [AGENTS.md](../../domains/agents/entities/agents-md.md)
 - [Andrej Karpathy](../entities/karpathy.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)
