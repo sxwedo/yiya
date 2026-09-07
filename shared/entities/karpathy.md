@@ -14,6 +14,10 @@ related:
 sources:
   - ../references/karpathy-llm-wiki.md
   - ../references/karpathy-autoresearch-github.md
+  - ../../raw/articles/Chrome/Andrej Karpathy spent 2h showing how he actually uses AI day to day.md
+  - ../../raw/articles/Raytar/Andrej Karpathy joined Anthropic five weeks ago.md
+  - ../../raw/articles/Avi Chawla/Karpathy said something you'll regret ignoring－.md
+  - ../../raw/articles/Andrej Karpathy/Fireside chat at Sequoia Ascent 2026 from a －~week ago. Some highlights－.md
 ---
 
 # Summary
@@ -29,3 +33,7 @@ sources:
 - [karpathy/autoresearch（GitHub）](../references/karpathy-autoresearch-github.md)
 - [yiya](./yiya.md)
 - [llmwiki](./llmwiki.md)
+- [Andrej Karpathy spent 2h showing how he actually uses AI day to day](../../raw/articles/Chrome/Andrej Karpathy spent 2h showing how he actually uses AI day to day.md)
+- [Andrej Karpathy joined Anthropic five weeks ago](../../raw/articles/Raytar/Andrej Karpathy joined Anthropic five weeks ago.md)
+- [Karpathy said something you'll regret ignoring－](../../raw/articles/Avi Chawla/Karpathy said something you'll regret ignoring－.md)
+- [Fireside chat at Sequoia Ascent 2026 from a －~week ago. Some highlights－](../../raw/articles/Andrej Karpathy/Fireside chat at Sequoia Ascent 2026 from a －~week ago. Some highlights－.md)

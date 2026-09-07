@@ -44,6 +44,7 @@ sources:
   - ../references/dietrichgebert-ponytail-github.md
   - ../references/yaojingang-yao-meta-skill-github.md
   - ../references/tw93-kami-github.md
+  - ../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md
 ---
 
 # Summary
@@ -76,3 +77,4 @@ sources:
 - [DietrichGebert/ponytail（GitHub）](../references/dietrichgebert-ponytail-github.md)
 - [yaojingang/yao-meta-skill（GitHub）](../references/yaojingang-yao-meta-skill-github.md)
 - [tw93/Kami（GitHub）](../references/tw93-kami-github.md)
+- [New skill－ －apple-design](../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md)

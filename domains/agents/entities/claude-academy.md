@@ -11,6 +11,7 @@ related:
   - coding-agent-workflow
 sources:
   - ../references/claude-academy-site.md
+  - ../../../raw/articles/Claude/Claude Academy is now live.md
 ---
 
 # Summary
@@ -25,3 +26,4 @@ sources:
 - [Claude](./claude.md)
 - [小山学堂](./xiaoshan-xuetang.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [Claude Academy is now live](../../../raw/articles/Claude/Claude Academy is now live.md)

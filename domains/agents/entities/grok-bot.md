@@ -19,6 +19,8 @@ sources:
   - ../references/jinchenma-grok-bot-guide.md
   - ../references/javaguide-grok-bot-engineering.md
   - ../references/usegrokbot-site.md
+  - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md
+  - ../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md
 ---
 
 # Summary
@@ -42,3 +44,5 @@ sources:
 - [Delivery Harness](../concepts/delivery-harness.md)
 - [一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了](../references/javaguide-grok-bot-engineering.md)
 - [UseGrokBot（站点）](../references/usegrokbot-site.md)
+- [The Complete Guide to pstack Pt. 1](../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md)
+- [Every AI tool you have used so far waits for you. You open it, you ask, it answers, you](../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md)

@@ -12,6 +12,7 @@ related:
   - minimal-agent-harness
 sources:
   - ../references/agent-self-evolution-flywheel.md
+  - ../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md
 ---
 
 # Definition
@@ -30,3 +31,4 @@ sources:
 - [Delivery Harness](./delivery-harness.md)
 - [Evidence Gate](./evidence-gate.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
+- [From Loop Engineering to Graph Engineering－](../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md)

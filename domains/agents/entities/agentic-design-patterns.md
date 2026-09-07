@@ -10,6 +10,7 @@ related:
   - hello-agents
 sources:
   - ../references/evoiz-agentic-design-patterns-github.md
+  - ../../../raw/articles/Andrew Ng/Announcing my new course－ Agentic AI!.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 
 - [evoiz/Agentic-Design-Patterns（GitHub）](../references/evoiz-agentic-design-patterns-github.md)
 - [从零开始构建智能体](./hello-agents.md)
+- [Announcing my new course－ Agentic AI!](../../../raw/articles/Andrew Ng/Announcing my new course－ Agentic AI!.md)

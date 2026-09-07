@@ -1,6 +1,7 @@
 # shared — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | X 书签 (1–57/584) 成功 56 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | sxwedo GitHub 星标 148 仓 → `raw/bookmarks/github.md`；本域新建 Entity 7、挂已有 5（各一条 GitHub Reference）。
 * **2026-09-07 ingest** | [Discovery Loop](https://www.discoveryloop.com/) → Entity [Discovery Loop](./entities/discovery-loop.md) + Reference [站点](./references/discovery-loop-site.md)；链 [Google DeepMind](./entities/deepmind.md)、[评测驱动开发](../domains/engineering/concepts/eval-driven-development.md)。实验室放 shared，不是新域。
 * **2026-09-07 ingest** | [Hacker News](https://news.ycombinator.com/) → Entity [Hacker News](./entities/hacker-news.md) + Reference [站点](./references/hacker-news-site.md)；链 [Trendshift](../domains/agents/entities/trendshift.md)。跨域外探源放 shared，不开新闻域。

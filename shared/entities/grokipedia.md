@@ -11,6 +11,7 @@ related:
   - self-growing-kb
 sources:
   - ../references/grokipedia-site.md
+  - ../../raw/articles/Elon Musk/－Tue Oct 28 06－20－37 +0000 2025－.md
 ---
 
 # Summary
@@ -24,3 +25,4 @@ sources:
 - [Grokipedia（站点书签）](../references/grokipedia-site.md)
 - [LLM Wiki](../concepts/llm-wiki.md)
 - [Self-growing Knowledge Base](../concepts/self-growing-kb.md)
+- [－Tue Oct 28 06－20－37 +0000 2025－](../../raw/articles/Elon Musk/－Tue Oct 28 06－20－37 +0000 2025－.md)

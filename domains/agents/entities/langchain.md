@@ -15,6 +15,7 @@ sources:
   - ../references/langchain-site.md
   - ../references/langchain-docs.md
   - ../references/langchain-ai-openwiki-github.md
+  - ../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md
 ---
 
 # Summary
@@ -29,3 +30,4 @@ sources:
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [langchain-ai/openwiki（GitHub）](../references/langchain-ai-openwiki-github.md)
+- [for anyone asking where to learn this stuff－](../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md)
