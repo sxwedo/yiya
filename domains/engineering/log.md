@@ -1,6 +1,7 @@
 # 工程与可维护性 — Log
 
 ## 2026-09-07
+* **2026-09-07 ingest** | [Starship](https://starship.rs/) → Entity [Starship](./entities/starship.md) + Reference [站点](./references/starship-site.md)（书签，未灌站）。overview 收补跨 shell 提示符。结构体检：无新 Domain。
 * **2026-09-07 schema** | overview 补工程运行时/仓库卫生；怎么逛改先 entities；补 [x-algorithm GitHub 书签](./references/x-algorithm-github.md)；Semantic Service↔MCP；排序表征↔检索质量。
 * **2026-09-07 ingest** | [Docker Docs](https://docs.docker.com/) → Entity [Docker](./entities/docker.md) + Reference [Docs](./references/docker-docs.md)（docs 根书签，未灌站）。结构体检：无新 Domain。
 * **2026-09-07 ingest** | [github/gitignore](https://github.com/github/gitignore) → Entity [github/gitignore](./entities/gitignore.md) + Reference [GitHub](./references/github-gitignore.md)（书签，未灌仓）。结构体检：无新 Domain/约定改动。

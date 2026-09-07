@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-06T13:05:00Z }
 related:
   - llm-wiki
   - wikiskill-architecture
+  - obsidian
 sources:
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
 ---
@@ -24,4 +25,5 @@ sources:
 
 - [LLM Wiki](./llm-wiki.md)
 - [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)
+- [Obsidian](../entities/obsidian.md)
 - [打开 raw](../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md)

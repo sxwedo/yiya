@@ -7,6 +7,7 @@ domain: shared
 generated: { by: agent:yiya-librarian, at: 2026-09-06T11:40:00Z }
 related:
   - llm-wiki
+  - obsidian
 sources:
   - ../references/karpathy-llm-wiki.md
 ---
@@ -18,5 +19,6 @@ sources:
 ## Related
 
 - [LLM Wiki](../concepts/llm-wiki.md)
+- [Obsidian](./obsidian.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)
 - [打开 raw](../../raw/articles/Karpathy/LLM Wiki.md)

@@ -1,0 +1,28 @@
+---
+type: Entity
+title: "Obsidian"
+description: "本地优先的 Markdown 知识库：vault 即文件夹，双向链接与图谱；Karpathy 把 LLM Wiki 的人读面叫成 IDE。"
+status: draft
+domain: shared
+generated: { by: agent:yiya-librarian, at: 2026-09-07T19:00:00Z }
+related:
+  - obsidian-site
+  - llm-wiki
+  - karpathy
+  - self-growing-kb
+sources:
+  - ../references/obsidian-site.md
+---
+
+# Summary
+
+**Obsidian**（https://obsidian.md/）是本地优先的 Markdown 笔记应用：一个 vault 就是一棵文件夹，页与页用 `[[wikilink]]` 互链，图谱看出枢纽与孤儿。插件（Web Clipper、Dataview、Marp 等）可选用，不是必须。
+
+在 [LLM Wiki](../concepts/llm-wiki.md) 里，Karpathy 的分工是：**Obsidian 当 IDE，LLM 当程序员，wiki 当代码库**。本库 yiya 同样是 git 上的 markdown，给人浏览、给 Agent 维护。它不是编码代理 harness，也不是又一套云笔记同步盘。
+
+## Related
+
+- [Obsidian（站点书签）](../references/obsidian-site.md)
+- [LLM Wiki](../concepts/llm-wiki.md)
+- [Andrej Karpathy](./karpathy.md)
+- [Self-growing Knowledge Base](../concepts/self-growing-kb.md)
