@@ -7,16 +7,19 @@ domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-07T14:00:00Z }
 related:
   - github-gitignore
+  - gitignore-io
 sources:
   - ../references/github-gitignore.md
+  - ../references/gitignore-io.md
 ---
 
 # Summary
 
 **github/gitignore**（https://github.com/github/gitignore）是 GitHub 官方的 `.gitignore` 模板仓库：根目录按语言/框架放模板，`Global/` 放编辑器与操作系统规则，`community/` 放尚未晋升的社区模板。新建仓库时的语言模板多来自这里。
 
-定位：仓库卫生参考，不是构建系统或 agent 产品。
+定位：仓库卫生参考，不是构建系统或 agent 产品。网页按 OS/语言/IDE 拼模板见 [gitignore.io](../references/gitignore-io.md)（Toptal；生成物 CC0）。
 
 ## Related
 
 - [github/gitignore（GitHub）](../references/github-gitignore.md)
+- [gitignore.io（工具）](../references/gitignore-io.md)

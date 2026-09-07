@@ -7,6 +7,7 @@
 * [Docker Docs](./docker-docs.md) — docs.docker.com 书签：Docker 官方文档门户，Engine / Compose / Desktop / Build 入口。
 * [Ghostty（站点）](./ghostty-site.md) — ghostty.org 书签：原生 GPU 终端模拟器官方站，文档与下载入口。
 * [github/gitignore（GitHub）](./github-gitignore.md) — github/gitignore 书签：GitHub 官方 .gitignore 模板集入口。
+* [gitignore.io（工具）](./gitignore-io.md) — toptal.com/developers/gitignore：按 OS / 语言 / IDE 拼一份 .gitignore。
 * [美团搜索3.0：LLM 语义表征在排序模型的探索与应用](./meituan-llm-search-ranking.md) — 美团技术：服务零售精排三期实践——LLM 语义向量 + cosine 注入排序；从验证到 Query-POI-Deal 三元体系再到跨场景复用。
 * [ping.pe（工具）](./ping-pe-tool.md) — ping.pe：多地 Ping、MTR、TCP 端口、DNS 与 BGP looking glass。
 * [吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals](./ng-evals-watershed.md) — 解读 Andrew Ng：构建 AI 应用六项子技能中，评测驱动开发是区分出色构建者的最重要特质。

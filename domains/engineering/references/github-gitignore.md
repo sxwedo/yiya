@@ -10,6 +10,7 @@ tags: [bookmark, github]
 sources: []
 related:
   - gitignore
+  - gitignore-io
 ---
 
 # Notes
@@ -22,3 +23,4 @@ related:
 ## Related
 
 - [github/gitignore](../entities/gitignore.md)
+- [gitignore.io（工具）](./gitignore-io.md)
