@@ -25,3 +25,4 @@
 * [TTSR](./ttsr.md) — Time-Traveling Stream Rules：规则平时休眠不占上下文，输出匹配偏离条件时中止流并注入提醒后重试。
 * [WikiSkill 三层架构](./wikiskill-architecture.md) — 把 Agent 变强拆成 Raw（不可变轨迹）、Wiki（可复用知识）、Skills（可执行技能）三层，技能从知识生长。
 * [Loop Engineering](./loop-engineering.md) — 设计可自转的 agent 闭环（找活/分派/验收/状态）
+* [Software Factory Cost Equation](./software-factory-cost.md) — Uber 式 agent 用量四层与成本等式优化

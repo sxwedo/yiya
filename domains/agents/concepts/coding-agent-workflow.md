@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:40:00Z }
 related:
+  - software-factory-cost
   - loop-engineering
   - mcp
   - agents-md
@@ -198,6 +199,7 @@ sources:
 
 ## Related
 
+- [Software Factory Cost Equation](./software-factory-cost.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Model Context Protocol (MCP)](../entities/mcp.md)
 - [AGENTS.md](../entities/agents-md.md)

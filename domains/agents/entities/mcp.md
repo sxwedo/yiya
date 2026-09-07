@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T00:00:00Z }
 related:
+  - software-factory-cost
   - fastmcp
   - gitmcp
   - langchain
@@ -48,6 +49,7 @@ sources:
 
 ## Related
 
+- [Software Factory Cost Equation](../concepts/software-factory-cost.md)
 - [FastMCP](./fastmcp.md)
 - [GitMCP](./gitmcp.md)
 - [LangChain](./langchain.md)

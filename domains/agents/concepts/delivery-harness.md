@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - software-factory-cost
   - multi-harness-control-plane
   - coding-agent-workflow
   - grok-bot
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [Software Factory Cost Equation](./software-factory-cost.md)
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Grok Bot](../entities/grok-bot.md)

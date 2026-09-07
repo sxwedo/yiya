@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T14:55:00Z }
 related:
+  - software-factory-cost
   - delivery-harness
   - minimal-agent-harness
   - coding-agent-workflow
@@ -32,6 +33,7 @@ sources:
 
 ## Related
 
+- [Software Factory Cost Equation](./software-factory-cost.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)

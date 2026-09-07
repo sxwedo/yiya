@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T10:50:00Z }
 related:
+  - software-factory-cost
   - coding-agent-workflow
   - claude
   - harness-self-improvement
@@ -37,6 +38,7 @@ sources:
 
 ## Related
 
+- [Software Factory Cost Equation](./software-factory-cost.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Claude](../entities/claude.md)
 - [Harness 自改进](./harness-self-improvement.md)
