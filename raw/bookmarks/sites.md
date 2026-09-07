@@ -8,3 +8,4 @@
 | Model Context Protocol | https://modelcontextprotocol.io/ | Anthropic / 社区 | 连接 AI 应用与外部系统的开放标准（工具/数据/工作流；常比作 AI 的 USB-C） |
 | GitMCP | https://gitmcp.io/ | GitMCP | 把任意公开 GitHub 仓一键变成 Remote MCP：github.com → gitmcp.io，给 AI 仓库上下文 |
 | FastMCP | https://gofastmcp.com/ | Prefect | 建 MCP server/client/Apps 的主流 Python 框架（官方 SDK 高层 API 渊源；文档可挂 MCP） |
+| LangChain | https://www.langchain.com | LangChain | 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）+ LangSmith 工程平台 |

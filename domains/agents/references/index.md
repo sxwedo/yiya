@@ -21,3 +21,4 @@
 * [MCP（站点）](./mcp-site.md)
 * [GitMCP（站点）](./gitmcp-site.md)
 * [FastMCP（站点）](./fastmcp-site.md)
+* [LangChain（站点）](./langchain-site.md)

@@ -9,3 +9,4 @@
 * [Model Context Protocol (MCP)](./mcp.md)
 * [GitMCP](./gitmcp.md)
 * [FastMCP](./fastmcp.md)
+* [LangChain](./langchain.md)
