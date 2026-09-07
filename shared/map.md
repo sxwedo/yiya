@@ -20,6 +20,7 @@ sources: []
 跨域实体：
 
 - [Andrej Karpathy](./entities/karpathy.md)
+- [Google DeepMind](./entities/deepmind.md)
 
 ## 跨域纲领
 
