@@ -19,4 +19,4 @@ sources:
 
 ## Related
 
-- [Docker Docs（站点）](../references/docker-docs.md)
+- [Docker Docs](../references/docker-docs.md)

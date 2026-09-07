@@ -28,17 +28,17 @@ argument-hint: "[url-or-path] [domain?]"
 
 - **成文型**（文章/长帖，或一篇有稳定标题的官方指南/规范）：走「捕捉正文 → raw → 盘点已有 → 续写或建页」。官方文档作者用官方名，不用 `_unknown`。
 - **书签型**（网站首页、GitHub 仓库、产品主页、**docs 门户/根**）：
-  1. 判定 domain；在目标域 + `shared` 的 `entities/` 找同产品，已有则只补 Reference Notes 深链、书签行与 Related
-  2. 追加到 `raw/bookmarks/github.md` 或 `sites.md` 一行；只收入口
-  3. 书签只写 bookmarks 表 + Entity/Reference
-  4. **一条** Reference：`resource:` 指向 bookmarks 表；`tags` 含 `bookmark`（GitHub 再加 `github`）。docs 门户可在 Notes 写常用深链，不另建 Entity
-  5. 完成：Entity（新建或更新）+ Reference + bookmarks 行
-- **官方文档怎么判**（不开第三种 raw）：
+  1. 判定 domain；在目标域 + `shared` 的 `entities/` 找同产品，已有则只补 Reference、书签行与 Related，不新开第二张产品 Entity
+  2. 按 URL 追加一行（只收入口）：`github.com/org/repo` → `github.md`；文档门户 / docs 根 → `docs.md`；其余产品/机构首页 → `sites.md`
+  3. 书签只写对应表 + Entity/Reference
+  4. **一条** Reference：`resource:` 指向**该行所在表**（github / sites / docs）；`tags` 含 `bookmark`（GitHub 再加 `github`）。docs 门户 Notes 可写常用深链
+  5. 完成：Entity（新建或更新）+ Reference + 对应表一行
+- **官方文档怎么判**（成文或书签，不开第四种 raw）：
   | 形态 | 走 | 完成标准 |
   |---|---|---|
-  | 文档门户 / docs 根，或无稳定单篇标题的中间层（如 `/engine/`） | 书签 | 挂**产品** Entity；已有则只补深链，不新开第二张产品卡 |
+  | 文档门户 / docs 根，或无稳定单篇标题的中间层（如 `/engine/`） | 书签进 `docs.md` | 挂**产品** Entity；已有则只补 docs 行与文档 Reference |
   | 单页、能一次读完、有稳定标题 | 成文 | 先改该产品 Entity / 相关 Concept |
-  | 整棵文档树、API 全表、一串平行章节 | 书签 | 只收 docs 根；等用户指定单篇再成文 |
+  | 整棵文档树、API 全表、一串平行章节 | 书签进 `docs.md` | 只收 docs 根；等用户指定单篇再成文 |
 - **回写**（仅当用户说「回写」/「把这答写进 wiki」）：跳过捕捉与写入 raw，从「盘点已有」起跑；默认只改旧页。问答本身不自动回写。
 
 ## 步骤
@@ -51,7 +51,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 成文型：
 
-1. **查重**：扫 `raw/articles/**/*.md` 的 `url:`（及书签表 URL），已存在则停止或只补链。
+1. **查重**：扫 `raw/articles/**/*.md` 的 `url:`，以及 `bookmarks/github.md` / `sites.md` / `docs.md` 的 URL；已存在则停止或只补链。
 2. 先放 `raw/_inbox/`（或一步到位 articles）。
 3. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 `author:` 短名，去掉 `(@handle)`；无作者用 `_unknown`）。**必须**有 `url:`（本地稿可 `url: local:` + 说明）。
 4. 配图：`raw/articles/_media/<slug>/`；正文链接 `../_media/<slug>/...`。
@@ -85,7 +85,7 @@ argument-hint: "[url-or-path] [domain?]"
 仅当**书签型**，或成文里多页确需共用一张来源卡（仍优先都直链 raw）。在目标 bundle 的 `references/`：
 
 - 复制 `templates/reference.md`；`type: Reference`
-- `resource` 相对路径指向 raw（成文：`../../../raw/articles/<作者>/…`；书签：`../../../raw/bookmarks/github.md` 或 `sites.md`）
+- `resource` 相对路径指向 raw（成文：`../../../raw/articles/<作者>/…`；书签：`../../../raw/bookmarks/github.md` / `sites.md` / `docs.md`）
 - Notes 首条 `[打开 raw](相对路径)`
 
 ### 6. 维护索引与 log
@@ -109,7 +109,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] 成文型：raw 已写入且头有 `url:`；书签型：已追加 bookmarks 表；回写：用户说了「回写」，无新 raw
+- [ ] 成文型：raw 已写入且头有 `url:`；书签型：已追加 `github.md` / `sites.md` / `docs.md` 中对应表；回写：用户说了「回写」，无新 raw
 - [ ] 已做「盘点已有」，每个候选是改 / 链 / 建之一；同簇已有页已碰
 - [ ] 至少一页 Concept/Entity（或书签 Reference）链到该 raw
 - [ ] 成文默认无新 Reference；书签型有 Reference（`resource:` 相对 + Notes `[打开 raw]`）

@@ -7,6 +7,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:40:00Z }
 related:
   - mcp
+  - agents-md
   - multi-harness-control-plane
   - mena
   - pi
@@ -24,13 +25,14 @@ sources:
 2. **Execution** — 在自主度与人机监督之间校准：让 agent 构建，并用自动/人工检查验收。
 3. **Deployment & monitoring** — 经 CI/CD 或人工门禁部署；用 agent 看日志、提问题、推动改进。
 
-要在各阶段有效，还需五块能力：**引导工作流**（速度/成本/风险/人力权衡）、**赋能自主度**（交互 vs 委派、上下文与并行）、**评审产出**（行为/功能验证、agentic review）、**定制 agent 与环境**（Skills/MCP/hooks、`AGENTS.md` 等常驻上下文）、**coding agent 基础**（检索、上下文、子代理、harness 包模型）。
+要在各阶段有效，还需五块能力：**引导工作流**（速度/成本/风险/人力权衡）、**赋能自主度**（交互 vs 委派、上下文与并行）、**评审产出**（行为/功能验证、agentic review）、**定制 agent 与环境**（Skills/MCP/hooks、[`AGENTS.md`](../entities/agents-md.md) 等常驻上下文）、**coding agent 基础**（检索、上下文、子代理、harness 包模型）。
 
 与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
 
 ## Related
 
 - [Model Context Protocol (MCP)](../entities/mcp.md)
+- [AGENTS.md](../entities/agents-md.md)
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [mena](../entities/mena.md)
 - [Pi](../entities/pi.md)

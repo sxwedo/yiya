@@ -9,7 +9,7 @@
 ```
 raw/
   _inbox/                      # 未分域
-  bookmarks/github.md|sites.md # 表格：项目/站点 · URL · 作者 · 简介
+  bookmarks/github.md|sites.md|docs.md  # GitHub / 产品站 / 文档门户
   articles/<作者>/<标题>.md    # 成文；无作者 → _unknown/
   articles/_media/<slug>/      # 配图（不进作者目录）
 domains/<id>/                  # OKF bundle：entities/ · concepts/ · references/（按需）
@@ -44,7 +44,7 @@ shared/                        # 跨域实体与纲领
 | 类型 | 做什么 |
 |---|---|
 | 成文 | 文章/长帖，或一篇有稳定标题的官方指南：拉这一页 → `articles/<作者>/`（官方文档作者用官方名）→ 先改已有页 |
-| 书签 | 首页、GitHub、产品页、docs 门户/根 → bookmarks 表 → 更新或新建产品 Entity + Reference |
+| 书签 | GitHub → `github.md`；产品/机构首页 → `sites.md`；docs 门户/根 → `docs.md`。挂产品 Entity + Reference |
 
 官方文档怎么判、步骤、结构体检见 `yiya-ingest`。查重扫 raw 头 `url:`；认领=知识页链上该 raw。
 

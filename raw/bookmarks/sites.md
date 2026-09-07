@@ -11,6 +11,10 @@
 | LangChain | https://www.langchain.com | LangChain | 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）+ LangSmith 工程平台 |
 | Trendshift | https://trendshift.io | Trendshift | GitHub 仓库实时动量榜（上升期捕捉，非峰值后），GitHub Trending 替代 |
 | Google DeepMind | https://deepmind.google/ | Google DeepMind | Google 的 AI 研究实验室总入口：Gemini/Gemma 等模型，以及科学与机器人方向 |
-| Docker Docs | https://docs.docker.com/ | Docker | Docker 官方文档门户：Engine / Compose / Desktop / Build 等入口 |
 | Obsidian | https://obsidian.md/ | Obsidian | 本地优先的 Markdown 知识库（vault + 双向链接 + 图谱）；Karpathy 把 LLM Wiki 的人读面叫成 IDE |
 | Starship | https://starship.rs/ | Starship | 跨 shell 的极简提示符（Rust）：bash/zsh/fish 等共用一份配置 |
+| Zread | https://zread.ai/ | ZreadAI / 智谱 | 把 GitHub 仓编译成结构化项目 Wiki（架构/模块/可问答）；github.com → zread.ai |
+| Code Wiki | https://codewiki.google/ | Google | Gemini 生成并随提交更新的 GitHub 仓 Wiki；URL：codewiki.google/github.com/owner/repo |
+| Ghostty | https://ghostty.org/ | Mitchell Hashimoto | 原生 GPU 终端模拟器（Zig）；不是 Electron，也不是 shell 提示符 |
+| AGENTS.md | https://agents.md/ | agents.md | 仓内给编码代理读的约定文件（对人用 README，对 Agent 用 AGENTS.md） |
+| Grokipedia | https://grokipedia.com/ | xAI | xAI 用 Grok 生成/核验的在线百科；条目不可直接众包编辑 |

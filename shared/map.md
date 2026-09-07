@@ -23,6 +23,7 @@ sources: []
 
 - [Andrej Karpathy](./entities/karpathy.md)
 - [Google DeepMind](./entities/deepmind.md)
+- [Grokipedia](./entities/grokipedia.md)
 - [Obsidian](./entities/obsidian.md)
 
 ## 跨域纲领
@@ -32,7 +33,7 @@ sources: []
 
 ## 簇入口
 
-- **知识库三层**：[LLM Wiki](./concepts/llm-wiki.md) · [WikiSkill](../domains/agents/concepts/wikiskill-architecture.md) · 人读 IDE [Obsidian](./entities/obsidian.md)
+- **知识库三层**：[LLM Wiki](./concepts/llm-wiki.md) · [WikiSkill](../domains/agents/concepts/wikiskill-architecture.md) · 人读 IDE [Obsidian](./entities/obsidian.md) · 公开对照 [Grokipedia](./entities/grokipedia.md)
 - **Harness**：[domains/agents/overview.md](../domains/agents/overview.md)（Pi / oh-my-pi / Grok Bot）
 - **记忆**：[四层 Agent 记忆](../domains/agents/concepts/four-layer-agent-memory.md)
 - **语义层**：[语义层](../domains/engineering/concepts/semantic-layer.md)

@@ -10,7 +10,7 @@ sources: []
 
 # Scope
 
-**收**：Agent 运行时与 harness、记忆/评测/检索模式、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot）、MCP 协议及其上的 server/框架、agent 运行面（桌面/本机壳）、官方学院、多智能体协作与治理。
+**收**：Agent 运行时与 harness、记忆/评测/检索模式、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot）、MCP 协议及其上的 server/框架、仓内常驻约定（AGENTS.md）、GitHub 仓的可读化（MCP server、生成项目 Wiki）、agent 运行面（桌面/本机壳）、官方学院、多智能体协作与治理。
 
 **不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；跨域权威实体升格后放 `shared/entities`。外探源（如 Trendshift）可建 Entity，不当作成品 harness。
 
@@ -18,7 +18,9 @@ sources: []
 
 | Entity | 一句话 |
 |--------|--------|
+| [AGENTS.md](./entities/agents-md.md) | 仓内给 Agent 读的约定文件（规范：agents.md） |
 | [Claude Academy](./entities/claude-academy.md) | Anthropic 官方学院：学用 Claude 与 AI Fluency |
+| [Code Wiki](./entities/code-wiki.md) | Google：Gemini 为 GitHub 仓生成并随提交更新的 Wiki |
 | [FastMCP](./entities/fastmcp.md) | Prefect 的 MCP 应用框架：Python server/client/Apps |
 | [GitMCP](./entities/gitmcp.md) | 公开 GitHub 仓 → Remote MCP（gitmcp.io） |
 | [Grok Bot](./entities/grok-bot.md) | 工程多智能体产品：Engineering Bot 带队 + Cloud Agent 进仓 |
@@ -28,6 +30,7 @@ sources: []
 | [oh-my-pi](./entities/oh-my-pi.md) | batteries-included 终端编码代理（omp.sh），Rust 核心 |
 | [Omarchy](./entities/omarchy.md) | DHH 的 Arch 桌面：coding agent CLI 当系统一等公民 |
 | [Pi](./entities/pi.md) | earendil-works 极简终端编码代理框架（pi.dev） |
+| [Zread](./entities/zread.md) | GitHub 仓 → 结构化项目 Wiki（github.com → zread.ai） |
 
 ### 外探源
 

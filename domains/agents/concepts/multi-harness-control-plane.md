@@ -10,6 +10,7 @@ related:
   - minimal-agent-harness
   - coding-agent-workflow
   - mena
+  - agents-md
 sources:
   - ../../../raw/articles/Smartpig/如何统一管理 Codex、Claude、DeepSeek 等不同的 AI Harness，让切换像换编译器一样简单.md
 ---
@@ -21,7 +22,7 @@ sources:
 要点：
 
 1. **先统一任务**：goal / constraints / acceptance / permissions 与具体模型无关  
-2. **一份项目事实源**（如 `.agent/`），再生成各平台的 `AGENTS.md` / `CLAUDE.md`  
+2. **一份项目事实源**（如 `.agent/`），再生成各平台的 [`AGENTS.md`](../entities/agents-md.md) / `CLAUDE.md`  
 3. **Adapter** 做任务转换、上下文注入、工具映射、结果归一  
 4. **能力注册表**：必需能力缺失则拒跑或改路由，不假装完全等价  
 5. **权限与状态在 Harness 外**：会话可迁移，输出格式统一才便于比较与切换  
@@ -33,5 +34,6 @@ sources:
 - [Delivery Harness](./delivery-harness.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
+- [AGENTS.md](../entities/agents-md.md)
 - [mena](../entities/mena.md)
 - [打开 raw](../../../raw/articles/Smartpig/如何统一管理 Codex、Claude、DeepSeek 等不同的 AI Harness，让切换像换编译器一样简单.md)

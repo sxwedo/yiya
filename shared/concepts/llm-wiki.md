@@ -10,6 +10,10 @@ related:
   - karpathy
   - obsidian
   - wikiskill-architecture
+  - zread
+  - code-wiki
+  - agents-md
+  - grokipedia
 sources:
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
   - ../references/karpathy-llm-wiki.md
@@ -17,19 +21,23 @@ sources:
 
 # Definition
 
-**LLM Wiki** 把个人知识库做成三层：（1）**raw** 不可改原料；（2）**wiki** 由 LLM 写的实体/概念/摘要页，ingest 时集成而非仅索引；（3）**schema**（如 `AGENTS.md`）规定约定与工作流。人负责选源与提问；LLM 负责摘要、互链、记账与 lint。
+**LLM Wiki** 把个人知识库做成三层：（1）**raw** 不可改原料；（2）**wiki** 由 LLM 写的实体/概念/摘要页，ingest 时集成而非仅索引；（3）**schema**（如 [`AGENTS.md`](../../domains/agents/entities/agents-md.md)）规定约定与工作流。人负责选源与提问；LLM 负责摘要、互链、记账与 lint。
 
 与 RAG 上传文件的差别：问题答案与矛盾标注会**沉淀进 wiki**，下次查询直接用已编译知识。配套操作：ingest、query（好答可回写）、lint；导航靠 `index.md` + `log.md`。
 
 yiya 落地：raw（articles/bookmarks）+ domains/shared 当 wiki + AGENTS/skills；Reference 仅按需。人读面用 [Obsidian](../entities/obsidian.md)（Karpathy：Obsidian 是 IDE，LLM 是程序员，wiki 是代码库）。
 
-与 [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md) 同族三层（Raw → 编纂 → 可执行层）：本页是个人知识库的编译 wiki；WikiSkill 是 Agent 技能从知识里进化。对照见该页。
+与 [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md) 同族三层（Raw → 编纂 → 可执行层）：本页是个人知识库的编译 wiki；WikiSkill 是 Agent 技能从知识里进化。对照见该页。[Zread](../../domains/agents/entities/zread.md)、[Code Wiki](../../domains/agents/entities/code-wiki.md) 也是「编译成 wiki」，但对象是 GitHub 代码仓，不是你策展的 raw。[Grokipedia](../entities/grokipedia.md) 是 xAI 的公开百科（Grok 写条目），不是个人 vault。
 
 ## Related
 
 - [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)
 - [Self-growing Knowledge Base](./self-growing-kb.md)
+- [Zread](../../domains/agents/entities/zread.md)
+- [Code Wiki](../../domains/agents/entities/code-wiki.md)
 - [Obsidian](../entities/obsidian.md)
+- [Grokipedia](../entities/grokipedia.md)
+- [AGENTS.md](../../domains/agents/entities/agents-md.md)
 - [Andrej Karpathy](../entities/karpathy.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)
 - [打开 raw](../../raw/articles/Karpathy/LLM Wiki.md)
