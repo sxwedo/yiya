@@ -13,6 +13,7 @@ sources:
   - ../references/ghostty-site.md
   - ../references/zerebos-ghostty-config-github.md
   - ../../../raw/articles/阿蔺A-Lin/Ghostty 终端入门指南：安装、配置、用起来.md
+  - ../../../raw/articles/鸟哥 － 蓝鸟会🕊️/卧槽，这个Ghostty终端新出了个macOS侧边栏工具，直接叫「Rig」！.md
 ---
 
 # Summary
@@ -27,3 +28,4 @@ sources:
 - [Starship](./starship.md)
 - [zerebos/ghostty-config（GitHub）](../references/zerebos-ghostty-config-github.md)
 - [Ghostty 终端入门指南：安装、配置、用起来](../../../raw/articles/阿蔺A-Lin/Ghostty 终端入门指南：安装、配置、用起来.md)
+- [卧槽，这个Ghostty终端新出了个macOS侧边栏工具，直接叫「Rig」！](../../../raw/articles/鸟哥 － 蓝鸟会🕊️/卧槽，这个Ghostty终端新出了个macOS侧边栏工具，直接叫「Rig」！.md)

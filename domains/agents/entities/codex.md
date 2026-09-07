@@ -28,6 +28,10 @@ sources:
   - ../../../raw/articles/向阳乔木/OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工.md
   - ../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md
   - ../../../raw/articles/Vincent/Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。.md
+  - ../../../raw/articles/舒乐熊 SuneBear 🐻/把自己 10 年码农生涯 Vibe 成了一个页面：.md
+  - ../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md
+  - ../../../raw/articles/雪踏乌云/目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读.md
+  - ../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md
 ---
 
 # Summary
@@ -54,3 +58,7 @@ sources:
 - [OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工](../../../raw/articles/向阳乔木/OpenAI开源Symphony：给每一个任务配一个永不下班的 AI员工.md)
 - [CodeX 新功能，又是一个独宠 MAC 的功能！！！](../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md)
 - [Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。](../../../raw/articles/Vincent/Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。.md)
+- [把自己 10 年码农生涯 Vibe 成了一个页面：](../../../raw/articles/舒乐熊 SuneBear 🐻/把自己 10 年码农生涯 Vibe 成了一个页面：.md)
+- [打开Codex，设定目标或直接对话，提示词如下：](../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md)
+- [目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读](../../../raw/articles/雪踏乌云/目前很多人都再说 －goal 功能，但是很多人没讲这是做什么的，这篇文章很详细了，可以阅读.md)
+- [结合最近写skill的一些心得，总结了一个Skill设计五步法：](../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md)

@@ -20,6 +20,7 @@ sources:
   - ../../../raw/articles/Rahul/There are 8 billion people on the planet.md
   - ../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md
   - ../../../raw/articles/Polo贱🕊️－ 来Gate事件合约抢百万积分/GitHub 45k星星优秀项目介绍：hello-agents.md
+  - ../../../raw/articles/dale/Loops are just shitty graphs.md
 ---
 
 # Summary
@@ -39,3 +40,4 @@ sources:
 - [There are 8 billion people on the planet](../../../raw/articles/Rahul/There are 8 billion people on the planet.md)
 - [今天来看腾讯的开发工程师的初面题。](../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md)
 - [GitHub 45k星星优秀项目介绍：hello-agents](../../../raw/articles/Polo贱🕊️－ 来Gate事件合约抢百万积分/GitHub 45k星星优秀项目介绍：hello-agents.md)
+- [Loops are just shitty graphs](../../../raw/articles/dale/Loops are just shitty graphs.md)

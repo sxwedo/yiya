@@ -10,6 +10,7 @@ related:
   - discovery-loop
 sources:
   - ../references/deepmind-site.md
+  - ../../raw/articles/meng shao/再次分享谷歌的 AI 学习平台「Google Skills」.md
 ---
 
 # Summary
@@ -20,3 +21,4 @@ sources:
 
 - [Google DeepMind（站点书签）](../references/deepmind-site.md)
 - [Discovery Loop](./discovery-loop.md)
+- [再次分享谷歌的 AI 学习平台「Google Skills」](../../raw/articles/meng shao/再次分享谷歌的 AI 学习平台「Google Skills」.md)

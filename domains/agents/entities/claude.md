@@ -140,6 +140,23 @@ sources:
   - ../../../raw/articles/雪踏乌云/Token省35%、工具调用暴降94%！本地知识图谱改变的5个编程习惯.md
   - ../../../raw/articles/soar/试了一些 agent loop 工具之后，发现还是 ralph 香.md
   - ../../../raw/articles/meng shao/AI 工程能力的四个层级：从入门到高阶，逐步讲解了每个阶段需要掌握的核心技能，感谢 @zachly 分享！.md
+  - ../../../raw/articles/Sprytix/ANTHROPIC JUST LEAKED AN INTERNAL DOCUMENT WORTH $2.6M - IT CHANGES HOW YOU SHOULD BUILD.md
+  - ../../../raw/articles/Gyro/别再让你的 Claude Code 裸奔了，4 套 Agent Harness 总有一款适合你.md
+  - ../../../raw/articles/铁锤人/Anthropic 提供了 Claude Code 的教程.md
+  - ../../../raw/articles/Jason Zuo/Claude Code + Obsidian：为什么纯 .md 就够了.md
+  - ../../../raw/articles/实践哥 Li/删掉OpenClaw吧，使用Claude Code连接IM软件更舒适.md
+  - ../../../raw/articles/软苏格拉底/装好 CC 的第一件事，99% 的人都做错了！.md
+  - ../../../raw/articles/Ray Wang/有手就会，在 Claude Code 中优雅使用 Codex.md
+  - ../../../raw/articles/Ruiteng Huang/AI Agent 连续运行 200+ 小时：LoopX 如何让长程执行不失忆、不漂移.md
+  - ../../../raw/articles/Khairallah AL-Awady/🚨 Anthropic just showed a 27-minute workshop on how to actually do prompts for Claude.md
+  - ../../../raw/articles/七言/一个人干整个团队的活，年入120万美金。.md
+  - ../../../raw/articles/雪踏乌云/为你的 Agent 配置更好的记忆架构：从四层模型到本地部署.md
+  - ../../../raw/articles/zostaff/Loop Engineering－ Four Loops That Actually Works.md
+  - ../../../raw/articles/小互/LangChain 发布 OpenWiki 0.1.0.md
+  - ../../../raw/articles/AI奶爸/L站邀请码获取条件.md
+  - ../../../raw/articles/Jason Young/新范式还是碎钞机？Claude Code Agent Teams 浅度解析.md
+  - ../../../raw/articles/小墨同学/如果你也想开始学习 Pi，可以看看我的学习分享🔥.md
+  - ../../../raw/articles/Jason Zhu/我靠 这个agent-flow给我的cc装上了.md
 ---
 
 # Summary
@@ -281,3 +298,20 @@ sources:
 - [Token省35%、工具调用暴降94%！本地知识图谱改变的5个编程习惯](../../../raw/articles/雪踏乌云/Token省35%、工具调用暴降94%！本地知识图谱改变的5个编程习惯.md)
 - [试了一些 agent loop 工具之后，发现还是 ralph 香](../../../raw/articles/soar/试了一些 agent loop 工具之后，发现还是 ralph 香.md)
 - [AI 工程能力的四个层级：从入门到高阶，逐步讲解了每个阶段需要掌握的核心技能，感谢 @zachly 分享！](../../../raw/articles/meng shao/AI 工程能力的四个层级：从入门到高阶，逐步讲解了每个阶段需要掌握的核心技能，感谢 @zachly 分享！.md)
+- [ANTHROPIC JUST LEAKED AN INTERNAL DOCUMENT WORTH $2.6M - IT CHANGES HOW YOU SHOULD BUILD](../../../raw/articles/Sprytix/ANTHROPIC JUST LEAKED AN INTERNAL DOCUMENT WORTH $2.6M - IT CHANGES HOW YOU SHOULD BUILD.md)
+- [别再让你的 Claude Code 裸奔了，4 套 Agent Harness 总有一款适合你](../../../raw/articles/Gyro/别再让你的 Claude Code 裸奔了，4 套 Agent Harness 总有一款适合你.md)
+- [Anthropic 提供了 Claude Code 的教程](../../../raw/articles/铁锤人/Anthropic 提供了 Claude Code 的教程.md)
+- [Claude Code + Obsidian：为什么纯 .md 就够了](../../../raw/articles/Jason Zuo/Claude Code + Obsidian：为什么纯 .md 就够了.md)
+- [删掉OpenClaw吧，使用Claude Code连接IM软件更舒适](../../../raw/articles/实践哥 Li/删掉OpenClaw吧，使用Claude Code连接IM软件更舒适.md)
+- [装好 CC 的第一件事，99% 的人都做错了！](../../../raw/articles/软苏格拉底/装好 CC 的第一件事，99% 的人都做错了！.md)
+- [有手就会，在 Claude Code 中优雅使用 Codex](../../../raw/articles/Ray Wang/有手就会，在 Claude Code 中优雅使用 Codex.md)
+- [AI Agent 连续运行 200+ 小时：LoopX 如何让长程执行不失忆、不漂移](../../../raw/articles/Ruiteng Huang/AI Agent 连续运行 200+ 小时：LoopX 如何让长程执行不失忆、不漂移.md)
+- [🚨 Anthropic just showed a 27-minute workshop on how to actually do prompts for Claude](../../../raw/articles/Khairallah AL-Awady/🚨 Anthropic just showed a 27-minute workshop on how to actually do prompts for Claude.md)
+- [一个人干整个团队的活，年入120万美金。](../../../raw/articles/七言/一个人干整个团队的活，年入120万美金。.md)
+- [为你的 Agent 配置更好的记忆架构：从四层模型到本地部署](../../../raw/articles/雪踏乌云/为你的 Agent 配置更好的记忆架构：从四层模型到本地部署.md)
+- [Loop Engineering－ Four Loops That Actually Works](../../../raw/articles/zostaff/Loop Engineering－ Four Loops That Actually Works.md)
+- [LangChain 发布 OpenWiki 0.1.0](../../../raw/articles/小互/LangChain 发布 OpenWiki 0.1.0.md)
+- [L站邀请码获取条件](../../../raw/articles/AI奶爸/L站邀请码获取条件.md)
+- [新范式还是碎钞机？Claude Code Agent Teams 浅度解析](../../../raw/articles/Jason Young/新范式还是碎钞机？Claude Code Agent Teams 浅度解析.md)
+- [如果你也想开始学习 Pi，可以看看我的学习分享🔥](../../../raw/articles/小墨同学/如果你也想开始学习 Pi，可以看看我的学习分享🔥.md)
+- [我靠 这个agent-flow给我的cc装上了](../../../raw/articles/Jason Zhu/我靠 这个agent-flow给我的cc装上了.md)

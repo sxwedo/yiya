@@ -34,6 +34,7 @@ sources:
   - ../../../raw/articles/Ethan － Builder/什么是 Eval？为什么它决定了 AI 项目能不能真正落地.md
   - ../../../raw/articles/Vincent/一文彻底打通AI底层逻辑：从LLM到Agent，所有核心概念拆解透彻.md
   - ../../../raw/articles/Geek Lite/把公司文档自动整理成知识 Wiki，通过 MCP 让每个员工的 AI 客户端拿到对口的上下文，不用再手动粘贴。.md
+  - ../../../raw/articles/宝玉/注册地址：[rsvp.withgoogle.com－events－google-…](https－－－rsvp.withgoogle.com－events－google-ai-ag.md
 ---
 
 # Summary
@@ -70,3 +71,4 @@ sources:
 - [什么是 Eval？为什么它决定了 AI 项目能不能真正落地](../../../raw/articles/Ethan － Builder/什么是 Eval？为什么它决定了 AI 项目能不能真正落地.md)
 - [一文彻底打通AI底层逻辑：从LLM到Agent，所有核心概念拆解透彻](../../../raw/articles/Vincent/一文彻底打通AI底层逻辑：从LLM到Agent，所有核心概念拆解透彻.md)
 - [把公司文档自动整理成知识 Wiki，通过 MCP 让每个员工的 AI 客户端拿到对口的上下文，不用再手动粘贴。](../../../raw/articles/Geek Lite/把公司文档自动整理成知识 Wiki，通过 MCP 让每个员工的 AI 客户端拿到对口的上下文，不用再手动粘贴。.md)
+- [注册地址：[rsvp.withgoogle.com－events－google-…](https－－－rsvp.withgoogle.com－events－google-ai-ag](../../../raw/articles/宝玉/注册地址：[rsvp.withgoogle.com－events－google-…](https－－－rsvp.withgoogle.com－events－google-ai-ag.md)

@@ -32,6 +32,7 @@ sources:
   - ../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md
   - ../../raw/articles/Joey Lee/1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑.md
   - ../../raw/articles/AI_Explorer/list of 10 active AI researchers on X－.md
+  - ../../raw/articles/0xRafy/AI engineers at top companies are pulling $250K-$450K in 2026. Most of them cannot train.md
 ---
 
 # Summary
@@ -65,3 +66,4 @@ sources:
 - [CLAUDE.md 终于有人把最全用法讲清楚了](../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md)
 - [1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑](../../raw/articles/Joey Lee/1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑.md)
 - [list of 10 active AI researchers on X－](../../raw/articles/AI_Explorer/list of 10 active AI researchers on X－.md)
+- [AI engineers at top companies are pulling $250K-$450K in 2026. Most of them cannot train](../../raw/articles/0xRafy/AI engineers at top companies are pulling $250K-$450K in 2026. Most of them cannot train.md)

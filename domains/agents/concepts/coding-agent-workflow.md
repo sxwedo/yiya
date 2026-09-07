@@ -100,6 +100,26 @@ sources:
   - ../../../raw/articles/siddontang/你选择什么样的基础架构，最终就会成长为什么样的公司.md
   - ../../../raw/articles/Raft/Don't talk to me, talk to my agents.md
   - ../../../raw/articles/车九 （低价蓝V代开）/支付宝跟微信的支付通道已经添加了哈.md
+  - ../../../raw/articles/大梦想家迪士尼/免费大模型API服务商合集.md
+  - ../../../raw/articles/Pi/Pi now has 100000 stars on GitHub⭐️Thank you People of Pi for your contributions and.md
+  - ../../../raw/articles/卡颂/总结 Grill-Me 中你能用上的专业术语.md
+  - ../../../raw/articles/Python Programming/Top Python Libraries.md
+  - ../../../raw/articles/别开枪自己人/B超、X光、CT、核磁的适应症与优缺点对比，你分的清吗？.md
+  - ../../../raw/articles/老白（每日 AI 干货✊）/管理者需会的管理模型.md
+  - ../../../raw/articles/桃桃 AI 分享📓/麦肯锡工作法7步高效解决问题.md
+  - ../../../raw/articles/EchoXu/OpenAI 官宣了一个新的活动，面向于美国大学生的免费 plus 套餐活动。.md
+  - ../../../raw/articles/Jason Zhu/微软刚开源了一个项目，叫 Resource2Skill，还配了篇 arXiv 论文.md
+  - ../../../raw/articles/路飞 🏴‍☠️ AI 研究员🧐/OpenClaw 现在可以抓取任何网站而不被屏蔽——零机器人检测，原生绕过 Cloudflare，比 BeautifulSoup 快 774 倍。.md
+  - ../../../raw/articles/墓碑科技/Linus Torvalds 发飙了。.md
+  - ../../../raw/articles/董币哥/比工作能力更重要的是你的工作逻辑.md
+  - ../../../raw/articles/Frad/一些用了好几年的新 Unix：.md
+  - ../../../raw/articles/AlphaSignal/Most Developers Do Not Need Agent Loops Yet.md
+  - ../../../raw/articles/Smartpig/Loop Engineering：Agent时代最被低估的能力.md
+  - ../../../raw/articles/刘醒/这张图，是源自道家的非常有效的思考框架图——道法术器势.md
+  - ../../../raw/articles/向阳乔木/先占个位置，赛博善人 Cloudflare 计划出给 Agent 用的钱包。.md
+  - ../../../raw/articles/Geek Lite/一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。.md
+  - ../../../raw/articles/小樱💞｜实用工具分享/🔥 iPhone 防盗神级自动化（快捷指令）.md
+  - ../../../raw/articles/桃桃 AI 分享📓/工作能力强的人，都会搭建工作系统❗❗.md
 ---
 
 # Definition
@@ -209,3 +229,23 @@ sources:
 - [你选择什么样的基础架构，最终就会成长为什么样的公司](../../../raw/articles/siddontang/你选择什么样的基础架构，最终就会成长为什么样的公司.md)
 - [Don't talk to me, talk to my agents](../../../raw/articles/Raft/Don't talk to me, talk to my agents.md)
 - [支付宝跟微信的支付通道已经添加了哈](../../../raw/articles/车九 （低价蓝V代开）/支付宝跟微信的支付通道已经添加了哈.md)
+- [免费大模型API服务商合集](../../../raw/articles/大梦想家迪士尼/免费大模型API服务商合集.md)
+- [Pi now has 100000 stars on GitHub⭐️Thank you People of Pi for your contributions and](../../../raw/articles/Pi/Pi now has 100000 stars on GitHub⭐️Thank you People of Pi for your contributions and.md)
+- [总结 Grill-Me 中你能用上的专业术语](../../../raw/articles/卡颂/总结 Grill-Me 中你能用上的专业术语.md)
+- [Top Python Libraries](../../../raw/articles/Python Programming/Top Python Libraries.md)
+- [B超、X光、CT、核磁的适应症与优缺点对比，你分的清吗？](../../../raw/articles/别开枪自己人/B超、X光、CT、核磁的适应症与优缺点对比，你分的清吗？.md)
+- [管理者需会的管理模型](../../../raw/articles/老白（每日 AI 干货✊）/管理者需会的管理模型.md)
+- [麦肯锡工作法7步高效解决问题](../../../raw/articles/桃桃 AI 分享📓/麦肯锡工作法7步高效解决问题.md)
+- [OpenAI 官宣了一个新的活动，面向于美国大学生的免费 plus 套餐活动。](../../../raw/articles/EchoXu/OpenAI 官宣了一个新的活动，面向于美国大学生的免费 plus 套餐活动。.md)
+- [微软刚开源了一个项目，叫 Resource2Skill，还配了篇 arXiv 论文](../../../raw/articles/Jason Zhu/微软刚开源了一个项目，叫 Resource2Skill，还配了篇 arXiv 论文.md)
+- [OpenClaw 现在可以抓取任何网站而不被屏蔽——零机器人检测，原生绕过 Cloudflare，比 BeautifulSoup 快 774 倍。](../../../raw/articles/路飞 🏴‍☠️ AI 研究员🧐/OpenClaw 现在可以抓取任何网站而不被屏蔽——零机器人检测，原生绕过 Cloudflare，比 BeautifulSoup 快 774 倍。.md)
+- [Linus Torvalds 发飙了。](../../../raw/articles/墓碑科技/Linus Torvalds 发飙了。.md)
+- [比工作能力更重要的是你的工作逻辑](../../../raw/articles/董币哥/比工作能力更重要的是你的工作逻辑.md)
+- [一些用了好几年的新 Unix：](../../../raw/articles/Frad/一些用了好几年的新 Unix：.md)
+- [Most Developers Do Not Need Agent Loops Yet](../../../raw/articles/AlphaSignal/Most Developers Do Not Need Agent Loops Yet.md)
+- [Loop Engineering：Agent时代最被低估的能力](../../../raw/articles/Smartpig/Loop Engineering：Agent时代最被低估的能力.md)
+- [这张图，是源自道家的非常有效的思考框架图——道法术器势](../../../raw/articles/刘醒/这张图，是源自道家的非常有效的思考框架图——道法术器势.md)
+- [先占个位置，赛博善人 Cloudflare 计划出给 Agent 用的钱包。](../../../raw/articles/向阳乔木/先占个位置，赛博善人 Cloudflare 计划出给 Agent 用的钱包。.md)
+- [一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。](../../../raw/articles/Geek Lite/一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。.md)
+- [🔥 iPhone 防盗神级自动化（快捷指令）](../../../raw/articles/小樱💞｜实用工具分享/🔥 iPhone 防盗神级自动化（快捷指令）.md)
+- [工作能力强的人，都会搭建工作系统❗❗](../../../raw/articles/桃桃 AI 分享📓/工作能力强的人，都会搭建工作系统❗❗.md)
