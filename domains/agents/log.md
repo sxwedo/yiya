@@ -1,6 +1,8 @@
 # Agent 与 harness — Log
 
 ## 2026-09-08
+
+* **2026-09-08 refactor** | [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 瘦身与解耦：剔除 50+ 篇弱相关/杂质 raw 挂靠，Related 回归纯维基页面互链，sources 聚焦 10 篇核心文献。
 * **2026-09-08 lint** | domains/agents → Related 括号链加 `<>`；mcp 嵌套链；11 篇成文补 sources
 * **2026-09-08 delete** | 灌水/域外 raw 8 篇 → 摘对应 wiki 链；无专属页
 * **2026-09-08 delete** | 灌水/空壳/域外合集 raw 18 篇 → 摘 Claude / Coding Agent Workflow / Codex 链；无专属页
@@ -21,6 +23,7 @@
 * **2026-09-08 delete** | `raw/articles/-Zho-/终于把我的 Nano-Banana 创意玩法大全 Github 库 写好了！！！.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
 
 ## 2026-09-07
+
 * **2026-09-07 ingest** | X 书签 (567–584/584) 成功 17 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (516–566/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (466–515/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
@@ -59,8 +62,9 @@
 * **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话；overview 实体表与目录对齐（11 个 Entity）。
 
 ## 2026-09-06
-- 2026-09-07：记录自主调研 TODO（梦境 + 外探），见 `raw/_inbox/research/TODO.md`；未实现
-- 2026-09-06：废除 `raw-manifest.yaml`；查重靠 raw `url:`，认领靠知识页链 raw
+* 2026-09-07：记录自主调研 TODO（梦境 + 外探），见 `raw/_inbox/research/TODO.md`；未实现
+* 2026-09-06：废除 `raw-manifest.yaml`；查重靠 raw `url:`，认领靠知识页链 raw
+
 * **Update**: raw 成文按作者分目录 `articles/<作者>/<人话标题>.md`；`_media/` 保持顶层；正文链接改为 `../_media/`；同步 manifest / Reference resource / AGENTS / ingest skill。
 * **Update**: raw 层改为扁平 `articles/<人话标题>.md` + `bookmarks/` 列表；去掉 `library/YYYY/MM` 与 per-bookmark stub。
 * **Update**: 书签型必须写 raw 链接 stub + claimed；回填 [earendil-works/pi](./references/earendil-pi-github.md) stub。
@@ -72,6 +76,7 @@
 * **Ingest**: [货拉拉记忆在线侧](./references/huolala-llm-memory-online.md) → concepts [历史不等于记忆](./concepts/history-vs-memory.md), [在线记忆流水线](./concepts/online-memory-pipeline.md).
 
 ## 2026-09-05
+
 * **Ingest**: [Agent 自进化飞轮](./references/agent-self-evolution-flywheel.md) → concepts [Agent 自进化飞轮](./concepts/agent-self-evolution-flywheel.md), [Harness 自改进](./concepts/harness-self-improvement.md).
 * **Ingest**: [得物 MultiAgent 记忆](./references/dewu-multiagent-memory.md) → concepts [四层 Agent 记忆](./concepts/four-layer-agent-memory.md), [异步记忆沉淀](./concepts/async-memory-precipitation.md).
 * **Ingest**: [Anthropic 多智能体失效](./references/anthropic-multiagent-failures.md) → concepts [多智能体失效模式](./concepts/multi-agent-failure-modes.md), [多智能体治理](./concepts/multi-agent-governance.md).
@@ -83,11 +88,13 @@
 * **Ingest**: [得物小摊 AI Native 演进实录](./references/dewu-delivery-harness.md) → concepts [Delivery Harness](./concepts/delivery-harness.md), [Evidence Gate](./concepts/evidence-gate.md).
 
 ## 2026-09-04
+
 * **Initialization**: Slim scaffold (references / entities / concepts only).
 * **Ingest**: [AI Engineering Skills Map: Using coding agents](./references/ng-coding-agents-skills.md) → [Coding Agent Workflow](./concepts/coding-agent-workflow.md) (2026-09-06).
 * **Bookmark**: [mena](./entities/mena.md) ← [sxwedo/mena](./references/sxwedo-mena-github.md) (2026-09-06).
-- 2026-09-06：Related 互链改相对路径约定（禁 `/concepts/...`，以免 GitHub 404）
-- 2026-09-06：书签 `github.md`/`sites.md` 改为表格（URL / 作者 / 简介）
+* 2026-09-06：Related 互链改相对路径约定（禁 `/concepts/...`，以免 GitHub 404）
+* 2026-09-06：书签 `github.md`/`sites.md` 改为表格（URL / 作者 / 简介）
+
 * **Bookmark**: [Claude Academy](./entities/claude-academy.md) ← sites.md (2026-09-06).
 * **Ingest**: [万字长文｜Grok Bot 从入门到精通](./references/jinchenma-grok-bot-guide.md) → [Role-first Agent](./concepts/role-first-agent.md) + Entity Grok Bot (2026-09-06).
 * **Bookmark**: [Pi（官网）](./references/pi-dev-site.md) → sites.md / Entity Pi (2026-09-06).

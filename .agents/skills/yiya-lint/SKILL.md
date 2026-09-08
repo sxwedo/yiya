@@ -34,8 +34,13 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 4. **raw 查重（全库）**：`raw/articles/**` 的 `url:`，以及 `bookmarks/github.md` / `sites.md` / `docs.md` / `tools.md` 的 URL 是否重复（跨 bundle，因 url 全局唯一）。
 5. **未链 raw（本域启发式）**：本域 `sources`/Related/`resource` 未引用、且明显属于本域主题的成文 raw。
 6. **重复实体**：本域 `entities/` 与 `shared/entities/` 标题/别名明显撞车（升格用 `yiya-promote-to-shared`）。
-7. **过瘦/过肥**：一文下 Concept 明显集邮时列入 `notes`。
-8. **index 一句话**：类型 `index.md` 每条应为 `* [Title](./x.md) — <一句话>`；缺则 `notes`。
+7. **过瘦/过肥/过载**：
+   - 概念过载（Kitchen-sink）：单页 `sources > 15` 或涵盖非核心杂文时列入 `notes`，提示需拆解瘦身（Refactor）。
+   - 一文下 Concept 明显集邮时列入 `notes`。
+8. **空心 Reference 与双轨冗余**：
+   - 检查 `references/` 中是否充斥仅含跳转链接、无实质深度笔记的纯书签卡；
+   - 检查正文 `## Related` 是否违规大段机械复制 `sources` raw 列表（Related 应聚焦维基页面互链）。
+9. **index 一句话**：类型 `index.md` 每条应为 `* [Title](./x.md) — <一句话>`；缺则 `notes`。
 
 ## 知识项（仅「全面体检」/「lint 知识」/「知识体检」）
 
@@ -46,6 +51,7 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 - 正文提到的稳定对象没有对应 Entity/Concept
 - 单源卡是否与已有同指称页该合并
 - 同簇页是否应互相追加 `sources`
+- 概念是否出现概念漂移，需剥离不相干 raw 并提炼为独立子模式（Refactor）
 
 ## 输出
 

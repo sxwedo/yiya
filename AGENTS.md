@@ -21,11 +21,18 @@ shared/                        # 跨域实体与纲领
 ## 四条规矩
 
 1. **raw 正文不改**（除非人类授权删除/替换）
-2. **成文先续写**：先定 Domain（`overview.md` / `config/domains.yaml`），再在目标域 + `shared` 找同指称 Entity/Concept。能改则改旧页并追加 `sources`（**改旧页不限数量**）。找不到才建页。**新建** Entity/Concept/Reference 合计 ≤2。bookmarks 表、类型 index、`log.md`、overview 实体表不计。`sources` + Related **直链 raw**（相对路径）
-3. **Reference**：书签型必须有；成文默认不建（多页都直链 raw）。历史 Reference 先留
-4. **链接一律相对路径**（`./x.md`、`../entities/y.md`、`../../../raw/...`）；**禁**以 `/` 开头（GitHub 404）
+2. **成文先续写与高内聚**：先定 Domain（`overview.md` / `config/domains.yaml`），再在目标域 + `shared` 找同指称 Entity/Concept。
+   - **能改则改旧页**（补 `sources`、修润核心论点、增补对比）；但**严禁垃圾桶挂靠**：只有成文的核心论点直接支撑该概念时才追加，弱相关或仅顺带提及的不追加。
+   - **过载拆分（Refactor）**：单页 `sources > 15` 或涵盖正交子主题时应触发拆解，不再硬塞；新建 Entity/Concept 合计日常 ≤2，但在执行授权的重构拆分时不计。
+3. **Reference 降噪与防空心化**：
+   - **废弃书签必建空心 Reference**：书签收录进 `raw/bookmarks/*.md` 后，直挂对应 Entity，无需为纯 URL 制造只有 5 行的跳转卡。
+   - Reference 仅用于需撰写深度评注、拆解笔记的重磅专著/经典论文/权威规范；成文与普通书签**默认不建** Reference。
+4. **链接一律相对路径**：`./x.md`、`../entities/y.md`、`../../../raw/...`；**禁**以 `/` 开头（GitHub 404）。
+5. **元数据单一事实来源（DRY）**：
+   - Frontmatter `sources:` 专司**原料溯源**（机器可读，直链 raw 或深度 Reference）。
+   - 正文 `## Related` 专司**维基网络互链**（人类与导航可读，链向相关 Entity / Concept / Overview），**禁止**无脑重复抄录几十条 raw 文章链接。
 
-具名产品/框架/人 → **Entity**（仅当本文的稳定对象就是该具名物）；模式/方法 → **Concept**（模式文可以零 Entity）。盘点：Entity → Concept →（可选）Reference。
+具名产品/框架/人 → **Entity**（仅当本文的稳定对象就是该具名物）；模式/方法 → **Concept**（模式文可以零 Entity）。盘点：Entity → Concept →（极少需）Reference。
 
 ## 问答
 
@@ -39,12 +46,13 @@ shared/                        # 跨域实体与纲领
 
 要落盘时用户说「回写」→ `yiya-ingest` 回写分支。
 
-## 入库
+## 入库与重构
 
 | 类型 | 做什么 |
-|---|---|
-| 成文 | 文章/长帖，或一篇有稳定标题的官方指南：拉这一页 → `articles/<作者>/`（官方文档作者用官方名）→ 先改已有页 |
-| 书签 | GitHub → `github.md`；产品/机构首页 → `sites.md`；docs 门户/根 → `docs.md`；打开即用的检测/查询 → `tools.md`。挂 Entity + Reference |
+| --- | --- |
+| 成文 | 文章/长帖，或一篇有稳定标题的官方指南：拉这一页 → `raw/articles/<作者>/` → 匹配核心 Concept/Entity 续写；无匹配且必要才新建 |
+| 书签 | GitHub → `github.md`；产品/机构首页 → `sites.md`；docs 门户/根 → `docs.md`；工具 → `tools.md`。直接在对应 Entity 记录或补链，不建空心 Reference |
+| 重构 (Refactor) | 当 Concept 出现概念漂移、`sources > 15` 或包含非核心杂质时：剥离非核心 raw 链接，提炼拆分出独立子概念或回归内聚定义 |
 
 官方文档怎么判、步骤、结构体检见 `yiya-ingest`。查重扫 raw 头 `url:`；认领=知识页链上该 raw。
 

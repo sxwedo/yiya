@@ -16,11 +16,15 @@ argument-hint: "[url-or-path] [domain?]"
 ## 默认要瘦
 
 - **新建** Entity/Concept/Reference 合计 **≤2**。bookmarks 表、类型 index、`log.md`、overview 实体表**不计**。
-- **改旧页不限数量**：同指称或同簇已有页都碰（补 `sources`、Related、一句对照）。通常连 index/log 一共 3–8 个文件。
+- **改旧页不限数量**：同指称或同簇已有页都碰（补 `sources`、增润 Definition/Summary、补 Related 对照）。**但严禁垃圾桶挂靠**：成文的核心主旨必须直接支撑该概念才可追加，严禁把弱相关杂文强塞给宽泛大概念。
+- **过载拆解**：若目标概念页已有 `sources > 15` 或已出现概念漂移，应提出重构拆解（Refactor）建议，不再无脑堆砌。
 - 本文的稳定对象是**具名产品/人**才改/建 Entity；模式文可以零 Entity。产品名写进 Entity 页。
-- Concept/Entity 的 `sources` + Related **直链 raw**。成文**默认不建** Reference（多页都链 raw）。书签型必须有 Reference。历史 Reference 不批量删。
+- **元数据职责分工（DRY）**：
+  - Frontmatter `sources:` 直链 raw（原料溯源）；
+  - 正文 `## Related` 仅链向相关 Wiki 页面（Entity / Concept / Overview），**不**在文末重复粘贴全部 raw 列表。
+- **Reference 极简原则**：成文与书签**默认均不建** Reference。书签直接在对应 Entity 中沉淀链接与简述；仅当长篇专著/标准规范需撰写深度评注笔记时才建 Reference。历史 Reference 不批量删。
 
-盘点顺序：先定 Domain，再 **Entity → Concept →（可选）Reference**。
+盘点顺序：先定 Domain，再 **Entity → Concept →（极少需）Reference**。
 
 ## 入口判定
 
@@ -28,17 +32,18 @@ argument-hint: "[url-or-path] [domain?]"
 
 - **成文型**（文章/长帖，或一篇有稳定标题的官方指南/规范）：走「捕捉正文 → raw → 盘点已有 → 续写或建页」。官方文档作者用官方名，不用 `_unknown`。
 - **书签型**（网站首页、GitHub 仓库、产品主页、**docs 门户/根**、打开即用的在线工具）：
-  1. 判定 domain；在目标域 + `shared` 的 `entities/` 找同产品，已有则只补 Reference、书签行与 Related，不新开第二张产品 Entity
+  1. 判定 domain；在目标域 + `shared` 的 `entities/` 找同产品，已有则直接更新 Entity（补充官网/仓库说明与书签表链接），不新开第二张产品 Entity
   2. 按 URL 追加一行（只收入口）：`github.com/org/repo` → `github.md`；文档门户 / docs 根 → `docs.md`；打开即用的检测/查询 → `tools.md`；其余产品/机构首页 → `sites.md`。打开就能跑一次（Ping、looking glass、whois）进 `tools.md`；要安装或当产品用的仍进 `sites.md`
-  3. 书签只写对应表 + Entity/Reference
-  4. **一条** Reference：`resource:` 指向**该行所在表**（github / sites / docs / tools）；`tags` 含 `bookmark`（GitHub 再加 `github`）。docs 门户与工具页 Notes 可写常用深链
-  5. 完成：Entity（新建或更新）+ Reference + 对应表一行
+  3. **书签不建空心 Reference**，直接在对应产品 Entity 中记录与引用
+  4. 完成：Entity（新建或更新）+ 对应书签表一行
 - **官方文档怎么判**（成文或书签，不开第四种 raw）：
+
   | 形态 | 走 | 完成标准 |
-  |---|---|---|
-  | 文档门户 / docs 根，或无稳定单篇标题的中间层（如 `/engine/`） | 书签进 `docs.md` | 挂**产品** Entity；已有则只补 docs 行与文档 Reference |
+  | --- | --- | --- |
+  | 文档门户 / docs 根，或无稳定单篇标题的中间层（如 `/engine/`） | 书签进 `docs.md` | 挂**产品** Entity；已有则只补 docs 行与 Entity 内链接 |
   | 单页、能一次读完、有稳定标题 | 成文 | 先改该产品 Entity / 相关 Concept |
   | 整棵文档树、API 全表、一串平行章节 | 书签进 `docs.md` | 只收 docs 根；等用户指定单篇再成文 |
+
 - **回写**（仅当用户说「回写」/「把这答写进 wiki」）：跳过捕捉与写入 raw，从「盘点已有」起跑；默认只改旧页。问答本身不自动回写。
 
 ## 步骤
@@ -65,7 +70,7 @@ argument-hint: "[url-or-path] [domain?]"
 读目标域 `overview.md`、`entities/index.md`、`concepts/index.md`，以及 `shared` 同名目录。
 
 | 判定 | 动作 |
-|---|---|
+| --- | --- |
 | 同名 / 同一产品 / 同一模式 | **改**该页：补 `sources`、修订 Definition/Summary、补 Related |
 | 同簇相邻、不是同一对象 | **链**：只加 Related，保持两页 |
 | 新的稳定对象 | **建**（计入新建 ≤2） |
@@ -80,13 +85,15 @@ argument-hint: "[url-or-path] [domain?]"
 
 回写入口：默认只改旧页。只有结论是新的稳定对象、且用户同意时才建页。
 
-### 5. 建 Reference（仅当需要）
+### 5. 建 Reference（极少需）
 
-仅当**书签型**，或成文里多页确需共用一张来源卡（仍优先都直链 raw）。在目标 bundle 的 `references/`：
+仅当长篇经典论文/权威规范/专著，需撰写深度评注、长篇阅读笔记时建。在目标 bundle 的 `references/`：
 
 - 复制 `templates/reference.md`；`type: Reference`
-- `resource` 相对路径指向 raw（成文：`../../../raw/articles/<作者>/…`；书签：`../../../raw/bookmarks/github.md` / `sites.md` / `docs.md` / `tools.md`）
-- Notes 首条 `[打开 raw](相对路径)`
+- `resource` 相对路径指向 raw
+- 撰写核心要点与启示评注
+
+成文与普通书签**跳过本步**。
 
 ### 6. 维护索引与 log
 
@@ -111,8 +118,8 @@ argument-hint: "[url-or-path] [domain?]"
 
 - [ ] 成文型：raw 已写入且头有 `url:`；书签型：已追加 `github.md` / `sites.md` / `docs.md` / `tools.md` 中对应表；回写：用户说了「回写」，无新 raw
 - [ ] 已做「盘点已有」，每个候选是改 / 链 / 建之一；同簇已有页已碰
-- [ ] 至少一页 Concept/Entity（或书签 Reference）链到该 raw
-- [ ] 成文默认无新 Reference；书签型有 Reference（`resource:` 相对 + Notes `[打开 raw]`）
-- [ ] **新建** OKF 页 ≤2；改旧页已做
+- [ ] 至少一页 Concept/Entity 链到该 raw
+- [ ] 成文与书签默认无新 Reference；仅深度文献有 Reference
+- [ ] **新建** OKF 页 ≤2（常规入库）或符合授权重构规划；改旧页已做
 - [ ] 类型 `index.md` 被改条目带一句话；`log.md` 已更新
 - [ ] 已做短认知核对与结构体检
