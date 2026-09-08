@@ -112,3 +112,4 @@
 * **Lint fix**: 新建 [Loop Engineering](./concepts/loop-engineering.md)；瘦 [Claude](./entities/claude.md) / [Coding Agent Workflow](./concepts/coding-agent-workflow.md) / [skills.sh](./entities/skills-sh.md) sources (2026-09-07).
 * **Ingest**: [Software Factory Cost Equation](./concepts/software-factory-cost.md) ← Uber Engineering raw（直链，无 Reference）(2026-09-08). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [Holo Card Studio](./entities/holo-card-studio.md) + [GitHub Ref](./references/everettfish-holo-card-studio-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。
+* **Bookmark**: [LerSent001/holo-card](./references/lersent001-holo-card-github.md) ← `raw/bookmarks/github.md`，挂 [Holo Card Studio](./entities/holo-card-studio.md)（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。

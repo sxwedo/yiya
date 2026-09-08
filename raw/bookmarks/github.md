@@ -151,3 +151,4 @@
 | alibaba/spring-cloud-alibaba | https://github.com/alibaba/spring-cloud-alibaba | alibaba | 阿里分布式应用一站式方案 |
 | github/gitignore | https://github.com/github/gitignore | github | GitHub 官方维护的 .gitignore 模板集（语言/框架/OS） |
 | EverettFish/holo-card-studio | https://github.com/EverettFish/holo-card-studio | EverettFish | Agent Skill：描述/参考图 → 可编辑 Blender 卡面 + 交互 Three.js 页 |
+| LerSent001/holo-card | https://github.com/LerSent001/holo-card | LerSent001 | Codex Skill：分层全息卡（视差/轮廓光），可选 API 工作流 |
