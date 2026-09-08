@@ -23,7 +23,6 @@ sources:
   - ../../raw/articles/金尘马/一文讲清楚，普通人和中小企业如何搭建AI知识库.md
   - ../../raw/articles/Mr. Buzzoni/KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE.md
   - ../../raw/articles/Charly Wargnier ♨️/🚨 @Karpathy predicted the power of the －－LLM Wiki.－－ Google just formalized it.md
-  - ../../raw/articles/Smartpig/Andrej Karpathy 用 2 小时演示了他日常如何使用 AI.md
   - ../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md
   - ../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md
   - ../../raw/articles/AYi/程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，.md
@@ -57,7 +56,6 @@ sources:
 - [一文讲清楚，普通人和中小企业如何搭建AI知识库](../../raw/articles/金尘马/一文讲清楚，普通人和中小企业如何搭建AI知识库.md)
 - [KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE](../../raw/articles/Mr. Buzzoni/KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE.md)
 - [🚨 @Karpathy predicted the power of the －－LLM Wiki.－－ Google just formalized it](../../raw/articles/Charly Wargnier ♨️/🚨 @Karpathy predicted the power of the －－LLM Wiki.－－ Google just formalized it.md)
-- [Andrej Karpathy 用 2 小时演示了他日常如何使用 AI](../../raw/articles/Smartpig/Andrej Karpathy 用 2 小时演示了他日常如何使用 AI.md)
 - [Obsidian + Claude Code = 你的个人生活操作系统](../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md)
 - [Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！](../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md)
 - [程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，](../../raw/articles/AYi/程序员兄弟们，终于有人把AI编码最致命的那个毛病给治好了，.md)

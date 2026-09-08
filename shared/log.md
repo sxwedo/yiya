@@ -1,5 +1,12 @@
 # shared — Log
 
+## 2026-09-08
+* **2026-09-08 delete** | 灌水 raw 18 篇之一 → 摘 awesome / Obsidian 链；无专属页
+* **2026-09-08 delete** | 灌水 raw 26 篇之一 → 摘 Obsidian 链；无专属页
+* **2026-09-08 delete** | 灌水 raw 53 篇之一 → 摘 awesome / Karpathy 链；无专属页
+* **2026-09-08 delete** | 低质量 raw 32 篇之一 → 摘 [awesome](./entities/awesome.md) / [Obsidian](./entities/obsidian.md) 链；无专属页
+* **2026-09-08 schema** | 删除 raw：点名路径走 `yiya-delete-raw`（整条清）。写入根 AGENTS + README。
+
 ## 2026-09-07
 * **2026-09-07 ingest** | X 书签 (516–566/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (466–515/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。

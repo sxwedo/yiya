@@ -11,7 +11,6 @@ related:
   - raft
 sources:
   - ../references/chenhg5-cc-connect-github.md
-  - ../../../raw/articles/我吹呀吹/我一直用cc connect从手机控制电脑上的Codex，各种任务完成率和速度比什么🦞高了几个level，毕竟Claude.md
 ---
 
 # Summary
@@ -23,4 +22,3 @@ sources:
 - [chenhg5/cc-connect（GitHub）](../references/chenhg5-cc-connect-github.md)
 - [Herdr](./herdr.md)
 - [Raft](./raft.md)
-- [我一直用cc connect从手机控制电脑上的Codex，各种任务完成率和速度比什么🦞高了几个level，毕竟Claude](../../../raw/articles/我吹呀吹/我一直用cc connect从手机控制电脑上的Codex，各种任务完成率和速度比什么🦞高了几个level，毕竟Claude.md)

@@ -10,7 +10,6 @@ related:
   - mcp
 sources:
   - ../references/composiohq-composio-github.md
-  - ../../../raw/articles/AI Dance/卧槽，一个新的GitHub仓库已经发布，其中包含50多个可随时定制的Claude.md
 ---
 
 # Summary
@@ -21,4 +20,3 @@ sources:
 
 - [ComposioHQ/composio（GitHub）](../references/composiohq-composio-github.md)
 - [Model Context Protocol (MCP)](./mcp.md)
-- [卧槽，一个新的GitHub仓库已经发布，其中包含50多个可随时定制的Claude](../../../raw/articles/AI Dance/卧槽，一个新的GitHub仓库已经发布，其中包含50多个可随时定制的Claude.md)

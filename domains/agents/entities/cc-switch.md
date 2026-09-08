@@ -11,7 +11,6 @@ related:
   - codex
 sources:
   - ../references/farion1231-cc-switch-github.md
-  - ../../../raw/articles/DIŸgöd ☀️/Quotio 一个 App 就代替并超越了之前用 Antigravity Tools + CC Switch + CodexBar 三个 App 才能实现的需求.md
 ---
 
 # Summary
@@ -23,4 +22,3 @@ sources:
 - [farion1231/cc-switch（GitHub）](../references/farion1231-cc-switch-github.md)
 - [Claude](./claude.md)
 - [Codex](./codex.md)
-- [Quotio 一个 App 就代替并超越了之前用 Antigravity Tools + CC Switch + CodexBar 三个 App 才能实现的需求](../../../raw/articles/DIŸgöd ☀️/Quotio 一个 App 就代替并超越了之前用 Antigravity Tools + CC Switch + CodexBar 三个 App 才能实现的需求.md)

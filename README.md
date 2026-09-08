@@ -13,11 +13,11 @@
 | `domains/<id>/` | 领域 OKF bundle（entities / concepts / references） |
 | `shared/` | 跨域实体与纲领 |
 | `AGENTS.md` | Agent 常驻规则与问答协议（无独立 query skill） |
-| `.agents/skills/` | ingest / lint / new-domain / promote-to-shared |
+| `.agents/skills/` | ingest / lint / new-domain / promote-to-shared / delete-raw |
 | `templates/` | Entity / Concept / Reference |
 | `config/domains.yaml` | 域路由 |
 | `config/types.yaml` | OKF 常用 type |
 
 起步域：`agents`、`engineering`。先养一个域即可。
 
-对 Agent：`按 .agents/skills/yiya-ingest 处理 <URL>`。提问先读 `shared/map.md` 与域 overview。
+对 Agent：`按 .agents/skills/yiya-ingest 处理 <URL>`。删除 raw：`按 .agents/skills/yiya-delete-raw 处理 <路径>`。提问先读 `shared/map.md` 与域 overview。

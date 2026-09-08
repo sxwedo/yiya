@@ -2,7 +2,7 @@
 
 三层：**raw（原料）→ domains/shared（知识）→ AGENTS/skills（约定）**。
 
-流程：`.agents/skills/`（`yiya-ingest` / `yiya-lint` / `yiya-new-domain` / `yiya-promote-to-shared`）。问答协议在本文件，无独立 query skill。
+流程：`.agents/skills/`（`yiya-ingest` / `yiya-lint` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
 
 ## 架构
 
@@ -29,7 +29,7 @@ shared/                        # 跨域实体与纲领
 
 ## 问答
 
-用户提问（不是入库 / 回写 / lint）时：
+用户提问（不是入库 / 回写 / lint / 删除 raw）时：
 
 1. 读 `shared/map.md` → 目标域 `overview.md` + **类型** `index.md` → 匹配的 Entity/Concept。域根 `index.md` 只是文件夹封面。
 2. 用已有页作答，引用相对路径。wiki 缺口才读 raw。
@@ -48,6 +48,10 @@ shared/                        # 跨域实体与纲领
 
 官方文档怎么判、步骤、结构体检见 `yiya-ingest`。查重扫 raw 头 `url:`；认领=知识页链上该 raw。
 
+## 删除
+
+点名 `raw/` 路径 → `yiya-delete-raw`（整条清）。
+
 ## OKF
 
 必有 `type`。字段照 `templates/`。保留名：`index.md` / `log.md`。
@@ -55,6 +59,6 @@ shared/                        # 跨域实体与纲领
 ## 红线
 
 - 成文 raw 入库时须写/更新链到它的 Concept/Entity；查重先扫 raw 的 `url:`
-- 不删 raw 原件（除非人类明确授权）
+- 不删 raw 原件（除非用户点名 `raw/` 路径 → `yiya-delete-raw`）
 - 不类型集邮；不平行发明第二套元数据
 - 入库后按 ingest 做结构体检；有建议则停，等用户说「改」再动约定

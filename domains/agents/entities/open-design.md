@@ -10,7 +10,6 @@ related:
   - deepseek-harness
 sources:
   - ../references/nexu-io-open-design-github.md
-  - ../../../raw/articles/Joey Lee/团队个性化仪表盘的时代到来！🚀.md
 ---
 
 # Summary
@@ -21,4 +20,3 @@ sources:
 
 - [nexu-io/open-design（GitHub）](../references/nexu-io-open-design-github.md)
 - [DeepSeek Harness](./deepseek-harness.md)
-- [团队个性化仪表盘的时代到来！🚀](../../../raw/articles/Joey Lee/团队个性化仪表盘的时代到来！🚀.md)

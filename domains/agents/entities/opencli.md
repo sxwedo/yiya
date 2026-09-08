@@ -10,8 +10,6 @@ related:
   - cli-anything
 sources:
   - ../references/jackwener-opencli-github.md
-  - ../../../raw/articles/沐阳/太强了！批量下载七百多篇文章，只用了十来分钟！.md
-  - ../../../raw/articles/kabikabi/OpenCLI 炒股太强无敌了.md
 ---
 
 # Summary
@@ -22,5 +20,3 @@ sources:
 
 - [jackwener/OpenCLI（GitHub）](../references/jackwener-opencli-github.md)
 - [CLI-Anything](./cli-anything.md)
-- [太强了！批量下载七百多篇文章，只用了十来分钟！](../../../raw/articles/沐阳/太强了！批量下载七百多篇文章，只用了十来分钟！.md)
-- [OpenCLI 炒股太强无敌了](../../../raw/articles/kabikabi/OpenCLI 炒股太强无敌了.md)

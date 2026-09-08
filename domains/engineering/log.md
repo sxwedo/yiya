@@ -1,5 +1,10 @@
 # 工程与可维护性 — Log
 
+## 2026-09-08
+* **2026-09-08 delete** | 灌水 raw 26 篇之一 → 摘 uv / shadowrocket-adblock 链；无专属页
+* **2026-09-08 delete** | 灌水 raw 53 篇之一 → 摘 uv / Ghostty / Docker 链；无专属页
+* **2026-09-08 delete** | 低质量 raw 32 篇之一 → 摘 [Docker](./entities/docker.md) 链；无专属页
+
 ## 2026-09-07
 * **2026-09-07 ingest** | X 书签 (567–584/584) 成功 17 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (466–515/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。

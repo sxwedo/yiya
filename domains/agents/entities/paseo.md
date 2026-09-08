@@ -11,7 +11,6 @@ related:
   - mena
 sources:
   - ../references/getpaseo-paseo-github.md
-  - ../../../raw/articles/余白/@Ion_Mio_ 依然最推荐paseo.md
 ---
 
 # Summary
@@ -23,4 +22,3 @@ sources:
 - [getpaseo/paseo（GitHub）](../references/getpaseo-paseo-github.md)
 - [Herdr](./herdr.md)
 - [mena](./mena.md)
-- [@Ion_Mio_ 依然最推荐paseo](../../../raw/articles/余白/@Ion_Mio_ 依然最推荐paseo.md)

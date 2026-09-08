@@ -1,5 +1,23 @@
 # Agent 与 harness — Log
 
+## 2026-09-08
+* **2026-09-08 delete** | 灌水/空壳/域外合集 raw 18 篇 → 摘 Claude / Coding Agent Workflow / Codex 链；无专属页
+* **2026-09-08 delete** | 灌水/灰产 raw 26 篇 → 摘 Claude / Coding Agent Workflow / Codex 等链；无专属页
+* **2026-09-08 delete** | 灌水/空壳/灰产 raw 53 篇 → 摘 Claude / Coding Agent Workflow / Codex / Paseo / Composio / cc-switch 链；无专属页
+* **2026-09-08 delete** | 低质量 raw 32 篇（订阅灰产/域外合集/空壳）→ 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) / [Claude](./entities/claude.md) / [OpenCLI](./entities/opencli.md) / [Loop Engineering](./concepts/loop-engineering.md) 链；无专属页
+* **2026-09-08 delete** | 低质量 raw 63 篇 → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) / [Claude](./entities/claude.md) / [Codex](./entities/codex.md) / [Grok Bot](./entities/grok-bot.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/别开枪自己人/B超、X光、CT、核磁的适应症与优缺点对比，你分的清吗？.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/别开枪自己人/记住，能救命.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/比特币橙子Trader/Codex App － CLI 也可以直接接入股票、财报、SEC 文件和金融新闻数据了。.md` → 摘 [MCP](./entities/mcp.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/比特币橙子Trader/卧槽！真心强烈推荐所有人，不管你懂不懂技术，只要你想在AI时代做商业、搞投资或者抓住时代红利，都去狠狠刷一遍Anthropic官方的这场超神分享！.md` → 摘 [Claude](./entities/claude.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/白骏知识分享/刘震云67岁谈40岁感悟.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/阿川 － AI thinking/这个非常实用！用claudecode的建议都看看.md` → 摘 [Claude](./entities/claude.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/1024/今天找到了一个超级好用的AI提示词工具——PromptFill，开源免费。.md` → 摘 [Herdr](./entities/herdr.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/0x小师妹/3 个白嫖 GPT-5.5 － Claude 4.7 模型的渠道+ 避坑指南.md` → 摘 [Claude](./entities/claude.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/0x鸣人/有人问黄仁勋：AI会取代人类的工作吗？.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/🌹MIDNIGHT🌹ROSE🌹/有趣的科学小实验.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
+* **2026-09-08 delete** | `raw/articles/-Zho-/终于把我的 Nano-Banana 创意玩法大全 Github 库 写好了！！！.md` → 摘 [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 链；无专属页
+
 ## 2026-09-07
 * **2026-09-07 ingest** | X 书签 (567–584/584) 成功 17 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (516–566/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。

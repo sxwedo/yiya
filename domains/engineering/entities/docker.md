@@ -9,8 +9,6 @@ related:
   - docker-docs
 sources:
   - ../references/docker-docs.md
-  - ../../../raw/articles/GitHubDaily/给最近求职面试的同学，推荐一款开源的简历编辑器：Magic Resume，所见即得，边写边看效果。.md
-  - ../../../raw/articles/B.Z.在下张三/推荐一个屌爆的开源项目：Cloud.md
   - ../../../raw/articles/纯棉短裤/GitHub 上最有价值的 10 个 AI 学习仓库，Star数加起来近百万.md
 ---
 
@@ -23,6 +21,4 @@ sources:
 ## Related
 
 - [Docker Docs](../references/docker-docs.md)
-- [给最近求职面试的同学，推荐一款开源的简历编辑器：Magic Resume，所见即得，边写边看效果。](../../../raw/articles/GitHubDaily/给最近求职面试的同学，推荐一款开源的简历编辑器：Magic Resume，所见即得，边写边看效果。.md)
-- [推荐一个屌爆的开源项目：Cloud](../../../raw/articles/B.Z.在下张三/推荐一个屌爆的开源项目：Cloud.md)
 - [GitHub 上最有价值的 10 个 AI 学习仓库，Star数加起来近百万](../../../raw/articles/纯棉短裤/GitHub 上最有价值的 10 个 AI 学习仓库，Star数加起来近百万.md)

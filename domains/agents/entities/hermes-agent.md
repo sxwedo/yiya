@@ -18,7 +18,6 @@ sources:
   - ../../../raw/articles/Mr. Buzzoni/－ Most people treat notes, models, and agents as three separate worlds.md
   - ../../../raw/articles/Zaid/The problem with AI agents right now.md
   - ../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md
-  - ../../../raw/articles/Will Yang/今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。.md
   - ../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md
   - ../../../raw/articles/AI少年/使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。.md
 ---
@@ -38,6 +37,5 @@ sources:
 - [－ Most people treat notes, models, and agents as three separate worlds](../../../raw/articles/Mr. Buzzoni/－ Most people treat notes, models, and agents as three separate worlds.md)
 - [The problem with AI agents right now](../../../raw/articles/Zaid/The problem with AI agents right now.md)
 - [A Taxonomy of Self-evolving Agents](../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md)
-- [今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。](../../../raw/articles/Will Yang/今天刷屏的Hermes Agent ，我体验了下，感受到了什么叫真正的自我进化的Agent。.md)
 - [十分钟带你玩转Hermes赫妹Agent](../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md)
 - [使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。](../../../raw/articles/AI少年/使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。.md)
