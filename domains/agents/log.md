@@ -2,6 +2,8 @@
 
 ## 2026-09-08
 
+* **2026-09-08 refine** | 基于 Uber Engineering 长文深度充实 [Software Factory Cost Equation](./concepts/software-factory-cost.md)：梳理 4 层用量金字塔与成本拆解三主战场（Pareto 选模、Code-Mode 去 MCP 膨胀、AI Context Graph 准确定位）。
+* **2026-09-08 claim** | Hanako X 长文《Loops and Graphs》补挂至 [Loop Engineering](./concepts/loop-engineering.md) sources 并扩充关于「可以失败的检查」与「Loop vs Graph 拓扑分工」的定义。
 * **2026-09-08 refactor** | [Claude](./entities/claude.md) 与 [Model Context Protocol (MCP)](./entities/mcp.md) 深度精炼：移除 190+ 篇弱相关/泛杂挂靠，聚焦官方与权威架构文献；全库完成 `## Related` 与 raw 链接解耦（DRY 单一事实来源）。
 * **2026-09-08 refactor** | [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 瘦身与解耦：剔除 50+ 篇弱相关/杂质 raw 挂靠，Related 回归纯维基页面互链，sources 聚焦 10 篇核心文献。
 * **2026-09-08 lint** | domains/agents → Related 括号链加 `<>`；mcp 嵌套链；11 篇成文补 sources

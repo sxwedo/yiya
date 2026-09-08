@@ -25,13 +25,18 @@ sources:
   - ../../../raw/articles/MIKE/How to Create Loops with Claude.md
   - ../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md
   - ../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md
+  - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
 ---
 
 # Definition
 
 **Loop Engineering**（循环工程）是 agent 用法层：不再一手一手写指令，而去设计能**自己找活 → 分派 → 验收 → 记状态 → 再开下一轮**的系统。Boris 等说法：工作是写 loop，不是写单次 prompt。
 
-常见五件套：定时自动化 · worktree 并行 · Skills · 连接器/MCP · 子代理分写与审（常加盘外记忆）。难点：停条件（测过才算完）、上下文不腐、工具可重试、有人能说不。
+常见五件套：定时自动化 · worktree 并行 · Skills · 连接器/MCP · 子代理分写与审（常加盘外记忆）。
+难点与精髓：
+
+- **停条件必须是「可以客观失败的检查」**（如测试退出码 0、来源行对齐，严禁拿另一个模型主观 review 的“无报错”当正确证据）；
+- **Loop 与 Graph 的分工**：Loop 负责单一工作单元的自愈（produce → check → correct → repeat），拓扑 Graph 则在 Loop 之上决定哪些工作单元存在与并行依赖。
 
 与 [Coding Agent Workflow](./coding-agent-workflow.md) 互补：后者偏「规划→执行→部署」工作流；本页专讲「闭环自治」。产品侧入口仍见 [Claude](../entities/claude.md)。
 
