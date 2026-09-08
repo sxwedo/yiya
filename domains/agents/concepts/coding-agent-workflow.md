@@ -77,6 +77,9 @@ sources:
   - ../../../raw/articles/宝玉/为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？.md
   - ../../../raw/articles/Movez/Andrej Karpathy－.md
   - ../../../raw/articles/Mr Panda/范式转换不是旧框架的修修补补，而是整个世界观的更替（内含书单）.md
+  - ../../../raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md
+  - ../../../raw/articles/meng shao/再次分享谷歌的 AI 学习平台「Google Skills」.md
+  - ../../../raw/articles/yan5xu/给关注了半年的agent team 交份作业。.md
 ---
 
 # Definition
@@ -106,7 +109,7 @@ sources:
 - [Delivery Harness](./delivery-harness.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)
 - [Grok Bot for Engineering](../../../raw/articles/Lingxi Li/Grok Bot for Engineering.md)
-- [How To Become An AI Engineer in 2026 (Without a CS Degree)](../../../raw/articles/Khairallah AL-Awady/How To Become An AI Engineer in 2026 (Without a CS Degree).md)
+- [How To Become An AI Engineer in 2026 (Without a CS Degree)](<../../../raw/articles/Khairallah AL-Awady/How To Become An AI Engineer in 2026 (Without a CS Degree).md>)
 - [Steps to become a senior programmer－](../../../raw/articles/Matt Pocock/Steps to become a senior programmer－.md)
 - [You check every step your agents take. Not because you want to, but because nothing else](../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md)
 - [Most developers learn AI by copying tutorials](../../../raw/articles/Rahul/Most developers learn AI by copying tutorials.md)
@@ -150,16 +153,19 @@ sources:
 - [微软CEO Satya Nadella这篇文章](../../../raw/articles/AYi/微软CEO Satya Nadella这篇文章.md)
 - [259 pull requests in 30 days, and a human typed exactly zero of them](../../../raw/articles/dunik/259 pull requests in 30 days, and a human typed exactly zero of them.md)
 - [我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了](../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md)
-- [用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。](../../../raw/articles/歸藏(guizang.ai)/用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。.md)
+- [用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。](<../../../raw/articles/歸藏(guizang.ai)/用途：我发一张信息图或海报截图，你把它高保真还原为可编辑 SVG，整体排版尽量一致，但文字改成 {中文}（或保持原语言）。.md>)
 - [🚨 You need to see this.](../../../raw/articles/Charly Wargnier ♨️/🚨 You need to see this.md)
 - [《OpenClaw 从入门到精通指南》正式发布，开源免费！](../../../raw/articles/苍何/《OpenClaw 从入门到精通指南》正式发布，开源免费！.md)
 - [成就伟大之前，先学会卖东西 ](../../../raw/articles/Mengke Wang/成就伟大之前，先学会卖东西.md)
-- [开源个 Skill｜彻底解决小红、小绿书配图难题](../../../raw/articles/歸藏(guizang.ai)/开源个 Skill｜彻底解决小红、小绿书配图难题.md)
+- [开源个 Skill｜彻底解决小红、小绿书配图难题](<../../../raw/articles/歸藏(guizang.ai)/开源个 Skill｜彻底解决小红、小绿书配图难题.md>)
 - [很多人诧异：为什么那些非科班出身、没有提示词工程经验的人，反而能写出最硬核的 Prompt？](../../../raw/articles/叫我阿杭/很多人诧异：为什么那些非科班出身、没有提示词工程经验的人，反而能写出最硬核的 Prompt？.md)
 - [实操教程｜2026 年实测，全程不用手机号,注册一个 Google 账号](../../../raw/articles/Jason/实操教程｜2026 年实测，全程不用手机号,注册一个 Google 账号.md)
 - [开源一个贝叶斯决策Skill](../../../raw/articles/姚金刚/开源一个贝叶斯决策Skill.md)
-- [妈的，终于把 Chrome 上的 Gemini 开了](../../../raw/articles/歸藏(guizang.ai)/妈的，终于把 Chrome 上的 Gemini 开了.md)
+- [妈的，终于把 Chrome 上的 Gemini 开了](<../../../raw/articles/歸藏(guizang.ai)/妈的，终于把 Chrome 上的 Gemini 开了.md>)
 - [Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件](../../../raw/articles/Adrian Punk/Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件.md)
 - [为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？](../../../raw/articles/宝玉/为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？.md)
 - [Andrej Karpathy:](../../../raw/articles/Movez/Andrej Karpathy－.md)
 - [范式转换不是旧框架的修修补补，而是整个世界观的更替（内含书单）](../../../raw/articles/Mr Panda/范式转换不是旧框架的修修补补，而是整个世界观的更替（内含书单）.md)
+- [吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals](../../../raw/articles/O神经网络/吴恩达说，demo 人人能跑，AI 工程的分水岭是 evals.md)
+- [再次分享谷歌的 AI 学习平台「Google Skills」](../../../raw/articles/meng shao/再次分享谷歌的 AI 学习平台「Google Skills」.md)
+- [给关注了半年的agent team 交份作业。](../../../raw/articles/yan5xu/给关注了半年的agent team 交份作业。.md)

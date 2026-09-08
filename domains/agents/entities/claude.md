@@ -210,6 +210,9 @@ sources:
   - ../../../raw/articles/GitTrend/Karpathy 一丢代码，全网程序员集体进化了！.md
   - ../../../raw/articles/Rahul/How To Build AI Agents in 2026 (That Actually Work).md
   - ../../../raw/articles/Adrian Punk/Graph Engineering：从 0 到 1 小白完整教程.md
+  - ../../../raw/articles/Corey Chiu/最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian.md
+  - ../../../raw/articles/Mr. Buzzoni/KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE.md
+  - ../../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md
 ---
 
 # Summary
@@ -257,10 +260,10 @@ sources:
 - [如果你的 coding agent 在一个稍大些的项目上工作，强烈推荐安装 CodeGraph 使用](../../../raw/articles/Labrin/如果你的 coding agent 在一个稍大些的项目上工作，强烈推荐安装 CodeGraph 使用.md)
 - [大概知道能干什么就很好了，加深理解](../../../raw/articles/小耳👂Jane｜Xiaoer/大概知道能干什么就很好了，加深理解.md)
 - [asked an anthropic engineer how his loops run on a closed laptop](../../../raw/articles/Hanako/asked an anthropic engineer how his loops run on a closed laptop.md)
-- [－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成](../../../raw/articles/meng shao/－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成.md)
+- [－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成](<../../../raw/articles/meng shao/－[实战指南－] 三个步骤让 Claude Code 更好地理解和管理你的项目代码库 —— 来自 @dani－_avila7 的分享 —— 初始化配置、适度添加功能、集成.md>)
 - [Anthropic 发了份 32 页的 Claude Skills 构建指南，把技能开发从规划到分发整个生命周期讲透了。](../../../raw/articles/吕立青_JimmyLv 2𐃏26/Anthropic 发了份 32 页的 Claude Skills 构建指南，把技能开发从规划到分发整个生命周期讲透了。.md)
 - [Goal + Loop + Workflows 三大利器](../../../raw/articles/Mr Panda/Goal + Loop + Workflows 三大利器.md)
-- [Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！](../../../raw/articles/离谱/Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！.md)
+- [Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！](<../../../raw/articles/离谱/Gemini Chrome (Chrome AI) 最全激活指南：看这一篇就够了，亲测有效！.md>)
 - [Everyone is talking about AI agents](../../../raw/articles/Khairallah AL-Awady/Everyone is talking about AI agents.md)
 - [Oh My Opencode绝对是2026上班第一天最值得学的工具，附上简明教程：](../../../raw/articles/WquGuru/Oh My Opencode绝对是2026上班第一天最值得学的工具，附上简明教程：.md)
 - [OpenAI 内部发了份 PDF，讲他们自家工程师是怎么用 Codex 的](../../../raw/articles/雪踏乌云/OpenAI 内部发了份 PDF，讲他们自家工程师是怎么用 Codex 的.md)
@@ -312,8 +315,8 @@ sources:
 - [凌晨3点，我的龙虾发来了一条－－死刑通知－](../../../raw/articles/鱼总聊AI/凌晨3点，我的龙虾发来了一条－－死刑通知－.md)
 - [AI实施科学：一个2030年之前必将诞生的领域](../../../raw/articles/Roland.W/AI实施科学：一个2030年之前必将诞生的领域.md)
 - [8 个 Claude Code Hooks 实战（译）](../../../raw/articles/实践哥 Li/8 个 Claude Code Hooks 实战（译）.md)
-- [Build & Sell Grok Bots (2 Hour Course)](../../../raw/articles/Nate Herk/Build & Sell Grok Bots (2 Hour Course).md)
-- [Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6](../../../raw/articles/meng shao/Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6.md)
+- [Build & Sell Grok Bots (2 Hour Course)](<../../../raw/articles/Nate Herk/Build & Sell Grok Bots (2 Hour Course).md>)
+- [Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6](<../../../raw/articles/meng shao/Google Cloud AI (Gemini －－ Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6.md>)
 - [GitHub CLI算是一个比较重要很多很多人使用Agent的时候都可能用的到一个CLI，我又整理了几个大厂比较常用的CLI。](../../../raw/articles/AI少年/GitHub CLI算是一个比较重要很多很多人使用Agent的时候都可能用的到一个CLI，我又整理了几个大厂比较常用的CLI。.md)
 - [Loop Engineering 实操指南：告别 AI 返工](../../../raw/articles/Serena 木瓜/Loop Engineering 实操指南：告别 AI 返工.md)
 - [Fable 5 实战指南：发现你的未知「译」](../../../raw/articles/Lonely/Fable 5 实战指南：发现你的未知「译」.md)
@@ -379,17 +382,17 @@ sources:
 - [How to master Dynamic Workflows in Claude Code: 6 patterns and 14 steps Anthropic engineers actually](../../../raw/articles/Codez/Most Claude Code users still write their workflows by hand. They chain prompts, copy.md)
 - [挺有趣，听朋友说我这几篇文章成为了现在 AI 岗位面试准备必读的文章，那我来汇总一下给大伙好啦，希望有帮助，当然也祝福最近从传统岗位工程师转型成 AI 岗位的小](../../../raw/articles/Tw93/挺有趣，听朋友说我这几篇文章成为了现在 AI 岗位面试准备必读的文章，那我来汇总一下给大伙好啦，希望有帮助，当然也祝福最近从传统岗位工程师转型成 AI.md)
 - [Loop and Harness engineering: 7 files, 5 steps. Every config inside](../../../raw/articles/Archive/Most builders fight the loop. The loop is fine. The folder underneath isn't set up.md)
-- [Agentic Engineering Setup (after 2,000+ hours)](../../../raw/articles/David Ondrej/Agentic Engineering Setup (after 2,000+ hours).md)
-- [How to master graph engineering (Full Course)](../../../raw/articles/Machina/How to master graph engineering (Full Course).md)
+- [Agentic Engineering Setup (after 2,000+ hours)](<../../../raw/articles/David Ondrej/Agentic Engineering Setup (after 2,000+ hours).md>)
+- [How to master graph engineering (Full Course)](<../../../raw/articles/Machina/How to master graph engineering (Full Course).md>)
 - [Introducing Gemini CLI, a light and powerful open-source AI agent that brings Ge](../../../raw/articles/Google AI Developers/Introducing Gemini CLI, a light and powerful open-source AI agent that brings Gemini.md)
 - [你不知道的大模型训练：原理、路径与新实践](../../../raw/articles/Tw93/你不知道的大模型训练：原理、路径与新实践.md)
 - [构建 Claude Code 的经验：我们如何使用 Skills【译】](../../../raw/articles/宝玉/构建 Claude Code 的经验：我们如何使用 Skills【译】.md)
-- [Claude Skills: Ultimate Guide (March 2026)](../../../raw/articles/AI Edge/Claude Skills－ Ultimate Guide (March 2026).md)
+- [Claude Skills: Ultimate Guide (March 2026)](<../../../raw/articles/AI Edge/Claude Skills－ Ultimate Guide (March 2026).md>)
 - [CLAUDE CODE 最佳实践：从\"能用\"到\"真的好用\" ](../../../raw/articles/Mr Panda/CLAUDE CODE 最佳实践：从－－能用－－到－－真的好用－－.md)
 - [Anthropic's main manager:](../../../raw/articles/rody/Anthropic's main manager－.md)
 - [How to Build a Team of AI Agents That Actually Work Together (Full Course)](../../../raw/articles/Rahul/I run a one-person business.md)
 - [How to graph-max with Codex and 5.6 Sol:](../../../raw/articles/Alex Kotliarskyi 🇺🇦/How to graph-max with Codex and 5.6 Sol－.md)
-- [Introducing /visual-plan - a skill to generate rich, visual plans for Claude Cod](../../../raw/articles/Steve (Builder.io)/Introducing －visual-plan - a skill to generate rich, visual plans for Claude Code and.md)
+- [Introducing /visual-plan - a skill to generate rich, visual plans for Claude Cod](<../../../raw/articles/Steve (Builder.io)/Introducing －visual-plan - a skill to generate rich, visual plans for Claude Code and.md>)
 - [你不知道的 AI Coding：非技术人的上手、场景与实战](../../../raw/articles/Tw93/你不知道的 AI Coding：非技术人的上手、场景与实战.md)
 - [Tinkering, prototyping, and seeing what happens with Claude Design:](../../../raw/articles/Claude/Tinkering, prototyping, and seeing what happens with Claude Design－.md)
 - [我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。](../../../raw/articles/Luyu Zhang/我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。.md)
@@ -414,10 +417,13 @@ sources:
 - [4 个工作 Skill + 2 个运维 Skill，装完 Claude 直接变工作搭档](../../../raw/articles/铁锤人/4 个工作 Skill + 2 个运维 Skill，装完 Claude 直接变工作搭档.md)
 - [Anthropic 官方发布的 Skills 构建完整指南（33页）](../../../raw/articles/meng shao/Anthropic 官方发布的 Skills 构建完整指南（33页）.md)
 - [我把全网的 Codex Skill 扒了一遍：最该装的几个、安装方法、资源仓库都整理好了，看这一篇就够了！](../../../raw/articles/AYi/我把全网的 Codex Skill 扒了一遍：最该装的几个、安装方法、资源仓库都整理好了，看这一篇就够了！.md)
-- [一文讲透.claude/文件夹：Claude Code团队配置指南和最佳实践(2026年3月)](../../../raw/articles/WY/一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月).md)
+- [一文讲透.claude/文件夹：Claude Code团队配置指南和最佳实践(2026年3月)](<../../../raw/articles/WY/一文讲透.claude－文件夹：Claude Code团队配置指南和最佳实践(2026年3月).md>)
 - [多智能体协作调查：Agent 到底该怎么分工](../../../raw/articles/Russell/多智能体协作调查：Agent 到底该怎么分工.md)
 - [别再卷模型了，2026 年 Agent 的胜负手在 Harness！给你的Agent 搭\"操作系统\"吧](../../../raw/articles/huangserva/别再卷模型了，2026 年 Agent 的胜负手在 Harness！给你的Agent 搭－－操作系统－－吧.md)
 - [Mistakes happen. As a team, the important thing is to recognize it’s never an in](../../../raw/articles/Boris Cherny/Mistakes happen. As a team, the important thing is to recognize it’s never an.md)
 - [Karpathy 一丢代码，全网程序员集体进化了！](../../../raw/articles/GitTrend/Karpathy 一丢代码，全网程序员集体进化了！.md)
-- [How To Build AI Agents in 2026 (That Actually Work)](../../../raw/articles/Rahul/How To Build AI Agents in 2026 (That Actually Work).md)
+- [How To Build AI Agents in 2026 (That Actually Work)](<../../../raw/articles/Rahul/How To Build AI Agents in 2026 (That Actually Work).md>)
 - [Graph Engineering：从 0 到 1 小白完整教程](../../../raw/articles/Adrian Punk/Graph Engineering：从 0 到 1 小白完整教程.md)
+- [最近在研究学习 Claude skills](../../../raw/articles/Corey Chiu/最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian.md)
+- [KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE](../../../raw/articles/Mr. Buzzoni/KARPATHY WROTE THIS DOCUMENT TO COMPLETELY AUTOMATE OBSIDIAN WITH CLAUDE.md)
+- [Obsidian + Claude Code = 你的个人生活操作系统](../../../raw/articles/Vincent/Obsidian + Claude Code = 你的个人生活操作系统.md)

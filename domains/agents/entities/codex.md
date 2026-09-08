@@ -25,6 +25,7 @@ sources:
   - ../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md
   - ../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md
   - ../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md
+  - ../../../raw/articles/向阳乔木/最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错：.md
 ---
 
 # Summary
@@ -48,3 +49,4 @@ sources:
 - [CodeX 新功能，又是一个独宠 MAC 的功能！！！](../../../raw/articles/云析/CodeX 新功能，又是一个独宠 MAC 的功能！！！.md)
 - [打开Codex，设定目标或直接对话，提示词如下：](../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md)
 - [结合最近写skill的一些心得，总结了一个Skill设计五步法：](../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md)
+- [最近最火的Codex优化网络速度 Use Case](../../../raw/articles/向阳乔木/最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错：.md)

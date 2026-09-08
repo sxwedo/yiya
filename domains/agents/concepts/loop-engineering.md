@@ -48,7 +48,7 @@ sources:
 - [the four pillars of loop engineering](../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md)
 - [Loop engineering－ the 14-step roadmap from prompter to loop designer](../../../raw/articles/Codez/Loop engineering－ the 14-step roadmap from prompter to loop designer.md)
 - [A senior Anthropic engineer just dropped 11-page PDF on －Loop Engineering－ for agentic](../../../raw/articles/Codez/A senior Anthropic engineer just dropped 11-page PDF on －Loop Engineering－ for agentic.md)
-- [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude](../../../raw/articles/Andrew Ng/“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude.md)
+- [“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude](<../../../raw/articles/Andrew Ng/“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude.md>)
 - [Loops explained－ Claude, GPT, Mira and what actually works](../../../raw/articles/Anatoli Kopadze/Loops explained－ Claude, GPT, Mira and what actually works.md)
 - [WTF Is a Loop－ Peter Steinberger vs. Boris Cherny](../../../raw/articles/Matt Van Horn/WTF Is a Loop－ Peter Steinberger vs. Boris Cherny.md)
 - [The Agent Loop Architecture](../../../raw/articles/Dan Farrelly/The Agent Loop Architecture.md)

@@ -17,6 +17,7 @@ sources:
   - ../../../raw/articles/超级个体｜柿子/openclaw保姆级教学（中级篇）.md
   - ../../../raw/articles/Leo｜LeoLabs.me/昨天分享了 Claude－Codex－Gemini 共享 Skills，有人问：装了几十个 skill，菜单全是英文记不住怎么办？.md
   - ../../../raw/articles/MateMatt/Agent 的数据面概念扫盲-建立技术侧(Context Memory RAG) 认知体系(上).md
+  - ../../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md
 ---
 
 # Summary
@@ -35,4 +36,5 @@ sources:
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
 - [openclaw保姆级教学（中级篇）](../../../raw/articles/超级个体｜柿子/openclaw保姆级教学（中级篇）.md)
 - [昨天分享了 Claude－Codex－Gemini 共享 Skills，有人问：装了几十个 skill，菜单全是英文记不住怎么办？](../../../raw/articles/Leo｜LeoLabs.me/昨天分享了 Claude－Codex－Gemini 共享 Skills，有人问：装了几十个 skill，菜单全是英文记不住怎么办？.md)
-- [Agent 的数据面概念扫盲-建立技术侧(Context Memory RAG) 认知体系(上)](../../../raw/articles/MateMatt/Agent 的数据面概念扫盲-建立技术侧(Context Memory RAG) 认知体系(上).md)
+- [Agent 的数据面概念扫盲-建立技术侧(Context Memory RAG) 认知体系(上)](<../../../raw/articles/MateMatt/Agent 的数据面概念扫盲-建立技术侧(Context Memory RAG) 认知体系(上).md>)
+- [CLAUDE.md 终于有人把最全用法讲清楚了](../../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md)

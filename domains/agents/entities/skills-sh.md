@@ -22,6 +22,7 @@ sources:
   - ../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md
   - ../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md
   - ../../../raw/articles/花叔/你的下一个员工，何必是同事。.md
+  - ../../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md
 ---
 
 # Summary
@@ -47,3 +48,4 @@ sources:
 - [A2A：当 Agent 开始自己找人干活](../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md)
 - [New skill: /apple-design](../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md)
 - [你的下一个员工，何必是同事。](../../../raw/articles/花叔/你的下一个员工，何必是同事。.md)
+- [类 同事.skills 整理，欢迎补充：](../../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md)

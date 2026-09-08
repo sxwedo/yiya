@@ -20,6 +20,7 @@ sources:
   - ../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md
   - ../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md
   - ../../../raw/articles/AI少年/使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。.md
+  - ../../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md
 ---
 
 # Summary
@@ -39,3 +40,4 @@ sources:
 - [A Taxonomy of Self-evolving Agents](../../../raw/articles/Shilong Liu/A Taxonomy of Self-evolving Agents.md)
 - [十分钟带你玩转Hermes赫妹Agent](../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md)
 - [使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。](../../../raw/articles/AI少年/使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。.md)
+- [Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！](../../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md)
