@@ -16,7 +16,7 @@ sources:
 
 # Summary
 
-**Claude Academy**（https://academy.claude.com）是 Anthropic 面向「用 Claude 工作与构建」的官方学习入口，覆盖 Claude.ai / Cowork / Code / Tag / Platform，以及 AI Fluency 等课程（如 4D：Delegation、Description、Discernment、Diligence）。
+**Claude Academy**（<https://academy.claude.com）是> Anthropic 面向「用 Claude 工作与构建」的官方学习入口，覆盖 Claude.ai / Cowork / Code / Tag / Platform，以及 AI Fluency 等课程（如 4D：Delegation、Description、Discernment、Diligence）。
 
 定位：官方教程与能力地图，产品本体见 [Claude](./claude.md)。
 
@@ -26,4 +26,3 @@ sources:
 - [Claude](./claude.md)
 - [小山学堂](./xiaoshan-xuetang.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
-- [Claude Academy is now live](../../../raw/articles/Claude/Claude Academy is now live.md)

@@ -15,10 +15,9 @@ sources:
 
 # Summary
 
-**Google DeepMind**（https://deepmind.google/）是 Google 的 AI 研究实验室，不是编码代理 harness。公开站是模型与研究总入口：Gemini 系列（含面向 coding/agents 的工作模型）、开源侧 Gemma，以及科学（如 Co-Scientist）与机器人等方向。
+**Google DeepMind**（<https://deepmind.google/）是> Google 的 AI 研究实验室，不是编码代理 harness。公开站是模型与研究总入口：Gemini 系列（含面向 coding/agents 的工作模型）、开源侧 Gemma，以及科学（如 Co-Scientist）与机器人等方向。
 
 ## Related
 
 - [Google DeepMind（站点书签）](../references/deepmind-site.md)
 - [Discovery Loop](./discovery-loop.md)
-- [再次分享谷歌的 AI 学习平台「Google Skills」](../../raw/articles/meng shao/再次分享谷歌的 AI 学习平台「Google Skills」.md)

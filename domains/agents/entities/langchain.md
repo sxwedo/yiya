@@ -25,7 +25,7 @@ sources:
 
 # Summary
 
-**LangChain**（https://www.langchain.com）提供从开源框架到工程平台的 agent 栈：快速模板（langchain）、低层可控图（LangGraph）、长程自治（deepagents），以及 LangSmith（构建/评测/部署/监控/治理）。官方文档门户：https://docs.langchain.com/ 。定位偏「产品化 agent 工程平台」，与本库单 harness（Pi 等）互补；协议层见 [Model Context Protocol (MCP)](./mcp.md)。
+**LangChain**（<https://www.langchain.com）提供从开源框架到工程平台的> agent 栈：快速模板（langchain）、低层可控图（LangGraph）、长程自治（deepagents），以及 LangSmith（构建/评测/部署/监控/治理）。官方文档门户：<https://docs.langchain.com/> 。定位偏「产品化 agent 工程平台」，与本库单 harness（Pi 等）互补；协议层见 [Model Context Protocol (MCP)](./mcp.md)。
 
 ## Related
 
@@ -35,9 +35,3 @@ sources:
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [langchain-ai/openwiki（GitHub）](../references/langchain-ai-openwiki-github.md)
-- [for anyone asking where to learn this stuff－](../../../raw/articles/aditya/for anyone asking where to learn this stuff－.md)
-- [A free open-source model is running 300 parallel agents across 4,000 coordinated steps](../../../raw/articles/Movez/A free open-source model is running 300 parallel agents across 4,000 coordinated steps.md)
-- [There are 8 billion people on the planet](../../../raw/articles/Rahul/There are 8 billion people on the planet.md)
-- [今天来看腾讯的开发工程师的初面题。](../../../raw/articles/Phoenix Yin/今天来看腾讯的开发工程师的初面题。.md)
-- [GitHub 45k星星优秀项目介绍：hello-agents](../../../raw/articles/Polo贱🕊️－ 来Gate事件合约抢百万积分/GitHub 45k星星优秀项目介绍：hello-agents.md)
-- [Loops are just shitty graphs](../../../raw/articles/dale/Loops are just shitty graphs.md)

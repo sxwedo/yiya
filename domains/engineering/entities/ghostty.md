@@ -17,7 +17,7 @@ sources:
 
 # Summary
 
-**Ghostty**（https://ghostty.org/）是终端**模拟器**：Zig 核心、GPU 渲染，macOS/Linux 用平台原生 UI（不是 Electron）。可嵌入（libghostty）。
+**Ghostty**（<https://ghostty.org/）是终端**模拟器**：Zig> 核心、GPU 渲染，macOS/Linux 用平台原生 UI（不是 Electron）。可嵌入（libghostty）。
 
 定位：跑 shell 的窗口，不是 harness。提示符层见 [Starship](./starship.md)（跨 shell 状态条，跑在终端里）。
 
@@ -26,4 +26,3 @@ sources:
 - [Ghostty（站点书签）](../references/ghostty-site.md)
 - [Starship](./starship.md)
 - [zerebos/ghostty-config（GitHub）](../references/zerebos-ghostty-config-github.md)
-- [Ghostty 终端入门指南：安装、配置、用起来](../../../raw/articles/阿蔺A-Lin/Ghostty 终端入门指南：安装、配置、用起来.md)

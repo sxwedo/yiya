@@ -1,6 +1,8 @@
 # shared — Log
 
 ## 2026-09-08
+
+* **2026-09-08 refactor** | 存量全面治理：全库 35 篇在 `## Related` 中机械罗列 raw 链接的页面完成解耦（落实 DRY 原则）；精炼 [Andrej Karpathy](./entities/karpathy.md) sources。
 * **2026-09-08 delete** | 灌水 raw 8 篇之一 → 摘 shared 链；无专属页
 * **2026-09-08 delete** | 灌水 raw 18 篇之一 → 摘 awesome / Obsidian 链；无专属页
 * **2026-09-08 delete** | 灌水 raw 26 篇之一 → 摘 Obsidian 链；无专属页
@@ -9,6 +11,7 @@
 * **2026-09-08 schema** | 删除 raw：点名路径走 `yiya-delete-raw`（整条清）。写入根 AGENTS + README。
 
 ## 2026-09-07
+
 * **2026-09-07 ingest** | X 书签 (516–566/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (466–515/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
 * **2026-09-07 ingest** | X 书签 (416–465/584) 成功 50 篇成文 → `raw/articles/`；各挂 1 个已有 Entity/Concept。
@@ -36,6 +39,7 @@
 * **2026-09-07 ingest** | schema：LLM Wiki 集成优先 + 问答纪律；契约对齐（README / map / 相对路径 sources）；类型 index 补一句话。未开新域、未增 skill。
 
 ## 2026-09-04
+
 * **Initialization**: Slim shared bundle.
 * **Ingest**: [LLM Wiki](./references/karpathy-llm-wiki.md) → Entity [Karpathy](./entities/karpathy.md) + Concept [LLM Wiki](./concepts/llm-wiki.md) (2026-09-06).
 * **Ingest**: [Self-growing KB](./concepts/self-growing-kb.md) ← 金尘马 raw（直链，无 Reference）(2026-09-06).

@@ -14,11 +14,10 @@ sources:
 
 # Summary
 
-**Docker** 是容器平台（引擎、镜像、Compose、Desktop、Build）。官方文档：https://docs.docker.com/ 。
+**Docker** 是容器平台（引擎、镜像、Compose、Desktop、Build）。官方文档：<https://docs.docker.com/> 。
 
 定位：工程运行时与交付工具，不是编码代理 harness。
 
 ## Related
 
 - [Docker Docs](../references/docker-docs.md)
-- [GitHub 上最有价值的 10 个 AI 学习仓库，Star数加起来近百万](../../../raw/articles/纯棉短裤/GitHub 上最有价值的 10 个 AI 学习仓库，Star数加起来近百万.md)

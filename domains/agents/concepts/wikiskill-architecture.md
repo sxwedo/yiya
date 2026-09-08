@@ -31,4 +31,3 @@ sources:
 - [知识与技能分离](./knowledge-skill-separation.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
 - [Self-growing Knowledge Base](../../../shared/concepts/self-growing-kb.md)
-- [KARPATHY JUST KILLED THE PROMPT ERA WITH A SINGLE DOCUMENT](../../../raw/articles/Hanako/KARPATHY JUST KILLED THE PROMPT ERA WITH A SINGLE DOCUMENT.md)

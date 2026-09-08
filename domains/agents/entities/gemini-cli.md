@@ -23,4 +23,3 @@ sources:
 - [google-gemini/gemini-cli（GitHub）](../references/google-gemini-gemini-cli-github.md)
 - [Pi](./pi.md)
 - [Codex](./codex.md)
-- [🔥🔥强烈推荐的宝藏项目！](../../../raw/articles/huangserva/🔥🔥强烈推荐的宝藏项目！.md)

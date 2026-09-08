@@ -19,4 +19,3 @@ sources:
 ## Related
 
 - [spring-projects/spring-framework（GitHub）](../references/spring-projects-spring-framework-github.md)
-- [Backend Development Roadmap](../../../raw/articles/Dhanian 🗯️/Backend Development Roadmap.md)

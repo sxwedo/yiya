@@ -33,7 +33,7 @@ sources:
 
 # Summary
 
-**Obsidian**（https://obsidian.md/）是本地优先的 Markdown 笔记应用：一个 vault 就是一棵文件夹，页与页用 `[[wikilink]]` 互链，图谱看出枢纽与孤儿。插件（Web Clipper、Dataview、Marp 等）可选用，不是必须。
+**Obsidian**（<https://obsidian.md/）是本地优先的> Markdown 笔记应用：一个 vault 就是一棵文件夹，页与页用 `[[wikilink]]` 互链，图谱看出枢纽与孤儿。插件（Web Clipper、Dataview、Marp 等）可选用，不是必须。
 
 在 [LLM Wiki](../concepts/llm-wiki.md) 里，Karpathy 的分工是：**Obsidian 当 IDE，LLM 当程序员，wiki 当代码库**。本库 yiya 同样是 git 上的 markdown，给人浏览、给 Agent 维护。它不是编码代理 harness，也不是又一套云笔记同步盘。
 
@@ -49,10 +49,3 @@ sources:
 - [kepano/obsidian-minimal（GitHub）](../references/kepano-obsidian-minimal-github.md)
 - [kepano/obsidian-skills（GitHub）](../references/kepano-obsidian-skills-github.md)
 - [yiya](./yiya.md)
-- [One evening of setup. A vault that files itself at 7 a.m., and a model that opens every](../../raw/articles/Moysei/One evening of setup. A vault that files itself at 7 a.m., and a model that opens every.md)
-- [Obsidian零基础教程](../../raw/articles/泊舟/Obsidian零基础教程.md)
-- [我用这套方法，0成本复刻了价值2999元的写作专家团](../../raw/articles/金尘马/我用这套方法，0成本复刻了价值2999元的写作专家团.md)
-- [Hello everyone, leopardracer here!](../../raw/articles/leopardracer/Hello everyone, leopardracer here!.md)
-- [Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记](../../raw/articles/向阳乔木/Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记.md)
-- [YouMind 创业路上的非共识选择](../../raw/articles/Frank Wang 玉伯/YouMind 创业路上的非共识选择.md)
-- [最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian](../../raw/articles/Corey Chiu/最近在研究学习 Claude skills，看了好多博客文章，正愁没什么好工具整理归纳。以前用过 notion，obsidian.md)

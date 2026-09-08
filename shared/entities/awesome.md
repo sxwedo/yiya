@@ -22,5 +22,3 @@ sources:
 
 - [sindresorhus/awesome（GitHub）](../references/sindresorhus-awesome-github.md)
 - [HelloGitHub](./hellogithub.md)
-- [类 同事.skills 整理，欢迎补充：](../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md)
-- [给关注了半年的agent team 交份作业。](../../raw/articles/yan5xu/给关注了半年的agent team 交份作业。.md)

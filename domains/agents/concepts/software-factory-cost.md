@@ -34,4 +34,3 @@ sources:
 - [Delivery Harness](./delivery-harness.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
-- [打开 raw](../../../raw/articles/Uber Engineering/Running a Software Factory Efficiently at Uber Scale.md)

@@ -44,4 +44,3 @@ sources:
 - [AGENTS.md](../../domains/agents/entities/agents-md.md)
 - [Andrej Karpathy](../entities/karpathy.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)
-- [打开 raw](../../raw/articles/Karpathy/LLM Wiki.md)

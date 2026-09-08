@@ -2,6 +2,7 @@
 
 ## 2026-09-08
 
+* **2026-09-08 refactor** | [Claude](./entities/claude.md) 与 [Model Context Protocol (MCP)](./entities/mcp.md) 深度精炼：移除 190+ 篇弱相关/泛杂挂靠，聚焦官方与权威架构文献；全库完成 `## Related` 与 raw 链接解耦（DRY 单一事实来源）。
 * **2026-09-08 refactor** | [Coding Agent Workflow](./concepts/coding-agent-workflow.md) 瘦身与解耦：剔除 50+ 篇弱相关/杂质 raw 挂靠，Related 回归纯维基页面互链，sources 聚焦 10 篇核心文献。
 * **2026-09-08 lint** | domains/agents → Related 括号链加 `<>`；mcp 嵌套链；11 篇成文补 sources
 * **2026-09-08 delete** | 灌水/域外 raw 8 篇 → 摘对应 wiki 链；无专属页
@@ -62,6 +63,7 @@
 * **2026-09-07 ingest** | schema：sources 改为相对路径；concepts/entities/references `index.md` 补一句话；overview 实体表与目录对齐（11 个 Entity）。
 
 ## 2026-09-06
+
 * 2026-09-07：记录自主调研 TODO（梦境 + 外探），见 `raw/_inbox/research/TODO.md`；未实现
 * 2026-09-06：废除 `raw-manifest.yaml`；查重靠 raw `url:`，认领靠知识页链 raw
 

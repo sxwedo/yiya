@@ -40,4 +40,3 @@ sources:
 - [AGENTS.md](../entities/agents-md.md)
 - [mena](../entities/mena.md)
 - [Herdr](../entities/herdr.md)
-- [打开 raw](../../../raw/articles/Smartpig/如何统一管理 Codex、Claude、DeepSeek 等不同的 AI Harness，让切换像换编译器一样简单.md)
