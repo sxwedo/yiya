@@ -150,3 +150,4 @@
 | spring-projects/spring-framework | https://github.com/spring-projects/spring-framework | spring-projects | Spring 应用框架 |
 | alibaba/spring-cloud-alibaba | https://github.com/alibaba/spring-cloud-alibaba | alibaba | 阿里分布式应用一站式方案 |
 | github/gitignore | https://github.com/github/gitignore | github | GitHub 官方维护的 .gitignore 模板集（语言/框架/OS） |
+| EverettFish/holo-card-studio | https://github.com/EverettFish/holo-card-studio | EverettFish | Agent Skill：描述/参考图 → 可编辑 Blender 卡面 + 交互 Three.js 页 |

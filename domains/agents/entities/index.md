@@ -69,3 +69,4 @@
 * [Orca](./orca.md) — 并行 agent 舰队的 ADE
 * [CLI-Anything](./cli-anything.md) — 让任意软件变成 Agent-native CLI
 * [Foundations of LLMs](./foundations-of-llms.md) — 浙大 LLM 基础教材
+* [Holo Card Studio](./holo-card-studio.md) — 描述/参考图 → Blender 卡面 + Three.js

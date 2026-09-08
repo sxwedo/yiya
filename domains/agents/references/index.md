@@ -116,3 +116,4 @@
 * [hahhforest/pi-textbook（GitHub）](./hahhforest-pi-textbook-github.md) — hahhforest/pi-textbook 书签：沿 checkpoint 从零构建 Pi-style Agent
 * [HKUDS/CLI-Anything（GitHub）](./hkuds-cli-anything-github.md) — HKUDS/CLI-Anything 书签：让任意软件变成 Agent-native CLI
 * [ZJU-LLMs/Foundations-of-LLMs（GitHub）](./zju-llms-foundations-of-llms-github.md) — ZJU-LLMs/Foundations-of-LLMs 书签：浙大 LLM 基础教材
+* [EverettFish/holo-card-studio（GitHub）](./everettfish-holo-card-studio-github.md) — 卡面 Skill 书签

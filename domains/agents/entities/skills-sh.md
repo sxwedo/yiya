@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T17:00:00Z }
 related:
+  - holo-card-studio
   - coding-agent-workflow
   - loop-engineering
   - pi
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [Holo Card Studio](./holo-card-studio.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Loop Engineering](../concepts/loop-engineering.md)
 - [Pi](./pi.md)
