@@ -30,7 +30,6 @@ sources:
   - ../../../raw/articles/向阳乔木/如果你每周时间有限，但又想获得前沿AI信息？.md
   - ../../../raw/articles/烟花老师/Loop Engineering 精华文章汇总!.md
   - ../../../raw/articles/Adrian Punk/当我开始揣摩Less Is More.md
-  - ../../../raw/articles/RelaxView/开源TTS直接卷疯了！园区诈骗又有新武器？.md
   - ../../../raw/articles/Tw93/想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。.md
   - ../../../raw/articles/宝玉/手绘风信息图提示词.md
   - ../../../raw/articles/Akshay 🚀/about loop engineering.md
@@ -62,8 +61,6 @@ sources:
   - ../../../raw/articles/Smartpig/Loop Engineering：Agent时代最被低估的能力.md
   - ../../../raw/articles/Geek Lite/一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。.md
   - ../../../raw/articles/实践哥 Li/Workflow 有 6 种形式。.md
-  - ../../../raw/articles/泊舟/我们在写提示词的时候需要写一个角色，这时候赋予AI一个好的Title就非常重要了，这里给大家分享一些Title.md
-  - ../../../raw/articles/向阳乔木/身边不少程序员朋友，都喜欢看YC的Hackernews.md
   - ../../../raw/articles/AYi/微软CEO Satya Nadella这篇文章.md
   - ../../../raw/articles/dunik/259 pull requests in 30 days, and a human typed exactly zero of them.md
   - ../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md
@@ -119,7 +116,6 @@ sources:
 - [如果你每周时间有限，但又想获得前沿AI信息？](../../../raw/articles/向阳乔木/如果你每周时间有限，但又想获得前沿AI信息？.md)
 - [Loop Engineering 精华文章汇总!](../../../raw/articles/烟花老师/Loop Engineering 精华文章汇总!.md)
 - [当我开始揣摩Less Is More](../../../raw/articles/Adrian Punk/当我开始揣摩Less Is More.md)
-- [开源TTS直接卷疯了！园区诈骗又有新武器？](../../../raw/articles/RelaxView/开源TTS直接卷疯了！园区诈骗又有新武器？.md)
 - [想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。](../../../raw/articles/Tw93/想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。.md)
 - [手绘风信息图提示词](../../../raw/articles/宝玉/手绘风信息图提示词.md)
 - [about loop engineering](../../../raw/articles/Akshay 🚀/about loop engineering.md)
@@ -151,8 +147,6 @@ sources:
 - [Loop Engineering：Agent时代最被低估的能力](../../../raw/articles/Smartpig/Loop Engineering：Agent时代最被低估的能力.md)
 - [一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。](../../../raw/articles/Geek Lite/一套22章的骨架式课程，教你如何设计、构建和运维生产级 AI Agent 系统，支持与你的 AI 助手配对学习。.md)
 - [Workflow 有 6 种形式。](../../../raw/articles/实践哥 Li/Workflow 有 6 种形式。.md)
-- [我们在写提示词的时候需要写一个角色，这时候赋予AI一个好的Title就非常重要了，这里给大家分享一些Title](../../../raw/articles/泊舟/我们在写提示词的时候需要写一个角色，这时候赋予AI一个好的Title就非常重要了，这里给大家分享一些Title.md)
-- [身边不少程序员朋友，都喜欢看YC的Hackernews](../../../raw/articles/向阳乔木/身边不少程序员朋友，都喜欢看YC的Hackernews.md)
 - [微软CEO Satya Nadella这篇文章](../../../raw/articles/AYi/微软CEO Satya Nadella这篇文章.md)
 - [259 pull requests in 30 days, and a human typed exactly zero of them](../../../raw/articles/dunik/259 pull requests in 30 days, and a human typed exactly zero of them.md)
 - [我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了](../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md)

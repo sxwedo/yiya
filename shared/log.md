@@ -1,6 +1,7 @@
 # shared — Log
 
 ## 2026-09-08
+* **2026-09-08 delete** | 灌水 raw 8 篇之一 → 摘 shared 链；无专属页
 * **2026-09-08 delete** | 灌水 raw 18 篇之一 → 摘 awesome / Obsidian 链；无专属页
 * **2026-09-08 delete** | 灌水 raw 26 篇之一 → 摘 Obsidian 链；无专属页
 * **2026-09-08 delete** | 灌水 raw 53 篇之一 → 摘 awesome / Karpathy 链；无专属页

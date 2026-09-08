@@ -91,7 +91,6 @@ sources:
   - ../../../raw/articles/Berryxia.AI/🔥兄弟们！手里的OpenClaw龙虾可以先放一放了！.md
   - ../../../raw/articles/海拉鲁编程客/# 从降智到小动作－ Claude Code 平替计划.md
   - ../../../raw/articles/AYi/这绝对是最棒的企业 AI 转型指南，教你如何让公司彻底拥抱 AI 变革。.md
-  - ../../../raw/articles/huangserva/一位谷歌云工程师刚刚展示了.md
   - ../../../raw/articles/Alex/Anthropic just released 5 Claude workshops on the new skill every AI builder needs－ Loop.md
   - ../../../raw/articles/烟花老师/Harness Engineering：AI 工程师的下一个战场！.md
   - ../../../raw/articles/Mr Panda/如何沉淀 SKILL：把重复劳动变成可复用的能力.md
@@ -99,7 +98,6 @@ sources:
   - ../../../raw/articles/诺鸭船长3/Tailscale 全网最全使用指南：从入门到榨干.md
   - ../../../raw/articles/苏乐/10分钟学会CLAUDE.md－ 从入门到精通.md
   - ../../../raw/articles/宝玉/为什么你的－－AI 优先－－战略可能大错特错？.md
-  - ../../../raw/articles/Zhixiong Pan/在一周内，AI 三巨头仿佛达成默契，全面押注医疗－健康领域：.md
   - ../../../raw/articles/鱼总聊AI/凌晨3点，我的龙虾发来了一条－－死刑通知－.md
   - ../../../raw/articles/Roland.W/AI实施科学：一个2030年之前必将诞生的领域.md
   - ../../../raw/articles/实践哥 Li/8 个 Claude Code Hooks 实战（译）.md
@@ -199,7 +197,6 @@ sources:
   - ../../../raw/articles/AYi/说个暴论，AI界的iPhone时刻可能就要到来了。.md
   - ../../../raw/articles/香蕉Banana/分享10个我目前在用的 Skill.md
   - ../../../raw/articles/周览资源/用 Claude Code 写代码的人，真的建议把 Trellis 装上。.md
-  - ../../../raw/articles/GitHubDaily/谷歌 Gemini 团队主管 Addy Osmani，最近开源的 Agent Skills，狂揽了 18000+ GitHub Star。.md
   - ../../../raw/articles/宝玉/分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。.md
   - ../../../raw/articles/rody/Claude writes your code, hands it over, and 3 tests are failing.md
   - ../../../raw/articles/周尔复/把 Anthropic 官方出的 Claude Code in Action 翻译成中文版了。.md
@@ -305,7 +302,6 @@ sources:
 - [🔥兄弟们！手里的OpenClaw龙虾可以先放一放了！](../../../raw/articles/Berryxia.AI/🔥兄弟们！手里的OpenClaw龙虾可以先放一放了！.md)
 - [# 从降智到小动作－ Claude Code 平替计划](../../../raw/articles/海拉鲁编程客/# 从降智到小动作－ Claude Code 平替计划.md)
 - [这绝对是最棒的企业 AI 转型指南，教你如何让公司彻底拥抱 AI 变革。](../../../raw/articles/AYi/这绝对是最棒的企业 AI 转型指南，教你如何让公司彻底拥抱 AI 变革。.md)
-- [一位谷歌云工程师刚刚展示了](../../../raw/articles/huangserva/一位谷歌云工程师刚刚展示了.md)
 - [Anthropic just released 5 Claude workshops on the new skill every AI builder needs－ Loop](../../../raw/articles/Alex/Anthropic just released 5 Claude workshops on the new skill every AI builder needs－ Loop.md)
 - [Harness Engineering：AI 工程师的下一个战场！](../../../raw/articles/烟花老师/Harness Engineering：AI 工程师的下一个战场！.md)
 - [如何沉淀 SKILL：把重复劳动变成可复用的能力](../../../raw/articles/Mr Panda/如何沉淀 SKILL：把重复劳动变成可复用的能力.md)
@@ -313,7 +309,6 @@ sources:
 - [Tailscale 全网最全使用指南：从入门到榨干](../../../raw/articles/诺鸭船长3/Tailscale 全网最全使用指南：从入门到榨干.md)
 - [10分钟学会CLAUDE.md－ 从入门到精通](../../../raw/articles/苏乐/10分钟学会CLAUDE.md－ 从入门到精通.md)
 - [为什么你的－－AI 优先－－战略可能大错特错？](../../../raw/articles/宝玉/为什么你的－－AI 优先－－战略可能大错特错？.md)
-- [在一周内，AI 三巨头仿佛达成默契，全面押注医疗－健康领域：](../../../raw/articles/Zhixiong Pan/在一周内，AI 三巨头仿佛达成默契，全面押注医疗－健康领域：.md)
 - [凌晨3点，我的龙虾发来了一条－－死刑通知－](../../../raw/articles/鱼总聊AI/凌晨3点，我的龙虾发来了一条－－死刑通知－.md)
 - [AI实施科学：一个2030年之前必将诞生的领域](../../../raw/articles/Roland.W/AI实施科学：一个2030年之前必将诞生的领域.md)
 - [8 个 Claude Code Hooks 实战（译）](../../../raw/articles/实践哥 Li/8 个 Claude Code Hooks 实战（译）.md)
@@ -413,7 +408,6 @@ sources:
 - [说个暴论，AI界的iPhone时刻可能就要到来了。](../../../raw/articles/AYi/说个暴论，AI界的iPhone时刻可能就要到来了。.md)
 - [分享10个我目前在用的 Skill](../../../raw/articles/香蕉Banana/分享10个我目前在用的 Skill.md)
 - [用 Claude Code 写代码的人，真的建议把 Trellis 装上。](../../../raw/articles/周览资源/用 Claude Code 写代码的人，真的建议把 Trellis 装上。.md)
-- [谷歌 Gemini 团队主管 Addy Osmani，最近开源的 Agent Skills，狂揽了 18000+ GitHub Star。](../../../raw/articles/GitHubDaily/谷歌 Gemini 团队主管 Addy Osmani，最近开源的 Agent Skills，狂揽了 18000+ GitHub Star。.md)
 - [分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。](../../../raw/articles/宝玉/分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。.md)
 - [How to Build a Self-Improving Loop in Claude Code (Exact Setup Inside) ](../../../raw/articles/rody/Claude writes your code, hands it over, and 3 tests are failing.md)
 - [把 Anthropic 官方出的 Claude Code in Action 翻译成中文版了。](../../../raw/articles/周尔复/把 Anthropic 官方出的 Claude Code in Action 翻译成中文版了。.md)

@@ -1,6 +1,7 @@
 # Agent 与 harness — Log
 
 ## 2026-09-08
+* **2026-09-08 delete** | 灌水/域外 raw 8 篇 → 摘对应 wiki 链；无专属页
 * **2026-09-08 delete** | 灌水/空壳/域外合集 raw 18 篇 → 摘 Claude / Coding Agent Workflow / Codex 链；无专属页
 * **2026-09-08 delete** | 灌水/灰产 raw 26 篇 → 摘 Claude / Coding Agent Workflow / Codex 等链；无专属页
 * **2026-09-08 delete** | 灌水/空壳/灰产 raw 53 篇 → 摘 Claude / Coding Agent Workflow / Codex / Paseo / Composio / cc-switch 链；无专属页

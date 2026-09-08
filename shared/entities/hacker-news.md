@@ -10,7 +10,6 @@ related:
   - trendshift
 sources:
   - ../references/hacker-news-site.md
-  - ../../raw/articles/一只小橘呀/我每天刷Hacker News、Reddit、Twitter找信息，结果80%都是噪音。.md
   - ../../raw/articles/snowboat/我打造的个人AI系统：哲学基础.md
 ---
 
@@ -24,5 +23,4 @@ sources:
 
 - [Hacker News（站点）](../references/hacker-news-site.md)
 - [Trendshift](../../domains/agents/entities/trendshift.md)
-- [我每天刷Hacker News、Reddit、Twitter找信息，结果80%都是噪音。](../../raw/articles/一只小橘呀/我每天刷Hacker News、Reddit、Twitter找信息，结果80%都是噪音。.md)
 - [我打造的个人AI系统：哲学基础](../../raw/articles/snowboat/我打造的个人AI系统：哲学基础.md)
