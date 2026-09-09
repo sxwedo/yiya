@@ -21,3 +21,7 @@
 起步域：`agents`、`engineering`。先养一个域即可。
 
 对 Agent：`按 .agents/skills/yiya-ingest 处理 <URL>`。删除 raw：`按 .agents/skills/yiya-delete-raw 处理 <路径>`。提问先读 `shared/map.md` 与域 overview。
+
+## 来源说明
+
+本库中的原文与摘录主要整理自互联网上已公开的文章、帖文与站点，仅供个人学习与备忘。著作权仍归原作者与原发布方所有；若您认为某条内容不宜保留，请通过仓库 Issues 或 GitHub 联系维护者，我们会尽快核实并处理。
