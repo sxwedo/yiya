@@ -11,6 +11,7 @@ related:
   - obsidian
   - grokipedia
 sources:
+  - ../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
   - ../../raw/articles/老张来了/Karpathy 最新分享：用 LLM 搭建个人知识库，告别 RAG 的低效循环.md
 ---
@@ -25,6 +26,7 @@ sources:
 
 ## Related
 
+- [The Second Brain Is Not a Storage System. It's a Compiler.](../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md)
 - [LLM Wiki](./llm-wiki.md)
 - [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)
 - [Obsidian](../entities/obsidian.md)

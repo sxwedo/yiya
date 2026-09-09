@@ -43,3 +43,4 @@
 * **Initialization**: Slim shared bundle.
 * **Ingest**: [LLM Wiki](./references/karpathy-llm-wiki.md) → Entity [Karpathy](./entities/karpathy.md) + Concept [LLM Wiki](./concepts/llm-wiki.md) (2026-09-06).
 * **Ingest**: [Self-growing KB](./concepts/self-growing-kb.md) ← 金尘马 raw（直链，无 Reference）(2026-09-06).
+* **Ingest**: rvaniaaa《Second Brain = Compiler》→ raw，挂 [LLM Wiki](./concepts/llm-wiki.md) / [Self-growing KB](./concepts/self-growing-kb.md)（无新页）(2026-09-10). 结构体检：无约定改动。

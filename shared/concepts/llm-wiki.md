@@ -17,6 +17,7 @@ related:
   - yiya
   - llmwiki
 sources:
+  - ../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
   - ../references/karpathy-llm-wiki.md
 ---
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [The Second Brain Is Not a Storage System. It's a Compiler.](../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md)
 - [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)
 - [Self-growing Knowledge Base](./self-growing-kb.md)
 - [Zread](../../domains/agents/entities/zread.md)
