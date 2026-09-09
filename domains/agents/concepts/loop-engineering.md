@@ -16,6 +16,7 @@ related:
   - playbook-feedback-loop
   - agent-self-evolution-flywheel
 sources:
+  - ../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md
   - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
   - ../../../raw/articles/Akshay 🚀/Loop Engineering Clearly Explained.md
@@ -46,6 +47,7 @@ sources:
 
 ## Related
 
+- [Graph Engineering explained: what it is, when to use it and when not to](../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)

@@ -12,6 +12,7 @@ related:
   - coding-agent-workflow
   - multi-agent-governance
 sources:
+  - ../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md
   - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Mahax/Graph Engineering with Claude. What It Is and How to Actually Use It.md
   - ../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md
@@ -32,6 +33,7 @@ sources:
 
 ## Related
 
+- [Graph Engineering explained: what it is, when to use it and when not to](../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)
 - [Loop Engineering](./loop-engineering.md)
