@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-09T03:50:00Z }
 related:
+  - graph-driven-agent-workflow
   - plan-mode-multiagent
   - loop-engineering
   - harness-self-improvement
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering explained: what it is, when to use it and when not to](../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)

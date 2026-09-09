@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - graph-driven-agent-workflow
   - llm-as-judge-runtime
   - delivery-harness
   - harness-self-improvement
@@ -31,6 +32,7 @@ sources:
 
 ## Related
 
+- [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Harness 自改进](./harness-self-improvement.md)

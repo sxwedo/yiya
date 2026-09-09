@@ -119,3 +119,4 @@
 * **Ingest**: [Plan 模式与主子 Agent](./concepts/plan-mode-multiagent.md) ← 得物技术 raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain/约定改动。
 * **Ingest**: [LLM-as-Judge Runtime](./concepts/llm-as-judge-runtime.md) ← Josh Rosen raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain；跨链 engineering eval-driven-development。
 * **Ingest**: Anatoli《Graph Engineering explained…》→ raw，挂 [Graph Engineering](./concepts/graph-engineering.md) / [Loop Engineering](./concepts/loop-engineering.md)（无新页）(2026-09-09). 结构体检：无约定改动。
+* **Ingest**: [Graph-Driven Agent Workflow](./concepts/graph-driven-agent-workflow.md) ← Mr. Buzzoni raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain/约定改动。

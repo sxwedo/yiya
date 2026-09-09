@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T10:50:00Z }
 related:
+  - graph-driven-agent-workflow
   - llm-as-judge-runtime
   - plan-mode-multiagent
   - graph-engineering
@@ -47,6 +48,7 @@ sources:
 
 ## Related
 
+- [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering explained: what it is, when to use it and when not to](../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)

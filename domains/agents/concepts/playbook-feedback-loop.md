@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
 related:
+  - graph-driven-agent-workflow
   - llm-as-judge-runtime
   - loop-engineering
   - role-first-agent
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Role-first Agent](./role-first-agent.md)

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
 related:
+  - graph-driven-agent-workflow
   - plan-mode-multiagent
   - graph-engineering
   - multi-agent-failure-modes
@@ -29,6 +30,7 @@ sources:
 
 ## Related
 
+- [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Graph Engineering](./graph-engineering.md)
 - [多智能体失效模式](./multi-agent-failure-modes.md)
