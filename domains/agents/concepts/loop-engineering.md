@@ -17,6 +17,7 @@ related:
   - playbook-feedback-loop
   - agent-self-evolution-flywheel
 sources:
+  - ../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md
   - ../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md
   - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
@@ -48,6 +49,7 @@ sources:
 
 ## Related
 
+- [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering explained: what it is, when to use it and when not to](../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)

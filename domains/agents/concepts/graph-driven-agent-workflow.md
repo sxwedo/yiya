@@ -12,6 +12,7 @@ related:
   - playbook-feedback-loop
   - multi-agent-governance
 sources:
+  - ../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md
   - ../../../raw/articles/Mr. Buzzoni/300 AGENTS, ONE GRAPH, AND A LOOP THAT EDITS THE LOOP.md
 ---
 
@@ -32,6 +33,7 @@ sources:
 
 ## Related
 
+- [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Evidence Gate](./evidence-gate.md)
