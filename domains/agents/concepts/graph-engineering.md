@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-09T03:50:00Z }
 related:
+  - plan-mode-multiagent
   - loop-engineering
   - harness-self-improvement
   - coding-agent-workflow
@@ -31,6 +32,7 @@ sources:
 
 ## Related
 
+- [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Harness 自改进](./harness-self-improvement.md)

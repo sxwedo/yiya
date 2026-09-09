@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:20:00Z }
 related:
+  - plan-mode-multiagent
   - async-memory-precipitation
   - eval-driven-development
   - history-vs-memory
@@ -28,6 +29,7 @@ sources:
 
 ## Related
 
+- [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [异步记忆沉淀](./async-memory-precipitation.md)
 - [历史不等于记忆](./history-vs-memory.md)
 - [在线记忆流水线](./online-memory-pipeline.md)

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - plan-mode-multiagent
   - software-factory-cost
   - multi-harness-control-plane
   - coding-agent-workflow
@@ -34,6 +35,7 @@ sources:
 
 ## Related
 
+- [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
