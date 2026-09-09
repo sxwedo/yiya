@@ -115,3 +115,4 @@
 * **Bookmark**: [LerSent001/holo-card](./references/lersent001-holo-card-github.md) ← `raw/bookmarks/github.md`，挂 [Holo Card Studio](./entities/holo-card-studio.md)（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。
 * **Ingest**: [Graph Engineering](./concepts/graph-engineering.md) ← Mahax raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain/约定改动。
 * **Ingest**: Mahax《Agents, Loops, Graphs…》→ raw，挂 [Graph Engineering](./concepts/graph-engineering.md) / [Loop Engineering](./concepts/loop-engineering.md)（无新页）(2026-09-09). 结构体检：无约定改动。
+* **Bookmark**: [Termany](./entities/termany.md) + [站点 Ref](./references/termany-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-09). 结构体检：无新 Domain/约定改动。

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
+  - termany
   - omarchy
   - pi-dev-site
   - mena
@@ -46,6 +47,7 @@ sources:
 
 ## Related
 
+- [Termany](./termany.md)
 - [Omarchy](./omarchy.md)
 - [Pi（官网）](../references/pi-dev-site.md)
 - [Model Context Protocol (MCP)](./mcp.md)

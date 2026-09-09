@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:00:00Z }
 related:
+  - termany
   - graph-engineering
   - software-factory-cost
   - loop-engineering
@@ -50,6 +51,7 @@ sources:
 
 ## Related
 
+- [Termany](../entities/termany.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Loop Engineering](./loop-engineering.md)

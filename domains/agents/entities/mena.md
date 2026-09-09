@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T06:45:00Z }
 related:
+  - termany
   - mcp
   - omarchy
   - multi-harness-control-plane
@@ -31,6 +32,7 @@ sources:
 
 ## Related
 
+- [Termany](./termany.md)
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Omarchy](./omarchy.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)

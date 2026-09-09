@@ -32,3 +32,4 @@
 | Puffo | https://beta.puffo.ai/ | Puffo | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
 | Tailscale | https://tailscale.com/ | Tailscale | WireGuard mesh VPN：设备直连加密、NAT 穿透、身份与 ACL |
 | UseGrokBot | https://usegrokbot.com/zh-cn | UseGrokBot | Grok Bot 发现中心：筛选公开帖与用例，不是产品本体 |
+| Termany | https://termany.sh/ | Termany | Agent-native 终端工作区：多会话/审阅/worktree/用量看板，本机优先桌面端 |
