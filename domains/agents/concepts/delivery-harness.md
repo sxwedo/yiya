@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - llm-as-judge-runtime
   - plan-mode-multiagent
   - software-factory-cost
   - multi-harness-control-plane
@@ -35,6 +36,7 @@ sources:
 
 ## Related
 
+- [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)

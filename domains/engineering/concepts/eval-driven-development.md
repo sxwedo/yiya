@@ -6,6 +6,7 @@ status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:25:00Z }
 related:
+  - llm-as-judge-runtime
   - agent-self-evolution-flywheel
   - evidence-gate
   - four-layer-agent-memory
@@ -29,6 +30,7 @@ sources:
 
 ## Related
 
+- [LLM-as-Judge Runtime](../../agents/concepts/llm-as-judge-runtime.md)
 - [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)
 - [Agent 自进化飞轮](../../agents/concepts/agent-self-evolution-flywheel.md)
 - [Evidence Gate](../../agents/concepts/evidence-gate.md)

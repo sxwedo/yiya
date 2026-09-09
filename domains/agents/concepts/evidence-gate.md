@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:52:00Z }
 related:
+  - llm-as-judge-runtime
   - delivery-harness
   - harness-self-improvement
   - minimal-agent-harness
@@ -30,6 +31,7 @@ sources:
 
 ## Related
 
+- [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Harness 自改进](./harness-self-improvement.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)

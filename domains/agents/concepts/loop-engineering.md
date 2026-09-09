@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T10:50:00Z }
 related:
+  - llm-as-judge-runtime
   - plan-mode-multiagent
   - graph-engineering
   - software-factory-cost
@@ -45,6 +46,7 @@ sources:
 
 ## Related
 
+- [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)
 - [Graph Engineering](./graph-engineering.md)

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
 related:
+  - llm-as-judge-runtime
   - loop-engineering
   - role-first-agent
   - grok-bot
@@ -32,6 +33,7 @@ sources:
 
 ## Related
 
+- [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Role-first Agent](./role-first-agent.md)
 - [Grok Bot](../entities/grok-bot.md)

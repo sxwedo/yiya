@@ -28,3 +28,4 @@
 * [Software Factory Cost Equation](./software-factory-cost.md) — Uber 式 agent 用量四层与成本等式优化
 * [Graph Engineering](./graph-engineering.md) — 节点/边依赖图：假边、菱形并行、checker
 * [Plan 模式与主子 Agent](./plan-mode-multiagent.md) — Plan-and-Execute + 主子协作 + A2A（得物）
+* [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) — 运行时裁判：拆判据、比对照、审轨迹、确定性包边
