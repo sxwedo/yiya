@@ -121,3 +121,4 @@
 * **Ingest**: Anatoli《Graph Engineering explained…》→ raw，挂 [Graph Engineering](./concepts/graph-engineering.md) / [Loop Engineering](./concepts/loop-engineering.md)（无新页）(2026-09-09). 结构体检：无约定改动。
 * **Ingest**: [Graph-Driven Agent Workflow](./concepts/graph-driven-agent-workflow.md) ← Mr. Buzzoni raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain/约定改动。
 * **Ingest**: wast3《Graph Engineering: How to Run 1,000 AI Agents…》→ raw，挂 [Graph Engineering](./concepts/graph-engineering.md) / [Loop Engineering](./concepts/loop-engineering.md) / [Graph-Driven Agent Workflow](./concepts/graph-driven-agent-workflow.md)（无新页）(2026-09-10). 结构体检：无约定改动。
+* **Ingest**: Codez《Build a team of AI Agents… 8 Steps》→ raw，挂 [Raft](./entities/raft.md) / multi-agent-governance / role-first-agent / llm-as-judge-runtime（无新页）(2026-09-10). 结构体检：无约定改动。

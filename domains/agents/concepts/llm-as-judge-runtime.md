@@ -12,6 +12,7 @@ related:
   - playbook-feedback-loop
   - eval-driven-development
 sources:
+  - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../../../raw/articles/Josh Rosen/LLM-as-Judge Architectures: Putting Evals Into Your Agent Runtime.md
 ---
 
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md)
 - [Evidence Gate](./evidence-gate.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Delivery Harness](./delivery-harness.md)
