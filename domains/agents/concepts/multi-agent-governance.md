@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
 related:
+  - graph-engineering
   - multi-agent-failure-modes
   - raft
 sources:
@@ -27,5 +28,6 @@ sources:
 
 ## Related
 
+- [Graph Engineering](./graph-engineering.md)
 - [多智能体失效模式](./multi-agent-failure-modes.md)
 - [Raft](../entities/raft.md)

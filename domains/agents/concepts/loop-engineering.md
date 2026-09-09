@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T10:50:00Z }
 related:
+  - graph-engineering
   - software-factory-cost
   - coding-agent-workflow
   - claude
@@ -42,6 +43,7 @@ sources:
 
 ## Related
 
+- [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Claude](../entities/claude.md)

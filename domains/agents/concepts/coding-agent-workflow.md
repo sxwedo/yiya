@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:00:00Z }
 related:
+  - graph-engineering
   - software-factory-cost
   - loop-engineering
   - minimal-agent-harness
@@ -49,6 +50,7 @@ sources:
 
 ## Related
 
+- [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
