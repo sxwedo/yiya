@@ -11,6 +11,7 @@ related:
   - coding-agent-workflow
   - multi-agent-governance
 sources:
+  - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Mahax/Graph Engineering with Claude. What It Is and How to Actually Use It.md
   - ../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md
 ---
@@ -30,6 +31,7 @@ sources:
 
 ## Related
 
+- [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Harness 自改进](./harness-self-improvement.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)

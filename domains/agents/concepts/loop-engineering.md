@@ -14,6 +14,7 @@ related:
   - playbook-feedback-loop
   - agent-self-evolution-flywheel
 sources:
+  - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
   - ../../../raw/articles/Akshay 🚀/Loop Engineering Clearly Explained.md
   - ../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md
@@ -43,6 +44,7 @@ sources:
 
 ## Related
 
+- [Agents, Loops, Graphs. Everything You Need to Know in One Place.](../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
