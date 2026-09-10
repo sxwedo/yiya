@@ -31,7 +31,7 @@ sources:
 
 ## Related
 
-- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md)
+- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Graph Engineering](./graph-engineering.md)

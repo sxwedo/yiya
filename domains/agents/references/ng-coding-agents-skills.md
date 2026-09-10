@@ -14,7 +14,7 @@ related:
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/Andrew Ng/AI Engineering Skills Map: Using coding agents.md>)
 
 - 原文：<https://x.com/AndrewYNg/status/2095890279865721217（X> 长文，2026-09-04）。
 - 高层工作流仍像传统软件，但重心从写代码转向：决定做什么、架构、写规格、验收输出。

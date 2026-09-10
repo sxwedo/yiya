@@ -25,7 +25,7 @@ sources:
 
 ## Related
 
-- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md)
+- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Grok Bot](../entities/grok-bot.md)
 - [Engineering Bot](./engineering-bot.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)

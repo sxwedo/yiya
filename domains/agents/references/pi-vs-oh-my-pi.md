@@ -11,7 +11,7 @@ sources: []
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/猿小猴子/主流 Agent 之「Pi」与「oh-my-pi」介绍.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/猿小猴子/主流 Agent 之「Pi」与「oh-my-pi」介绍.md>)
 
 - 两者均为 MIT 开源终端编码代理 + 用户自备模型，非封闭 SaaS。
 - Pi：Minimal Harness / Primitives not features；TS/Node；扩展/Skills 自建能力。

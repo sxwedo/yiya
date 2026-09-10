@@ -35,4 +35,4 @@ sources:
 - [Delivery Harness](./delivery-harness.md)
 - [四层 Agent 记忆](./four-layer-agent-memory.md)
 - [Loop Engineering](./loop-engineering.md)
-- [打开 raw](../../../raw/articles/得物技术/企业级 MultiAgent 落地：Plan 模式与主子 Agent 协作｜得物技术.md)
+- [打开 raw](<../../../raw/articles/得物技术/企业级 MultiAgent 落地：Plan 模式与主子 Agent 协作｜得物技术.md>)

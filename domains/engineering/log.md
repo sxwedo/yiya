@@ -2,7 +2,7 @@
 
 ## 2026-09-08
 
-* **2026-09-08 ingest** | [The AI Engineering Skills Map](../../raw/articles/Andrew Ng/The AI Engineering Skills Map.md) → 续写 [用不可靠组件造可靠系统](./concepts/unreliable-components-reliable-systems.md)；沉淀四大工程支柱（应用构建/误差闭环、SE基本功、Coding Agent驾驭、定义Spec与产品塑造）。
+* **2026-09-08 ingest** | [The AI Engineering Skills Map](<../../raw/articles/Andrew Ng/The AI Engineering Skills Map.md>) → 续写 [用不可靠组件造可靠系统](./concepts/unreliable-components-reliable-systems.md)；沉淀四大工程支柱（应用构建/误差闭环、SE基本功、Coding Agent驾驭、定义Spec与产品塑造）。
 * **2026-09-08 delete** | 灌水 raw 26 篇之一 → 摘 uv / shadowrocket-adblock 链；无专属页
 * **2026-09-08 delete** | 灌水 raw 53 篇之一 → 摘 uv / Ghostty / Docker 链；无专属页
 * **2026-09-08 delete** | 低质量 raw 32 篇之一 → 摘 [Docker](./entities/docker.md) 链；无专属页

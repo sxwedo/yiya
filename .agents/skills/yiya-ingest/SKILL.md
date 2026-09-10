@@ -20,8 +20,9 @@ argument-hint: "[url-or-path] [domain?]"
 - **过载拆解**：若目标概念页已有 `sources > 15` 或已出现概念漂移，应提出重构拆解（Refactor）建议，不再无脑堆砌。
 - 本文的稳定对象是**具名产品/人**才改/建 Entity；模式文可以零 Entity。产品名写进 Entity 页。
 - **元数据职责分工（DRY）**：
-  - Frontmatter `sources:` 直链 raw（原料溯源）；
-  - 正文 `## Related` 仅链向相关 Wiki 页面（Entity / Concept / Overview），**不**在文末重复粘贴全部 raw 列表。
+  - Frontmatter `sources:` 直链 raw（原料溯源）；YAML 路径不用 `<>`
+  - 正文 `## Related` 仅链向相关 Wiki 页面（Entity / Concept / Overview），**不**在文末重复粘贴全部 raw 列表
+  - 正文若必须链到本地文件（如 Reference 的「打开 raw」）：路径含空格或括号 `()` 时写成 `[标题](<相对路径.md>)`，禁止 `[标题](带 空格.md)`（CommonMark 会截断成字面量）
 - **Reference 极简原则**：成文与书签**默认均不建** Reference。书签直接在对应 Entity 中沉淀链接与简述；仅当长篇专著/标准规范需撰写深度评注笔记时才建 Reference。历史 Reference 不批量删。
 
 盘点顺序：先定 Domain，再 **Entity → Concept →（极少需）Reference**。
@@ -81,7 +82,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 - **改旧页**：追加 `sources`（相对路径直链 raw）；只补以后还会被引用的稳定句。
 - **建新页**：用 `templates/concept.md` 或 `templates/entity.md`。`sources` 直链 raw。
-- **互链**：同文与同簇已有页加 `## Related` + 相对路径。可写 `related:` frontmatter。
+- **互链**：同文与同簇已有页加 `## Related` + 相对路径。可写 `related:` frontmatter。本地 Markdown 链接目标含空格或 `()` 时必须 `[标题](<路径.md>)`。
 
 回写入口：默认只改旧页。只有结论是新的稳定对象、且用户同意时才建页。
 

@@ -15,9 +15,9 @@ related:
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/金尘马/万字长文｜Grok Bot 从入门到精通.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/金尘马/万字长文｜Grok Bot 从入门到精通.md>)
 
-- 原文：https://x.com/jinchenma_ai/status/2094984812251746424（与 JavaGuide 转述的 Lingxi 文不同，本文为完整入门长文）。
+- 原文：<https://x.com/jinchenma_ai/status/2094984812251746424（与> JavaGuide 转述的 Lingxi 文不同，本文为完整入门长文）。
 - 主张：从「对话中心」转向「长期岗位」；每个 Bot = 一名数字员工。
 - 五组件：Bot · Skill · 定时任务 · 群聊交接 · 连接器。
 - 岗位说明放长期规则；单次任务写清结果/来源/限制/交付格式/确认点。

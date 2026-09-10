@@ -11,7 +11,7 @@ sources: []
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/昀启AI+/AI Native 服务架构（二）：从 DDD 到 Ontology.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/昀启AI+/AI Native 服务架构（二）：从 DDD 到 Ontology.md>)
 
 - Agent 需要跨系统身份、指标口径、规则版本、证据与行动边界；DDD 限界上下文内词典不够。
 - 三层：Fact（对象/关系/状态）· Logic（指标/规则/策略）· Action（受约束动作+证据）。

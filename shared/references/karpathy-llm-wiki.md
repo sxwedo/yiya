@@ -14,8 +14,8 @@ related:
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../raw/articles/Karpathy/LLM Wiki.md)
-- 原文：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **仓库原文**：[打开 raw](<../../raw/articles/Karpathy/LLM Wiki.md>)
+- 原文：<https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f>
 - 对照 RAG：每次重挖 vs wiki 一次编译、持续复利。
 - 三层：raw（不可改）· wiki（LLM 维护）· schema（AGENTS.md / CLAUDE.md）。
 - 操作：ingest / query（好答案可回写 wiki）/ lint。

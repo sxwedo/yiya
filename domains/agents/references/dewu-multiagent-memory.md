@@ -11,7 +11,7 @@ sources: []
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/得物技术/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/得物技术/企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术.md>)
 
 - 记忆是执行链路一部分，不是外挂拼 Prompt。
 - 四层生命周期：Working（一步）/ Session（会话）/ User（跨 Agent 偏好事实）/ Agent（任务经验与协作约定）。

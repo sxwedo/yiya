@@ -11,9 +11,9 @@ sources: []
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/JavaGuide/一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/JavaGuide/一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了.md>)
 
-- 原文：https://x.com/lingxi/article/2094493172516966781（本文为 JavaGuide 二次解读，数字来自产品自述）。
+- 原文：<https://x.com/lingxi/article/2094493172516966781（本文为> JavaGuide 二次解读，数字来自产品自述）。
 - 结构：人做关键判断 → 长期驻场的工程 Bot 接任务/跟进 → Cloud Agent 进仓改代码与测。
 - 验收：截图须出现需求变化；测试命令与 Diff 一并作为交付证据；口头“已修复”不算过关。
 - 接续：共享看板（Notion / TASKS.md）记 PR、阻塞、下一步；定时巡检 CI/冲突/告警。

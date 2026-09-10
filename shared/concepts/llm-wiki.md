@@ -34,7 +34,7 @@ sources:
 
 ## Related
 
-- [The Second Brain Is Not a Storage System. It's a Compiler.](../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md)
+- [The Second Brain Is Not a Storage System. It's a Compiler.](<../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md>)
 - [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)
 - [Self-growing Knowledge Base](./self-growing-kb.md)
 - [Zread](../../domains/agents/entities/zread.md)

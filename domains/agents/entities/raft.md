@@ -21,14 +21,14 @@ sources:
 
 # Summary
 
-**Raft**（https://raft.build/zh-cn/）让人和多个 Agent 在同一套频道、私信、线程、任务里协作。每个 Agent 有名字、身份、记忆和专长，跑在本机轻量 daemon 上，底层仍是 Claude、Codex、Hermes 等已有运行时：自己领任务、并行、交接。不是再做一个编码 CLI，也不是 [分布式共识里的 Raft](https://raft.github.io/)。
+**Raft**（<https://raft.build/zh-cn/）让人和多个> Agent 在同一套频道、私信、线程、任务里协作。每个 Agent 有名字、身份、记忆和专长，跑在本机轻量 daemon 上，底层仍是 Claude、Codex、Hermes 等已有运行时：自己领任务、并行、交接。不是再做一个编码 CLI，也不是 [分布式共识里的 Raft](https://raft.github.io/)。
 
 定位：人机**组队工作空间**。同公司形态对照：[Grok Bot](./grok-bot.md) 是岗位制工程多智能体（带队 Bot + 进仓执行）；[Proof](./proof.md) 是共写文档；[Herdr](./herdr.md) 是持有终端会话。多 Agent 怎么共处见 [多智能体治理](../concepts/multi-agent-governance.md)。
 
 ## Related
 
 - [Role-first Agent](../concepts/role-first-agent.md)
-- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md)
+- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Raft（站点）](../references/raft-site.md)
 - [Grok Bot](./grok-bot.md)
 - [Puffo](./puffo.md)

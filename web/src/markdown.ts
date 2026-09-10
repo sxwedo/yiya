@@ -35,6 +35,33 @@ function escapeHtml(s: string): string {
     .replace(/"/g, "&quot;");
 }
 
+/** CommonMark 无 <> 的链接目标不能含空格；带括号时也容易截断。本地路径自动补 <>。 */
+export function wrapLocalLinkDestinations(src: string): string {
+  let out = "";
+  let i = 0;
+  while (i < src.length) {
+    const j = src.indexOf("](", i);
+    if (j < 0) {
+      out += src.slice(i);
+      break;
+    }
+    out += src.slice(i, j + 2);
+    i = j + 2;
+    if (src[i] === "<" || /^[a-z][a-z0-9+.-]*:/i.test(src.slice(i))) {
+      continue;
+    }
+    const rest = src.slice(i);
+    const m = rest.match(/^([^<\n]+?)\.(md|png|jpe?g|gif|webp|svg)(?=\))/i);
+    if (!m) continue;
+    const dest = m[0];
+    if (/[\s()]/.test(dest)) {
+      out += `<${dest}>`;
+      i += dest.length;
+    }
+  }
+  return out;
+}
+
 export function renderMarkdown(fromFile: string, body: string): string {
   const renderer = {
     link({
@@ -46,6 +73,11 @@ export function renderMarkdown(fromFile: string, body: string): string {
       title?: string | null;
       text: string;
     }) {
+      try {
+        href = decodeURIComponent(href);
+      } catch {
+        /* keep */
+      }
       const titleAttr = title ? ` title="${escapeHtml(title)}"` : "";
       if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith("#")) {
         const ext = /^https?:/i.test(href)
@@ -85,7 +117,9 @@ export function renderMarkdown(fromFile: string, body: string): string {
   };
 
   const parser = new Marked({ gfm: true, renderer });
-  return parser.parse(body, { async: false }) as string;
+  return parser.parse(wrapLocalLinkDestinations(body), {
+    async: false,
+  }) as string;
 }
 
 export function extractToc(

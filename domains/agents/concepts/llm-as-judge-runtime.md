@@ -34,10 +34,10 @@ sources:
 
 ## Related
 
-- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md)
+- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Evidence Gate](./evidence-gate.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Playbook Feedback Loop](./playbook-feedback-loop.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
-- [打开 raw](../../../raw/articles/Josh Rosen/LLM-as-Judge Architectures: Putting Evals Into Your Agent Runtime.md)
+- [打开 raw](<../../../raw/articles/Josh Rosen/LLM-as-Judge Architectures: Putting Evals Into Your Agent Runtime.md>)

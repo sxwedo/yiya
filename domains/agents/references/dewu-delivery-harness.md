@@ -11,7 +11,7 @@ sources: []
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/得物技术/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/得物技术/得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付.md>)
 
 - 核心主张：AI Native 上限不是生成速度，而是合同、证据与反馈托底的质量秩序。
 - 四个组件：Version Contract 锁事实；Execution Boundary 限改动半径；Evidence Gate 控状态跃迁；Repair Loop 把真实反馈写回默认规则。

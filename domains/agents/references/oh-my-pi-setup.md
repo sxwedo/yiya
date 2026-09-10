@@ -11,7 +11,7 @@ sources: []
 
 # Notes
 
-- **仓库原文**：[打开 raw](../../../raw/articles/AI智闻说/oh-my-pi 装完就不管了？这几步配完才真叫好用.md)
+- **仓库原文**：[打开 raw](<../../../raw/articles/AI智闻说/oh-my-pi 装完就不管了？这几步配完才真叫好用.md>)
 
 - oh-my-pi（omp）= Pi 的 batteries-included fork：LSP/DAP、Advisor、Hashline、TTSR、/review、Skills 兼容。
 - 调优要点：`WATCHDOG.yml` 开 Advisor（1 coder + 1 reviewer）；装 pi-crew / pi-hermes-memory / pi-guardrails；挂沙箱（推荐 Gondolin）。

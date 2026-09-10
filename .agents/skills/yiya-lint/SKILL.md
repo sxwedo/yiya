@@ -30,7 +30,7 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 
 1. **OKF `type`**：除 `index.md` / `log.md` / `README.md` / `AGENTS.md` 外，每个 `.md` 的 frontmatter 须有非空 `type`。
 2. **本地链接**：正文与 `resource` / `sources` 里指向本仓库的链接；列出断链（可修复的提出补丁，先问再改）。
-3. **相对路径**：`sources` / `resource` / Related / 正文里指向本仓库的路径，不以 `/` 开头。
+3. **相对路径**：`sources` / `resource` / Related / 正文里指向本仓库的路径，不以 `/` 开头。正文 Markdown `](dest)`（未用 `<dest>`）若 dest 含空格或 `()`，列入 `unwrapped_destinations`：CommonMark 会截断，显示为字面量而非链接。YAML `sources`/`resource` 不检查此项。
 4. **raw 查重（全库）**：`raw/articles/**` 的 `url:`，以及 `bookmarks/github.md` / `sites.md` / `docs.md` / `tools.md` 的 URL 是否重复（跨 bundle，因 url 全局唯一）。
 5. **未链 raw（本域启发式）**：本域 `sources`/Related/`resource` 未引用、且明显属于本域主题的成文 raw。
 6. **重复实体**：本域 `entities/` 与 `shared/entities/` 标题/别名明显撞车（升格用 `yiya-promote-to-shared`）。

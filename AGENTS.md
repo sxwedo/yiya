@@ -27,7 +27,7 @@ shared/                        # 跨域实体与纲领
 3. **Reference 降噪与防空心化**：
    - **废弃书签必建空心 Reference**：书签收录进 `raw/bookmarks/*.md` 后，直挂对应 Entity，无需为纯 URL 制造只有 5 行的跳转卡。
    - Reference 仅用于需撰写深度评注、拆解笔记的重磅专著/经典论文/权威规范；成文与普通书签**默认不建** Reference。
-4. **链接一律相对路径**：`./x.md`、`../entities/y.md`、`../../../raw/...`；**禁**以 `/` 开头（GitHub 404）。
+4. **链接一律相对路径**：`./x.md`、`../entities/y.md`、`../../../raw/...`；**禁**以 `/` 开头（GitHub 404）。目标含空格或括号 `()` 时必须写成 `[标题](<相对路径.md>)`，不能写成 `[标题](相对路径.md)`，否则 CommonMark 会截断，阅读页与 GitHub 都不认成链接。Frontmatter `sources:` / `resource:` 是 YAML 路径，不用加 `<>`。
 5. **元数据单一事实来源（DRY）**：
    - Frontmatter `sources:` 专司**原料溯源**（机器可读，直链 raw 或深度 Reference）。
    - 正文 `## Related` 专司**维基网络互链**（人类与导航可读，链向相关 Entity / Concept / Overview），**禁止**无脑重复抄录几十条 raw 文章链接。
