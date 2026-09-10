@@ -10,6 +10,8 @@ related:
   - holo-card-studio
   - wikiskill-architecture
   - skills-sh
+  - i-have-adhd
+  - archify
   - llm-wiki
 sources:
   - ../references/wikiskill-three-layer.md
@@ -28,6 +30,8 @@ sources:
 
 - [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)
 - [Holo Card Studio](../entities/holo-card-studio.md)
+- [i-have-adhd](../entities/i-have-adhd.md)
+- [Archify](../entities/archify.md)
 - [WikiSkill 三层架构](./wikiskill-architecture.md)
 - [skills.sh](../entities/skills-sh.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)

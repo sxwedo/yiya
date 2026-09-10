@@ -9,6 +9,7 @@ related:
   - stablyai-orca-github
   - paseo
   - gnhf
+  - agent-orchestrator
 sources:
   - ../references/stablyai-orca-github.md
 ---
@@ -22,3 +23,4 @@ sources:
 - [stablyai/orca（GitHub）](../references/stablyai-orca-github.md)
 - [Paseo](./paseo.md)
 - [gnhf](./gnhf.md)
+- [Agent Orchestrator](./agent-orchestrator.md)

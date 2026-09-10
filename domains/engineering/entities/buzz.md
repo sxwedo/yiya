@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
   - chidiwilliams-buzz-github
   - cobalt
+  - desert-ant-labs
 sources:
   - ../references/chidiwilliams-buzz-github.md
 ---
@@ -20,3 +21,4 @@ sources:
 
 - [chidiwilliams/buzz（GitHub）](../references/chidiwilliams-buzz-github.md)
 - [cobalt](./cobalt.md)
+- [Desert Ant Labs](./desert-ant-labs.md)

@@ -14,3 +14,4 @@
 * [Text2Semantic2SQL](./text2semantic2sql.md) — 自然语言先映射到受约束的语义口径选择，再由语义引擎确定性生成 SQL；把幻觉从生成层压到有限选择层。
 * [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md) — AI 组件输出不可预测是常态；工程价值在于熟练决定下一步，把不可靠部件组织成可靠软件系统。
 * [X 自媒体增长](./x-self-media-growth.md) — 主页锚定、一致性、困境命中式价值（Roland.W）
+* [Looped Transformer](./looped-transformer.md) — 把 Transformer 块循环套用（recurrent depth）换深度：与「隐藏 CoT」不是一回事；评测还受主 harness 绑定影响。

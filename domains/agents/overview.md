@@ -17,7 +17,7 @@ sources: []
 ## 本域实体
 
 | Entity | 一句话 |
-|--------|--------|
+| -------- | -------- |
 | [AGENTS.md](./entities/agents-md.md) | 仓内给 Agent 读的约定文件（规范：agents.md） |
 | [Claude](./entities/claude.md) | Anthropic 助手与编码产品线；博客 claude.com/blog |
 | [Claude Academy](./entities/claude-academy.md) | Anthropic 官方学院：学用 Claude 与 AI Fluency |
@@ -86,6 +86,10 @@ sources: []
 | [Orca](./entities/orca.md) | 并行 agent 舰队的 ADE |
 | [CLI-Anything](./entities/cli-anything.md) | 让任意软件变成 Agent-native CLI |
 | [Foundations of LLMs](./entities/foundations-of-llms.md) | 浙大 LLM 基础教材 |
+| [OtoDock](./entities/oto-dock.md) | 自托管公司 OS：部门里跑 Claude Code / Codex |
+| [Agent Orchestrator](./entities/agent-orchestrator.md) | 本机桌面编排 coding agent 舰队 |
+| [i-have-adhd](./entities/i-have-adhd.md) | Skill：先给下一步，禁止把答案埋进长文 |
+| [Archify](./entities/archify.md) | Skill：描述/代码 → 可交互架构图 |
 
 ### 外探源
 

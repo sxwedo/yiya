@@ -1,5 +1,10 @@
 # 工程与可维护性 — Log
 
+## 2026-09-10
+
+* **2026-09-10 ingest** | Hugo Vergnes《Training a 3.8B LLM…$998》→ raw，挂 [评测驱动开发](./concepts/eval-driven-development.md)。
+* **2026-09-10 ingest** | Raschka《GPT-6 Astra, looped transformers…》→ 新建 Concept [Looped Transformer](./concepts/looped-transformer.md)。Desert Ant 成文 → 新建 Entity [Desert Ant Labs](./entities/desert-ant-labs.md)。
+
 ## 2026-09-08
 
 * **2026-09-08 ingest** | [The AI Engineering Skills Map](<../../raw/articles/Andrew Ng/The AI Engineering Skills Map.md>) → 续写 [用不可靠组件造可靠系统](./concepts/unreliable-components-reliable-systems.md)；沉淀四大工程支柱（应用构建/误差闭环、SE基本功、Coding Agent驾驭、定义Spec与产品塑造）。

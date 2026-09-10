@@ -1,5 +1,9 @@
 # Agent 与 harness — Log
 
+## 2026-09-10
+
+* **2026-09-10 ingest** | 探索候选：书签 OtoDock / agent-orchestrator / i-have-adhd / archify → 新建 Entity [OtoDock](./entities/oto-dock.md)、[Agent Orchestrator](./entities/agent-orchestrator.md)、[i-have-adhd](./entities/i-have-adhd.md)、[Archify](./entities/archify.md)。无新 Reference。
+
 ## 2026-09-08
 
 * **2026-09-08 refine** | 基于 Uber Engineering 长文深度充实 [Software Factory Cost Equation](./concepts/software-factory-cost.md)：梳理 4 层用量金字塔与成本拆解三主战场（Pareto 选模、Code-Mode 去 MCP 膨胀、AI Context Graph 准确定位）。
@@ -125,3 +129,4 @@
 * **Ingest**: [AI Design De-slop](./concepts/ai-design-deslop.md) ← Matt Dailey raw（直链，无 Reference）(2026-09-10). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [深入理解 AI Agent（书站）](./references/bojieli-ai-agent-book-docs.md) ← `raw/bookmarks/docs.md`，挂既有 Entity（未灌站/未整本）(2026-09-10). 结构体检：无新 Domain。
 * **Bookmark**: [Ian 小黑配图](./entities/ian-xiaohei-illustrations.md) + [GitHub Ref](./references/helloianneo-ian-xiaohei-illustrations-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-10). 结构体检：无新 Domain/约定改动。
+* **Ingest**: Rahul《10 Ways… GPT-6 Astra》→ raw，挂 role-first / multi-agent-governance / graph-driven-agent-workflow（无新页；作案例素材，非收益背书）(2026-09-10). 结构体检：无约定改动。

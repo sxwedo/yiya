@@ -12,8 +12,10 @@ related:
   - four-layer-agent-memory
   - unreliable-components-reliable-systems
   - discovery-loop
+  - looped-transformer
 sources:
   - ../references/ng-evals-watershed.md
+  - ../../../raw/articles/Hugo Vergnes/Training a 3.8B LLM to 0.384 CORE for $998.md
 ---
 
 # Definition
@@ -28,6 +30,8 @@ sources:
 
 与「会调 API」区分：demo 验证可行性；evals 支撑可靠性。可与 agents 域的 Evidence Gate 对照：都强调状态/结论需证据，此处焦点在工程迭代导航。
 
+个人从零训练也可把单一公开分数当方向盘：Hugo Vergnes 用 CORE 导航 3.8B / $998 的训练线，早年失败跑（cosine 衰减到 0）在分数上立刻可见。
+
 ## Related
 
 - [LLM-as-Judge Runtime](../../agents/concepts/llm-as-judge-runtime.md)
@@ -36,3 +40,4 @@ sources:
 - [Evidence Gate](../../agents/concepts/evidence-gate.md)
 - [四层 Agent 记忆](../../agents/concepts/four-layer-agent-memory.md)
 - [Discovery Loop](../../../shared/entities/discovery-loop.md)
+- [Looped Transformer](./looped-transformer.md)

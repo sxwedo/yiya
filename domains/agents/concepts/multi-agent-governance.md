@@ -12,6 +12,7 @@ related:
   - multi-agent-failure-modes
   - raft
 sources:
+  - ../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../references/anthropic-multiagent-failures.md
 ---
@@ -31,6 +32,7 @@ sources:
 
 ## Related
 
+- [10 Ways People Are Making Money With GPT-6 Astra](../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md)
 - [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)

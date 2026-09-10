@@ -4,7 +4,7 @@ description: >-
   Grow the yiya wiki outward from existing Entity/Concept gaps: scan thin
   pages, web-search complementary sources, write a candidate table. Use when
   the user says 梦境, dream, 跑梦境, 周更梦境, or asks to grow the graph from
-  current pages. Does not ingest. Not scout (that starts from hot sources).
+  current pages. Does not ingest. Not explore (that starts from hot sources).
 argument-hint: "[agents|engineering|shared]"
 ---
 
@@ -12,7 +12,7 @@ argument-hint: "[agents|engineering|shared]"
 
 从现有图向外长。先读根 `AGENTS.md`。本 skill 只出候选短表，不写正式知识。
 
-外探（scout）不走这里。
+探索（explore）不走这里。
 
 ## 步骤
 

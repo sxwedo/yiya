@@ -62,3 +62,4 @@
 * [RocketMQ](./rocketmq.md) — 云原生消息与流平台
 * [Spring Framework](./spring-framework.md) — Spring 应用框架
 * [Spring Cloud Alibaba](./spring-cloud-alibaba.md) — 阿里分布式应用一站式方案
+* [Desert Ant Labs](./desert-ant-labs.md) — 欧洲端侧小模型实验室：一任务一模型，毫秒级、无 token 费，SDK 进 App。

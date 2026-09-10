@@ -15,6 +15,7 @@ related:
   - playbook-feedback-loop
   - delivery-harness
   - usegrokbot-site
+  - oto-dock
 sources:
   - ../references/jinchenma-grok-bot-guide.md
   - ../references/javaguide-grok-bot-engineering.md
@@ -42,6 +43,7 @@ sources:
 - [Role-first Agent](../concepts/role-first-agent.md)
 - [Grok Build](./grok-build.md)
 - [Raft](./raft.md)
+- [OtoDock](./oto-dock.md)
 - [Puffo](./puffo.md)
 - [mena](./mena.md)
 - [Engineering Bot](../concepts/engineering-bot.md)

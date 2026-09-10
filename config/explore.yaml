@@ -1,0 +1,12 @@
+# 探索热源。不绑当前 wiki 图。
+topics:
+  - agents
+  - engineering
+max_candidates: 12
+hn_top: 50
+hn_min_score: 30
+sources:
+  - id: hacker-news
+    url: https://news.ycombinator.com/
+  - id: trendshift
+    url: https://trendshift.io

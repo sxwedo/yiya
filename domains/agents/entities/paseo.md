@@ -9,6 +9,7 @@ related:
   - getpaseo-paseo-github
   - herdr
   - mena
+  - agent-orchestrator
 sources:
   - ../references/getpaseo-paseo-github.md
 ---
@@ -22,3 +23,4 @@ sources:
 - [getpaseo/paseo（GitHub）](../references/getpaseo-paseo-github.md)
 - [Herdr](./herdr.md)
 - [mena](./mena.md)
+- [Agent Orchestrator](./agent-orchestrator.md)

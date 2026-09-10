@@ -17,7 +17,7 @@ sources: []
 ## 本域实体
 
 | Entity | 一句话 |
-|--------|--------|
+| -------- | -------- |
 | [Docker](./entities/docker.md) | 容器平台；官方文档门户 docs.docker.com |
 | [Ghostty](./entities/ghostty.md) | 原生 GPU 终端模拟器（Zig） |
 | [github/gitignore](./entities/gitignore.md) | GitHub 官方 .gitignore 模板集（语言/框架/OS） |
@@ -80,6 +80,7 @@ sources: []
 | [RocketMQ](./entities/rocketmq.md) | 云原生消息与流平台 |
 | [Spring Framework](./entities/spring-framework.md) | Spring 应用框架 |
 | [Spring Cloud Alibaba](./entities/spring-cloud-alibaba.md) | 阿里分布式应用一站式方案 |
+| [Desert Ant Labs](./entities/desert-ant-labs.md) | 欧洲端侧小模型实验室：一任务一模型 |
 
 ## 怎么逛
 

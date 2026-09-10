@@ -12,6 +12,7 @@ related:
   - playbook-feedback-loop
   - multi-agent-governance
 sources:
+  - ../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md
   - ../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md
   - ../../../raw/articles/Mr. Buzzoni/300 AGENTS, ONE GRAPH, AND A LOOP THAT EDITS THE LOOP.md
 ---
@@ -33,6 +34,7 @@ sources:
 
 ## Related
 
+- [10 Ways People Are Making Money With GPT-6 Astra](../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md)
 - [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](<../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md>)
 - [Graph Engineering](./graph-engineering.md)
 - [Loop Engineering](./loop-engineering.md)
