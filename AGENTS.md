@@ -2,7 +2,7 @@
 
 三层：**raw（原料）→ domains/shared（知识）→ AGENTS/skills（约定）**。
 
-流程：`.agents/skills/`（`yiya-ingest` / `yiya-lint` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
+流程：`.agents/skills/`（`yiya-ingest` / `yiya-lint` / `yiya-dream` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
 
 ## 架构
 

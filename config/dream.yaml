@@ -1,0 +1,14 @@
+# 梦境缺口扫描。改阈值不必改 skill。
+related_sparse: 1
+sources_thin: 1
+source_max_age_days: 21
+max_gaps: 8
+max_candidates: 12
+max_per_gap: 2
+agents_bonus: 2
+# 外探源不当种子（那是 scout）；集邮列表也不当种子
+skip_stems:
+  - trendshift
+  - hacker-news
+skip_stem_prefixes:
+  - awesome-
