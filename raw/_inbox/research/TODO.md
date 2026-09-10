@@ -19,7 +19,7 @@
 ## 角色与闸门
 
 | 角色 | 职责 |
-|---|---|
+| --- | --- |
 | Scout（可新建轻量 bot，或暂由 Ori 兼） | 只出候选短列表 |
 | Yiya Librarian | 查重 / 瘦页 / 真入库 |
 | 用户 | 「入」才 ingest；「丢」只归档 |
@@ -38,7 +38,7 @@
 
 ## 交付与节奏
 
-- 落盘：`raw/_inbox/research/<日期>-dream|scout.md`（或先群里贴表）
+- 落盘：`raw/_inbox/research/dream/<日期>.md`（scout 以后走 `research/scout/`）
 - 候选文件本身**不**进正式 Concept
 - 「入」→ 按成文/书签走现有 `yiya-ingest`
 - 「丢」→ 归档本目录，不动 `domains/`

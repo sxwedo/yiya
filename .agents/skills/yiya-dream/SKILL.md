@@ -59,18 +59,18 @@ python3 .agents/skills/yiya-dream/scan.py --known-urls
 
 ### 5. 落盘
 
-写入 `raw/_inbox/research/<YYYY-MM-DD>-dream.md`（同日已有则加 `-2`）。本文件不进 Concept，不改 `domains/` / `shared/`，不跑 ingest。
+写入 `raw/_inbox/research/dream/<YYYY-MM-DD>.md`（同日已有则加 `-2`）。本文件不进 Concept，不改 `domains/` / `shared/`，不跑 ingest。
 
 完成：候选文件已写，含短表 + 本轮种子。
 
 ### 6. 停
 
-列出路径，请用户「入」或「丢」。入 → `yiya-ingest`；丢 → 把该文件挪到 `raw/_inbox/research/archive/`。
+列出路径，请用户「入」或「丢」。入 → `yiya-ingest`；丢 → 把该文件挪到 `raw/_inbox/research/dream/archive/`。
 
 ## 完成标准
 
 - [ ] 已跑 `scan.py`（有 `--domain` 则带上）
 - [ ] 种子 ≤ `max_gaps`，且都是现有 Entity/Concept
 - [ ] 候选已查重 `url:`，挂点都是种子页
-- [ ] 只写了 `raw/_inbox/research/<日期>-dream.md`
+- [ ] 只写了 `raw/_inbox/research/dream/<日期>.md`
 - [ ] 未写 wiki、未写 `raw/articles`、未改书签表

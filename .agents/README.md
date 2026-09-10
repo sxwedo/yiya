@@ -6,7 +6,7 @@
 | --- | --- |
 | [`yiya-ingest`](./skills/yiya-ingest/SKILL.md) | 入库（成文/书签/docs 根）或用户说「回写」时把结论续写进已有页 |
 | [`yiya-lint`](./skills/yiya-lint/SKILL.md) | 检查某个 domain / shared bundle（知识项仅当用户说全面体检 / lint 知识） |
-| [`yiya-dream`](./skills/yiya-dream/SKILL.md) | 从现有 Entity/Concept 缺口向外搜，只写 `raw/_inbox/research/<日期>-dream.md` 候选表 |
+| [`yiya-dream`](./skills/yiya-dream/SKILL.md) | 从现有 Entity/Concept 缺口向外搜，只写 `raw/_inbox/research/dream/<日期>.md` 候选表 |
 | [`yiya-new-domain`](./skills/yiya-new-domain/SKILL.md) | 新增一个领域 bundle |
 | [`yiya-promote-to-shared`](./skills/yiya-promote-to-shared/SKILL.md) | 把跨域实体升格到 `shared/` |
 
