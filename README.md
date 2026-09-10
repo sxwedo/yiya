@@ -5,7 +5,7 @@
 三层：`raw/` 原料 → `domains/` + `shared/` 知识 → `AGENTS.md` + skills 约定。细则见根 `AGENTS.md`。
 
 | 路径 | 作用 |
-|---|---|
+| --- | --- |
 | `raw/articles/<作者>/<标题>.md` | 成文（frontmatter 须有 `url:`） |
 | `raw/articles/_media/<slug>/` | 配图（不进作者目录） |
 | `raw/bookmarks/github.md` · `sites.md` · `docs.md` · `tools.md` | 书签：GitHub / 产品站 / 文档门户 / 在线工具 |
@@ -19,6 +19,8 @@
 | `config/types.yaml` | OKF 常用 type |
 
 起步域：`agents`、`engineering`。先养一个域即可。
+
+阅读：仓库根目录 `./web.sh start` 打开本地页，`./web.sh stop` 停止。没有 `web/node_modules` 时会先安装依赖。Obsidian 仍可用。
 
 对 Agent：`按 .agents/skills/yiya-ingest 处理 <URL>`。删除 raw：`按 .agents/skills/yiya-delete-raw 处理 <路径>`。提问先读 `shared/map.md` 与域 overview。
 
