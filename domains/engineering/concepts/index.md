@@ -13,3 +13,4 @@
 * [Semantic Service](./semantic-service.md) — 把 Ontology 定义封装为可查询、可计算、可执行、可审计的运行时服务，供 Agent/工作流/BI 共享同一套契约。
 * [Text2Semantic2SQL](./text2semantic2sql.md) — 自然语言先映射到受约束的语义口径选择，再由语义引擎确定性生成 SQL；把幻觉从生成层压到有限选择层。
 * [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md) — AI 组件输出不可预测是常态；工程价值在于熟练决定下一步，把不可靠部件组织成可靠软件系统。
+* [X 自媒体增长](./x-self-media-growth.md) — 主页锚定、一致性、困境命中式价值（Roland.W）

@@ -48,3 +48,4 @@
 
 * **Initialization**: Slim scaffold (references / entities / concepts only).
 * **Ingest**: [X 推荐算法](./references/bright-ospo-x-algorithm.md) → Entity [x-algorithm](./entities/x-algorithm.md) + [Multi-action Feed Ranking](./concepts/multi-action-feed-ranking.md) (2026-09-06).
+* **Ingest**: [X 自媒体增长](./concepts/x-self-media-growth.md) ← Roland.W raw（直链，无 Reference）(2026-09-10). 结构体检：暂放 engineering；若创作者主题成簇再议新 Domain。
