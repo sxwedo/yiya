@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-10T00:20:00Z }
 related:
+  - ian-xiaohei-illustrations
   - coding-agent-workflow
 sources:
   - ../../../raw/articles/Matt Dailey/How I Design with AI..md
@@ -29,5 +30,6 @@ sources:
 
 ## Related
 
+- [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [打开 raw](../../../raw/articles/Matt Dailey/How I Design with AI..md)

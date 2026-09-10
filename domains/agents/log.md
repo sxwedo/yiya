@@ -124,3 +124,4 @@
 * **Ingest**: Codez《Build a team of AI Agents… 8 Steps》→ raw，挂 [Raft](./entities/raft.md) / multi-agent-governance / role-first-agent / llm-as-judge-runtime（无新页）(2026-09-10). 结构体检：无约定改动。
 * **Ingest**: [AI Design De-slop](./concepts/ai-design-deslop.md) ← Matt Dailey raw（直链，无 Reference）(2026-09-10). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [深入理解 AI Agent（书站）](./references/bojieli-ai-agent-book-docs.md) ← `raw/bookmarks/docs.md`，挂既有 Entity（未灌站/未整本）(2026-09-10). 结构体检：无新 Domain。
+* **Bookmark**: [Ian 小黑配图](./entities/ian-xiaohei-illustrations.md) + [GitHub Ref](./references/helloianneo-ian-xiaohei-illustrations-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-10). 结构体检：无新 Domain/约定改动。

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:24:00Z }
 related:
+  - ian-xiaohei-illustrations
   - holo-card-studio
   - wikiskill-architecture
   - skills-sh
@@ -25,6 +26,7 @@ sources:
 
 ## Related
 
+- [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)
 - [Holo Card Studio](../entities/holo-card-studio.md)
 - [WikiSkill 三层架构](./wikiskill-architecture.md)
 - [skills.sh](../entities/skills-sh.md)

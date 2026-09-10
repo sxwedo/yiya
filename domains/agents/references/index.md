@@ -120,3 +120,4 @@
 * [LerSent001/holo-card（GitHub）](./lersent001-holo-card-github.md) — 分层全息卡 Skill 书签
 * [Termany（站点）](./termany-site.md) — termany.sh 书签
 * [深入理解 AI Agent（书站）](./bojieli-ai-agent-book-docs.md) — bojieli 开源书在线阅读入口
+* [helloianneo/ian-xiaohei-illustrations（GitHub）](./helloianneo-ian-xiaohei-illustrations-github.md) — 小黑配图 Skill 书签

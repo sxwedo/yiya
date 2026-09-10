@@ -71,3 +71,4 @@
 * [Foundations of LLMs](./foundations-of-llms.md) — 浙大 LLM 基础教材
 * [Holo Card Studio](./holo-card-studio.md) — 描述/参考图 → Blender 卡面 + Three.js
 * [Termany](./termany.md) — Agent-native 终端工作区
+* [Ian 小黑配图](./ian-xiaohei-illustrations.md) — 中文小黑怪诞正文配图 Skill

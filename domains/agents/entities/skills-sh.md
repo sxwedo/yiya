@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T17:00:00Z }
 related:
+  - ian-xiaohei-illustrations
   - holo-card-studio
   - coding-agent-workflow
   - loop-engineering
@@ -34,6 +35,7 @@ sources:
 
 ## Related
 
+- [Ian 小黑配图](./ian-xiaohei-illustrations.md)
 - [Holo Card Studio](./holo-card-studio.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Loop Engineering](../concepts/loop-engineering.md)
