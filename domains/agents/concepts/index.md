@@ -30,3 +30,4 @@
 * [Plan 模式与主子 Agent](./plan-mode-multiagent.md) — Plan-and-Execute + 主子协作 + A2A（得物）
 * [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) — 运行时裁判：拆判据、比对照、审轨迹、确定性包边
 * [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) — 图状态选活/分流 + 永久纠错 + 人审元循环
+* [AI Design De-slop](./ai-design-deslop.md) — 约束优先、删减、设计工具多变体，防 agent UI 糊

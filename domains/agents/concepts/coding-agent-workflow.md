@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:00:00Z }
 related:
+  - ai-design-deslop
   - termany
   - graph-engineering
   - software-factory-cost
@@ -51,6 +52,7 @@ sources:
 
 ## Related
 
+- [AI Design De-slop](./ai-design-deslop.md)
 - [Termany](../entities/termany.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
