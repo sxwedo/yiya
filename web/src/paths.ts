@@ -25,20 +25,48 @@ export function encodePath(p: string): string {
 }
 
 export function pageHref(path: string): string {
-  return `?p=${encodeURIComponent(path)}`;
+  const clean = path.replace(/^\/+/, "");
+  return `/${encodePath(clean)}`;
 }
 
 export function dirHref(folder: string): string {
-  return `?d=${encodeURIComponent(folder.replace(/\/$/, ""))}`;
+  const clean = folder.replace(/^\/+|\/+$/g, "");
+  return `/tree/${encodePath(clean)}`;
 }
 
-export function parseLocation(search = location.search): Route {
+export function parseLocation(
+  search = typeof window === "undefined" ? "" : window.location.search,
+  pathname = typeof window === "undefined" ? "" : window.location.pathname,
+): Route {
+  // 1. Support legacy or shared ?p=... and ?d=... query strings
   const q = new URLSearchParams(search);
   const page = q.get("p");
   const dir = q.get("d");
-  if (page) return { view: "page", path: page };
-  if (dir) return { view: "dir", folder: dir.replace(/\/+$/, "") };
-  return { view: "home" };
+  if (page) {
+    return { view: "page", path: decodeURIComponent(page).replace(/^\/+/, "") };
+  }
+  if (dir) {
+    return {
+      view: "dir",
+      folder: decodeURIComponent(dir).replace(/^\/+|\/+$/g, ""),
+    };
+  }
+
+  // 2. Clean pathname routing (e.g. /domains/agents/concepts/engineering-bot.md)
+  const p = decodeURIComponent(pathname).replace(/^\/+/, "");
+  if (!p || p === "index.html") {
+    return { view: "home" };
+  }
+
+  if (p.startsWith("tree/")) {
+    return { view: "dir", folder: p.slice(5).replace(/\/+$/, "") };
+  }
+
+  if (p.endsWith("/")) {
+    return { view: "dir", folder: p.replace(/\/+$/, "") };
+  }
+
+  return { view: "page", path: p };
 }
 
 export function hasFileExt(p: string): boolean {
@@ -69,11 +97,12 @@ export function resolveVaultPath(
 }
 
 export function vaultUrl(rel: string): string {
-  return `vault/${encodePath(rel)}`;
+  const clean = rel.replace(/^\/+/, "");
+  return `/vault/${encodePath(clean)}`;
 }
 
 export function catalogUrl(): string {
-  return "api/catalog.json";
+  return "/api/catalog.json";
 }
 
 export function pageByPath(
