@@ -8,6 +8,7 @@ export default defineConfig({
   base: "./",
   plugins: [yiyaVault(repoRoot)],
   server: {
+    host: "0.0.0.0",
     port: 5173,
     fs: { allow: [repoRoot, __dirname] },
   },

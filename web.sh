@@ -6,7 +6,7 @@ WEB="$ROOT/web"
 PID_FILE="$WEB/.reader.pid"
 LOG_FILE="$WEB/.reader.log"
 PORT=5173
-URL="http://127.0.0.1:${PORT}/"
+URL="http://0.0.0.0:${PORT}/"
 
 die() {
   echo "$*" >&2
@@ -112,7 +112,7 @@ cmd_start() {
   echo "启动阅读页…"
   (
     cd "$WEB"
-    nohup ./node_modules/.bin/vite --port "$PORT" --strictPort >"$LOG_FILE" 2>&1 &
+    nohup ./node_modules/.bin/vite --host 0.0.0.0 --port "$PORT" --strictPort >"$LOG_FILE" 2>&1 &
     echo $! >"$PID_FILE"
   )
 
