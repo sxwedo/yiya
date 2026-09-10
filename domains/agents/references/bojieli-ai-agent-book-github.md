@@ -21,4 +21,5 @@ related:
 
 ## Related
 
+- [深入理解 AI Agent（书站）](./bojieli-ai-agent-book-docs.md)
 - [深入理解 AI Agent](../entities/ai-agent-book.md)
