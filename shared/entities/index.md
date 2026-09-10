@@ -13,3 +13,4 @@
 * [HelloGitHub](./hellogithub.md) — 入门级有趣 GitHub 项目月刊
 * [awesome](./awesome.md) — 各主题 awesome 列表总索引
 * [Github Ranking](./github-ranking.md) — GitHub star / fork 排行
+* [arXiv](./arxiv.md) — 康奈尔预印本库：公开论文、按学科分类；跨域文献源，不是本库知识页。

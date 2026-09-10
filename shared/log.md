@@ -1,5 +1,9 @@
 # shared — Log
 
+## 2026-09-10
+
+* **2026-09-10 ingest** | [arXiv](https://arxiv.org/) → Entity [arXiv](./entities/arxiv.md)（`sites.md`）；链 [Hacker News](./entities/hacker-news.md)。跨域文献源放 shared，不开论文域；不灌整站。
+
 ## 2026-09-08
 
 * **2026-09-08 refactor** | 存量全面治理：全库 35 篇在 `## Related` 中机械罗列 raw 链接的页面完成解耦（落实 DRY 原则）；精炼 [Andrej Karpathy](./entities/karpathy.md) sources。

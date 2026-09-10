@@ -11,7 +11,7 @@ sources: []
 查询先读本页 → 目标域 `overview.md` + 类型 `index.md`。域根 `index.md` 只是文件夹封面。
 
 | id | bundle |
-|---|---|
+| --- | --- |
 | agents | [domains/agents](../domains/agents/) |
 | engineering | [domains/engineering](../domains/engineering/) |
 
@@ -34,6 +34,7 @@ sources: []
 - [HelloGitHub](./entities/hellogithub.md)
 - [awesome](./entities/awesome.md)
 - [Github Ranking](./entities/github-ranking.md)
+- [arXiv](./entities/arxiv.md)
 
 ## 跨域纲领
 

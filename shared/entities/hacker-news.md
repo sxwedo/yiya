@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-07T18:00:00Z }
 related:
   - hacker-news-site
   - trendshift
+  - arxiv
 sources:
   - ../references/hacker-news-site.md
   - ../../raw/articles/snowboat/我打造的个人AI系统：哲学基础.md
@@ -23,3 +24,4 @@ sources:
 
 - [Hacker News（站点）](../references/hacker-news-site.md)
 - [Trendshift](../../domains/agents/entities/trendshift.md)
+- [arXiv](./arxiv.md)
