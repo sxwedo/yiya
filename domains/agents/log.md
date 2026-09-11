@@ -2,6 +2,7 @@
 
 ## 2026-09-11
 
+* **Migrate**: [AI Design De-slop](../design/concepts/ai-design-deslop.md)、[Open Design](../design/entities/open-design.md)、[Ian 小黑配图](../design/entities/ian-xiaohei-illustrations.md)、[Holo Card Studio](../design/entities/holo-card-studio.md) 及对应 GitHub Reference → `design`。Related 改为跨域相对路径。
 * **Ingest**: [多 Agent 协作模式](./concepts/multi-agent-collaboration-patterns.md) ← 叶小钗微信长文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。
 * **Ingest**: [Agent On-call](./concepts/agent-oncall.md) + Entity [Claude Tag](./entities/claude-tag.md) ← Sachin Malhotra Claude on-call 博文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。
 
@@ -120,8 +121,8 @@
 * **Bookmark**: [Trendshift](./entities/trendshift.md) + [站点 Ref](./references/trendshift-site.md) ← `raw/bookmarks/sites.md`(2026-09-07).
 * **Lint fix**: 新建 [Loop Engineering](./concepts/loop-engineering.md)；瘦 [Claude](./entities/claude.md) / [Coding Agent Workflow](./concepts/coding-agent-workflow.md) / [skills.sh](./entities/skills-sh.md) sources (2026-09-07).
 * **Ingest**: [Software Factory Cost Equation](./concepts/software-factory-cost.md) ← Uber Engineering raw（直链，无 Reference）(2026-09-08). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [Holo Card Studio](./entities/holo-card-studio.md) + [GitHub Ref](./references/everettfish-holo-card-studio-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。
-* **Bookmark**: [LerSent001/holo-card](./references/lersent001-holo-card-github.md) ← `raw/bookmarks/github.md`，挂 [Holo Card Studio](./entities/holo-card-studio.md)（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。
+* **Bookmark**: [Holo Card Studio](../design/entities/holo-card-studio.md) + [GitHub Ref](../design/references/everettfish-holo-card-studio-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。
+* **Bookmark**: [LerSent001/holo-card](../design/references/lersent001-holo-card-github.md) ← `raw/bookmarks/github.md`，挂 [Holo Card Studio](../design/entities/holo-card-studio.md)（未灌仓）(2026-09-08). 结构体检：无新 Domain/约定改动。
 * **Ingest**: [Graph Engineering](./concepts/graph-engineering.md) ← Mahax raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain/约定改动。
 * **Ingest**: Mahax《Agents, Loops, Graphs…》→ raw，挂 [Graph Engineering](./concepts/graph-engineering.md) / [Loop Engineering](./concepts/loop-engineering.md)（无新页）(2026-09-09). 结构体检：无约定改动。
 * **Bookmark**: [Termany](./entities/termany.md) + [站点 Ref](./references/termany-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-09). 结构体检：无新 Domain/约定改动。
@@ -131,7 +132,7 @@
 * **Ingest**: [Graph-Driven Agent Workflow](./concepts/graph-driven-agent-workflow.md) ← Mr. Buzzoni raw（直链，无 Reference）(2026-09-09). 结构体检：无新 Domain/约定改动。
 * **Ingest**: wast3《Graph Engineering: How to Run 1,000 AI Agents…》→ raw，挂 [Graph Engineering](./concepts/graph-engineering.md) / [Loop Engineering](./concepts/loop-engineering.md) / [Graph-Driven Agent Workflow](./concepts/graph-driven-agent-workflow.md)（无新页）(2026-09-10). 结构体检：无约定改动。
 * **Ingest**: Codez《Build a team of AI Agents… 8 Steps》→ raw，挂 [Raft](./entities/raft.md) / multi-agent-governance / role-first-agent / llm-as-judge-runtime（无新页）(2026-09-10). 结构体检：无约定改动。
-* **Ingest**: [AI Design De-slop](./concepts/ai-design-deslop.md) ← Matt Dailey raw（直链，无 Reference）(2026-09-10). 结构体检：无新 Domain/约定改动。
+* **Ingest**: [AI Design De-slop](../design/concepts/ai-design-deslop.md) ← Matt Dailey raw（直链，无 Reference）(2026-09-10). 结构体检：无新 Domain/约定改动。
 * **Bookmark**: [深入理解 AI Agent（书站）](./references/bojieli-ai-agent-book-docs.md) ← `raw/bookmarks/docs.md`，挂既有 Entity（未灌站/未整本）(2026-09-10). 结构体检：无新 Domain。
-* **Bookmark**: [Ian 小黑配图](./entities/ian-xiaohei-illustrations.md) + [GitHub Ref](./references/helloianneo-ian-xiaohei-illustrations-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-10). 结构体检：无新 Domain/约定改动。
+* **Bookmark**: [Ian 小黑配图](../design/entities/ian-xiaohei-illustrations.md) + [GitHub Ref](../design/references/helloianneo-ian-xiaohei-illustrations-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-10). 结构体检：无新 Domain/约定改动。
 * **Ingest**: Rahul《10 Ways… GPT-6 Astra》→ raw，挂 role-first / multi-agent-governance / graph-driven-agent-workflow（无新页；作案例素材，非收益背书）(2026-09-10). 结构体检：无约定改动。

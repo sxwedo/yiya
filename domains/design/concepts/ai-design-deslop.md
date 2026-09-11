@@ -3,7 +3,7 @@ type: Concept
 title: "AI Design De-slop"
 description: "用 AI 做产品设计时：先列约束再解法、主动删减、在设计工具多变体迭代，避免在真仓库里打地鼠式改 UI。"
 status: draft
-domain: agents
+domain: design
 generated: { by: agent:yiya-librarian, at: 2026-09-10T00:20:00Z }
 related:
   - ian-xiaohei-illustrations
@@ -26,10 +26,10 @@ sources:
 6. **偷参考**：同类产品截图当 agent 上下文。  
 7. **练品味**：对反应做反思，团队可「打谷」式共评。
 
-与 [Coding Agent Workflow](./coding-agent-workflow.md) 互补：后者偏写代码工作流，本页偏 **agent 参与 UI 时的设计纪律**。
+与 [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md) 互补：后者偏写代码工作流，本页偏 **agent 参与 UI 时的设计纪律**。
 
 ## Related
 
 - [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)
-- [Coding Agent Workflow](./coding-agent-workflow.md)
+- [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md)
 - [打开 raw](<../../../raw/articles/Matt Dailey/How I Design with AI..md>)

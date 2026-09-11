@@ -3,7 +3,7 @@ type: Entity
 title: "Open Design"
 description: "DeepSeek Harness 设计插件；开源 Claude Design 替代"
 status: draft
-domain: agents
+domain: design
 generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
   - nexu-io-open-design-github
@@ -19,4 +19,4 @@ sources:
 ## Related
 
 - [nexu-io/open-design（GitHub）](../references/nexu-io-open-design-github.md)
-- [DeepSeek Harness](./deepseek-harness.md)
+- [DeepSeek Harness](../../agents/entities/deepseek-harness.md)

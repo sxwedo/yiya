@@ -36,7 +36,6 @@
 * [Hermes Agent](./hermes-agent.md) — Nous Research 开源 Agent：随使用生长
 * [Ralph](./ralph.md) — 按 PRD 反复跑直到条目完成的自主循环
 * [cc-connect](./cc-connect.md) — 本机编码代理桥接到即时通讯
-* [Open Design](./open-design.md) — DeepSeek Harness 设计插件；开源 Claude Design 替代
 * [Horizon](./horizon.md) — AI 新闻雷达，中英日报
 * [OpenSpec](./openspec.md) — 面向编码助手的规格驱动开发
 * [OpenCLI](./opencli.md) — 网站变 CLI，Agent 复用已登录浏览器
@@ -70,9 +69,7 @@
 * [Orca](./orca.md) — 并行 agent 舰队的 ADE
 * [CLI-Anything](./cli-anything.md) — 让任意软件变成 Agent-native CLI
 * [Foundations of LLMs](./foundations-of-llms.md) — 浙大 LLM 基础教材
-* [Holo Card Studio](./holo-card-studio.md) — 描述/参考图 → Blender 卡面 + Three.js
 * [Termany](./termany.md) — Agent-native 终端工作区
-* [Ian 小黑配图](./ian-xiaohei-illustrations.md) — 中文小黑怪诞正文配图 Skill
 * [OtoDock](./oto-dock.md) — 自托管公司 OS：部门里跑 Claude Code / Codex，多人共用同一批 agent。
 * [Agent Orchestrator](./agent-orchestrator.md) — 本机桌面编排 coding agent 舰队：一任务一 worker、独立 worktree，看板跟 CI / PR / 评审。
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。

@@ -28,8 +28,8 @@ sources:
 
 ## Related
 
-- [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)
-- [Holo Card Studio](../entities/holo-card-studio.md)
+- [Ian 小黑配图](../../design/entities/ian-xiaohei-illustrations.md)
+- [Holo Card Studio](../../design/entities/holo-card-studio.md)
 - [i-have-adhd](../entities/i-have-adhd.md)
 - [Archify](../entities/archify.md)
 - [WikiSkill 三层架构](./wikiskill-architecture.md)

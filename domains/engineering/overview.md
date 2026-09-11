@@ -59,7 +59,6 @@ sources: []
 | [weixin-cli](./entities/weixin-cli.md) | 微信 CLI |
 | [RSSHub](./entities/rsshub.md) | 万物皆可 RSS |
 | [ntfy](./entities/ntfy.md) | PUT/POST 推送到手机或桌面 |
-| [shadcn-admin](./entities/shadcn-admin.md) | Shadcn + Vite 后台 UI |
 | [FDE 入门指南](./entities/fde-book.md) | 前沿部署工程师入门 |
 | [Microsoft Activation Scripts](./entities/mas.md) | Windows / Office 激活脚本集（只收书签） |
 | [System Design Academy](./entities/system-design-academy.md) | AI 工程与系统设计通讯 |

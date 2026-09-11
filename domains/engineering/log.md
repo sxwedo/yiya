@@ -1,5 +1,9 @@
 # 工程与可维护性 — Log
 
+## 2026-09-11
+
+* **Migrate**: [shadcn-admin](../design/entities/shadcn-admin.md) 及 GitHub Reference → `design`。
+
 ## 2026-09-10
 
 * **2026-09-10 ingest** | Hugo Vergnes《Training a 3.8B LLM…$998》→ raw，挂 [评测驱动开发](./concepts/eval-driven-development.md)。

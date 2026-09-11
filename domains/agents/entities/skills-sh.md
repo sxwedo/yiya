@@ -37,8 +37,8 @@ sources:
 
 ## Related
 
-- [Ian 小黑配图](./ian-xiaohei-illustrations.md)
-- [Holo Card Studio](./holo-card-studio.md)
+- [Ian 小黑配图](../../design/entities/ian-xiaohei-illustrations.md)
+- [Holo Card Studio](../../design/entities/holo-card-studio.md)
 - [i-have-adhd](./i-have-adhd.md)
 - [Archify](./archify.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

@@ -52,7 +52,7 @@ sources:
 
 ## Related
 
-- [AI Design De-slop](./ai-design-deslop.md)
+- [AI Design De-slop](../../design/concepts/ai-design-deslop.md)
 - [Termany](../entities/termany.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)

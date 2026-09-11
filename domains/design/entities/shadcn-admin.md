@@ -3,7 +3,7 @@ type: Entity
 title: "shadcn-admin"
 description: "Shadcn + Vite 后台 UI"
 status: draft
-domain: engineering
+domain: design
 generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
   - satnaing-shadcn-admin-github

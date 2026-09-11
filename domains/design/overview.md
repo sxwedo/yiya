@@ -14,7 +14,20 @@ sources: []
 
 **不收**：Agent 运行时 / harness / 编码代理产品（见 `agents`）；业务 Ontology / 语义层 / 评测（见 `engineering`）；跨域权威实体升格后放 `shared/entities`。Agent 如何调用设计工具的工作流可留 `agents`；本域收的是设计对象与品味本身。
 
-现居 `agents` 的 [AI Design De-slop](../agents/concepts/ai-design-deslop.md)、[Open Design](../agents/entities/open-design.md)、[Ian 小黑配图](../agents/entities/ian-xiaohei-illustrations.md)、[Holo Card Studio](../agents/entities/holo-card-studio.md)，以及 `engineering` 的 [shadcn-admin](../engineering/entities/shadcn-admin.md)，暂不迁，待点头再搬。
+## 本域实体
+
+| Entity | 一句话 |
+| -------- | -------- |
+| [Holo Card Studio](./entities/holo-card-studio.md) | 描述/参考图 → Blender 卡面 + Three.js |
+| [Ian 小黑配图](./entities/ian-xiaohei-illustrations.md) | 中文小黑怪诞正文配图 Skill |
+| [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
+| [shadcn-admin](./entities/shadcn-admin.md) | Shadcn + Vite 后台 UI |
+
+## 本域概念
+
+| Concept | 一句话 |
+| -------- | -------- |
+| [AI Design De-slop](./concepts/ai-design-deslop.md) | 约束优先、删减、设计工具多变体，防 agent UI 糊 |
 
 ## 怎么逛
 

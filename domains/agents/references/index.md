@@ -59,7 +59,6 @@
 * [coreyhaines31/marketingskills（GitHub）](./coreyhaines31-marketingskills-github.md) — coreyhaines31/marketingskills 书签：营销向 Agent Skills（CRO / SEO / 文案）
 * [chenhg5/cc-connect（GitHub）](./chenhg5-cc-connect-github.md) — chenhg5/cc-connect 书签：本机编码代理桥接到即时通讯
 * [anthropics/claude-plugins-official（GitHub）](./anthropics-claude-plugins-official-github.md) — anthropics/claude-plugins-official 书签：Anthropic 官方 Claude Code 插件目录
-* [nexu-io/open-design（GitHub）](./nexu-io-open-design-github.md) — nexu-io/open-design 书签：DeepSeek Harness 设计插件；开源 Claude Design 替代
 * [Thysrael/Horizon（GitHub）](./thysrael-horizon-github.md) — Thysrael/Horizon 书签：AI 新闻雷达，中英日报
 * [Fission-AI/OpenSpec（GitHub）](./fission-ai-openspec-github.md) — Fission-AI/OpenSpec 书签：面向编码助手的规格驱动开发
 * [jackwener/OpenCLI（GitHub）](./jackwener-opencli-github.md) — jackwener/OpenCLI 书签：网站变 CLI，Agent 复用已登录浏览器
@@ -116,8 +115,5 @@
 * [hahhforest/pi-textbook（GitHub）](./hahhforest-pi-textbook-github.md) — hahhforest/pi-textbook 书签：沿 checkpoint 从零构建 Pi-style Agent
 * [HKUDS/CLI-Anything（GitHub）](./hkuds-cli-anything-github.md) — HKUDS/CLI-Anything 书签：让任意软件变成 Agent-native CLI
 * [ZJU-LLMs/Foundations-of-LLMs（GitHub）](./zju-llms-foundations-of-llms-github.md) — ZJU-LLMs/Foundations-of-LLMs 书签：浙大 LLM 基础教材
-* [EverettFish/holo-card-studio（GitHub）](./everettfish-holo-card-studio-github.md) — 卡面 Skill 书签
-* [LerSent001/holo-card（GitHub）](./lersent001-holo-card-github.md) — 分层全息卡 Skill 书签
 * [Termany（站点）](./termany-site.md) — termany.sh 书签
 * [深入理解 AI Agent（书站）](./bojieli-ai-agent-book-docs.md) — bojieli 开源书在线阅读入口
-* [helloianneo/ian-xiaohei-illustrations（GitHub）](./helloianneo-ian-xiaohei-illustrations-github.md) — 小黑配图 Skill 书签

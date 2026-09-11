@@ -50,7 +50,6 @@
 * [erbanku/weixin-cli（GitHub）](./erbanku-weixin-cli-github.md) — erbanku/weixin-cli 书签：微信 CLI
 * [DIYgod/RSSHub（GitHub）](./diygod-rsshub-github.md) — DIYgod/RSSHub 书签：万物皆可 RSS
 * [binwiederhier/ntfy（GitHub）](./binwiederhier-ntfy-github.md) — binwiederhier/ntfy 书签：PUT/POST 推送到手机或桌面
-* [satnaing/shadcn-admin（GitHub）](./satnaing-shadcn-admin-github.md) — satnaing/shadcn-admin 书签：Shadcn + Vite 后台 UI
 * [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer（GitHub）](./xdash-fde-the-guidance-book-of-forward-deployed-engineer-github.md) — xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer 书签：前沿部署工程师入门
 * [massgravel/Microsoft-Activation-Scripts（GitHub）](./massgravel-microsoft-activation-scripts-github.md) — massgravel/Microsoft-Activation-Scripts 书签：Windows / Office 激活脚本集（只收书签）
 * [systemdesign42/system-design-academy（GitHub）](./systemdesign42-system-design-academy-github.md) — systemdesign42/system-design-academy 书签：AI 工程与系统设计通讯

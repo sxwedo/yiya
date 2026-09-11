@@ -52,7 +52,6 @@ sources: []
 | [Hermes Agent](./entities/hermes-agent.md) | Nous Research 开源 Agent：随使用生长 |
 | [Ralph](./entities/ralph.md) | 按 PRD 反复跑直到条目完成的自主循环 |
 | [cc-connect](./entities/cc-connect.md) | 本机编码代理桥接到即时通讯 |
-| [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
 | [Horizon](./entities/horizon.md) | AI 新闻雷达，中英日报 |
 | [OpenSpec](./entities/openspec.md) | 面向编码助手的规格驱动开发 |
 | [OpenCLI](./entities/opencli.md) | 网站变 CLI，Agent 复用已登录浏览器 |
