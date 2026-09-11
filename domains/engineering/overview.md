@@ -12,7 +12,7 @@ sources: []
 
 **收**：业务 Ontology / 语义层与 Text2SQL、Embedding/排序评测、不可靠组件上的可靠系统、PM/组织效率与去瓶颈升档；工程运行时与仓库卫生参考（容器平台、官方 ignore 模板、终端模拟器、跨 shell 提示符、多地网络诊断、零配置 mesh VPN 等）。
 
-**不收**：Agent 运行时 / harness / 编码代理产品（见 `agents`）；跨域权威实体升格后放 `shared/entities`。
+**不收**：Agent 运行时 / harness / 编码代理产品（见 `agents`）；人读界面与设计品味（见 `design`）；跨域权威实体升格后放 `shared/entities`。
 
 ## 本域实体
 

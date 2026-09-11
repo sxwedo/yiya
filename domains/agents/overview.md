@@ -12,7 +12,7 @@ sources: []
 
 **收**：Agent 运行时与 harness、记忆/评测/检索模式、面向 Agent/RAG 的文档解析、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot、Grok Build）、MCP 协议及其上的 server/框架、仓内常驻约定（AGENTS.md）、Agent Skills 目录与安装 CLI（skills.sh）、GitHub 仓的可读化（MCP server、生成项目 Wiki）、agent 运行面（桌面/本机壳、终端会话运行时）、人与 Agent 共写文档编辑器、人机频道工作空间、Agent 组网 overlay、学院与培训课程、多智能体协作与治理。
 
-**不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；跨域权威实体升格后放 `shared/entities`。外探源（如 Trendshift）可建 Entity，不当作成品 harness。
+**不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；人读界面、排版品味与去 slop 的视觉纪律（见 `design`；Agent 如何调 UI 的工作流仍可留本域）；跨域权威实体升格后放 `shared/entities`。外探源（如 Trendshift）可建 Entity，不当作成品 harness。
 
 ## 本域实体
 

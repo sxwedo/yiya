@@ -17,7 +17,7 @@ AGENTS.md          问答、入库、红线
 .agents/skills/    ingest · lint · dream · explore · …
 ```
 
-起步域：[Agent 与 harness](domains/agents/overview.md) · [工程与可维护性](domains/engineering/overview.md)。
+起步域：[Agent 与 harness](domains/agents/overview.md) · [工程与可维护性](domains/engineering/overview.md) · [设计与人读面](domains/design/overview.md)。
 
 ## 阅读
 

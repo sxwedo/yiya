@@ -14,6 +14,7 @@ sources: []
 | --- | --- |
 | agents | [domains/agents](../domains/agents/) |
 | engineering | [domains/engineering](../domains/engineering/) |
+| design | [domains/design](../domains/design/) |
 
 ## 怎么找「派 / 产品」
 
@@ -45,6 +46,7 @@ sources: []
 
 - **知识库三层**：[LLM Wiki](./concepts/llm-wiki.md) · 本库 [yiya](./entities/yiya.md) · [WikiSkill](../domains/agents/concepts/wikiskill-architecture.md) · 人读 IDE [Obsidian](./entities/obsidian.md) · 公开对照 [Grokipedia](./entities/grokipedia.md)
 - **Harness**：[domains/agents/overview.md](../domains/agents/overview.md)（Pi / oh-my-pi / Grok Bot）
+- **设计 / 人读面**：[domains/design/overview.md](../domains/design/overview.md)
 - **记忆**：[四层 Agent 记忆](../domains/agents/concepts/four-layer-agent-memory.md)
 - **语义层**：[语义层](../domains/engineering/concepts/semantic-layer.md)
 - **检索 / 排序**：[复合检索 Agent](../domains/agents/concepts/compound-retrieval-agent.md) · [LLM 排序语义表征](../domains/engineering/concepts/llm-semantic-ranking-embedding.md)

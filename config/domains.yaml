@@ -7,3 +7,7 @@ domains:
     title: 工程与可维护性
     path: domains/engineering
     active: true
+  - id: design
+    title: 设计与人读面
+    path: domains/design
+    active: true
