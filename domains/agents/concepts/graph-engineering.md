@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-09T03:50:00Z }
 related:
+  - multi-agent-collaboration-patterns
   - graph-driven-agent-workflow
   - plan-mode-multiagent
   - loop-engineering
@@ -35,6 +36,7 @@ sources:
 
 ## Related
 
+- [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
 - [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](<../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md>)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering explained: what it is, when to use it and when not to](<../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md>)

@@ -2,6 +2,7 @@
 
 ## 2026-09-11
 
+* **Ingest**: [多 Agent 协作模式](./concepts/multi-agent-collaboration-patterns.md) ← 叶小钗微信长文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。
 * **Ingest**: [Agent On-call](./concepts/agent-oncall.md) + Entity [Claude Tag](./entities/claude-tag.md) ← Sachin Malhotra Claude on-call 博文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。
 
 ## 2026-09-10

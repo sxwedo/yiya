@@ -6,12 +6,14 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:27:00Z }
 related:
+  - multi-agent-collaboration-patterns
   - graph-driven-agent-workflow
   - plan-mode-multiagent
   - graph-engineering
   - multi-agent-failure-modes
   - raft
 sources:
+  - ../../../raw/articles/叶小钗/一文讲透多Agent协作：4种模式、3个判断标准、4大工程落地陷阱.md
   - ../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../references/anthropic-multiagent-failures.md
@@ -32,6 +34,7 @@ sources:
 
 ## Related
 
+- [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
 - [10 Ways People Are Making Money With GPT-6 Astra](../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md)
 - [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
