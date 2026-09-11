@@ -1,6 +1,7 @@
 # entities
 
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定文件：对人用 README，对 Agent 用 AGENTS.md；规范站点 agents.md。
+* [Claude Tag](./claude-tag.md) — 频道侧常驻 Agent：记忆、指令、日程与 MCP，值班骨干
 * [Claude](./claude.md) — Anthropic 的助手与编码产品线（Claude.ai / Claude Code 等）；官方博客 claude.com/blog。
 * [Claude Academy](./claude-academy.md) — Anthropic 官方学院站点：学用 Claude 产品线与 AI Fluency（4D 等）课程。
 * [小山学堂](./xiaoshan-xuetang.md) — 米羊科技出品、洛小山主讲的免费 AI 产品课：从大模型原理到 Harness / Agent / MCP，含解剖 Grok Build。

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T16:22:00Z }
 related:
+  - agent-oncall
   - graph-engineering
   - loop-engineering
   - agent-self-evolution-flywheel
@@ -29,6 +30,7 @@ sources:
 
 ## Related
 
+- [Agent On-call](./agent-oncall.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)

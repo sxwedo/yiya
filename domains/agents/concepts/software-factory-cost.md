@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:30:00Z }
 related:
+  - agent-oncall
   - mcp
   - multi-harness-control-plane
   - delivery-harness
@@ -42,6 +43,7 @@ $$\text{Total Cost} = \text{Sessions} \times \frac{\text{Turns}}{\text{Session}}
 
 ## Related
 
+- [Agent On-call](./agent-oncall.md)
 - [Model Context Protocol (MCP)](../entities/mcp.md)
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Delivery Harness](./delivery-harness.md)

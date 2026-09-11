@@ -1,5 +1,9 @@
 # Agent 与 harness — Log
 
+## 2026-09-11
+
+* **Ingest**: [Agent On-call](./concepts/agent-oncall.md) + Entity [Claude Tag](./entities/claude-tag.md) ← Sachin Malhotra Claude on-call 博文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。
+
 ## 2026-09-10
 
 * **2026-09-10 ingest** | 探索候选：书签 OtoDock / agent-orchestrator / i-have-adhd / archify → 新建 Entity [OtoDock](./entities/oto-dock.md)、[Agent Orchestrator](./entities/agent-orchestrator.md)、[i-have-adhd](./entities/i-have-adhd.md)、[Archify](./entities/archify.md)。无新 Reference。

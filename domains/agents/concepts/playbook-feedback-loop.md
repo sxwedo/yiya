@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T14:57:00Z }
 related:
+  - agent-oncall
   - graph-driven-agent-workflow
   - llm-as-judge-runtime
   - loop-engineering
@@ -15,6 +16,7 @@ related:
   - delivery-harness
   - engineering-bot
 sources:
+  - ../../../raw/articles/Sachin Malhotra/Claude on call: How Claude Tag serves as Anthropic’s first responder for CI／CD failures.md
   - ../references/javaguide-grok-bot-engineering.md
 ---
 
@@ -34,6 +36,7 @@ sources:
 
 ## Related
 
+- [Agent On-call](./agent-oncall.md)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Loop Engineering](./loop-engineering.md)

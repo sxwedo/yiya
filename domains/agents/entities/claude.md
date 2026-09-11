@@ -6,6 +6,8 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:15:00Z }
 related:
+  - agent-oncall
+  - claude-tag
   - loop-engineering
   - claude-academy
   - coding-agent-workflow
@@ -45,6 +47,8 @@ sources:
 
 ## Related
 
+- [Agent On-call](../concepts/agent-oncall.md)
+- [Claude Tag](./claude-tag.md)
 - [Loop Engineering](../concepts/loop-engineering.md)
 - [Claude Academy](./claude-academy.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)

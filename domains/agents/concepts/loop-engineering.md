@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T10:50:00Z }
 related:
+  - agent-oncall
   - graph-driven-agent-workflow
   - llm-as-judge-runtime
   - plan-mode-multiagent
@@ -17,6 +18,7 @@ related:
   - playbook-feedback-loop
   - agent-self-evolution-flywheel
 sources:
+  - ../../../raw/articles/Sachin Malhotra/Claude on call: How Claude Tag serves as Anthropic’s first responder for CI／CD failures.md
   - ../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md
   - ../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md
   - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
@@ -49,6 +51,7 @@ sources:
 
 ## Related
 
+- [Agent On-call](./agent-oncall.md)
 - [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](<../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md>)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering explained: what it is, when to use it and when not to](<../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md>)

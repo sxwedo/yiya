@@ -4,6 +4,7 @@
 * [Agent OTel 探针](./agent-otel-probe.md) — 以 OpenTelemetry 探针采集 Agent 运行轨迹：用 Trace ID 串联模型与工具调用，形成可观测拓扑。
 * [Agent 自进化飞轮](./agent-self-evolution-flywheel.md) — 评测→记忆→落地→控制四齿咬合的工程闭环：每环输出成为下一环输入，靠回流持续转动。
 * [Agent 遥测接入形态](./agent-telemetry-ingress.md) — 按 Agent 形态与改造意愿选择成本最低的数据接入路径：一键、框架 SDK、注解埋点、或无侵入内核观测。
+* [Agent On-call](./agent-oncall.md) — CI/CD 值班第一响应：记忆+连接+日程+Skill/lessons，编排取证与 SITREP
 * [异步记忆沉淀](./async-memory-precipitation.md) — 请求路径并行加载记忆；会话结束后异步筛选、去重并写入长期层，避免把沉淀成本放进热路径。
 * [Coding Agent Workflow](./coding-agent-workflow.md) — 用 coding agents 构建软件的高层工作流：规划→执行→部署监控，配合引导、自主度、验收、环境定制与 harness 基础。
 * [复合检索 Agent](./compound-retrieval-agent.md) — 由 Agent 自主决定多源并行检索、评估补搜与精读，再整合权威与实时上下文生成回答，而非单次向量召回。

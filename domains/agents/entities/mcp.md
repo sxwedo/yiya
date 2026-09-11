@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:25:00Z }
 related:
+  - claude-tag
   - software-factory-cost
   - fastmcp
   - gitmcp
@@ -36,6 +37,7 @@ sources:
 
 ## Related
 
+- [Claude Tag](./claude-tag.md)
 - [Software Factory Cost Equation](../concepts/software-factory-cost.md)
 - [FastMCP](./fastmcp.md)
 - [GitMCP](./gitmcp.md)
