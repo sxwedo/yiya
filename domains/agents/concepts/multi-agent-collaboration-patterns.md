@@ -12,8 +12,13 @@ related:
   - role-first-agent
   - graph-driven-agent-workflow
   - graph-engineering
+  - llm-as-judge-runtime
 sources:
   - ../../../raw/articles/叶小钗/一文讲透多Agent协作：4种模式、3个判断标准、4大工程落地陷阱.md
+  - ../../../raw/articles/Claude/Common workflow patterns for AI agents—and when to use them.md
+  - ../../../raw/articles/Claude/Building multi-agent systems: When and how to use them.md
+  - ../../../raw/articles/Claude/Introducing dynamic workflows in Claude Code.md
+  - ../../../raw/articles/Claude/Multi-agent coordination patterns： Five approaches and when to use them.md
 ---
 
 # Definition
@@ -48,6 +53,10 @@ sources:
 3. **记录进度并交回结果**：查询或完成通知；汇总方要裁决冲突意见，不能盲合并
 4. **处理需求变化与失败**：改/取消任务；结果带原请求快照以免用过期结论；失败分可重试 vs 缺料；保留工具轨迹可回查
 
+Anthropic 把「工作流」与「完全自主 Agent」分开：工作流给整体路径与检查点，步内仍可推理与用工具。生产里三种块盖大多数：**顺序**（有依赖）、**并行**（独立子任务 fan-out/fan-in）、**evaluator-optimizer**（生成与评判分开迭代，要有可测量停止条件）。先用单 Agent、再加最简工作流；三种可嵌套。evaluator-optimizer 见 [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)。
+
+协调形再拆五条（从简到复杂）：**generator-verifier**（质量可显式判据）、**orchestrator-subagent**（可拆且子任务有界，默认起点）、**agent teams**（并行、独立、长跑，工人跨任务保上下文）、**message bus**（事件驱动、生态会涨）、**shared-state**（发现要实时互见，无中心路由）。子任务短用主管分工；要长记忆用 teams；流程随事件变用总线；发现要互喂用共享状态。Dynamic workflows 是并行子代理 + 独立核验的产品形。
+
 与 [多智能体治理](./multi-agent-governance.md)（社会基础设施）、[多智能体失效模式](./multi-agent-failure-modes.md)、[Plan 模式与主子 Agent](./plan-mode-multiagent.md)（主子编排落地）、[Role-first Agent](./role-first-agent.md)、[Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) 互补：本页专精「何时拆 + 四种形 + 运行时任务面」。
 
 ## Related
@@ -58,3 +67,4 @@ sources:
 - [Role-first Agent](./role-first-agent.md)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering](./graph-engineering.md)
+- [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)

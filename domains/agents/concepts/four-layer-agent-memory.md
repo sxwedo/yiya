@@ -14,6 +14,7 @@ related:
 sources:
   - ../references/dewu-multiagent-memory.md
   - ../references/huolala-llm-memory-online.md
+  - ../../../raw/articles/Claude/Managing context on the Claude Developer Platform.md
 ---
 
 # Definition
@@ -26,6 +27,8 @@ sources:
 4. **Agent Memory** — 某个 Agent 的任务经验与协作约定。
 
 内容形态（文本/偏好/技能/工具记忆等）是另一分类维度，不与四层一一对应。会话结束后，新增信息经判断与去重，从 Session 沉淀到 User 或 Agent 层。货拉拉侧强调「历史≠记忆」与在线提取流水线，见 [历史不等于记忆](./history-vs-memory.md)、[在线记忆流水线](./online-memory-pipeline.md)——分层是作用域，流水线是怎么写进去。
+
+Anthropic 平台侧：context editing 在接近窗口上限时清掉过期工具结果（Working / Session 减负）；memory tool 把该留的写到会话外文件（User / Agent 层由你自己的存储扛）。窗口有限，工作无限。
 
 ## Related
 

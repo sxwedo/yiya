@@ -9,6 +9,7 @@ related:
   - farion1231-cc-switch-github
   - claude
   - codex
+  - opencode
 sources:
   - ../references/farion1231-cc-switch-github.md
 ---
@@ -22,3 +23,4 @@ sources:
 - [farion1231/cc-switch（GitHub）](../references/farion1231-cc-switch-github.md)
 - [Claude](./claude.md)
 - [Codex](./codex.md)
+- [OpenCode](./opencode.md)

@@ -18,10 +18,6 @@ related:
   - playbook-feedback-loop
   - agent-self-evolution-flywheel
 sources:
-  - ../../../raw/articles/Sachin Malhotra/Claude on call: How Claude Tag serves as Anthropic’s first responder for CI／CD failures.md
-  - ../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md
-  - ../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md
-  - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
   - ../../../raw/articles/Akshay 🚀/Loop Engineering Clearly Explained.md
   - ../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md
@@ -35,6 +31,7 @@ sources:
   - ../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md
   - ../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
+  - ../../../raw/articles/Claude/Loop engineering： Getting started with loops.md
 ---
 
 # Definition
@@ -47,17 +44,16 @@ sources:
 - **停条件必须是「可以客观失败的检查」**（如测试退出码 0、来源行对齐，严禁拿另一个模型主观 review 的“无报错”当正确证据）；
 - **Loop 与 Graph 的分工**：Loop 负责单一工作单元的自愈（produce → check → correct → repeat），拓扑 Graph 则在 Loop 之上决定哪些工作单元存在与并行依赖。
 
+Anthropic 把 loop 收成「重复干活直到停条件」：按触发/停止/原语/任务选型，从回合制走到目标制、时间制、主动制；先用最简形。拓扑并行与假边见 [Graph Engineering](./graph-engineering.md)，值班闭环见 [Agent On-call](./agent-oncall.md)——不在本页堆。
+
 与 [Coding Agent Workflow](./coding-agent-workflow.md) 互补：后者偏「规划→执行→部署」工作流；本页专讲「闭环自治」。产品侧入口仍见 [Claude](../entities/claude.md)。
 
 ## Related
 
 - [Agent On-call](./agent-oncall.md)
-- [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](<../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md>)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
-- [Graph Engineering explained: what it is, when to use it and when not to](<../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md>)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
-- [Agents, Loops, Graphs. Everything You Need to Know in One Place.](<../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md>)
 - [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)

@@ -10,6 +10,7 @@ related:
   - holo-card-studio
   - wikiskill-architecture
   - skills-sh
+  - agent-skills
   - i-have-adhd
   - archify
   - llm-wiki
@@ -34,4 +35,5 @@ sources:
 - [Archify](../entities/archify.md)
 - [WikiSkill 三层架构](./wikiskill-architecture.md)
 - [skills.sh](../entities/skills-sh.md)
+- [Agent Skills](../entities/agent-skills.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)

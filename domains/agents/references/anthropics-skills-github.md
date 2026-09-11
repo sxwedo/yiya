@@ -9,6 +9,7 @@ resource: ../../../raw/bookmarks/github.md
 tags: [bookmark, github]
 sources: []
 related:
+  - agent-skills
   - claude
 ---
 
@@ -17,8 +18,9 @@ related:
 - **仓库原文**：[打开 raw](../../../raw/bookmarks/github.md)
 - **为什么收藏**：Anthropic 官方 Agent Skills 仓库
 - **何时用**：要对齐源码、Issue、Release 或安装入口时从这里进。
-- **raw**：收入 `raw/bookmarks/github.md` 列表；原文 URL 仍为 https://github.com/anthropics/skills
+- **raw**：收入 `raw/bookmarks/github.md` 列表；原文 URL 仍为 <https://github.com/anthropics/skills>
 
 ## Related
 
+- [Agent Skills](../entities/agent-skills.md)
 - [Claude](../entities/claude.md)

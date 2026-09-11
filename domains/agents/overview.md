@@ -10,7 +10,7 @@ sources: []
 
 # Scope
 
-**收**：Agent 运行时与 harness、记忆/评测/检索模式、面向 Agent/RAG 的文档解析、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot、Grok Build）、MCP 协议及其上的 server/框架、仓内常驻约定（AGENTS.md）、Agent Skills 目录与安装 CLI（skills.sh）、GitHub 仓的可读化（MCP server、生成项目 Wiki）、agent 运行面（桌面/本机壳、终端会话运行时）、人与 Agent 共写文档编辑器、人机频道工作空间、Agent 组网 overlay、学院与培训课程、多智能体协作与治理。
+**收**：Agent 运行时与 harness、记忆/评测/检索模式、面向 Agent/RAG 的文档解析、具名编码代理产品（如 Pi、oh-my-pi、Grok Bot、Grok Build、OpenCode）、MCP 协议及其上的 server/框架、仓内常驻约定（AGENTS.md）、Agent Skills 格式与目录（skills.sh）、GitHub 仓的可读化（MCP server、生成项目 Wiki）、agent 运行面（桌面/本机壳、终端会话运行时）、人与 Agent 共写文档编辑器、人机频道工作空间、Agent 组网 overlay、学院与培训课程、多智能体协作与治理。
 
 **不收**：纯数仓口径/Ontology 建设细节（见 `engineering`）；人读界面、排版品味与去 slop 的视觉纪律（见 `design`；Agent 如何调 UI 的工作流仍可留本域）；跨域权威实体升格后放 `shared/entities`。外探源（如 Trendshift）可建 Entity，不当作成品 harness。
 
@@ -19,6 +19,7 @@ sources: []
 | Entity | 一句话 |
 | -------- | -------- |
 | [AGENTS.md](./entities/agents-md.md) | 仓内给 Agent 读的约定文件（规范：agents.md） |
+| [Agent Skills](./entities/agent-skills.md) | SKILL.md 开放格式：按需加载规程与脚本 |
 | [Claude](./entities/claude.md) | Anthropic 助手与编码产品线；博客 claude.com/blog |
 | [Claude Academy](./entities/claude-academy.md) | Anthropic 官方学院：学用 Claude 与 AI Fluency |
 | [小山学堂](./entities/xiaoshan-xuetang.md) | 免费 AI 产品课：Harness / Agent / MCP；含解剖 Grok Build |
@@ -39,6 +40,7 @@ sources: []
 | [Proof](./entities/proof.md) | 人与 Agent 共写文档：在场、评论、建议、出处轨 |
 | [Puffo](./entities/puffo.md) | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
 | [Raft](./entities/raft.md) | 人与 Agent 共用频道工作空间；本机 daemon 跑各家运行时 |
+| [OpenCode](./entities/opencode.md) | 开源编码运行时：Profile + Session Events，多客户端共用 |
 | [skills.sh](./entities/skills-sh.md) | Agent Skills 开放目录与 `npx skills` 安装 CLI |
 | [Zread](./entities/zread.md) | GitHub 仓 → 结构化项目 Wiki（github.com → zread.ai） |
 | [Obelisk](./entities/obelisk.md) | 编码代理历史会话 / 子代理 / 工作流可查询 |

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T17:00:00Z }
 related:
+  - agent-skills
   - ian-xiaohei-illustrations
   - holo-card-studio
   - coding-agent-workflow
@@ -22,7 +23,6 @@ sources:
   - ../references/jimliu-baoyu-skills-github.md
   - ../references/multica-ai-andrej-karpathy-skills-github.md
   - ../references/builderio-skills-github.md
-  - ../references/anthropics-skills-github.md
   - ../../../raw/articles/小麦搞钱计划/A2A：当 Agent 开始自己找人干活.md
   - ../../../raw/articles/Emil Kowalski/New skill－ －apple-design.md
   - ../../../raw/articles/花叔/你的下一个员工，何必是同事。.md
@@ -33,7 +33,7 @@ sources:
 
 **skills.sh**（<https://skills.sh/）是> Vercel 做的开放 Agent Skills 目录：按排行榜发现可复用技能包（`SKILL.md` + 可选脚本/参考），再用 CLI `npx skills add <owner/repo>` 写进本机已装的编码代理（Claude Code、Cursor、Codex、Pi 等）。发布不走单独上架：技能放进 git 仓，有人 `npx skills add` 后靠安装遥测出现在目录里。CLI 源码：[vercel-labs/skills](https://github.com/vercel-labs/skills)。
 
-定位：技能包的**发现与安装层**，不是某一家 harness。仓内常驻约定见 [`AGENTS.md`](./agents-md.md)；Pi 把 Skills 当原语；mena 巡检本机已装 Skills。知识层 vs 可执行技能见 [知识与技能分离](../concepts/knowledge-skill-separation.md)。近例：[i-have-adhd](./i-have-adhd.md)（先给下一步）；[Archify](./archify.md)（JSON IR → 架构图）。
+定位：技能包的**发现与安装层**，不是规范本体。格式与按需加载见 [Agent Skills](./agent-skills.md)。仓内常驻约定见 [`AGENTS.md`](./agents-md.md)；Pi 把 Skills 当原语；mena 巡检本机已装 Skills。知识层 vs 可执行技能见 [知识与技能分离](../concepts/knowledge-skill-separation.md)。近例：[i-have-adhd](./i-have-adhd.md)（先给下一步）；[Archify](./archify.md)（JSON IR → 架构图）。
 
 ## Related
 
@@ -46,10 +46,10 @@ sources:
 - [Pi](./pi.md)
 - [mena](./mena.md)
 - [AGENTS.md](./agents-md.md)
+- [Agent Skills](./agent-skills.md)
 - [知识与技能分离](../concepts/knowledge-skill-separation.md)
 - [skills-sh-site](../references/skills-sh-site.md)
 - [mattpocock-skills-github](../references/mattpocock-skills-github.md)
 - [jimliu-baoyu-skills-github](../references/jimliu-baoyu-skills-github.md)
 - [multica-ai-andrej-karpathy-skills-github](../references/multica-ai-andrej-karpathy-skills-github.md)
 - [builderio-skills-github](../references/builderio-skills-github.md)
-- [anthropics-skills-github](../references/anthropics-skills-github.md)

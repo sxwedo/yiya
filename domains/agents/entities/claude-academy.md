@@ -12,6 +12,7 @@ related:
 sources:
   - ../references/claude-academy-site.md
   - ../../../raw/articles/Claude/Claude Academy is now live.md
+  - ../../../raw/articles/Claude/Anthropic’s approach to teaching and learning AI.md
 ---
 
 # Summary

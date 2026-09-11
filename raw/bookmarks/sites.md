@@ -20,7 +20,9 @@
 | AGENTS.md | <https://agents.md/> | agents.md | 仓内给编码代理读的约定文件（对人用 README，对 Agent 用 AGENTS.md） |
 | Grokipedia | <https://grokipedia.com/> | xAI | xAI 用 Grok 生成/核验的在线百科；条目不可直接众包编辑 |
 | MinerU | <https://mineru.net/> | OpenDataLab | 面向 Agent 和 RAG 的文档解析：PDF / Office / 图片 → Markdown / JSON |
+| Agent Skills | <https://agentskills.io> | Anthropic / 社区 | Agent Skills 开放格式：SKILL.md 文件夹按需加载规程与脚本 |
 | skills.sh | <https://skills.sh/> | Vercel | Agent Skills 开放目录与排行榜；`npx skills` 一键装到多家编码代理 |
+| OpenCode | <https://opencode.ai> | anomalyco | 开源编码 Agent 运行时：Profile + Session Events，多客户端共用 |
 | Herdr | <https://herdr.dev/> | herdr / Can Celik | 编码代理终端运行时：后台持有会话，合盖不断；不替换各家 CLI |
 | Proof | <https://proofeditor.ai/> | Every | 人与 Agent 共写的文档编辑器：在场、评论、建议、出处轨 |
 | Hacker News | <https://news.ycombinator.com/> | Y Combinator | 黑客新闻板：链接 + 讨论；Show HN / Ask HN |

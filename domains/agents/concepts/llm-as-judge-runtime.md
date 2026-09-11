@@ -14,6 +14,7 @@ related:
 sources:
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../../../raw/articles/Josh Rosen/LLM-as-Judge Architectures: Putting Evals Into Your Agent Runtime.md
+  - ../../../raw/articles/Claude/Common workflow patterns for AI agents—and when to use them.md
 ---
 
 # Definition
@@ -29,6 +30,8 @@ sources:
 5. **多裁判**：分歧可触发更强模型重试、补证据或人审。  
 6. **裁判元评**：对人标校准、防位置/文风偏好。  
 7. **确定性包住裁判**：能 schema/测试/策略引擎查的，别全扔给 LLM。
+
+Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent、按可测量准则迭代，直到质量门槛或迭代上限；这是本页运行时裁判的工作流形。三种工作流块（顺序/并行/评判循环）见 [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)。
 
 与 [Evidence Gate](./evidence-gate.md)、[Loop Engineering](./loop-engineering.md) 互补；工程迭代侧见 [评测驱动开发](../../engineering/concepts/eval-driven-development.md)。
 

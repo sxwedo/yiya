@@ -1,6 +1,7 @@
 # entities
 
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定文件：对人用 README，对 Agent 用 AGENTS.md；规范站点 agents.md。
+* [Agent Skills](./agent-skills.md) — 开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。
 * [Claude Tag](./claude-tag.md) — 频道侧常驻 Agent：记忆、指令、日程与 MCP，值班骨干
 * [Claude](./claude.md) — Anthropic 的助手与编码产品线（Claude.ai / Claude Code 等）；官方博客 claude.com/blog。
 * [Claude Academy](./claude-academy.md) — Anthropic 官方学院站点：学用 Claude 产品线与 AI Fluency（4D 等）课程。
@@ -22,6 +23,7 @@
 * [Proof](./proof.md) — Every 的人与 Agent 共写文档编辑器：共享稿、在场、评论、建议，左侧色轨标出谁写了哪一段。
 * [Puffo](./puffo.md) — 人与 Agent 的端到端加密群聊：本机 daemon 托管多个 agent，底层仍是 Claude / Codex。
 * [Raft](./raft.md) — 人与 Agent 共用频道工作空间：长期身份与记忆，本机 daemon 跑 Claude / Codex 等；不是分布式共识算法。
+* [OpenCode](./opencode.md) — 开源编码 Agent 运行时：Agent Profile 装身份，Session Events 留可重建轨迹；TUI / Web / 桌面 / SDK 共用同一服务。
 * [skills.sh](./skills-sh.md) — Vercel 的 Agent Skills 开放目录与 CLI：按安装量浏览技能包，用 npx skills 装进多家编码代理。
 * [Trendshift](./trendshift.md) — GitHub 仓库实时动量榜：在上升期捕捉趋势，而非峰值之后；定位为 GitHub Trending 的替代入口。
 * [Zread](./zread.md) — 把 GitHub 仓编译成结构化项目 Wiki：架构图、模块说明、文档内问答；地址栏 github.com 换成 zread.ai 即开。

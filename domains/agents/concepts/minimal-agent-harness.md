@@ -19,6 +19,7 @@ sources:
   - ../references/pi-vs-oh-my-pi.md
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
   - ../../../raw/articles/得物技术/实战从零开始构建一个Coding Agent：Violin ｜得物技术.md
+  - ../../../raw/articles/Claude/Agent Harness Design： 3 Patterns for Harnessing Claude's Intelligence.md
 ---
 
 # Definition
@@ -32,6 +33,8 @@ sources:
 腾讯技术工程把极简从审美写成成本：Pi 默认只暴露 `read` / `write` / `edit` / `bash`，Databricks 追踪同模型换到 Pi 后每轮上下文约少三倍、轮次更少；代价是不内置权限系统，高风险环境要外补沙箱。这是 [Harness 运行时层](./harness-runtime-layer.md) 上「收得尽可能小」的一端。
 
 得物 Violin 按同一蓝本用 Zig 重写：模型适配 / 内核 Loop / 产品层分离，内置工具集与 Pi 对齐；验证「读懂 Pi 就能造别的 agent」，不为 Violin 另开 Entity。[Pi](../entities/pi.md) 的 `sources` 已满阈值，本篇不往产品页堆。
+
+Anthropic 的 Harness Design 把同一哲学写成「问自己还能停做什么」：通用 bash/编辑器优于为每个任务硬编码工具；工具结果不必一律回灌上下文，让模型用代码编排；任务指令用 Skills 按需读入，而不是预装进 system prompt。见 [Harness 运行时层](./harness-runtime-layer.md)。
 
 ## Related
 

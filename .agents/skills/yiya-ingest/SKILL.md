@@ -23,6 +23,7 @@ argument-hint: "[url-or-path] [domain?]"
   - Frontmatter `sources:` 直链 raw（原料溯源）；YAML 路径不用 `<>`
   - 正文 `## Related` 仅链向相关 Wiki 页面（Entity / Concept / Overview），**不**在文末重复粘贴全部 raw 列表
   - 正文若必须链到本地文件（如 Reference 的「打开 raw」）：路径含空格或括号 `()` 时写成 `[标题](<相对路径.md>)`，禁止 `[标题](带 空格.md)`（CommonMark 会截断成字面量）
+- **配图体积控制（>1MB 转原链接）**：成文抓取严禁落盘超大图片导致 Git 仓库膨胀。**单张图片大小超过 1MB（如高清截图、大 GIF 动图等），一律不存入本地 `_media/`，在 Markdown 正文中直接保留或转化成原始网络链接（URL）**，本地已下载的立即删除；仅 `≤ 1MB` 的图片才落盘到本地 `_media/<slug>/`。
 - **Reference 极简原则**：成文与书签**默认均不建** Reference。书签直接在对应 Entity 中沉淀链接与简述；仅当长篇专著/标准规范需撰写深度评注笔记时才建 Reference。历史 Reference 不批量删。
 
 盘点顺序：先定 Domain，再 **Entity → Concept →（极少需）Reference**。
@@ -61,6 +62,7 @@ argument-hint: "[url-or-path] [domain?]"
 2. 先放 `raw/_inbox/`（或一步到位 articles）。
 3. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 `author:` 短名，去掉 `(@handle)`；无作者用 `_unknown`）。**必须**有 `url:`（本地稿可 `url: local:` + 说明）。
 4. 配图：`raw/articles/_media/<slug>/`；正文链接 `../_media/<slug>/...`。
+   - **大图转原链（>1MB 不落盘）**：落盘前/下载后检查单张图片体积，**若单张图片 > 1MB，禁止存入本地 `_media/`，正文必须直接保留/转换为原始网络图片链接（URL）**；本地若已下载需立即删除清理，仅 `≤ 1MB` 的图片才保存到 `_media/<slug>/`。
 
 `domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体可 `shared`。认领=知识页链上该 raw。
 
@@ -117,7 +119,7 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] 成文型：raw 已写入且头有 `url:`；书签型：已追加 `github.md` / `sites.md` / `docs.md` / `tools.md` 中对应表；回写：用户说了「回写」，无新 raw
+- [ ] 成文型：raw 已写入且头有 `url:`；配图已做体积检查（>1MB 保持/转为原网络链接，未落盘 `_media/`）；书签型：已追加 `github.md` / `sites.md` / `docs.md` / `tools.md` 中对应表；回写：用户说了「回写」，无新 raw
 - [ ] 已做「盘点已有」，每个候选是改 / 链 / 建之一；同簇已有页已碰
 - [ ] 至少一页 Concept/Entity 链到该 raw
 - [ ] 成文与书签默认无新 Reference；仅深度文献有 Reference

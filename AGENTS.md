@@ -11,7 +11,7 @@ raw/
   _inbox/                      # 未分域
   bookmarks/github.md|sites.md|docs.md|tools.md  # 仓库 / 产品站 / 文档门户 / 在线工具
   articles/<作者>/<标题>.md    # 成文；无作者 → _unknown/
-  articles/_media/<slug>/      # 配图（不进作者目录）
+  articles/_media/<slug>/      # 配图（不进作者目录；>1M 转原链接不落盘）
 domains/<id>/                  # OKF bundle：entities/ · concepts/ · references/（按需）
 shared/                        # 跨域实体与纲领
 ```
@@ -50,7 +50,7 @@ shared/                        # 跨域实体与纲领
 
 | 类型 | 做什么 |
 | --- | --- |
-| 成文 | 文章/长帖，或一篇有稳定标题的官方指南：拉这一页 → `raw/articles/<作者>/` → 匹配核心 Concept/Entity 续写；无匹配且必要才新建 |
+| 成文 | 文章/长帖，或一篇有稳定标题的官方指南：拉这一页 → `raw/articles/<作者>/` → 匹配核心 Concept/Entity 续写（配图 >1M 转原外链不落盘）；无匹配且必要才新建 |
 | 书签 | GitHub → `github.md`；产品/机构首页 → `sites.md`；docs 门户/根 → `docs.md`；工具 → `tools.md`。直接在对应 Entity 记录或补链，不建空心 Reference |
 | 重构 (Refactor) | 当 Concept 出现概念漂移、`sources > 15` 或包含非核心杂质时：剥离非核心 raw 链接，提炼拆分出独立子概念或回归内聚定义 |
 

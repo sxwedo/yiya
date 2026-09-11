@@ -19,17 +19,20 @@ related:
   - pi
   - mena
   - skills-sh
+  - agent-skills
+  - auto-mode
 sources:
   - ../references/ng-coding-agents-skills.md
-  - ../../../raw/articles/Lingxi Li/Grok Bot for Engineering.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
   - ../../../raw/articles/dunik/259 pull requests in 30 days, and a human typed exactly zero of them.md
   - ../../../raw/articles/DataDan｜AI Consultant + Builder/我们一直以为 AI 只会写代码，判断力还在人手里，这次不一样了.md
   - ../../../raw/articles/Tw93/想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。.md
-  - ../../../raw/articles/实践哥 Li/Workflow 有 6 种形式。.md
   - ../../../raw/articles/h100envy/Deep mechanics plus working code. Stateless iteration, idempotent checks, isolation.md
-  - ../../../raw/articles/Matt Pocock/Steps to become a senior programmer－.md
-  - ../../../raw/articles/yan5xu/给关注了半年的agent team 交份作业。.md
+  - ../../../raw/articles/Claude/Building verification loops in Claude Code with skills.md
+  - ../../../raw/articles/Claude/How Claude Code works in large codebases： Best practices and where to start.md
+  - ../../../raw/articles/Claude/Onboarding Claude Code like a new developer： Lessons from 17 years of development.md
+  - ../../../raw/articles/Claude/Running an AI-native engineering org.md
+  - ../../../raw/articles/Claude/The AI-Native SDLC playbook.md
 ---
 
 # Definition
@@ -48,6 +51,12 @@ sources:
 - **定制 agent 与环境**（Skills/MCP/hooks、[`AGENTS.md`](../entities/agents-md.md) 等常驻上下文）；
 - **coding agent 基础**（检索、上下文、子代理、harness 包模型）。
 
+大仓部署：agentic search（现场 grep / 读文件）比 RAG 索引更跟得上活跃仓；质量取决于起步上下文。Harness 五件套按层叠：**CLAUDE.md / AGENTS.md**（每会话、保持瘦）→ hooks（确定性检查与会话学习）→ Skills（按需披露）→ plugins（把有效配置分发）→ MCP / LSP / 子代理。根文件只放指针与致命坑；测试命令按子目录写；`.ignore` 与 deny 规则进仓。模型升级后要复审这些补丁，过期指令会反过来约束新模型。
+
+把 Agent 当新同事带：先给有界任务，把上下文做成可版本化的独立层（MacCoss 的 `pwiz-ai`），Skill 指向文档而不是复制进 prompt。组织侧：规划改 JIT（原型代替半年 roadmap）；问 Claude 而不是找作者；人只审法律/安全/品味；角色模糊，招创造者与系统专家，不招纯吞吐量。
+
+AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` → `plan.md` → diff/测试 → PR 评审 → 生产触发下一份 intent。人守闸门（接受 intent、批 spec、批生产），agent 跑阶段之间。治理用 hooks / 托管权限，而不是会签会。
+
 与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
 
 ## Related
@@ -65,4 +74,6 @@ sources:
 - [Pi](../entities/pi.md)
 - [mena](../entities/mena.md)
 - [skills.sh](../entities/skills-sh.md)
+- [Agent Skills](../entities/agent-skills.md)
+- [Auto Mode](./auto-mode.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)

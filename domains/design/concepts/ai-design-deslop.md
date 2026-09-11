@@ -10,6 +10,7 @@ related:
   - coding-agent-workflow
 sources:
   - ../../../raw/articles/Matt Dailey/How I Design with AI..md
+  - ../../../raw/articles/Claude/Improving frontend design through Skills.md
 ---
 
 # Definition
@@ -25,6 +26,8 @@ sources:
 5. **Preview deploy + 真数据**：大功能可前后端 PR 分离。  
 6. **偷参考**：同类产品截图当 agent 上下文。  
 7. **练品味**：对反应做反思，团队可「打谷」式共评。
+
+Anthropic 把「AI slop」归因于分布收敛：训练数据里安全、无冒犯的前端占多数，无引导就采样到 Inter / 紫渐变 / 白底。解法不是把设计手册焊进 system prompt（无关任务也交上下文税），而是用 **Skill 按需加载**：字体、主题、动效、背景写成中等海拔约束（禁名单 + 可执行方向，不写死 hex）。同一套可复用成组织资产。
 
 与 [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md) 互补：后者偏写代码工作流，本页偏 **agent 参与 UI 时的设计纪律**。
 

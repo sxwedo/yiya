@@ -123,6 +123,7 @@
 | satnaing/shadcn-admin | <https://github.com/satnaing/shadcn-admin> | satnaing | Shadcn + Vite 后台 UI |
 | sxwedo/mena | <https://github.com/sxwedo/mena> | sxwedo | local-first 编码代理 CLI：本机启动/巡检多产品 agent、会话、Skills、MCP |
 | openai/codex | <https://github.com/openai/codex> | openai | OpenAI 终端轻量编码代理 |
+| anomalyco/opencode | <https://github.com/anomalyco/opencode> | anomalyco | 开源编码 Agent 运行时：Profile + Session Events |
 | xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer | <https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer> | xdash | 前沿部署工程师入门 |
 | massgravel/Microsoft-Activation-Scripts | <https://github.com/massgravel/Microsoft-Activation-Scripts> | massgravel | Windows / Office 激活脚本集（只收书签） |
 | stablyai/orca | <https://github.com/stablyai/orca> | stablyai | 并行 agent 舰队的 ADE |

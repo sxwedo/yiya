@@ -10,6 +10,7 @@ related:
   - ttsr
 sources:
   - ../references/oh-my-pi-setup.md
+  - ../../../raw/articles/Claude/The advisor strategy： Give agents an intelligence boost.md
 ---
 
 # Definition
@@ -23,6 +24,8 @@ sources:
 - 与事后 `/review` 互补：Advisor 是写代码时的实时旁听；review 是写完后的结构化审查。
 
 适用：需要降低主模型漏边界检查、漏安全约束、跑偏不自知的场景，又不想把全部规则每轮塞进 system prompt。
+
+Anthropic 把同一形反过来用：**小模型当执行器，大模型当 Advisor**。Sonnet/Haiku 跑全程工具循环，卡决策时才问 Opus；Advisor 不调工具、不对用户说话，只回计划/纠偏/停止。这是「大编排器拆给小工人」的倒置，贵推理只打在需要处。API 里 `advisor` 工具一次请求内交接，用 `max_uses` 封顶。
 
 ## Related
 

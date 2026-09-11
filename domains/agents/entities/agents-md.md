@@ -11,6 +11,7 @@ related:
   - coding-agent-workflow
   - multi-harness-control-plane
   - skills-sh
+  - agent-skills
   - llm-wiki
 sources:
   - ../references/agents-md-site.md
@@ -18,6 +19,8 @@ sources:
   - ../../../raw/articles/Leo｜LeoLabs.me/昨天分享了 Claude－Codex－Gemini 共享 Skills，有人问：装了几十个 skill，菜单全是英文记不住怎么办？.md
   - ../../../raw/articles/MateMatt/Agent 的数据面概念扫盲-建立技术侧(Context Memory RAG) 认知体系(上).md
   - ../../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md
+  - ../../../raw/articles/Claude/Using CLAUDE.md files： Customizing Claude Code for your codebase.md
+  - ../../../raw/articles/Claude/Steering Claude Code： when to use CLAUDE.md, skills, hooks, and subagents.md
 ---
 
 # Summary
@@ -33,4 +36,5 @@ sources:
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
 - [skills.sh](./skills-sh.md)
+- [Agent Skills](./agent-skills.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
