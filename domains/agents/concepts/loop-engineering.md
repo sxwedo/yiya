@@ -19,17 +19,8 @@ related:
   - agent-self-evolution-flywheel
 sources:
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
-  - ../../../raw/articles/Akshay 🚀/Loop Engineering Clearly Explained.md
-  - ../../../raw/articles/Akshay 🚀/the four pillars of loop engineering.md
-  - ../../../raw/articles/Codez/Loop engineering－ the 14-step roadmap from prompter to loop designer.md
-  - ../../../raw/articles/Codez/A senior Anthropic engineer just dropped 11-page PDF on －Loop Engineering－ for agentic.md
-  - ../../../raw/articles/Andrew Ng/“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude.md
-  - ../../../raw/articles/Anatoli Kopadze/Loops explained－ Claude, GPT, Mira and what actually works.md
   - ../../../raw/articles/Matt Van Horn/WTF Is a Loop－ Peter Steinberger vs. Boris Cherny.md
   - ../../../raw/articles/Dan Farrelly/The Agent Loop Architecture.md
-  - ../../../raw/articles/MIKE/How to Create Loops with Claude.md
-  - ../../../raw/articles/rari/Loop Engineering－ The AI skill every builder needs in 2026.md
-  - ../../../raw/articles/Raytar/Stop Being the Loop. Here's How to Make Claude Work While You Sleep.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
   - ../../../raw/articles/Claude/Loop engineering： Getting started with loops.md
 ---

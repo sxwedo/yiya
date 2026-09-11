@@ -1,5 +1,9 @@
 # shared — Log
 
+## 2026-09-11
+
+* **Ingest**: Google OKF 两篇成文 → 新建 Entity [Open Knowledge Format](./entities/open-knowledge-format.md)；续写 [LLM Wiki](./concepts/llm-wiki.md)、[yiya](./entities/yiya.md)。无新 Reference。
+
 ## 2026-09-10
 
 * **2026-09-10 ingest** | [arXiv](https://arxiv.org/) → Entity [arXiv](./entities/arxiv.md)（`sites.md`）；链 [Hacker News](./entities/hacker-news.md)。跨域文献源放 shared，不开论文域；不灌整站。

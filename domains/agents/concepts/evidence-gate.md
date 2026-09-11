@@ -13,6 +13,8 @@ related:
   - minimal-agent-harness
 sources:
   - ../references/dewu-delivery-harness.md
+  - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
+  - ../../../raw/articles/AI数据奇点/Data Agent二篇：查数Agent 你们的是否可信？.md
 ---
 
 # Definition

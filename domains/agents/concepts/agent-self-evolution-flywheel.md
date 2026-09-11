@@ -12,6 +12,7 @@ related:
   - playbook-feedback-loop
 sources:
   - ../references/agent-self-evolution-flywheel.md
+  - ../../../raw/articles/腾讯技术工程/Agent开始“自我进化”：会出题、会反思，还会自己长出新技能.md
 ---
 
 # Definition
@@ -23,7 +24,7 @@ sources:
 3. **落地** — 从「知道」到「改好」：候选修复经门控/灰度；线上失败回流为下一轮种子。
 4. **控制** — 人当教练与裁判，防隐蔽累积偏移；冷启动第一圈须人推。
 
-瓶颈通常不在单点技术，而在环节间数据通路是否接通。
+瓶颈通常不在单点技术，而在环节间数据通路是否接通。研究侧三条路：经验/Skill 外挂（不改权重）、RL 把经验写进权重、零数据互出题；被低估的是「总结者」本身该不该训练。
 
 ## Related
 

@@ -1,6 +1,7 @@
 # entities
 
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定文件：对人用 README，对 Agent 用 AGENTS.md；规范站点 agents.md。
+* [Artificial Analysis](./artificial-analysis.md) — 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜。外探源，不是 harness。
 * [Agent Skills](./agent-skills.md) — 开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。
 * [Claude Tag](./claude-tag.md) — 频道侧常驻 Agent：记忆、指令、日程与 MCP，值班骨干
 * [Claude](./claude.md) — Anthropic 的助手与编码产品线（Claude.ai / Claude Code 等）；官方博客 claude.com/blog。
@@ -58,6 +59,7 @@
 * [cc-switch](./cc-switch.md) — Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手
 * [Gemini CLI](./gemini-cli.md) — Gemini 官方终端 Agent
 * [Crawl4AI](./crawl4ai.md) — 面向 LLM 的开源爬虫
+* [SearchCLI](./searchcli.md) — 火山引擎开源：Agent 驱动搜索自迭代；Skills 出策略，CLI 跑实验，人审候选配置。
 * [llm-universe](./llm-universe.md) — Datawhale 大模型应用开发教程
 * [Paseo](./paseo.md) — 桌面 / 手机编排多个编码代理
 * [深入理解 AI Agent](./ai-agent-book.md) — 李博杰：Agent 设计原理与工程实践

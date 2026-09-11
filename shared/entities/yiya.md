@@ -10,13 +10,14 @@ related:
   - karpathy
   - obsidian
   - llm-wiki
+  - open-knowledge-format
 sources:
   - ../references/sxwedo-yiya-github.md
 ---
 
 # Summary
 
-**yiya** 的上游仓库是 [sxwedo/yiya](https://github.com/sxwedo/yiya)。个人知识库：LLM Wiki 流程 + OKF + Domain。
+**yiya** 的上游仓库是 [sxwedo/yiya](https://github.com/sxwedo/yiya)。个人知识库：LLM Wiki 流程 + [Open Knowledge Format](./open-knowledge-format.md) bundle + Domain。
 
 ## Related
 
@@ -24,3 +25,4 @@ sources:
 - [Andrej Karpathy](./karpathy.md)
 - [Obsidian](./obsidian.md)
 - [LLM Wiki](../concepts/llm-wiki.md)
+- [Open Knowledge Format](./open-knowledge-format.md)

@@ -14,8 +14,10 @@ related:
   - i-have-adhd
   - archify
   - llm-wiki
+  - open-knowledge-format
 sources:
   - ../references/wikiskill-three-layer.md
+  - ../../../raw/articles/飞叔慢谈/OKF 工程：一种新的语义表达范式正在形成.md
 ---
 
 # Definition
@@ -37,3 +39,4 @@ sources:
 - [skills.sh](../entities/skills-sh.md)
 - [Agent Skills](../entities/agent-skills.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
+- [Open Knowledge Format](../../../shared/entities/open-knowledge-format.md)

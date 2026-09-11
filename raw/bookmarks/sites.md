@@ -11,6 +11,7 @@
 | FastMCP | <https://gofastmcp.com/> | Prefect | 建 MCP server/client/Apps 的主流 Python 框架（官方 SDK 高层 API 渊源；文档可挂 MCP） |
 | LangChain | <https://www.langchain.com> | LangChain | 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）+ LangSmith 工程平台 |
 | Trendshift | <https://trendshift.io> | Trendshift | GitHub 仓库实时动量榜（上升期捕捉，非峰值后），GitHub Trending 替代 |
+| Artificial Analysis | <https://artificialanalysis.ai> | Artificial Analysis | 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜 |
 | Google DeepMind | <https://deepmind.google/> | Google DeepMind | Google 的 AI 研究实验室总入口：Gemini/Gemma 等模型，以及科学与机器人方向 |
 | Obsidian | <https://obsidian.md/> | Obsidian | 本地优先的 Markdown 知识库（vault + 双向链接 + 图谱）；Karpathy 把 LLM Wiki 的人读面叫成 IDE |
 | Starship | <https://starship.rs/> | Starship | 跨 shell 的极简提示符（Rust）：bash/zsh/fish 等共用一份配置 |

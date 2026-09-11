@@ -9,9 +9,11 @@ related:
   - knowledge-skill-separation
   - llm-wiki
   - self-growing-kb
+  - open-knowledge-format
 sources:
   - ../references/wikiskill-three-layer.md
   - ../../../raw/articles/Hanako/KARPATHY JUST KILLED THE PROMPT ERA WITH A SINGLE DOCUMENT.md
+  - ../../../raw/articles/飞叔慢谈/OKF 工程：一种新的语义表达范式正在形成.md
 ---
 
 # Definition
@@ -31,3 +33,4 @@ sources:
 - [知识与技能分离](./knowledge-skill-separation.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
 - [Self-growing Knowledge Base](../../../shared/concepts/self-growing-kb.md)
+- [Open Knowledge Format](../../../shared/entities/open-knowledge-format.md)

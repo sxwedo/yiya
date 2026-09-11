@@ -16,6 +16,9 @@ related:
 sources:
   - ../references/ng-evals-watershed.md
   - ../../../raw/articles/Hugo Vergnes/Training a 3.8B LLM to 0.384 CORE for $998.md
+  - ../../../raw/articles/阿里技术/相关性 ≠ 因果性：因果推断在 AI 评测归因中的方法与实践.md
+  - ../../../raw/articles/得物技术/推荐系统体验的数字化突破：得物自动化评测平台的技术实践｜AICon 文章整理.md
+  - ../../../raw/articles/字节跳动技术团队/火山引擎开源 Agent 驱动的搜索自迭代技术.md
 ---
 
 # Definition
@@ -32,6 +35,8 @@ sources:
 
 个人从零训练也可把单一公开分数当方向盘：Hugo Vergnes 用 CORE 导航 3.8B / $998 的训练线，早年失败跑（cosine 衰减到 0）在分数上立刻可见。
 
+复杂系统还要分清相关与因果：指标一起动不等于某组件是因。搜索调参则把「提出假设 → 分配评测预算 → 验证收益」交给 Agent，人只审候选配置。主观体验指标可用 LLM 评测员把反馈从周级收到小时级，但仍需人机校验对齐。
+
 ## Related
 
 - [LLM-as-Judge Runtime](../../agents/concepts/llm-as-judge-runtime.md)
@@ -41,3 +46,5 @@ sources:
 - [四层 Agent 记忆](../../agents/concepts/four-layer-agent-memory.md)
 - [Discovery Loop](../../../shared/entities/discovery-loop.md)
 - [Looped Transformer](./looped-transformer.md)
+- [Artificial Analysis](../../agents/entities/artificial-analysis.md)
+- [SearchCLI](../../agents/entities/searchcli.md)

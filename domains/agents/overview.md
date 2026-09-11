@@ -74,6 +74,7 @@ sources: []
 | [cc-switch](./entities/cc-switch.md) | Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手 |
 | [Gemini CLI](./entities/gemini-cli.md) | Gemini 官方终端 Agent |
 | [Crawl4AI](./entities/crawl4ai.md) | 面向 LLM 的开源爬虫 |
+| [SearchCLI](./entities/searchcli.md) | 火山引擎：Agent 驱动搜索自迭代（实验闭环，不直接改线上） |
 | [llm-universe](./entities/llm-universe.md) | Datawhale 大模型应用开发教程 |
 | [Paseo](./entities/paseo.md) | 桌面 / 手机编排多个编码代理 |
 | [深入理解 AI Agent](./entities/ai-agent-book.md) | 李博杰：Agent 设计原理与工程实践 |
@@ -97,6 +98,7 @@ sources: []
 | Entity | 一句话 |
 |--------|--------|
 | [Trendshift](./entities/trendshift.md) | GitHub 仓库实时动量榜，上升期捕捉趋势；不是 agent 产品 |
+| [Artificial Analysis](./entities/artificial-analysis.md) | 独立模型与 API 评测（质量/价格/速度）；含 Coding Agents 榜 |
 
 （具名产品/框架入库时在此追加；跨域权威可升 `shared/entities`。）
 

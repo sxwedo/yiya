@@ -16,6 +16,7 @@ related:
   - agents-md
 sources:
   - ../../../raw/articles/Smartpig/如何统一管理 Codex、Claude、DeepSeek 等不同的 AI Harness，让切换像换编译器一样简单.md
+  - ../../../raw/articles/轩见AI/大厂开始合并 Agent：企业不需要 100 个孤岛 AI 员工，而需要一个统一工作台.md
 ---
 
 # Definition
@@ -30,7 +31,7 @@ sources:
 4. **能力注册表**：必需能力缺失则拒跑或改路由，不假装完全等价
 5. **权限与状态在 Harness 外**：会话可迁移，输出格式统一才便于比较与切换
 
-与本域 [Delivery Harness](./delivery-harness.md)（交付门禁）、[Minimal Agent Harness](./minimal-agent-harness.md)（单产品原语）、[mena](../entities/mena.md)（本机多产品启动壳）互补：本概念偏「团队级多执行器编排」。
+与本域 [Delivery Harness](./delivery-harness.md)（交付门禁）、[Minimal Agent Harness](./minimal-agent-harness.md)（单产品原语）、[mena](../entities/mena.md)（本机多产品启动壳）互补：本概念偏「团队级多执行器编排」。企业侧同一逻辑是「一个任务入口 + 多个专业 Agent + 共享底座」，而不是 100 个孤岛聊天窗或一个万能超级 Agent。
 
 ## Related
 

@@ -19,6 +19,7 @@ sources:
   - ../../../raw/articles/Mahax/Agents, Loops, Graphs. Everything You Need to Know in One Place.md
   - ../../../raw/articles/Mahax/Graph Engineering with Claude. What It Is and How to Actually Use It.md
   - ../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md
+  - ../../../raw/articles/腾讯技术工程/Loop Engineering 已死？ 一文带你了解Graph Engineering.md
 ---
 
 # Definition
@@ -32,7 +33,7 @@ sources:
 3. **Checker 节点**：并行层与汇聚之间验空结果/矛盾/跑题/低置信/格式，防坏输入稀释进终稿。  
 4. **静态优先**：可重复任务先画死结构；范围随发现生长再用动态图（更难审计）。
 
-相对 [Loop Engineering](./loop-engineering.md)：loop 偏「闭环自治怎么转」；本页偏「任务依赖图怎么铺与并行」。演进叙述见 Carlos「From Loop to Graph」raw（若已认领）。
+相对 [Loop Engineering](./loop-engineering.md)：loop 偏「闭环自治怎么转」；本页偏「任务依赖图怎么铺与并行」。Loop 解决单个 agent 持续工作；Graph 解决多节点组织成可观测、可恢复系统。杠杆在确定性（独立 Verifier、代码落在边上），不在堆智能体数量。
 
 ## Related
 

@@ -21,6 +21,7 @@ sources:
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
   - ../../../raw/articles/Claude/How Warp builds self-improving agents on Claude.md
   - ../../../raw/articles/Claude/New in Claude Managed Agents： dreaming, outcomes, and multiagent orchestration.md
+  - ../../../raw/articles/腾讯技术工程/Agent开始“自我进化”：会出题、会反思，还会自己长出新技能.md
 ---
 
 # Definition
