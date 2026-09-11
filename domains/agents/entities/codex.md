@@ -12,6 +12,7 @@ related:
   - claude
   - pi
   - grok-build
+  - harness-runtime-layer
 sources:
   - ../references/openai-codex-github.md
   - ../references/openai-openai-cookbook-github.md
@@ -26,11 +27,14 @@ sources:
   - ../../../raw/articles/向阳乔木/打开Codex，设定目标或直接对话，提示词如下：.md
   - ../../../raw/articles/姚金刚/结合最近写skill的一些心得，总结了一个Skill设计五步法：.md
   - ../../../raw/articles/向阳乔木/最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错：.md
+  - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
 ---
 
 # Summary
 
 **Codex** 的上游仓库是 [openai/codex](https://github.com/openai/codex)。OpenAI 终端轻量编码代理。同仓相关书签：[openai/openai-cookbook](../references/openai-openai-cookbook-github.md)、[openai/codex-plugin-cc](../references/openai-codex-plugin-cc-github.md)。
+
+腾讯技术工程拆其运行时：Approval 与 Sandbox 两道边界（点允许 ≠ 拿到整机）；Thread / Turn / Item 加 Thread Manager，长任务可监督、中断、恢复，子 Agent 是独立子 Thread 而非挤进同一上下文。对照见 [Harness 运行时层](../concepts/harness-runtime-layer.md)。
 
 ## Related
 
@@ -40,3 +44,4 @@ sources:
 - [Claude](./claude.md)
 - [Pi](./pi.md)
 - [Grok Build](./grok-build.md)
+- [Harness 运行时层](../concepts/harness-runtime-layer.md)

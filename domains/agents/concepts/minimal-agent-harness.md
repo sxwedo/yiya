@@ -14,8 +14,11 @@ related:
   - harness-self-improvement
   - ttsr
   - pi-agent-book
+  - harness-runtime-layer
 sources:
   - ../references/pi-vs-oh-my-pi.md
+  - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
+  - ../../../raw/articles/得物技术/实战从零开始构建一个Coding Agent：Violin ｜得物技术.md
 ---
 
 # Definition
@@ -25,6 +28,10 @@ sources:
 收益：低上下文税、行为边界清晰、可无限扩展。代价：开箱能力弱，团队需投入扩展开发与维护。
 
 对照面是 **Batteries Included**：原生装好 LSP/DAP/评审/协作等，换取上手速度与一致性，但核心更重、定制路径不同。选型应看「要不要自己造轮子」而非价格（两者常同为开源自备模型）。
+
+腾讯技术工程把极简从审美写成成本：Pi 默认只暴露 `read` / `write` / `edit` / `bash`，Databricks 追踪同模型换到 Pi 后每轮上下文约少三倍、轮次更少；代价是不内置权限系统，高风险环境要外补沙箱。这是 [Harness 运行时层](./harness-runtime-layer.md) 上「收得尽可能小」的一端。
+
+得物 Violin 按同一蓝本用 Zig 重写：模型适配 / 内核 Loop / 产品层分离，内置工具集与 Pi 对齐；验证「读懂 Pi 就能造别的 agent」，不为 Violin 另开 Entity。[Pi](../entities/pi.md) 的 `sources` 已满阈值，本篇不往产品页堆。
 
 ## Related
 
@@ -39,3 +46,4 @@ sources:
 - [Evidence Gate](./evidence-gate.md)
 - [Harness 自改进](./harness-self-improvement.md)
 - [TTSR](./ttsr.md)
+- [Harness 运行时层](./harness-runtime-layer.md)

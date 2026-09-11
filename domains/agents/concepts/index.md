@@ -13,6 +13,7 @@
 * [Evidence Gate](./evidence-gate.md) — 交付状态跃迁的证据门禁：每一步结论必须对应可复查证据，答不全则停在原地。
 * [四层 Agent 记忆](./four-layer-agent-memory.md) — 按生命周期拆分 Working / Session / User / Agent Memory：当前步、会话史、跨 Agent 用户事实、单 Agent 经验与约定。
 * [Harness 自改进](./harness-self-improvement.md) — 通过持久化改记忆、Skill、Prompt、工具与工作流来进化 Agent；即时生效、可回滚，是当前最高性价比的自进化层。
+* [Harness 运行时层](./harness-runtime-layer.md) — Agent Loop 之外的运行时：装配上下文、管会话与权限沙箱、持久化事件、调度子 Agent。Agent 决定下一步，Harness 决定约束。
 * [历史不等于记忆](./history-vs-memory.md) — 原始会话记录保留当时说过什么；记忆是整理后可更新、可遗忘、可按需召回的状态，长上下文不能替代。
 * [知识与技能分离](./knowledge-skill-separation.md) — 知识回答「我们知道什么」，技能回答「我们该怎么做」；技能可回滚，知识层应持续积累且不随拒绝回滚。
 * [Minimal Agent Harness](./minimal-agent-harness.md) — 极简代理框架哲学：核心只保留原语（Primitives, not features），高级能力由扩展/技能按需组装，以降低上下文税并保持可控。

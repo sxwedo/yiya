@@ -2,6 +2,8 @@
 
 ## 2026-09-11
 
+* **Ingest**: 数据集成与治理两篇 ODS/DWD/DWS/ADS → 新建 [数仓分层](./concepts/warehouse-layering.md)；续写 [语义层](./concepts/semantic-layer.md)、[数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md)。本体与AI《本体驱动问数》+ Servi-Pedia《本体论 or 知识图谱》→ 续写 [Text2Semantic2SQL](./concepts/text2semantic2sql.md)、[业务 Ontology](./concepts/business-ontology.md)。无新 Reference。
+* **Ingest**: 技术自由圈《Ontology 本体论 RAG…》→ 续写 [业务 Ontology](./concepts/business-ontology.md)（DDD 映射 + TBox/ABox，无新页）。
 * **Migrate**: [shadcn-admin](../design/entities/shadcn-admin.md) 及 GitHub Reference → `design`。
 
 ## 2026-09-10

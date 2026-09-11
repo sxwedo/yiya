@@ -11,8 +11,11 @@ related:
   - semantic-service
   - text2semantic2sql
   - wikiskill-architecture
+  - warehouse-layering
 sources:
   - ../references/semantic-layer-chatbi.md
+  - ../../../raw/articles/本体与AI/本体驱动问数：国内外技术方案深度研究.md
+  - ../../../raw/articles/数据集成与治理/ODS、DWD、DWS、ADS已经不够用了？AI时代的数仓该怎么分层.md
 ---
 
 # Definition
@@ -21,6 +24,8 @@ sources:
 
 它不是又一份自然语言文档，而是机器可执行的口径模型。AI/BI 消费语义层时，优先「选口径」而非直接猜表写 SQL。原子口径应挂公共层唯一权威，避免各业务线各建一套把表冲突上移到模型冲突。
 
+形态上，国内主流是指标语义层（度量 / 维度 / 口径 / 权限前置）；国际还有操作型本体（数据+逻辑+动作同一层）。数仓侧：ODS–ADS 仍是地基，但 Agent 成为使用者后 ADS 不是唯一终点——语义层解释「收入」指哪一口径，再交给受控查询工具，而不是让模型直连库。标准化在向中立语义互换收敛（如 Apache Ossie），把含义做成可移植资产。
+
 ## Related
 
 - [业务 Ontology](./business-ontology.md)
@@ -28,3 +33,4 @@ sources:
 - [Semantic Service](./semantic-service.md)
 - [Text2Semantic2SQL](./text2semantic2sql.md)
 - [WikiSkill 三层架构](../../agents/concepts/wikiskill-architecture.md)
+- [数仓分层](./warehouse-layering.md)

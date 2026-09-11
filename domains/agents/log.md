@@ -2,6 +2,8 @@
 
 ## 2026-09-11
 
+* **Ingest**: 得物《Violin》→ 续写 [Harness 运行时层](./concepts/harness-runtime-layer.md)、[Minimal Agent Harness](./concepts/minimal-agent-harness.md)。不建 Violin Entity；不往 [Pi](./entities/pi.md) 堆 sources（已满 15）。
+* **Ingest**: 腾讯技术工程《从一次 LLM 调用到完整 Harness…》→ 新建 [Harness 运行时层](./concepts/harness-runtime-layer.md)；续写 [Minimal Agent Harness](./concepts/minimal-agent-harness.md)、[Harness 自改进](./concepts/harness-self-improvement.md)、[Pi](./entities/pi.md)、[Codex](./entities/codex.md)、[Hermes Agent](./entities/hermes-agent.md)。无新 Reference。结构体检：OpenCode 暂不建 Entity。
 * **Migrate**: [AI Design De-slop](../design/concepts/ai-design-deslop.md)、[Open Design](../design/entities/open-design.md)、[Ian 小黑配图](../design/entities/ian-xiaohei-illustrations.md)、[Holo Card Studio](../design/entities/holo-card-studio.md) 及对应 GitHub Reference → `design`。Related 改为跨域相对路径。
 * **Ingest**: [多 Agent 协作模式](./concepts/multi-agent-collaboration-patterns.md) ← 叶小钗微信长文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。
 * **Ingest**: [Agent On-call](./concepts/agent-oncall.md) + Entity [Claude Tag](./entities/claude-tag.md) ← Sachin Malhotra Claude on-call 博文（直链 raw，无 Reference）(2026-09-11). 结构体检：无新 Domain/约定改动。

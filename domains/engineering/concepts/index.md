@@ -2,6 +2,7 @@
 
 * [业务 Ontology](./business-ontology.md) — 把分散系统中的数据、规则与能力组织成可理解、可计算、可执行的企业语义：Fact · Logic · Action。
 * [数据工程瓶颈上移](./de-bottleneck-upshift.md) — 人力瓶颈从物理搬运与清洗，上移到业务语义、合规与 AI 体系管控；确定性重复工作交给 AI，判断与责任留给人。
+* [数仓分层](./warehouse-layering.md) — ODS→DWD→DWS→ADS 把从源系统到应用的加工链路拆开；AI 时代四层仍是地基，ADS 不再是唯一终点，其上要补语义与受控 Serving。
 * [表征难负样本](./embedding-hard-negatives.md) — Embedding 质量的天花板往往在负例质量：Batch 内易负不够；需构造难负并处理假负，让模型学会细粒度区分。
 * [评测驱动开发](./eval-driven-development.md) — 用有纪律的评测与错误分析循环导航 AI 系统迭代：决定测什么、怎么测、何时让 LLM/人当裁判，并让评测本身随项目进化。
 * [LLM 排序语义表征](./llm-semantic-ranking-embedding.md) — 用 LLM 为 Query/供给生成语义向量，以相似度信号注入精排，弥补词面匹配在长尾与非标供给上的语义 Gap。

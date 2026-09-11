@@ -22,6 +22,7 @@ related:
   - buchidonggua-dg-ai-notes-github
   - antinomie-lab-pi-book-github
   - hahhforest-pi-textbook-github
+  - harness-runtime-layer
 sources:
   - ../references/pi-dev-site.md
   - ../references/earendil-pi-github.md
@@ -37,11 +38,14 @@ sources:
   - ../../../raw/articles/Yuu💖/pi codebase book 第 1、2 章上线：[books.antinomie.org－pi－](https－－－books.antinomie.org－pi－).md
   - ../../../raw/articles/Pi/Tips to get the most out of －tree－.md
   - ../../../raw/articles/MateMatt/Agent 底层状态机编排演进-让你搭建出大厂标准的 Agent 架构.md
+  - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
 ---
 
 # Summary
 
 **Pi**（Agent Harness）定位「改变框架，而非改变你的工作流」。核心刻意不做子代理、计划模式、权限弹窗等成品功能，而提供原语：Extensions、Skills、Prompt Templates、Themes、Packages。
+
+腾讯技术工程补充：默认四工具 + Resource Loader 显式装配 `AGENTS.md` / Skills；Composio / Databricks 基准里同模型换 Pi 往往更便宜，因每轮上下文更紧。不内置权限，高风险环境需外补沙箱。对照见 [Harness 运行时层](../concepts/harness-runtime-layer.md)。
 
 要点：四种模式（Interactive / Print-JSON / RPC / SDK）；树形会话历史可分支回退；上下文原语含 [`AGENTS.md`](./agents-md.md)、`SYSTEM.md`、Skills；多提供商 LLM。适合深度定制与自建扩展生态的团队。站点：<https://pi.dev/> · 仓库：[earendil-works/pi](https://github.com/earendil-works/pi)
 
@@ -64,3 +68,4 @@ sources:
 - [buchidonggua/dg-ai-notes（GitHub）](../references/buchidonggua-dg-ai-notes-github.md)
 - [antinomie-lab/pi-book（GitHub）](../references/antinomie-lab-pi-book-github.md)
 - [hahhforest/pi-textbook（GitHub）](../references/hahhforest-pi-textbook-github.md)
+- [Harness 运行时层](../concepts/harness-runtime-layer.md)

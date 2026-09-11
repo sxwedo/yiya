@@ -13,9 +13,12 @@ related:
   - delivery-harness
   - evidence-gate
   - minimal-agent-harness
+  - harness-runtime-layer
+  - hermes-agent
 sources:
   - ../references/agent-self-evolution-flywheel.md
   - ../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md
+  - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
 ---
 
 # Definition
@@ -28,6 +31,8 @@ sources:
 
 当下主战场是 Harness：即时、可控；收益可来自更少迭代与更低 token，而不动模型。与 Delivery Harness / Minimal Harness 概念相邻：此处强调「配套系统可被评测驱动地持续改写」。
 
+[Hermes Agent](../entities/hermes-agent.md) 把这条路做成运行时：Background Review 从 Session Archive 提炼 Memory 与 Skills，问的是第二次少走弯路，而不是把聊天记录当记忆。对照 [Harness 运行时层](./harness-runtime-layer.md)。
+
 ## Related
 
 - [Agent On-call](./agent-oncall.md)
@@ -37,3 +42,5 @@ sources:
 - [Delivery Harness](./delivery-harness.md)
 - [Evidence Gate](./evidence-gate.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
+- [Harness 运行时层](./harness-runtime-layer.md)
+- [Hermes Agent](../entities/hermes-agent.md)
