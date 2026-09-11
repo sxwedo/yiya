@@ -7,6 +7,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
 related:
   - agent-otel-probe
+  - agentloop
 sources:
   - ../references/agentloop-data-ingress.md
 ---
@@ -25,3 +26,4 @@ sources:
 ## Related
 
 - [Agent OTel 探针](./agent-otel-probe.md)
+- [AgentLoop](../entities/agentloop.md)

@@ -7,6 +7,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:20:00Z }
 related:
   - agent-telemetry-ingress
+  - agentloop
 sources:
   - ../references/agentloop-data-ingress.md
 ---
@@ -22,3 +23,4 @@ sources:
 ## Related
 
 - [Agent 遥测接入形态](./agent-telemetry-ingress.md)
+- [AgentLoop](../entities/agentloop.md)

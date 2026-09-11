@@ -18,6 +18,7 @@ sources:
   - ../../../raw/articles/数据集成与治理/ODS、DWD、DWS、ADS已经不够用了？AI时代的数仓该怎么分层.md
   - ../../../raw/articles/大胖说数据智能/【大胖智能】Data Agent 的本质不是 Agent，而是 Data Engineering.md
   - ../../../raw/articles/AI数据奇点/Data Agent二篇：查数Agent 你们的是否可信？.md
+  - ../../../raw/articles/智透圈/OpenAI 如何构建内部数据智能体（Data Agent）.md
 ---
 
 # Definition

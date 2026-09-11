@@ -14,6 +14,8 @@ related:
 sources:
   - ../../../raw/articles/数据集成与治理/ODS、DWD、DWS、ADS：数据仓库四层架构一次讲清.md
   - ../../../raw/articles/数据集成与治理/ODS、DWD、DWS、ADS已经不够用了？AI时代的数仓该怎么分层.md
+  - ../../../raw/articles/商业智能研究/数据建模到底在建什么？业务、逻辑、物理模型一次讲清.md
+  - ../../../raw/articles/Data猫DC/数仓模型验证流程.md
 ---
 
 # Definition

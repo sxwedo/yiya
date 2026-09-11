@@ -2,6 +2,7 @@
 
 ## 2026-09-11
 
+* **Ingest**: 意图/治理/建模/问数/数仓验证微信 → 续写 [语义工程师](./concepts/semantic-engineer.md)、[数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md)、[Text2Semantic2SQL](./concepts/text2semantic2sql.md)、[语义层](./concepts/semantic-layer.md)、[业务 Ontology](./concepts/business-ontology.md)、[数仓分层](./concepts/warehouse-layering.md)。无新页。
 * **Ingest**: 本体/问数/评测微信：续写 [业务 Ontology](./concepts/business-ontology.md)、[语义层](./concepts/semantic-layer.md)、[Text2Semantic2SQL](./concepts/text2semantic2sql.md)、[数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md)、[评测驱动开发](./concepts/eval-driven-development.md)。无新页。
 * **Ingest**: 数据集成与治理两篇 ODS/DWD/DWS/ADS → 新建 [数仓分层](./concepts/warehouse-layering.md)；续写 [语义层](./concepts/semantic-layer.md)、[数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md)。本体与AI《本体驱动问数》+ Servi-Pedia《本体论 or 知识图谱》→ 续写 [Text2Semantic2SQL](./concepts/text2semantic2sql.md)、[业务 Ontology](./concepts/business-ontology.md)。无新 Reference。
 * **Ingest**: 技术自由圈《Ontology 本体论 RAG…》→ 续写 [业务 Ontology](./concepts/business-ontology.md)（DDD 映射 + TBox/ABox，无新页）。

@@ -16,6 +16,7 @@ related:
   - opencode
   - history-vs-memory
   - auto-mode
+  - dataflow-harness
 sources:
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
   - ../../../raw/articles/得物技术/实战从零开始构建一个Coding Agent：Violin ｜得物技术.md
@@ -24,6 +25,8 @@ sources:
   - ../../../raw/articles/Claude/Seeing like an agent： how we design tools in Claude Code.md
   - ../../../raw/articles/Claude/The new rules of context engineering for Claude 5 generation models.md
   - ../../../raw/articles/Claude/A harness for every task： dynamic workflows in Claude Code.md
+  - ../../../raw/articles/Datawhale/AI 数据最难搞的 Harness 工程，被北大开源了！.md
+  - ../../../raw/articles/智透圈/OpenAI 如何构建内部数据智能体（Data Agent）.md
 ---
 
 # Definition
@@ -65,4 +68,4 @@ Claude 5 代模型上，Claude Code 砍掉 80%+ 系统提示仍不掉编码评�
 - [Hermes Agent](../entities/hermes-agent.md)
 - [历史不等于记忆](./history-vs-memory.md)
 - [Auto Mode](./auto-mode.md)
-- [打开 raw](<../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md>)
+- [DataFlow-Harness](../entities/dataflow-harness.md)

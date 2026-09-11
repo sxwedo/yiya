@@ -20,6 +20,8 @@ sources: []
 | -------- | -------- |
 | [AGENTS.md](./entities/agents-md.md) | 仓内给 Agent 读的约定文件（规范：agents.md） |
 | [Agent Skills](./entities/agent-skills.md) | SKILL.md 开放格式：按需加载规程与脚本 |
+| [AgentLoop](./entities/agentloop.md) | 阿里云：Trace→经验库，运行时召回；不改模型权重 |
+| [DataFlow-Harness](./entities/dataflow-harness.md) | 北大 OpenDCAI：数据流水线 Harness，MCP 改 DAG |
 | [Claude](./entities/claude.md) | Anthropic 助手与编码产品线；博客 claude.com/blog |
 | [Claude Academy](./entities/claude-academy.md) | Anthropic 官方学院：学用 Claude 与 AI Fluency |
 | [小山学堂](./entities/xiaoshan-xuetang.md) | 免费 AI 产品课：Harness / Agent / MCP；含解剖 Grok Build |

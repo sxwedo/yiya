@@ -13,6 +13,7 @@ related:
 sources:
   - ../references/agent-self-evolution-flywheel.md
   - ../../../raw/articles/腾讯技术工程/Agent开始“自我进化”：会出题、会反思，还会自己长出新技能.md
+  - ../../../raw/articles/阿里云云原生/让 Agent 越用越准、成本越来越低：AgentLoop 的 Agent 经验自进化闭环.md
 ---
 
 # Definition
@@ -32,3 +33,4 @@ sources:
 - [Harness 自改进](./harness-self-improvement.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
+- [AgentLoop](../entities/agentloop.md)

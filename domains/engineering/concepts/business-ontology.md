@@ -19,6 +19,7 @@ sources:
   - ../../../raw/articles/智能数据研讨/本体建设第一步：如何识别业务对象、关系和状态？.md
   - ../../../raw/articles/大兵E视界/从领域驱动设计（DDD）到本体论（Ontology）：软件架构师视角下的一次回归.md
   - ../../../raw/articles/大胖说数据智能/【大胖智能】Data Agent 的本质不是 Agent，而是 Data Engineering.md
+  - ../../../raw/articles/商业智能研究/数据建模到底在建什么？业务、逻辑、物理模型一次讲清.md
 ---
 
 # Definition

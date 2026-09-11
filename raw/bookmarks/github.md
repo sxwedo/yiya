@@ -85,6 +85,8 @@
 | astral-sh/uv | <https://github.com/astral-sh/uv> | astral-sh | Rust 写的 Python 包与项目管理器 |
 | dunwu/db-tutorial | <https://github.com/dunwu/db-tutorial> | dunwu | 后端数据库知识教程 |
 | unclecode/crawl4ai | <https://github.com/unclecode/crawl4ai> | unclecode | 面向 LLM 的开源爬虫 |
+| OpenDCAI/DataFlow | <https://github.com/OpenDCAI/DataFlow> | OpenDCAI | 一站式 LLM 训练数据准备；DataFlow-Harness 的算子底座 |
+| OpenDCAI/DataFlow-WebUI | <https://github.com/OpenDCAI/DataFlow-WebUI> | OpenDCAI | DataFlow-Harness 交互入口：对话 + DAG 画布 |
 | volcengine/SearchCLI | <https://github.com/volcengine/SearchCLI> | volcengine | Agent 驱动搜索自迭代：Skills + CLI 跑实验，不直接改线上 |
 | donnemartin/system-design-primer | <https://github.com/donnemartin/system-design-primer> | donnemartin | 大规模系统设计入门 |
 | datawhalechina/llm-universe | <https://github.com/datawhalechina/llm-universe> | datawhalechina | Datawhale 大模型应用开发教程 |

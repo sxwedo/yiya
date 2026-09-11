@@ -1,6 +1,7 @@
 # entities
 
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定文件：对人用 README，对 Agent 用 AGENTS.md；规范站点 agents.md。
+* [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。
 * [Artificial Analysis](./artificial-analysis.md) — 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜。外探源，不是 harness。
 * [Agent Skills](./agent-skills.md) — 开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。
 * [Claude Tag](./claude-tag.md) — 频道侧常驻 Agent：记忆、指令、日程与 MCP，值班骨干
@@ -30,6 +31,7 @@
 * [Zread](./zread.md) — 把 GitHub 仓编译成结构化项目 Wiki：架构图、模块说明、文档内问答；地址栏 github.com 换成 zread.ai 即开。
 * [Obelisk](./obelisk.md) — 编码代理历史会话 / 子代理 / 工作流可查询
 * [Ruflo](./ruflo.md) — 多智能体 swarm 的 meta-harness
+* [DataFlow-Harness](./dataflow-harness.md) — 北大 OpenDCAI：给 DataFlow 数据流水线加 Harness，输出可编辑平台原生 DAG。
 * [DeepSeek Harness](./deepseek-harness.md) — DeepSeek 官方 harness：一切皆插件
 * [AgentsView](./agentsview.md) — 编码代理会话检索、分析与 token 统计
 * [TeamAI CLI](./teamai-cli.md) — 腾讯团队 AI Native CLI
