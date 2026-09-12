@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-09T13:15:00Z }
 related:
+  - multi-agent-architecture-selection
   - evidence-gate
   - loop-engineering
   - delivery-harness
@@ -37,6 +38,7 @@ Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent�
 
 ## Related
 
+- [多 Agent 架构选型](./multi-agent-architecture-selection.md)
 - [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
 - [Evidence Gate](./evidence-gate.md)
 - [Loop Engineering](./loop-engineering.md)

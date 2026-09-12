@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-09T12:45:00Z }
 related:
+  - multi-agent-architecture-selection
   - multi-agent-collaboration-patterns
   - multi-agent-governance
   - graph-engineering
@@ -31,6 +32,7 @@ sources:
 
 ## Related
 
+- [多 Agent 架构选型](./multi-agent-architecture-selection.md)
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
 - [多智能体治理](./multi-agent-governance.md)
 - [Graph Engineering](./graph-engineering.md)

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-11T01:00:00Z }
 related:
+  - multi-agent-architecture-selection
   - multi-agent-governance
   - multi-agent-failure-modes
   - plan-mode-multiagent
@@ -14,6 +15,7 @@ related:
   - graph-engineering
   - llm-as-judge-runtime
 sources:
+  - ../../../raw/articles/Datawhale/重磅！Google发布多智能体最佳实践！.md
   - ../../../raw/articles/叶小钗/一文讲透多Agent协作：4种模式、3个判断标准、4大工程落地陷阱.md
   - ../../../raw/articles/Claude/Common workflow patterns for AI agents—and when to use them.md
   - ../../../raw/articles/Claude/Building multi-agent systems: When and how to use them.md
@@ -61,6 +63,7 @@ Anthropic 把「工作流」与「完全自主 Agent」分开：工作流给整�
 
 ## Related
 
+- [多 Agent 架构选型](./multi-agent-architecture-selection.md)
 - [多智能体治理](./multi-agent-governance.md)
 - [多智能体失效模式](./multi-agent-failure-modes.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)

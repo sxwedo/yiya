@@ -2,6 +2,7 @@
 
 ## 2026-09-11
 
+* **Ingest**: [多 Agent 架构选型](./concepts/multi-agent-architecture-selection.md) ← Datawhale 梳理 Google/DeepMind/MIT 多智能体最佳实践（arxiv 2512.08296；直链 raw）(2026-09-11). 结构体检：无新 Domain/约定改动。
 * **Ingest**: 微信 8 篇 → 新建 [AgentLoop](./entities/agentloop.md)、[DataFlow-Harness](./entities/dataflow-harness.md)；续写飞轮 / OTel / 遥测 / Harness 运行时层。无新 Reference。
 * **Refactor**: [Loop Engineering](./concepts/loop-engineering.md) 15→5（剥 buzz 与 Graph 对照文，后者只留 [Graph Engineering](./concepts/graph-engineering.md)）；[MCP](./entities/mcp.md) 14→11（剥 X MCP 公告 / 教程弱挂）。新建 [SearchCLI](./entities/searchcli.md)（github.md 一行，无新 Reference）。
 * **Ingest**: 微信 14 篇 + 书签 [Artificial Analysis](https://artificialanalysis.ai) → 新建 Entity [Artificial Analysis](./entities/artificial-analysis.md)；跨域新建 [Open Knowledge Format](../../shared/entities/open-knowledge-format.md)。成文挂 [Multi-Harness Control Plane](./concepts/multi-harness-control-plane.md)、[Graph Engineering](./concepts/graph-engineering.md)、[Loop Engineering](./concepts/loop-engineering.md)、[MCP](./entities/mcp.md)、[Agent Skills](./entities/agent-skills.md)、[Coding Agent Workflow](./concepts/coding-agent-workflow.md)、[Evidence Gate](./concepts/evidence-gate.md)、[Agent 自进化飞轮](./concepts/agent-self-evolution-flywheel.md)、[Harness 自改进](./concepts/harness-self-improvement.md)、[检索质量 Pipeline](./concepts/retrieval-quality-pipeline.md)。无新 Reference。

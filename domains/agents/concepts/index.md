@@ -21,6 +21,7 @@
 * [多智能体失效模式](./multi-agent-failure-modes.md) — 多 Agent 协作中的系统性失效：协调成本膨胀、低方差从众同错、独有信息被淹没，以及目标冲突时的对抗升级。
 * [多智能体治理](./multi-agent-governance.md) — 多 Agent 系统的核心不是堆叠数量，而是提供信任、冲突解决与多样性保护等社会基础设施。
 * [多 Agent 协作模式](./multi-agent-collaboration-patterns.md) — 三道闸 + 顺序/主管/路由/并行 + 拆分后任务面
+* [多 Agent 架构选型](./multi-agent-architecture-selection.md) — 基线/可分解/验证判据 + 五种拓扑；数量有最优值
 * [Multi-Harness Control Plane](./multi-harness-control-plane.md) — 在多个 Coding Agent Harness 之上建统一控制面：任务与项目上下文与 Harness 无关，适配器封装差异，权限与状态放在执行器之外。
 * [在线记忆流水线](./online-memory-pipeline.md) — 会话可靠进入提取→写成可独立理解的事实→补结构与关联→混合检索取回当前相关记忆，与离线长期整理分工。
 * [Playbook 反馈闭环](./playbook-feedback-loop.md) — 从任务失误复盘到更新共享 Playbook，并让其他 Bot 在下次任务默认加载新规则。
