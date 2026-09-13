@@ -38,3 +38,4 @@
 | UseGrokBot | <https://usegrokbot.com/zh-cn> | UseGrokBot | Grok Bot 发现中心：筛选公开帖与用例，不是产品本体 |
 | Termany | <https://termany.sh/> | Termany | Agent-native 终端工作区：多会话/审阅/worktree/用量看板，本机优先桌面端 |
 | arXiv | <https://arxiv.org/> | Cornell | 预印本库：公开论文、按学科分类；点名单篇再成文，不灌整站 |
+| balenaEtcher | <https://etcher.balena.io/> | balena | 把 OS 镜像安全刷到 SD 卡 / USB：三步、校验写入、默认隐藏系统盘 |

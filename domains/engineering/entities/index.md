@@ -17,6 +17,7 @@
 * [openclaw-killer](./openclaw-killer.md) — 一键卸载 OpenClaw
 * [awesome-database-learning](./awesome-database-learning.md) — 数据库内核学习材料
 * [Prefect](./prefect.md) — Python 数据管道工作流编排
+* [balenaEtcher](./balena-etcher.md) — 跨平台把 OS 镜像刷到 SD / USB，带写入校验
 * [Buzz](./buzz.md) — 本机离线语音转写（Whisper）
 * [awesome-java](./awesome-java.md) — Java 框架 / 库精选
 * [awesome-python](./awesome-python.md) — Python 选型清单

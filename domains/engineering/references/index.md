@@ -70,3 +70,5 @@
 * [apache/rocketmq（GitHub）](./apache-rocketmq-github.md) — apache/rocketmq 书签：云原生消息与流平台
 * [spring-projects/spring-framework（GitHub）](./spring-projects-spring-framework-github.md) — spring-projects/spring-framework 书签：Spring 应用框架
 * [alibaba/spring-cloud-alibaba（GitHub）](./alibaba-spring-cloud-alibaba-github.md) — alibaba/spring-cloud-alibaba 书签：阿里分布式应用一站式方案
+* [balenaEtcher（站点）](./balena-etcher-site.md) — etcher.balena.io 书签：OS 镜像刷写工具官网
+

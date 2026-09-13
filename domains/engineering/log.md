@@ -1,5 +1,10 @@
 # 工程与可维护性 — Log
 
+## 2026-09-12
+
+* **Bookmark**: [balenaEtcher](./entities/balena-etcher.md) + [站点 Ref](./references/balena-etcher-site.md) ← `raw/bookmarks/sites.md`（未灌站）(2026-09-12).
+
+
 ## 2026-09-11
 
 * **Ingest**: 意图/治理/建模/问数/数仓验证微信 → 续写 [语义工程师](./concepts/semantic-engineer.md)、[数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md)、[Text2Semantic2SQL](./concepts/text2semantic2sql.md)、[语义层](./concepts/semantic-layer.md)、[业务 Ontology](./concepts/business-ontology.md)、[数仓分层](./concepts/warehouse-layering.md)。无新页。
