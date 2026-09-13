@@ -1,6 +1,7 @@
 # entities
 
 * [Docker](./docker.md) — 容器平台：镜像、容器与 Compose 编排；官方文档门户是 docs.docker.com。
+* [华润赢](./huarun-win.md) — 翻墙/代理客户端目录：按平台与协议谱系对照选型
 * [Ghostty](./ghostty.md) — Mitchell Hashimoto 的原生 GPU 终端模拟器（Zig）：快、平台原生 UI；不是 shell 提示符，也不是编码代理。
 * [github/gitignore](./gitignore.md) — GitHub 官方维护的 .gitignore 模板集：按语言、框架与操作系统提供社区常用忽略规则。
 * [ping.pe](./ping-pe.md) — 多地网络诊断：Ping、MTR、TCP 端口、dig、BGP looking glass。

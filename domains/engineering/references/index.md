@@ -71,4 +71,5 @@
 * [spring-projects/spring-framework（GitHub）](./spring-projects-spring-framework-github.md) — spring-projects/spring-framework 书签：Spring 应用框架
 * [alibaba/spring-cloud-alibaba（GitHub）](./alibaba-spring-cloud-alibaba-github.md) — alibaba/spring-cloud-alibaba 书签：阿里分布式应用一站式方案
 * [balenaEtcher（站点）](./balena-etcher-site.md) — etcher.balena.io 书签：OS 镜像刷写工具官网
+* [华润赢（站点）](./huarun-win-site.md) — huarun.win 书签：代理客户端目录入口
 
