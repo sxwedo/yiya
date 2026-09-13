@@ -9,6 +9,7 @@ resource: ../../../raw/bookmarks/github.md
 tags: [bookmark, github]
 sources: []
 related:
+  - ai-infra-book
   - ai-agent-book
 ---
 
@@ -21,5 +22,6 @@ related:
 
 ## Related
 
+- [深入理解 AI Infra](../entities/ai-infra-book.md)
 - [深入理解 AI Agent（书站）](./bojieli-ai-agent-book-docs.md)
 - [深入理解 AI Agent](../entities/ai-agent-book.md)

@@ -64,7 +64,9 @@
 * [SearchCLI](./searchcli.md) — 火山引擎开源：Agent 驱动搜索自迭代；Skills 出策略，CLI 跑实验，人审候选配置。
 * [llm-universe](./llm-universe.md) — Datawhale 大模型应用开发教程
 * [Paseo](./paseo.md) — 桌面 / 手机编排多个编码代理
-* [深入理解 AI Agent](./ai-agent-book.md) — 李博杰：Agent 设计原理与工程实践
+* [深入理解 AI Agent](./ai-agent-book.md)
+* [深入理解 AI Infra](./ai-infra-book.md) — 李博杰：量化 AI Infra 与系统设计；ai-agent-book 姊妹篇
+ — 李博杰：Agent 设计原理与工程实践
 * [OpenWorker](./openworker.md) — 桌面 AI 同事：交付成品而非聊天
 * [OpenMinis](./openminis.md) — 跨平台开源 AI Agent 应用
 * [PraisonAI](./praisonai.md) — 编排 24/7 AI 劳动力

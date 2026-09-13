@@ -101,6 +101,7 @@
 * [openai/codex-plugin-cc（GitHub）](./openai-codex-plugin-cc-github.md) — openai/codex-plugin-cc 书签：在 Claude Code 里调用 Codex 做评审或委派
 * [getpaseo/paseo（GitHub）](./getpaseo-paseo-github.md) — getpaseo/paseo 书签：桌面 / 手机编排多个编码代理
 * [bojieli/ai-agent-book（GitHub）](./bojieli-ai-agent-book-github.md) — bojieli/ai-agent-book 书签：李博杰：Agent 设计原理与工程实践
+* [bojieli/ai-infra-book（GitHub）](./bojieli-ai-infra-book-github.md) — 深入理解 AI Infra 开源书稿仓库书签
 * [buchidonggua/dg-ai-notes（GitHub）](./buchidonggua-dg-ai-notes-github.md) — buchidonggua/dg-ai-notes 书签：Pi 源码解读与二次开发实战
 * [andrewyng/openworker（GitHub）](./andrewyng-openworker-github.md) — andrewyng/openworker 书签：桌面 AI 同事：交付成品而非聊天
 * [OpenMinis/OpenMinis（GitHub）](./openminis-openminis-github.md) — OpenMinis/OpenMinis 书签：跨平台开源 AI Agent 应用

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
+  - ai-infra-book
   - bojieli-ai-agent-book-docs
   - bojieli-ai-agent-book-github
   - hello-agents
@@ -21,6 +22,7 @@ sources:
 
 ## Related
 
+- [深入理解 AI Infra](./ai-infra-book.md)
 - [深入理解 AI Agent（书站）](../references/bojieli-ai-agent-book-docs.md)
 - [bojieli/ai-agent-book（GitHub）](../references/bojieli-ai-agent-book-github.md)
 - [从零开始构建智能体](./hello-agents.md)
