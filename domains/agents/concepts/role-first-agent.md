@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-06T10:15:00Z }
 related:
+  - ai-job-search
   - multi-agent-collaboration-patterns
   - grok-bot
   - engineering-bot
@@ -27,6 +28,7 @@ sources:
 
 ## Related
 
+- [AI Job Search](../entities/ai-job-search.md)
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
 - [10 Ways People Are Making Money With GPT-6 Astra](../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md)
 - [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)

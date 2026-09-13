@@ -1,5 +1,9 @@
 # Agent 与 harness — Log
 
+## 2026-09-13
+
+* **Bookmark**: [AI Job Search](./entities/ai-job-search.md) + [GitHub Ref](./references/madslorentzen-ai-job-search-github.md) ← `raw/bookmarks/github.md`（未灌仓）(2026-09-13).
+
 ## 2026-09-11
 
 * **Ingest**: [多 Agent 架构选型](./concepts/multi-agent-architecture-selection.md) ← Datawhale 梳理 Google/DeepMind/MIT 多智能体最佳实践（arxiv 2512.08296；直链 raw）(2026-09-11). 结构体检：无新 Domain/约定改动。

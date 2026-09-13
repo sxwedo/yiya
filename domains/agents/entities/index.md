@@ -77,6 +77,7 @@
 * [Foundations of LLMs](./foundations-of-llms.md) — 浙大 LLM 基础教材
 * [Termany](./termany.md) — Agent-native 终端工作区
 * [OtoDock](./oto-dock.md) — 自托管公司 OS：部门里跑 Claude Code / Codex，多人共用同一批 agent。
+* [AI Job Search](./ai-job-search.md) — 本机 Claude Code 求职框架：评岗、改 CV、求职信与面试准备
 * [Agent Orchestrator](./agent-orchestrator.md) — 本机桌面编排 coding agent 舰队：一任务一 worker、独立 worktree，看板跟 CI / PR / 评审。
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。
 * [Archify](./archify.md) — Agent Skill：代码或系统描述 → 类型化 JSON IR，再确定性编译成可交互架构图。

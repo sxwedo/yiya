@@ -161,3 +161,4 @@
 | ayghri/i-have-adhd | <https://github.com/ayghri/i-have-adhd> | ayghri | Skill：阻止 coding agent 把答案埋进长文 |
 | tt-a1i/archify | <https://github.com/tt-a1i/archify> | tt-a1i | Skill：代码/描述 → 可交互架构图（JSON IR → HTML/SVG） |
 | Untrivial-ai/agent-orchestrator | <https://github.com/Untrivial-ai/agent-orchestrator> | Untrivial-ai | 本机桌面编排 coding agent 舰队：计划、worktree、CI、评审 |
+| MadsLorentzen/ai-job-search | <https://github.com/MadsLorentzen/ai-job-search> | MadsLorentzen | 本机跑的求职框架（Claude Code）：评估岗位、改 CV、写求职信、面试准备 |

@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:00:00Z }
 related:
+  - ai-job-search
   - ai-design-deslop
   - termany
   - graph-engineering
@@ -62,6 +63,7 @@ AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` 
 
 ## Related
 
+- [AI Job Search](../entities/ai-job-search.md)
 - [AI Design De-slop](../../design/concepts/ai-design-deslop.md)
 - [Termany](../entities/termany.md)
 - [Graph Engineering](./graph-engineering.md)
