@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **Bookmark**: [AI Coding Dictionary](./entities/ai-coding-dictionary.md) + [站点 Ref](./references/ai-coding-dictionary-site.md) ← `raw/bookmarks/sites.md`（未灌站、未拆词条）(2026-09-14).
 * **Bookmark**: [深入理解 AI Infra](./entities/ai-infra-book.md) + [GitHub Ref](./references/bojieli-ai-infra-book-github.md) ← `raw/bookmarks/github.md`；Related 轻挂 [ai-agent-book](./entities/ai-agent-book.md)（未灌仓）(2026-09-14).
 
 ## 2026-09-13

@@ -119,4 +119,5 @@
 * [Termany（站点）](./termany-site.md) — termany.sh 书签
 * [深入理解 AI Agent（书站）](./bojieli-ai-agent-book-docs.md) — bojieli 开源书在线阅读入口
 * [MadsLorentzen/ai-job-search（GitHub）](./madslorentzen-ai-job-search-github.md) — 本机求职申请框架仓库书签
+* [AI Coding Dictionary（站点）](./ai-coding-dictionary-site.md) — aicodingdictionary.com 书签
 
