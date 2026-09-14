@@ -2,12 +2,12 @@
 
 * [Docker](./docker.md) — 容器平台：镜像、容器与 Compose 编排；官方文档门户是 docs.docker.com。
 * [华润赢](./huarun-win.md) — 翻墙/代理客户端目录：按平台与协议谱系对照选型
-* [Ghostty](./ghostty.md) — Mitchell Hashimoto 的原生 GPU 终端模拟器（Zig）：快、平台原生 UI；不是 shell 提示符，也不是编码代理。
+* [Ghostty](./ghostty.md) — Mitchell Hashimoto 的原生 GPU 终端模拟器（Zig）：macOS/Linux，key=value 配置，内置分屏与下拉终端。不是 shell，也不是编码代理。
 * [github/gitignore](./gitignore.md) — GitHub 官方维护的 .gitignore 模板集：按语言、框架与操作系统提供社区常用忽略规则。
 * [ping.pe](./ping-pe.md) — 多地网络诊断：Ping、MTR、TCP 端口、dig、BGP looking glass。
 * [Starship](./starship.md) — 跨 shell 的极简提示符（Rust）：一份配置驱动 bash/zsh/fish 等；不是编码代理，也不是容器运行时。
 * [Tailscale](./tailscale.md) — 基于 WireGuard 的 mesh VPN：设备直连加密、自动 NAT 穿透，协调面管密钥与 ACL。
-* [x-algorithm](./x-algorithm.md) — xAI 开源的 X 推荐算法生产栈：召回、多动作预测、综合排序、过滤与部署。
+* [x-algorithm](./x-algorithm.md) — xAI 开源的 X 推荐生产栈：Phoenix 多动作预测 + RankingScorer + 安全/多样性规则。公开代码缺训练数据与完整权重。
 * [Mole](./mole.md) — Mac 清理、卸载、分析 CLI 与原生 App
 * [awesome-mac](./awesome-mac.md) — 优质 macOS 软件精选
 * [public-apis](./public-apis.md) — 免费公开 API 合集
@@ -63,5 +63,5 @@
 * [RocketMQ](./rocketmq.md) — 云原生消息与流平台
 * [Spring Framework](./spring-framework.md) — Spring 应用框架
 * [Spring Cloud Alibaba](./spring-cloud-alibaba.md) — 阿里分布式应用一站式方案
-* [Desert Ant Labs](./desert-ant-labs.md) — 欧洲端侧小模型实验室：一任务一模型，毫秒级、无 token 费，SDK 进 App。
+* [Desert Ant Labs](./desert-ant-labs.md) — 欧洲端侧小模型实验室：一任务一模型，毫秒级、无 token 费，SDK 进 App；数据默认不出设备。
 * [zoxide](./zoxide.md) — 更聪明的 cd：按使用频率记目录，几个键跳转

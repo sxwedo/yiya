@@ -1,24 +1,24 @@
 # entities
 
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定文件：对人用 README，对 Agent 用 AGENTS.md；规范站点 agents.md。
-* [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。
+* [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。不改模型权重；单位是成功任务成本。
 * [Artificial Analysis](./artificial-analysis.md) — 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜。外探源，不是 harness。
 * [Agent Skills](./agent-skills.md) — 开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。
-* [Claude Tag](./claude-tag.md) — 频道侧常驻 Agent：记忆、指令、日程与 MCP，值班骨干
+* [Claude Tag](./claude-tag.md) — Anthropic 频道侧 Agent：跨轮记忆、自然语言日程、工作区身份与 MCP。CI on-call 用它当第一响应，不是代某个用户行事。
 * [Claude](./claude.md) — Anthropic 的助手与编码产品线（Claude.ai / Claude Code 等）；官方博客 claude.com/blog。
-* [Claude Academy](./claude-academy.md) — Anthropic 官方学院站点：学用 Claude 产品线与 AI Fluency（4D 等）课程。
+* [Claude Academy](./claude-academy.md) — Anthropic 官方学院：按问题学用 AI，不按功能清单。4D 流畅度、可迁移心态；免费开放，产品本体仍是 Claude。
 * [小山学堂](./xiaoshan-xuetang.md) — 米羊科技出品、洛小山主讲的免费 AI 产品课：从大模型原理到 Harness / Agent / MCP，含解剖 Grok Build。
 * [Code Wiki](./code-wiki.md) — Google 的 GitHub 仓 Wiki：Gemini 生成架构说明与图，提交后更新；对话以该 wiki 为上下文。
 * [FastMCP](./fastmcp.md) — Prefect 维护的 MCP 应用框架：用 Python 建 server/client/交互 Apps，管 schema、校验、传输与认证。
 * [GitMCP](./gitmcp.md) — 把任意公开 GitHub 仓库变成 Remote MCP server：换域名为 gitmcp.io，供兼容 MCP 的 AI 工具读取仓库上下文。
 * [Grok Bot](./grok-bot.md) — Cursor/xAI 侧长期驻场的工程多智能体产品：人做关键判断，Engineering Bot 带队，Cloud Agent 进仓执行。
-* [Grok Build](./grok-build.md) — xAI 的终端编码代理：开源 harness 与 TUI（Rust，Apache-2.0）；可指向自备推理。不是 Grok Bot。
+* [Grok Build](./grok-build.md) — xAI 终端编码代理：开源的是 harness 与 TUI（Rust，Apache-2.0），不是对话模型权重。可自备推理。不是 Grok Bot。
 * [Herdr](./herdr.md) — 编码代理的终端运行时：后台 server 持有真实终端，合盖或断网后会话还在；不替换 Claude Code / Pi 等 CLI。
 * [LangChain](./langchain.md) — 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）及 LangSmith 全生命周期工程平台。
 * [Model Context Protocol (MCP)](./mcp.md) — 连接 AI 应用与外部系统（数据源、工具、工作流）的开放标准；客户端/服务端生态广泛。
 * [mena](./mena.md) — sxwedo 的 local-first CLI：启动编码代理、浏览本地会话、巡检 Skills / MCP / memory，无守护进程与远程账号。
 * [MinerU](./mineru.md) — 面向 Agent 和 RAG 的文档解析：PDF / Office / 图片转成 LLM 可读的 Markdown 与 JSON。
-* [oh-my-pi](./oh-my-pi.md) — can1357 的 batteries-included 终端编码代理（omp.sh）：Rust 核心，原生 LSP/DAP/Advisor/TTSR/Hashline。
+* [oh-my-pi](./oh-my-pi.md) — can1357 的 batteries-included 终端编码代理（omp.sh）：Rust 核心，原生 LSP/DAP/Advisor/TTSR/Hashline。要极简请用 Pi。
 * [Omarchy](./omarchy.md) — DHH 的意见化 Arch Linux 桌面（Hyprland/Quickshell）：把 coding agent CLI 当系统一等公民，配懒加载启动器与系统定制 skill。
 * [Pi](./pi.md) — earendil-works 的极简终端编码代理框架（pi.dev）：最小 harness，能力靠扩展与 Skills 组装。
 * [pstack](./pstack.md) — poteto 的 Cursor 技能包：用验证、recall、原型和 architect 做可重复工程，而不是抽象 Plan Mode。
@@ -26,14 +26,14 @@
 * [Proof](./proof.md) — Every 的人与 Agent 共写文档编辑器：共享稿、在场、评论、建议，左侧色轨标出谁写了哪一段。
 * [Puffo](./puffo.md) — 人与 Agent 的端到端加密群聊：本机 daemon 托管多个 agent，底层仍是 Claude / Codex。
 * [Raft](./raft.md) — 人与 Agent 共用频道工作空间：长期身份与记忆，本机 daemon 跑 Claude / Codex 等；不是分布式共识算法。
-* [OpenCode](./opencode.md) — 开源编码 Agent 运行时：Agent Profile 装身份，Session Events 留可重建轨迹；TUI / Web / 桌面 / SDK 共用同一服务。
+* [OpenCode](./opencode.md) — 开源编码 Agent 运行时：Agent Profile 装身份，Session Events 留可重建轨迹；多客户端共用同一服务。状态工程更重。
 * [skills.sh](./skills-sh.md) — Vercel 的 Agent Skills 开放目录与 CLI：按安装量浏览技能包，用 npx skills 装进多家编码代理。
 * [Trendshift](./trendshift.md) — GitHub 仓库实时动量榜：在上升期捕捉趋势，而非峰值之后；定位为 GitHub Trending 的替代入口。
 * [Zread](./zread.md) — 把 GitHub 仓编译成结构化项目 Wiki：架构图、模块说明、文档内问答；地址栏 github.com 换成 zread.ai 即开。
 * [Obelisk](./obelisk.md) — 编码代理历史会话 / 子代理 / 工作流可查询
 * [Ruflo](./ruflo.md) — 多智能体 swarm 的 meta-harness
-* [DataFlow-Harness](./dataflow-harness.md) — 北大 OpenDCAI：给 DataFlow 数据流水线加 Harness，输出可编辑平台原生 DAG。
-* [DeepSeek Harness](./deepseek-harness.md) — DeepSeek 官方 harness：一切皆插件
+* [DataFlow-Harness](./dataflow-harness.md) — 北大 OpenDCAI：给 DataFlow 加 Harness。Agent 用 MCP 改 DAG（Request-Validate-Commit），Skills 管算子怎么连；输出可编辑的平台原生 Pipeline。
+* [DeepSeek Harness](./deepseek-harness.md) — DeepSeek 开源 Agent 组装框架：Agent = Model + Harness；Everything is a Plugin。Developer Preview，会破兼容。
 * [AgentsView](./agentsview.md) — 编码代理会话检索、分析与 token 统计
 * [TeamAI CLI](./teamai-cli.md) — 腾讯团队 AI Native CLI
 * [TencentDB Agent Memory](./tencentdb-agent-memory.md) — 团队级 Agent 记忆中枢
@@ -51,7 +51,7 @@
 * [CodeGraph](./codegraph.md) — 预索引代码知识图谱，给 Claude Code / Codex / Gemini 用
 * [Understand Anything](./understand-anything.md) — 代码 → 可交互知识图谱
 * [easy-vibe](./easy-vibe.md) — Datawhale vibe coding 入门课
-* [Agentic Design Patterns](./agentic-design-patterns.md) — Gulli 的 Agent 模式书与笔记
+* [Agentic Design Patterns](./agentic-design-patterns.md) — Antonio Gullí（Google）Agent 模式书：21 种模式，Level 0 不是 Agent。本库有笔记仓书签 + 一篇读书笔记，未灌全书。
 * [Trellis](./trellis.md) — Agent harness
 * [Langflow](./langflow.md) — 可视化构建并部署 Agent 工作流
 * [Agent Zero](./agent-zero.md) — 开源 Agent 框架
@@ -65,7 +65,7 @@
 * [SearchCLI](./searchcli.md) — 火山引擎开源：Agent 驱动搜索自迭代；Skills 出策略，CLI 跑实验，人审候选配置。
 * [llm-universe](./llm-universe.md) — Datawhale 大模型应用开发教程
 * [Paseo](./paseo.md) — 桌面 / 手机编排多个编码代理
-* [深入理解 AI Agent](./ai-agent-book.md) — 李博杰：Agent 设计原理与工程实践
+* [深入理解 AI Agent](./ai-agent-book.md) — 李博杰开源书：Agent 设计原理与工程实践。本库只收书站/仓书签，未灌全书。
 * [深入理解 AI Infra](./ai-infra-book.md) — 李博杰：量化 AI Infra 与系统设计；ai-agent-book 姊妹篇
 * [OpenWorker](./openworker.md) — 桌面 AI 同事：交付成品而非聊天
 * [OpenMinis](./openminis.md) — 跨平台开源 AI Agent 应用

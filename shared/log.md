@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 rewrite** | 精读专文重写薄 Entity：[Andrej Karpathy](./entities/karpathy.md)、[Open Knowledge Format](./entities/open-knowledge-format.md)
 * **2026-09-14 rewrite** | 精读第二大脑编译器 / 金尘马自生长库 / Karpathy LLM wiki → 重写 [Self-growing Knowledge Base](./concepts/self-growing-kb.md)（Related 去 raw）
 
 ## 2026-09-11

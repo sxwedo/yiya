@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 rewrite** | 精读专文重写薄 Entity：[oh-my-pi](./entities/oh-my-pi.md)、[Claude Academy](./entities/claude-academy.md)、[Claude Tag](./entities/claude-tag.md)、[Grok Build](./entities/grok-build.md)、[DataFlow-Harness](./entities/dataflow-harness.md)、[AgentLoop](./entities/agentloop.md)、[OpenCode](./entities/opencode.md)、[Agentic Design Patterns](./entities/agentic-design-patterns.md)、[DeepSeek Harness](./entities/deepseek-harness.md)；[深入理解 AI Agent](./entities/ai-agent-book.md) 标明未灌全书
 * **2026-09-14 rewrite** | 精读原文续写剩余 agents Concept：飞轮 / Auto Mode / Evidence Gate / Delivery Harness / Engineering Bot / Playbook / WikiSkill 分离与三层 / Graph Engineering / 多智能体失效与治理 / 用代码做计划 / Plan 主子 / Role-first / Multi-Harness / 白板成片（Related 去 raw）
 * **2026-09-14 rewrite** | 精读 oh-my-pi 配法 + Anthropic Advisor 策略 → 重写 [Advisor](./concepts/advisor.md)、[TTSR](./concepts/ttsr.md)
 * **2026-09-14 rewrite** | 精读 AgentLoop 数据接入（二）→ 重写 [Agent OTel 探针](./concepts/agent-otel-probe.md)、[Agent 遥测接入形态](./concepts/agent-telemetry-ingress.md)
