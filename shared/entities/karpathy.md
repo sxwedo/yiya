@@ -19,8 +19,6 @@ sources:
   - ../../raw/articles/Raytar/Andrej Karpathy joined Anthropic five weeks ago.md
   - ../../raw/articles/Codez/Andrej Karpathy just dropped a 6-hour course on how to build LLMs from scratch－.md
   - ../../raw/articles/Avi Chawla/Karpathy said something you'll regret ignoring－.md
-  - ../../raw/articles/阿西_出海（2.0版）/3 步带你搭建 Karpathy 同款 AI 知识库（附教程）.md
-  - ../../raw/articles/Joey Lee/1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑.md
 ---
 
 # Summary
@@ -37,7 +35,7 @@ sources:
 
 本库 [yiya](./yiya.md) 的 raw → domains/shared + AGENTS 即按此裁剪。开源对照实现 [llmwiki](./llmwiki.md)。普通人/OPC 场景见 [Self-growing Knowledge Base](../concepts/self-growing-kb.md)。概念页见 [LLM Wiki](../concepts/llm-wiki.md)。
 
-其余成文（日常怎么用 AI、Sequoia 炉边、加入 Anthropic、从零训 LLM 课、跟风教程）只证明他持续公开谈同一类实践，**不**在本页展开传记或复述六小时课程。autoresearch 仓库是另一条实验线，书签在 GitHub 卡，不和 Wiki 模式焊死。
+其余成文（日常怎么用 AI、Sequoia 炉边、加入 Anthropic、从零训 LLM 课）只证明他持续公开谈同一类实践，**不**在本页展开传记或复述六小时课程。autoresearch 仓库是另一条实验线，书签在 GitHub 卡，不和 Wiki 模式焊死。
 
 ## Related
 

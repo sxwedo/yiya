@@ -13,7 +13,6 @@ related:
 sources:
   - ../references/deepseek-ai-deepseek-harness-github.md
   - ../../../raw/articles/Russell/万字长文：Deepseek Harness 一文全看懂！！.md
-  - ../../../raw/articles/超级个体｜柿子/OpenClaw 保姆级教程（基础篇）.md
 ---
 
 # Summary
@@ -30,7 +29,7 @@ sources:
 
 上层盖下层；命令行最后。Cordis 按**依赖**加载，不是按配置书写顺序。插件声明需要 `tools` 和 `fs`，电源没接上就不开机；`fs` 消失则卸载依赖它的文件工具，避免半残按钮。时空可组合：离开时撤销它注册的工具、追加的 system prompt、事件监听。
 
-对照 [Harness 运行时层](../concepts/harness-runtime-layer.md)、[Minimal Agent Harness](../concepts/minimal-agent-harness.md) 的 [Pi](./pi.md)、同簇 [Grok Build](./grok-build.md)。OpenClaw 教程只在 sources 里顺带，**不**把龙虾玩法写进本页。
+对照 [Harness 运行时层](../concepts/harness-runtime-layer.md)、[Minimal Agent Harness](../concepts/minimal-agent-harness.md) 的 [Pi](./pi.md)、同簇 [Grok Build](./grok-build.md)。
 
 ## Related
 

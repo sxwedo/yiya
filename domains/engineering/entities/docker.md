@@ -9,7 +9,6 @@ related:
   - docker-docs
 sources:
   - ../references/docker-docs.md
-  - ../../../raw/articles/纯棉短裤/GitHub 上最有价值的 10 个 AI 学习仓库，Star数加起来近百万.md
 ---
 
 # Summary

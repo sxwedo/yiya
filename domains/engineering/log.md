@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 lint** | 剥弱挂 sources：Docker←AI 仓库清单；nginx←VPN；Spring←roadmap；Tailscale←Codex 网络文（留小火箭）。书签行留下
 * **2026-09-14 rewrite** | 精读专文重写薄 Entity：[Ghostty](./entities/ghostty.md)、[Desert Ant Labs](./entities/desert-ant-labs.md)、[x-algorithm](./entities/x-algorithm.md)
 * **2026-09-14 rewrite** | 精读腾讯健康 PM、美团搜索 3.0、数据工程师清单、昀启 Ontology、x-algorithm、Raschka、Gauri、Roland.W → 重写组织摩擦 / PM 效率治理 / 难负样本 / LLM 排序表征 / Semantic Service / Multi-action Feed / 瓶颈上移 / 语义工程师 / Looped Transformer / 训推优化 / X 自媒体增长；Related 去 raw
 * **2026-09-14 ingest** | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) → 新建 [zoxide](./entities/zoxide.md)

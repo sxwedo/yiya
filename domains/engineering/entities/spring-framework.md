@@ -9,7 +9,6 @@ related:
   - spring-projects-spring-framework-github
 sources:
   - ../references/spring-projects-spring-framework-github.md
-  - ../../../raw/articles/Dhanian 🗯️/Backend Development Roadmap.md
 ---
 
 # Summary

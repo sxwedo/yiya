@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 lint** | 剥弱挂 sources：awesome←skills 清单；DeepMind←Google Skills；Grokipedia←Musk 推；HN←个人哲学；Karpathy←龙虾/三步教程。书签行留下
 * **2026-09-14 rewrite** | 精读专文重写薄 Entity：[Andrej Karpathy](./entities/karpathy.md)、[Open Knowledge Format](./entities/open-knowledge-format.md)
 * **2026-09-14 rewrite** | 精读第二大脑编译器 / 金尘马自生长库 / Karpathy LLM wiki → 重写 [Self-growing Knowledge Base](./concepts/self-growing-kb.md)（Related 去 raw）
 

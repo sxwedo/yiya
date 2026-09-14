@@ -21,7 +21,6 @@ sources:
   - ../references/jinchenma-grok-bot-guide.md
   - ../references/javaguide-grok-bot-engineering.md
   - ../references/usegrokbot-site.md
-  - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md
   - ../../../raw/articles/Codez/Every AI tool you have used so far waits for you. You open it, you ask, it answers, you.md
   - ../../../raw/articles/Miles Deutscher/Grok Bot－ The Ultimate Guide.md
   - ../../../raw/articles/Matt Van Horn/Every Grok Bot Hack I Know (Aug 2026).md

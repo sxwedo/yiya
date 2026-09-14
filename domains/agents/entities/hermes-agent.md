@@ -23,7 +23,6 @@ sources:
   - ../../../raw/articles/Andy Stewart/十分钟带你玩转Hermes赫妹Agent.md
   - ../../../raw/articles/AI少年/使用 Hermes Agent 打造私人专属工作流： 自动定时监控 X－Twitter 大佬推文的完整方案。.md
   - ../../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md
-  - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
 ---
 
 # Summary

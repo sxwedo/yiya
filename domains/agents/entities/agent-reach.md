@@ -10,9 +10,6 @@ related:
   - mcp
 sources:
   - ../references/panniantong-agent-reach-github.md
-  - ../../../raw/articles/向阳乔木/劝一句：龙虾越火，越应该研究Skill，千万别跑偏！附送乔帮主精选Skills.md
-  - ../../../raw/articles/GitTrend/今天 GitHub 被万能 Agent 屠榜了！.md
-  - ../../../raw/articles/梭哈.AI/想让你的 AI Agent 看遍全网，却总是被 API Key、付费墙、403 报错 卡得死死的？.md
 ---
 
 # Summary

@@ -11,7 +11,6 @@ related:
   - codex
 sources:
   - ../references/google-gemini-gemini-cli-github.md
-  - ../../../raw/articles/huangserva/🔥🔥强烈推荐的宝藏项目！.md
 ---
 
 # Summary

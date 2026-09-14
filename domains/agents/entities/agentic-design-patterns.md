@@ -12,13 +12,12 @@ related:
   - multi-agent-governance
 sources:
   - ../references/evoiz-agentic-design-patterns-github.md
-  - ../../../raw/articles/Andrew Ng/Announcing my new course－ Agentic AI!.md
   - ../../../raw/articles/Yanhua/Agentic Design Patterns：一本让我重新理解－－Agent 到底是什么－－的书.md
 ---
 
 # Summary
 
-**Agentic Design Patterns** 指 Antonio Gullí（Google 工程总监）那本把 Agent 开发拆成 21 种设计模式的书（Yanhua 笔记写 453 页）。上游笔记仓 [evoiz/Agentic-Design-Patterns](https://github.com/evoiz/Agentic-Design-Patterns)。本库**未灌全书**；稳定依据是 Yanhua 的读书笔记。Ng 的 Agentic AI 课只在 sources 里，不是同一本书，不往本页堆。
+**Agentic Design Patterns** 指 Antonio Gullí（Google 工程总监）那本把 Agent 开发拆成 21 种设计模式的书（Yanhua 笔记写 453 页）。上游笔记仓 [evoiz/Agentic-Design-Patterns](https://github.com/evoiz/Agentic-Design-Patterns)。本库**未灌全书**；稳定依据是 Yanhua 的读书笔记。Ng 的 Agentic AI 课不是同一本书，不往本页堆。
 
 笔记里最狠的判断：Level 0 裸 LLM（没工具、没记忆、不会行动）**不是 Agent**。Level 1 工具使用者——自己判断何时调、调什么、结果怎么用。Level 2 战略思考者：规划 + Context Engineering（筛选、裁剪、打包；短小聚焦的上下文），以及自我反思。Level 3 多 Agent：别造全能 super agent，通信拓扑从单 Agent 到自定义混合。
 

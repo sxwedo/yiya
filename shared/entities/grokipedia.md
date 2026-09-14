@@ -11,7 +11,6 @@ related:
   - self-growing-kb
 sources:
   - ../references/grokipedia-site.md
-  - ../../raw/articles/Elon Musk/－Tue Oct 28 06－20－37 +0000 2025－.md
 ---
 
 # Summary

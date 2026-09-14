@@ -11,7 +11,6 @@ related:
   - arxiv
 sources:
   - ../references/hacker-news-site.md
-  - ../../raw/articles/snowboat/我打造的个人AI系统：哲学基础.md
 ---
 
 # Summary

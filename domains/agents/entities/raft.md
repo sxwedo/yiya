@@ -15,7 +15,6 @@ related:
   - pilot-protocol
   - multi-agent-governance
 sources:
-  - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../references/raft-site.md
 ---
 
@@ -28,8 +27,6 @@ sources:
 ## Related
 
 - [Role-first Agent](../concepts/role-first-agent.md)
-- [How to Build a team of AI Agents that actually work together in 8 Steps (Full-course)](<../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md>)
-- [Raft（站点）](../references/raft-site.md)
 - [Grok Bot](./grok-bot.md)
 - [Puffo](./puffo.md)
 - [Proof](./proof.md)
