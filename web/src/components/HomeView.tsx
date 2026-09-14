@@ -1,7 +1,12 @@
 import type React from "react";
-import { useMemo, useState } from "react";
+import { lazy, Suspense, useMemo, useState } from "react";
 import type { Catalog, CatalogPage } from "../types";
 import { pageHref, TYPE_LABEL } from "../paths";
+
+const TermGraph = lazy(async () => {
+  const mod = await import("./TermGraph");
+  return { default: mod.TermGraph };
+});
 
 interface HomeViewProps {
   catalog: Catalog;
@@ -12,6 +17,7 @@ const TERM_TYPES = new Set(["Entity", "Concept"]);
 export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
   const [domainId, setDomainId] = useState<string>("all");
   const [kind, setKind] = useState<"all" | "Entity" | "Concept">("all");
+  const [selected, setSelected] = useState<CatalogPage | null>(null);
 
   const terms = useMemo(() => {
     return catalog.pages
@@ -53,8 +59,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
   }, [visible, catalog.domains]);
 
   return (
-    <article className="mx-auto max-w-3xl py-10 sm:py-14">
-      <header className="space-y-3">
+    <article className="py-10 sm:py-14">
+      <header className="mx-auto max-w-3xl space-y-3">
         <p className="font-mono text-[11px] tracking-[0.18em] text-[var(--text-muted)] uppercase">
           yiya · dictionary
         </p>
@@ -62,47 +68,78 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
           知识词条
         </h1>
         <p className="max-w-xl text-[15px] leading-relaxed text-[var(--text-secondary)]">
-          实体与概念，用一句话写在卡片上。点开读原文。
+          实体与概念做成词条。上图看关系，点节点看摘要；下面列表进原文。
         </p>
         <p className="font-mono text-[11px] text-[var(--text-muted)]">
           {visible.length} / {terms.length} 条
         </p>
       </header>
 
-      <div className="mt-8 flex flex-wrap gap-2">
+      <div className="mx-auto mt-8 max-w-3xl flex flex-wrap gap-2">
         <FilterChip
           active={domainId === "all"}
-          onClick={() => setDomainId("all")}
+          onClick={() => {
+            setDomainId("all");
+            setSelected(null);
+          }}
           label="全部域"
         />
         {catalog.domains.map((domain) => (
           <FilterChip
             key={domain.id}
             active={domainId === domain.id}
-            onClick={() => setDomainId(domain.id)}
+            onClick={() => {
+              setDomainId(domain.id);
+              setSelected(null);
+            }}
             label={domain.title}
           />
         ))}
       </div>
-      <div className="mt-2 flex flex-wrap gap-2">
+      <div className="mx-auto mt-2 max-w-3xl flex flex-wrap gap-2">
         <FilterChip
           active={kind === "all"}
-          onClick={() => setKind("all")}
+          onClick={() => {
+            setKind("all");
+            setSelected(null);
+          }}
           label="实体+概念"
         />
         <FilterChip
           active={kind === "Entity"}
-          onClick={() => setKind("Entity")}
+          onClick={() => {
+            setKind("Entity");
+            setSelected(null);
+          }}
           label="实体"
         />
         <FilterChip
           active={kind === "Concept"}
-          onClick={() => setKind("Concept")}
+          onClick={() => {
+            setKind("Concept");
+            setSelected(null);
+          }}
           label="概念"
         />
       </div>
 
-      <div className="mt-10 space-y-12">
+      <div className="mx-auto mt-8 max-w-5xl">
+        <Suspense
+          fallback={
+            <p className="font-mono text-[11px] text-[var(--text-muted)]">
+              加载关系图…
+            </p>
+          }
+        >
+          <TermGraph
+            pages={visible}
+            selectedPath={selected?.path ?? null}
+            onSelect={setSelected}
+          />
+        </Suspense>
+      </div>
+
+      <div className="mx-auto mt-10 max-w-3xl space-y-12">
         {grouped.map((group) => (
           <section key={group.id}>
             <h2 className="font-mono text-[11px] tracking-[0.16em] text-[var(--text-muted)] uppercase">

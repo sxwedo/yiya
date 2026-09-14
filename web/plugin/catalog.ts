@@ -15,6 +15,7 @@ export type CatalogPage = {
   author: string;
   url: string;
   links: string[];
+  related: string[];
 };
 
 export type CatalogDomain = {
@@ -92,6 +93,16 @@ function asString(v: unknown): string {
   if (typeof v === "string") return v;
   if (v == null) return "";
   return String(v);
+}
+
+function asStringList(v: unknown): string[] {
+  if (!Array.isArray(v)) return [];
+  const out: string[] = [];
+  for (const item of v) {
+    const s = asString(item).trim();
+    if (s) out.push(s);
+  }
+  return out;
 }
 
 function hasFileExt(p: string): boolean {
@@ -202,6 +213,7 @@ export function buildCatalog(root: string): Catalog {
   ].filter((f) => fs.existsSync(f));
 
   const pages: CatalogPage[] = [];
+  const relatedSlugs = new Map<string, string[]>();
   for (const abs of files) {
     const rel = path.relative(root, abs).split(path.sep).join("/");
     let raw: string;
@@ -232,8 +244,36 @@ export function buildCatalog(root: string): Catalog {
       author,
       url,
       links: extractLinks(rel, body),
+      related: [],
     };
     pages.push(page);
+    relatedSlugs.set(rel, asStringList(data.related));
+  }
+
+  const wikiByStem = new Map<string, string[]>();
+  for (const page of pages) {
+    if (page.kind !== "wiki") continue;
+    const stem = page.path.split("/").pop()?.replace(/\.md$/, "") ?? "";
+    if (!stem) continue;
+    const list = wikiByStem.get(stem) ?? [];
+    list.push(page.path);
+    wikiByStem.set(stem, list);
+  }
+  const pageByPath = new Map(pages.map((p) => [p.path, p]));
+  for (const page of pages) {
+    const slugs = relatedSlugs.get(page.path) ?? [];
+    const resolved: string[] = [];
+    const seen = new Set<string>();
+    for (const slug of slugs) {
+      const key = slug.replace(/\.md$/, "");
+      const hits = wikiByStem.get(key) ?? [];
+      const preferred =
+        hits.find((p) => pageByPath.get(p)?.domain === page.domain) ?? hits[0];
+      if (!preferred || preferred === page.path || seen.has(preferred)) continue;
+      seen.add(preferred);
+      resolved.push(preferred);
+    }
+    page.related = resolved;
   }
 
   const byDomain = new Map(domains.map((d) => [d.id, d]));
