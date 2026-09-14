@@ -1,5 +1,9 @@
 # 设计与人读面 — Log
 
+## 2026-09-14
+
+* **2026-09-14 ingest** | 我把摄影里的美姿经验，写成了 AI 能用的短提示词 → [AI 人像美姿提示词](./concepts/ai-portrait-posing.md)
+
 ## 2026-09-11
 
 * **Ingest**: Claude《Improving frontend design through Skills》→ 续写 [AI Design De-slop](./concepts/ai-design-deslop.md)（分布收敛 + Skill 按需加载，不灌 system prompt）。

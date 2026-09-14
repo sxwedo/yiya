@@ -28,6 +28,7 @@ sources: []
 | Concept | 一句话 |
 | -------- | -------- |
 | [AI Design De-slop](./concepts/ai-design-deslop.md) | 约束优先、删减、设计工具多变体，防 agent UI 糊 |
+| [AI 人像美姿提示词](./concepts/ai-portrait-posing.md) | 摄影美姿 → 转/弯/顺/露 短提示词；忌「自然一点」 |
 
 ## 怎么逛
 
