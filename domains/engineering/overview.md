@@ -80,6 +80,7 @@ sources: []
 | [Spring Framework](./entities/spring-framework.md) | Spring 应用框架 |
 | [Spring Cloud Alibaba](./entities/spring-cloud-alibaba.md) | 阿里分布式应用一站式方案 |
 | [Desert Ant Labs](./entities/desert-ant-labs.md) | 欧洲端侧小模型实验室：一任务一模型 |
+| [zoxide](./entities/zoxide.md) | 更聪明的 cd：按使用频率记目录，几个键跳转 |
 
 ## 怎么逛
 

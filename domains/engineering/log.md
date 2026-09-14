@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 ingest** | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) → 新建 [zoxide](./entities/zoxide.md)
 * **2026-09-14 ingest** | LLM Optimization Interview Notes → 新建 [LLM 训练与推理优化](./concepts/llm-training-inference-opt.md)
 * **2026-09-14 ingest** | 从 DWD 到 DWS：数仓建模的进阶之路 → 续写 [数仓分层](./concepts/warehouse-layering.md)（未新建页）
 
