@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 ingest** | 我用 Codex 把一段文字做成了手绘动画：从配音成片，完整教学 → [字幕驱动白板手绘成片](./concepts/skill-whiteboard-video.md)；续写 [Agent Skills](./entities/agent-skills.md)；Related 轻挂 [Codex](./entities/codex.md)
 * **Bookmark**: [AI Coding Dictionary](./entities/ai-coding-dictionary.md) + [站点 Ref](./references/ai-coding-dictionary-site.md) ← `raw/bookmarks/sites.md`（未灌站、未拆词条）(2026-09-14).
 * **Bookmark**: [深入理解 AI Infra](./entities/ai-infra-book.md) + [GitHub Ref](./references/bojieli-ai-infra-book-github.md) ← `raw/bookmarks/github.md`；Related 轻挂 [ai-agent-book](./entities/ai-agent-book.md)（未灌仓）(2026-09-14).
 

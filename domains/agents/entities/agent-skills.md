@@ -21,6 +21,7 @@ sources:
   - ../../../raw/articles/Claude/Lessons from building Claude Code： How we use skills.md
   - ../../../raw/articles/Claude/Skills explained： How Skills compares to prompts, Projects, MCP, and subagents.md
   - ../../../raw/articles/腾讯云开发者/一文讲透Agent三件套：MCP、Skill、Hook如何给大模型装上护栏.md
+  - ../../../raw/articles/SAMUEL/我用 Codex 把一段文字做成了手绘动画：从配音成片，完整教学.md
 ---
 
 # Summary
@@ -37,6 +38,8 @@ sources:
 
 官方示例仓：[anthropics/skills](https://github.com/anthropics/skills)。
 
+白板成片实录补一句：skill 是可执行工作说明书（步骤、资源、何时停下来确认），**不是**凭空打开所有能力的开关；图像、TTS、字体和本机环境仍要实际可用。见 [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)。
+
 ## Related
 
 - [skills.sh](./skills-sh.md)
@@ -46,3 +49,4 @@ sources:
 - [Claude](./claude.md)
 - [anthropics/skills（GitHub）](../references/anthropics-skills-github.md)
 - [DataFlow-Harness](./dataflow-harness.md)
+- [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)

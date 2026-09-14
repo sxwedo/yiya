@@ -15,6 +15,7 @@ related:
   - archify
   - llm-wiki
   - open-knowledge-format
+  - skill-whiteboard-video
 sources:
   - ../references/wikiskill-three-layer.md
   - ../../../raw/articles/飞叔慢谈/OKF 工程：一种新的语义表达范式正在形成.md
@@ -38,5 +39,6 @@ sources:
 - [WikiSkill 三层架构](./wikiskill-architecture.md)
 - [skills.sh](../entities/skills-sh.md)
 - [Agent Skills](../entities/agent-skills.md)
+- [字幕驱动白板手绘成片](./skill-whiteboard-video.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
 - [Open Knowledge Format](../../../shared/entities/open-knowledge-format.md)

@@ -17,6 +17,7 @@
 * [Harness 运行时层](./harness-runtime-layer.md) — Agent Loop 之外的运行时：装配上下文、管会话与权限沙箱、持久化事件、调度子 Agent。Agent 决定下一步，Harness 决定约束。
 * [历史不等于记忆](./history-vs-memory.md) — 原始会话记录保留当时说过什么；记忆是整理后可更新、可遗忘、可按需召回的状态，长上下文不能替代。
 * [知识与技能分离](./knowledge-skill-separation.md) — 知识回答「我们知道什么」，技能回答「我们该怎么做」；技能可回滚，知识层应持续积累且不随拒绝回滚。
+* [字幕驱动白板手绘成片](./skill-whiteboard-video.md) — 用 Codex + 白板 skill 把文稿做成手绘讲解视频：先分幕确认，源图无字，文字后期叠；人判、模型执行。
 * [Minimal Agent Harness](./minimal-agent-harness.md) — 极简代理框架哲学：核心只保留原语（Primitives, not features），高级能力由扩展/技能按需组装，以降低上下文税并保持可控。
 * [多智能体失效模式](./multi-agent-failure-modes.md) — 多 Agent 协作中的系统性失效：协调成本膨胀、低方差从众同错、独有信息被淹没，以及目标冲突时的对抗升级。
 * [多智能体治理](./multi-agent-governance.md) — 多 Agent 系统的核心不是堆叠数量，而是提供信任、冲突解决与多样性保护等社会基础设施。

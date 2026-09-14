@@ -14,6 +14,7 @@ related:
   - grok-build
   - opencode
   - harness-runtime-layer
+  - skill-whiteboard-video
 sources:
   - ../references/openai-codex-github.md
   - ../references/openai-openai-cookbook-github.md
@@ -38,3 +39,4 @@ sources:
 - [Grok Build](./grok-build.md)
 - [OpenCode](./opencode.md)
 - [Harness 运行时层](../concepts/harness-runtime-layer.md)
+- [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)
