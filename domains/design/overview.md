@@ -20,6 +20,7 @@ sources: []
 | -------- | -------- |
 | [Holo Card Studio](./entities/holo-card-studio.md) | 描述/参考图 → Blender 卡面 + Three.js |
 | [Ian 小黑配图](./entities/ian-xiaohei-illustrations.md) | 中文小黑怪诞正文配图 Skill |
+| [Lieflat Charts](./entities/lieflat-charts.md) | Agent Skill：统一视觉语法的数据可视化与可选整页报告 |
 | [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
 | [shadcn-admin](./entities/shadcn-admin.md) | Shadcn + Vite 后台 UI |
 

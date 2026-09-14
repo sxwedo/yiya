@@ -2,6 +2,7 @@
 
 ## 2026-09-14
 
+* **2026-09-14 ingest** | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) → 新建 [Lieflat Charts](./entities/lieflat-charts.md)
 * **2026-09-14 ingest** | 我把摄影里的美姿经验，写成了 AI 能用的短提示词 → [AI 人像美姿提示词](./concepts/ai-portrait-posing.md)
 
 ## 2026-09-11
