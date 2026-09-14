@@ -8,7 +8,8 @@ generated: { by: agent:yiya-librarian, at: 2026-09-11T16:50:00Z }
 related:
   - trendshift
   - eval-driven-development
-sources: []
+sources:
+  - ../../../raw/bookmarks/sites.md
 ---
 
 # Summary

@@ -12,7 +12,8 @@ related:
   - multi-harness-control-plane
   - oto-dock
   - gnhf
-sources: []
+sources:
+  - ../../../raw/bookmarks/github.md
 ---
 
 # Summary

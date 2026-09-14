@@ -65,3 +65,4 @@ web/node_modules/
 web/dist/
 web/.reader.pid
 web/.reader.log
+web/package-lock.json

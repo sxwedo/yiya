@@ -8,7 +8,8 @@ generated: { by: agent:yiya-librarian, at: 2026-09-10T16:10:00Z }
 related:
   - hacker-news
   - discovery-loop
-sources: []
+sources:
+  - ../../raw/bookmarks/sites.md
 ---
 
 # Summary

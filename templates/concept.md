@@ -11,4 +11,6 @@ related: []
 
 # Definition
 
+写机制、边界、对照；`## Related` 只链 wiki，不要 raw。
+
 ## Related

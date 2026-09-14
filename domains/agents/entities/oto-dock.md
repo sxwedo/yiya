@@ -11,7 +11,8 @@ related:
   - agent-orchestrator
   - multi-agent-governance
   - codex
-sources: []
+sources:
+  - ../../../raw/bookmarks/github.md
 ---
 
 # Summary

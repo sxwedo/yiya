@@ -29,5 +29,3 @@ sources:
 - [Grok Bot](./grok-bot.md)
 - [Agent Skills](./agent-skills.md)
 - [Evidence Gate](../concepts/evidence-gate.md)
-- [打开 raw Pt.2](<../../../raw/articles/lauren/The Complete Guide to pstack Pt. 2.md>)
-- [打开 raw Pt.1](<../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md>)

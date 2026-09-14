@@ -11,7 +11,8 @@ related:
   - i-have-adhd
   - graphify
   - codegraph
-sources: []
+sources:
+  - ../../../raw/bookmarks/github.md
 ---
 
 # Summary

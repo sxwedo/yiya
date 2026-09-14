@@ -9,7 +9,8 @@ related:
   - skills-sh
   - knowledge-skill-separation
   - archify
-sources: []
+sources:
+  - ../../../raw/bookmarks/github.md
 ---
 
 # Summary

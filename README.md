@@ -14,7 +14,7 @@ domains/<id>/      分域 wiki：entities · concepts · references
 shared/            跨域实体与纲领
 private/           敏感内容，不进 git
 AGENTS.md          问答、入库、红线
-.agents/skills/    ingest · lint · dream · explore · …
+.agents/skills/    ingest · rewrite · lint · dream · explore · …
 ```
 
 起步域：[Agent 与 harness](domains/agents/overview.md) · [工程与可维护性](domains/engineering/overview.md) · [设计与人读面](domains/design/overview.md)。
@@ -34,6 +34,7 @@ AGENTS.md          问答、入库、红线
 
 ```text
 按 .agents/skills/yiya-ingest 处理 <URL>
+按 .agents/skills/yiya-rewrite 精读重写 <簇或路径>
 按 .agents/skills/yiya-delete-raw 处理 <路径>
 ```
 
