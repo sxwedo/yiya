@@ -2,6 +2,10 @@
 
 ## 2026-09-14
 
+* **2026-09-14 ingest** | 南鸢角色设定 Skill、VoxCat 抓拍机位、94vanAI 泳装抓拍 → 新建 [人像角色设定](./concepts/portrait-character-brief.md)、[抓拍感角色摄影](./concepts/candid-character-photography.md)；链 [美姿](./concepts/ai-portrait-posing.md)。无新 Reference。
+* **2026-09-14 ingest** | 认领已有 raw《Vibe Coding 视觉词典（上篇）》→ 新建 [Vibe Coding 视觉词典](./concepts/vibe-coding-visual-lexicon.md)；链动效词典 / De-slop。无新 raw、无新 Reference。
+* **2026-09-14 ingest** | Vibe Coding 网页动效词典（上篇）→ 新建 [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md)；链 [AI Design De-slop](./concepts/ai-design-deslop.md)。无新 Reference。
+* **2026-09-14 rewrite** | 质量门第 2 轮：精读重写 [AI 人像美姿提示词](./concepts/ai-portrait-posing.md)（景别/气质/何时不用；链 De-slop）
 * **2026-09-14 rewrite** | [AI 人像美姿提示词](./concepts/ai-portrait-posing.md)、[AI Design De-slop](./concepts/ai-design-deslop.md) Related 去 raw（正文机制已在）
 * **2026-09-14 ingest** | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) → 新建 [Lieflat Charts](./entities/lieflat-charts.md)
 * **2026-09-14 ingest** | 我把摄影里的美姿经验，写成了 AI 能用的短提示词 → [AI 人像美姿提示词](./concepts/ai-portrait-posing.md)

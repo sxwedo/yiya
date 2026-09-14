@@ -2,6 +2,11 @@
 
 ## 2026-09-14
 
+* **2026-09-14 lint** | 剥 [Role-first Agent](./concepts/role-first-agent.md) 赚钱清单弱挂（Rahul / GPT-6 Astra 10 ways）；正文未改
+* **2026-09-14 rewrite** | 精读重写 [Hermes Agent](./entities/hermes-agent.md)：Curator / LLM-Wiki；剥十件事、十分钟教程、KOL 监控、Mercury、分类学、知识栈；Related 只留 wiki
+* **2026-09-14 rewrite** | 精读重写 [Codex](./entities/codex.md)：对照 Harness 运行时层；剥 cookbook；Related 去 GitHub 卡与白板成片
+* **2026-09-14 rewrite** | 质量门第 2 轮：精读重写 [pstack](./entities/pstack.md)（验证 CLI / 用代码计划）、[Grok Build](./entities/grok-build.md)（公告边界，不编内部架构）
+* **2026-09-14 rewrite** | 质量门第 1 轮：精读重写 [SearchCLI](./entities/searchcli.md)、[AGENTS.md](./entities/agents-md.md)（机制/边界/对照）；Related 去站点卡
 * **2026-09-14 lint** | 空 sources 补书签表：AO / OtoDock / Archify / i-have-adhd / Artificial Analysis；[pstack](./entities/pstack.md) Related 去 raw
 * **2026-09-14 lint** | 剥弱挂 sources：Crawl4AI / Gemini CLI / Agent-Reach / FastMCP / LangChain / AGENTS.md 清单文；Raft 组队课；DeepSeek←OpenClaw；ADP←Ng 课；Grok Bot←pstack Pt.1；Hermes←腾讯 Harness 对照。书签行留下。SearchCLI 火山专文未剥
 * **2026-09-14 rewrite** | 精读专文重写薄 Entity：[oh-my-pi](./entities/oh-my-pi.md)、[Claude Academy](./entities/claude-academy.md)、[Claude Tag](./entities/claude-tag.md)、[Grok Build](./entities/grok-build.md)、[DataFlow-Harness](./entities/dataflow-harness.md)、[AgentLoop](./entities/agentloop.md)、[OpenCode](./entities/opencode.md)、[Agentic Design Patterns](./entities/agentic-design-patterns.md)、[DeepSeek Harness](./entities/deepseek-harness.md)；[深入理解 AI Agent](./entities/ai-agent-book.md) 标明未灌全书

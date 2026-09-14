@@ -4,12 +4,13 @@ title: "Grok Build"
 description: "xAI 终端编码代理：开源的是 harness 与 TUI（Rust，Apache-2.0），不是对话模型权重。可自备推理。不是 Grok Bot。"
 status: draft
 domain: agents
-generated: { by: agent:yiya-librarian, at: 2026-09-14T22:00:00Z }
+generated: { by: agent:yiya-librarian, at: 2026-09-14T14:10:00Z }
 related:
   - grok-bot
   - pi
   - oh-my-pi
   - mena
+  - harness-runtime-layer
 sources:
   - ../references/grok-build-site.md
   - ../../../raw/articles/SpaceXAI/We've open-sourced Grok Build and have reset usage limits for all users.md
@@ -21,7 +22,12 @@ sources:
 
 同期公告还重置用量，并改隐私默认：宣称上线起尊重 ZDR；早期 beta 对非 ZDR 用户默认留存，反馈后关掉。2026-07-12 起全体默认不留存，并删除此前留存的编码数据。CLI 里可关上传。开源 harness + 自备推理被写成「可以完全本地优先」。问题走 X 或 HackerOne。
 
-定位：终端 **harness**，与 [Pi](./pi.md) / [oh-my-pi](./oh-my-pi.md) 同簇。同公司的 [Grok Bot](./grok-bot.md) 是工程多智能体（Engineering Bot + Cloud Agent），不是这一份 CLI。本机巡检见 [mena](./mena.md)。
+## 何时不用
+
+- 当对话模型或 Grok 权重：开源对象是 harness。
+- 当 [Grok Bot](./grok-bot.md)：那是工程多智能体（Engineering Bot + Cloud Agent），不是这一份 CLI。
+- 当极简框架：同簇对照 [Pi](./pi.md) / [oh-my-pi](./oh-my-pi.md)；本机巡检见 [mena](./mena.md)。
+- 本页原料是开源公告 + 站点卡，不编未灌的内部架构。运行时分层见 [Harness 运行时层](../concepts/harness-runtime-layer.md)。
 
 ## Related
 
@@ -29,3 +35,4 @@ sources:
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [mena](./mena.md)
+- [Harness 运行时层](../concepts/harness-runtime-layer.md)

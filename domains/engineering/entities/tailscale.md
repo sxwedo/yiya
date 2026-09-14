@@ -6,12 +6,10 @@ status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-07T20:40:00Z }
 related:
-  - tailscale-site
   - ping-pe
   - pilot-protocol
 sources:
   - ../references/tailscale-site.md
-  - ../../../raw/articles/QingYue/泪目！在 小火箭中配置 Taiscale，我终于做到了！.md
 ---
 
 # Summary
@@ -22,6 +20,5 @@ sources:
 
 ## Related
 
-- [Tailscale（站点）](../references/tailscale-site.md)
 - [ping.pe](./ping-pe.md)
 - [Pilot Protocol](../../agents/entities/pilot-protocol.md)

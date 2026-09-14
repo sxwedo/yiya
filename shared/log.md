@@ -2,6 +2,8 @@
 
 ## 2026-09-14
 
+* **2026-09-14 rewrite** | 精读重写 [llmwiki](./entities/llmwiki.md)：与 yiya 对照定位；不编内部约定，不弱挂屠榜
+* **2026-09-14 rewrite** | 精读重写 [yiya](./entities/yiya.md)：机制与边界；Related 去 GitHub 空心卡，不弱挂 OKF/Karpathy 成文
 * **2026-09-14 lint** | [arXiv](./entities/arxiv.md) 空 sources 补 `sites.md`
 * **2026-09-14 lint** | 剥弱挂 sources：awesome←skills 清单；DeepMind←Google Skills；Grokipedia←Musk 推；HN←个人哲学；Karpathy←龙虾/三步教程。书签行留下
 * **2026-09-14 rewrite** | 精读专文重写薄 Entity：[Andrej Karpathy](./entities/karpathy.md)、[Open Knowledge Format](./entities/open-knowledge-format.md)

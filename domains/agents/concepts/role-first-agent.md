@@ -12,7 +12,6 @@ related:
   - engineering-bot
   - playbook-feedback-loop
 sources:
-  - ../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../references/jinchenma-grok-bot-guide.md
 ---

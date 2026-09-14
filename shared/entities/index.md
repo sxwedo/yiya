@@ -7,8 +7,8 @@
 * [Hacker News](./hacker-news.md) — Y Combinator 的黑客新闻板：用户提交链接与讨论；Show HN / Ask HN。跨域外探源，不是本库知识页。
 * [Open Knowledge Format](./open-knowledge-format.md) — Google Cloud 开放规范：带 YAML 头的 Markdown 目录，人与 Agent 共读。Wiki 是方法，OKF 是互操作格式；yiya bundle 同源。
 * [Obsidian](./obsidian.md) — 本地优先的 Markdown 知识库：vault 即文件夹，双向链接与图谱；Karpathy 把 LLM Wiki 的人读面叫成 IDE。
-* [yiya](./yiya.md) — 个人知识库：LLM Wiki 流程 + OKF + Domain
-* [llmwiki](./llmwiki.md) — Karpathy LLM Wiki 的开源实现
+* [yiya](./yiya.md) — 本库：raw 不可改，domains/shared 一次编译成 wiki，AGENTS/skills 管流程。LLM Wiki 的落地，不是每次 RAG 重挖。
+* [llmwiki](./llmwiki.md) — lucasastorian 开源仓：Karpathy《LLM Wiki》的一份可跑实现。与 yiya 同方法、不同库；本页无其内部约定。
 * [科技爱好者周刊](./ruanyf-weekly.md) — 阮一峰每周科技周刊
 * [史记知识库](./shiji-kb.md) — 《史记》→ 可交互知识图谱与 wiki
 * [HelloGitHub](./hellogithub.md) — 入门级有趣 GitHub 项目月刊

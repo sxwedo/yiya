@@ -30,6 +30,10 @@ sources: []
 | -------- | -------- |
 | [AI Design De-slop](./concepts/ai-design-deslop.md) | 约束优先、删减、设计工具多变体，防 agent UI 糊 |
 | [AI 人像美姿提示词](./concepts/ai-portrait-posing.md) | 摄影美姿 → 转/弯/顺/露 短提示词；忌「自然一点」 |
+| [人像角色设定](./concepts/portrait-character-brief.md) | 气质方向 → 骨相妆发衣场景的中文生图词 |
+| [抓拍感角色摄影](./concepts/candid-character-photography.md) | 不完美构图 / 前景遮挡 / POV，不是棚拍 |
+| [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md) | 把「高级/丝滑」换成可执行动效词；上篇 Hover→文字显现 |
+| [Vibe Coding 视觉词典](./concepts/vibe-coding-visual-lexicon.md) | 把「高级/简洁」换成布局/结构/导航/组件词；上篇 40 词 |
 
 ## 怎么逛
 

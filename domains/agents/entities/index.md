@@ -1,6 +1,6 @@
 # entities
 
-* [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定文件：对人用 README，对 Agent 用 AGENTS.md；规范站点 agents.md。
+* [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定：对人 README，对 Agent AGENTS.md。常驻、宜短；规程进 Skills，硬约束进 hooks/rules。
 * [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。不改模型权重；单位是成功任务成本。
 * [Artificial Analysis](./artificial-analysis.md) — 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜。外探源，不是 harness。
 * [Agent Skills](./agent-skills.md) — 开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。
@@ -21,7 +21,7 @@
 * [oh-my-pi](./oh-my-pi.md) — can1357 的 batteries-included 终端编码代理（omp.sh）：Rust 核心，原生 LSP/DAP/Advisor/TTSR/Hashline。要极简请用 Pi。
 * [Omarchy](./omarchy.md) — DHH 的意见化 Arch Linux 桌面（Hyprland/Quickshell）：把 coding agent CLI 当系统一等公民，配懒加载启动器与系统定制 skill。
 * [Pi](./pi.md) — earendil-works 的极简终端编码代理框架（pi.dev）：最小 harness，能力靠扩展与 Skills 组装。
-* [pstack](./pstack.md) — poteto 的 Cursor 技能包：用验证、recall、原型和 architect 做可重复工程，而不是抽象 Plan Mode。
+* [pstack](./pstack.md) — poteto 的 Cursor 技能包：验证闭环（control-app CLI）当基础设施；计划用原型和 /architect 用代码做，不信抽象 Plan Mode。
 * [Pilot Protocol](./pilot-protocol.md) — 给 Agent 用的组网 overlay：加密点对点隧道、应用商店与 MCP；默认可信才互通。
 * [Proof](./proof.md) — Every 的人与 Agent 共写文档编辑器：共享稿、在场、评论、建议，左侧色轨标出谁写了哪一段。
 * [Puffo](./puffo.md) — 人与 Agent 的端到端加密群聊：本机 daemon 托管多个 agent，底层仍是 Claude / Codex。
@@ -39,7 +39,7 @@
 * [TencentDB Agent Memory](./tencentdb-agent-memory.md) — 团队级 Agent 记忆中枢
 * [Graphify](./graphify.md) — 代码 / 文档 / SQL / PDF → 可查询知识图谱
 * [MemPalace](./mempalace.md) — 开源 AI 记忆系统
-* [Hermes Agent](./hermes-agent.md) — Nous Research 开源 Agent：随使用生长
+* [Hermes Agent](./hermes-agent.md) — Nous Research 开源 Agent：前台做完这次，后台把经历收成 Memory 与 Skills；问第二次少走弯路，不是把聊天当记忆。
 * [Ralph](./ralph.md) — 按 PRD 反复跑直到条目完成的自主循环
 * [cc-connect](./cc-connect.md) — 本机编码代理桥接到即时通讯
 * [Horizon](./horizon.md) — AI 新闻雷达，中英日报
@@ -62,7 +62,7 @@
 * [cc-switch](./cc-switch.md) — Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手
 * [Gemini CLI](./gemini-cli.md) — Gemini 官方终端 Agent
 * [Crawl4AI](./crawl4ai.md) — 面向 LLM 的开源爬虫
-* [SearchCLI](./searchcli.md) — 火山引擎开源：Agent 驱动搜索自迭代；Skills 出策略，CLI 跑实验，人审候选配置。
+* [SearchCLI](./searchcli.md) — 火山引擎开源：Agent 驱动搜索自迭代。Skills 出策略，CLI 跑可复现实验，SPA 分配评测预算；人不让它直接改线上。
 * [llm-universe](./llm-universe.md) — Datawhale 大模型应用开发教程
 * [Paseo](./paseo.md) — 桌面 / 手机编排多个编码代理
 * [深入理解 AI Agent](./ai-agent-book.md) — 李博杰开源书：Agent 设计原理与工程实践。本库只收书站/仓书签，未灌全书。
@@ -73,7 +73,7 @@
 * [AI 产品从入门到精通](./learn-ai.md) — 面向 AI 产品经理的培训课
 * [Agent-Reach](./agent-reach.md) — 给 Agent 读 / 搜 Twitter、Reddit、YouTube
 * [Open Code Review](./open-code-review.md) — 阿里混部代码评审
-* [Codex](./codex.md) — OpenAI 终端轻量编码代理
+* [Codex](./codex.md) — OpenAI 编码 Agent：Approval + Sandbox 两道边界；Thread/Turn/Item + Thread Manager 管长任务。选可监督可恢复，不选最轻 Loop。
 * [Orca](./orca.md) — 并行 agent 舰队的 ADE
 * [CLI-Anything](./cli-anything.md) — 让任意软件变成 Agent-native CLI
 * [Foundations of LLMs](./foundations-of-llms.md) — 浙大 LLM 基础教材
