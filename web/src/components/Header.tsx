@@ -33,8 +33,8 @@ export const Header: React.FC<HeaderProps> = ({
         <button
           type="button"
           onClick={onToggleSidebar}
-          className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-[var(--border-default)] bg-[var(--bg-subtle)] text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)] lg:hidden"
-          aria-label="打开导航目录"
+          className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-[var(--border-default)] bg-[var(--bg-subtle)] text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
+          aria-label="收起或展开侧栏"
         >
           <List size={18} weight="bold" />
         </button>

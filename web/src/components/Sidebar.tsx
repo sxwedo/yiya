@@ -79,8 +79,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
       )}
 
       <aside
-        className={`fixed top-14 bottom-0 left-0 z-40 flex w-72 flex-col border-r border-[var(--border-default)] bg-[var(--bg-surface)] p-4 transition-transform duration-300 lg:static lg:top-0 lg:h-[calc(100dvh-3.5rem)] lg:translate-x-0 ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-14 bottom-0 left-0 z-40 flex w-72 flex-col border-r border-[var(--border-default)] bg-[var(--bg-surface)] p-4 transition-transform duration-300 lg:static lg:top-0 lg:h-[calc(100dvh-3.5rem)] ${
+          isOpen ? "translate-x-0" : "-translate-x-full lg:hidden"
         }`}
       >
         <div className="flex-1 overflow-y-auto pr-1">

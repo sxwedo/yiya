@@ -16,7 +16,21 @@ export const App: React.FC = () => {
     return localStorage.getItem("yiya-theme") === "night" ? "night" : "day";
   });
   const [zenMode, setZenMode] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(() => {
+    try {
+      const saved = localStorage.getItem("yiya-sidebar");
+      if (saved === "0") return false;
+      if (saved === "1") return true;
+    } catch {
+      /* ignore */
+    }
+    return window.matchMedia("(min-width: 1024px)").matches;
+  });
+  const closeSidebarIfMobile = () => {
+    if (window.matchMedia("(max-width: 1023px)").matches) {
+      setIsSidebarOpen(false);
+    }
+  };
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   // Sync theme attribute
@@ -28,6 +42,10 @@ export const App: React.FC = () => {
     }
     localStorage.setItem("yiya-theme", theme);
   }, [theme]);
+
+  useEffect(() => {
+    localStorage.setItem("yiya-sidebar", isSidebarOpen ? "1" : "0");
+  }, [isSidebarOpen]);
 
   // Load catalog
   useEffect(() => {
@@ -80,7 +98,7 @@ export const App: React.FC = () => {
   useEffect(() => {
     const handlePopState = () => {
       setRoute(parseLocation());
-      setIsSidebarOpen(false);
+      closeSidebarIfMobile();
       window.scrollTo(0, 0);
     };
     window.addEventListener("popstate", handlePopState);
@@ -128,7 +146,7 @@ export const App: React.FC = () => {
       ) {
         window.history.pushState(null, "", next);
         setRoute(parseLocation());
-        setIsSidebarOpen(false);
+        closeSidebarIfMobile();
         if (url.hash) {
           const el = document.getElementById(
             decodeURIComponent(url.hash.slice(1)),
@@ -156,7 +174,7 @@ export const App: React.FC = () => {
       `${url.pathname}${url.search}${url.hash}`,
     );
     setRoute(parseLocation());
-    setIsSidebarOpen(false);
+    closeSidebarIfMobile();
     window.scrollTo(0, 0);
   };
 
@@ -194,7 +212,7 @@ export const App: React.FC = () => {
             catalog={catalog}
             route={route}
             isOpen={isSidebarOpen}
-            onClose={() => setIsSidebarOpen(false)}
+            onClose={closeSidebarIfMobile}
           />
         )}
 
