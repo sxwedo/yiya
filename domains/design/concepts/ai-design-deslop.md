@@ -35,4 +35,3 @@ Anthropic 把「AI slop」归因于分布收敛：训练数据里安全、无冒
 
 - [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)
 - [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md)
-- [打开 raw](<../../../raw/articles/Matt Dailey/How I Design with AI..md>)

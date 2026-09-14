@@ -1,10 +1,10 @@
 ---
 type: Concept
 title: "语义工程师"
-description: "面向 AI Agent 消费方建设术语库、指标中台与实体模型，把业务口语变成机器可读口径并管理变更连锁影响。"
+description: "面向 Agent 消费方建设术语库、指标中台与实体模型：把业务口语变成机器可读口径，并评估变更对下游的连锁影响。"
 status: draft
 domain: engineering
-generated: { by: agent:yiya-librarian, at: 2026-09-06T00:12:00Z }
+generated: { by: agent:yiya-librarian, at: 2026-09-14T20:00:00Z }
 related:
   - business-ontology
   - de-bottleneck-upshift
@@ -19,9 +19,13 @@ sources:
 
 # Definition
 
-**语义工程师**（或业务语义与数据专家路线）把「什么叫有效付费用户」这类人定判断工程化：企业术语、指标共识、实体模型，供助手/Agent/特征库统一读取。
+**语义工程师**（业务语义与数据专家路线）把「什么叫有效付费用户」这类人定判断工程化：企业术语、指标共识、实体模型，供助手 / Agent / 特征库统一读取。这是 [数据工程瓶颈上移](./de-bottleneck-upshift.md) 之后人还在的那一层。
 
-AI 可按已定口径生成 SQL，但不能自主裁决口径冲突。变更管理要评估指标改动对下游 Agent 与产品的连锁影响——这是拉开差距的分水岭技能。意图识别也别一上来写 Prompt：规则接确定流量，分类器接高频稳定标签，Embedding 缩小候选，LLM 处理口语与多轮状态；语言相似不等于同一业务动作。
+AI 可按已定口径生成 SQL，**不能**自主裁决口径冲突。变更管理要评估指标改动对下游 Agent 与产品的连锁影响——这是拉开差距的分水岭，不是把文档写得更长。
+
+意图识别也别一上来写 Prompt。分层：规则接确定流量，分类器接高频稳定标签，Embedding 缩小候选，LLM 处理口语与多轮状态。语言相似不等于同一业务动作（「退款」可能是客服工单、支付冲正或售后政策）。
+
+交付面：口径进 [语义层](./semantic-layer.md) 给人/BI；运行时判断与受控动作进 [Semantic Service](./semantic-service.md)；问数走 [Text2Semantic2SQL](./text2semantic2sql.md)，不要让模型在千表里猜。对象/规则/动作骨架见 [业务 Ontology](./business-ontology.md)。
 
 ## Related
 

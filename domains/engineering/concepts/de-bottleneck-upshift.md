@@ -1,10 +1,10 @@
 ---
 type: Concept
 title: "数据工程瓶颈上移"
-description: "人力瓶颈从物理搬运与清洗，上移到业务语义、合规与 AI 体系管控；确定性重复工作交给 AI，判断与责任留给人。"
+description: "人力从物理搬运与清洗，上移到业务语义、合规与 AI 体系管控。确定性重复交给 AI；口径、法律责任、长期架构留给人。"
 status: draft
 domain: engineering
-generated: { by: agent:yiya-librarian, at: 2026-09-06T00:12:00Z }
+generated: { by: agent:yiya-librarian, at: 2026-09-14T20:00:00Z }
 related:
   - semantic-engineer
   - warehouse-layering
@@ -18,11 +18,13 @@ sources:
 
 # Definition
 
-**数据工程瓶颈上移**描述三代变迁：能入库 → 是否可信 → 让所有 AI 正确理解并安全使用数据。
+**数据工程瓶颈上移**（2026–2036 能力清单口径）描述三代变迁：能入库 → 是否可信 → 让所有 AI 正确理解并安全使用数据。手写 ETL、常规清洗会被大规模替代；人的价值集中在口径仲裁、法律责任、长期架构、利益权衡——AI 无法全自动接手之处。数仓从 BI 后端变成企业 AI 基础设施。
 
-含义：手写 ETL/常规清洗将被大规模替代；人的价值集中在口径仲裁、法律责任、长期架构、利益权衡——AI 无法全自动接手之处。数仓从 BI 后端变为企业 AI 基础设施底座。
+耗时序往往是：语义与指标共识 > 治理合规 > 多架构运维 > 技术债 > 数据产品 > 跨组织协作。岗位会拆成 AI-Data 架构师、业务语义专家、合规风险专家，而不是「会写 Spark 的人」。
 
-这不意味着拆掉 [数仓分层](./warehouse-layering.md)。AI 越进经营场景，越依赖 ODS–DWD 的主数据与可追溯链路；缺的是 ADS 之上的语义与调用边界，不是少做集成。Data Agent 能对话不难，难的是口径、权限、证据链——「Data Agent is Easy，Data Context is Hard」。治理第一步是问数据在哪、谁管、能用比例，不是先买工具。报表只回答发生了什么；要加深业务理解，还得追问为什么、什么重要、下一步做什么。
+这不意味着拆掉 [数仓分层](./warehouse-layering.md)。AI 越进经营场景，越依赖 ODS–DWD 的主数据与可追溯链路。缺的是 ADS 之上的语义与调用边界，不是少做集成。Data Agent 能对话不难，难的是口径、权限、证据链——「Data Agent is Easy，Data Context is Hard」。治理第一步问数据在哪、谁管、能用比例，不是先买工具。报表只回答发生了什么；要加深业务理解，还得追问为什么、什么重要、下一步做什么。
+
+人怎么把口语变成机器可读口径，见 [语义工程师](./semantic-engineer.md)。
 
 ## Related
 

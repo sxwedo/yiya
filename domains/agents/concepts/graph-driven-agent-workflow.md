@@ -36,11 +36,8 @@ sources:
 ## Related
 
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
-- [10 Ways People Are Making Money With GPT-6 Astra](../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md)
-- [Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt](<../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md>)
 - [Graph Engineering](./graph-engineering.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Evidence Gate](./evidence-gate.md)
-- [Playbook Feedback Loop](./playbook-feedback-loop.md)
+- [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [多智能体治理](./multi-agent-governance.md)
-- [打开 raw](<../../../raw/articles/Mr. Buzzoni/300 AGENTS, ONE GRAPH, AND A LOOP THAT EDITS THE LOOP.md>)

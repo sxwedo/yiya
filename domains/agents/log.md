@@ -2,6 +2,10 @@
 
 ## 2026-09-14
 
+* **2026-09-14 rewrite** | 精读原文续写剩余 agents Concept：飞轮 / Auto Mode / Evidence Gate / Delivery Harness / Engineering Bot / Playbook / WikiSkill 分离与三层 / Graph Engineering / 多智能体失效与治理 / 用代码做计划 / Plan 主子 / Role-first / Multi-Harness / 白板成片（Related 去 raw）
+* **2026-09-14 rewrite** | 精读 oh-my-pi 配法 + Anthropic Advisor 策略 → 重写 [Advisor](./concepts/advisor.md)、[TTSR](./concepts/ttsr.md)
+* **2026-09-14 rewrite** | 精读 AgentLoop 数据接入（二）→ 重写 [Agent OTel 探针](./concepts/agent-otel-probe.md)、[Agent 遥测接入形态](./concepts/agent-telemetry-ingress.md)
+* **2026-09-14 rewrite** | 精读货拉拉记忆系统（一）+ 得物四层记忆 + 得物复合检索 → 重写 [历史不等于记忆](./concepts/history-vs-memory.md)、[在线记忆流水线](./concepts/online-memory-pipeline.md)、[异步记忆沉淀](./concepts/async-memory-precipitation.md)、[四层 Agent 记忆](./concepts/four-layer-agent-memory.md)、[复合检索 Agent](./concepts/compound-retrieval-agent.md)、[检索质量 Pipeline](./concepts/retrieval-quality-pipeline.md)（机制与边界，不是摘要扩写）
 * **2026-09-14 ingest** | The Complete Guide to pstack Pt. 2 → 新建 [pstack](./entities/pstack.md)、[用代码做计划](./concepts/plan-with-code.md)；Related 轻挂 Grok Bot / Evidence Gate（未把 Pt.2 堆进 Grok Bot sources）
 * **2026-09-14 ingest** | 我用 Codex 把一段文字做成了手绘动画：从配音成片，完整教学 → [字幕驱动白板手绘成片](./concepts/skill-whiteboard-video.md)；续写 [Agent Skills](./entities/agent-skills.md)；Related 轻挂 [Codex](./entities/codex.md)
 * **Bookmark**: [AI Coding Dictionary](./entities/ai-coding-dictionary.md) + [站点 Ref](./references/ai-coding-dictionary-site.md) ← `raw/bookmarks/sites.md`（未灌站、未拆词条）(2026-09-14).

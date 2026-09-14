@@ -45,4 +45,3 @@ TBox 是规则手册（应该是什么），ABox 是事实（实际有什么）�
 - [Semantic Service](./semantic-service.md)
 - [Text2Semantic2SQL](./text2semantic2sql.md)
 - [数仓分层](./warehouse-layering.md)
-- [打开 raw](<../../../raw/articles/技术自由圈/别被概念骗，Ontology 本体论 RAG 其实很简单，大白话就是 DDD、OOD 加 RAG.md>)

@@ -27,4 +27,3 @@ related: []
 
 ## Related
 
-- [打开 raw](<../../../raw/articles/南鸢/我把摄影里的美姿经验，写成了 AI 能用的短提示词.md>)
