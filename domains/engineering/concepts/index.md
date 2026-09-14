@@ -6,6 +6,7 @@
 * [表征难负样本](./embedding-hard-negatives.md) — Embedding 质量的天花板往往在负例质量：Batch 内易负不够；需构造难负并处理假负，让模型学会细粒度区分。
 * [评测驱动开发](./eval-driven-development.md) — 用有纪律的评测与错误分析循环导航 AI 系统迭代：决定测什么、怎么测、何时让 LLM/人当裁判，并让评测本身随项目进化。
 * [LLM 排序语义表征](./llm-semantic-ranking-embedding.md) — 用 LLM 为 Query/供给生成语义向量，以相似度信号注入精排，弥补词面匹配在长尾与非标供给上的语义 Gap。
+* [LLM 训练与推理优化](./llm-training-inference-opt.md) — 面试级总览：FlashAttention / GQA、激活重算、KV cache、量化与多种并行。
 * [Multi-action Feed Ranking](./multi-action-feed-ranking.md) — 信息流排序不只预测点击，而是多任务预测多种后续行为（赞/评/转/停留/负反馈等），再合成排名并叠加规则过滤。
 * [组织摩擦](./organizational-friction.md) — 需求在协作流转中产生的、不直接创造业务价值的等待与消耗；AI 编码提速后常成为端到端交付的新主矛盾。
 * [PM 效率治理](./pm-efficiency-governance.md) — AI 时代项目管理从保障节点不失控，扩展为持续发现并消除组织摩擦；AI 感知曝光，人推动治理。
