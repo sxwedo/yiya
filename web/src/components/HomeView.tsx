@@ -1,5 +1,5 @@
 import type React from "react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Catalog, CatalogPage } from "../types";
 import { pageHref, TYPE_LABEL } from "../paths";
 
@@ -9,18 +9,43 @@ interface HomeViewProps {
 
 const TERM_TYPES = new Set(["Entity", "Concept"]);
 
+function isTerm(page: CatalogPage): boolean {
+  return (
+    page.kind === "wiki" &&
+    TERM_TYPES.has(page.type) &&
+    !page.path.endsWith("/index.md")
+  );
+}
+
+function relatedTerms(catalog: Catalog, page: CatalogPage): CatalogPage[] {
+  const byPath = new Map(catalog.pages.map((p) => [p.path, p]));
+  const seen = new Set<string>();
+  const out: CatalogPage[] = [];
+  const consider = (path: string) => {
+    if (path === page.path || seen.has(path)) return;
+    const hit = byPath.get(path);
+    if (!hit || !isTerm(hit)) return;
+    seen.add(path);
+    out.push(hit);
+  };
+  for (const path of page.links) consider(path);
+  for (const other of catalog.pages) {
+    if (other.path === page.path) continue;
+    if (other.kind === "wiki" && other.links.includes(page.path)) {
+      consider(other.path);
+    }
+  }
+  return out;
+}
+
 export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
   const [domainId, setDomainId] = useState<string>("all");
   const [kind, setKind] = useState<"all" | "Entity" | "Concept">("all");
+  const [selected, setSelected] = useState<CatalogPage | null>(null);
 
   const terms = useMemo(() => {
     return catalog.pages
-      .filter(
-        (p) =>
-          p.kind === "wiki" &&
-          TERM_TYPES.has(p.type) &&
-          !p.path.endsWith("/index.md"),
-      )
+      .filter(isTerm)
       .sort((a, b) => a.title.localeCompare(b.title, "zh"));
   }, [catalog.pages]);
 
@@ -52,6 +77,25 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
     }));
   }, [visible, catalog.domains]);
 
+  const related = useMemo(
+    () => (selected ? relatedTerms(catalog, selected) : []),
+    [catalog, selected],
+  );
+
+  useEffect(() => {
+    if (!selected) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSelected(null);
+    };
+    window.addEventListener("keydown", onKey);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prev;
+    };
+  }, [selected]);
+
   return (
     <article className="mx-auto max-w-3xl py-10 sm:py-14">
       <header className="space-y-3">
@@ -62,7 +106,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
           知识词条
         </h1>
         <p className="max-w-xl text-[15px] leading-relaxed text-[var(--text-secondary)]">
-          实体与概念，用一句话写在卡片上。点开读原文。
+          点词条看摘要和关联；要读再打开原文。
         </p>
         <p className="font-mono text-[11px] text-[var(--text-muted)]">
           {visible.length} / {terms.length} 条
@@ -109,26 +153,32 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
               {group.title}
             </h2>
             <ul className="mt-3 divide-y divide-[var(--border-default)] border-y border-[var(--border-default)]">
-              {group.pages.map((page) => (
-                <li key={page.path}>
-                  <a
-                    href={pageHref(page.path)}
-                    className="group block py-5 transition-colors hover:bg-[var(--bg-subtle)]"
-                  >
-                    <div className="flex items-baseline justify-between gap-3">
-                      <h3 className="text-[17px] font-medium tracking-tight text-[var(--text-primary)] group-hover:underline group-hover:underline-offset-4">
-                        {page.title}
-                      </h3>
-                      <span className="shrink-0 font-mono text-[10px] tracking-wider text-[var(--text-faint)] uppercase">
-                        {TYPE_LABEL[page.type] ?? page.type}
-                      </span>
-                    </div>
-                    <p className="mt-2 text-[14px] leading-relaxed text-[var(--text-secondary)]">
-                      {page.description?.trim() || "（无简介）"}
-                    </p>
-                  </a>
-                </li>
-              ))}
+              {group.pages.map((page) => {
+                const open = selected?.path === page.path;
+                return (
+                  <li key={page.path}>
+                    <button
+                      type="button"
+                      onClick={() => setSelected(page)}
+                      className={`group block w-full py-5 text-left transition-colors hover:bg-[var(--bg-subtle)] ${
+                        open ? "bg-[var(--bg-subtle)]" : ""
+                      }`}
+                    >
+                      <div className="flex items-baseline justify-between gap-3">
+                        <h3 className="text-[17px] font-medium tracking-tight text-[var(--text-primary)] group-hover:underline group-hover:underline-offset-4">
+                          {page.title}
+                        </h3>
+                        <span className="shrink-0 font-mono text-[10px] tracking-wider text-[var(--text-faint)] uppercase">
+                          {TYPE_LABEL[page.type] ?? page.type}
+                        </span>
+                      </div>
+                      <p className="mt-2 text-[14px] leading-relaxed text-[var(--text-secondary)]">
+                        {page.description?.trim() || "（无简介）"}
+                      </p>
+                    </button>
+                  </li>
+                );
+              })}
             </ul>
           </section>
         ))}
@@ -138,9 +188,99 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
           </p>
         )}
       </div>
+
+      {selected && (
+        <TermPeek
+          page={selected}
+          related={related}
+          domainTitle={
+            catalog.domains.find((d) => d.id === selected.domain)?.title ??
+            selected.domain
+          }
+          onClose={() => setSelected(null)}
+          onOpenRelated={setSelected}
+        />
+      )}
     </article>
   );
 };
+
+function TermPeek({
+  page,
+  related,
+  domainTitle,
+  onClose,
+  onOpenRelated,
+}: {
+  page: CatalogPage;
+  related: CatalogPage[];
+  domainTitle: string;
+  onClose: () => void;
+  onOpenRelated: (page: CatalogPage) => void;
+}) {
+  return (
+    <div className="fixed inset-0 z-40">
+      <button
+        type="button"
+        aria-label="关闭预览"
+        className="absolute inset-0 bg-[color-mix(in_srgb,var(--text-primary)_18%,transparent)]"
+        onClick={onClose}
+      />
+      <aside className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l border-[var(--border-default)] bg-[var(--bg-canvas)] p-6 shadow-xl sm:p-8">
+        <div className="flex items-center justify-between gap-3">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--text-muted)] uppercase">
+            {domainTitle} · {TYPE_LABEL[page.type] ?? page.type}
+          </p>
+          <button
+            type="button"
+            onClick={onClose}
+            className="font-mono text-[11px] text-[var(--text-muted)] hover:text-[var(--text-primary)]"
+          >
+            关闭 Esc
+          </button>
+        </div>
+        <h2 className="mt-5 text-2xl font-medium tracking-tight text-[var(--text-primary)]">
+          {page.title}
+        </h2>
+        <p className="mt-4 text-[15px] leading-relaxed text-[var(--text-secondary)]">
+          {page.description?.trim() || "（无简介）"}
+        </p>
+
+        <div className="mt-8 min-h-0 flex-1 overflow-y-auto">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--text-muted)] uppercase">
+            Related
+          </p>
+          {related.length === 0 ? (
+            <p className="mt-3 text-[13px] text-[var(--text-muted)]">
+              正文里还没有链到其他实体/概念。
+            </p>
+          ) : (
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {related.map((item) => (
+                <li key={item.path}>
+                  <button
+                    type="button"
+                    onClick={() => onOpenRelated(item)}
+                    className="border border-[var(--border-default)] px-2.5 py-1 text-left text-[13px] text-[var(--text-primary)] hover:border-[var(--text-primary)]"
+                  >
+                    {item.title}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+
+        <a
+          href={pageHref(page.path)}
+          className="mt-8 inline-flex font-mono text-[12px] underline underline-offset-4"
+        >
+          打开原文
+        </a>
+      </aside>
+    </div>
+  );
+}
 
 function FilterChip({
   active,
