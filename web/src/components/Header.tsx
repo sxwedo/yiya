@@ -43,15 +43,15 @@ export const Header: React.FC<HeaderProps> = ({
           href="/"
           className="group flex items-center gap-2.5 rounded-md px-1.5 py-1 transition-transform hover:-translate-y-0.5"
         >
-          <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[var(--accent)] font-display text-base font-bold text-white shadow-sm">
+          <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[var(--accent)] font-mono text-base font-bold text-[var(--bg-canvas)]">
             y
           </span>
           <div className="flex flex-col">
-            <span className="font-display text-sm font-semibold tracking-wider text-[var(--text-primary)]">
+            <span className="font-mono text-sm font-semibold tracking-wider text-[var(--text-primary)]">
               yiya
             </span>
-            <span className="text-[10px] tracking-wider text-[var(--text-muted)]">
-              思想档案 · Archive
+            <span className="font-mono text-[10px] tracking-wider text-[var(--text-muted)]">
+              dictionary
             </span>
           </div>
         </a>

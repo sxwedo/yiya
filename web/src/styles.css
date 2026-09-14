@@ -2,60 +2,56 @@
 
 @layer base {
   :root {
-    --bg-canvas: #fbfaf8;
-    --bg-surface: #ffffff;
-    --bg-subtle: #f5f3ef;
-    --bg-hover: #edeae4;
-    --bg-active: #e5e1d8;
-    --bg-code: #1c1917;
-    --text-code: #f5f5f4;
+    --bg-canvas: #ececec;
+    --bg-surface: #f4f4f4;
+    --bg-subtle: #e6e6e6;
+    --bg-hover: #dedede;
+    --bg-active: #d4d4d4;
+    --bg-code: #171717;
+    --text-code: #ececec;
 
-    --text-primary: #1c1917;
-    --text-secondary: #57534e;
-    --text-muted: #78716c;
-    --text-faint: #a8a29e;
+    --text-primary: #171717;
+    --text-secondary: #3f3f3f;
+    --text-muted: #5c5c5c;
+    --text-faint: #8a8a8a;
 
-    --border-subtle: rgba(28, 25, 23, 0.05);
-    --border-default: rgba(28, 25, 23, 0.1);
-    --border-hover: rgba(28, 25, 23, 0.2);
+    --border-subtle: color-mix(in srgb, #171717 8%, transparent);
+    --border-default: color-mix(in srgb, #171717 16%, transparent);
+    --border-hover: color-mix(in srgb, #171717 28%, transparent);
 
-    /* Cinnabar Terracotta Accent */
-    --accent: #c2410c;
-    --accent-subtle: rgba(194, 65, 12, 0.08);
-    --accent-hover: #9a3412;
+    --accent: #171717;
+    --accent-subtle: color-mix(in srgb, #171717 8%, transparent);
+    --accent-hover: #000000;
 
-    --font-display:
-      "Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong",
-      "Iowan Old Style", Palatino, serif;
-    --font-sans:
-      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     --font-mono:
-      "JetBrains Mono", "SF Mono", ui-monospace, Menlo, Monaco, Consolas,
-      monospace;
+      ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --font-sans:
+      "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB",
+      "Microsoft YaHei", sans-serif;
+    --font-display: var(--font-sans);
   }
 
   [data-theme="night"] {
-    --bg-canvas: #0c0d0e;
-    --bg-surface: #141618;
-    --bg-subtle: #1c1f22;
-    --bg-hover: #262a2f;
-    --bg-active: #30353b;
-    --bg-code: #08090a;
-    --text-code: #eceae5;
+    --bg-canvas: #171717;
+    --bg-surface: #1f1f1f;
+    --bg-subtle: #262626;
+    --bg-hover: #2e2e2e;
+    --bg-active: #383838;
+    --bg-code: #0f0f0f;
+    --text-code: #ececec;
 
-    --text-primary: #eceae5;
-    --text-secondary: #a8a29e;
-    --text-muted: #78716c;
-    --text-faint: #57534e;
+    --text-primary: #ececec;
+    --text-secondary: #c4c4c4;
+    --text-muted: #8a8a8a;
+    --text-faint: #5c5c5c;
 
-    --border-subtle: rgba(255, 255, 255, 0.05);
-    --border-default: rgba(255, 255, 255, 0.1);
-    --border-hover: rgba(255, 255, 255, 0.2);
+    --border-subtle: color-mix(in srgb, #ececec 8%, transparent);
+    --border-default: color-mix(in srgb, #ececec 16%, transparent);
+    --border-hover: color-mix(in srgb, #ececec 28%, transparent);
 
-    --accent: #fb923c;
-    --accent-subtle: rgba(251, 146, 60, 0.12);
-    --accent-hover: #fdba74;
+    --accent: #ececec;
+    --accent-subtle: color-mix(in srgb, #ececec 8%, transparent);
+    --accent-hover: #ffffff;
   }
 
   html,
