@@ -182,11 +182,11 @@ export const App: React.FC = () => {
     return (
       <div className="flex h-screen w-screen items-center justify-center bg-[var(--bg-canvas)]">
         <div className="flex flex-col items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[var(--accent)] font-display text-xl font-bold text-white shadow-md animate-pulse">
+          <span className="flex h-10 w-10 items-center justify-center bg-[var(--accent)] font-mono text-xl font-bold text-[var(--bg-canvas)]">
             y
           </span>
-          <span className="text-xs font-mono tracking-wider text-[var(--text-muted)]">
-            ARCHIVE LOADING...
+          <span className="text-xs font-mono text-[var(--text-muted)]">
+            载入中
           </span>
         </div>
       </div>
@@ -203,6 +203,7 @@ export const App: React.FC = () => {
         onToggleSidebar={() => setIsSidebarOpen((prev) => !prev)}
         zenMode={zenMode}
         onToggleZenMode={() => setZenMode((prev) => !prev)}
+        sidebarOpen={isSidebarOpen}
       />
 
       <div className="flex">

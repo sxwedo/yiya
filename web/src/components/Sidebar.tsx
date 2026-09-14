@@ -88,7 +88,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <a
             href="/"
             onClick={onClose}
-            className={`flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium transition-all ${
+            className={`flex items-center gap-2.5 px-3 py-2 text-sm font-medium transition-all ${
               isNavActive("./")
                 ? "bg-[var(--accent-subtle)] font-semibold text-[var(--accent)]"
                 : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
@@ -99,16 +99,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
               weight={isNavActive("./") ? "fill" : "regular"}
               className="text-[var(--accent)]"
             />
-            <span>知识地图 · Overview</span>
+            <span>词条</span>
           </a>
 
           {/* Curated Domains Accordion */}
           <div className="mt-5 space-y-4">
-            <div className="px-2 text-[11px] font-semibold tracking-wider text-[var(--text-muted)] uppercase">
-              知识展馆 (Wings)
-            </div>
+            <div className="px-2 text-[13px] text-[var(--text-muted)]">域</div>
 
-            {catalog.domains.map((domain, idx) => {
+            {catalog.domains.map((domain) => {
               const overview = overviewPath(domain.path);
               const isCollapsed = Boolean(collapsedDomains[domain.id]);
               const domainActive =
@@ -117,26 +115,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   : route.view === "dir" &&
                     route.folder.startsWith(domain.path);
 
-              const wingNum = String(idx + 1).padStart(2, "0");
-
               return (
-                <div
-                  key={domain.id}
-                  className="rounded-lg bg-[var(--bg-subtle)]/50 p-1.5"
-                >
+                <div key={domain.id} className="bg-[var(--bg-subtle)]/50 p-1.5">
                   <div className="flex items-center justify-between">
                     <a
                       href={pageHref(overview)}
                       onClick={onClose}
-                      className={`flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-xs font-semibold tracking-wide transition-all ${
+                      className={`flex flex-1 items-center gap-2 px-2 py-1.5 text-xs font-semibold tracking-wide transition-all ${
                         domainActive
                           ? "text-[var(--accent)]"
                           : "text-[var(--text-primary)] hover:text-[var(--accent)]"
                       }`}
                     >
-                      <span className="font-mono text-[10px] text-[var(--text-muted)]">
-                        {wingNum}
-                      </span>
                       <span>{domain.title}</span>
                     </a>
                     <button
@@ -161,7 +151,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         <a
                           href={pageHref(overview)}
                           onClick={onClose}
-                          className={`flex items-center justify-between rounded px-2 py-1 text-xs transition-colors ${
+                          className={`flex items-center justify-between px-2 py-1 text-xs transition-colors ${
                             isNavActive(pageHref(overview))
                               ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                               : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
@@ -174,14 +164,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       <a
                         href={dirHref(`${domain.path}/entities`)}
                         onClick={onClose}
-                        className={`flex items-center justify-between rounded px-2 py-1 text-xs transition-colors ${
+                        className={`flex items-center justify-between px-2 py-1 text-xs transition-colors ${
                           isNavActive(dirHref(`${domain.path}/entities`))
                             ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                             : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
                         }`}
                       >
                         <span>实体</span>
-                        <span className="rounded-full bg-[var(--bg-surface)] px-1.5 py-0.2 font-mono text-[10px] text-[var(--text-muted)] shadow-xs">
+                        <span className="bg-[var(--bg-surface)] px-1.5 py-0.2 font-mono text-[10px] text-[var(--text-muted)] shadow-xs">
                           {countWiki(domain, "Entity")}
                         </span>
                       </a>
@@ -189,14 +179,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       <a
                         href={dirHref(`${domain.path}/concepts`)}
                         onClick={onClose}
-                        className={`flex items-center justify-between rounded px-2 py-1 text-xs transition-colors ${
+                        className={`flex items-center justify-between px-2 py-1 text-xs transition-colors ${
                           isNavActive(dirHref(`${domain.path}/concepts`))
                             ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                             : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
                         }`}
                       >
                         <span>概念</span>
-                        <span className="rounded-full bg-[var(--bg-surface)] px-1.5 py-0.2 font-mono text-[10px] text-[var(--text-muted)] shadow-xs">
+                        <span className="bg-[var(--bg-surface)] px-1.5 py-0.2 font-mono text-[10px] text-[var(--text-muted)] shadow-xs">
                           {countWiki(domain, "Concept")}
                         </span>
                       </a>
@@ -204,14 +194,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       <a
                         href={dirHref(`${domain.path}/references`)}
                         onClick={onClose}
-                        className={`flex items-center justify-between rounded px-2 py-1 text-xs transition-colors ${
+                        className={`flex items-center justify-between px-2 py-1 text-xs transition-colors ${
                           isNavActive(dirHref(`${domain.path}/references`))
                             ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                             : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
                         }`}
                       >
                         <span>文献</span>
-                        <span className="rounded-full bg-[var(--bg-surface)] px-1.5 py-0.2 font-mono text-[10px] text-[var(--text-muted)] shadow-xs">
+                        <span className="bg-[var(--bg-surface)] px-1.5 py-0.2 font-mono text-[10px] text-[var(--text-muted)] shadow-xs">
                           {countWiki(domain, "Reference")}
                         </span>
                       </a>
@@ -222,7 +212,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         <a
                           href={pageHref(`${domain.path}/log.md`)}
                           onClick={onClose}
-                          className={`flex items-center justify-between rounded px-2 py-1 text-xs transition-colors ${
+                          className={`flex items-center justify-between px-2 py-1 text-xs transition-colors ${
                             isNavActive(pageHref(`${domain.path}/log.md`))
                               ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                               : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
@@ -243,14 +233,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
           {/* Raw Archives Section */}
           <div className="mt-6 space-y-1">
-            <div className="px-2 text-[11px] font-semibold tracking-wider text-[var(--text-muted)] uppercase">
-              原料档案 (Drawers)
-            </div>
+            <div className="px-2 text-[13px] text-[var(--text-muted)]">原料</div>
 
             <a
               href={dirHref("raw/articles")}
               onClick={onClose}
-              className={`flex items-center justify-between rounded-lg px-3 py-1.5 text-xs transition-colors ${
+              className={`flex items-center justify-between px-3 py-1.5 text-xs transition-colors ${
                 isNavActive(dirHref("raw/articles"))
                   ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                   : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
@@ -268,7 +256,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <a
               href={dirHref("raw/bookmarks")}
               onClick={onClose}
-              className={`flex items-center justify-between rounded-lg px-3 py-1.5 text-xs transition-colors ${
+              className={`flex items-center justify-between px-3 py-1.5 text-xs transition-colors ${
                 isNavActive(dirHref("raw/bookmarks"))
                   ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                   : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
@@ -286,7 +274,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <a
               href={dirHref("raw/_inbox")}
               onClick={onClose}
-              className={`flex items-center justify-between rounded-lg px-3 py-1.5 text-xs transition-colors ${
+              className={`flex items-center justify-between px-3 py-1.5 text-xs transition-colors ${
                 isNavActive(dirHref("raw/_inbox"))
                   ? "bg-[var(--accent-subtle)] font-medium text-[var(--accent)]"
                   : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
@@ -308,7 +296,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <a
             href={pageHref("AGENTS.md")}
             onClick={onClose}
-            className="flex items-center justify-between rounded-md px-2 py-1.5 text-xs text-[var(--text-muted)] transition-colors hover:bg-[var(--bg-subtle)] hover:text-[var(--text-primary)]"
+            className="flex items-center justify-between px-2 py-1.5 text-xs text-[var(--text-muted)] transition-colors hover:bg-[var(--bg-subtle)] hover:text-[var(--text-primary)]"
           >
             <span className="flex items-center gap-1.5">
               <BookBookmark size={14} />

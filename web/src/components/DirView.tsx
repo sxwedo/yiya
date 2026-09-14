@@ -83,7 +83,7 @@ export const DirView: React.FC<DirViewProps> = ({ catalog, folder }) => {
       {/* Directory Header */}
       <header className="space-y-2 border-b border-[var(--border-default)] pb-6">
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-[var(--bg-subtle)] px-2.5 py-0.5 font-mono text-[10px] font-semibold text-[var(--text-muted)] uppercase">
+          <span className="bg-[var(--bg-subtle)] px-2.5 py-0.5 font-mono text-[10px] font-semibold text-[var(--text-muted)] uppercase">
             {folder.startsWith("raw") ? "原料档案库" : "知识目录"}
           </span>
         </div>
@@ -111,7 +111,7 @@ export const DirView: React.FC<DirViewProps> = ({ catalog, folder }) => {
               <a
                 key={f.path}
                 href={dirHref(f.path)}
-                className="group flex items-center justify-between rounded-xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-3.5 transition-all hover:border-[var(--accent)] hover:shadow-xs"
+                className="group flex items-center justify-between border border-[var(--border-default)] bg-[var(--bg-surface)] p-3.5 transition-all hover:border-[var(--accent)] hover:shadow-xs"
               >
                 <div className="flex items-center gap-3">
                   <Folder
@@ -138,7 +138,7 @@ export const DirView: React.FC<DirViewProps> = ({ catalog, folder }) => {
           <h2 className="text-xs font-semibold tracking-wider text-[var(--text-muted)] uppercase">
             典藏条目
           </h2>
-          <div className="overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] shadow-xs">
+          <div className="overflow-hidden border border-[var(--border-default)] bg-[var(--bg-surface)] shadow-xs">
             {pages.map((p) => (
               <a
                 key={p.path}
@@ -149,7 +149,7 @@ export const DirView: React.FC<DirViewProps> = ({ catalog, folder }) => {
                   <span className="font-display text-base font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)]">
                     {p.title || p.path}
                   </span>
-                  <span className="shrink-0 rounded-full bg-[var(--bg-subtle)] px-2 py-0.5 text-[10px] font-medium text-[var(--text-muted)]">
+                  <span className="shrink-0 bg-[var(--bg-subtle)] px-2 py-0.5 text-[10px] font-medium text-[var(--text-muted)]">
                     {pageKindLabel(p)}
                   </span>
                 </div>

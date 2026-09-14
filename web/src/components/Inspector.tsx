@@ -81,7 +81,7 @@ export const Inspector: React.FC<InspectorProps> = ({
               <a
                 key={b.path}
                 href={pageHref(b.path)}
-                className="group flex flex-col rounded-md border border-[var(--border-subtle)] bg-[var(--bg-subtle)]/40 p-2 transition-all hover:border-[var(--border-hover)] hover:bg-[var(--bg-surface)] hover:shadow-xs"
+                className="group flex flex-col border border-[var(--border-subtle)] bg-[var(--bg-subtle)]/40 p-2 transition-all hover:border-[var(--border-hover)] hover:bg-[var(--bg-surface)] hover:shadow-xs"
               >
                 <span className="font-display font-medium text-xs text-[var(--text-primary)] group-hover:text-[var(--accent)]">
                   {b.title}
@@ -124,7 +124,7 @@ export const Inspector: React.FC<InspectorProps> = ({
                   href={href}
                   target={isExternal ? "_blank" : undefined}
                   rel={isExternal ? "noreferrer" : undefined}
-                  className="flex items-center justify-between rounded-md border border-[var(--border-default)] bg-[var(--bg-surface)] px-2.5 py-1.5 text-xs text-[var(--text-secondary)] transition-all hover:border-[var(--accent)] hover:text-[var(--accent)] hover:shadow-xs"
+                  className="flex items-center justify-between border border-[var(--border-default)] bg-[var(--bg-surface)] px-2.5 py-1.5 text-xs text-[var(--text-secondary)] transition-all hover:border-[var(--accent)] hover:text-[var(--accent)] hover:shadow-xs"
                 >
                   <span className="truncate pr-1">{label}</span>
                   {isExternal ? (

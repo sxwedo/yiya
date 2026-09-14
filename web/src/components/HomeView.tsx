@@ -1,5 +1,5 @@
 import type React from "react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Catalog, CatalogPage } from "../types";
 import { pageHref, TYPE_LABEL } from "../paths";
 
@@ -28,10 +28,14 @@ function relatedTerms(catalog: Catalog, page: CatalogPage): CatalogPage[] {
     seen.add(path);
     out.push(hit);
   };
+  for (const path of page.related ?? []) consider(path);
   for (const path of page.links) consider(path);
   for (const other of catalog.pages) {
     if (other.path === page.path) continue;
     if (other.kind === "wiki" && other.links.includes(page.path)) {
+      consider(other.path);
+    }
+    if (other.kind === "wiki" && (other.related ?? []).includes(page.path)) {
       consider(other.path);
     }
   }
@@ -40,7 +44,7 @@ function relatedTerms(catalog: Catalog, page: CatalogPage): CatalogPage[] {
 
 export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
   const [domainId, setDomainId] = useState<string>("all");
-  const [kind, setKind] = useState<"all" | "Entity" | "Concept">("all");
+  const [kind, setKind] = useState<"all" | "Entity" | "Concept">("Concept");
   const [selected, setSelected] = useState<CatalogPage | null>(null);
 
   const terms = useMemo(() => {
@@ -84,14 +88,9 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
 
   useEffect(() => {
     if (!selected) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setSelected(null);
-    };
-    window.addEventListener("keydown", onKey);
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
-      window.removeEventListener("keydown", onKey);
       document.body.style.overflow = prev;
     };
   }, [selected]);
@@ -99,14 +98,11 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
   return (
     <article className="mx-auto max-w-3xl py-10 sm:py-14">
       <header className="space-y-3">
-        <p className="font-mono text-[11px] tracking-[0.18em] text-[var(--text-muted)] uppercase">
-          yiya · dictionary
-        </p>
         <h1 className="text-3xl font-medium tracking-tight text-[var(--text-primary)] sm:text-4xl">
           知识词条
         </h1>
         <p className="max-w-xl text-[15px] leading-relaxed text-[var(--text-secondary)]">
-          点词条看摘要和关联；要读再打开原文。
+          默认看概念。点开摘要和关联，再决定要不要读原文。
         </p>
         <p className="font-mono text-[11px] text-[var(--text-muted)]">
           {visible.length} / {terms.length} 条
@@ -149,9 +145,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
       <div className="mt-10 space-y-12">
         {grouped.map((group) => (
           <section key={group.id}>
-            <h2 className="font-mono text-[11px] tracking-[0.16em] text-[var(--text-muted)] uppercase">
-              {group.title}
-            </h2>
+            <h2 className="text-sm text-[var(--text-muted)]">{group.title}</h2>
             <ul className="mt-3 divide-y divide-[var(--border-default)] border-y border-[var(--border-default)]">
               {group.pages.map((page) => {
                 const open = selected?.path === page.path;
@@ -168,7 +162,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ catalog }) => {
                         <h3 className="text-[17px] font-medium tracking-tight text-[var(--text-primary)] group-hover:underline group-hover:underline-offset-4">
                           {page.title}
                         </h3>
-                        <span className="shrink-0 font-mono text-[10px] tracking-wider text-[var(--text-faint)] uppercase">
+                        <span className="shrink-0 font-mono text-[10px] text-[var(--text-faint)]">
                           {TYPE_LABEL[page.type] ?? page.type}
                         </span>
                       </div>
@@ -218,18 +212,60 @@ function TermPeek({
   onClose: () => void;
   onOpenRelated: (page: CatalogPage) => void;
 }) {
+  const panelRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const root = panelRef.current;
+    if (!root) return;
+    const focusables = () =>
+      [
+        ...root.querySelectorAll<HTMLElement>(
+          'button, a[href], [tabindex]:not([tabindex="-1"])',
+        ),
+      ].filter((el) => !el.hasAttribute("disabled"));
+    focusables()[0]?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        onClose();
+        return;
+      }
+      if (e.key !== "Tab") return;
+      const items = focusables();
+      if (items.length === 0) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [page.path, onClose]);
+
   return (
     <div className="fixed inset-0 z-40">
       <button
         type="button"
+        tabIndex={-1}
         aria-label="关闭预览"
         className="absolute inset-0 bg-[color-mix(in_srgb,var(--text-primary)_18%,transparent)]"
         onClick={onClose}
       />
-      <aside className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l border-[var(--border-default)] bg-[var(--bg-canvas)] p-6 shadow-xl sm:p-8">
+      <aside
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="term-peek-title"
+        className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l border-[var(--border-default)] bg-[var(--bg-canvas)] p-6 shadow-xl sm:p-8"
+      >
         <div className="flex items-center justify-between gap-3">
-          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--text-muted)] uppercase">
-            {domainTitle} · {TYPE_LABEL[page.type] ?? page.type}
+          <p className="text-[13px] text-[var(--text-muted)]">
+            {domainTitle} {TYPE_LABEL[page.type] ?? page.type}
           </p>
           <button
             type="button"
@@ -239,7 +275,10 @@ function TermPeek({
             关闭 Esc
           </button>
         </div>
-        <h2 className="mt-5 text-2xl font-medium tracking-tight text-[var(--text-primary)]">
+        <h2
+          id="term-peek-title"
+          className="mt-5 text-2xl font-medium tracking-tight text-[var(--text-primary)]"
+        >
           {page.title}
         </h2>
         <p className="mt-4 text-[15px] leading-relaxed text-[var(--text-secondary)]">
@@ -247,12 +286,10 @@ function TermPeek({
         </p>
 
         <div className="mt-8 min-h-0 flex-1 overflow-y-auto">
-          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--text-muted)] uppercase">
-            Related
-          </p>
+          <p className="text-[13px] text-[var(--text-muted)]">关联</p>
           {related.length === 0 ? (
             <p className="mt-3 text-[13px] text-[var(--text-muted)]">
-              正文里还没有链到其他实体/概念。
+              还没有关联词条。
             </p>
           ) : (
             <ul className="mt-3 flex flex-wrap gap-2">
@@ -295,7 +332,7 @@ function FilterChip({
     <button
       type="button"
       onClick={onClick}
-      className={`font-mono rounded-full border px-3 py-1 text-[11px] tracking-wide transition-colors ${
+      className={`font-mono border px-3 py-1 text-[11px] transition-colors ${
         active
           ? "border-[var(--text-primary)] bg-[var(--text-primary)] text-[var(--bg-canvas)]"
           : "border-[var(--border-default)] bg-transparent text-[var(--text-secondary)] hover:border-[var(--border-hover)] hover:text-[var(--text-primary)]"

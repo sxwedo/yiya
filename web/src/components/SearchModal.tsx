@@ -96,7 +96,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="flex w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] shadow-2xl transition-all"
+        className="flex w-full max-w-2xl flex-col overflow-hidden border border-[var(--border-default)] bg-[var(--bg-surface)] shadow-2xl transition-all"
       >
         {/* Search Input Bar */}
         <div className="flex items-center gap-3 border-b border-[var(--border-default)] px-4 py-3">
@@ -126,7 +126,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
               <X size={14} />
             </button>
           )}
-          <kbd className="rounded border border-[var(--border-default)] bg-[var(--bg-subtle)] px-1.5 py-0.5 font-mono text-[10px] text-[var(--text-muted)]">
+          <kbd className="border border-[var(--border-default)] bg-[var(--bg-subtle)] px-1.5 py-0.5 font-mono text-[10px] text-[var(--text-muted)]">
             ESC
           </kbd>
         </div>
@@ -147,9 +147,9 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 setFilterType(tab.id);
                 setSelectedIndex(0);
               }}
-              className={`rounded-full px-2.5 py-1 text-xs font-medium transition-all ${
+              className={`px-2.5 py-1 text-xs font-medium transition-all ${
                 filterType === tab.id
-                  ? "bg-[var(--accent)] text-white shadow-xs"
+                  ? "bg-[var(--accent)] text-[var(--bg-canvas)] shadow-xs"
                   : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
               }`}
             >
@@ -177,13 +177,13 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                     href={pageHref(hit.path)}
                     onClick={() => onClose()}
                     onMouseEnter={() => setSelectedIndex(idx)}
-                    className={`flex items-start gap-3 rounded-xl p-3 transition-all ${
+                    className={`flex items-start gap-3 p-3 transition-all ${
                       isSelected
                         ? "bg-[var(--accent-subtle)] text-[var(--accent-text)]"
                         : "text-[var(--text-primary)] hover:bg-[var(--bg-subtle)]"
                     }`}
                   >
-                    <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-[var(--bg-surface)] shadow-xs">
+                    <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center bg-[var(--bg-surface)] shadow-xs">
                       {getKindIcon(hit)}
                     </div>
                     <div className="min-w-0 flex-1">
@@ -191,7 +191,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                         <span className="font-display font-medium text-sm text-[var(--text-primary)]">
                           {hit.title}
                         </span>
-                        <span className="rounded-full bg-[var(--bg-subtle)] px-2 py-0.5 text-[10px] font-medium text-[var(--text-muted)]">
+                        <span className="bg-[var(--bg-subtle)] px-2 py-0.5 text-[10px] font-medium text-[var(--text-muted)]">
                           {pageKindLabel(hit)}
                         </span>
                       </div>
