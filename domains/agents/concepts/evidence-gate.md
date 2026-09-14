@@ -11,6 +11,8 @@ related:
   - delivery-harness
   - harness-self-improvement
   - minimal-agent-harness
+  - plan-with-code
+  - pstack
 sources:
   - ../references/dewu-delivery-harness.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
@@ -38,4 +40,6 @@ sources:
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Harness 自改进](./harness-self-improvement.md)
+- [用代码做计划](./plan-with-code.md)
+- [pstack](../entities/pstack.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)

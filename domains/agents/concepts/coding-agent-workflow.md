@@ -23,6 +23,7 @@ related:
   - skills-sh
   - agent-skills
   - auto-mode
+  - plan-with-code
 sources:
   - ../references/ng-coding-agents-skills.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
@@ -81,4 +82,5 @@ AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` 
 - [skills.sh](../entities/skills-sh.md)
 - [Agent Skills](../entities/agent-skills.md)
 - [Auto Mode](./auto-mode.md)
+- [用代码做计划](./plan-with-code.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)

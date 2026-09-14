@@ -16,6 +16,7 @@ related:
   - delivery-harness
   - usegrokbot-site
   - oto-dock
+  - pstack
 sources:
   - ../references/jinchenma-grok-bot-guide.md
   - ../references/javaguide-grok-bot-engineering.md
@@ -48,6 +49,7 @@ sources:
 - [mena](./mena.md)
 - [Engineering Bot](../concepts/engineering-bot.md)
 - [Playbook 反馈闭环](../concepts/playbook-feedback-loop.md)
+- [pstack](./pstack.md)
 - [Delivery Harness](../concepts/delivery-harness.md)
 - [一个人管 200+ 个 Agent！Grok Bot 这套 AI 编程玩法太炸裂了](../references/javaguide-grok-bot-engineering.md)
 - [UseGrokBot（站点）](../references/usegrokbot-site.md)

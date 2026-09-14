@@ -94,6 +94,7 @@ sources: []
 | [Agent Orchestrator](./entities/agent-orchestrator.md) | 本机桌面编排 coding agent 舰队 |
 | [i-have-adhd](./entities/i-have-adhd.md) | Skill：先给下一步，禁止把答案埋进长文 |
 | [Archify](./entities/archify.md) | Skill：描述/代码 → 可交互架构图 |
+| [pstack](./entities/pstack.md) | poteto 的 Cursor 技能包：验证 / 原型 / architect，反对抽象 Plan Mode |
 
 ### 外探源
 
