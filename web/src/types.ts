@@ -11,7 +11,6 @@ export type CatalogPage = {
   author: string;
   url: string;
   links: string[];
-  related: string[];
 };
 
 export type CatalogDomain = {
