@@ -2,7 +2,8 @@
 name: yiya-lint
 description: >-
   Lint one yiya OKF bundle for missing type, broken local links, leading-slash
-  paths, duplicate raw urls, unlinked raw, and thin indexes. Use when the user
+  paths, duplicate raw urls, unlinked raw, thin indexes, weak-hang sources,
+  empty sources, Related-to-raw, and oversized _media. Use when the user
   asks to lint, 检查, 校验知识库, or review a domain's consistency.
   Epistemic pass only when they say 全面体检, lint 知识, or 知识体检.
 argument-hint: "[domains/agents|domains/engineering|shared]"
@@ -41,6 +42,10 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
    - 检查 `references/` 中是否充斥仅含跳转链接、无实质深度笔记的纯书签卡；
    - 检查正文 `## Related` 是否违规大段机械复制 `sources` raw 列表（Related 应聚焦维基页面互链）。
 9. **index 一句话**：类型 `index.md` 每条应为 `* [Title](./x.md) — <一句话>`；缺则 `notes`。
+10. **空 `sources`**：本 bundle 内 Entity/Concept 的 `sources:` 为空或 `[]`。列入 `empty_sources`（书签实体应至少有 github/sites/docs/tools 或对应 Reference 卡）。
+11. **弱挂 `sources`**：`sources` 里的成文 raw，标题/主旨明显不是该页对象（清单、屠榜、路线图、合集顺带点名）。列入 `weak_hang`：建议剥 sources、留书签。只报告。
+12. **Related 含 raw**：`## Related`（及 frontmatter `related:` 若写成路径）出现 `raw/` 或「打开 raw」。列入 `related_raw`。Related 只应链 Entity / Concept / Overview。
+13. **`_media` >1MB**（全库一次即可，不按 bundle 重复扫）：`find raw/articles/_media -type f -size +1M`。列入 `oversized_media`（路径 + 字节）。只报告；瘦 git 历史需用户另授权。
 
 ## 知识项（仅「全面体检」/「lint 知识」/「知识体检」）
 
@@ -56,6 +61,7 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 ## 输出
 
 - `missing_type` / `broken_links` / `absolute_paths` / `duplicate_urls` / `unlinked_raw` / `duplicates` / `notes`
+- `empty_sources` / `weak_hang` / `related_raw` / `oversized_media`
 - `epistemic: skipped` 或 `epistemic: …`
 
 用户同意后再改文件。可选在该 bundle `log.md` 记：`* **YYYY-MM-DD lint** | bundle → 摘要`。

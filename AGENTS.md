@@ -2,7 +2,7 @@
 
 三层：**raw（原料）→ domains/shared（知识）→ AGENTS/skills（约定）**。
 
-流程：`.agents/skills/`（`yiya-ingest` / `yiya-lint` / `yiya-dream` / `yiya-explore` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
+流程：`.agents/skills/`（`yiya-ingest` / `yiya-rewrite` / `yiya-lint` / `yiya-dream` / `yiya-explore` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
 
 ## 架构
 
@@ -18,11 +18,11 @@ shared/                        # 跨域实体与纲领
 
 域路由见 `config/domains.yaml`。敏感进 `private/`（不进 git）。
 
-## 四条规矩
+## 五条规矩
 
 1. **raw 正文不改**（除非人类授权删除/替换）
 2. **成文先续写与高内聚**：先定 Domain（`overview.md` / `config/domains.yaml`），再在目标域 + `shared` 找同指称 Entity/Concept。
-   - **能改则改旧页**（补 `sources`、修润核心论点、增补对比）；但**严禁垃圾桶挂靠**：只有成文的核心论点直接支撑该概念时才追加，弱相关或仅顺带提及的不追加。
+   - **能改则改旧页**（补 `sources`、修润核心论点、增补对比）；但**严禁垃圾桶挂靠**：成文标题与核心段落必须就是该对象。清单/屠榜/路线图顺带点名 **不进 `sources`**（书签表仍可收入口）。专文对象正文写机制；纯书签 Entity 保持短卡。
    - **过载拆分（Refactor）**：单页 `sources > 15` 或涵盖正交子主题时应触发拆解，不再硬塞；新建 Entity/Concept 合计日常 ≤2，但在执行授权的重构拆分时不计。
 3. **Reference 降噪与防空心化**：
    - **废弃书签必建空心 Reference**：书签收录进 `raw/bookmarks/*.md` 后，直挂对应 Entity，无需为纯 URL 制造只有 5 行的跳转卡。
@@ -36,7 +36,7 @@ shared/                        # 跨域实体与纲领
 
 ## 问答
 
-用户提问（不是入库 / 回写 / lint / 删除 raw）时：
+用户提问（不是入库 / 回写 / 精读重写 / lint / 删除 raw）时：
 
 1. 读 `shared/map.md` → 目标域 `overview.md` + **类型** `index.md` → 匹配的 Entity/Concept。域根 `index.md` 只是文件夹封面。
 2. 用已有页作答，引用相对路径。wiki 缺口才读 raw。
@@ -53,6 +53,7 @@ shared/                        # 跨域实体与纲领
 | 成文 | 文章/长帖，或一篇有稳定标题的官方指南：拉这一页 → `raw/articles/<作者>/` → 匹配核心 Concept/Entity 续写（配图 >1M 转原外链不落盘）；无匹配且必要才新建 |
 | 书签 | GitHub → `github.md`；产品/机构首页 → `sites.md`；docs 门户/根 → `docs.md`；工具 → `tools.md`。直接在对应 Entity 记录或补链，不建空心 Reference |
 | 重构 (Refactor) | 当 Concept 出现概念漂移、`sources > 15` 或包含非核心杂质时：剥离非核心 raw 链接，提炼拆分出独立子概念或回归内聚定义 |
+| 精读重写 | 已有页太薄：按簇精读 `sources` 写成机制 → `yiya-rewrite`。不抓新 URL |
 
 官方文档怎么判、步骤、结构体检见 `yiya-ingest`。查重扫 raw 头 `url:`；认领=知识页链上该 raw。
 
@@ -66,7 +67,7 @@ shared/                        # 跨域实体与纲领
 
 ## 红线
 
-- 成文 raw 入库时须写/更新链到它的 Concept/Entity；查重先扫 raw 的 `url:`
+- 成文 raw 入库时须写/更新链到它的 Concept/Entity（主旨判定失败的弱挂除外，可只进书签表）；查重先扫 raw 的 `url:`
 - 不删 raw 原件（除非用户点名 `raw/` 路径 → `yiya-delete-raw`）
 - 不类型集邮；不平行发明第二套元数据
 - 入库后按 ingest 做结构体检；有建议则停，等用户说「改」再动约定

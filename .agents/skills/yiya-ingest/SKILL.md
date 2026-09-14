@@ -16,17 +16,29 @@ argument-hint: "[url-or-path] [domain?]"
 ## 默认要瘦
 
 - **新建** Entity/Concept/Reference 合计 **≤2**。bookmarks 表、类型 index、`log.md`、overview 实体表**不计**。
-- **改旧页不限数量**：同指称或同簇已有页都碰（补 `sources`、增润 Definition/Summary、补 Related 对照）。**但严禁垃圾桶挂靠**：成文的核心主旨必须直接支撑该概念才可追加，严禁把弱相关杂文强塞给宽泛大概念。
+- **改旧页不限数量**：同指称或同簇已有页都碰（补 `sources`、增润 Definition/Summary、补 Related 对照）。**但严禁垃圾桶挂靠**（见下方「主旨判定」）。
 - **过载拆解**：若目标概念页已有 `sources > 15` 或已出现概念漂移，应提出重构拆解（Refactor）建议，不再无脑堆砌。
 - 本文的稳定对象是**具名产品/人**才改/建 Entity；模式文可以零 Entity。产品名写进 Entity 页。
 - **元数据职责分工（DRY）**：
   - Frontmatter `sources:` 直链 raw（原料溯源）；YAML 路径不用 `<>`
   - 正文 `## Related` 仅链向相关 Wiki 页面（Entity / Concept / Overview），**不**在文末重复粘贴全部 raw 列表
   - 正文若必须链到本地文件（如 Reference 的「打开 raw」）：路径含空格或括号 `()` 时写成 `[标题](<相对路径.md>)`，禁止 `[标题](带 空格.md)`（CommonMark 会截断成字面量）
-- **配图体积控制（>1MB 转原链接）**：成文抓取严禁落盘超大图片导致 Git 仓库膨胀。**单张图片大小超过 1MB（如高清截图、大 GIF 动图等），一律不存入本地 `_media/`，在 Markdown 正文中直接保留或转化成原始网络链接（URL）**，本地已下载的立即删除；仅 `≤ 1MB` 的图片才落盘到本地 `_media/<slug>/`。
+- **配图体积控制（>1MB 转原链接）**：成文抓取严禁落盘超大图片导致 Git 仓库膨胀。**单张 >1MB 一律不进 `_media/`**，正文保留/改成原始网络 URL；仅 `≤1MB` 才落盘。**落盘后必须再 `stat`/`find -size +1M` 扫一遍该 slug 目录**，超标立刻删文件并改回 URL，禁止「先提交再清」。
 - **Reference 极简原则**：成文与书签**默认均不建** Reference。书签直接在对应 Entity 中沉淀链接与简述；仅当长篇专著/标准规范需撰写深度评注笔记时才建 Reference。历史 Reference 不批量删。
 
 盘点顺序：先定 Domain，再 **Entity → Concept →（极少需）Reference**。
+
+## 主旨判定（弱挂不进 `sources`）
+
+成文能不能挂上某页，只看**这篇的核心主旨是不是该对象**，不看是否点名。
+
+| 判定 | 动作 |
+| --- | --- |
+| 标题与核心段落就是在讲这个产品/模式 | **挂** `sources`，并按下方深度条续写正文 |
+| 清单、路线图、屠榜、合集里顺带出现 | **不进 `sources`**。书签型入口仍可进 `github.md` / `sites.md`；wiki 最多 Related 轻挂一句或不挂 |
+| 专文在讲 A，B 只是对照例子 | 只挂 A；B 用 Related，不把该 raw 塞进 B 的 `sources` |
+
+「宠物 SPA」式语义相关也不够：必须是这篇去掉标题后，读者仍认为是在读该对象。
 
 ## 入口判定
 
@@ -62,7 +74,7 @@ argument-hint: "[url-or-path] [domain?]"
 2. 先放 `raw/_inbox/`（或一步到位 articles）。
 3. 成文：`raw/articles/<作者>/<人话标题>.md`（作者取 `author:` 短名，去掉 `(@handle)`；无作者用 `_unknown`）。**必须**有 `url:`（本地稿可 `url: local:` + 说明）。
 4. 配图：`raw/articles/_media/<slug>/`；正文链接 `../_media/<slug>/...`。
-   - **大图转原链（>1MB 不落盘）**：落盘前/下载后检查单张图片体积，**若单张图片 > 1MB，禁止存入本地 `_media/`，正文必须直接保留/转换为原始网络图片链接（URL）**；本地若已下载需立即删除清理，仅 `≤ 1MB` 的图片才保存到 `_media/<slug>/`。
+   - **大图转原链（>1MB 不落盘）**：写入前检查；写入后再跑 `find raw/articles/_media/<slug> -type f -size +1M`。有输出则删这些文件、正文改回原 URL，本步才算完成。
 
 `domain` 不确定就问用户；常见：`agents` / `engineering`；跨域实体可 `shared`。认领=知识页链上该 raw。
 
@@ -82,11 +94,18 @@ argument-hint: "[url-or-path] [domain?]"
 
 ### 4. 续写或建页
 
-- **改旧页**：追加 `sources`（相对路径直链 raw）；只补以后还会被引用的稳定句。
-- **建新页**：用 `templates/concept.md` 或 `templates/entity.md`。`sources` 直链 raw。
-- **互链**：同文与同簇已有页加 `## Related` + 相对路径。可写 `related:` frontmatter。本地 Markdown 链接目标含空格或 `()` 时必须 `[标题](<路径.md>)`。
+先过「主旨判定」：过不了的 raw **不要**追加进 `sources`。
 
-回写入口：默认只改旧页。只有结论是新的稳定对象、且用户同意时才建页。
+- **改旧页**：通过判定才追加 `sources`（相对路径直链 raw）；只补以后还会被引用的稳定句。
+- **建新页**：用 `templates/concept.md` 或 `templates/entity.md`。`sources` 直链 raw。
+- **互链**：同文与同簇已有页加 `## Related` + 相对路径。可写 `related:` frontmatter。本地 Markdown 链接目标含空格或 `()` 时必须 `[标题](<路径.md>)`。`## Related` **禁止**链 `raw/`。
+
+**深度条（正文，不是 YAML）：**
+
+- **书签型 Entity**（只有 github/sites/docs/tools 行，没有专文）：Summary 可短——定位、官网/仓、和相邻页差在哪。不要注水成长文。
+- **专文对象**（成文主旨就是该具名物或该模式）：必须精读 raw 后写成**机制、边界、对照**，禁止只留一句简介。Concept 对照好页如 `harness-runtime-layer.md`；Entity 要能脱离 raw 复述「它做什么、不做什么」。做不到就标明缺口，不要假装精读。
+
+回写入口：默认只改旧页。只有结论是新的稳定对象、且用户同意时才建页。整簇精读重写走 `yiya-rewrite`，不在本步一次灌 50 页。
 
 ### 5. 建 Reference（极少需）
 
@@ -119,9 +138,10 @@ argument-hint: "[url-or-path] [domain?]"
 
 ## 完成标准
 
-- [ ] 成文型：raw 已写入且头有 `url:`；配图已做体积检查（>1MB 保持/转为原网络链接，未落盘 `_media/`）；书签型：已追加 `github.md` / `sites.md` / `docs.md` / `tools.md` 中对应表；回写：用户说了「回写」，无新 raw
-- [ ] 已做「盘点已有」，每个候选是改 / 链 / 建之一；同簇已有页已碰
-- [ ] 至少一页 Concept/Entity 链到该 raw
+- [ ] 成文型：raw 已写入且头有 `url:`；配图已做体积检查（写入后 `find -size +1M` 无超标残留）；书签型：已追加 `github.md` / `sites.md` / `docs.md` / `tools.md` 中对应表；回写：用户说了「回写」，无新 raw
+- [ ] 已做「盘点已有」与「主旨判定」：每个候选是改 / 链 / 建之一；弱挂未进 `sources`
+- [ ] 至少一页 Concept/Entity 链到该 raw（弱挂除外：可只进书签表）
+- [ ] 专文对象的正文已按深度条写机制，不是一句摘要；书签 Entity 保持短
 - [ ] 成文与书签默认无新 Reference；仅深度文献有 Reference
 - [ ] **新建** OKF 页 ≤2（常规入库）或符合授权重构规划；改旧页已做
 - [ ] 类型 `index.md` 被改条目带一句话；`log.md` 已更新

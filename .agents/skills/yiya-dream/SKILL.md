@@ -12,7 +12,7 @@ argument-hint: "[agents|engineering|shared]"
 
 从现有图向外长。先读根 `AGENTS.md`。本 skill 只出候选短表，不写正式知识。
 
-探索（explore）不走这里。
+探索（explore）不走这里。**不要为填缺口去搜产品首页/GitHub 再造薄书签 Entity**；优先给已有专文页找能加深机制的成文。
 
 ## 步骤
 

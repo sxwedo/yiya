@@ -12,7 +12,7 @@ argument-hint: "[agents|engineering]"
 
 按订阅主题扫热源。先读根 `AGENTS.md`。本 skill 只出候选短表，不写正式知识。
 
-发现不从 Entity/Concept 缺口出发。梦境不走这里。
+发现不从 Entity/Concept 缺口出发。梦境不走这里。入选后仍走 ingest 主旨判定：清单/屠榜不要建议「新建 Entity」。首页已被书签的同一产品丢掉。
 
 旧称「外探 / scout」即本流程。
 

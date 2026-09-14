@@ -5,6 +5,8 @@ description: Anti-slop frontend skill for landing pages, portfolios, and redesig
 
 # tasteskill: Anti-Slop Frontend Skill
 
+> **yiya/web：** 这是知识库阅读页，不是落地页。Preserve wiki IA 与 URL；纸面 `#ececec` / 墨 `#171717`；不要 3D 展馆。先读 `yiya/web` 再改。
+>
 > Landing pages, portfolios, and redesigns. Not dashboards, not data tables, not multi-step product UI.
 > Every rule below is **contextual**. None of it fires automatically. First read the brief, then pull only what fits.
 
