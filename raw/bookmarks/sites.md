@@ -41,3 +41,5 @@
 | balenaEtcher | <https://etcher.balena.io/> | balena | 把 OS 镜像安全刷到 SD 卡 / USB：三步、校验写入、默认隐藏系统盘 |
 | 华润赢 | <https://huarun.win/> | 华润赢 | 翻墙/代理客户端目录：按平台与协议谱系对照选型；不提供节点、订阅或破解包 |
 | AI Coding Dictionary | <https://www.aicodingdictionary.com/> | Matt Pocock / AI Hero | AI 编程行话白话词典（模型/会话/工具/MCP 等）；不把词条拆成知识页 |
+| AI Hero | <https://www.aihero.dev> | Matt Pocock | 教工程师用 AI 做事：课程、cohort、活动与免费教程；词典站同源 |
+| Amp | <https://ampcode.com> | Amp | 前沿 coding agent + 开发环境：远程 Orb 跑代理，合盖后续跑，多端审阅与多人共控 |

@@ -1,5 +1,6 @@
 # entities
 
+* [Amp](./amp.md) — 前沿 coding agent + 远程 Orb：合盖续跑、门户预览、多端审阅
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定：对人 README，对 Agent AGENTS.md。常驻、宜短；规程进 Skills，硬约束进 hooks/rules。
 * [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。不改模型权重；单位是成功任务成本。
 * [Artificial Analysis](./artificial-analysis.md) — 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜。外探源，不是 harness。
@@ -80,6 +81,7 @@
 * [Termany](./termany.md) — Agent-native 终端工作区
 * [OtoDock](./oto-dock.md) — 自托管公司 OS：部门里跑 Claude Code / Codex，多人共用同一批 agent。
 * [AI Coding Dictionary](./ai-coding-dictionary.md) — AI 编程行话白话词典；词条不拆库内页
+* [AI Hero](./ai-hero.md) — Matt Pocock：AI 工程课程与教程站；词典见 AI Coding Dictionary
 * [AI Job Search](./ai-job-search.md) — 本机 Claude Code 求职框架：评岗、改 CV、求职信与面试准备
 * [Agent Orchestrator](./agent-orchestrator.md) — 本机桌面编排 coding agent 舰队：一任务一 worker、独立 worktree，看板跟 CI / PR / 评审。
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。

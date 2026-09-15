@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T17:20:00Z }
 related:
+  - amp
   - herdr-site
   - mena
   - omarchy
@@ -27,6 +28,7 @@ sources:
 
 ## Related
 
+- [Amp](./amp.md)
 - [Herdr（站点）](../references/herdr-site.md)
 - [mena](./mena.md)
 - [Omarchy](./omarchy.md)

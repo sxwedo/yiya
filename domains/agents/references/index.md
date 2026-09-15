@@ -120,4 +120,5 @@
 * [深入理解 AI Agent（书站）](./bojieli-ai-agent-book-docs.md) — bojieli 开源书在线阅读入口
 * [MadsLorentzen/ai-job-search（GitHub）](./madslorentzen-ai-job-search-github.md) — 本机求职申请框架仓库书签
 * [AI Coding Dictionary（站点）](./ai-coding-dictionary-site.md) — aicodingdictionary.com 书签
-
+* [AI Hero（站点）](./ai-hero-site.md) — aihero.dev 书签
+* [Amp（站点）](./amp-site.md) — ampcode.com 书签

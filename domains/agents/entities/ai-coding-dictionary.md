@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-13T23:40:00Z }
 related:
+  - ai-hero
   - ai-coding-dictionary-site
   - coding-agent-workflow
   - mcp
@@ -21,6 +22,7 @@ sources:
 
 ## Related
 
+- [AI Hero](./ai-hero.md)
 - [AI Coding Dictionary（站点书签）](../references/ai-coding-dictionary-site.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Model Context Protocol (MCP)](./mcp.md)

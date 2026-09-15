@@ -1,5 +1,9 @@
 # Agent 与 harness — Log
 
+## 2026-09-15
+
+* **Bookmark**: 重做 [AI Hero](./entities/ai-hero.md)+[站点 Ref](./references/ai-hero-site.md)；新增 [Amp](./entities/amp.md)+[站点 Ref](./references/amp-site.md) ← `raw/bookmarks/sites.md`；Hero Related 轻挂词典（未灌站）(2026-09-15).
+
 ## 2026-09-14
 
 * **2026-09-14 lint** | 剥 [Role-first Agent](./concepts/role-first-agent.md) 赚钱清单弱挂（Rahul / GPT-6 Astra 10 ways）；正文未改

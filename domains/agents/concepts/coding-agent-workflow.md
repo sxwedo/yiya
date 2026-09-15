@@ -6,6 +6,8 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:00:00Z }
 related:
+  - amp
+  - ai-hero
   - ai-coding-dictionary
   - ai-job-search
   - ai-design-deslop
@@ -65,6 +67,8 @@ AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` 
 
 ## Related
 
+- [Amp](../entities/amp.md)
+- [AI Hero](../entities/ai-hero.md)
 - [AI Coding Dictionary](../entities/ai-coding-dictionary.md)
 - [AI Job Search](../entities/ai-job-search.md)
 - [AI Design De-slop](../../design/concepts/ai-design-deslop.md)

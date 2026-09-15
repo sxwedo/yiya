@@ -9,6 +9,7 @@ resource: ../../../raw/bookmarks/sites.md
 tags: [bookmark]
 sources: []
 related:
+  - ai-hero
   - ai-coding-dictionary
 ---
 
@@ -23,4 +24,5 @@ related:
 
 ## Related
 
+- [AI Hero](../entities/ai-hero.md)
 - [AI Coding Dictionary](../entities/ai-coding-dictionary.md)

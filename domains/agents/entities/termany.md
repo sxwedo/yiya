@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-09T11:20:00Z }
 related:
+  - amp
   - mena
   - pi
   - coding-agent-workflow
@@ -21,6 +22,7 @@ sources:
 
 ## Related
 
+- [Amp](./amp.md)
 - [Termany（站点书签）](../references/termany-site.md)
 - [mena](./mena.md)
 - [Pi](./pi.md)

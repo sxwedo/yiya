@@ -6,6 +6,7 @@ status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-14T20:00:00Z }
 related:
+  - amp
   - software-factory-cost
   - delivery-harness
   - minimal-agent-harness
@@ -37,6 +38,7 @@ sources:
 
 ## Related
 
+- [Amp](../entities/amp.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
