@@ -2,6 +2,7 @@
 type: Entity
 title: "Claude Academy"
 description: "Anthropic 官方学院：按问题学用 AI，不按功能清单。4D 流畅度、可迁移心态；免费开放，产品本体仍是 Claude。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-14T22:00:00Z }
@@ -16,9 +17,11 @@ sources:
   - ../../../raw/articles/Claude/Anthropic’s approach to teaching and learning AI.md
 ---
 
-# Summary
+# Identity
 
 **Claude Academy**（<https://academy.claude.com>）是 Anthropic 面向「用 Claude 工作与构建」的官方学习入口，课程与教程免费开放（X 公告 2026-08）。覆盖 Claude.ai / Cowork / Code / Tag / Platform，以及 AI Fluency。入口也可从 Claude 个人资料的 Learn more 进。
+
+## Mechanism
 
 教学设计（官方博文，不是功能说明书）：
 
@@ -31,6 +34,10 @@ sources:
 员工侧镜像：入职第一天教 [4D](https://academy.claude.com/collections/ai-fluency)（Delegation、Description、Discernment、Diligence）、管 Agent 知道什么、指数有多快。之后 ever-boarding。公司内用 [Claude Tag](./claude-tag.md) 和 Claude 主持的 IT/法务/福利频道。可装 [Claude Academy Skill](https://github.com/anthropics/skills/tree/main/skills/claude-academy-guide) 让 Claude 按你的工作方式荐课。
 
 产品本体见 [Claude](./claude.md)。第三方学堂对照 [小山学堂](./xiaoshan-xuetang.md)。写代码工作流见 [Coding Agent Workflow](../concepts/coding-agent-workflow.md)——Academy 教怎么用，不替代仓库里的验收纪律。
+
+## Boundaries
+
+不是 Claude 产品本体，不是仓库验收纪律，不是小山学堂。
 
 ## Related
 

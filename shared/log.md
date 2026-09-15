@@ -1,5 +1,10 @@
 # shared — Log
 
+## 2026-09-15
+
+* **2026-09-15 rewrite** | [LLM Wiki](./concepts/llm-wiki.md)、[Self-growing KB](./concepts/self-growing-kb.md) 补 Boundaries，不改 Definition
+* **2026-09-15 rewrite** | 全量第 1 批：`shared/entities` 15 页迁 `templates/entity.md`（`kind` + Identity/Mechanism/Boundaries）；书签卡不注水；Related 去 GitHub 空心卡
+
 ## 2026-09-14
 
 * **2026-09-14 rewrite** | 精读重写 [llmwiki](./entities/llmwiki.md)：与 yiya 对照定位；不编内部约定，不弱挂屠榜

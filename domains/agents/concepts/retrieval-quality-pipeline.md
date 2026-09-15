@@ -33,6 +33,11 @@ sources:
 
 排序模型把语义相关做成可学习向量，见 [LLM 排序语义表征](../../engineering/concepts/llm-semantic-ranking-embedding.md)；负例质量见 [表征难负样本](../../engineering/concepts/embedding-hard-negatives.md)。本页只写 Agent 召回之后、进模型之前的分级筛选。
 
+
+## Boundaries
+
+召回之后、进模型之前的分级筛选。向量相似 ≠ 语义相关。不是 SearchCLI 那种换策略再跑实验。
+
 ## Related
 
 - [复合检索 Agent](./compound-retrieval-agent.md)

@@ -33,6 +33,10 @@ Anthropic 把「AI slop」归因于分布收敛：训练数据里安全、无冒
 
 与 [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md) 互补：后者偏写代码工作流，本页偏 **agent 参与 UI 时的设计纪律**。
 
+## Boundaries
+
+不是网页结构/动效词典（那是叫得出名字），不是 Coding Agent 验收工作流，不是把设计手册焊进 system prompt。
+
 ## Related
 
 - [Ian 小黑配图](../entities/ian-xiaohei-illustrations.md)

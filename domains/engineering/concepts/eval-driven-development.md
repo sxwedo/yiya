@@ -37,6 +37,10 @@ sources:
 
 复杂系统还要分清相关与因果：指标一起动不等于某组件是因。搜索调参则把「提出假设 → 分配评测预算 → 验证收益」交给 Agent，人只审候选配置。主观体验指标可用 LLM 评测员把反馈从周级收到小时级，但仍需人机校验对齐。
 
+## Boundaries
+
+不是「会调 API」的 demo。不是固定评测清单。不是 [Discovery Loop](../../../shared/entities/discovery-loop.md) 那种把整圈实验自动化的公司。指标一起动不等于因果。
+
 ## Related
 
 - [LLM-as-Judge Runtime](../../agents/concepts/llm-as-judge-runtime.md)

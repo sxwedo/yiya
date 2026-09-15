@@ -32,6 +32,11 @@ sources:
 
 与 [Evidence Gate](./evidence-gate.md) 不同：门禁管**交付跃迁要证据**；本页管**执行前的动作边界**。与 [Advisor](./advisor.md) / [TTSR](./ttsr.md) 也不同：那两页管智力和文本偏离；本页管工具批不批。
 
+
+## Boundaries
+
+管执行前工具批不批，不管交付证据（Evidence Gate），不管智力升级（Advisor）。文件系统与网络隔离必须一起上；不是跳过全部权限。
+
 ## Related
 
 - [Coding Agent Workflow](./coding-agent-workflow.md)

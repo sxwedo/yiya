@@ -32,6 +32,11 @@ OKF 把同一分离写成个人知识库约定：raw 不可变，wiki 编纂可�
 
 白板成片是技能例子：skill 规定分幕和确认点，图像/TTS 仍是外挂工具，见 [字幕驱动白板手绘成片](./skill-whiteboard-video.md)。
 
+
+## Boundaries
+
+知识回答我们知道什么，技能回答该怎么做。拒 Skill 可回滚，Wiki 不随技能回滚。不是把规程焊进 wiki 正文。
+
 ## Related
 
 - [WikiSkill 三层架构](./wikiskill-architecture.md)

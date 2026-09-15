@@ -2,6 +2,7 @@
 type: Entity
 title: "oh-my-pi"
 description: "can1357 的 batteries-included 终端编码代理（omp.sh）：Rust 核心，原生 LSP/DAP/Advisor/TTSR/Hashline。要极简请用 Pi。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-14T22:00:00Z }
@@ -17,7 +18,7 @@ sources:
   - ../references/oh-my-pi-setup.md
 ---
 
-# Summary
+# Identity
 
 **oh-my-pi**（omp，<https://omp.sh>，仓 [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)）定位「原生终端编码代理，内置 IDE」。MIT，用户自备模型。猿小猴子对照文（截至 2026-08）：在 Mario 的 [Pi](./pi.md) 极简哲学之上 **Rust 重写核心**（文称 100k+ 行），不是 Node 套壳。口号 *The Pi you love, with batteries included.*
 
@@ -31,6 +32,10 @@ sources:
 默认无沙箱。配法文标配扩展：`pi-crew`（worktree 隔离，作者声明非 hardened）、`pi-hermes-memory`、`@aliou/pi-guardrails`。沙箱推荐 Gondolin（认证留宿主机，工具进 micro-VM）。`/review` 是事后 P0–P3 子代理，不替代 Advisor。Skills 兼容 Claude / Codex / Pi 目录，另有 `.omp/skills/`。
 
 选型：要极简可控、自己装扩展 → Pi（[Minimal Agent Harness](../concepts/minimal-agent-harness.md)）；要开箱 IDE 工具链 → omp。同簇终端 harness 还有 [Grok Build](./grok-build.md)。本机多产品壳见 [mena](./mena.md)。
+
+## Boundaries
+
+本页无成文 raw，不编未灌实现。细节以仓或站点为准。
 
 ## Related
 

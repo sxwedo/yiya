@@ -35,6 +35,11 @@ sources:
 
 这是编排运行时，不是「先写一篇设计再动手」。与 [用代码做计划](./plan-with-code.md) 对立互补：开放问题用代码回答；企业长任务用计划对象扛状态。依赖怎么铺见 [Graph Engineering](./graph-engineering.md)。记忆作用域见 [四层 Agent 记忆](./four-layer-agent-memory.md)。
 
+
+## Boundaries
+
+企业编排运行时，不是「先写一篇设计再动手」，也不是 pstack 那种用代码回答开放问题。contextId 必须绑租户。
+
 ## Related
 
 - [多 Agent 架构选型](./multi-agent-architecture-selection.md)

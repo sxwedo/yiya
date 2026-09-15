@@ -36,6 +36,11 @@ sources:
 
 与 [Delivery Harness](./delivery-harness.md)（交付合同与证据）、[Minimal Agent Harness](./minimal-agent-harness.md)（单产品原语）、[mena](../entities/mena.md)（本机多产品启动壳）互补：本页是团队级多执行器编排。
 
+
+## Boundaries
+
+多套 Harness 之上的控制面，不是单产品原语，不是本机启动壳 mena，不是 Delivery 合同。不要 100 个孤岛聊天窗。
+
 ## Related
 
 - [Amp](../entities/amp.md)

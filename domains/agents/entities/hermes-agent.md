@@ -2,6 +2,7 @@
 type: Entity
 title: "Hermes Agent"
 description: "Nous Research 开源 Agent：前台做完这次，后台把经历收成 Memory 与 Skills；问第二次少走弯路，不是把聊天当记忆。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-14T14:35:00Z }
@@ -20,9 +21,11 @@ sources:
   - ../../../raw/articles/loveabit/Hermes Curator 横空出世！AI Agent 终于会“自我进化”了！.md
 ---
 
-# Summary
+# Identity
 
 **Hermes Agent**（[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)）是 Nous Research 的开源 Agent。要解决的不是「这一轮 Loop 多轻」，而是：**下次碰到类似任务，能不能少走弯路。** 聊天记录不够；要在模型外面维护一层会随使用变化的认知系统。对照见 [Harness 运行时层](../concepts/harness-runtime-layer.md)、[Harness 自改进](../concepts/harness-self-improvement.md)。
+
+## Mechanism
 
 入口：`hermes update` 之后，Teknium 宣布内置 Karpathy [LLM Wiki](../../../shared/concepts/llm-wiki.md)：新会话 `/llm-wiki <research x>`，从网页/代码/论文编 Obsidian 研究库（例：把 Nous 项目编成互链库）。这是打包进去的知识编译技能，不是 Hermes 等于 yiya。
 
@@ -30,7 +33,7 @@ sources:
 
 第三方笔记仓 [hermes-agent-orange-book](https://github.com/alchaincyf/hermes-agent-orange-book) 只当入门书签，本页不编它的目录。
 
-## 何时不用
+## Boundaries
 
 - 当最轻终端 Loop：那是 [Pi](./pi.md)（同模型换 harness，税可以差一截；数字见运行时层，不在本页复述排行）。
 - 当审批/沙箱/Thread 生命周期：那是 [Codex](./codex.md)。

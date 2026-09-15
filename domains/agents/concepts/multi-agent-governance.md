@@ -35,6 +35,11 @@ sources:
 
 图上的 checker、计划对象的权限隔离、A2A 的 `contextId` 绑租户，都是治理的局部零件，见 [Graph Engineering](./graph-engineering.md)、[Plan 模式与主子 Agent](./plan-mode-multiagent.md)。
 
+
+## Boundaries
+
+即使每个 Agent 单独对齐，相互作用仍可能出系统问题。不是协作四种形，不是「再加一个 Agent」。
+
 ## Related
 
 - [多 Agent 架构选型](./multi-agent-architecture-selection.md)

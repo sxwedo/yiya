@@ -35,6 +35,10 @@ sources:
 
 与 [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md) 同族三层（Raw → 编纂 → 可执行层）：本页是个人知识库的编译 wiki；WikiSkill 是 Agent 技能从知识里进化。对照见该页。[Zread](../../domains/agents/entities/zread.md)、[Code Wiki](../../domains/agents/entities/code-wiki.md) 也是「编译成 wiki」，但对象是 GitHub 代码仓，不是你策展的 raw。[Grokipedia](../entities/grokipedia.md) 是 xAI 的公开百科（Grok 写条目），不是个人 vault。互操作格式见 [Open Knowledge Format](../entities/open-knowledge-format.md)：Wiki 是方法，OKF 是知识包怎么表示与交换。
 
+## Boundaries
+
+不是每次提问的 RAG 层，不是 [Grokipedia](../entities/grokipedia.md) 公开百科，不是 [Zread](../../domains/agents/entities/zread.md) / [Code Wiki](../../domains/agents/entities/code-wiki.md) 那种代码仓 Wiki。不是 OKF（格式），也不是 WikiSkill（技能从知识进化）。
+
 ## Related
 
 - [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)

@@ -3,6 +3,10 @@
 ## 2026-09-15
 
 * **Bookmark**: 重做 [AI Hero](./entities/ai-hero.md)+[站点 Ref](./references/ai-hero-site.md)；新增 [Amp](./entities/amp.md)+[站点 Ref](./references/amp-site.md) ← `raw/bookmarks/sites.md`；Hero Related 轻挂词典（未灌站）(2026-09-15).
+* **2026-09-15 rewrite** | 其余有成文 agents Concept 补 Boundaries，不改 Definition
+* **2026-09-15 rewrite** | [Harness 运行时层](./concepts/harness-runtime-layer.md)、[Loop Engineering](./concepts/loop-engineering.md) 补 Boundaries，不改 Definition
+* **2026-09-15 rewrite** | 全量第 3 批：agents 无成文 Entity 65 页只补 `kind` + Identity/Boundaries，不注水 Mechanism；Related 去 GitHub/站点卡
+* **2026-09-15 rewrite** | 全量第 2 批：agents 有成文的 Entity 19 页迁 `templates/entity.md`（`kind` + Identity/Mechanism/Boundaries）；Related 去 GitHub/站点卡
 
 ## 2026-09-14
 

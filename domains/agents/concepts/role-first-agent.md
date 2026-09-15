@@ -26,6 +26,11 @@ sources:
 
 组队时不要把 Role-first 理解成「克隆 20 个相同角色」。多执行体的从众和冲突是治理问题，见 [多智能体治理](./multi-agent-governance.md)。一个岗位一份合同（输入、输出、权限），才能放进图里当节点，见 [Graph Engineering](./graph-engineering.md)。
 
+
+## Boundaries
+
+不是一轮聊天或一个代码仓，不是空头衔，不是克隆 20 个相同角色。没有验收形状就只是换皮聊天窗。
+
 ## Related
 
 - [AI Job Search](../entities/ai-job-search.md)

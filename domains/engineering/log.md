@@ -1,5 +1,11 @@
 # 工程与可维护性 — Log
 
+## 2026-09-15
+
+* **2026-09-15 rewrite** | 其余有成文 engineering Concept 补 Boundaries，不改 Definition
+* **2026-09-15 rewrite** | [评测驱动开发](./concepts/eval-driven-development.md)、[语义层](./concepts/semantic-layer.md) 补 Boundaries，不改 Definition
+* **2026-09-15 rewrite** | 全量第 4 批：engineering Entity：Ghostty / Desert Ant Labs 按专文骨架；其余 63 页书签只补 kind + Identity/Boundaries，不注水 Mechanism
+
 ## 2026-09-14
 
 * **2026-09-14 rewrite** | 质量门第 2 轮：精读 [X 自媒体增长](./concepts/x-self-media-growth.md)、[数据工程瓶颈上移](./concepts/de-bottleneck-upshift.md)（剥数据挖掘弱挂）、[Looped Transformer](./concepts/looped-transformer.md)（标明未灌全文）、[Text2Semantic2SQL](./concepts/text2semantic2sql.md)

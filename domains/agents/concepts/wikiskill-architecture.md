@@ -35,6 +35,11 @@ sources:
 
 与 [LLM Wiki](../../../shared/concepts/llm-wiki.md) 同族（Raw 不可变、Wiki 可复利）。差别：LLM Wiki 编给人读的个人库；WikiSkill 编给 Agent 技能进化的模式库。人用的自生长库见 [Self-growing Knowledge Base](../../../shared/concepts/self-growing-kb.md)。
 
+
+## Boundaries
+
+编给 Agent 技能进化的模式库，不是给人读的个人 LLM Wiki。训练时不查 Wiki；拒 Skill 不回滚 Wiki。
+
 ## Related
 
 - [知识与技能分离](./knowledge-skill-separation.md)

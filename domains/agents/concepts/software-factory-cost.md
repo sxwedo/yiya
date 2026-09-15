@@ -41,6 +41,11 @@ $$\text{Total Cost} = \text{Sessions} \times \frac{\text{Turns}}{\text{Session}}
 
 与本域 [MCP](../entities/mcp.md)、[Multi-Harness Control Plane](./multi-harness-control-plane.md)、[Delivery Harness](./delivery-harness.md)、[Loop Engineering](./loop-engineering.md) 互补：本页专精于「规模化软件工厂的度量与经济学工程」。
 
+
+## Boundaries
+
+规模化用量与成本等式，不是单次最低 token，不是 Loop 怎么找活。无脑全局检索会把成本吃掉。
+
 ## Related
 
 - [Agent On-call](./agent-oncall.md)

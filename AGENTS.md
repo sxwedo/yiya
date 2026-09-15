@@ -22,7 +22,7 @@ shared/                        # 跨域实体与纲领
 
 1. **raw 正文不改**（除非人类授权删除/替换）
 2. **成文先续写与高内聚**：先定 Domain（`overview.md` / `config/domains.yaml`），再在目标域 + `shared` 找同指称 Entity/Concept。
-   - **能改则改旧页**（补 `sources`、修润核心论点、增补对比）；但**严禁垃圾桶挂靠**：成文标题与核心段落必须就是该对象。清单/屠榜/路线图顺带点名 **不进 `sources`**（书签表仍可收入口）。专文对象正文写机制；纯书签 Entity 保持短卡。
+   - **能改则改旧页**（补 `sources`、修润核心论点、增补对比）；但**严禁垃圾桶挂靠**：成文标题与核心段落必须就是该对象。清单/屠榜/路线图顺带点名 **不进 `sources`**（书签表仍可收入口）。Entity 正文按 `templates/entity.md`：专文写 Identity / Mechanism / Boundaries；纯书签只留 Identity 短卡，不注水。
    - **过载拆分（Refactor）**：单页 `sources > 15` 或涵盖正交子主题时应触发拆解，不再硬塞；新建 Entity/Concept 合计日常 ≤2，但在执行授权的重构拆分时不计。
 3. **Reference 降噪与防空心化**：
    - **废弃书签必建空心 Reference**：书签收录进 `raw/bookmarks/*.md` 后，直挂对应 Entity，无需为纯 URL 制造只有 5 行的跳转卡。

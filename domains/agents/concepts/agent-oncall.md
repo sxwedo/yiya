@@ -38,6 +38,11 @@ sources:
 
 与 [Playbook 反馈闭环](./playbook-feedback-loop.md)、[Loop Engineering](./loop-engineering.md)、[Harness 自改进](./harness-self-improvement.md)、[Software Factory Cost](./software-factory-cost.md)（CI 自愈 / On-call 分诊）互补：本页专精「值班第一响应」形态。
 
+
+## Boundaries
+
+不是人手点 CI 的替身聊天窗，不是把整份 runbook 抄进本页。专精值班第一响应；闭环自治见 Loop Engineering，失误写回见 Playbook。
+
 ## Related
 
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)

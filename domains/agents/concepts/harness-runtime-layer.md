@@ -56,6 +56,10 @@ Anthropic 把 Harness 定义成 loop + tools + context + guardrails，并强调*
 
 Claude 5 代模型上，Claude Code 砍掉 80%+ 系统提示仍不掉编码评测：冲突指令（「写文档」vs「别加注释」）会逼模型多想一轮。过期约束该删；记忆/产物/Skills 已能按需加载，不必全焊进 system prompt。
 
+## Boundaries
+
+不是 Agent Loop 本身（问模型/执行工具），不是 [Delivery Harness](./delivery-harness.md) 交付合同，不是 [Multi-Harness Control Plane](./multi-harness-control-plane.md) 多套之上的控制面，不是 [Harness 自改进](./harness-self-improvement.md) 改 Skill/记忆。本页只讲 Loop 外面为什么必须有运行时。
+
 ## Related
 
 - [Minimal Agent Harness](./minimal-agent-harness.md)

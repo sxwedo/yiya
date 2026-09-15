@@ -35,6 +35,11 @@ OpenAI 内部 Data Agent（文称 1.5EB、约 9 万表、2 人 3 个月、哲学
 
 人把口语变成口径，见 [语义工程师](./semantic-engineer.md)；人力为何从搬运上移，见 [数据工程瓶颈上移](./de-bottleneck-upshift.md)。
 
+
+## Boundaries
+
+不是直接 Text2SQL，不是 RAG 喂口径再翻译。选不到口径应承认没有。SQL 跑通 ≠ 可采信。
+
 ## Related
 
 - [业务 Ontology](./business-ontology.md)

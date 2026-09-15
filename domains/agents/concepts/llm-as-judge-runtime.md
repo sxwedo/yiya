@@ -36,6 +36,11 @@ Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent�
 
 与 [Evidence Gate](./evidence-gate.md)、[Loop Engineering](./loop-engineering.md) 互补；工程迭代侧见 [评测驱动开发](../../engineering/concepts/eval-driven-development.md)。
 
+
+## Boundaries
+
+把裁判搬进运行时，不是离线评测集本身（评测驱动开发）。Producer 与 Critic 不要同一 persona。确定性检查仍要包住裁判。
+
 ## Related
 
 - [多 Agent 架构选型](./multi-agent-architecture-selection.md)

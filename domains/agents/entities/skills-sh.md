@@ -2,6 +2,7 @@
 type: Entity
 title: "skills.sh"
 description: "Vercel 的 Agent Skills 开放目录与 CLI：按安装量浏览技能包，用 npx skills 装进多家编码代理。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-07T17:00:00Z }
@@ -29,11 +30,17 @@ sources:
   - ../../../raw/articles/nash_su - e－acc/类 同事.skills 整理，欢迎补充：.md
 ---
 
-# Summary
+# Identity
 
 **skills.sh**（<https://skills.sh/）是> Vercel 做的开放 Agent Skills 目录：按排行榜发现可复用技能包（`SKILL.md` + 可选脚本/参考），再用 CLI `npx skills add <owner/repo>` 写进本机已装的编码代理（Claude Code、Cursor、Codex、Pi 等）。发布不走单独上架：技能放进 git 仓，有人 `npx skills add` 后靠安装遥测出现在目录里。CLI 源码：[vercel-labs/skills](https://github.com/vercel-labs/skills)。
 
+## Mechanism
+
 定位：技能包的**发现与安装层**，不是规范本体。格式与按需加载见 [Agent Skills](./agent-skills.md)。仓内常驻约定见 [`AGENTS.md`](./agents-md.md)；Pi 把 Skills 当原语；mena 巡检本机已装 Skills。知识层 vs 可执行技能见 [知识与技能分离](../concepts/knowledge-skill-separation.md)。近例：[i-have-adhd](./i-have-adhd.md)（先给下一步）；[Archify](./archify.md)（JSON IR → 架构图）。
+
+## Boundaries
+
+发现与安装层，不是 [Agent Skills](./agent-skills.md) 规范本体，不是仓内 `AGENTS.md`。同事.skills 清单文不在本页展开。
 
 ## Related
 
@@ -48,8 +55,3 @@ sources:
 - [AGENTS.md](./agents-md.md)
 - [Agent Skills](./agent-skills.md)
 - [知识与技能分离](../concepts/knowledge-skill-separation.md)
-- [skills-sh-site](../references/skills-sh-site.md)
-- [mattpocock-skills-github](../references/mattpocock-skills-github.md)
-- [jimliu-baoyu-skills-github](../references/jimliu-baoyu-skills-github.md)
-- [multica-ai-andrej-karpathy-skills-github](../references/multica-ai-andrej-karpathy-skills-github.md)
-- [builderio-skills-github](../references/builderio-skills-github.md)

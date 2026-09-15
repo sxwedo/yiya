@@ -41,6 +41,11 @@ sources:
 
 与 [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)（工程侧顺序/主管/路由/并行与任务面）互补：本页偏**实证选型与成本形状**；与 [多智能体失效模式](./multi-agent-failure-modes.md)、[LLM-as-Judge Runtime](./llm-as-judge-runtime.md)（验证/裁判）同族。
 
+
+## Boundaries
+
+先看单 Agent 基线与可否分解，防错靠验证不靠堆数量。规划类任务倾向 SAS，不必一上来多 Agent。
+
 ## Related
 
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)

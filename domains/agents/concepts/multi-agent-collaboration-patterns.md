@@ -61,6 +61,11 @@ Anthropic 把「工作流」与「完全自主 Agent」分开：工作流给整�
 
 与 [多智能体治理](./multi-agent-governance.md)（社会基础设施）、[多智能体失效模式](./multi-agent-failure-modes.md)、[Plan 模式与主子 Agent](./plan-mode-multiagent.md)（主子编排落地）、[Role-first Agent](./role-first-agent.md)、[Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) 互补：本页专精「何时拆 + 四种形 + 运行时任务面」。
 
+
+## Boundaries
+
+先过三道闸再选形。不是治理制度（多智能体治理），不是主子 Plan 运行对象。拆了还不划算就别拆。
+
 ## Related
 
 - [多 Agent 架构选型](./multi-agent-architecture-selection.md)

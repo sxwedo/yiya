@@ -102,8 +102,11 @@ argument-hint: "[url-or-path] [domain?]"
 
 **深度条（正文，不是 YAML）：**
 
-- **书签型 Entity**（只有 github/sites/docs/tools 行，没有专文）：Summary 可短——定位、官网/仓、和相邻页差在哪。不要注水成长文。
-- **专文对象**（成文主旨就是该具名物或该模式）：必须精读 raw 后写成**机制、边界、对照**，禁止只留一句简介。Concept 对照好页如 `harness-runtime-layer.md`；Entity 要能脱离 raw 复述「它做什么、不做什么」。做不到就标明缺口，不要假装精读。
+Entity 用 `templates/entity.md`（`kind` + Identity / Timeline / Mechanism / Notes / Boundaries）。空节删除。
+
+- **书签型 Entity**（没有成文 `sources`）：Identity + 一句 Boundaries + Related。不要空填 Timeline/Mechanism。这不是失败。
+- **专文对象**：精读 raw 后写 Identity + Mechanism + Boundaries；人可有 Timeline/Notes。须能脱离 raw 复述。Concept 对照 `harness-runtime-layer.md`。
+- **禁止当完成**：专文只有「上游仓库是 X」+ 一句简介；Notes 写进 `description`；清单文进 `sources`。做不到精读就标明缺口。
 
 回写入口：默认只改旧页。只有结论是新的稳定对象、且用户同意时才建页。整簇精读重写走 `yiya-rewrite`，不在本步一次灌 50 页。
 

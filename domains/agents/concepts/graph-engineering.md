@@ -39,6 +39,11 @@ sources:
 
 何时不用图：单人单任务闭环、步骤天然串行且共享全部上下文、还没有稳定合同。先 loop 跑通验证，再拆边。与 [Plan 模式与主子 Agent](./plan-mode-multiagent.md) 互补：那边计划是运行对象；这边依赖是可并行的图。
 
+
+## Boundaries
+
+何时不用图：单人单任务闭环、步骤天然串行且共享全部上下文、还没有稳定合同。先 loop 跑通再拆边。不是堆智能体数量。
+
 ## Related
 
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)

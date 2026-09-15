@@ -2,6 +2,7 @@
 type: Entity
 title: "Tailscale"
 description: "基于 WireGuard 的 mesh VPN：设备直连加密、自动 NAT 穿透，协调面管密钥与 ACL。"
+kind: product
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-07T20:40:00Z }
@@ -12,11 +13,15 @@ sources:
   - ../references/tailscale-site.md
 ---
 
-# Summary
+# Identity
 
 **Tailscale**（<https://tailscale.com/）在> WireGuard 上做零配置 mesh：每台设备一对密钥，数据面尽量点对点加密直连；过不了 NAT 时走 DERP 中继，中继看不到明文。协调服务器只交换公钥和策略，不扛业务流量。登录身份（SSO）和 ACL 决定谁能连谁。不是把上网流量都送进 Tailscale 机房的那种 VPN（出口节点是另开的能力）。
 
 定位：人和机器的**组网层**。连通性诊断见 [ping.pe](./ping-pe.md)；给 Agent 用的 overlay 见 [Pilot Protocol](../../agents/entities/pilot-protocol.md)。
+
+## Boundaries
+
+本页无成文 raw，不编未灌实现。细节以仓或站点为准。
 
 ## Related
 

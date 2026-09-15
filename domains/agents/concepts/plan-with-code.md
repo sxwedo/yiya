@@ -31,6 +31,11 @@ sources:
 
 与得物 [Plan 模式与主子 Agent](./plan-mode-multiagent.md) 不是同一对象：那边把 Plan 做成可持久化运行对象，解决企业编排与断点；这边反对抽象计划，主张用代码回答开放问题。证据门见 [Evidence Gate](./evidence-gate.md)。
 
+
+## Boundaries
+
+反对抽象 Plan Mode。单测不够，必须跑过代码。不是得物那种可持久化 Plan 对象。本页只到 pstack Pt.2。
+
 ## Related
 
 - [pstack](../entities/pstack.md)

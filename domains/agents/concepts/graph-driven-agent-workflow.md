@@ -33,6 +33,11 @@ sources:
 
 与 [Graph Engineering](./graph-engineering.md)（依赖图）、[Loop Engineering](./loop-engineering.md)（闭环自治）、[Evidence Gate](./evidence-gate.md)（外部验收）相接；本页专注它们的**搭建顺序与状态驱动调度**。
 
+
+## Boundaries
+
+状态驱动调度与搭建顺序，不是依赖图合同本身（Graph Engineering），不是单环 try-check（Loop Engineering）。元循环改规则必须人批。
+
 ## Related
 
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)

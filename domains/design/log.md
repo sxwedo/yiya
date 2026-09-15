@@ -1,5 +1,10 @@
 # 设计与人读面 — Log
 
+## 2026-09-15
+
+* **2026-09-15 rewrite** | [AI Design De-slop](./concepts/ai-design-deslop.md) 补 Boundaries，不改 Definition
+* **2026-09-15 rewrite** | 全量第 5 批：design Entity 5 页均为书签，只补 kind + Identity/Boundaries，不注水 Mechanism；Related 去 GitHub 卡
+
 ## 2026-09-14
 
 * **2026-09-14 ingest** | 南鸢角色设定 Skill、VoxCat 抓拍机位、94vanAI 泳装抓拍 → 新建 [人像角色设定](./concepts/portrait-character-brief.md)、[抓拍感角色摄影](./concepts/candid-character-photography.md)；链 [美姿](./concepts/ai-portrait-posing.md)。无新 Reference。

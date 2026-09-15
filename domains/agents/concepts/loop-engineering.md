@@ -39,6 +39,10 @@ Anthropic 把 loop 收成「重复干活直到停条件」：按触发/停止/�
 
 与 [Coding Agent Workflow](./coding-agent-workflow.md) 互补：后者偏「规划→执行→部署」工作流；本页专讲「闭环自治」。产品侧入口仍见 [Claude](../entities/claude.md)。
 
+## Boundaries
+
+不是一手一手 prompt。不是 [Graph Engineering](./graph-engineering.md)（图上的边与门）。不是编译器里的 loop 向量化。停条件与上下文防腐没设计好，就不要开成「自己找活」。
+
 ## Related
 
 - [Agent On-call](./agent-oncall.md)

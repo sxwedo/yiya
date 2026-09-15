@@ -34,6 +34,11 @@ sources:
 
 人仍负责：每幕讲什么、删什么、用哪路声音、何时进入下一步。政策类原稿（案例是社保对比）制作方法不等于核验事实；公开发布前单独核授权与数字。知识与技能分离见 [知识与技能分离](./knowledge-skill-separation.md)。
 
+
+## Boundaries
+
+装同名 skill ≠ 一键成片。人判幕次与删改；政策类原稿制作方法不等于核验事实。不是剪映时间线手工拼。
+
 ## Related
 
 - [Agent Skills](../entities/agent-skills.md)

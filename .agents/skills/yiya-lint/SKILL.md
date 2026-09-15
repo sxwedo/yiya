@@ -6,7 +6,7 @@ description: >-
   empty sources, Related-to-raw, and oversized _media. Use when the user
   asks to lint, 检查, 校验知识库, or review a domain's consistency.
   Epistemic pass only when they say 全面体检, lint 知识, or 知识体检.
-argument-hint: "[domains/agents|domains/engineering|shared]"
+argument-hint: "[domains/agents|domains/engineering|domains/design|shared]"
 ---
 
 # yiya-lint
@@ -19,7 +19,7 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 
 ## 参数
 
-- bundle：`domains/agents` | `domains/engineering` | `shared`
+- bundle：`domains/agents` | `domains/engineering` | `domains/design` | `shared`
 - 未指定时：**问用户**，不要自行猜刚改过的域。
 
 ## 触发
@@ -38,6 +38,7 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 7. **过瘦/过肥/过载**：
    - 概念过载（Kitchen-sink）：单页 `sources > 15` 或涵盖非核心杂文时列入 `notes`，提示需拆解瘦身（Refactor）。
    - 一文下 Concept 明显集邮时列入 `notes`。
+   - **专文 Entity 摘要壳**：有成文 `sources`，正文仍只有「上游仓库是…」+ 一句简介、没有机制/边界。列入 `thin_article_entity`（建议 `yiya-rewrite`）。**不要**把纯书签短卡列入此项。
 8. **空心 Reference 与双轨冗余**：
    - 检查 `references/` 中是否充斥仅含跳转链接、无实质深度笔记的纯书签卡；
    - 检查正文 `## Related` 是否违规大段机械复制 `sources` raw 列表（Related 应聚焦维基页面互链）。
@@ -61,7 +62,7 @@ argument-hint: "[domains/agents|domains/engineering|shared]"
 ## 输出
 
 - `missing_type` / `broken_links` / `absolute_paths` / `duplicate_urls` / `unlinked_raw` / `duplicates` / `notes`
-- `empty_sources` / `weak_hang` / `related_raw` / `oversized_media`
+- `empty_sources` / `weak_hang` / `related_raw` / `oversized_media` / `thin_article_entity`
 - `epistemic: skipped` 或 `epistemic: …`
 
 用户同意后再改文件。可选在该 bundle `log.md` 记：`* **YYYY-MM-DD lint** | bundle → 摘要`。

@@ -2,6 +2,7 @@
 type: Entity
 title: "Agent Skills"
 description: "开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。"
+kind: work
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-11T12:00:00Z }
@@ -11,7 +12,6 @@ related:
   - agents-md
   - mcp
   - claude
-  - anthropics-skills-github
 sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Claude/Introducing Agent Skills.md
@@ -24,9 +24,11 @@ sources:
   - ../../../raw/articles/SAMUEL/我用 Codex 把一段文字做成了手绘动画：从配音成片，完整教学.md
 ---
 
-# Summary
+# Identity
 
 **Agent Skills**（<https://agentskills.io>）是给 Agent 用的开放技能格式：一个文件夹，核心是 `SKILL.md`（YAML 头说明何时触发 + 正文写怎么做），可附脚本与参考文件。Claude 先扫短描述（约百 token），命中后再读全文与附件——渐进披露，不把全部规程焊进 system prompt。
+
+## Mechanism
 
 与相邻层分开：
 
@@ -40,6 +42,10 @@ sources:
 
 白板成片实录补一句：skill 是可执行工作说明书（步骤、资源、何时停下来确认），**不是**凭空打开所有能力的开关；图像、TTS、字体和本机环境仍要实际可用。见 [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)。
 
+## Boundaries
+
+不是 [skills.sh](./skills-sh.md) 目录、不是 [AGENTS.md](./agents-md.md) 常驻说明书、不是 [MCP](./mcp.md) 连接协议。腾讯「三件套」文只用来对照分层，不把 MCP/Hook 写进本页机制。
+
 ## Related
 
 - [skills.sh](./skills-sh.md)
@@ -47,6 +53,5 @@ sources:
 - [AGENTS.md](./agents-md.md)
 - [MCP](./mcp.md)
 - [Claude](./claude.md)
-- [anthropics/skills（GitHub）](../references/anthropics-skills-github.md)
 - [DataFlow-Harness](./dataflow-harness.md)
 - [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)

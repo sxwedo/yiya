@@ -40,6 +40,11 @@ Warp 把同一层写成双 Skill 环：内圈是领域规程（评审/分诊）�
 
 Managed Agents 的 Dreaming 是会话间整理：扫历史 session 与 memory store，抽出反复犯错与团队偏好，可自动写回或等人审。Outcomes 用独立 grader（另开上下文）对照 rubric，不过关就打回；这是 [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) 的托管形。
 
+
+## Boundaries
+
+改记忆/Skill/Prompt/工具/工作流，即时可回滚。不是改模型权重，不是只改本次产物。Skill 不是推理时乱写的 memory。
+
 ## Related
 
 - [Agent On-call](./agent-oncall.md)

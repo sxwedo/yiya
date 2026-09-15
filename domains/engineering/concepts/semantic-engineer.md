@@ -27,6 +27,11 @@ AI 可按已定口径生成 SQL，**不能**自主裁决口径冲突。变更管
 
 交付面：口径进 [语义层](./semantic-layer.md) 给人/BI；运行时判断与受控动作进 [Semantic Service](./semantic-service.md)；问数走 [Text2Semantic2SQL](./text2semantic2sql.md)，不要让模型在千表里猜。对象/规则/动作骨架见 [业务 Ontology](./business-ontology.md)。
 
+
+## Boundaries
+
+人定口径、评估下游连锁。AI 不能自主裁决「有效付费用户」。不要一上来写 Prompt，不要让模型在千表里猜。
+
 ## Related
 
 - [业务 Ontology](./business-ontology.md)

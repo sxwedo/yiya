@@ -51,6 +51,11 @@ Grok Bot 侧落地更土：截图里必须出现需求点的变化（最好前�
 
 本页是跃迁门。合同锁事实、边界限半径、修复写回默认，见 [Delivery Harness](./delivery-harness.md)。执行前拦危险工具见 [Auto Mode](./auto-mode.md)。
 
+
+## Boundaries
+
+跃迁门：结论必须对应可复查证据，AI 不能替责任人签字。不管执行前拦工具（Auto Mode）。口头「已修复」不算过门。
+
 ## Related
 
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)

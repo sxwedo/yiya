@@ -26,6 +26,11 @@ sources:
 3. **Coding Agent 驾驭（Using Coding Agents）**：建立智能体心智模型，掌握干预与放手的自主度边界，通过验证器（Verifiers）辅助 Agent 闭环，避免破坏生产环境；
 4. **定义与塑造构建（Shaping the Build）**：工程重心从单纯实现固定设计，上移到具备产品感知与业务目标，主动定义 Spec 与承担端到端交付所有权。
 
+
+## Boundaries
+
+不消除不可靠，只组织它。不是瀑布式预画清流程，不是盲目 Vibe Coding。评测循环见评测驱动开发。
+
 ## Related
 
 - [评测驱动开发](./eval-driven-development.md)

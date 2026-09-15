@@ -31,6 +31,11 @@ sources:
 
 不要把全部约束每轮塞进 system prompt，也不要为了「再审一层」叠一串顾问。
 
+
+## Boundaries
+
+不是执行器：不调工具、不对用户说话。不要叠一串顾问，也不要把全部约束每轮塞进 system prompt。工具批不批见 Auto Mode；规则中止流见 TTSR。
+
 ## Related
 
 - [oh-my-pi](../entities/oh-my-pi.md)

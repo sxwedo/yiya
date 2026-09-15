@@ -2,6 +2,7 @@
 type: Entity
 title: "SearchCLI"
 description: "火山引擎开源：Agent 驱动搜索自迭代。Skills 出策略，CLI 跑可复现实验，SPA 分配评测预算；人不让它直接改线上。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-14T13:50:00Z }
@@ -14,11 +15,13 @@ sources:
   - ../../../raw/articles/字节跳动技术团队/火山引擎开源 Agent 驱动的搜索自迭代技术.md
 ---
 
-# Summary
+# Identity
 
 **SearchCLI**（[volcengine/SearchCLI](https://github.com/volcengine/SearchCLI)，Apache-2.0，Node 20+）把「搜索不好时怎么改」做成 Agent 可跑的实验闭环，不是又一个召回引擎。会调用搜索只是第一步；更难的是：结果差时提出假设、花预算验证、交出可审阅的候选配置。
 
 分工：**Agent 决定做什么；Skills 沉淀搜索专家规程；CLI 保证长任务可复现地做完。** 生产切换仍要人确认。开源入口是 `vs search tune`。
+
+## Mechanism
 
 闭环固定为 `query-generate → validate → plan → run → report → compare → apply`。真实 Query 日志优先；没有时才合成 Query，且必须先给人看类型分布。`validate` 查格式/重复/类型倾斜；`plan` **不**调搜索和 LLM，只编译策略数、请求数、最大标注量。`run` 批量搜索：先 Source-item 银标筛方向，或直接 LLM Judge；算 NDCG / MRR / Precision、零结果率、延迟。`apply` 先 dry-run，确认后**只建候选 Scene**，不改默认入口。
 
@@ -32,7 +35,7 @@ sources:
 
 CLI 工程四件：Plan 先编译成本；有界并发（单失败不丢同批）；标签缓存 Key 含数据集+Query+Item+Judge 配置；Checkpoint/Resume 用原 Run ID 续跑。
 
-## 何时不用
+## Boundaries
 
 - 当召回/排序引擎本身：它调的是已有搜索应用的策略，不替换索引。
 - 让 Agent 直接改线上：边界就是 dry-run + 人审 Scene。

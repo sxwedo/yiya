@@ -31,6 +31,10 @@ AI/BI 消费时优先**选口径**，再由引擎翻 SQL，见 [Text2Semantic2SQ
 
 数仓 [ODS–ADS](./warehouse-layering.md) 仍是地基。Agent 成为使用者后，ADS 不是唯一终点：语义层解释「收入」指哪一口径，再交给受控查询，而不是让模型直连库。标准化在向中立语义互换收敛（如 Apache Ossie），把含义做成可移植资产。OpenAI 内部 Data Agent 的判断是 vanilla agent、rich foundation：难的是找对表与语义，不是写 SQL。
 
+## Boundaries
+
+不是 RAG 喂口径文档，不是让模型直连库写 SQL（那是 Text2SQL）。不是再堆一层各业务线私有口径。问数编译见 [Text2Semantic2SQL](./text2semantic2sql.md)；表分层见 [数仓分层](./warehouse-layering.md)。
+
 ## Related
 
 - [业务 Ontology](./business-ontology.md)

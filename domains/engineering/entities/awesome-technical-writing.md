@@ -2,19 +2,21 @@
 type: Entity
 title: "awesome-technical-writing"
 description: "技术写作资源精选"
+kind: work
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
-  - bolajiayodeji-awesome-technical-writing-github
 sources:
   - ../references/bolajiayodeji-awesome-technical-writing-github.md
 ---
 
-# Summary
+# Identity
 
 **awesome-technical-writing** 的上游仓库是 [BolajiAyodeji/awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing)。技术写作资源精选。
 
-## Related
+## Boundaries
 
-- [BolajiAyodeji/awesome-technical-writing（GitHub）](../references/bolajiayodeji-awesome-technical-writing-github.md)
+本页无成文 raw，不编未灌实现。细节以仓或站点为准。
+
+## Related

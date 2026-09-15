@@ -2,6 +2,7 @@
 type: Entity
 title: "Model Context Protocol (MCP)"
 description: "连接 AI 应用与外部系统（数据源、工具、工作流）的开放标准；客户端/服务端生态广泛。"
+kind: work
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-08T10:25:00Z }
@@ -19,7 +20,6 @@ related:
   - pi
   - oh-my-pi
   - coding-agent-workflow
-  - punkpeye-awesome-mcp-servers-github
 sources:
   - ../references/mcp-site.md
   - ../references/punkpeye-awesome-mcp-servers-github.md
@@ -34,15 +34,21 @@ sources:
   - ../../../raw/articles/腾讯云开发者/一文讲透Agent三件套：MCP、Skill、Hook如何给大模型装上护栏.md
 ---
 
-# Summary
+# Identity
 
 **Model Context Protocol（MCP）**（<https://modelcontextprotocol.io/）是把> AI 应用接到外部系统的开放标准：暴露/消费数据源、工具与工作流，降低各家 agent 重复集成成本。生态侧常见 Claude / ChatGPT / Cursor / VS Code 等客户端与大量 MCP server。
+
+## Mechanism
 
 定位：协议与接口层，不是某一款 coding agent；本机巡检 MCP 注册见 [mena](./mena.md)，工作流里「定制环境」见 [Coding Agent Workflow](../concepts/coding-agent-workflow.md)。
 
 生产接入：远程 MCP（OAuth）让 Claude Code 连上已托管的工具；Managed Agents 的 MCP tunnel 用单一出站连接达到私网 server，不暴露公网端点。企业侧可将 MCP 授权收进 IdP（Enterprise-Managed Authorization 扩展）：管理员配一次，用户按组继承，吊销跟身份走。
 
 与 Skills 分工：MCP 负责连上外部系统，Skills 负责怎么用这些连接（查哪、按什么顺序、何谓完成）。工具调用前的规则拦截与审计是 Hook 层：prompt 约束是软的，安全边界靠工程闸门。连接器目录与消费级插件公告不在本页堆。
+
+## Boundaries
+
+协议层，不是某一款 coding agent，不是 Skills，不是 Hook。awesome-mcp 清单不进本页机制。
 
 ## Related
 
@@ -55,10 +61,8 @@ sources:
 - [MinerU](./mineru.md)
 - [Proof](./proof.md)
 - [Pilot Protocol](./pilot-protocol.md)
-- [MCP（站点书签）](../references/mcp-site.md)
 - [mena](./mena.md)
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Agent Skills](./agent-skills.md)
-- [punkpeye/awesome-mcp-servers（GitHub）](../references/punkpeye-awesome-mcp-servers-github.md)

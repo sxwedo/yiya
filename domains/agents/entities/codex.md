@@ -2,6 +2,7 @@
 type: Entity
 title: "Codex"
 description: "OpenAI 编码 Agent：Approval + Sandbox 两道边界；Thread/Turn/Item + Thread Manager 管长任务。选可监督可恢复，不选最轻 Loop。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-14T14:25:00Z }
@@ -19,11 +20,11 @@ sources:
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
 ---
 
-# Summary
+# Identity
 
 **Codex**（仓 [openai/codex](https://github.com/openai/codex)）是 OpenAI 的编码 Agent。入口从开源 CLI 扩到 IDE / Web / App / SDK；App Server 让不同客户端共用同一套任务生命周期、审批和流式事件。点允许 ≠ 拿到整机。对照见 [Harness 运行时层](../concepts/harness-runtime-layer.md)：**Agent 决定下一步；Harness 决定这一步在什么权限和生命周期里发生。**
 
-## 怎么做
+## Mechanism
 
 两道执行边界，工具调用要连续穿过：
 
@@ -44,7 +45,7 @@ Chrome 扩展（官方帖：macOS/Windows，当时除 EU/UK；Linux 未列）：
 
 [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 是在 Claude Code 里调 Codex 做评审或委派，不是第二份 Codex 运行时。
 
-## 何时不用
+## Boundaries
 
 - 当「最轻终端 Loop」：那是 [Pi](./pi.md)（默认少工具、不内置权限）。
 - 当「多客户端事件投影」：那是 [OpenCode](./opencode.md)。

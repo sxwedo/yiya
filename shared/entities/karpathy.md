@@ -2,9 +2,11 @@
 type: Entity
 title: "Andrej Karpathy"
 description: "公开 gist《LLM Wiki》：LLM 当程序员、Obsidian 当 IDE、wiki 当代码库。yiya 骨架按此裁剪，不是每次 RAG 重挖。"
+kind: person
 status: draft
 domain: shared
-generated: { by: agent:yiya-librarian, at: 2026-09-14T22:00:00Z }
+aliases: [Karpathy]
+generated: { by: agent:yiya-librarian, at: 2026-09-15T00:05:00Z }
 related:
   - llm-wiki
   - obsidian
@@ -21,21 +23,25 @@ sources:
   - ../../raw/articles/Avi Chawla/Karpathy said something you'll regret ignoring－.md
 ---
 
-# Summary
+# Identity
 
-**Andrej Karpathy** 在本库里的稳定指称，不是简历，是他公开的知识库模式。gist《LLM Wiki》（[原文卡](../references/karpathy-llm-wiki.md)）：对照 RAG「每次提问重挖碎片」，wiki 一次编译、交叉引用复利。
+本库记的是他公开的**知识库模式**，不是简历。gist《LLM Wiki》（[原文卡](../references/karpathy-llm-wiki.md)）：对照 RAG 每次提问重挖碎片，wiki 一次编译、交叉引用复利。
 
-三层：
+## Timeline
 
-1. **raw** 不可改原料
-2. **wiki** 由 LLM 写实体 / 概念 / 摘要，ingest 时集成
-3. **schema**（`AGENTS.md` / `CLAUDE.md`）管约定与工作流
+- 公开《LLM Wiki》gist：raw / wiki / schema；ingest · query · lint。
+- 成文还提到日常用 AI、Sequoia 炉边、加入 Anthropic、从零训 LLM 课——只证明他持续谈同一类实践，**不**在本页展开传记。
+- autoresearch 仓是另一条实验线，书签在 GitHub 卡，不和 Wiki 模式焊死。
 
-操作：ingest、query（好答案可回写）、lint。导航：`index.md` 内容目录 + `log.md` 时间线。人设比喻：LLM 是程序员，[Obsidian](./obsidian.md) 是 IDE，wiki 是代码库。
+## Mechanism
 
-本库 [yiya](./yiya.md) 的 raw → domains/shared + AGENTS 即按此裁剪。开源对照实现 [llmwiki](./llmwiki.md)。普通人/OPC 场景见 [Self-growing Knowledge Base](../concepts/self-growing-kb.md)。概念页见 [LLM Wiki](../concepts/llm-wiki.md)。
+三层：raw 不可改；wiki 由 LLM 写实体/概念/摘要，ingest 时集成；schema（`AGENTS.md` / `CLAUDE.md`）管约定。操作：ingest、query（好答案可回写）、lint。导航：`index.md` + `log.md`。比喻：LLM 是程序员，[Obsidian](./obsidian.md) 是 IDE，wiki 是代码库。
 
-其余成文（日常怎么用 AI、Sequoia 炉边、加入 Anthropic、从零训 LLM 课）只证明他持续公开谈同一类实践，**不**在本页展开传记或复述六小时课程。autoresearch 仓库是另一条实验线，书签在 GitHub 卡，不和 Wiki 模式焊死。
+[yiya](./yiya.md) 按此裁成 Domain + OKF。[llmwiki](./llmwiki.md) 是另一份开源实现。概念页 [LLM Wiki](../concepts/llm-wiki.md)；普通人场景 [Self-growing Knowledge Base](../concepts/self-growing-kb.md)。
+
+## Boundaries
+
+不是人物百科、不是六小时课程笔记、不是 autoresearch 实验日志。清单里点名 Karpathy 的屠榜不进 `sources`。
 
 ## Related
 

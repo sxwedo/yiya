@@ -21,6 +21,11 @@ sources:
 
 稳定对象是这套菜单。NeMo、CS224n、Lilian Weng 推理优化文是延伸入口，不在本页展开。把不可靠大模型塞进可靠系统，见 [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)。
 
+
+## Boundaries
+
+面试级手法菜单，不是某一训练框架手册，不展开 NeMo/CS224n 全文。
+
 ## Related
 
 - [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)

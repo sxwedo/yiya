@@ -38,6 +38,11 @@ sources:
 
 Anthropic 平台侧同一问题的两种扳手：context editing 在接近窗口上限时清掉过期工具结果（Working / Session 减负）；memory tool 把该留的写到会话外文件（User / Agent 由你的存储扛）。窗口有限，工作无限。
 
+
+## Boundaries
+
+分层是作用域，不是流水线怎么写、也不是异步怎么卸。不是把聊天记录整段当记忆。内容形态（文本/偏好/技能）是另一轴。
+
 ## Related
 
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)

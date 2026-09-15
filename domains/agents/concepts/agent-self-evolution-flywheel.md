@@ -36,6 +36,11 @@ AgentLoop 把同一飞轮落成产品：Trace → 清洗组装 Trajectory → �
 
 原则：闭环价值在箭头（衔接），不在单点先进。评测必须流进记忆和 Skill；更新必须再被评测验证。与 [Harness 自改进](./harness-self-improvement.md)（改哪一层）、[Playbook 反馈闭环](./playbook-feedback-loop.md)（一次失误变全队默认）、[Delivery Harness](./delivery-harness.md)（修复写回合同）同族。
 
+
+## Boundaries
+
+闭环价值在衔接，不在单点先进。评测失真则飞轮反转。不改模型权重。不是一次失误写 Playbook 的小闭环。
+
 ## Related
 
 - [Delivery Harness](./delivery-harness.md)

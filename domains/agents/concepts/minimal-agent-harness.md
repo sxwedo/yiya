@@ -36,6 +36,11 @@ sources:
 
 Anthropic 的 Harness Design 把同一哲学写成「问自己还能停做什么」：通用 bash/编辑器优于为每个任务硬编码工具；工具结果不必一律回灌上下文，让模型用代码编排；任务指令用 Skills 按需读入，而不是预装进 system prompt。见 [Harness 运行时层](./harness-runtime-layer.md)。
 
+
+## Boundaries
+
+原语不是成品功能。不要为每个任务硬编码工具，不要把任务指令预装进 system prompt。不是 Delivery Harness，不是多执行器控制面。
+
 ## Related
 
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)

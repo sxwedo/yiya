@@ -2,16 +2,16 @@
 type: Entity
 title: "华润赢"
 description: "翻墙/代理客户端目录站：按平台与协议谱系整理可选客户端，便于对照选型；不卖节点、不托管安装包。"
+kind: product
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-13T04:30:00Z }
 related:
-  - huarun-win-site
 sources:
   - ../references/huarun-win-site.md
 ---
 
-# Summary
+# Identity
 
 **华润赢**（<https://huarun.win/>）是一份**客户端目录**，不是机场或节点服务：按 iOS / Android / 桌面 / OpenWrt / 鸿蒙等平台，以及 Mihomo、sing-box、Xray 等核心谱系，罗列可自备订阅或配置的代理客户端，并附筛选说明与概念导读。
 
@@ -19,6 +19,8 @@ sources:
 
 定位：选型对照表。个别客户端（如 Shadowrocket）若要深挖，另开书签或实体；**本页不展开商店里的每一个客户端**。
 
-## Related
+## Boundaries
 
-- [华润赢（站点书签）](../references/huarun-win-site.md)
+本页无成文 raw，不编未灌实现。细节以仓或站点为准。
+
+## Related

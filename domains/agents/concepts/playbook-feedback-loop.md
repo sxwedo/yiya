@@ -38,6 +38,11 @@ Claude Tag（Anthropic 内部 CI 第一响应）是同一纪律的值班形态�
 
 不要和 [Agent 自进化飞轮](./agent-self-evolution-flywheel.md) 的评测齿混为一谈：飞轮要可信评测才能决定「这经验该不该存」；Playbook 闭环往往从一次人看过的失误开始，规模更小、落地更快。先写进默认行为，再考虑自动挖掘轨迹。
 
+
+## Boundaries
+
+一次人看过的失误写成全队默认，不是评测齿飞轮，不是停在聊天提醒。值班若不写回 lessons，第二圈仍从零开始。
+
 ## Related
 
 - [Agent On-call](./agent-oncall.md)

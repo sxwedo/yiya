@@ -29,6 +29,10 @@ Karpathy 侧对照：个人 wiki 用 LLM 编纂，告别每次提问都 RAG 重�
 
 验收很土：先从一种常出现的资料试起，看新信息**能否续写旧页**。续写不了，就还是仓库。与 [LLM Wiki](./llm-wiki.md) 同族（Raw 不可变、Wiki 可复利）。WikiSkill 把同一逻辑给 Agent 技能进化，见 [WikiSkill 三层架构](../../domains/agents/concepts/wikiskill-architecture.md)。本页偏普通人 / OPC：关系维护、创作草稿，不是论文训练循环。
 
+## Boundaries
+
+不是云笔记同步盘。续写不了旧页就还是仓库。不是论文训练循环，不是公开百科。方法细节见 [LLM Wiki](./llm-wiki.md)。
+
 ## Related
 
 - [LLM Wiki](./llm-wiki.md)

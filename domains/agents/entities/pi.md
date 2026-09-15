@@ -2,13 +2,13 @@
 type: Entity
 title: "Pi"
 description: "earendil-works 的极简终端编码代理框架（pi.dev）：最小 harness，能力靠扩展与 Skills 组装。"
+kind: product
 status: draft
 domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-05T15:22:00Z }
 related:
   - termany
   - omarchy
-  - pi-dev-site
   - mena
   - mcp
   - agents-md
@@ -17,11 +17,7 @@ related:
   - skills-sh
   - herdr
   - grok-build
-  - pi-agent-book
   - minimal-agent-harness
-  - buchidonggua-dg-ai-notes-github
-  - antinomie-lab-pi-book-github
-  - hahhforest-pi-textbook-github
   - harness-runtime-layer
 sources:
   - ../references/pi-dev-site.md
@@ -41,31 +37,31 @@ sources:
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
 ---
 
-# Summary
+# Identity
 
 **Pi**（Agent Harness）定位「改变框架，而非改变你的工作流」。核心刻意不做子代理、计划模式、权限弹窗等成品功能，而提供原语：Extensions、Skills、Prompt Templates、Themes、Packages。
+
+## Mechanism
 
 腾讯技术工程补充：默认四工具 + Resource Loader 显式装配 `AGENTS.md` / Skills；Composio / Databricks 基准里同模型换 Pi 往往更便宜，因每轮上下文更紧。不内置权限，高风险环境需外补沙箱。对照见 [Harness 运行时层](../concepts/harness-runtime-layer.md)。
 
 要点：四种模式（Interactive / Print-JSON / RPC / SDK）；树形会话历史可分支回退；上下文原语含 [`AGENTS.md`](./agents-md.md)、`SYSTEM.md`、Skills；多提供商 LLM。适合深度定制与自建扩展生态的团队。站点：<https://pi.dev/> · 仓库：[earendil-works/pi](https://github.com/earendil-works/pi)
 
+## Boundaries
+
+不是 [oh-my-pi](./oh-my-pi.md) 那种 batteries-included 发行版；不内置权限弹窗（高风险要外补沙箱）。不是 [Codex](./codex.md) 的 Thread/审批，也不是 [OpenCode](./opencode.md) 的多客户端事件服务。教程仓/插件合集是书签，不在本页展开。
+
 ## Related
 
 - [Termany](./termany.md)
 - [Omarchy](./omarchy.md)
-- [Pi（官网）](../references/pi-dev-site.md)
 - [Model Context Protocol (MCP)](./mcp.md)
 - [AGENTS.md](./agents-md.md)
 - [mena](./mena.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
-- [earendil-works/pi（GitHub）](../references/earendil-pi-github.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [skills.sh](./skills-sh.md)
 - [Herdr](./herdr.md)
 - [Grok Build](./grok-build.md)
-- [π-agent book](../references/pi-agent-book.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
-- [buchidonggua/dg-ai-notes（GitHub）](../references/buchidonggua-dg-ai-notes-github.md)
-- [antinomie-lab/pi-book（GitHub）](../references/antinomie-lab-pi-book-github.md)
-- [hahhforest/pi-textbook（GitHub）](../references/hahhforest-pi-textbook-github.md)
 - [Harness 运行时层](../concepts/harness-runtime-layer.md)

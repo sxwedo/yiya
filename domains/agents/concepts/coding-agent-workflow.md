@@ -65,6 +65,11 @@ AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` 
 
 与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
 
+
+## Boundaries
+
+偏人如何驾驭 agent 做软件，不是极简原语（Minimal Harness），不是交付合同（Delivery Harness），不是「长跑烧 token」叙事。
+
 ## Related
 
 - [Amp](../entities/amp.md)

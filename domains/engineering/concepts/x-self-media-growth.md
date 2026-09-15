@@ -22,4 +22,9 @@ sources:
 
 放在 `engineering`：偏运营方法，不是 coding-agent harness。若「创作者/增长」以后成簇，再议新 Domain。
 
+
+## Boundaries
+
+忌 AI 自动发推。不是 coding-agent harness，不是空心人设，不讨好所有人。
+
 ## Related
