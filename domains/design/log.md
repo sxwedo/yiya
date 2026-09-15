@@ -2,6 +2,8 @@
 
 ## 2026-09-15
 
+* **2026-09-15 ingest** | 网页动效词典中篇 → 续写 [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md)（词 17–36）。无新页。
+* **2026-09-15 ingest** | 去 AI 味 skill 成文 → 新建 [Lieflat Less AI Tone](./entities/lieflat-less-ai-tone.md)；链 Charts / De-slop。未把该 raw 挂进 De-slop sources（对象是中文写作，不是 UI）。无新 Reference。
 * **2026-09-15 rewrite** | [AI Design De-slop](./concepts/ai-design-deslop.md) 补 Boundaries，不改 Definition
 * **2026-09-15 rewrite** | 全量第 5 批：design Entity 5 页均为书签，只补 kind + Identity/Boundaries，不注水 Mechanism；Related 去 GitHub 卡
 

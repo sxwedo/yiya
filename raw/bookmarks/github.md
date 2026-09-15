@@ -164,4 +164,5 @@
 | MadsLorentzen/ai-job-search | <https://github.com/MadsLorentzen/ai-job-search> | MadsLorentzen | 本机跑的求职框架（Claude Code）：评估岗位、改 CV、写求职信、面试准备 |
 | bojieli/ai-infra-book | <https://github.com/bojieli/ai-infra-book> | bojieli | 李博杰：深入理解 AI Infra（量化分析与系统设计）；ai-agent-book 姊妹篇 |
 | larashero3-dotcom/lieflat-charts | <https://github.com/larashero3-dotcom/lieflat-charts> | larashero3-dotcom | Agent Skill：统一视觉语法的数据可视化；默认编辑感图表，明确要求才出整页 HTML 报告 |
+| larashero3-dotcom/lieflat-less-ai-tone | <https://github.com/larashero3-dotcom/lieflat-less-ai-tone> | larashero3-dotcom | 283 万字对照实验的中文去 AI 味 Skill；频率≥2×才算特征 |
 | ajeetdsouza/zoxide | <https://github.com/ajeetdsouza/zoxide> | ajeetdsouza | 更聪明的 cd：按使用频率记目录，几个键跳转；灵感来自 z / autojump |

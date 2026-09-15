@@ -12,6 +12,7 @@ related:
   - ai-design-deslop
   - ian-xiaohei-illustrations
   - holo-card-studio
+  - lieflat-less-ai-tone
 sources:
   - ../../../raw/bookmarks/github.md
 ---
@@ -43,3 +44,4 @@ sources:
 - [AI Design De-slop](../concepts/ai-design-deslop.md)
 - [Ian 小黑配图](./ian-xiaohei-illustrations.md)
 - [Holo Card Studio](./holo-card-studio.md)
+- [Lieflat Less AI Tone](./lieflat-less-ai-tone.md)

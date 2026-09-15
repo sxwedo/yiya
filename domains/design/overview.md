@@ -21,6 +21,7 @@ sources: []
 | [Holo Card Studio](./entities/holo-card-studio.md) | 描述/参考图 → Blender 卡面 + Three.js |
 | [Ian 小黑配图](./entities/ian-xiaohei-illustrations.md) | 中文小黑怪诞正文配图 Skill |
 | [Lieflat Charts](./entities/lieflat-charts.md) | Agent Skill：统一视觉语法的数据可视化与可选整页报告 |
+| [Lieflat Less AI Tone](./entities/lieflat-less-ai-tone.md) | 283 万字对照实验的中文去 AI 味 Skill；不是 UI destlop |
 | [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
 | [shadcn-admin](./entities/shadcn-admin.md) | Shadcn + Vite 后台 UI |
 
@@ -32,7 +33,7 @@ sources: []
 | [AI 人像美姿提示词](./concepts/ai-portrait-posing.md) | 摄影美姿 → 转/弯/顺/露 短提示词；忌「自然一点」 |
 | [人像角色设定](./concepts/portrait-character-brief.md) | 气质方向 → 骨相妆发衣场景的中文生图词 |
 | [抓拍感角色摄影](./concepts/candid-character-photography.md) | 不完美构图 / 前景遮挡 / POV，不是棚拍 |
-| [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md) | 把「高级/丝滑」换成可执行动效词；上篇 Hover→文字显现 |
+| [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md) | 把「高级/丝滑」换成可执行动效词；上+中篇到视差/磁吸/指针 |
 | [Vibe Coding 视觉词典](./concepts/vibe-coding-visual-lexicon.md) | 把「高级/简洁」换成布局/结构/导航/组件词；上篇 40 词 |
 
 ## 怎么逛

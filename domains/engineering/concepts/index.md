@@ -16,4 +16,5 @@
 * [Text2Semantic2SQL](./text2semantic2sql.md) — 自然语言先映射到受约束的语义口径选择，再由语义引擎确定性生成 SQL；把幻觉从生成层压到有限选择层。
 * [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md) — AI 组件输出不可预测是常态；工程价值在于熟练决定下一步，把不可靠部件组织成可靠软件系统。
 * [X 自媒体增长](./x-self-media-growth.md) — 被看见：主页 3 秒锚定差异化；主题/立场/语气/节奏一致；价值命中具体困境；再叠情感与第一波传播。忌 AI 自动发推。
+* [自动化交易系统](./automated-trading-system.md) — 量化不是猜牛股，是把决定写成可重复规则。真实系统=数据→信号→风控→OMS→券商 API→成交→日志报警。AI 可帮开发，不可绕过风控下单。
 * [Looped Transformer](./looped-transformer.md) — 同一组 Transformer 块在深度上循环套用，用时间换参数。不是隐藏 CoT；评测还受主 harness 绑定影响。
