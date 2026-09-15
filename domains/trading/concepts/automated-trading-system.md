@@ -3,8 +3,8 @@ type: Concept
 title: "自动化交易系统"
 description: "量化不是猜牛股，是把决定写成可重复规则。真实系统=数据→信号→风控→OMS→券商 API→成交→日志报警。AI 可帮开发，不可绕过风控下单。"
 status: draft
-domain: engineering
-generated: { by: agent:yiya-librarian, at: 2026-09-15T14:50:00Z }
+domain: trading
+generated: { by: agent:yiya-librarian, at: 2026-09-15T15:00:00Z }
 related:
   - unreliable-components-reliable-systems
   - eval-driven-development
@@ -31,6 +31,6 @@ MVP：本机历史回测通过 → 券商模拟盘 → 每日自动跑、仓位�
 
 ## Related
 
-- [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)
-- [评测驱动开发](./eval-driven-development.md)
+- [用不可靠组件造可靠系统](../../engineering/concepts/unreliable-components-reliable-systems.md)
+- [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
 - [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md)

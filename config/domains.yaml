@@ -11,3 +11,7 @@ domains:
     title: 设计与人读面
     path: domains/design
     active: true
+  - id: trading
+    title: 量化与交易
+    path: domains/trading
+    active: true

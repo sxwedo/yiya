@@ -15,6 +15,7 @@ sources: []
 | agents | [domains/agents](../domains/agents/) |
 | engineering | [domains/engineering](../domains/engineering/) |
 | design | [domains/design](../domains/design/) |
+| trading | [domains/trading](../domains/trading/) |
 
 ## 怎么找「派 / 产品」
 

@@ -27,7 +27,7 @@ sources:
 三层只做一件事——知识一次编译，交叉引用复利。
 
 1. **raw**：成文 `raw/articles/`，书签四表。正文不改。
-2. **wiki**：`domains/<id>/` 与 `shared/` 的 Entity / Concept；Reference 极少。
+2. **wiki**：`domains/<id>/`（agents / engineering / design / trading）与 `shared/` 的 Entity / Concept；Reference 极少。
 3. **schema**：根 `AGENTS.md` + `.agents/skills/`。
 
 查询：地图 → overview → 类型 index → 已有页；默认停，不改 wiki。回写才走 ingest。入库先定 Domain、改旧页；新建日常 ≤2；清单不进 `sources`。书签挂产品 Entity，不建空心 Reference。`sources` 溯源，Related 只链 wiki。

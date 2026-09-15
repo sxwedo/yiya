@@ -2,7 +2,8 @@
 
 ## 2026-09-15
 
-* **2026-09-15 ingest** | AI 量化交易成文 → 新建 [自动化交易系统](./concepts/automated-trading-system.md)。无新 Entity / Reference。
+* **2026-09-15 schema** | [自动化交易系统](../trading/concepts/automated-trading-system.md) 迁出本域 → `trading`
+* **2026-09-15 ingest** | AI 量化交易成文 → 新建 [自动化交易系统](../trading/concepts/automated-trading-system.md)。无新 Entity / Reference。
 * **2026-09-15 rewrite** | 其余有成文 engineering Concept 补 Boundaries，不改 Definition
 * **2026-09-15 rewrite** | [评测驱动开发](./concepts/eval-driven-development.md)、[语义层](./concepts/semantic-layer.md) 补 Boundaries，不改 Definition
 * **2026-09-15 rewrite** | 全量第 4 批：engineering Entity：Ghostty / Desert Ant Labs 按专文骨架；其余 63 页书签只补 kind + Identity/Boundaries，不注水 Mechanism
