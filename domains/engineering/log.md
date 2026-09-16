@@ -2,6 +2,7 @@
 
 ## 2026-09-15
 
+* **2026-09-15 ingest** | DSH Data Agent 落地方案 → 新建 [Data Agent 落地](./concepts/data-agent-landing.md)；未把该 raw 挂进 DeepSeek Harness sources（对象是数据服务，不是 harness 插件树）。
 * **2026-09-15 schema** | 域 title：工程与可维护性 → 工程
 * **2026-09-15 schema** | [自动化交易系统](../trading/concepts/automated-trading-system.md) 迁出本域 → `trading`
 * **2026-09-15 ingest** | AI 量化交易成文 → 新建 [自动化交易系统](../trading/concepts/automated-trading-system.md)。无新 Entity / Reference。

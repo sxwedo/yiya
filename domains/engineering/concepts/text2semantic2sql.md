@@ -12,6 +12,7 @@ related:
   - semantic-service
   - warehouse-layering
   - de-bottleneck-upshift
+  - data-agent-landing
 sources:
   - ../references/semantic-layer-chatbi.md
   - ../../../raw/articles/本体与AI/本体驱动问数：国内外技术方案深度研究.md
@@ -48,3 +49,4 @@ OpenAI 内部 Data Agent（文称 1.5EB、约 9 万表、2 人 3 个月、哲学
 - [Semantic Service](./semantic-service.md)
 - [数仓分层](./warehouse-layering.md)
 - [数据工程瓶颈上移](./de-bottleneck-upshift.md)
+- [Data Agent 落地](./data-agent-landing.md)
