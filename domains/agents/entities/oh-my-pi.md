@@ -13,6 +13,7 @@ related:
   - grok-build
   - minimal-agent-harness
   - mena
+  - pi-crew
 sources:
   - ../references/pi-vs-oh-my-pi.md
   - ../references/oh-my-pi-setup.md
@@ -45,3 +46,4 @@ sources:
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
 - [Grok Build](./grok-build.md)
 - [mena](./mena.md)
+- [pi-crew](./pi-crew.md)

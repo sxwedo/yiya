@@ -39,6 +39,7 @@ sources: []
 | [oh-my-pi](./entities/oh-my-pi.md) | batteries-included 终端编码代理（omp.sh），Rust 核心 |
 | [Omarchy](./entities/omarchy.md) | DHH 的 Arch 桌面：coding agent CLI 当系统一等公民 |
 | [Pi](./entities/pi.md) | earendil-works 极简终端编码代理框架（pi.dev） |
+| [pi-crew](./entities/pi-crew.md) | Pi 非阻塞并行子代理；非 hardened |
 | [Pilot Protocol](./entities/pilot-protocol.md) | Agent 组网 overlay：加密 P2P、应用商店、MCP |
 | [Proof](./entities/proof.md) | 人与 Agent 共写文档：在场、评论、建议、出处轨 |
 | [Puffo](./entities/puffo.md) | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
