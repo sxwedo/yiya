@@ -8,7 +8,7 @@ ingested: "2026-09-11"
 
 # 📰 AI Native 交易核心系统的研发范式｜得物技术
 
-![](../_media/wx-B29yrjptZiV4d_6cSskjmg/得物技术_B29yrjptZiV4d_6cSskjmg_1.gif)
+
 
 ## 目录
 

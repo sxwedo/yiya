@@ -8,7 +8,7 @@ ingested: "2026-09-11"
 
 # 📰 推荐系统体验的数字化突破：得物自动化评测平台的技术实践｜AICon 文章整理
 
-![](../_media/wx-buh5ry--c1bNWd95n0luFw/得物技术_buh5ry--c1bNWd95n0luFw_1.gif)
+
 
 ## 目录
 

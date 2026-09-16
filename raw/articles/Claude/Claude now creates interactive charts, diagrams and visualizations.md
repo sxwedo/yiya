@@ -22,7 +22,7 @@ Claude’s conversations already include [artifacts](https://claude.ai/catalog/a
 
 Here are a couple of examples. You can ask Claude how compound interest works, and it’ll give you a curve to play around with. Or you can ask about the periodic table, and it’ll build an interactive visualization in which you can click around for more details, as in the example below:
 
-![](../_media/claude-claude-builds-visuals/Claude_claude-builds-visuals_1.gif)
+
 
 This feature will be on by default. Claude will decide when to build a visual for something, or you can ask it to do so directly (with a query like “draw this as a diagram” or “visualize how this might change over time”). Once Claude has created something, you can ask for adjustments or to dig in deeper.
 

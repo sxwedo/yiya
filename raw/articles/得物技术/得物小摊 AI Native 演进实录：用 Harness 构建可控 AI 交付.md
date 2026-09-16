@@ -7,7 +7,7 @@ date: "2026-09-02 10:30:00"
 
 # 📰 得物小摊 AI Native 演进实录：用 Harness 构建可控 AI 交付
 
-![](../_media/dewu-delivery-harness/得物技术_Jcx_3OABcYwzzxWKFgivOA_1.gif)
+
 
 ## 目录
 

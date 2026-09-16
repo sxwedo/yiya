@@ -147,7 +147,7 @@ The pattern that has held up is to make each UI component a tool. The model call
 
 As the components are tool calls, they're already in the messages array in native format, so you don’t need to re-parse when you reload an old conversation. An example presentation-tool contract is illustrated below and in the [reference repo.](https://github.com/anthropics/commerce-agents)
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_2.gif)
+
 
 The tradeoff is streaming granularity. Each top-level argument of a tool call buffers on the server for validation, so the sub-components of a presentation tool arrive in steps even with streaming on. This impacts perceived latency.
 
@@ -196,7 +196,7 @@ Query complexity adds turns, and is generally out of your control. Model intelli
 * **Optimize the tool's own backend.** Sometimes a tool genuinely fans out – a merchant agent with a "get today's snapshot" query reads sales, inventory, and campaign status in three independent calls. But we often see the tool boundary become the place where missing backend logic gets stitched together: an availability check that calls the catalog for the SKU, the inventory service per store, and the fulfillment service for cutoffs, then applies substitution rules and pickup eligibility in the tool's own code before answering. That tool is now overloaded with domain knowledge, hard to keep correct as the rules change, and is carrying logic that should sit in an upstream system. When you find yourself writing that logic in a tool, the fix is one backend endpoint that answers the question, and calling that with an agent tool.
 * **Dispatch tools eagerly.** Tool arguments stream out of the model like any other tokens, so the harness can execute each tool’s call as its arguments complete and process it while the model is still streaming other, parallel tools or content blocks. We've seen this take multi-second gaps down to a few hundred milliseconds, and the [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) does it by default. You should prompt the model to emit its slowest call first for maximum latency gains.
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_3.gif)
+
 
 ### **Perceived latency** ###
 
@@ -205,7 +205,7 @@ Perceived latency is the time a user feels until the screen does something. It�
 * **Stream components as they form.** A rendered commerce response is typically 500–700 output tokens, which without streaming is five or more seconds of a spinner. Send each parameter of a presentation tool to the client as it streams and render the page progressively.
 * **Show the work.** While the agent is gathering context, render a short progress line for each step in plain language (for example, "finding hotels near the water"). You can build it from the tool's existing arguments (such as the query for a product search), or add an additional user\_facing\_message parameter tool that prompts the model to write the line.
 
-![The two panels above run the same agent with the same tools and prompt; only the harness differs. Total time is about the same, but the time the user sees something is quite different.](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_4.gif)
+
 
 *The two panels above run the same agent with the same tools and prompt; only the harness differs. Total time is about the same, but the time the user sees something is quite different.*
 

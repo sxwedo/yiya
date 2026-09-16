@@ -274,8 +274,8 @@ ODS、DWD、DWS、ADS不是四个需要机械记忆的缩写，而是一条从�
 
 **真正成熟的数据仓库，不是表建得越多、层级分得越复杂，而是原始数据可以追溯、业务事实可以统一、公共指标可以复用、应用结果可以稳定交付。**
 
-![](../_media/warehouse-four-layers/数据集成与治理_f8xtuqYIa3TBRrASrYWnKA_15.gif)
+
 
 ### 点击【阅读原文】，体验文中同款资料包
 
-![](../_media/warehouse-four-layers/数据集成与治理_f8xtuqYIa3TBRrASrYWnKA_16.gif)
+

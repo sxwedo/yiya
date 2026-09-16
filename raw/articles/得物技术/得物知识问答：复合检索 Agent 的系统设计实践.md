@@ -7,7 +7,7 @@ date: "2026-08-12 10:30:00"
 
 # 📰 得物知识问答：复合检索 Agent 的系统设计实践
 
-![](../_media/dewu-compound-retrieval-agent/得物技术_EIXbIqUYcnFHpwAiPsJDEg_1.gif)
+
 
 ## 目录
 

@@ -10,7 +10,7 @@ date: "August 5, 2026"
 
 > Inference hooks lets your compliance team inspect and enforce policy on every prompt and tool call response before they reach Claude — across Claude Enterprise surfaces including chat, Claude Code, Claude Cowork, and more.
 
-![](../_media/claude-claude-enterprise-inference-hooks/Claude_claude-enterprise-inference-hooks_1.gif)
+
 
 Inference hooks lets your compliance team inspect and enforce policy on every prompt and tool call response before they reach Claude — across Claude Enterprise surfaces including chat, Claude Code, Claude Cowork, and more. Your DLP server makes the call to block or allow, and Claude enforces that decision in real time, blocking unapproved content before it reaches Claude.
 

@@ -8,7 +8,7 @@ date: "2026-09-07 09:36:00"
 
 # 从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？
 
-![](../_media/tencent-llm-to-harness/腾讯技术工程_kZZac-VBgnQIZeookE9Y8g_1.gif)
+
 
 作者：ivanxxie、davoszhang
 
@@ -272,6 +272,6 @@ Pi、OpenCode、Codex 和 Hermes 并没有给出同一道题的标准答案。Pi
 
 Agent 是怎样长出 Harness 的，答案就在这些一层层补上的边界里。
 
-![](../_media/tencent-llm-to-harness/腾讯技术工程_kZZac-VBgnQIZeookE9Y8g_16.gif)
+
 
 ![](../_media/tencent-llm-to-harness/腾讯技术工程_kZZac-VBgnQIZeookE9Y8g_17.png)

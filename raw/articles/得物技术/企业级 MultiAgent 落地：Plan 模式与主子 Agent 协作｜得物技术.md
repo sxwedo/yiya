@@ -8,7 +8,7 @@ date: "2026-09-09 10:30:00"
 
 # 📰 企业级 MultiAgent 落地：Plan 模式与主子 Agent 协作｜得物技术
 
-![](../_media/dewu-plan-multiagent/得物技术_gyEEugg2z7zQxFpa_Eonmw_1.gif)
+
 
 ## 目录
 

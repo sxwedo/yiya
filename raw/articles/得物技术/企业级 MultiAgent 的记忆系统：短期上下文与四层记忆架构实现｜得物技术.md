@@ -7,7 +7,7 @@ date: "2026-08-26 10:30:00"
 
 # 📰 企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现｜得物技术
 
-![](../_media/dewu-multiagent-memory/得物技术_3vbMPRyK02jT_pJ6Hpx2Kg_1.gif)
+
 
 ## 目录
 

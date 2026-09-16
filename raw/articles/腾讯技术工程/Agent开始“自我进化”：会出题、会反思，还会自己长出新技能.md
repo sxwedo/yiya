@@ -750,6 +750,6 @@ Dola是一款基于Agentic AI能力开发的全链路数据助手：用户只需
 
 这里只是以股票回测这样一个比较复杂的案例场景展开，大家应该可以想象到，在工作场景中，Dola对于日常数据分析工作的提效程度是显而易见的。
 
-![](../_media/wx-fsVJiorPBN4ylGjUYBcIPw/腾讯技术工程_fsVJiorPBN4ylGjUYBcIPw_27.gif)
+
 
 ![](../_media/wx-fsVJiorPBN4ylGjUYBcIPw/腾讯技术工程_fsVJiorPBN4ylGjUYBcIPw_28.png)

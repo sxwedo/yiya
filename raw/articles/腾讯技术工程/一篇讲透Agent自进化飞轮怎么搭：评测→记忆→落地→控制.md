@@ -7,7 +7,7 @@ date: "2026-08-26 09:36:00"
 
 # 📰 一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制
 
-![](../_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_1.gif)
+
 
 作者：yannisyang、ethanytzhou
 
@@ -903,7 +903,7 @@ Agent能自主修改自己到什么程度？能改Prompt但不能改安全规则
 >
 >
 
-![](../_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_40.gif)
+
 
 ![](../_media/agent-self-evolution-flywheel/腾讯技术工程_5VDN-T9K8Wr-DaQ15-I6CA_41.png)
 

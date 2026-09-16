@@ -8,7 +8,7 @@ date: "2026-08-05 10:30:00"
 
 # 实战从零开始构建一个Coding Agent：Violin ｜得物技术
 
-![](../_media/dewu-violin/得物技术_yFHRoAi6fe2dduXXlM8Tzw_1.gif)
+
 
 ## 目录
 

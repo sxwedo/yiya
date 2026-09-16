@@ -23,7 +23,7 @@ The addition of Claude Sonnet 4 and Claude Opus 4.1 help Microsoft bring the bes
 
 Once you opt-in, you’ll be able to choose Claude in Researcher with ease.
 
-![Claude in Researcher allows organizations to select the right AI for their specific business needs.](../_media/claude-claude-now-available-in-microsoft-365-copilot/Claude_claude-now-available-in-microsoft-365-copilot_1.gif)
+
 
 *Claude Opus 4.1 is now available in Microsoft's Researcher agent, allowing teams to tackle complex, multi-step research powered by Anthropic's industry-leading AI.*
 

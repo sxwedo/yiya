@@ -608,8 +608,8 @@ ODS、DWD、DWS、ADS还要不要？
 
 这套为报表时代设计的数据架构，能不能继续支撑一个由人和AI共同分析、决策和执行的企业。  
 
-![](../_media/warehouse-ai-layers/数据集成与治理_lci1QFGC0Buvfq-8uWg85w_27.gif)
+
 
 ### 点击【阅读原文】，体验文中同款资料包
 
-![](../_media/warehouse-ai-layers/数据集成与治理_lci1QFGC0Buvfq-8uWg85w_28.gif)
+

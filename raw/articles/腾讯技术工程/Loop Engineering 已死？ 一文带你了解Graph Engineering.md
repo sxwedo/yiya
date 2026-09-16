@@ -429,6 +429,6 @@ Graph 的巧妙，是把"稳"和"活"拆到两层去解决，而不是二选一�
 
 * DataScienceDojo、aibuilderclub、eefocus、tonybai、掘金、今日头条等 — 术语起源梳理与中文社区解读
 
-![](../_media/wx-LzpfUsJRMcpPHzDovo5IrA/腾讯技术工程_LzpfUsJRMcpPHzDovo5IrA_13.gif)
+
 
 ![](../_media/wx-LzpfUsJRMcpPHzDovo5IrA/腾讯技术工程_LzpfUsJRMcpPHzDovo5IrA_14.jpg)
