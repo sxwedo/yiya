@@ -1,6 +1,6 @@
 ---
 type: Overview
-title: "量化与交易"
+title: "交易"
 description: "把交易想法写成可检查、可停止的规则与系统：回测、模拟盘、风控、券商 API；AI 可帮开发，不可绕过风控下单。"
 status: draft
 domain: trading

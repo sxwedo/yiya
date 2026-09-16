@@ -1,6 +1,8 @@
-# 设计与人读面 — Log
+# 设计 — Log
 
 ## 2026-09-15
+
+* **2026-09-15 schema** | 域 title：设计与人读面 → 设计
 
 * **2026-09-15 ingest** | 网页动效词典中篇 → 续写 [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md)（词 17–36）。无新页。
 * **2026-09-15 ingest** | 去 AI 味 skill 成文 → 新建 [Lieflat Less AI Tone](./entities/lieflat-less-ai-tone.md)；链 Charts / De-slop。未把该 raw 挂进 De-slop sources（对象是中文写作，不是 UI）。无新 Reference。

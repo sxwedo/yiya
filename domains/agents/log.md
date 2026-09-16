@@ -1,6 +1,8 @@
-# Agent 与 harness — Log
+# Agent — Log
 
 ## 2026-09-15
+
+* **2026-09-15 schema** | 域 title：Agent 与 harness → Agent
 
 * **Bookmark**: 重做 [AI Hero](./entities/ai-hero.md)+[站点 Ref](./references/ai-hero-site.md)；新增 [Amp](./entities/amp.md)+[站点 Ref](./references/amp-site.md) ← `raw/bookmarks/sites.md`；Hero Related 轻挂词典（未灌站）(2026-09-15).
 * **2026-09-15 rewrite** | 其余有成文 agents Concept 补 Boundaries，不改 Definition

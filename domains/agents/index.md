@@ -2,7 +2,7 @@
 okf_version: "0.2"
 ---
 
-# Agent 与 harness
+# Agent
 
 * [Overview](./overview.md)
 * [References](./references/)

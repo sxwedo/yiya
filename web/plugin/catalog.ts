@@ -171,13 +171,13 @@ function loadDomainsYaml(root: string): CatalogDomain[] {
   const fallback: CatalogDomain[] = [
     {
       id: "agents",
-      title: "Agent 与 harness",
+      title: "Agent",
       path: "domains/agents",
       counts: {},
     },
     {
       id: "engineering",
-      title: "工程与可维护性",
+      title: "工程",
       path: "domains/engineering",
       counts: {},
     },

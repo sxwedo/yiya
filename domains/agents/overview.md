@@ -1,6 +1,6 @@
 ---
 type: Overview
-title: "Agent 与 harness"
+title: "Agent"
 description: "Agent 运行时、harness、MCP 生态与编码代理产品；具名产品见 entities。"
 status: draft
 domain: agents

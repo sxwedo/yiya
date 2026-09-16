@@ -1,17 +1,17 @@
 domains:
   - id: agents
-    title: Agent 与 harness
+    title: Agent
     path: domains/agents
     active: true
   - id: engineering
-    title: 工程与可维护性
+    title: 工程
     path: domains/engineering
     active: true
   - id: design
-    title: 设计与人读面
+    title: 设计
     path: domains/design
     active: true
   - id: trading
-    title: 量化与交易
+    title: 交易
     path: domains/trading
     active: true

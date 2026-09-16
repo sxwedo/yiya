@@ -1,6 +1,6 @@
 ---
 type: Overview
-title: "设计与人读面"
+title: "设计"
 description: "排版与品味、人读界面、去 AI slop 的视觉纪律；具名产品见 entities。"
 status: draft
 domain: design
