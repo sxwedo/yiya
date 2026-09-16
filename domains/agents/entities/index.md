@@ -28,6 +28,8 @@
 * [Proof](./proof.md) — Every 的人与 Agent 共写文档编辑器：共享稿、在场、评论、建议，左侧色轨标出谁写了哪一段。
 * [Puffo](./puffo.md) — 人与 Agent 的端到端加密群聊：本机 daemon 托管多个 agent，底层仍是 Claude / Codex。
 * [Raft](./raft.md) — 人与 Agent 共用频道工作空间：长期身份与记忆，本机 daemon 跑 Claude / Codex 等；不是分布式共识算法。
+* [OpenViking](./openviking.md) — 字节开源 Agent 上下文库。经验记忆：Session→Trajectory→Experience；做过≠会做。
+* [OpenViking](./openviking.md) — 字节开源 Agent 上下文库。经验记忆：Session→Trajectory→Experience；做过≠会做。
 * [OpenCode](./opencode.md) — 开源编码 Agent 运行时：Agent Profile 装身份，Session Events 留可重建轨迹；多客户端共用同一服务。状态工程更重。
 * [skills.sh](./skills-sh.md) — Vercel 的 Agent Skills 开放目录与 CLI：按安装量浏览技能包，用 npx skills 装进多家编码代理。
 * [Trendshift](./trendshift.md) — GitHub 仓库实时动量榜：在上升期捕捉趋势，而非峰值之后；定位为 GitHub Trending 的替代入口。

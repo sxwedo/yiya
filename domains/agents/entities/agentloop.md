@@ -12,6 +12,7 @@ related:
   - agent-telemetry-ingress
   - harness-self-improvement
   - eval-driven-development
+  - openviking
 sources:
   - ../references/agentloop-data-ingress.md
   - ../../../raw/articles/阿里云云原生/让 Agent 越用越准、成本越来越低：AgentLoop 的 Agent 经验自进化闭环.md
@@ -40,3 +41,4 @@ sources:
 - [Agent 遥测接入形态](../concepts/agent-telemetry-ingress.md)
 - [Harness 自改进](../concepts/harness-self-improvement.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
+- [OpenViking](./openviking.md)

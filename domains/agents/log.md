@@ -2,6 +2,7 @@
 
 ## 2026-09-16
 
+* **2026-09-16 ingest** | OpenViking 经验记忆成文 → 新建 [OpenViking](./entities/openviking.md)；github 书签。四层记忆 / 历史≠记忆 / AgentLoop 只加 Related。
 * **2026-09-16 ingest** | 阿里 垂类生产级 Agent → 新建 [生产级垂类 Agent](./concepts/production-vertical-agent.md)。Loop / Wiki / MCP 只加 Related，不进 sources。封面外两张 gif 未落盘。
 * **2026-09-16 ingest** | 书签 [callstack/agent-device](https://github.com/callstack/agent-device) → 新建 [agent-device](./entities/agent-device.md)。无 Reference。
 

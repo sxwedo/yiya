@@ -10,6 +10,7 @@ related:
   - four-layer-agent-memory
   - online-memory-pipeline
   - production-vertical-agent
+  - openviking
 sources:
   - ../references/huolala-llm-memory-online.md
   - ../references/dewu-multiagent-memory.md
@@ -42,3 +43,4 @@ sources:
 - [四层 Agent 记忆](./four-layer-agent-memory.md)
 - [在线记忆流水线](./online-memory-pipeline.md)
 - [生产级垂类 Agent](./production-vertical-agent.md)
+- [OpenViking](../entities/openviking.md)

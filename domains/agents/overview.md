@@ -44,6 +44,7 @@ sources: []
 | [Puffo](./entities/puffo.md) | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
 | [Raft](./entities/raft.md) | 人与 Agent 共用频道工作空间；本机 daemon 跑各家运行时 |
 | [OpenCode](./entities/opencode.md) | 开源编码运行时：Profile + Session Events，多客户端共用 |
+| [OpenViking](./entities/openviking.md) | 上下文库：Session→Trajectory→Experience；做过≠会做 |
 | [skills.sh](./entities/skills-sh.md) | Agent Skills 开放目录与 `npx skills` 安装 CLI |
 | [Zread](./entities/zread.md) | GitHub 仓 → 结构化项目 Wiki（github.com → zread.ai） |
 | [Obelisk](./entities/obelisk.md) | 编码代理历史会话 / 子代理 / 工作流可查询 |
