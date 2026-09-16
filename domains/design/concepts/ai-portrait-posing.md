@@ -11,6 +11,7 @@ related:
   - ai-design-deslop
   - portrait-character-brief
   - candid-character-photography
+  - ai-image-judgment
 ---
 
 # Definition
@@ -33,3 +34,4 @@ related:
 - [AI Design De-slop](./ai-design-deslop.md)
 - [人像角色设定](./portrait-character-brief.md)
 - [抓拍感角色摄影](./candid-character-photography.md)
+- [AI 生图判断](./ai-image-judgment.md)

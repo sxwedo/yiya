@@ -1,6 +1,7 @@
 # concepts
 
 * [AI Design De-slop](./ai-design-deslop.md) — 用 AI 做产品设计时：先列约束再解法、主动删减、在设计工具多变体迭代，避免在真仓库里打地鼠式改 UI。
+* [AI 生图判断](./ai-image-judgment.md) — 小白卡住的不是缺万能 Prompt，是看不清保留什么、怪在哪、下一句说什么。失败修正 > 抽卡。方法不绑死单一模型。
 * [AI 人像美姿提示词](./ai-portrait-posing.md) — 把摄影美姿压成可写进生图提示词的四个入口：转、弯、顺、露；忌笼统的「自然一点」。
 * [人像角色设定](./portrait-character-brief.md) — 先说气质方向，再展开成可生图的中文提示词：骨相、妆、发、衣、场景分开改。默认先写词，明确说「生成」才出图。
 * [抓拍感角色摄影](./candid-character-photography.md) — 用人像提示词模拟「不是棚拍」：不完美构图、前景遮挡、长焦或手机快拍。偷拍机位与男友/同行 POV 是两条路。

@@ -2,6 +2,7 @@
 
 ## 2026-09-15
 
+* **2026-09-16 ingest** | 南鸢重写 7 万字生图入门课 → 新建 [AI 生图判断](./concepts/ai-image-judgment.md)。未把该 raw 挂进人像角色设定 / 美姿 sources（对象是入门判断，不是那两套 Skill）。
 * **2026-09-15 schema** | 域 title：设计与人读面 → 设计
 
 * **2026-09-15 ingest** | 网页动效词典中篇 → 续写 [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md)（词 17–36）。无新页。

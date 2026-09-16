@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-14T23:20:00Z }
 related:
   - ai-portrait-posing
   - candid-character-photography
+  - ai-image-judgment
 sources:
   - ../../../raw/articles/南鸢/想要什么气质，直接说：我的人像角色设定 Skill 公开了.md
 ---
@@ -32,3 +33,4 @@ sources:
 
 - [AI 人像美姿提示词](./ai-portrait-posing.md)
 - [抓拍感角色摄影](./candid-character-photography.md)
+- [AI 生图判断](./ai-image-judgment.md)
