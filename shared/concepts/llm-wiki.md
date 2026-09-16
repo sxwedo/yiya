@@ -17,6 +17,7 @@ related:
   - yiya
   - llmwiki
   - open-knowledge-format
+  - production-vertical-agent
 sources:
   - ../../raw/articles/rvaniaaa/The Second Brain Is Not a Storage System. It's a Compiler..md
   - ../../raw/articles/金尘马/你需要的不再是一个云笔记，而是一个会自己生长的AI知识库.md
@@ -52,4 +53,5 @@ sources:
 - [AGENTS.md](../../domains/agents/entities/agents-md.md)
 - [Andrej Karpathy](../entities/karpathy.md)
 - [Open Knowledge Format](../entities/open-knowledge-format.md)
+- [生产级垂类 Agent](../../domains/agents/concepts/production-vertical-agent.md)
 - [LLM Wiki（原文卡）](../references/karpathy-llm-wiki.md)

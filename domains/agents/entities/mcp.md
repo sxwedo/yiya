@@ -16,6 +16,7 @@ related:
   - mineru
   - proof
   - pilot-protocol
+  - production-vertical-agent
   - mena
   - pi
   - oh-my-pi
@@ -60,6 +61,7 @@ sources:
 - [LangChain](./langchain.md)
 - [MinerU](./mineru.md)
 - [Proof](./proof.md)
+- [生产级垂类 Agent](../concepts/production-vertical-agent.md)
 - [Pilot Protocol](./pilot-protocol.md)
 - [mena](./mena.md)
 - [Pi](./pi.md)

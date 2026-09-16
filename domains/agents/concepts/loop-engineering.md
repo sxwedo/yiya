@@ -17,6 +17,7 @@ related:
   - harness-self-improvement
   - playbook-feedback-loop
   - agent-self-evolution-flywheel
+  - production-vertical-agent
 sources:
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
   - ../../../raw/articles/Matt Van Horn/WTF Is a Loop－ Peter Steinberger vs. Boris Cherny.md
@@ -53,6 +54,7 @@ Anthropic 把 loop 收成「重复干活直到停条件」：按触发/停止/�
 - [Software Factory Cost Equation](./software-factory-cost.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Claude](../entities/claude.md)
+- [生产级垂类 Agent](./production-vertical-agent.md)
 - [Harness 自改进](./harness-self-improvement.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)

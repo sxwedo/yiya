@@ -13,6 +13,7 @@ related:
   - minimal-agent-harness
   - plan-with-code
   - pstack
+  - production-vertical-agent
 sources:
   - ../references/dewu-delivery-harness.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
@@ -65,3 +66,4 @@ Grok Bot 侧落地更土：截图里必须出现需求点的变化（最好前�
 - [用代码做计划](./plan-with-code.md)
 - [pstack](../entities/pstack.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
+- [生产级垂类 Agent](./production-vertical-agent.md)
