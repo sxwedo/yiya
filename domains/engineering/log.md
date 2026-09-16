@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-09-16
+
+* **2026-09-16 ingest** | 得物指标平台成文 → 续写 [语义层](./concepts/semantic-layer.md)。无新页。未把该 raw 挂进 Text2Semantic2SQL sources（对象是指标字典/语义底座，T2S 是消费考卷）。封面 gif 未落盘。
+
 ## 2026-09-15
 
 * **2026-09-15 ingest** | DSH Data Agent 落地方案 → 新建 [Data Agent 落地](./concepts/data-agent-landing.md)；未把该 raw 挂进 DeepSeek Harness sources（对象是数据服务，不是 harness 插件树）。

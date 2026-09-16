@@ -12,6 +12,7 @@ related:
   - text2semantic2sql
   - wikiskill-architecture
   - warehouse-layering
+  - data-agent-landing
 sources:
   - ../references/semantic-layer-chatbi.md
   - ../../../raw/articles/本体与AI/本体驱动问数：国内外技术方案深度研究.md
@@ -19,6 +20,7 @@ sources:
   - ../../../raw/articles/大胖说数据智能/【大胖智能】Data Agent 的本质不是 Agent，而是 Data Engineering.md
   - ../../../raw/articles/AI数据奇点/Data Agent二篇：查数Agent 你们的是否可信？.md
   - ../../../raw/articles/智透圈/OpenAI 如何构建内部数据智能体（Data Agent）.md
+  - ../../../raw/articles/得物技术/指标平台：从语义底座到智能消费的实践路径｜得物技术.md
 ---
 
 # Definition
@@ -30,6 +32,8 @@ sources:
 AI/BI 消费时优先**选口径**，再由引擎翻 SQL，见 [Text2Semantic2SQL](./text2semantic2sql.md)。国内主流是指标语义层（度量 / 维度 / 口径 / 权限前置）；国际还有操作型本体，把数据、逻辑、动作收进同一层，见 [业务 Ontology](./business-ontology.md) 与 [Semantic Service](./semantic-service.md)。
 
 数仓 [ODS–ADS](./warehouse-layering.md) 仍是地基。Agent 成为使用者后，ADS 不是唯一终点：语义层解释「收入」指哪一口径，再交给受控查询，而不是让模型直连库。标准化在向中立语义互换收敛（如 Apache Ossie），把含义做成可移植资产。OpenAI 内部 Data Agent 的判断是 vanilla agent、rich foundation：难的是找对表与语义，不是写 SQL。
+
+得物指标平台（沈卢）：下一站不是再叠本体理论，而是让 AI 拿得到对的数。业务侧用「沉淀—观察—转正」收隐性指标，密度看高频使用而不是全量收录。数仓侧把散射依赖收敛到域可控宽表（先摸命名分层、血缘核查再重构、按依赖分批、跨域只 JOIN 不复制字段）。产品侧把上架做成表单+校验+一键发布；同一指标可挂离线/实时多种物理实现。质量：提报时做同名口径冲突预警；覆盖率分母锁在已认证精品资产；上线强制分布/空值/主键三件套。消费考卷两条线共用这一底座——Text2SQL 的事实层是指标字典（文称系统测评从 85%+ 随标注密度到 95%+，错误集中在「字段该怎么被查询」的元数据，不在模型）；AI Coding 的一次通过率也取决于能否查到已有指标与宽表字段。下一步是消费热度反哺治理，而不是先上因果推理。人设从写 SQL 转向「业务语言和机器语言的翻译者」。
 
 ## Boundaries
 
@@ -43,3 +47,4 @@ AI/BI 消费时优先**选口径**，再由引擎翻 SQL，见 [Text2Semantic2SQ
 - [Text2Semantic2SQL](./text2semantic2sql.md)
 - [WikiSkill 三层架构](../../agents/concepts/wikiskill-architecture.md)
 - [数仓分层](./warehouse-layering.md)
+- [Data Agent 落地](./data-agent-landing.md)

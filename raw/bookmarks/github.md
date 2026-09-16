@@ -166,3 +166,4 @@
 | larashero3-dotcom/lieflat-charts | <https://github.com/larashero3-dotcom/lieflat-charts> | larashero3-dotcom | Agent Skill：统一视觉语法的数据可视化；默认编辑感图表，明确要求才出整页 HTML 报告 |
 | larashero3-dotcom/lieflat-less-ai-tone | <https://github.com/larashero3-dotcom/lieflat-less-ai-tone> | larashero3-dotcom | 283 万字对照实验的中文去 AI 味 Skill；频率≥2×才算特征 |
 | ajeetdsouza/zoxide | <https://github.com/ajeetdsouza/zoxide> | ajeetdsouza | 更聪明的 cd：按使用频率记目录，几个键跳转；灵感来自 z / autojump |
+| callstack/agent-device | <https://github.com/callstack/agent-device> | callstack | 编码代理的真机反馈环：CLI / MCP / Node API，检查并验证 iOS/Android 等 App |
