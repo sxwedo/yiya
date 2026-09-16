@@ -17,6 +17,7 @@ related:
   - loop-engineering
   - minimal-agent-harness
   - delivery-harness
+  - organizational-friction
   - multi-harness-control-plane
   - mcp
   - agents-md
@@ -83,6 +84,7 @@ AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` 
 - [Loop Engineering](./loop-engineering.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [Delivery Harness](./delivery-harness.md)
+- [组织摩擦](../../engineering/concepts/organizational-friction.md)
 - [Multi-Harness Control Plane](./multi-harness-control-plane.md)
 - [Model Context Protocol (MCP)](../entities/mcp.md)
 - [AGENTS.md](../entities/agents-md.md)

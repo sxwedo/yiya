@@ -9,6 +9,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
   - pi
   - coding-agent-workflow
+  - organizational-friction
 sources:
   - ../references/fission-ai-openspec-github.md
 ---
@@ -25,3 +26,4 @@ sources:
 
 - [Pi](./pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [组织摩擦](../../engineering/concepts/organizational-friction.md)

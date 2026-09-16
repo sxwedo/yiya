@@ -2,6 +2,7 @@
 
 ## 2026-09-16
 
+* **2026-09-16 ingest** | 货拉拉 AI Coding 落地 → 续写 [组织摩擦](./concepts/organizational-friction.md)。无新页。未把该 raw 挂进 OpenSpec sources（对象是组织提效，OpenSpec 只是参考形态）。
 * **2026-09-16 ingest** | 得物指标平台成文 → 续写 [语义层](./concepts/semantic-layer.md)。无新页。未把该 raw 挂进 Text2Semantic2SQL sources（对象是指标字典/语义底座，T2S 是消费考卷）。封面 gif 未落盘。
 
 ## 2026-09-15
