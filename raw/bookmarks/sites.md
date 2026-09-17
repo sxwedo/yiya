@@ -42,6 +42,7 @@
 | Proof | <https://proofeditor.ai/> | Every | 人与 Agent 共写的文档编辑器：在场、评论、建议、出处轨 |
 | Pilot Protocol | <https://pilotprotocol.network/> | Pilot Protocol | Agent 组网 overlay：加密 P2P、应用商店、MCP；默认可信才互通 |
 | UseGrokBot | <https://usegrokbot.com/zh-cn> | UseGrokBot | Grok Bot 发现中心：筛选公开帖与用例，不是产品本体 |
+| TypeSafe AI | <https://typesafe.ai> | TypeSafe AI | AI lab：软件内决策的自动化基建；首页点名 System One Model Jev |
 
 ## 知识编译
 
