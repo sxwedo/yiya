@@ -43,3 +43,4 @@
 | AI Coding Dictionary | <https://www.aicodingdictionary.com/> | Matt Pocock / AI Hero | AI 编程行话白话词典（模型/会话/工具/MCP 等）；不把词条拆成知识页 |
 | AI Hero | <https://www.aihero.dev> | Matt Pocock | 教工程师用 AI 做事：课程、cohort、活动与免费教程；词典站同源 |
 | Amp | <https://ampcode.com> | Amp | 前沿 coding agent + 开发环境：远程 Orb 跑代理，合盖后续跑，多端审阅与多人共控 |
+| Medium | <https://medium.com/> | Medium | 在线长文平台；点名单篇再成文，不灌首页 |

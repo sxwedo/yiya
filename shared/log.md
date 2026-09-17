@@ -1,5 +1,9 @@
 # shared — Log
 
+## 2026-09-17
+
+* **2026-09-17 ingest** | 书签 https://medium.com/ → 新建 [Medium](./entities/medium.md)。无 Reference。不灌首页成文。
+
 ## 2026-09-15
 
 * **2026-09-15 rewrite** | [LLM Wiki](./concepts/llm-wiki.md)、[Self-growing KB](./concepts/self-growing-kb.md) 补 Boundaries，不改 Definition

@@ -29,6 +29,7 @@ sources: []
 - [Discovery Loop](./entities/discovery-loop.md)
 - [Grokipedia](./entities/grokipedia.md)
 - [Hacker News](./entities/hacker-news.md)
+- [Medium](./entities/medium.md)
 - [Obsidian](./entities/obsidian.md)
 - [yiya](./entities/yiya.md)
 - [llmwiki](./entities/llmwiki.md)
