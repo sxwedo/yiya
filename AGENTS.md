@@ -2,7 +2,7 @@
 
 三层：**raw（原料）→ domains/shared（知识）→ AGENTS/skills（约定）**。
 
-流程：`.agents/skills/`（`yiya-ingest` / `yiya-rewrite` / `yiya-lint` / `yiya-dream` / `yiya-explore` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
+流程：`.agents/skills/`（`yiya-ingest` / `yiya-rewrite` / `yiya-lint` / `yiya-reflect` / `yiya-dream` / `yiya-explore` / `yiya-new-domain` / `yiya-promote-to-shared` / `yiya-delete-raw`）。问答协议在本文件，无独立 query skill。
 
 ## 架构
 
@@ -61,6 +61,7 @@ shared/                        # 跨域实体与纲领
 | 书签 | GitHub → `github.md`；产品/机构首页 → `sites.md`；docs 门户/根 → `docs.md`；工具 → `tools.md`。直接在对应 Entity 记录或补链，不建空心 Reference |
 | 重构 (Refactor) | 当 Concept 出现概念漂移、`sources > 15` 或包含非核心杂质时：剥离非核心 raw 链接，提炼拆分出独立子概念或回归内聚定义 |
 | 精读重写 | 已有页太薄：按簇精读 `sources` 写成机制 → `yiya-rewrite`。不抓新 URL |
+| 复盘知新 | 整理近期（默认 7 天）原料与知识，萃取模式与认知差，诊断薄卡与孤岛 → `yiya-reflect`。产物进 inbox |
 
 官方文档怎么判、步骤、结构体检见 `yiya-ingest`。查重扫 raw 头 `url:`；认领=知识页链上该 raw。
 
