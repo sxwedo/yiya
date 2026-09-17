@@ -19,6 +19,7 @@ sources: []
 | Entity | 一句话 |
 | -------- | -------- |
 | [Docker](./entities/docker.md) | 容器平台；官方文档门户 docs.docker.com |
+| [Cloudflare](./entities/cloudflare.md) | Worker 是应用，其余是 binding；静态资源不计费；无硬花费上限 |
 | [Ghostty](./entities/ghostty.md) | 原生 GPU 终端模拟器（Zig） |
 | [github/gitignore](./entities/gitignore.md) | GitHub 官方 .gitignore 模板集（语言/框架/OS） |
 | [ping.pe](./entities/ping-pe.md) | 多地 Ping / MTR / 端口 / BGP 诊断 |

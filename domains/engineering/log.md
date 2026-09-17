@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-09-17
+
+* **2026-09-17 ingest** | Elia Cloudflare 指南 → 新建 [Cloudflare](./entities/cloudflare.md)；sites 工程杂项一行。
+
 ## 2026-09-16
 
 * **2026-09-16 ingest** | 货拉拉 AI Coding 落地 → 续写 [组织摩擦](./concepts/organizational-friction.md)。无新页。未把该 raw 挂进 OpenSpec sources（对象是组织提效，OpenSpec 只是参考形态）。

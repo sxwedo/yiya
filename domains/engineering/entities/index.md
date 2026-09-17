@@ -31,6 +31,7 @@
 * [uv](./uv.md) — Rust 写的 Python 包与项目管理器
 * [db-tutorial](./db-tutorial.md) — 后端数据库知识教程
 * [system-design-primer](./system-design-primer.md) — 大规模系统设计入门
+* [Cloudflare](./cloudflare.md) — 边缘开发平台：Worker 是应用，其余是 binding。静态资源不计费。没有硬花费上限。
 * [cobalt](./cobalt.md) — 媒体保存工具
 * [极客时间电子书](./geektime-books.md) — 极客时间电子书镜像
 * [BigData-Notes](./bigdata-notes.md) — 大数据入门笔记
