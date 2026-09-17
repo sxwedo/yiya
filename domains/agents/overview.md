@@ -106,6 +106,7 @@ sources: []
 |--------|--------|
 | [Trendshift](./entities/trendshift.md) | GitHub 仓库实时动量榜，上升期捕捉趋势；不是 agent 产品 |
 | [TypeSafe AI](./entities/typesafe-ai.md) | AI lab：软件内决策基建；首页点名 Jev。只有入口 |
+| [Jev Ultrafast](./entities/jev-ultrafast.md) | 浏览器 Agent：Jev 选操作和元素；只有入口 |
 | [Artificial Analysis](./entities/artificial-analysis.md) | 独立模型与 API 评测（质量/价格/速度）；含 Coding Agents 榜 |
 
 （具名产品/框架入库时在此追加；跨域权威可升 `shared/entities`。）

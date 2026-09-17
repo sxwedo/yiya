@@ -169,3 +169,4 @@
 | callstack/agent-device | <https://github.com/callstack/agent-device> | callstack | 编码代理的真机反馈环：CLI / MCP / Node API，检查并验证 iOS/Android 等 App |
 | volcengine/OpenViking | <https://github.com/volcengine/OpenViking> | volcengine | Agent 上下文库：Session→Trajectory→Experience，把做过炼成会做 |
 | melihmucuk/pi-crew | <https://github.com/melihmucuk/pi-crew> | melihmucuk | Pi 非阻塞并行子代理；worktree 隔离，作者声明非 hardened |
+| browser-use/jev-ultrafast | <https://github.com/browser-use/jev-ultrafast> | browser-use | 浏览器 Agent：Jev 选操作和元素，小模型只在打字时写 |

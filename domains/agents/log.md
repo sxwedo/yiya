@@ -2,6 +2,7 @@
 
 ## 2026-09-17
 
+* **2026-09-17 ingest** | 书签 [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) → 新建 [Jev Ultrafast](./entities/jev-ultrafast.md)。TypeSafe 只加 Related。
 * **2026-09-17 ingest** | 书签 https://typesafe.ai → 新建 [TypeSafe AI](./entities/typesafe-ai.md)。无 Reference。
 * **2026-09-17 ingest** | Matt Pocock 访谈 → 续写 [Coding Agent Workflow](./concepts/coding-agent-workflow.md)（grill me / wayfinder / 引导词）。未挂进 AI Hero sources（对象是工作流，不是教学站）。
 * **2026-09-17 ingest** | 火山 TLS AgentLoop 成文 → 新建 [TLS AgentLoop](./entities/tls-agentloop.md)。未挂进阿里云 AgentLoop sources（同名不同产品）。
