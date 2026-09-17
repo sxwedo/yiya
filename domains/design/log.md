@@ -1,5 +1,9 @@
 # 设计 — Log
 
+## 2026-09-17
+
+* **2026-09-17 ingest** | 诺鸭 Blender 入门成文 → 新建 [Blender](./entities/blender.md)。Holo Card 只加 Related。
+
 ## 2026-09-15
 
 * **2026-09-16 ingest** | 网页动效词典下篇 → 续写 [Vibe Coding 网页动效词典](./concepts/vibe-coding-motion-lexicon.md)（词 37–56）。无新页。

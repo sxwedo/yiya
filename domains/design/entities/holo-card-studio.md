@@ -9,6 +9,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-08T09:40:00Z }
 related:
   - skills-sh
   - knowledge-skill-separation
+  - blender
 sources:
   - ../references/lersent001-holo-card-github.md
   - ../references/everettfish-holo-card-studio-github.md
@@ -26,5 +27,6 @@ sources:
 
 ## Related
 
+- [Blender](./blender.md)
 - [skills.sh](../../agents/entities/skills-sh.md)
 - [知识与技能分离](../../agents/concepts/knowledge-skill-separation.md)
