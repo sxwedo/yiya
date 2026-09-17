@@ -13,6 +13,7 @@ related:
   - harness-self-improvement
   - eval-driven-development
   - openviking
+  - tls-agentloop
 sources:
   - ../references/agentloop-data-ingress.md
   - ../../../raw/articles/阿里云云原生/让 Agent 越用越准、成本越来越低：AgentLoop 的 Agent 经验自进化闭环.md
@@ -42,3 +43,4 @@ sources:
 - [Harness 自改进](../concepts/harness-self-improvement.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
 - [OpenViking](./openviking.md)
+- [TLS AgentLoop](./tls-agentloop.md)

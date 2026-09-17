@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-09-17
+
+* **2026-09-17 ingest** | 火山 TLS AgentLoop 成文 → 新建 [TLS AgentLoop](./entities/tls-agentloop.md)。未挂进阿里云 AgentLoop sources（同名不同产品）。
+
 ## 2026-09-16
 
 * **2026-09-16 ingest** | 书签 [melihmucuk/pi-crew](https://github.com/melihmucuk/pi-crew) → 新建 [pi-crew](./entities/pi-crew.md)。无 Reference。

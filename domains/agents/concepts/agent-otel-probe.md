@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-14T18:00:00Z }
 related:
   - agent-telemetry-ingress
   - agentloop
+  - tls-agentloop
 sources:
   - ../references/agentloop-data-ingress.md
 ---
