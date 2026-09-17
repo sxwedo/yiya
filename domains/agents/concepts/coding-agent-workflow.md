@@ -40,6 +40,7 @@ sources:
   - ../../../raw/articles/Claude/Running an AI-native engineering org.md
   - ../../../raw/articles/Claude/The AI-Native SDLC playbook.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
+  - ../../../raw/articles/meng shao/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md
 ---
 
 # Definition
@@ -65,6 +66,8 @@ sources:
 AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` → `plan.md` → diff/测试 → PR 评审 → 生产触发下一份 intent。人守闸门（接受 intent、批 spec、批生产），agent 跑阶段之间。治理用 hooks / 托管权限，而不是会签会。核心交易系统可再加五道关口：需求澄清（Gherkin）→ 技术方案锁决策 → TDD → 机器判定门禁 → 全流程埋点；模型是变量，流程是底线。
 
 与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
+
+Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已被 Agent 吃掉，人守战略层。窗口再大也只有前约 15 万 token 是「聪明区」，所以切会话。工作流：**grill me**（Agent 拷问人，对齐范围）→ spec 拆成一会话一工单 → **wayfinder**（地图+战争迷雾，超大工程）。把《Pragmatic Programmer》里的 tracer bullet、vertical slice、don't outrun headlights 当**引导词**写进提示——训练数据里这些词能激活概念。Agent 像《记忆碎片》每天失忆：代码库就是它的环境，整洁比以前更值钱。没有硬花费那种本地执念：他在放弃本机开发环境，要能在 Slack 里 @ 进拷问会话。
 
 
 ## Boundaries
