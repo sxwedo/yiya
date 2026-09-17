@@ -35,3 +35,4 @@ sources:
 
 - [Agent 遥测接入形态](./agent-telemetry-ingress.md)
 - [AgentLoop](../entities/agentloop.md)
+- [TLS AgentLoop](../entities/tls-agentloop.md)

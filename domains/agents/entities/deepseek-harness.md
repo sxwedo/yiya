@@ -12,6 +12,7 @@ related:
   - harness-runtime-layer
   - minimal-agent-harness
   - data-agent-landing
+  - tls-agentloop
 sources:
   - ../references/deepseek-ai-deepseek-harness-github.md
   - ../../../raw/articles/Russell/万字长文：Deepseek Harness 一文全看懂！！.md
@@ -46,3 +47,4 @@ Developer Preview，会破兼容。不是 DeepSeek 对话模型本身，不是�
 - [Pi](./pi.md)
 - [Grok Build](./grok-build.md)
 - [Data Agent 落地](../../engineering/concepts/data-agent-landing.md)
+- [TLS AgentLoop](./tls-agentloop.md)
