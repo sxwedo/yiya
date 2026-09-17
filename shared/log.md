@@ -2,6 +2,7 @@
 
 ## 2026-09-17
 
+* **2026-09-17 ingest** | 书签 SO / DEV / Lobsters / Scholar / Product Hunt → 各建 Entity；[arXiv](./entities/arxiv.md) 已有，不重复。无 Reference。不灌首页。
 * **2026-09-17 ingest** | 书签 https://medium.com/ → 新建 [Medium](./entities/medium.md)。无 Reference。不灌首页成文。
 
 ## 2026-09-15

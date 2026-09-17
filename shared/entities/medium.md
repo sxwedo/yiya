@@ -8,6 +8,7 @@ domain: shared
 generated: { by: agent:yiya-librarian, at: 2026-09-17T00:30:00Z }
 related:
   - hacker-news
+  - dev-to
 sources:
   - ../../raw/bookmarks/sites.md
 ---
@@ -23,3 +24,4 @@ sources:
 ## Related
 
 - [Hacker News](./hacker-news.md)
+- [DEV](./dev-to.md)

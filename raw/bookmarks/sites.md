@@ -44,3 +44,8 @@
 | AI Hero | <https://www.aihero.dev> | Matt Pocock | 教工程师用 AI 做事：课程、cohort、活动与免费教程；词典站同源 |
 | Amp | <https://ampcode.com> | Amp | 前沿 coding agent + 开发环境：远程 Orb 跑代理，合盖后续跑，多端审阅与多人共控 |
 | Medium | <https://medium.com/> | Medium | 在线长文平台；点名单篇再成文，不灌首页 |
+| Stack Overflow | <https://stackoverflow.com> | Stack Overflow | 编程问答；点名单题再成文，不灌首页 |
+| DEV | <https://dev.to> | DEV | 开发者博客社区；点名单篇再成文，不灌首页 |
+| Lobsters | <https://lobste.rs> | Lobsters | 技术链接讨论板；点名单帖再成文，不灌首页 |
+| Google Scholar | <https://scholar.google.com> | Google | 学术检索；点名单篇再成文，不灌检索结果 |
+| Product Hunt | <https://www.producthunt.com> | Product Hunt | 新产品发布榜；点名单品再成文，不灌日榜 |

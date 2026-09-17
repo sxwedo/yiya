@@ -10,6 +10,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-15T00:05:00Z }
 related:
   - hacker-news
   - discovery-loop
+  - google-scholar
 sources:
   - ../../raw/bookmarks/sites.md
 ---
@@ -26,3 +27,4 @@ sources:
 
 - [Hacker News](./hacker-news.md)
 - [Discovery Loop](./discovery-loop.md)
+- [Google Scholar](./google-scholar.md)
