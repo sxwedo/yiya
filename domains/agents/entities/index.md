@@ -34,6 +34,7 @@
 * [OpenCode](./opencode.md) — 开源编码 Agent 运行时：Agent Profile 装身份，Session Events 留可重建轨迹；多客户端共用同一服务。状态工程更重。
 * [skills.sh](./skills-sh.md) — Vercel 的 Agent Skills 开放目录与 CLI：按安装量浏览技能包，用 npx skills 装进多家编码代理。
 * [TLS AgentLoop](./tls-agentloop.md) — 火山引擎 TLS：Session/Trace 里原位看图；媒体进 TOS，Trace 只留引用。不是阿里云 AgentLoop。
+* [Jev](./jev.md) — TypeSafe System One 模型：类型化问题 → 结构化决定。Gateway 入口。
 * [Jev Ultrafast](./jev-ultrafast.md) — Browser Use × TypeSafe：动态动作空间；Jev 选操作和元素。库里只有入口。
 * [TypeSafe AI](./typesafe-ai.md) — AI lab：软件内决策基建；首页点名 Jev。库里只有入口。
 * [Trendshift](./trendshift.md) — GitHub 仓库实时动量榜：在上升期捕捉趋势，而非峰值之后；定位为 GitHub Trending 的替代入口。

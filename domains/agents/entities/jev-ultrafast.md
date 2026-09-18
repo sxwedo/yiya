@@ -8,6 +8,7 @@ domain: agents
 generated: { by: agent:yiya-librarian, at: 2026-09-17T23:40:00Z }
 related:
   - typesafe-ai
+  - jev
 sources:
   - ../../../raw/bookmarks/github.md
 ---
@@ -23,3 +24,4 @@ sources:
 ## Related
 
 - [TypeSafe AI](./typesafe-ai.md)
+- [Jev](./jev.md)

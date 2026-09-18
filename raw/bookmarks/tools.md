@@ -4,3 +4,4 @@
 |---|---|---|---|
 | ping.pe | https://ping.pe/ | ping.pe | 多地 Ping / MTR / TCP 端口 / DNS / BGP looking glass |
 | gitignore.io | https://www.toptal.com/developers/gitignore | Toptal | 按 OS / 语言 / IDE 拼一份 .gitignore；模板来自 GitHub 官方集 |
+| Jev（Vercel AI Gateway） | https://vercel.com/ai-gateway/models/jev | TypeSafe AI / Vercel | TypeSafe System One 模型页：API / 定价 / playground |

@@ -9,6 +9,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-17T23:35:00Z }
 related:
   - artificial-analysis
   - jev-ultrafast
+  - jev
 sources:
   - ../../../raw/bookmarks/sites.md
 ---
@@ -25,3 +26,4 @@ sources:
 
 - [Artificial Analysis](./artificial-analysis.md)
 - [Jev Ultrafast](./jev-ultrafast.md)
+- [Jev](./jev.md)
