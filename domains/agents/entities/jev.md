@@ -9,6 +9,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-17T23:55:00Z }
 related:
   - typesafe-ai
   - jev-ultrafast
+  - awesome-jev
 sources:
   - ../../../raw/articles/TypeSafe AI/Introduction.md
   - ../../../raw/bookmarks/tools.md
@@ -40,3 +41,4 @@ sources:
 
 - [TypeSafe AI](./typesafe-ai.md)
 - [Jev Ultrafast](./jev-ultrafast.md)
+- [Awesome Jev](./awesome-jev.md)

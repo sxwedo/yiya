@@ -62,6 +62,7 @@
 | 小山学堂 | <https://xueai.miyang.cn/> | 米羊科技 / 洛小山 | 免费 AI 产品课：Harness、Agent、MCP；含解剖 Grok Build |
 | AI Hero | <https://www.aihero.dev> | Matt Pocock | 教工程师用 AI 做事：课程、cohort、活动与免费教程；词典站同源 |
 | AI Coding Dictionary | <https://www.aicodingdictionary.com/> | Matt Pocock / AI Hero | AI 编程行话白话词典（模型/会话/工具/MCP 等）；不把词条拆成知识页 |
+| Awesome Jev | <https://jevs.youware.app/> | youware | 已有 TypeSafe Key 的学习站：要不要 / 选哪个 / 打几分 / 下一步 |
 
 ## 工程杂项
 
