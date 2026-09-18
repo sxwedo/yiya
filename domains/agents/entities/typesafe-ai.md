@@ -1,29 +1,30 @@
 ---
 type: Entity
 title: "TypeSafe AI"
-description: "AI lab：给软件里做决定的自动化基建。站点宣称第一款 System One Model 叫 Jev。库里只有入口。"
+description: "做 System One 决策模型的 lab。旗舰是 Jev：state + 类型化问题 → 代码能直接用的结构化答案。"
 kind: org
 status: draft
 domain: agents
-generated: { by: agent:yiya-librarian, at: 2026-09-17T23:35:00Z }
+generated: { by: agent:yiya-librarian, at: 2026-09-17T23:55:00Z }
 related:
-  - artificial-analysis
-  - jev-ultrafast
   - jev
+  - jev-ultrafast
+  - artificial-analysis
 sources:
   - ../../../raw/bookmarks/sites.md
+  - ../../../raw/bookmarks/docs.md
 ---
 
 # Identity
 
-**TypeSafe AI**（<https://typesafe.ai>）：站点自称 AI lab，做「machine-native intelligence infrastructure for automation」，让决定发生在软件内部。首页还点名早期试用 **Jev**（System One Model）。本页无成文，不编模型机制。
+**TypeSafe AI**（<https://typesafe.ai>，文档 <https://docs.typesafe.ai/introduction>）：做给软件用的快决策模型，不是聊天。三个 AI 原语（Choice / Score / Noul）像软件原语：可组合、结构化、快。旗舰模型见 [Jev](./jev.md)。
 
 ## Boundaries
 
-库里只有站点入口。不是评测榜（那是 [Artificial Analysis](./artificial-analysis.md)）。点名单篇再成文。
+机制写在 Jev 页。本页是 lab / 文档入口。不是评测榜。
 
 ## Related
 
-- [Artificial Analysis](./artificial-analysis.md)
-- [Jev Ultrafast](./jev-ultrafast.md)
 - [Jev](./jev.md)
+- [Jev Ultrafast](./jev-ultrafast.md)
+- [Artificial Analysis](./artificial-analysis.md)
