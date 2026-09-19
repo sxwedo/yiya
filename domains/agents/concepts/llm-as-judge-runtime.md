@@ -12,6 +12,7 @@ related:
   - delivery-harness
   - playbook-feedback-loop
   - eval-driven-development
+  - jev
 sources:
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../../../raw/articles/Josh Rosen/LLM-as-Judge Architectures: Putting Evals Into Your Agent Runtime.md
@@ -49,3 +50,4 @@ Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent�
 - [Delivery Harness](./delivery-harness.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
+- [Jev](../entities/jev.md)
