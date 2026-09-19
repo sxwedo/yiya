@@ -2,6 +2,7 @@
 
 ## 2026-09-17
 
+* **2026-09-19 ingest** | Daniel Ch Jev Full Guide → 续写 [Jev](./entities/jev.md)（jev-1.13.0；英语最强；别当 chatbot prompt）。无新页。
 * **2026-09-19 ingest** | Aparna Jev 会不会改应用写法 → 续写 [Jev](./entities/jev.md)（零样本判断不必生成长文；无解释；全量盯+抽样 LLM）。Judge 概念只加 Related。
 * **2026-09-19 ingest** | 0xCodila Jev 10 步路线图 → 续写 [Jev](./entities/jev.md)（与 Movez 同构；Jevons：便宜会增加总调用）。无新页。
 * **2026-09-19 ingest** | huangserva Jev 落地清单 → 续写 [Jev](./entities/jev.md)（剔虚火；零件不是提效插件）。无新页。
