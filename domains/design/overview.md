@@ -24,6 +24,7 @@ sources: []
 | [Lieflat Charts](./entities/lieflat-charts.md) | Agent Skill：统一视觉语法的数据可视化与可选整页报告 |
 | [Lieflat Less AI Tone](./entities/lieflat-less-ai-tone.md) | 283 万字对照实验的中文去 AI 味 Skill；不是 UI destlop |
 | [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
+| [personal-site-builder](./entities/personal-site-builder.md) | Skill：简历 → 个人站；6 种风格 |
 | [shadcn-admin](./entities/shadcn-admin.md) | Shadcn + Vite 后台 UI |
 
 ## 本域概念

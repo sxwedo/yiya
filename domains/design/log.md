@@ -2,6 +2,7 @@
 
 ## 2026-09-17
 
+* **2026-09-19 ingest** | 空格 personal-site-builder 成文 → 新建 [personal-site-builder](./entities/personal-site-builder.md)；github 书签。
 * **2026-09-17 ingest** | 诺鸭 Blender 入门成文 → 新建 [Blender](./entities/blender.md)。Holo Card 只加 Related。
 
 ## 2026-09-15
