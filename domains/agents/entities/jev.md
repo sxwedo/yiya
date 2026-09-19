@@ -13,6 +13,7 @@ related:
 sources:
   - ../../../raw/articles/TypeSafe AI/Introduction.md
   - ../../../raw/bookmarks/tools.md
+  - ../../../raw/articles/Movez/Jev Engineering: how to build the fastest AI Agent Brain in 10 Steps (Full-Setup).md
 ---
 
 # Identity
@@ -33,9 +34,11 @@ sources:
 
 浏览器环见 [Jev Ultrafast](./jev-ultrafast.md)。训练路径（RLCD）在 Primer，本页未灌。
 
+Movez《Jev Engineering》：Agent 环里用贵 LLM 回答是否、选下一个工人、打相关性，是错配。拆开——LLM 检索/写段落；Jev 路由、打分、放行；**代码执行**。字段名（如 `safe_to_publish`）Jev 看不见，要求写进问题正文，证据和原始请求分开。选项菜单每轮按**当前可用**重建，否则在选昨天的菜单。问题互相读不到答案；需要新搜索结果就先搜再问。confidence 高不能证明文件已保存或消息已发出——[Jev Ultrafast](./jev-ultrafast.md) 在 DONE 之后另做结果核对。文称 Jev 1.13 约 $0.042 / 百万 input、无 output 计费；价目仍以官方页为准。
+
 ## Boundaries
 
-不是聊天模型。官方介绍未写图/音/视频输入。价目见 Vercel 页，不抄单价。不是实验室本体（那是 TypeSafe AI）。
+不是聊天模型，不写 briefing、不写代码、不解释推理。官方介绍未写图/音/视频输入。不是实验室本体（那是 TypeSafe AI）。
 
 ## Related
 

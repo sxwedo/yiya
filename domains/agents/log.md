@@ -2,6 +2,7 @@
 
 ## 2026-09-17
 
+* **2026-09-19 ingest** | Movez Jev Engineering 成文 → 续写 [Jev](./entities/jev.md)（决策层 vs 生成层；动态菜单；DONE≠核对）。无新页。
 * **2026-09-18 ingest** | 书签 https://jevs.youware.app/ → 新建 [Awesome Jev](./entities/awesome-jev.md)。Jev 只加 Related。
 * **2026-09-17 ingest** | TypeSafe introduction 成文 → 续写 [Jev](./entities/jev.md) Mechanism；[TypeSafe AI](./entities/typesafe-ai.md) 收文档入口。未灌 Primer/RLCD。
 * **2026-09-17 ingest** | Vercel AI Gateway Jev 页 → 新建 [Jev](./entities/jev.md)；tools 书签。未灌 docs.typesafe.ai。
