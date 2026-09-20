@@ -171,3 +171,4 @@
 | melihmucuk/pi-crew | <https://github.com/melihmucuk/pi-crew> | melihmucuk | Pi 非阻塞并行子代理；worktree 隔离，作者声明非 hardened |
 | browser-use/jev-ultrafast | <https://github.com/browser-use/jev-ultrafast> | browser-use | 浏览器 Agent：Jev 选操作和元素，小模型只在打字时写 |
 | SpaceZephyr/personal-site-builder | <https://github.com/SpaceZephyr/personal-site-builder> | SpaceZephyr | Skill：简历和链接 → 个人站；6 种风格，部署前查假数据 |
+| acnekot/NekoCircle | <https://github.com/acnekot/NekoCircle> | acnekot | X 互动圈生成器（Yahoo 日搜 Mention） |
