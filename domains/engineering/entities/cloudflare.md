@@ -12,6 +12,7 @@ related:
 sources:
   - ../../../raw/articles/Elia/The Ultimate Cloudflare Guide.md
   - ../../../raw/bookmarks/sites.md
+  - ../../../raw/bookmarks/tools.md
 ---
 
 # Identity
@@ -24,7 +25,7 @@ Compute：V8 isolate，冷启动接近零。同 Worker 上的静态资源请求�
 
 存：关系/查询 → D1（每库 10GB、同时一条查询、账户可很多小库）；文件 → R2（无 egress）；常读少写 → KV（最终一致，刚写立刻读会错）；已有 Postgres → Hyperdrive（加速不替换）；向量 → Vectorize。
 
-免费半边：Tunnel、Zero Trust Access（≤50 人）、Turnstile、DNS/CDN/WAF/DDoS。Workers Paid 账户最低 $5/月，按 CPU 不按墙钟；等慢 API 不花钱。带宽不另计。
+免费半边：Tunnel、Zero Trust Access（≤50 人）、Turnstile、DNS/CDN/WAF/DDoS。Quick Tunnel 入口 [try.cloudflare.com](https://try.cloudflare.com/)：把 localhost 送到公网，站点称无需账号、DNS、开放端口。Workers Paid 账户最低 $5/月，按 CPU 不按墙钟；等慢 API 不花钱。带宽不另计。
 
 不适合：要真 Postgres、长 CPU、假设进程内存里长期持有状态。Next.js 走 OpenNext 适配层。本地 ≠ 生产，binding 要在真网上试。
 

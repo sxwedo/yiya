@@ -2,6 +2,7 @@
 
 ## 2026-09-17
 
+* **2026-09-20 ingest** | 书签 https://try.cloudflare.com/ → 挂 [Cloudflare](./entities/cloudflare.md) tools。无新页。
 * **2026-09-20 ingest** | 书签 https://circle.catsuki.cc/zh → 新建 [NekoCircle](./entities/neko-circle.md)。tools + github。
 * **2026-09-17 ingest** | Elia Cloudflare 指南 → 新建 [Cloudflare](./entities/cloudflare.md)；sites 工程杂项一行。
 
