@@ -11,6 +11,7 @@
 * [Mole](./mole.md) — Mac 清理、卸载、分析 CLI 与原生 App
 * [awesome-mac](./awesome-mac.md) — 优质 macOS 软件精选
 * [public-apis](./public-apis.md) — 免费公开 API 合集
+* [NekoCircle](./neko-circle.md) — X 互动圈：Yahoo 日搜 30 天公开 @提及。免登录。
 * [Nix](./nix.md) — 纯函数包管理器
 * [witr](./witr.md) — 把进程 / 端口 / 容器 / 文件追到启动者
 * [FreeDomain](./freedomain.md) — 免费域名注册与 DNS 学习
