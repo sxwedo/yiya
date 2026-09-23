@@ -83,6 +83,7 @@ sources: []
 | [SearchCLI](./entities/searchcli.md) | 火山引擎：Agent 驱动搜索自迭代（实验闭环，不直接改线上） |
 | [llm-universe](./entities/llm-universe.md) | Datawhale 大模型应用开发教程 |
 | [Paseo](./entities/paseo.md) | 桌面 / 手机编排多个编码代理 |
+| [Mirasim](./entities/mirasim.md) | One Agent IDE：多 harness 编码 + 模拟用户试用。只有入口 |
 | [深入理解 AI Agent](./entities/ai-agent-book.md) | 李博杰：Agent 设计原理与工程实践 |
 | [OpenWorker](./entities/openworker.md) | 桌面 AI 同事：交付成品而非聊天 |
 | [OpenMinis](./entities/openminis.md) | 跨平台开源 AI Agent 应用 |

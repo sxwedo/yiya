@@ -36,6 +36,7 @@
 | Herdr | <https://herdr.dev/> | herdr / Can Celik | 编码代理终端运行时：后台持有会话，合盖不断；不替换各家 CLI |
 | Grok Build | <https://x.ai/open-source> | xAI | 开源终端编码代理：harness + TUI（xai-org/grok-build）；模型仍走 API |
 | Amp | <https://ampcode.com> | Amp | 前沿 coding agent + 开发环境：远程 Orb 跑代理，合盖后续跑，多端审阅与多人共控 |
+| Mirasim | <https://mirasim.ai/> | Mirasim | One Agent IDE：多 harness 编码 + 模拟用户试用 |
 | Termany | <https://termany.sh/> | Termany | Agent-native 终端工作区：多会话/审阅/worktree/用量看板，本机优先桌面端 |
 | Raft | <https://raft.build/zh-cn/> | Raft | 人与 Agent 共用频道工作空间：长期身份/记忆，本机 daemon 跑各家运行时 |
 | Puffo | <https://beta.puffo.ai/> | Puffo | 人与 Agent 端到端加密群聊；本机 daemon 跑 Claude / Codex |
