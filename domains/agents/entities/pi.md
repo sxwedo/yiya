@@ -16,6 +16,7 @@ related:
   - oh-my-pi
   - skills-sh
   - herdr
+  - jev
   - grok-build
   - minimal-agent-harness
   - harness-runtime-layer
@@ -64,4 +65,5 @@ sources:
 - [Herdr](./herdr.md)
 - [Grok Build](./grok-build.md)
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
+- [Jev](./jev.md)
 - [Harness 运行时层](../concepts/harness-runtime-layer.md)

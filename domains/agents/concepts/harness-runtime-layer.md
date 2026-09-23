@@ -16,6 +16,7 @@ related:
   - opencode
   - history-vs-memory
   - auto-mode
+  - jev
   - dataflow-harness
 sources:
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
@@ -72,4 +73,5 @@ Claude 5 代模型上，Claude Code 砍掉 80%+ 系统提示仍不掉编码评�
 - [Hermes Agent](../entities/hermes-agent.md)
 - [历史不等于记忆](./history-vs-memory.md)
 - [Auto Mode](./auto-mode.md)
+- [Jev](../entities/jev.md)
 - [DataFlow-Harness](../entities/dataflow-harness.md)

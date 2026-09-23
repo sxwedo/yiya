@@ -2,6 +2,7 @@
 
 ## 2026-09-23
 
+* **2026-09-23 ingest** | elvis Pi+Jev harness 成文 → 续写 [Jev](./entities/jev.md)；Pi / Harness 运行时只加 Related。无新页。
 * **2026-09-23 ingest** | 书签 https://mirasim.ai/ → 新建 [Mirasim](./entities/mirasim.md)。无 Reference。
 
 ## 2026-09-17

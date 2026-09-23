@@ -11,6 +11,8 @@ related:
   - jev-ultrafast
   - awesome-jev
   - llm-as-judge-runtime
+  - pi
+  - harness-runtime-layer
 sources:
   - ../../../raw/articles/TypeSafe AI/Introduction.md
   - ../../../raw/bookmarks/tools.md
@@ -18,6 +20,7 @@ sources:
   - ../../../raw/articles/huangserva/拿到 Jev，然后呢？ Jev 到底能干什么：剔掉虚火之后的一份真实落地清单.md
   - ../../../raw/articles/codila/Jev Engineering: Full 10-Step Roadmap to Set Up and Use a New Brain for AI (from scratch).md
   - ../../../raw/articles/Aparna Dhinakaran/Will TypeSafe’s Jev change how we build AI applications?.md
+  - ../../../raw/articles/elvis/Building a Custom Harness with Pi and Jev.md
   - ../../../raw/articles/Daniel Ch/How to master Jev (Full Guide).md
 ---
 
@@ -47,6 +50,8 @@ Daniel Ch 指南：文称当时稳定版 jev-1.13.0，英语最强，早期软�
 
 Aparna Dhinakaran：应用里大量 LLM 调用其实是 pass/fail、路由、贴标签，尤其 LLM-as-judge。Jev 把「零样本判断」从「必须生成长文」里拆出来。厂商自评四条决策流平均约 68% 准、约 $0.0004 / 0.4s（文称，独立样本仍小）。代价是**没有解释**；可全量用 Jev 盯，失败样本再丢给 LLM judge 要 why。95% 对但不知道另外 5% 在哪，仍无法自动化——要的是概率带来的门槛、升级、抽检。调用若花几千 output token 才吐 5 个标签，工具用错了。
 
+elvis（Pi SDK 教程）：模型决定想做什么，harness 决定允不允许。自定义 harness 里 Jev 插三处——选模型、工具门、答完够不够交回。门槛集中一处；Jev 挂了要有退路；答案仍要核对。交互教程：https://academy.dair.ai/resources/jev-decisions-in-a-pi-sdk-harness 载体是 [Pi](./pi.md)。
+
 ## Boundaries
 
 不是聊天模型，不写 briefing、不写代码、不解释推理。官方介绍未写图/音/视频输入。不是「更便宜的大模型」，也不会看图自动驾驶。不是实验室本体（那是 TypeSafe AI）。
@@ -57,3 +62,5 @@ Aparna Dhinakaran：应用里大量 LLM 调用其实是 pass/fail、路由、贴
 - [Jev Ultrafast](./jev-ultrafast.md)
 - [Awesome Jev](./awesome-jev.md)
 - [LLM-as-Judge Runtime](../concepts/llm-as-judge-runtime.md)
+- [Pi](./pi.md)
+- [Harness 运行时层](../concepts/harness-runtime-layer.md)
