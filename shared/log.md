@@ -1,5 +1,9 @@
 # shared — Log
 
+## 2026-09-25
+
+* **2026-09-25 ingest** | 书签 https://teletop.org → 新建 [TeleTop](./entities/teletop.md)。不灌目录。
+
 ## 2026-09-17
 
 * **2026-09-17 ingest** | 书签 SO / DEV / Lobsters / Scholar / Product Hunt → 各建 Entity；[arXiv](./entities/arxiv.md) 已有，不重复。无 Reference。不灌首页。
