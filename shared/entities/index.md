@@ -11,6 +11,7 @@
 * [Lobsters](./lobsters.md) — 技术链接讨论板 lobste.rs。站点入口。
 * [Google Scholar](./google-scholar.md) — 学术检索。文献入口；点名单篇再成文。
 * [Product Hunt](./product-hunt.md) — 新产品发布榜。站点入口；不灌日榜。
+* [TeleTop](./teletop.md) — Telegram 中文频道/群组目录。站点入口；不灌排行榜。
 * [Open Knowledge Format](./open-knowledge-format.md) — Google Cloud 开放规范：带 YAML 头的 Markdown 目录，人与 Agent 共读。Wiki 是方法，OKF 是互操作格式；yiya bundle 同源。
 * [Obsidian](./obsidian.md) — 本地优先的 Markdown 知识库：vault 即文件夹，双向链接与图谱；Karpathy 把 LLM Wiki 的人读面叫成 IDE。
 * [yiya](./yiya.md) — 本库：raw 不可改，domains/shared 一次编译成 wiki，AGENTS/skills 管流程。LLM Wiki 的落地，不是每次 RAG 重挖。

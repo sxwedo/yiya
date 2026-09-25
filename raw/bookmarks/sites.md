@@ -14,6 +14,7 @@
 | Google Scholar | <https://scholar.google.com> | Google | 学术检索；点名单篇再成文，不灌检索结果 |
 | arXiv | <https://arxiv.org/> | Cornell | 预印本库：公开论文、按学科分类；点名单篇再成文，不灌整站 |
 | Product Hunt | <https://www.producthunt.com> | Product Hunt | 新产品发布榜；点名单品再成文，不灌日榜 |
+| TeleTop | <https://teletop.org> | TeleTop | Telegram 中文频道/群组目录；不灌排行榜 |
 | Trendshift | <https://trendshift.io> | Trendshift | GitHub 仓库实时动量榜（上升期捕捉，非峰值后），GitHub Trending 替代 |
 | Artificial Analysis | <https://artificialanalysis.ai> | Artificial Analysis | 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜 |
 | Grokipedia | <https://grokipedia.com/> | xAI | xAI 用 Grok 生成/核验的在线百科；条目不可直接众包编辑 |
