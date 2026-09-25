@@ -10,6 +10,7 @@
 * [x-algorithm](./x-algorithm.md) — xAI 开源的 X 推荐生产栈：Phoenix 多动作预测 + RankingScorer + 安全/多样性规则。公开代码缺训练数据与完整权重。
 * [Mole](./mole.md) — Mac 清理、卸载、分析 CLI 与原生 App
 * [awesome-mac](./awesome-mac.md) — 优质 macOS 软件精选
+* [Real API Pricing](./real-api-pricing.md) — 月费 ÷ 月可用 token 做成可比较单价。对照约定不是真实负载。
 * [public-apis](./public-apis.md) — 免费公开 API 合集
 * [NekoCircle](./neko-circle.md) — X 互动圈：Yahoo 日搜 30 天公开 @提及。免登录。
 * [Nix](./nix.md) — 纯函数包管理器

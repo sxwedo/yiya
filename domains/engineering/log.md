@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-09-25
+
+* **2026-09-25 ingest** | 书签 [FeiZhuLulu/real-api-pricing](https://github.com/FeiZhuLulu/real-api-pricing) → 新建 [Real API Pricing](./entities/real-api-pricing.md)。无 Reference。
+
 ## 2026-09-17
 
 * **2026-09-20 ingest** | 书签 https://try.cloudflare.com/ → 挂 [Cloudflare](./entities/cloudflare.md) tools。无新页。

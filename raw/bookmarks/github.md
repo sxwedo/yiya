@@ -173,3 +173,4 @@
 | SpaceZephyr/personal-site-builder | <https://github.com/SpaceZephyr/personal-site-builder> | SpaceZephyr | Skill：简历和链接 → 个人站；6 种风格，部署前查假数据 |
 | acnekot/NekoCircle | <https://github.com/acnekot/NekoCircle> | acnekot | X 互动圈生成器（Yahoo 日搜 Mention） |
 | repowise-dev/repowise | <https://github.com/repowise-dev/repowise> | repowise-dev | 代码库索引：健康分、死代码、决策；MCP 给 Agent |
+| FeiZhuLulu/real-api-pricing | <https://github.com/FeiZhuLulu/real-api-pricing> | FeiZhuLulu | 真实单价 = 月费 ÷ 月可用 token；对照约定不是真实负载 |
