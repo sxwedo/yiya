@@ -51,6 +51,7 @@
 * [Graphify](./graphify.md) — 代码 / 文档 / SQL / PDF → 可查询知识图谱
 * [MemPalace](./mempalace.md) — 开源 AI 记忆系统
 * [Hermes Agent](./hermes-agent.md) — Nous Research 开源 Agent：前台做完这次，后台把经历收成 Memory 与 Skills；问第二次少走弯路，不是把聊天当记忆。
+* [Repowise](./repowise.md) — 本地索引代码库，给人/Agent 带出处的答案。图与健康分不靠 LLM。只有入口。
 * [Ralph](./ralph.md) — 按 PRD 反复跑直到条目完成的自主循环
 * [cc-connect](./cc-connect.md) — 本机编码代理桥接到即时通讯
 * [Horizon](./horizon.md) — AI 新闻雷达，中英日报

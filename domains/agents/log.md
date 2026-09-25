@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-09-25
+
+* **2026-09-25 ingest** | 书签 [repowise-dev/repowise](https://github.com/repowise-dev/repowise) → 新建 [Repowise](./entities/repowise.md)。无 Reference。
+
 ## 2026-09-23
 
 * **2026-09-23 ingest** | darkzodchi Jev 成本配置 → 续写 [Jev](./entities/jev.md)（一次多问；门槛写在代码）。无新页。

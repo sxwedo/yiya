@@ -53,6 +53,7 @@
 | Zread | <https://zread.ai/> | ZreadAI / 智谱 | 把 GitHub 仓编译成结构化项目 Wiki（架构/模块/可问答）；github.com → zread.ai |
 | Code Wiki | <https://codewiki.google/> | Google | Gemini 生成并随提交更新的 GitHub 仓 Wiki；URL：codewiki.google/github.com/owner/repo |
 | Discovery Loop | <https://www.discoveryloop.com/> | Discovery Loop | 自动化实验闭环以加速科学与工程；先从机器学习研究做起 |
+| Repowise | <https://repowise.dev> | Repowise | 代码库索引给人/Agent；图与健康分不靠 LLM |
 
 ## 课与词典
 

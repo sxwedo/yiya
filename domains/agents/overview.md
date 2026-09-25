@@ -67,6 +67,7 @@ sources: []
 | [GitNexus](./entities/gitnexus.md) | 零服务器、客户端代码智能引擎 |
 | [gnhf](./entities/gnhf.md) | 睡前把任务交给 agent 过夜跑 |
 | [CodeGraph](./entities/codegraph.md) | 预索引代码知识图谱，给 Claude Code / Codex / Gemini 用 |
+| [Repowise](./entities/repowise.md) | 本地代码索引 + MCP；图/健康分不靠 LLM。只有入口 |
 | [Understand Anything](./entities/understand-anything.md) | 代码 → 可交互知识图谱 |
 | [easy-vibe](./entities/easy-vibe.md) | Datawhale vibe coding 入门课 |
 | [Agentic Design Patterns](./entities/agentic-design-patterns.md) | Gulli 的 Agent 模式书与笔记 |
