@@ -28,6 +28,7 @@
 * [Playbook 反馈闭环](./playbook-feedback-loop.md) — 局部失误变成全队下次默认行为：复盘 → 更新共享 Playbook / AGENTS.md / CI / Skill，而不是停在聊天提醒里。
 * [检索质量 Pipeline](./retrieval-quality-pipeline.md) — 召回之后分级筛选：FastPass 放行、交叉编码粗筛、LLM 精评。向量相似不等于语义相关；筛挂中间件，对 Agent 透明。
 * [生产级垂类 Agent](./production-vertical-agent.md) — Demo 易、生产过四关：稳定、可控、可审计、业务闭环。先高频低风险短闭环；循环里跑工具的是外围代码。
+* [服务重构 Skill](./service-refactor-skill.md) — 重构难在调用链里的隐式规则。三层渐进加载 + 五阶段人审，先把链路展到 DB/RPC。
 * [Role-first Agent](./role-first-agent.md) — 以长期岗位而不是一轮聊天或一个代码仓组织 Agent：稳定职责、可验收交付、可交接、有权限边界。
 * [TTSR](./ttsr.md) — Time-Traveling Stream Rules：规则默认休眠不占窗口；输出匹配偏离条件时中止当前流，注入系统提醒后从同一位置重试，压缩后仍保留。
 * [WikiSkill 三层架构](./wikiskill-architecture.md) — Raw 不可变轨迹、Wiki 可复用知识、Skills 可执行规程。技能从知识生长；训练时不查 Wiki；拒 Skill 不回滚 Wiki。

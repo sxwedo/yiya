@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-09-26
+
+* **2026-09-26 ingest** | 腾讯云 服务重构 Skill → 新建 [服务重构 Skill](./concepts/service-refactor-skill.md)。Agent Skills 只加 Related。
+
 ## 2026-09-25
 
 * **2026-09-25 ingest** | 书签 [repowise-dev/repowise](https://github.com/repowise-dev/repowise) → 新建 [Repowise](./entities/repowise.md)。无 Reference。
