@@ -12,6 +12,7 @@ related:
   - agents-md
   - mcp
   - claude
+  - service-refactor-skill
 sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Claude/Introducing Agent Skills.md
@@ -55,3 +56,4 @@ sources:
 - [Claude](./claude.md)
 - [DataFlow-Harness](./dataflow-harness.md)
 - [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)
+- [服务重构 Skill](../concepts/service-refactor-skill.md)

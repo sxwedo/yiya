@@ -27,6 +27,7 @@ related:
   - agent-skills
   - auto-mode
   - plan-with-code
+  - service-refactor-skill
 sources:
   - ../references/ng-coding-agents-skills.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
@@ -92,6 +93,7 @@ Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已�
 - [Model Context Protocol (MCP)](../entities/mcp.md)
 - [AGENTS.md](../entities/agents-md.md)
 - [Pi](../entities/pi.md)
+- [服务重构 Skill](./service-refactor-skill.md)
 - [mena](../entities/mena.md)
 - [skills.sh](../entities/skills-sh.md)
 - [Agent Skills](../entities/agent-skills.md)
