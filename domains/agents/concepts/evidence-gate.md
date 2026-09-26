@@ -14,6 +14,7 @@ related:
   - plan-with-code
   - pstack
   - production-vertical-agent
+  - dynamic-workflow-sop
 sources:
   - ../references/dewu-delivery-harness.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
@@ -67,3 +68,4 @@ Grok Bot 侧落地更土：截图里必须出现需求点的变化（最好前�
 - [pstack](../entities/pstack.md)
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [生产级垂类 Agent](./production-vertical-agent.md)
+- [Dynamic Workflow 长程 SOP](../../engineering/concepts/dynamic-workflow-sop.md)

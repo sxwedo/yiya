@@ -1,6 +1,7 @@
 # concepts
 
 * [业务 Ontology](./business-ontology.md) — 把分散系统中的数据、规则与能力组织成可理解、可计算、可执行的企业语义：Fact · Logic · Action。
+* [Dynamic Workflow 长程 SOP](./dynamic-workflow-sop.md) — 步骤固定、要追踪复核的长任务：脚本编排节点和 state，不靠主 Agent 上下文硬扛。
 * [Data Agent 落地](./data-agent-landing.md) — 自然语言→可信可审计的数据服务。LLM 只做理解（业务语义稿），确定性引擎执行 SQL；DSH 当编排层，不 import 引擎。
 * [数据工程瓶颈上移](./de-bottleneck-upshift.md) — 人力从物理搬运与清洗，上移到业务语义、合规与 AI 体系管控。确定性重复交给 AI；口径、法律责任、长期架构留给人。
 * [数仓分层](./warehouse-layering.md) — ODS→DWD→DWS→ADS 把从源系统到应用的加工链路拆开；AI 时代四层仍是地基，ADS 不再是唯一终点，其上要补语义与受控 Serving。

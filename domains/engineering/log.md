@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-09-26
+
+* **2026-09-26 ingest** | 货拉拉 DataAgent 策略复盘 → 新建 [Dynamic Workflow 长程 SOP](./concepts/dynamic-workflow-sop.md)。>1MB 两张图未落盘。
+
 ## 2026-09-25
 
 * **2026-09-25 ingest** | 书签 [FeiZhuLulu/real-api-pricing](https://github.com/FeiZhuLulu/real-api-pricing) → 新建 [Real API Pricing](./entities/real-api-pricing.md)。无 Reference。

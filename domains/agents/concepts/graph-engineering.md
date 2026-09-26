@@ -13,6 +13,7 @@ related:
   - harness-self-improvement
   - coding-agent-workflow
   - multi-agent-governance
+  - dynamic-workflow-sop
 sources:
   - ../../../raw/articles/wast3/Graph Engineering: How to Run 1,000 AI Agents in Parallel From One Prompt.md
   - ../../../raw/articles/Anatoli Kopadze/Graph Engineering explained: what it is, when to use it and when not to.md
@@ -53,3 +54,4 @@ sources:
 - [Harness 自改进](./harness-self-improvement.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [多智能体治理](./multi-agent-governance.md)
+- [Dynamic Workflow 长程 SOP](../../engineering/concepts/dynamic-workflow-sop.md)
