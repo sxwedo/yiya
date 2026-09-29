@@ -42,6 +42,7 @@ sources:
   - ../../../raw/articles/Claude/The AI-Native SDLC playbook.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
   - ../../../raw/articles/meng shao/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md
+  - ../../../raw/articles/AI招投标实验室/当AI写出80%的代码，开发速度反而慢了.md
 ---
 
 # Definition
@@ -65,6 +66,8 @@ sources:
 把 Agent 当新同事带：先给有界任务，把上下文做成可版本化的独立层（MacCoss 的 `pwiz-ai`），Skill 指向文档而不是复制进 prompt。组织侧：规划改 JIT（原型代替半年 roadmap）；问 Claude 而不是找作者；人只审法律/安全/品味；角色模糊，招创造者与系统专家，不招纯吞吐量。
 
 AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` → `plan.md` → diff/测试 → PR 评审 → 生产触发下一份 intent。人守闸门（接受 intent、批 spec、批生产），agent 跑阶段之间。治理用 hooks / 托管权限，而不是会签会。核心交易系统可再加五道关口：需求澄清（Gherkin）→ 技术方案锁决策 → TDD → 机器判定门禁 → 全流程埋点；模型是变量，流程是底线。
+
+中文解读补了一句错配：AI 写了大部分代码，整体交付仍可能变慢——PR 堆、故障升、合规风险，是因为还在用「节约编码人力」的旧 SDLC 接「小时级」产出。人从逐行体力审核改成决策审核；实现变充裕之后，稀缺的是信任与可控。一周起步顺序：瘦 CLAUDE.md → 统一自检命令 → 默认 Plan Mode → 先补失败测试再修 Bug → REVIEW.md 区分阻断与建议。不要一上来全自动运维。
 
 与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
 

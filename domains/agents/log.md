@@ -2,6 +2,7 @@
 
 ## 2026-09-29
 
+* **2026-09-29 ingest** | AI招投标实验室《当AI写出80%的代码…》→ 续写 [Coding Agent Workflow](./concepts/coding-agent-workflow.md)（官方 Playbook 已在 sources；本篇补错配与一周起步）。无新页。未挂 AGENTS.md / 组织摩擦 sources。
 * **2026-09-29 ingest** | Datawhale Dream-RSI 成文 → 新建 [Dream-RSI](./entities/dream-rsi.md)；续写 [Harness 自改进](./concepts/harness-self-improvement.md)。飞轮只加 Related。github 书签 zhengkid/Dream-RSI。无 Reference。
 
 ## 2026-09-26
