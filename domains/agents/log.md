@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-09-29
+
+* **2026-09-29 ingest** | Datawhale Dream-RSI 成文 → 新建 [Dream-RSI](./entities/dream-rsi.md)；续写 [Harness 自改进](./concepts/harness-self-improvement.md)。飞轮只加 Related。github 书签 zhengkid/Dream-RSI。无 Reference。
+
 ## 2026-09-26
 
 * **2026-09-26 ingest** | 腾讯云 服务重构 Skill → 新建 [服务重构 Skill](./concepts/service-refactor-skill.md)。Agent Skills 只加 Related。

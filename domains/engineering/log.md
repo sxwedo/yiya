@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-09-29
+
+* **2026-09-29 ingest** | 智能数据研讨《知识图谱和本体的区别与联系》→ 续写 [业务 Ontology](./concepts/business-ontology.md)。无新页。
+
 ## 2026-09-26
 
 * **2026-09-26 ingest** | 货拉拉 DataAgent 策略复盘 → 新建 [Dynamic Workflow 长程 SOP](./concepts/dynamic-workflow-sop.md)。>1MB 两张图未落盘。

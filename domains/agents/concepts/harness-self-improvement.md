@@ -15,6 +15,7 @@ related:
   - minimal-agent-harness
   - harness-runtime-layer
   - hermes-agent
+  - dream-rsi
 sources:
   - ../references/agent-self-evolution-flywheel.md
   - ../../../raw/articles/Carlos E. Perez/From Loop Engineering to Graph Engineering－.md
@@ -22,6 +23,7 @@ sources:
   - ../../../raw/articles/Claude/How Warp builds self-improving agents on Claude.md
   - ../../../raw/articles/Claude/New in Claude Managed Agents： dreaming, outcomes, and multiagent orchestration.md
   - ../../../raw/articles/腾讯技术工程/Agent开始“自我进化”：会出题、会反思，还会自己长出新技能.md
+  - ../../../raw/articles/Datawhale/谷歌重磅发布Dream-RSI，最新RSI研究！.md
 ---
 
 # Definition
@@ -40,6 +42,8 @@ Warp 把同一层写成双 Skill 环：内圈是领域规程（评审/分诊）�
 
 Managed Agents 的 Dreaming 是会话间整理：扫历史 session 与 memory store，抽出反复犯错与团队偏好，可自动写回或等人审。Outcomes 用独立 grader（另开上下文）对照 rubric，不过关就打回；这是 [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) 的托管形。
 
+[Dream-RSI](../entities/dream-rsi.md) 是同一层的另一条路：不改底座模型与评测，只演化「怎么搜」的策略代码。历史发现树当物理模拟器，离线做梦筛策略；经验不要塞进 Prompt 当事先。前提是客观可打分的沙箱。
+
 
 ## Boundaries
 
@@ -56,3 +60,4 @@ Managed Agents 的 Dreaming 是会话间整理：扫历史 session 与 memory st
 - [Minimal Agent Harness](./minimal-agent-harness.md)
 - [Harness 运行时层](./harness-runtime-layer.md)
 - [Hermes Agent](../entities/hermes-agent.md)
+- [Dream-RSI](../entities/dream-rsi.md)

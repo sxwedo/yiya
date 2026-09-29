@@ -77,6 +77,7 @@ sources: []
 | [OpenSquilla](./entities/opensquilla.md) | 同预算更高智能密度的 token 高效 Agent |
 | [Composio](./entities/composio.md) | Agent 工具包、检索、鉴权与沙箱 |
 | [Distilly](./entities/distilly.md) | 把思维方式蒸馏成可复用 Skills |
+| [Dream-RSI](./entities/dream-rsi.md) | 锁模型与评测，只演化探索策略；发现树离线回放 |
 | [ECC](./entities/ecc.md) | harness 性能优化：skills / instincts / memory / security |
 | [cc-switch](./entities/cc-switch.md) | Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手 |
 | [Gemini CLI](./entities/gemini-cli.md) | Gemini 官方终端 Agent |

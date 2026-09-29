@@ -70,6 +70,7 @@
 * [OpenSquilla](./opensquilla.md) — 同预算更高智能密度的 token 高效 Agent
 * [Composio](./composio.md) — Agent 工具包、检索、鉴权与沙箱
 * [Distilly](./distilly.md) — 把思维方式蒸馏成可复用 Skills
+* [Dream-RSI](./dream-rsi.md) — 锁死底座模型与评测，只演化探索策略代码：发现树当零 Token 回放模拟器，离线做梦筛下一轮调度。
 * [ECC](./ecc.md) — harness 性能优化：skills / instincts / memory / security
 * [cc-switch](./cc-switch.md) — Claude Code / Codex / OpenCode / OpenClaw 桌面切换助手
 * [Gemini CLI](./gemini-cli.md) — Gemini 官方终端 Agent
