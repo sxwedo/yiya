@@ -20,6 +20,7 @@ related:
   - grok-build
   - minimal-agent-harness
   - harness-runtime-layer
+  - pi-durable
 sources:
   - ../references/pi-dev-site.md
   - ../references/earendil-pi-github.md
@@ -50,7 +51,7 @@ sources:
 
 ## Boundaries
 
-不是 [oh-my-pi](./oh-my-pi.md) 那种 batteries-included 发行版；不内置权限弹窗（高风险要外补沙箱）。不是 [Codex](./codex.md) 的 Thread/审批，也不是 [OpenCode](./opencode.md) 的多客户端事件服务。教程仓/插件合集是书签，不在本页展开。
+不是 [oh-my-pi](./oh-my-pi.md) 那种 batteries-included 发行版；不内置权限弹窗（高风险要外补沙箱）。不是 [Codex](./codex.md) 的 Thread/审批，也不是 [OpenCode](./opencode.md) 的多客户端事件服务。长时、崩溃恢复、多端同会话走实验包 [Pi Durable](./pi-durable.md)，不在本页展开。教程仓/插件合集是书签，不在本页展开。
 
 ## Related
 
@@ -67,3 +68,4 @@ sources:
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
 - [Jev](./jev.md)
 - [Harness 运行时层](../concepts/harness-runtime-layer.md)
+- [Pi Durable](./pi-durable.md)

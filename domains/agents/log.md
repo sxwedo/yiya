@@ -2,6 +2,7 @@
 
 ## 2026-10-02
 
+* **2026-10-02 ingest** | Earendil《Pi Durable》→ 新建 [Pi Durable](./entities/pi-durable.md)；[Pi](./entities/pi.md) 只加 Related（sources 已满阈值）。链 Minimal Harness / Harness 运行时 / Herdr。无 Reference。
 * **2026-10-02 ingest** | Karpathy 推《理解语言模型输出》→ 新建 [可弃理解制品](./concepts/discardable-understanding-artifacts.md)；链 用代码做计划 / 白板成片 / Loop Engineering / De-slop。未挂 [Karpathy](../../shared/entities/karpathy.md) sources（该页只记 LLM Wiki）。无 Reference。
 
 ## 2026-09-29

@@ -24,6 +24,7 @@
 * [oh-my-pi](./oh-my-pi.md) — can1357 的 batteries-included 终端编码代理（omp.sh）：Rust 核心，原生 LSP/DAP/Advisor/TTSR/Hashline。要极简请用 Pi。
 * [Omarchy](./omarchy.md) — DHH 的意见化 Arch Linux 桌面（Hyprland/Quickshell）：把 coding agent CLI 当系统一等公民，配懒加载启动器与系统定制 skill。
 * [Pi](./pi.md) — earendil-works 的极简终端编码代理框架（pi.dev）：最小 harness，能力靠扩展与 Skills 组装。
+* [Pi Durable](./pi-durable.md) — Earendil 实验包：任意 JS 运行时上的长时 harness。存储+检查点撑崩溃恢复，不替换 Pi 编码代理。
 * [pi-crew](./pi-crew.md) — Pi 扩展：非阻塞并行子代理；worktree 隔离，作者声明非 hardened。
 * [pstack](./pstack.md) — poteto 的 Cursor 技能包：验证闭环（control-app CLI）当基础设施；计划用原型和 /architect 用代码做，不信抽象 Plan Mode。
 * [Pilot Protocol](./pilot-protocol.md) — 给 Agent 用的组网 overlay：加密点对点隧道、应用商店与 MCP；默认可信才互通。

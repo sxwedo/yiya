@@ -14,6 +14,7 @@ related:
   - raft
   - puffo
   - multi-harness-control-plane
+  - pi-durable
 sources:
   - ../references/herdr-site.md
   - ../references/herdrdev-herdr-github.md
@@ -38,3 +39,4 @@ sources:
 - [Raft](./raft.md)
 - [Puffo](./puffo.md)
 - [Multi-Harness Control Plane](../concepts/multi-harness-control-plane.md)
+- [Pi Durable](./pi-durable.md)

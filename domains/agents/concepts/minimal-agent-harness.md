@@ -15,6 +15,7 @@ related:
   - ttsr
   - pi-agent-book
   - harness-runtime-layer
+  - pi-durable
 sources:
   - ../references/pi-vs-oh-my-pi.md
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
@@ -55,3 +56,4 @@ Anthropic 的 Harness Design 把同一哲学写成「问自己还能停做什么
 - [Harness 自改进](./harness-self-improvement.md)
 - [TTSR](./ttsr.md)
 - [Harness 运行时层](./harness-runtime-layer.md)
+- [Pi Durable](../entities/pi-durable.md)

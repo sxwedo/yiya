@@ -18,6 +18,7 @@ related:
   - auto-mode
   - jev
   - dataflow-harness
+  - pi-durable
 sources:
   - ../../../raw/articles/腾讯技术工程/从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？.md
   - ../../../raw/articles/得物技术/实战从零开始构建一个Coding Agent：Violin ｜得物技术.md
@@ -75,3 +76,4 @@ Claude 5 代模型上，Claude Code 砍掉 80%+ 系统提示仍不掉编码评�
 - [Auto Mode](./auto-mode.md)
 - [Jev](../entities/jev.md)
 - [DataFlow-Harness](../entities/dataflow-harness.md)
+- [Pi Durable](../entities/pi-durable.md)
