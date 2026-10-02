@@ -13,6 +13,7 @@ related:
   - unreliable-components-reliable-systems
   - discovery-loop
   - looped-transformer
+  - ai-dev-engineer-interview
 sources:
   - ../references/ng-evals-watershed.md
   - ../../../raw/articles/Hugo Vergnes/Training a 3.8B LLM to 0.384 CORE for $998.md
@@ -52,3 +53,4 @@ sources:
 - [Looped Transformer](./looped-transformer.md)
 - [Artificial Analysis](../../agents/entities/artificial-analysis.md)
 - [SearchCLI](../../agents/entities/searchcli.md)
+- [AI 开发工程师面试](./ai-dev-engineer-interview.md)

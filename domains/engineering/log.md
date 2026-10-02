@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-10-03
+
+* **2026-10-03 ingest** | Miles Ma《AI 开发工程师面试指南》→ 新建 [AI 开发工程师面试](./concepts/ai-dev-engineer-interview.md)；链 不可靠组件 / 评测驱动 / 训练推理优化 / Field Guide。未挂 FDE 手册 sources。无 Reference。
+
 ## 2026-09-29
 
 * **2026-09-29 ingest** | 智能数据研讨《知识图谱和本体的区别与联系》→ 续写 [业务 Ontology](./concepts/business-ontology.md)。无新页。

@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-08T10:45:00Z }
 related:
   - eval-driven-development
   - coding-agent-workflow
+  - ai-dev-engineer-interview
 sources:
   - ../references/ng-evals-watershed.md
   - ../../../raw/articles/Andrew Ng/The AI Engineering Skills Map.md
@@ -35,3 +36,4 @@ sources:
 
 - [评测驱动开发](./eval-driven-development.md)
 - [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md)
+- [AI 开发工程师面试](./ai-dev-engineer-interview.md)

@@ -8,6 +8,7 @@ domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-07T21:30:00Z }
 related:
   - eval-driven-development
+  - ai-dev-engineer-interview
 sources:
   - ../references/alexeygrigorev-ai-engineering-field-guide-github.md
 ---
@@ -23,3 +24,4 @@ sources:
 ## Related
 
 - [评测驱动开发](../concepts/eval-driven-development.md)
+- [AI 开发工程师面试](../concepts/ai-dev-engineer-interview.md)

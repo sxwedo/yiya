@@ -5,7 +5,9 @@ description: "面试级菜单：FlashAttention / GQA、激活重算、KV cache�
 status: draft
 domain: engineering
 generated: { by: agent:yiya-librarian, at: 2026-09-14T20:00:00Z }
-related: []
+related:
+  - unreliable-components-reliable-systems
+  - ai-dev-engineer-interview
 sources:
   - ../../../raw/articles/Gauri Gupta/LLM Optimization Interview Notes: Training and Inference.md
 ---
@@ -29,3 +31,4 @@ sources:
 ## Related
 
 - [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md)
+- [AI 开发工程师面试](./ai-dev-engineer-interview.md)

@@ -17,5 +17,6 @@
 * [Semantic Service](./semantic-service.md) — 把 Ontology 封装成可查询、可计算、可执行、可审计的运行时：Agent 面向契约编排，不把业务逻辑塞进提示词。
 * [Text2Semantic2SQL](./text2semantic2sql.md) — 自然语言先映射到受约束的语义口径选择，再由语义引擎确定性生成 SQL；把幻觉从生成层压到有限选择层。
 * [用不可靠组件造可靠系统](./unreliable-components-reliable-systems.md) — AI 组件输出不可预测是常态；工程价值在于熟练决定下一步，把不可靠部件组织成可靠软件系统。
+* [AI 开发工程师面试](./ai-dev-engineer-interview.md) — 面试官看的是能接什么活、问题怎么想、以后能不能担责。简历写过程与决定；专家挖细节，管理挖人与交付。
 * [X 自媒体增长](./x-self-media-growth.md) — 被看见：主页 3 秒锚定差异化；主题/立场/语气/节奏一致；价值命中具体困境；再叠情感与第一波传播。忌 AI 自动发推。
 * [Looped Transformer](./looped-transformer.md) — 同一组 Transformer 块在深度上循环套用，用时间换参数。不是隐藏 CoT；评测还受主 harness 绑定影响。
