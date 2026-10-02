@@ -9,6 +9,7 @@ related:
   - agent-skills
   - codex
   - knowledge-skill-separation
+  - discardable-understanding-artifacts
 sources:
   - ../../../raw/articles/SAMUEL/我用 Codex 把一段文字做成了手绘动画：从配音成片，完整教学.md
 ---
@@ -44,3 +45,4 @@ sources:
 - [Agent Skills](../entities/agent-skills.md)
 - [Codex](../entities/codex.md)
 - [知识与技能分离](./knowledge-skill-separation.md)
+- [可弃理解制品](./discardable-understanding-artifacts.md)

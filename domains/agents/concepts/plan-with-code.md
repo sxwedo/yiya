@@ -10,6 +10,7 @@ related:
   - evidence-gate
   - coding-agent-workflow
   - plan-mode-multiagent
+  - discardable-understanding-artifacts
 sources:
   - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 2.md
 ---
@@ -42,3 +43,4 @@ sources:
 - [Evidence Gate](./evidence-gate.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
+- [可弃理解制品](./discardable-understanding-artifacts.md)

@@ -11,6 +11,7 @@ related:
   - vibe-coding-motion-lexicon
   - vibe-coding-visual-lexicon
   - lieflat-less-ai-tone
+  - discardable-understanding-artifacts
 sources:
   - ../../../raw/articles/Matt Dailey/How I Design with AI..md
   - ../../../raw/articles/Claude/Improving frontend design through Skills.md
@@ -45,3 +46,4 @@ Anthropic 把「AI slop」归因于分布收敛：训练数据里安全、无冒
 - [Vibe Coding 网页动效词典](./vibe-coding-motion-lexicon.md)
 - [Vibe Coding 视觉词典](./vibe-coding-visual-lexicon.md)
 - [Lieflat Less AI Tone](../entities/lieflat-less-ai-tone.md)
+- [可弃理解制品](../../agents/concepts/discardable-understanding-artifacts.md)

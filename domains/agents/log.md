@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-02
+
+* **2026-10-02 ingest** | Karpathy 推《理解语言模型输出》→ 新建 [可弃理解制品](./concepts/discardable-understanding-artifacts.md)；链 用代码做计划 / 白板成片 / Loop Engineering / De-slop。未挂 [Karpathy](../../shared/entities/karpathy.md) sources（该页只记 LLM Wiki）。无 Reference。
+
 ## 2026-09-29
 
 * **2026-09-29 ingest** | AI招投标实验室《当AI写出80%的代码…》→ 续写 [Coding Agent Workflow](./concepts/coding-agent-workflow.md)（官方 Playbook 已在 sources；本篇补错配与一周起步）。无新页。未挂 AGENTS.md / 组织摩擦 sources。

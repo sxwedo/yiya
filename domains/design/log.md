@@ -1,5 +1,9 @@
 # 设计 — Log
 
+## 2026-10-02
+
+* **2026-10-02 ingest** | [AI Design De-slop](./concepts/ai-design-deslop.md) 加 Related → agents [可弃理解制品](../agents/concepts/discardable-understanding-artifacts.md)（HTML 作理解工具 ≠ 产品 UI 去糊）。未挂该 raw sources。
+
 ## 2026-09-17
 
 * **2026-09-19 ingest** | 空格 personal-site-builder 成文 → 新建 [personal-site-builder](./entities/personal-site-builder.md)；github 书签。
