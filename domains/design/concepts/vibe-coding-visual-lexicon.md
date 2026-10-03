@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-14T23:10:00Z }
 related:
   - vibe-coding-motion-lexicon
   - ai-design-deslop
+  - named-style-tokens
 sources:
   - ../../../raw/articles/Adrian Punk/Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件.md
 ---
@@ -34,3 +35,4 @@ sources:
 
 - [Vibe Coding 网页动效词典](./vibe-coding-motion-lexicon.md)
 - [AI Design De-slop](./ai-design-deslop.md)
+- [命名风格词](../../agents/concepts/named-style-tokens.md)

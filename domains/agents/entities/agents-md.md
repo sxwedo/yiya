@@ -13,6 +13,7 @@ related:
   - skills-sh
   - agent-skills
   - llm-wiki
+  - named-style-tokens
 sources:
   - ../references/agents-md-site.md
   - ../../../raw/articles/雨哥向前冲/CLAUDE.md 终于有人把最全用法讲清楚了.md
@@ -36,7 +37,7 @@ sources:
 
 ## Boundaries
 
-不要放：可复用步骤 → [Agent Skills](./agent-skills.md)；必须发生的副作用 → hooks / rules；隔离长活 → subagents；口吻/篇幅 → 系统提示附加。仓 → Agent 可读说明书，**不是** harness、不是 MCP、不是 wiki 词条本身。
+不要放：可复用步骤 → [Agent Skills](./agent-skills.md)；必须发生的副作用 → hooks / rules；隔离长活 → subagents；口吻/篇幅 → 系统提示附加。别人测过的文风名（ASD-STE100 一类）也一样，根文件会把所有任务往那个方向拽；任务级风格见 [命名风格词](../concepts/named-style-tokens.md)。仓 → Agent 可读说明书，**不是** harness、不是 MCP、不是 wiki 词条本身。
 
 ## Related
 
@@ -46,3 +47,4 @@ sources:
 - [skills.sh](./skills-sh.md)
 - [Agent Skills](./agent-skills.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
+- [命名风格词](../concepts/named-style-tokens.md)

@@ -11,6 +11,7 @@ related:
   - skill-whiteboard-video
   - loop-engineering
   - ai-design-deslop
+  - named-style-tokens
 sources:
   - ../../../raw/articles/Andrej Karpathy/We'll be spending a lot more time trying to understand the outputs of language models.md
 ---
@@ -32,7 +33,7 @@ sources:
 
 ## Boundaries
 
-不是 [LLM Wiki](../../../shared/concepts/llm-wiki.md)，不是人物百科。不是 ASD-STE100 规范本身，不是 ElevenLabs 产品卡。不是把理解制品当验收：看懂 ≠ 证据门过了。不是设计纪律、不是白板成片 SOP。
+不是 [LLM Wiki](../../../shared/concepts/llm-wiki.md)，不是人物百科。不是 ASD-STE100 规范本身，不是 ElevenLabs 产品卡。不是把理解制品当验收：看懂 ≠ 证据门过了。不是设计纪律、不是白板成片 SOP。把四个办法抄进常驻 `AGENTS.md` 也不是本页，那是 [命名风格词](./named-style-tokens.md)。
 
 ## Related
 
@@ -41,3 +42,4 @@ sources:
 - [字幕驱动白板手绘成片](./skill-whiteboard-video.md)
 - [Loop Engineering](./loop-engineering.md)
 - [AI Design De-slop](../../design/concepts/ai-design-deslop.md)
+- [命名风格词](./named-style-tokens.md)

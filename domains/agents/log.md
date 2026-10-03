@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-03
+
+* **2026-10-03 ingest** | 花叔《如何用好AI？从Andrej Karpathy的提示词策略讲起》→ 新建 [命名风格词](./concepts/named-style-tokens.md)；[可弃理解制品](./concepts/discardable-understanding-artifacts.md) / [AGENTS.md](./entities/agents-md.md) 只加 Related（未进 sources）。链视觉词典。无 Reference。
+
 ## 2026-10-02
 
 * **2026-10-02 ingest** | Earendil《Pi Durable》→ 新建 [Pi Durable](./entities/pi-durable.md)；[Pi](./entities/pi.md) 只加 Related（sources 已满阈值）。链 Minimal Harness / Harness 运行时 / Herdr。无 Reference。
