@@ -28,6 +28,7 @@ related:
   - auto-mode
   - plan-with-code
   - service-refactor-skill
+  - inner-outer-agent-loop
 sources:
   - ../references/ng-coding-agents-skills.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
@@ -102,4 +103,5 @@ Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已�
 - [Agent Skills](../entities/agent-skills.md)
 - [Auto Mode](./auto-mode.md)
 - [用代码做计划](./plan-with-code.md)
+- [内外两层循环](./inner-outer-agent-loop.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)

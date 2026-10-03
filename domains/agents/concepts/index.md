@@ -33,6 +33,7 @@
 * [TTSR](./ttsr.md) — Time-Traveling Stream Rules：规则默认休眠不占窗口；输出匹配偏离条件时中止当前流，注入系统提醒后从同一位置重试，压缩后仍保留。
 * [WikiSkill 三层架构](./wikiskill-architecture.md) — Raw 不可变轨迹、Wiki 可复用知识、Skills 可执行规程。技能从知识生长；训练时不查 Wiki；拒 Skill 不回滚 Wiki。
 * [Loop Engineering](./loop-engineering.md) — 把努力从「一手一手 prompt」转到设计可自己找活、分派、验收、记状态并再开下一轮的系统；停条件与上下文防腐是难点。
+* [内外两层循环](./inner-outer-agent-loop.md) — 内层改代码并自己验证；外层收仓外反馈再交给协调 Agent。人不当 DevTools 传话筒。2500 PR 是吞吐，不是功能数。
 * [可弃理解制品](./discardable-understanding-artifacts.md) — 模型越能干，人的工作越往监督和理解上移。智力与代码变便宜时，专门生成用完可扔的图、HTML、讲解视频，而不是硬啃长文。
 * [命名风格词](./named-style-tokens.md) — 先知道要什么效果，再找能指向它的名字，对照测试后再写入任务级提示。不要把别人的词塞进常驻 AGENTS.md。
 * [Software Factory Cost Equation](./software-factory-cost.md) — Uber 式软件工厂：把 agent 用量拆成四层与成本等式，用基准选模、压缩/缓存、MCP→CLI/code-mode、上下文图与可见性杠杆压低每会话成本。

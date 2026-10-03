@@ -11,6 +11,7 @@ related:
   - grok-bot
   - agent-skills
   - evidence-gate
+  - inner-outer-agent-loop
 sources:
   - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 1.md
   - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 2.md
@@ -40,3 +41,4 @@ sources:
 - [Grok Bot](./grok-bot.md)
 - [Agent Skills](./agent-skills.md)
 - [Evidence Gate](../concepts/evidence-gate.md)
+- [内外两层循环](../concepts/inner-outer-agent-loop.md)

@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-04
+
+* **2026-10-04 ingest** | Michael Guo《两个 AI Skills 王者之间的对话》→ 新建 [内外两层循环](./concepts/inner-outer-agent-loop.md)；[pstack](./entities/pstack.md) / [Loop Engineering](./concepts/loop-engineering.md) / [Playbook 反馈闭环](./concepts/playbook-feedback-loop.md) / [Coding Agent Workflow](./concepts/coding-agent-workflow.md) / [Agent Skills](./entities/agent-skills.md) 只加 Related（未进 sources）。无 Reference。
+
 ## 2026-10-03
 
 * **2026-10-03 ingest** | 花叔《如何用好AI？从Andrej Karpathy的提示词策略讲起》→ 新建 [命名风格词](./concepts/named-style-tokens.md)；[可弃理解制品](./concepts/discardable-understanding-artifacts.md) / [AGENTS.md](./entities/agents-md.md) 只加 Related（未进 sources）。链视觉词典。无 Reference。

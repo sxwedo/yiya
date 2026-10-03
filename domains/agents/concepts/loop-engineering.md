@@ -19,6 +19,7 @@ related:
   - agent-self-evolution-flywheel
   - production-vertical-agent
   - discardable-understanding-artifacts
+  - inner-outer-agent-loop
 sources:
   - ../../../raw/articles/Addy Osmani/Loop Engineering.md
   - ../../../raw/articles/Matt Van Horn/WTF Is a Loop－ Peter Steinberger vs. Boris Cherny.md
@@ -60,3 +61,4 @@ Anthropic 把 loop 收成「重复干活直到停条件」：按触发/停止/�
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
 - [可弃理解制品](./discardable-understanding-artifacts.md)
+- [内外两层循环](./inner-outer-agent-loop.md)

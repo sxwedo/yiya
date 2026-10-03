@@ -15,6 +15,7 @@ related:
   - agent-self-evolution-flywheel
   - delivery-harness
   - engineering-bot
+  - inner-outer-agent-loop
 sources:
   - ../../../raw/articles/Sachin Malhotra/Claude on call: How Claude Tag serves as Anthropic’s first responder for CI／CD failures.md
   - ../references/javaguide-grok-bot-engineering.md
@@ -54,3 +55,4 @@ Claude Tag（Anthropic 内部 CI 第一响应）是同一纪律的值班形态�
 - [Agent 自进化飞轮](./agent-self-evolution-flywheel.md)
 - [Delivery Harness](./delivery-harness.md)
 - [Engineering Bot](./engineering-bot.md)
+- [内外两层循环](./inner-outer-agent-loop.md)
