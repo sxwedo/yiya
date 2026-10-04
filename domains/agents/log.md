@@ -2,6 +2,7 @@
 
 ## 2026-10-04
 
+* **2026-10-04 ingest** | 书签 [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) → 新建 [Answer me with HTML](./entities/answer-me-with-html.md)。[可弃理解制品](./concepts/discardable-understanding-artifacts.md) / [skills.sh](./entities/skills-sh.md) / [Archify](./entities/archify.md) 只加 Related。无 Reference。
 * **2026-10-04 ingest** | Michael Guo《两个 AI Skills 王者之间的对话》→ 新建 [内外两层循环](./concepts/inner-outer-agent-loop.md)；[pstack](./entities/pstack.md) / [Loop Engineering](./concepts/loop-engineering.md) / [Playbook 反馈闭环](./concepts/playbook-feedback-loop.md) / [Coding Agent Workflow](./concepts/coding-agent-workflow.md) / [Agent Skills](./entities/agent-skills.md) 只加 Related（未进 sources）。无 Reference。
 
 ## 2026-10-03

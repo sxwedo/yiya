@@ -12,6 +12,7 @@ related:
   - loop-engineering
   - ai-design-deslop
   - named-style-tokens
+  - answer-me-with-html
 sources:
   - ../../../raw/articles/Andrej Karpathy/We'll be spending a lot more time trying to understand the outputs of language models.md
 ---
@@ -43,3 +44,4 @@ sources:
 - [Loop Engineering](./loop-engineering.md)
 - [AI Design De-slop](../../design/concepts/ai-design-deslop.md)
 - [命名风格词](./named-style-tokens.md)
+- [Answer me with HTML](../entities/answer-me-with-html.md)

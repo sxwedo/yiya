@@ -99,3 +99,4 @@
 * [Agent Orchestrator](./agent-orchestrator.md) — 本机桌面编排 coding agent 舰队：一任务一 worker、独立 worktree，看板跟 CI / PR / 评审。
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。
 * [Archify](./archify.md) — Agent Skill：代码或系统描述 → 类型化 JSON IR，再确定性编译成可交互架构图。
+* [Answer me with HTML](./answer-me-with-html.md) — Skill：模型只写内容草稿，CLI 出一页可读 HTML。比让模型手写整页少输出 token。库里只有入口。

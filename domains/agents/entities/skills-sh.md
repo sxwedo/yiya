@@ -18,6 +18,7 @@ related:
   - knowledge-skill-separation
   - i-have-adhd
   - archify
+  - answer-me-with-html
 sources:
   - ../references/skills-sh-site.md
   - ../references/mattpocock-skills-github.md
@@ -48,6 +49,7 @@ sources:
 - [Holo Card Studio](../../design/entities/holo-card-studio.md)
 - [i-have-adhd](./i-have-adhd.md)
 - [Archify](./archify.md)
+- [Answer me with HTML](./answer-me-with-html.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Loop Engineering](../concepts/loop-engineering.md)
 - [Pi](./pi.md)
