@@ -18,6 +18,7 @@ related:
   - codex
   - grok-bot
   - skills-sh
+  - knowledge-work-plugins
 sources:
   - ../references/claude-blog.md
   - ../references/claude-code-docs.md
@@ -66,3 +67,4 @@ sources:
 - [Codex](./codex.md)
 - [Grok Bot](./grok-bot.md)
 - [skills.sh](./skills-sh.md)
+- [Knowledge Work Plugins](./knowledge-work-plugins.md)

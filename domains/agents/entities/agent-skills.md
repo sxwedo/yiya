@@ -14,6 +14,7 @@ related:
   - claude
   - service-refactor-skill
   - inner-outer-agent-loop
+  - knowledge-work-plugins
 sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Claude/Introducing Agent Skills.md
@@ -59,3 +60,4 @@ sources:
 - [字幕驱动白板手绘成片](../concepts/skill-whiteboard-video.md)
 - [服务重构 Skill](../concepts/service-refactor-skill.md)
 - [内外两层循环](../concepts/inner-outer-agent-loop.md)
+- [Knowledge Work Plugins](./knowledge-work-plugins.md)

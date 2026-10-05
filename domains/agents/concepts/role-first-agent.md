@@ -13,6 +13,7 @@ related:
   - playbook-feedback-loop
   - auto-mode
   - delivery-harness
+  - knowledge-work-plugins
 sources:
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../references/jinchenma-grok-bot-guide.md
@@ -57,3 +58,4 @@ distort（2026-09-30）把这件事写成雇人：聊天机器人给答案；Bot
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [Auto Mode](./auto-mode.md)
 - [Delivery Harness](./delivery-harness.md)
+- [Knowledge Work Plugins](../entities/knowledge-work-plugins.md)

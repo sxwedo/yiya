@@ -176,3 +176,4 @@
 | FeiZhuLulu/real-api-pricing | <https://github.com/FeiZhuLulu/real-api-pricing> | FeiZhuLulu | 真实单价 = 月费 ÷ 月可用 token；对照约定不是真实负载 |
 | zhengkid/Dream-RSI | <https://github.com/zhengkid/Dream-RSI> | zhengkid | Dream-RSI：锁模型与评测，演化探索策略；发现树离线回放 |
 | QingYunA/answer-me-with-html | <https://github.com/QingYunA/answer-me-with-html> | QingYunA | Skill：模型只写内容草稿，CLI 出一页可读 HTML |
+| anthropics/knowledge-work-plugins | <https://github.com/anthropics/knowledge-work-plugins> | anthropics | 岗位插件包：Cowork / Claude Code 打包 Skills、MCP、斜杠命令 |
