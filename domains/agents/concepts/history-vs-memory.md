@@ -11,6 +11,7 @@ related:
   - online-memory-pipeline
   - production-vertical-agent
   - openviking
+  - today-ai
 sources:
   - ../references/huolala-llm-memory-online.md
   - ../references/dewu-multiagent-memory.md
@@ -44,3 +45,4 @@ sources:
 - [在线记忆流水线](./online-memory-pipeline.md)
 - [生产级垂类 Agent](./production-vertical-agent.md)
 - [OpenViking](../entities/openviking.md)
+- [Today AI](../entities/today-ai.md)

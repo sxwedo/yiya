@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-05
+
+* **2026-10-05 ingest** | 书签 https://today.ai/ → 新建 [Today AI](./entities/today-ai.md)。[四层 Agent 记忆](./concepts/four-layer-agent-memory.md) 只加 Related。无 Reference。挂 `sites.md` 工程杂项。
+
 ## 2026-10-04
 
 * **2026-10-04 ingest** | 书签 [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) → 新建 [Answer me with HTML](./entities/answer-me-with-html.md)。[可弃理解制品](./concepts/discardable-understanding-artifacts.md) / [skills.sh](./entities/skills-sh.md) / [Archify](./entities/archify.md) 只加 Related。无 Reference。

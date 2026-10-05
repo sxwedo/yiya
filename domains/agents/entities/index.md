@@ -100,3 +100,4 @@
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。
 * [Archify](./archify.md) — Agent Skill：代码或系统描述 → 类型化 JSON IR，再确定性编译成可交互架构图。
 * [Answer me with HTML](./answer-me-with-html.md) — Skill：模型只写内容草稿，CLI 出一页可读 HTML。比让模型手写整页少输出 token。库里只有入口。
+* [Today AI](./today-ai.md) — 个人 AI：活记忆、主动办事。库里只有入口。
