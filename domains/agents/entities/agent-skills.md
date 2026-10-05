@@ -15,6 +15,7 @@ related:
   - service-refactor-skill
   - inner-outer-agent-loop
   - knowledge-work-plugins
+  - how-to-live-better
 sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Claude/Introducing Agent Skills.md
@@ -61,3 +62,4 @@ sources:
 - [服务重构 Skill](../concepts/service-refactor-skill.md)
 - [内外两层循环](../concepts/inner-outer-agent-loop.md)
 - [Knowledge Work Plugins](./knowledge-work-plugins.md)
+- [高性价比人生指南](./how-to-live-better.md)
