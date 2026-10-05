@@ -5,6 +5,7 @@
 * **2026-10-05 ingest** | 书签 https://today.ai/ → 新建 [Today AI](./entities/today-ai.md)。[四层 Agent 记忆](./concepts/four-layer-agent-memory.md) 只加 Related。无 Reference。挂 `sites.md` 工程杂项。
 * **2026-10-05 ingest** | distort《How to Hire Your First AI Employee》→ 续写 [Role-first Agent](./concepts/role-first-agent.md)。[Grok Bot](./entities/grok-bot.md) 只加 Boundaries 指针（未进 sources：对象是雇岗位，不是工程 Bot 分层）。无新页。无 Reference。
 * **2026-10-05 ingest** | 书签 [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) → 新建 [Knowledge Work Plugins](./entities/knowledge-work-plugins.md)。Claude / Agent Skills / Role-first 只加 Related。无 Reference。
+* **2026-10-05 ingest** | 书签 [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) → 新建 [高性价比人生指南](./entities/how-to-live-better.md)。Agent Skills 只加 Related。无 Reference。本域 Scope 不收人生指南，因附带 skill 先挂。
 
 ## 2026-10-04
 
