@@ -102,4 +102,3 @@
 * [Answer me with HTML](./answer-me-with-html.md) — Skill：模型只写内容草稿，CLI 出一页可读 HTML。比让模型手写整页少输出 token。库里只有入口。
 * [Today AI](./today-ai.md) — 个人 AI：活记忆、主动办事。库里只有入口。
 * [Knowledge Work Plugins](./knowledge-work-plugins.md) — Anthropic 开源岗位插件包：给 Cowork / Claude Code 打包 Skills、MCP、斜杠命令。库里只有入口。
-* [高性价比人生指南](./how-to-live-better.md) — 665 条建议，写明成本、收益、证据等级和出处。附检索页和查书 skill。库里只有入口。

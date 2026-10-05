@@ -105,7 +105,6 @@ sources: []
 | [Answer me with HTML](./entities/answer-me-with-html.md) | Skill：模型写草稿，CLI 出一页可读 HTML。只有入口 |
 | [Today AI](./entities/today-ai.md) | 个人 AI：活记忆、主动办事。只有入口 |
 | [Knowledge Work Plugins](./entities/knowledge-work-plugins.md) | 岗位插件包：Cowork / Claude Code。只有入口 |
-| [高性价比人生指南](./entities/how-to-live-better.md) | 证据分级人生备选单；附查书 skill。只有入口 |
 | [pstack](./entities/pstack.md) | poteto 的 Cursor 技能包：验证 / 原型 / architect，反对抽象 Plan Mode |
 
 ### 外探源

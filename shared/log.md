@@ -1,5 +1,9 @@
 # shared — Log
 
+## 2026-10-05
+
+* **2026-10-05 promote** | [高性价比人生指南](./entities/how-to-live-better.md) 从 agents 升格。删除源页，不留 stub。
+
 ## 2026-09-25
 
 * **2026-09-25 ingest** | 书签 https://teletop.org → 新建 [TeleTop](./entities/teletop.md)。不灌目录。

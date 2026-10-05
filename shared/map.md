@@ -44,6 +44,7 @@ sources: []
 - [awesome](./entities/awesome.md)
 - [Github Ranking](./entities/github-ranking.md)
 - [arXiv](./entities/arxiv.md)
+- [高性价比人生指南](./entities/how-to-live-better.md)
 
 ## 跨域纲领
 
