@@ -41,7 +41,7 @@ sources:
 
 ## Boundaries
 
-不是再开一个写代码窗口，不是 [Grok Build](./grok-build.md) CLI，不是 [pstack](./pstack.md) 技能包。21 人探索者清单不在本页展开。
+不是再开一个写代码窗口，不是 [Grok Build](./grok-build.md) CLI，不是 [pstack](./pstack.md) 技能包。21 人探索者清单不在本页展开。第一份 Bot 怎么雇（岗位合同、试用、晋升）见 [Role-first Agent](../concepts/role-first-agent.md)，不在本页展开招聘手册。
 
 ## Related
 
