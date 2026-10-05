@@ -11,6 +11,7 @@ related:
   - evidence-gate
   - harness-runtime-layer
   - claude
+  - role-first-agent
 sources:
   - ../../../raw/articles/Claude/Auto mode for Claude Code.md
   - ../../../raw/articles/Claude/Auto mode is now the default in Claude Code for Pro, Max, and Team plans.md
@@ -44,3 +45,4 @@ sources:
 - [Evidence Gate](./evidence-gate.md)
 - [Harness 运行时层](./harness-runtime-layer.md)
 - [Claude](../entities/claude.md)
+- [Role-first Agent](./role-first-agent.md)
