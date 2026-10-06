@@ -8,3 +8,4 @@
 * [personal-site-builder](./personal-site-builder.md) — Skill：简历和链接 → 个人站；6 种风格，上线前查假数据。
 * [Open Design](./open-design.md) — DeepSeek Harness 设计插件；开源 Claude Design 替代
 * [shadcn-admin](./shadcn-admin.md) — Shadcn + Vite 后台 UI
+* [轻熟女图片生成 Skill](./beauty-image-defaults.md) — beauty-image-defaults：用户要求 > 参考人物 > 默认 30 岁亚洲女性。管人像美术检查，自己不出图。

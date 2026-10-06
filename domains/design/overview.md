@@ -26,6 +26,7 @@ sources: []
 | [Open Design](./entities/open-design.md) | DeepSeek Harness 设计插件；开源 Claude Design 替代 |
 | [personal-site-builder](./entities/personal-site-builder.md) | Skill：简历 → 个人站；6 种风格 |
 | [shadcn-admin](./entities/shadcn-admin.md) | Shadcn + Vite 后台 UI |
+| [轻熟女图片生成 Skill](./entities/beauty-image-defaults.md) | 用户要求 > 参考人物 > 默认轻熟女画像 |
 
 ## 本域概念
 

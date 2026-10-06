@@ -1,5 +1,9 @@
 # 设计 — Log
 
+## 2026-10-06
+
+* **2026-10-06 ingest** | 水族店刘老板《轻熟女图片生成 Skill》→ 新建 [轻熟女图片生成 Skill](./entities/beauty-image-defaults.md)。[人像角色设定](./concepts/portrait-character-brief.md) / [AI 生图判断](./concepts/ai-image-judgment.md) 只加 Related。无 Reference。
+
 ## 2026-10-02
 
 * **2026-10-02 ingest** | [AI Design De-slop](./concepts/ai-design-deslop.md) 加 Related → agents [可弃理解制品](../agents/concepts/discardable-understanding-artifacts.md)（HTML 作理解工具 ≠ 产品 UI 去糊）。未挂该 raw sources。

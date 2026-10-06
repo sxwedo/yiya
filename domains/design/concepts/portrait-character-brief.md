@@ -9,6 +9,7 @@ related:
   - ai-portrait-posing
   - candid-character-photography
   - ai-image-judgment
+  - beauty-image-defaults
 sources:
   - ../../../raw/articles/南鸢/想要什么气质，直接说：我的人像角色设定 Skill 公开了.md
 ---
@@ -34,3 +35,4 @@ sources:
 - [AI 人像美姿提示词](./ai-portrait-posing.md)
 - [抓拍感角色摄影](./candid-character-photography.md)
 - [AI 生图判断](./ai-image-judgment.md)
+- [轻熟女图片生成 Skill](../entities/beauty-image-defaults.md)

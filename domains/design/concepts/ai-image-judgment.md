@@ -8,6 +8,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-16T00:50:00Z }
 related:
   - portrait-character-brief
   - ai-portrait-posing
+  - beauty-image-defaults
 sources:
   - ../../../raw/articles/南鸢/已经有一套 AI 生图课了，我为什么又重写了 7 万多字？.md
 ---
@@ -30,3 +31,4 @@ Prompt 重要，但不是最重要。短词也可能碰巧好看——模型补�
 
 - [人像角色设定](./portrait-character-brief.md)
 - [AI 人像美姿提示词](./ai-portrait-posing.md)
+- [轻熟女图片生成 Skill](../entities/beauty-image-defaults.md)
