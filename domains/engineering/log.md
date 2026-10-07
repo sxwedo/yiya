@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-10-08
+
+* **2026-10-08 ingest** | [Cloudflare](./entities/cloudflare.md) 加 Related → agents [Code Mode](../agents/concepts/code-mode.md)。未挂该 raw sources（对象是 MCP 调用形态，不是 Worker 平台入门）。
+
 ## 2026-10-03
 
 * **2026-10-03 ingest** | Miles Ma《AI 开发工程师面试指南》→ 新建 [AI 开发工程师面试](./concepts/ai-dev-engineer-interview.md)；链 不可靠组件 / 评测驱动 / 训练推理优化 / Field Guide。未挂 FDE 手册 sources。无 Reference。

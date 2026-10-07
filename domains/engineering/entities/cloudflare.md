@@ -9,6 +9,7 @@ generated: { by: agent:yiya-librarian, at: 2026-09-17T12:40:00Z }
 related:
   - docker
   - tailscale
+  - code-mode
 sources:
   - ../../../raw/articles/Elia/The Ultimate Cloudflare Guide.md
   - ../../../raw/bookmarks/sites.md
@@ -39,3 +40,4 @@ Compute：V8 isolate，冷启动接近零。同 Worker 上的静态资源请求�
 
 - [Docker](./docker.md)
 - [Tailscale](./tailscale.md)
+- [Code Mode](../../agents/concepts/code-mode.md)

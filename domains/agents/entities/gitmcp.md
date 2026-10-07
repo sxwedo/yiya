@@ -10,6 +10,7 @@ related:
   - mcp
   - zread
   - code-wiki
+  - code-mode
 sources:
   - ../references/gitmcp-site.md
 ---
@@ -29,3 +30,4 @@ sources:
 - [Model Context Protocol (MCP)](./mcp.md)
 - [Zread](./zread.md)
 - [Code Wiki](./code-wiki.md)
+- [Code Mode](../concepts/code-mode.md)

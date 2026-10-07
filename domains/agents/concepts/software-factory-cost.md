@@ -12,6 +12,7 @@ related:
   - delivery-harness
   - loop-engineering
   - coding-agent-workflow
+  - code-mode
 sources:
   - ../../../raw/articles/Uber Engineering/Running a Software Factory Efficiently at Uber Scale.md
 ---
@@ -36,7 +37,7 @@ $$\text{Total Cost} = \text{Sessions} \times \frac{\text{Turns}}{\text{Session}}
 - **前两项（Sessions、Turns/Session）**：代表业务采用度与渗透率，鼓励持续增长；
 - **后三项（Requests、Tokens、Price）**：代表工程优化主战场，目标是把每一项独立压低：
   - **压低单价（Price/Token）**：基准驱动的 Pareto 选模。基于实际业务 PR 构建基准（如标定难度的真实验收集），在质量达标的前提下将子任务路由到更轻量的开源或高性价比模型。
-  - **压低请求数（Requests/Turn）**：去 MCP 上下文膨胀。改用 Code-Mode 或精简 CLI 代替多轮工具轮询，把工具参数解析从大模型上下文中剥离。
+  - **压低请求数（Requests/Turn）**：去 MCP 上下文膨胀。改用 [Code Mode](./code-mode.md) 或精简 CLI 代替多轮工具轮询，把工具参数解析从大模型上下文中剥离。
   - **压低单次 Token（Tokens/Request）**：Prompt 缓存（延长 Cache TTL）；自动会话压缩（Compaction）；利用代码语义图（AI Context Graph）提供精准上下文，杜绝无脑全局检索。
 
 与本域 [MCP](../entities/mcp.md)、[Multi-Harness Control Plane](./multi-harness-control-plane.md)、[Delivery Harness](./delivery-harness.md)、[Loop Engineering](./loop-engineering.md) 互补：本页专精于「规模化软件工厂的度量与经济学工程」。
@@ -54,3 +55,4 @@ $$\text{Total Cost} = \text{Sessions} \times \frac{\text{Turns}}{\text{Session}}
 - [Delivery Harness](./delivery-harness.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Coding Agent Workflow](./coding-agent-workflow.md)
+- [Code Mode](./code-mode.md)

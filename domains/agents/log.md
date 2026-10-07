@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-08
+
+* **2026-10-08 ingest** | Cloudflare《Code Mode》→ 新建 [Code Mode](./concepts/code-mode.md)；[MCP](./entities/mcp.md) / [Software Factory Cost Equation](./concepts/software-factory-cost.md) 只加 Related（未进 sources：对象是调用形态，不是协议或成本等式）。链 Cloudflare / GitMCP。无 Reference。
+
 ## 2026-10-05
 
 * **2026-10-05 ingest** | 书签 https://today.ai/ → 新建 [Today AI](./entities/today-ai.md)。[四层 Agent 记忆](./concepts/four-layer-agent-memory.md) 只加 Related。无 Reference。挂 `sites.md` 工程杂项。

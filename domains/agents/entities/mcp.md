@@ -21,6 +21,7 @@ related:
   - pi
   - oh-my-pi
   - coding-agent-workflow
+  - code-mode
 sources:
   - ../references/mcp-site.md
   - ../references/punkpeye-awesome-mcp-servers-github.md
@@ -45,7 +46,7 @@ sources:
 
 生产接入：远程 MCP（OAuth）让 Claude Code 连上已托管的工具；Managed Agents 的 MCP tunnel 用单一出站连接达到私网 server，不暴露公网端点。企业侧可将 MCP 授权收进 IdP（Enterprise-Managed Authorization 扩展）：管理员配一次，用户按组继承，吊销跟身份走。
 
-与 Skills 分工：MCP 负责连上外部系统，Skills 负责怎么用这些连接（查哪、按什么顺序、何谓完成）。工具调用前的规则拦截与审计是 Hook 层：prompt 约束是软的，安全边界靠工程闸门。连接器目录与消费级插件公告不在本页堆。
+与 Skills 分工：MCP 负责连上外部系统，Skills 负责怎么用这些连接（查哪、按什么顺序、何谓完成）。工具调用前的规则拦截与审计是 Hook 层：prompt 约束是软的，安全边界靠工程闸门。连接器目录与消费级插件公告不在本页堆。工具直喂会把 schema 和中间结果灌进模型；[Code Mode](../concepts/code-mode.md) 把 MCP 转成 TypeScript，让模型写代码只读回终结果。
 
 ## Boundaries
 
@@ -67,4 +68,5 @@ sources:
 - [Pi](./pi.md)
 - [oh-my-pi](./oh-my-pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
+- [Code Mode](../concepts/code-mode.md)
 - [Agent Skills](./agent-skills.md)
