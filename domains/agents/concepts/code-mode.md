@@ -43,7 +43,7 @@ MCP 仍然有用，但用的是另一面：统一的连通、授权、文档，c
 
 ## Boundaries
 
-不是 MCP 协议本身，不是 [Cloudflare](../../engineering/entities/cloudflare.md) 账单/Worker 入门。不是「用 CLI 换掉 MCP」。Worker Loader / isolate 是他们的沙箱实现，模式不绑死必须跑在 Workers 上。生产 beta 条款以原文为准。
+不是 MCP 协议本身，不是 [Cloudflare](../../engineering/entities/cloudflare.md) 账单/Worker 入门，不是再开一张「Cloudflare MCP」产品百科。不是「用 CLI 换掉 MCP」，也不是动态搜工具。Worker Loader / isolate 是他们的沙箱实现，模式不绑死必须跑在 Workers 上。
 
 ## Related
 

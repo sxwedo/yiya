@@ -2,6 +2,7 @@
 
 ## 2026-10-08
 
+* **2026-10-08 ingest** | Cloudflare《Code Mode: 1000 tokens》→ 续写 [Code Mode](./concepts/code-mode.md)（服务端 search/execute；整份 API 固定约 1k token）。MCP / Cloudflare 不进 sources。无新页。无 Reference。
 * **2026-10-08 ingest** | Cloudflare《Code Mode》→ 新建 [Code Mode](./concepts/code-mode.md)；[MCP](./entities/mcp.md) / [Software Factory Cost Equation](./concepts/software-factory-cost.md) 只加 Related（未进 sources：对象是调用形态，不是协议或成本等式）。链 Cloudflare / GitMCP。无 Reference。
 
 ## 2026-10-05
