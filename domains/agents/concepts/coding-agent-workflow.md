@@ -30,6 +30,7 @@ related:
   - service-refactor-skill
   - inner-outer-agent-loop
   - requirement-as-delivery
+  - agent-wont-design
 sources:
   - ../references/ng-coding-agents-skills.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
@@ -106,4 +107,5 @@ Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已�
 - [用代码做计划](./plan-with-code.md)
 - [内外两层循环](./inner-outer-agent-loop.md)
 - [需求即交付](./requirement-as-delivery.md)
+- [编码 agent 不会设计](./agent-wont-design.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)

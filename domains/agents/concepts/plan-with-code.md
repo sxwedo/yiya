@@ -11,6 +11,7 @@ related:
   - coding-agent-workflow
   - plan-mode-multiagent
   - discardable-understanding-artifacts
+  - agent-wont-design
 sources:
   - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 2.md
 ---
@@ -44,3 +45,4 @@ sources:
 - [Coding Agent Workflow](./coding-agent-workflow.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [可弃理解制品](./discardable-understanding-artifacts.md)
+- [编码 agent 不会设计](./agent-wont-design.md)

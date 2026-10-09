@@ -21,6 +21,7 @@ related:
   - minimal-agent-harness
   - harness-runtime-layer
   - pi-durable
+  - agent-wont-design
 sources:
   - ../references/pi-dev-site.md
   - ../references/earendil-pi-github.md
@@ -69,3 +70,4 @@ sources:
 - [Jev](./jev.md)
 - [Harness 运行时层](../concepts/harness-runtime-layer.md)
 - [Pi Durable](./pi-durable.md)
+- [编码 agent 不会设计](../concepts/agent-wont-design.md)

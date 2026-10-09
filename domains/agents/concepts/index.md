@@ -42,5 +42,6 @@
 * [Graph Engineering](./graph-engineering.md) — 节点是有合同的单任务，边只在真传递产出时存在。删假边、菱形并行、checker 拦坏输入；静态图优先于动态图。
 * [Plan 模式与主子 Agent](./plan-mode-multiagent.md) — 企业级 MultiAgent：把「要做什么」做成可持久化运行对象；主 Agent 规划汇总，子 Agent 专责；A2A 跨服务时 contextId 必须绑租户。
 * [用代码做计划](./plan-with-code.md) — 监督比你聪明的执行器：先让它用自己的话复述问题，用 /how /why /teach 和并行原型收集证据，满意后再拆必须跑过代码的小 PR。
+* [编码 agent 不会设计](./agent-wont-design.md) — 有预言机（测试、fuzz、做成/没做成）它们总能磨完。架构是过程，不在训练数据里；agent 修 bug 几乎只会加代码。
 * [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) — 把 LLM 裁判从离线评测搬进 agent 运行时：拆分判据、成对比较、审过程而非只审终答、多裁判分歧升级，并用确定性检查包住裁判。
 * [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) — 用知识图状态动态选工作与路由：固定 schema/gate，查询式 launch，按节点状态分流，永久记录纠错，并由人审元循环提议改规则。

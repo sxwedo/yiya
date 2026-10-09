@@ -12,6 +12,7 @@ related:
   - minimal-agent-harness
   - harness-runtime-layer
   - herdr
+  - agent-wont-design
 sources:
   - ../../../raw/articles/Earendil/Pi Durable.md
 ---
@@ -46,3 +47,4 @@ sources:
 - [Minimal Agent Harness](../concepts/minimal-agent-harness.md)
 - [Harness 运行时层](../concepts/harness-runtime-layer.md)
 - [Herdr](./herdr.md)
+- [编码 agent 不会设计](../concepts/agent-wont-design.md)

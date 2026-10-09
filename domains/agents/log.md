@@ -2,6 +2,7 @@
 
 ## 2026-10-09
 
+* **2026-10-09 ingest** | yibie 译 0xSero《编码 agent 为什么不会设计软件》→ 新建 [编码 agent 不会设计](./concepts/agent-wont-design.md)。Pi / Durable 只加 Related（未进 sources：对象是设计 vs 预言机，不是产品）。无 Reference。
 * **2026-10-09 ingest** | 腾讯技术工程《别只盯着AI Coding…》→ 新建 [需求即交付](./concepts/requirement-as-delivery.md)。[Coding Agent Workflow](./concepts/coding-agent-workflow.md) 只加 Related（sources 已厚，对象是重建流程不是驾驭 coding agent）。链 组织摩擦 / 自进化飞轮。>1MB 头图未落盘。无 Reference。
 
 ## 2026-10-08
