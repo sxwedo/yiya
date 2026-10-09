@@ -12,6 +12,7 @@ related:
   - playbook-feedback-loop
   - agentloop
   - dream-rsi
+  - requirement-as-delivery
 sources:
   - ../references/agent-self-evolution-flywheel.md
   - ../../../raw/articles/腾讯技术工程/Agent开始“自我进化”：会出题、会反思，还会自己长出新技能.md
@@ -50,3 +51,4 @@ AgentLoop 把同一飞轮落成产品：Trace → 清洗组装 Trajectory → �
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
 - [AgentLoop](../entities/agentloop.md)
 - [Dream-RSI](../entities/dream-rsi.md)
+- [需求即交付](./requirement-as-delivery.md)

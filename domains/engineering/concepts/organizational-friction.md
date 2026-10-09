@@ -10,6 +10,7 @@ related:
   - coding-agent-workflow
   - openspec
   - software-factory-cost
+  - requirement-as-delivery
 sources:
   - ../references/ai-coding-pm-paradigm.md
   - ../../../raw/articles/货拉拉技术/个人提效，攒不成组织提效：货拉拉 AI Coding 落地实践.md
@@ -37,3 +38,4 @@ sources:
 - [Coding Agent Workflow](../../agents/concepts/coding-agent-workflow.md)
 - [OpenSpec](../../agents/entities/openspec.md)
 - [Software Factory Cost Equation](../../agents/concepts/software-factory-cost.md)
+- [需求即交付](../../agents/concepts/requirement-as-delivery.md)

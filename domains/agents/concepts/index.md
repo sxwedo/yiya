@@ -8,6 +8,7 @@
 * [Auto Mode](./auto-mode.md) — 分类器替人批工具调用：安全的自动放行，破坏性/外泄/越权拦截或回退人工。比逐条 Approve 少打断，比跳过全部权限更有边界；文件系统与网络隔离要一起上。
 * [异步记忆沉淀](./async-memory-precipitation.md) — 请求路径并行加载短期历史与长期记忆；会话结束后异步筛选、去重并写入长期层，沉淀失败不阻断本轮。
 * [Coding Agent Workflow](./coding-agent-workflow.md) — 用 coding agents 构建软件的高层工作流：规划→执行→部署监控，配合引导、自主度、验收、环境定制与 harness 基础。
+* [需求即交付](./requirement-as-delivery.md) — 别在旧 SDLC 里插 AI。人当翻译官是因为上下文没流通。OK 平台九阶段：需求质量第一道门，Spec 替代口头传递。
 * [复合检索 Agent](./compound-retrieval-agent.md) — Agent 自主决定多源并行检索、评估补搜与精读，再按来源权威性交织生成回答；不是单次向量召回。
 * [Delivery Harness](./delivery-harness.md) — 模型外的交付控制系统：合同锁事实、边界限半径、证据控跃迁、修复写回默认规则。上限不是生成速度，是质量秩序。
 * [Engineering Bot](./engineering-bot.md) — 长期守一个领域、带岗位记忆与工具权限的带队角色：接任务、创建并跟进 Cloud Agent；人只处理产品取舍、权限和大影响面。

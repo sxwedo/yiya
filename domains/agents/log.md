@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-09
+
+* **2026-10-09 ingest** | 腾讯技术工程《别只盯着AI Coding…》→ 新建 [需求即交付](./concepts/requirement-as-delivery.md)。[Coding Agent Workflow](./concepts/coding-agent-workflow.md) 只加 Related（sources 已厚，对象是重建流程不是驾驭 coding agent）。链 组织摩擦 / 自进化飞轮。>1MB 头图未落盘。无 Reference。
+
 ## 2026-10-08
 
 * **2026-10-08 ingest** | Cloudflare《Code Mode: 1000 tokens》→ 续写 [Code Mode](./concepts/code-mode.md)（服务端 search/execute；整份 API 固定约 1k token）。MCP / Cloudflare 不进 sources。无新页。无 Reference。

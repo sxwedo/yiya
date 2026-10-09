@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-10-09
+
+* **2026-10-09 ingest** | [组织摩擦](./concepts/organizational-friction.md) 加 Related → agents [需求即交付](../agents/concepts/requirement-as-delivery.md)。未挂该 raw sources。
+
 ## 2026-10-08
 
 * **2026-10-08 ingest** | [Cloudflare](./entities/cloudflare.md) 加 Related → agents [Code Mode](../agents/concepts/code-mode.md)。未挂该 raw sources（对象是 MCP 调用形态，不是 Worker 平台入门）。
