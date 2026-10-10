@@ -21,6 +21,7 @@ sources:
   - ../../../raw/articles/AI数据奇点/Data Agent二篇：查数Agent 你们的是否可信？.md
   - ../../../raw/articles/智透圈/OpenAI 如何构建内部数据智能体（Data Agent）.md
   - ../../../raw/articles/得物技术/指标平台：从语义底座到智能消费的实践路径｜得物技术.md
+  - ../../../raw/articles/大淘宝技术/AI时代的数据研发-Semantic（语义层）实践总结.md
 ---
 
 # Definition
@@ -32,6 +33,8 @@ sources:
 AI/BI 消费时优先**选口径**，再由引擎翻 SQL，见 [Text2Semantic2SQL](./text2semantic2sql.md)。国内主流是指标语义层（度量 / 维度 / 口径 / 权限前置）；国际还有操作型本体，把数据、逻辑、动作收进同一层，见 [业务 Ontology](./business-ontology.md) 与 [Semantic Service](./semantic-service.md)。
 
 数仓 [ODS–ADS](./warehouse-layering.md) 仍是地基。Agent 成为使用者后，ADS 不是唯一终点：语义层解释「收入」指哪一口径，再交给受控查询，而不是让模型直连库。标准化在向中立语义互换收敛（如 Apache Ossie），把含义做成可移植资产。OpenAI 内部 Data Agent 的判断是 vanilla agent、rich foundation：难的是找对表与语义，不是写 SQL。
+
+大淘宝实践（2026-08）：面向 SQL 的开发改成面向 AI Semantic。人不再是把需求译成 SQL 的唯一载体。Agent 成为主要消费者后，ODS→ADS 对业务透明，变成性能实现细节；消费双轨——Agent 走语义层，人仍走 BI/报表。Agent 也维护语义资产。知识从散落 SQL/文档/口口相传，迁进可复用语义模型。角色从 SQL Developer 变成 Semantic Architect：定义口径、设计给 AI 消费的模型、治一致性。非标数仓用 CTE 适配：一段 SELECT 把临时表/外部源/窗口逻辑投影成语义契约，脏留在 statement 里，下游只看规范字段；同一口径一处改、多 metric 跟新。逻辑表插在物理表与指标/维度之间，换表改名只动 LT-PT 绑定。CTE 是权宜，标准化物理仓仍是天花板。
 
 得物指标平台（沈卢）：下一站不是再叠本体理论，而是让 AI 拿得到对的数。业务侧用「沉淀—观察—转正」收隐性指标，密度看高频使用而不是全量收录。数仓侧把散射依赖收敛到域可控宽表（先摸命名分层、血缘核查再重构、按依赖分批、跨域只 JOIN 不复制字段）。产品侧把上架做成表单+校验+一键发布；同一指标可挂离线/实时多种物理实现。质量：提报时做同名口径冲突预警；覆盖率分母锁在已认证精品资产；上线强制分布/空值/主键三件套。消费考卷两条线共用这一底座——Text2SQL 的事实层是指标字典（文称系统测评从 85%+ 随标注密度到 95%+，错误集中在「字段该怎么被查询」的元数据，不在模型）；AI Coding 的一次通过率也取决于能否查到已有指标与宽表字段。下一步是消费热度反哺治理，而不是先上因果推理。人设从写 SQL 转向「业务语言和机器语言的翻译者」。
 

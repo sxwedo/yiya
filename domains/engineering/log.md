@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-10-10
+
+* **2026-10-10 ingest** | 大淘宝技术《AI时代的数据研发-Semantic》→ 续写 [语义层](./concepts/semantic-layer.md)（双轨消费、CTE 适配非标仓、逻辑表解耦）。无新页。无 Reference。
+
 ## 2026-10-09
 
 * **2026-10-09 ingest** | [组织摩擦](./concepts/organizational-friction.md) 加 Related → agents [需求即交付](../agents/concepts/requirement-as-delivery.md)。未挂该 raw sources。
