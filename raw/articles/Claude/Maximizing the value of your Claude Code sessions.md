@@ -27,7 +27,7 @@ With agentic coding tools like Claude Code, it does. The same completed task can
 
 In one session, Claude reads the test and the file it covers, makes the edit, and is done in a handful of turns. In another, it greps around the repo first, reads a dozen files on its way to the same two, and every one of those turns also drags along everything else that's been read into the conversation since this morning.
 
-![](../_media/claude-maximizing-the-value-of-your-claude-code-sessions/Lydia_Hallie_maximizing-the-value-of-your-claude-code-sessions_1.png)
+![](https://assets.claude.com/04fc2be5cd21d240a6d7385cd32f7ada61647569.png)
 
 It's the same fix, but you spent a different number of tokens on it, and the whole time the model was also having to think about ten files it didn't need.
 
@@ -47,6 +47,6 @@ A bigger model does more work on both input and output tokens. Which model is wo
 
 For this post, all you need to know is that everything else we're about to cover gets multiplied by the model's price: use a larger model when the problem is genuinely hard or ambiguous, and a smaller one when the work is routine.
 
-![Curves are for illustration purposes only. They do not represent real benchmark data.](../_media/claude-maximizing-the-value-of-your-claude-code-sessions/Lydia_Hallie_maximizing-the-value-of-your-claude-code-sessions_2.png)
+![Curves are for illustration purposes only. They do not represent real benchmark data.](https://assets.claude.com/8d797ceaccc31c837896df732a428a353d1a34da.png)
 
 *Curves are for illustration purposes only. They do not represent real benchmark data.*

@@ -63,7 +63,7 @@ The identity belongs to the channel, so anyone in it can tag Claude by default, 
 
 ### Broad default access to tools and context ###
 
-![How teams scope Claude's tool access in Claude Tag: broad, low-risk integrations run in shared channels under an agent identity, while personal or team-specific tools stay in DMs and run as the user.](../_media/claude-agent-identity-in-claude-tag-a-new-access-model-for-autonomo/Claude_agent-identity-access-model_1.jpg)
+![How teams scope Claude's tool access in Claude Tag: broad, low-risk integrations run in shared channels under an agent identity, while personal or team-specific tools stay in DMs and run as the user.](https://assets.claude.com/2adfe320dd75c4dbbb938a221fb583b2a9f9ac2a.jpg)
 
 *How teams scope Claude's tool access in Claude Tag: broad, low-risk integrations run in shared channels under an agent identity, while personal or team-specific tools stay in DMs and run as the user.*
 

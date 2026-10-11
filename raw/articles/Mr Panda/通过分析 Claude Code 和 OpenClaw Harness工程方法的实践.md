@@ -51,7 +51,7 @@ Claude Code 是程序员的编程助手，活在终端里，追求精确和可�
 
 > Agent = Model + Harness
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_16.jpg)
+![Image](https://pbs.twimg.com/media/HG0IvZibEAAJT0P.jpg)
 
 Claude Code 和 OpenClaw 用的都是别人家的模型——前者用 Claude 系列，后者可以接入 Claude、GPT、Gemini 等多家 API。模型层面它们没有任何自研能力。
 
@@ -65,7 +65,7 @@ Claude Code 的架构：分层堆叠
 
 Claude Code 是一个十层堆叠的体系：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_2.jpg)
+![Image](https://pbs.twimg.com/media/HG0IyhubAAA3agW.jpg)
 
 每一层都是可替换的。你可以换模型、换权限模式、加新 Skill、接新 MCP 服务器——而不需要改动其他层。整个体系围绕一个核心场景设计：一个程序员坐在终端前，和 AI 协作完成编程任务。
 
@@ -73,7 +73,7 @@ OpenClaw 的架构：四层管道
 
 OpenClaw 是一个四层管道式架构：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_5.jpg)
+![Image](https://pbs.twimg.com/media/HG0I4WyaAAAANV1.jpg)
 
 整个体系围绕一个完全不同的核心场景设计：多个用户通过多个聊天平台，和一个 24/7 在线的 AI 助手交互。
 
@@ -83,7 +83,7 @@ OpenClaw 是一个四层管道式架构：
 
 智能体的核心是一个循环——接收输入、决策、执行、观察结果、再决策。但两个框架的循环形态完全不同。
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_6.jpg)
+![Image](https://pbs.twimg.com/media/HG0I9zFbwAA9b3F.jpg)
 
 Claude Code：深度聚焦的 ReAct 循环
 
@@ -107,7 +107,7 @@ Claude Code：30+ 精细化内置工具
 
 Claude Code 的工具围绕编程工作流设计，分为五个类别：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_14.jpg)
+![Image](https://pbs.twimg.com/media/HG0JGeGaEAApj20.jpg)
 
 设计原则是最小化但完备。Read 只读文件，不读目录（目录用 ls）。Edit 只做字符串替换，不做整文件重写（重写用 Write）。这种拆分让权限控制变得精确——你可以允许 Claude 读任何文件但禁止修改特定目录。
 
@@ -117,7 +117,7 @@ OpenClaw：面向生活场景的 Skill 生态
 
 OpenClaw 的能力不叫"工具"，叫"技能"（Skills），围绕日常生活和工作场景设计：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_15.jpg)
+![Image](https://pbs.twimg.com/media/HG0JLdya0AAxb11.jpg)
 
 Claude Code 的工具是给程序员用的——普通用户不知道什么是 Grep 或 LSP。OpenClaw 的技能是给所有人用的——"帮我查一下机票价格"、"把这封邮件转发给张总"。
 
@@ -131,7 +131,7 @@ Claude Code：空间导向的四级层级
 
 Claude Code 的指令按文件路径和目录层级组织：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_10.jpg)
+![Image](https://pbs.twimg.com/media/HG0JQqoakAAmrB8.jpg)
 
 所有层级拼接生效（而非覆盖）。子目录级别采用懒加载——只有访问该目录的文件时才加载。.claude/rules/ 目录可以用 YAML frontmatter 设置路径匹配规则，让特定的编码约定只在访问特定文件时才注入上下文。
 
@@ -141,7 +141,7 @@ OpenClaw：身份导向的 Agent 配置
 
 OpenClaw 的指令按Agent 角色和通道组织：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_7.jpg)
+![Image](https://pbs.twimg.com/media/HG0JZEkaoAAw1dd.jpg)
 
 一个 OpenClaw 实例可以运行多个 Agent，每个 Agent 有自己的 System Prompt 和 Skill 集合。这更像一个公司有多个员工，每个员工有自己的岗位职责和性格特质。
 
@@ -177,7 +177,7 @@ OpenClaw 面对的不是"一条对话太长"的问题，而是"太多条对话�
 
 它的上下文管理核心是会话隔离：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_3.jpg)
+![Image](https://pbs.twimg.com/media/HG0JeVDagAAFJ6M.jpg)
 
 sandbox.scope 决定了隔离粒度。设为 agent 时，同一个 Agent 的所有对话共享上下文——用户 A 的对话信息可能影响对用户 B 的回复。设为 session 时，严格按会话隔离——更安全，但 Agent 无法跨会话关联信息。
 
@@ -189,13 +189,13 @@ session.dmScope 决定了跨通道行为。设为 main 时，用户在 Telegram 
 
 这是两个框架差异最显著的部分。
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_12.jpg)
+![Image](https://pbs.twimg.com/media/HG0Jh99bAAAHta7.jpg)
 
 Claude Code：结构化记忆 + 人工可编辑
 
 Claude Code 的 Auto Memory 保存在 \~/.claude/projects/&lt;project&gt;/memory/ 目录下，由四种明确类型组成：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_1.jpg)
+![Image](https://pbs.twimg.com/media/HG0JuUuacAAxfOB.jpg)
 
 每条记忆是独立的 Markdown 文件，带 YAML frontmatter 标注名称、描述和类型：
 
@@ -292,7 +292,7 @@ Claude Code 的记忆是离散条目——"用户偏好反问句"、"用户喜�
 
 核心对比
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_11.jpg)
+![Image](https://pbs.twimg.com/media/HG0KKOrbUAAWWxm.jpg)
 
 ## 维度七：安全与权限
 
@@ -304,7 +304,7 @@ Claude Code 的权限系统围绕工具调用设计：
 
 权限模式（Shift+Tab 切换）：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_13.jpg)
+![Image](https://pbs.twimg.com/media/HG0KPkRaUAAypge.jpg)
 
 规则系统按 deny → ask → allow 的优先级匹配。你可以允许 Bash(npm \*) 但禁止 Bash(rm \*)。组织级别的 deny 规则不可覆盖。
 
@@ -316,7 +316,7 @@ OpenClaw：通道级权限 + 身份校验
 
 OpenClaw 的权限围绕消息通道和用户身份设计：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_9.jpg)
+![Image](https://pbs.twimg.com/media/HG0KU6Ga8AAsIvE.jpg)
 
 OpenClaw 面对的安全挑战和 Claude Code 完全不同。Claude Code 的风险是"Agent 执行了危险命令"（rm -rf /）。OpenClaw 的风险是"未授权用户控制了 Agent"——因为它是网络服务，任何能发消息的人理论上都可能尝试给 Agent 下指令。
 
@@ -354,7 +354,7 @@ Claude Code：本地 JSONL + 分叉恢复
 
 每次对话保存为本地 JSONL 文件，支持：
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_4.jpg)
+![Image](https://pbs.twimg.com/media/HG0KfzDa8AA2pbF.jpg)
 
 分叉是一个精妙的设计：在同一个问题上尝试两种方案——分叉出一个试方案 A，原会话试方案 B——然后比较结果。
 
@@ -364,7 +364,7 @@ OpenClaw：持久在线 + 跨通道连续性
 
 OpenClaw 没有"关掉"的概念——它是一个 24/7 运行的服务。
 
-![Image](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_8.jpg)
+![Image](https://pbs.twimg.com/media/HG0Kk2JaIAEYPh2.jpg)
 
 跨通道连续性是 Claude Code 做不到的事。你在 Telegram 上说"帮我关注 A 股票"，过两天在 Slack 上问"那个股票怎么样了？"——如果 DM Scope 设为 main，Agent 知道你在说同一件事。
 
@@ -398,7 +398,7 @@ Agentic Loop、工具架构、上下文管理、权限沙箱、记忆系统、�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2048306100882305358/PandaTalk8_2048306100882305358_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HG0LeN6bMAA54S4.jpg)
 
 ## 💬 Replies
 

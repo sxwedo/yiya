@@ -32,7 +32,7 @@ With memory, Claude focuses on learning your professional context and work patte
 
 If you use projects, **Claude creates a separate memory for each project**. This ensures that your product launch planning stays separate from client work, and confidential discussions remain separate from general operations. These project boundaries help you and your teams manage complex, concurrent initiatives without mixing unrelated details, serving as a safety guardrail that keeps sensitive conversations contained.
 
-![Two side-by-side Claude chat interface screenshots showing project-specific conversations](../_media/claude-bringing-memory-to-claude/Claude_memory_1.png)
+![Two side-by-side Claude chat interface screenshots showing project-specific conversations](https://assets.claude.com/9b08978e707181fe1fd89952fc39198cafabe306.png)
 
 Claude uses a memory summary to capture all its memories in one place for you to view and edit. In your settings, you can see exactly what Claude remembers from your conversations, and update the summary at any time by chatting with Claude. Based on what you tell Claude to focus on or to ignore, Claude will adjust the memories it references.
 
@@ -40,7 +40,7 @@ Claude uses a memory summary to capture all its memories in one place for you to
 
 Sometimes you need Claude’s help without using or adding to memory. Incognito chat gives you a clean slate for conversations that you don’t want to preserve in memory. It is perfect for sensitive brainstorming, confidential strategy discussions, or when you simply want a fresh conversation without context from previous chats. Your regular memory and conversation history remain untouched. If you’re using memory on a Team or Enterprise plan, your standard data retention settings apply.
 
-![A Claude chat interface in Incognito mode, indicated by a ghost icon and](../_media/claude-bringing-memory-to-claude/Claude_memory_2.png)
+![A Claude chat interface in Incognito mode, indicated by a ghost icon and](https://assets.claude.com/6b32914222225ea9a486840d892105052f03a78b.png)
 
 ### Starting with teams at work ###
 

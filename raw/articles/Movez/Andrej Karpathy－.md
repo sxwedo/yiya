@@ -23,7 +23,7 @@ Watch it today, then read the article below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063989380583137587/0xMovez_2063989380583137587_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2063988785046560769/img/Yg2AJ1fWRnh4fYGw.jpg)
 
 ## 💬 Replies
 

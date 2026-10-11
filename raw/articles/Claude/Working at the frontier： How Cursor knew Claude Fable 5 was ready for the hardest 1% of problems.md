@@ -22,7 +22,7 @@ CursorBench was built to capture the messy, underspecified ways engineers actual
 
 When Claude Fable 5 ran the eval, the model achieved 72.9% at Max effort, setting a new high, and capturing what agentic coding tools were capable of when paired with the right models.
 
-![Claude Fable 5 achieved achieved 72.9% at Max effort, setting a new high.](../_media/claude-working-at-the-frontier-how-cursor-knew-claude-fable-5-was-r/Claude_working-at-the-frontier-cursor_1.png)
+![Claude Fable 5 achieved achieved 72.9% at Max effort, setting a new high.](https://assets.claude.com/8b8cb7801781a34490492fc4c41ccc385ab53db6.png)
 
 *Claude Fable 5 achieved achieved 72.9% at Max effort, setting a new high.*
 
@@ -52,7 +52,7 @@ He re-ran the experiment with the same blank-slate prompt, this time using Claud
 
 "With Opus, it was doing local reasoning—thinking about what just happened and what's immediately about to happen," Schmidt says. "With Fable it's global reasoning. It's thinking about the entire mission."
 
-![Cursor runs all models through CursorBench, their internal benchmark for evaluating models on tasks that simulate real developer work.](../_media/claude-working-at-the-frontier-how-cursor-knew-claude-fable-5-was-r/Claude_working-at-the-frontier-cursor_2.jpg)
+![Cursor runs all models through CursorBench, their internal benchmark for evaluating models on tasks that simulate real developer work.](https://assets.claude.com/cdc5e194c3277938170585d55d18afe7d22478d0.jpg)
 
 *Cursor runs all models through CursorBench, their internal benchmark for evaluating models on tasks that simulate real developer work.*
 
@@ -70,7 +70,7 @@ To balance cost and performance, his team pairs Claude Fable 5 with faster, ligh
 
 “If I'm getting into a really gnarly problem–the p99 of problems–the thing I'm trying to optimize for is time to solution,” he says. “And I think Fable is the best model for solving our hardest problems.”
 
-![Nate Schmidt tests new models across various evaluations, including putting it through the paces in a space-flight simulator.](../_media/claude-working-at-the-frontier-how-cursor-knew-claude-fable-5-was-r/Claude_working-at-the-frontier-cursor_3.jpg)
+![Nate Schmidt tests new models across various evaluations, including putting it through the paces in a space-flight simulator.](https://assets.claude.com/a08b3837ddcf70004bcf1de06e30450112d4d5eb.jpg)
 
 *Nate Schmidt tests new models across various evaluations, including putting it through the paces in a space-flight simulator.*
 

@@ -134,7 +134,7 @@ Create a code-reviewer subagent with access to Read, Grep, and Glob tools but no
 
 ### **What is MCP?** ###
 
-![MCP creates a universal connection layer between AI applications and your existing tools and data sources.](../_media/claude-skills-explained-how-skills-compares-to-prompts-projects-mcp/Claude_skills-explained_1.png)
+![MCP creates a universal connection layer between AI applications and your existing tools and data sources.](https://assets.claude.com/5f0d9bc4e73f5309bbcc198dab9aed8fd12dc155.png)
 
 *MCP creates a universal connection layer between AI applications and your existing tools and data sources.*
 

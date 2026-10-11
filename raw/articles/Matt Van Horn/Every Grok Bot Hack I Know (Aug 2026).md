@@ -96,7 +96,7 @@ So I wired up [Twilio](https://twilio.com). It opens in English, and if whoever 
 
 The humans are another matter. Here is my first real call, a table for ten plus a high chair at a farm restaurant in the Algarve:
 
-![Image](../_media/x-2092629365045559547/mvanhorn_2092629365045559547_1.jpg)
+![Image](https://pbs.twimg.com/media/HQpjClQWsAAe3AL.jpg)
 
 Pedro picked up, they switched to Portuguese, and he hung up at fourteen seconds. Called back, hung up again. Third try with the full ask in the first sentence, hung up in nine seconds. Then my bot stopped on its own: "Stopped after three tries so we don't look like spam."
 
@@ -597,7 +597,7 @@ Copy this whole article, paste it into your bot, and tell it to set up everythin
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2092629365045559547/mvanhorn_2092629365045559547_3.png)
+![Image 1](https://pbs.twimg.com/media/HQpjG3zXsAA8F8M.png)
 
 ## 💬 Replies
 

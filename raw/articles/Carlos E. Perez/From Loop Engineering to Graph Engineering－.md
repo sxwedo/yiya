@@ -15,7 +15,7 @@ type: "Article"
 
 Peter Steinberger just posted nine words that gathered thousands of likes: 
 
-![Image](../_media/x-2078419526354378975/IntuitMachine_2078419526354378975_1.jpg)
+![Image](https://pbs.twimg.com/media/HNhanSnXoAAzDR9.jpg)
 
 https://x.com/steipete/status/2078277297791189132
 
@@ -77,7 +77,7 @@ QPT on loops: https://www.youtube.com/watch?v=53Y3SYR5vTU&list=PLoOMKjCBaDuX8vYG
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2078419526354378975/IntuitMachine_2078419526354378975_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HNhahsJX0AAsPes.jpg)
 
 ## 💬 Replies
 

@@ -26,7 +26,7 @@ Previously a lightweight classifier decided when Claude should act. It looked at
 
 For example, here are two engineers chasing the same bug from opposite ends. Neither has a free hour to run it down, and neither message asks for anything.
 
-![Priya has a theory. Devon has the evidence. Neither message is for Claude, and neither asks for anything.](../_media/claude-claude-tag-now-reads-even-more-of-the-room/Claude_claude-tag-now-reads-even-more-of-the-room_1.png)
+![Priya has a theory. Devon has the evidence. Neither message is for Claude, and neither asks for anything.](https://assets.claude.com/accdcc7ea246bffe057f3186ee58ee7c906872fb.png)
 
 *Priya has a theory. Devon has the evidence. Neither message is for Claude, and neither asks for anything.*
 
@@ -41,13 +41,13 @@ With the classifier removed, Claude uses context across the channel to make one 
 
 Here's the same conversation with Claude Tag using additional context. Claude picks the second move, even without being @-mentioned. It sees Priya's hypothesis and Devon's evidence, opens a thread with the investigation already running, and pulls both engineers in. It acts within the boundaries of the permissions, tools, and scope you have configured.
 
-![](../_media/claude-claude-tag-now-reads-even-more-of-the-room/Claude_claude-tag-now-reads-even-more-of-the-room_2.png)
+![](https://assets.claude.com/1be7311c2a5a8aa622ef0bd9979c41b4c80dd743.png)
 
 Same thread, two minutes later. Claude reads the two messages together and starts the work. No @-mention.
 
 The conversations aren't walled off from each other. So when Devon posts an update, it lands in the right workstream. When two investigations turn out to be the same bug, that connection gets made.
 
-![](../_media/claude-claude-tag-now-reads-even-more-of-the-room/Claude_claude-tag-now-reads-even-more-of-the-room_3.png)
+![](https://assets.claude.com/7c5006eaeb8866edbc525ceffd925a2b9b60d9de.png)
 
 Claude now looks at all messages to understand the full context of the channel, to more accurately determine if it should participate in a conversation unprompted.
 

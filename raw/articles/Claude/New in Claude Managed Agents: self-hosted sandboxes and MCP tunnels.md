@@ -24,7 +24,7 @@ With self-hosted sandboxes, you keep sensitive files, packages, and services in 
 
 Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don't leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs.
 
-![](../_media/claude-claude-managed-agents-updates/Claude_claude-managed-agents-updates_1.png)
+![](https://assets.claude.com/42f264f794fcb8b8a7c160efddd61ad4e9c941fe.png)
 
 ## **Choose your sandbox client**
 
@@ -41,4 +41,4 @@ Bring any sandbox client you want, or start with one of our supported providers:
 
 MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the [Claude Console](https://platform.claude.com/) by organization admins.
 
-![](../_media/claude-claude-managed-agents-updates/Claude_claude-managed-agents-updates_2.png)
+![](https://assets.claude.com/f594547db5f92c19b5fd55f16200055920e26db2.png)

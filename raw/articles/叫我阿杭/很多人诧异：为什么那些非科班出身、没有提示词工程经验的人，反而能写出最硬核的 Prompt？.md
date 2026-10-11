@@ -47,7 +47,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1996785560715722965/Astronaut_1216_1996785560715722965_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G7YB3mNXUAAYBwV.jpg?name=orig)
 
 ## 💬 Replies
 

@@ -58,7 +58,7 @@ This autonomous workflow transforms development from "write code, run tests, rea
 
 [**Claude Code**](https://claude.com/product/claude-code) brings agentic capabilities to your terminal environment. Unlike browser-based tools requiring constant code copying or IDE extensions analyzing only visible files, Claude Code operates directly within your project directory with full access to your codebase.
 
-![](../_media/claude-introduction-to-agentic-coding/Claude_introduction-to-agentic-coding_1.png)
+![](https://assets.claude.com/28bee07bc13c3fd99bca98a1a6f9b3342f142c5f.png)
 
 ### Installation and launch ###
 
@@ -147,7 +147,7 @@ Find all N+1 query problems in our GraphQL resolvers and implement DataLoader ba
 
 Claude Code analyzes your entire codebase, identifies specific ORM patterns causing N+1 problems, and implements a fix.
 
-![](../_media/claude-introduction-to-agentic-coding/Claude_introduction-to-agentic-coding_2.png)
+![](https://assets.claude.com/7e07257129d4da98f2d7d472c40cbb422e100c3d.png)
 
 ## Start slow, then expand
 

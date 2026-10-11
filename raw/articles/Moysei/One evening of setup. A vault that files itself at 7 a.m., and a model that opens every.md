@@ -21,7 +21,7 @@ Then he stopped pasting his life into a chat box and started pointing Claude at 
 
 ## 1\. Two tools, two jobs
 
-![Image](../_media/x-2069494292695932964/0xMoysei_2069494292695932964_1.jpg)
+![Image](https://pbs.twimg.com/media/HLhRZS6bUAA_grc.jpg)
 
 Obsidian is the storage. A free notes app that keeps everything as plain markdown files on your own machine. Notes link to each other with \[\[double brackets\]\], and those links form a graph you can see. Claude is the brain on top. It reads the whole vault, files new material where it belongs, links it to what already exists, and answers across all of it. The whole system is text files, so no single model owns it. Point a different one at the folder next year and it still works.
 
@@ -89,7 +89,7 @@ Claude writes plain markdown. It does not know \[\[wikilinks\]\], callouts, Base
 
 ## 9\. Add live data, then walk away
 
-![Image](../_media/x-2069494292695932964/0xMoysei_2069494292695932964_2.jpg)
+![Image](https://pbs.twimg.com/media/HLhRkRlW0AA8ufP.jpg)
 
 Static notes are half a brain. Connect what changes. For Google Calendar, run:
 
@@ -117,7 +117,7 @@ I write about Claude, automation, and systems that run while you sleep. Follow i
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069494292695932964/0xMoysei_2069494292695932964_3.jpg)
+![Image 1](https://pbs.twimg.com/media/HLhQRo-XAAAmkLv.jpg)
 
 ## 💬 Replies
 

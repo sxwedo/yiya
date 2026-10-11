@@ -44,7 +44,7 @@ Now, the worst case scenario is you delete the branch and try again.
 
 There still needs to be a justifiable business case. While million line migrations no longer cost $3 to $4 million in engineering resources over the course of a four year project, they still cost tens to hundreds of thousands of dollars or more to execute. The Bun migration, for example, consumed 5.9 billion uncached input tokens and 690 million output tokens — around $165,000 at API pricing. The main portion of Mike’s port was 27 million tokens.
 
-![Jarred’s million-line PR.](../_media/claude-ai-code-migration/Claude_ai-code-migration_1.png)
+![Jarred’s million-line PR.](https://assets.claude.com/1e6eaf73247b9ed6a2e2317b09b53321bcf3e5ee.png)
 
 *Jarred’s million-line PR.*
 

@@ -41,9 +41,9 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2092238018447020036/xiaomovps_2092238018447020036_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HQkfL3kbUAAAWj9?format=jpg&name=medium)
 
-![Image 2](../_media/x-2092238018447020036/xiaomovps_2092238018447020036_2.jpg)
+![Image 2](https://pbs.twimg.com/media/HQkfPiBaQAAstYb?format=jpg&name=medium)
 
 ## 💬 Replies
 

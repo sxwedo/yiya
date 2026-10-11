@@ -97,7 +97,7 @@ Codex 的野心摆在那里，“几乎任何任务”这个口号要真正兑�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2053940091970580736/dotey_2053940091970580736_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HIEOQjHXwAAmvnC?format=jpg&name=medium)
 
 ## 💬 Replies
 

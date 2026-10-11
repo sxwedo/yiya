@@ -46,7 +46,7 @@ Hron traces the choice back to how the two companies started working together. T
 
 ### What knowledge work demands of a model ###
 
-![Product, operations, and business teams across the company use Claude Cowork for process automation and light prototyping.](../_media/claude-working-at-the-frontier-how-thomson-reuters-builds-ai-for-hi/Claude_working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work_1.jpg)
+![Product, operations, and business teams across the company use Claude Cowork for process automation and light prototyping.](https://assets.claude.com/20138f1eea22461cb39fa554d873867327d5534d.jpg)
 
 *Product, operations, and business teams across the company use Claude Cowork for process automation and light prototyping.*
 
@@ -72,7 +72,7 @@ The deeper change, according to Hron, is to the work itself.
 
 ### What's next ###
 
-![Employees at Thomson Reuters use Claude Code to get up to speed on code bases and build long-running agents.](../_media/claude-working-at-the-frontier-how-thomson-reuters-builds-ai-for-hi/Claude_working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work_2.jpg)
+![Employees at Thomson Reuters use Claude Code to get up to speed on code bases and build long-running agents.](https://assets.claude.com/bb70dc6c2d7ae94da38cdc2a2db47ffaffb0da4e.jpg)
 
 *Employees at Thomson Reuters use Claude Code to get up to speed on code bases and build long-running agents.*
 

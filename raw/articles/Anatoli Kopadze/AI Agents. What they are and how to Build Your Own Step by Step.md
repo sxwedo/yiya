@@ -201,7 +201,7 @@ Keep everything practical. No motivational filler. Just the plan.
 
 Which Claude model to use for your bot and what it actually costs:
 
-![Image](../_media/x-2063985608381362576/AnatoliKopadze_2063985608381362576_1.jpg)
+![Image](https://pbs.twimg.com/media/HKSnn-sXEAAL9fu.jpg)
 
 For most personal bots Sonnet 4.6 is the right choice, strong enough for any task and affordable for daily use. Use Haiku 4.5 if you want to minimize cost. Opus 4.8 only makes sense for a complex analytical agent where answer quality is critical.
 
@@ -452,7 +452,7 @@ Telegram - https://t.me/kopadzemp
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063985608381362576/AnatoliKopadze_2063985608381362576_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HKS0qaGXoAAElVM.jpg)
 
 ## 💬 Replies
 

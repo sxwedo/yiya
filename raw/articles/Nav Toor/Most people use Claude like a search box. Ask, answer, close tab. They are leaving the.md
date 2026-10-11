@@ -21,7 +21,7 @@ No software. No GitHub. No setup. Just paste. 5 minutes from now you will know m
 
 Here is the full method.
 
-![Image](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_3.jpg)
+![Image](https://pbs.twimg.com/media/HLASr6ObwAAG3do.jpg)
 
 ---
 
@@ -39,7 +39,7 @@ But here is the real prize. You do not need any of it. The Stanford method is ju
 
 That is what the rest of this article is.
 
-![Image](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_4.jpg)
+![Image](https://pbs.twimg.com/media/HLATJkVbAAAp8aA.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ What comes back: a map of where experts disagree and why. Most people skip this 
 
 > If all 5 perspectives agree, it is probably true. If nobody addressed a topic, you just found the gap in the entire field.
 
-![Image](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_1.jpg)
+![Image](https://pbs.twimg.com/media/HLAUxmEbcAAeZF0.jpg)
 
 ---
 
@@ -169,7 +169,7 @@ What would they tell me to fix?
 
 What comes back: an honest read of your own research. Strong claims, weak claims, biases, missing angles. Real peer review takes months. You just did it in 60 seconds.
 
-![Image](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_5.jpg)
+![Image](https://pbs.twimg.com/media/HLAVPjsaUAAO97i.jpg)
 
 ---
 
@@ -187,7 +187,7 @@ Total time: 5 minutes. Output: a multi perspective briefing with contradiction a
 
 A PhD student takes 40 to 60 hours to produce this by hand. Not because they are slow. Because reading from 5 angles, mapping contradictions, synthesizing, and self critiquing is genuinely a 40 hour job for one human brain.
 
-![Image](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_6.jpg)
+![Image](https://pbs.twimg.com/media/HLAVu_bacAA1ebw.jpg)
 
 ---
 
@@ -219,7 +219,7 @@ That is who this method is for.
 
 If that is you, save this article. Use the 4 prompts. Watch the difference.
 
-![Image](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_2.jpg)
+![Image](https://pbs.twimg.com/media/HLAWJ4UagAA69p6.jpg)
 
 ---
 
@@ -243,7 +243,7 @@ hope this was useful. Nav [❤️](https://abs.twimg.com/emoji/v2/svg/2764.svg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2067194761446920264/heynavtoor_2067194761446920264_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HLAlQnCbgAADUcf.jpg)
 
 ## 💬 Replies
 

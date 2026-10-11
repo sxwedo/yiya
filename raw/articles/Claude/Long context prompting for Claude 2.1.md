@@ -10,7 +10,7 @@ date: "December 6, 2023"
 
 > Claude 2.1 excels at retrieving information across its 200K context window, with a simple prompt adjustment improving accuracy from 27% to 98%.
 
-![Claude 2.1’s performance when retrieving an individual sentence across its full 200K token context window. This experiment uses a prompt technique to guide Claude in recalling the most relevant sentence.](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_1.png)
+![Claude 2.1’s performance when retrieving an individual sentence across its full 200K token context window. This experiment uses a prompt technique to guide Claude in recalling the most relevant sentence.](https://assets.claude.com/e2a549048da628777be5ab3b1e48a1a528c4f029.png)
 
 *Claude 2.1’s performance when retrieving an individual sentence across its full 200K token context window. This experiment uses a prompt technique to guide Claude in recalling the most relevant sentence.*
 
@@ -28,7 +28,7 @@ Being trained on real-world, complex retrieval tasks is why Claude 2.1 shows a 3
 
 Additionally, Claude's memory is improved over these very long contexts:  
 
-![](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_2.png)
+![](https://assets.claude.com/9c0b9f8de8432b74bb0a9d4b3e2eac9764c619f3.png)
 
 ### **Debugging long context recall** ###
 
@@ -40,7 +40,7 @@ In this evaluation, Claude 2.1 returned some negative results by answering with 
 
 We replicated this behavior in an in-house experiment: we took the most recent [Consolidated Appropriations Act bill](https://appropriations.house.gov/sites/democrats.appropriations.house.gov/files/FY23%20Summary%20of%20Appropriations%20Provisions.pdf) and added the sentence *‘Declare May 23rd "National Needle Hunting Day"’* in the middle. Claude detects the reference but is still reluctant to claim that *"National Needle Hunting Day"* is a real holiday:  
 
-![](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_3.jpg)
+![](https://assets.claude.com/9a0f8b10403011873813543f109f44d80f19ef04.jpg)
 
 Claude 2.1 is trained on a mix of data aimed at reducing inaccuracies. This includes not answering a question based on a document if it doesn’t contain enough information to justify that answer. We believe that, either as a result of general or task-specific data aimed at reducing such inaccuracies, the model is less likely to answer questions based on an out of place sentence embedded in a broader context.  
 
@@ -54,23 +54,23 @@ We randomized the order of the essays in the context so this essay appeared at d
 
 Claude gets this correct regardless of where the line with the answer sits in the context, with no modification to the prompt format used in the original experiment. As a result, we believe Claude 2.1 is much more reluctant to answer when a sentence seems out of place in a longer context, and is more likely to claim it cannot answer based on the context given. This particular cause of increased reluctance wasn’t captured by evaluations targeted at real-world long context retrieval tasks.
 
-![](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_4.png)
+![](https://assets.claude.com/543843116da2645dd9515c558f0728f169a1558f.png)
 
 ### **Prompting to effectively use the 200K token context window** ###
 
 What can users do if Claude is reluctant to respond to a long context retrieval question? We’ve found that a minor prompt update produces very different outcomes in cases where Claude is capable of giving an answer, but is hesitant to do so. When running the same evaluation internally, **adding just one sentence to the prompt resulted in near complete fidelity throughout Claude 2.1’s 200K context window**.
 
-![](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_5.png)
+![](https://assets.claude.com/b618970eae76cb10520ec5d77d35cfe05a8b5926.png)
 
 We achieved significantly better results on the same evaluation by adding the sentence ***“Here is the most relevant sentence in the context:”*** to the start of Claude’s response. This was enough to **raise Claude 2.1’s score from 27% to 98%** on the original evaluation.  
 
-![](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_6.png)
+![](https://assets.claude.com/d5cb0c6768974185dfe8ca9f34638dfd8a46eac5.png)
 
 Essentially, by directing the model to look for relevant sentences first, the prompt overrides Claude’s reluctance to answer based on a single sentence, especially one that appears out of place in a longer document.  
 
 This approach also improves Claude’s performance on single sentence answers that were within context (ie. not out of place). To demonstrate this, the revised prompt achieves 90-95% accuracy when applied to the Yahoo/Viaweb example shared earlier:
 
-![](../_media/claude-claude-2-1-prompting/Claude_claude-2-1-prompting_7.png)
+![](https://assets.claude.com/8d8a04fc8781e3b554f3e059ff0e1b69145134c0.png)
 
 We’re constantly training Claude to become more calibrated on tasks like this, and we’re grateful to the community for conducting interesting experiments and identifying ways in which we can improve.
 

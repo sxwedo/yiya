@@ -13,7 +13,7 @@ type: "Article"
 
 In this series of posts, I'm going to show you how I use [pstack](https://x.ai/bot/plugin/9717366), my personal set of skills for doing rigorous engineering work. It's allowed me to ship 2,000 PRs a month to production with high confidence. 
 
-![Image](../_media/x-2094457600259842065/poteto_2094457600259842065_2.jpg)
+![Image](https://pbs.twimg.com/media/HRD9GflbQAAKEXZ.jpg)
 
 Personally, I have never put much emphasis into how many lines of code or how many PRs I was landing. Before agents, no one cared, and rightfully so, as raw productivity did not always equate to quality or a visible outcome for users. It was simply a vanity metric.
 
@@ -23,7 +23,7 @@ But I've discovered through the course of building pstack that volume does matte
 
 Being Grok @Bot's gardener and maintainer is something I was only able to do through pstack. Our early momentum after building the prototype was very high and many people were joining the team. I had a critical moment of opportunity to refactor the whole codebase, while it was being built and extended and with no downtime, into something with strong foundations. A codebase with high quality that scales no matter how many engineers (and most importantly, non-engineers) contribute to it. All of this work requires me to refactor and improve the foundations of Grok Bot as it's being built, and you can only do that when the foundations can keep up with the number of contributions.
 
-![Image](../_media/x-2094457600259842065/poteto_2094457600259842065_1.jpg)
+![Image](https://pbs.twimg.com/media/HRACOM4awAAPxUR.jpg)
 
 The proof is in Grok @Bot itself. Over the next few weeks, I'll tell you everything you need to know to be able to build and maintain a high quality app using pstack.
 
@@ -39,7 +39,7 @@ To start, install pstack and then run [/create-verification-skill](https://githu
 
 You can ask Dr Eggbot to create an engineer bot for you that you can then ask to run /create-verification-skill and set up a daily routine to run /maintain-verification-skill. 
 
-![Image](../_media/x-2094457600259842065/poteto_2094457600259842065_5.jpg)
+![Image](https://pbs.twimg.com/media/HRBrZTOagAET8Vw.jpg)
 
 While that runs, let's walk through what the skill does and how it makes a high quality verification skill for you.
 
@@ -188,11 +188,11 @@ Here's how I typically use it with pstack.
 
 First, of course, is to start your prompt with /poteto-mode. If you're using pstack through Cursor, you can also hit Opt + Enter instead of just Enter when you autocomplete /poteto-mode - this adds the skill as a [Custom Mode](https://cursor.com/changelog/08-19-26#custom-modes), which pins the skill so your agent gets a reminder to use the skill on every new turn. 
 
-![Image](../_media/x-2094457600259842065/poteto_2094457600259842065_4.png)
+![Image](https://pbs.twimg.com/media/HRAqVoyb0AEwvnc.png)
 
 In Grok @Bot, install [the plugin](https://x.ai/bot/plugin/9717366), then type /poteto-mode.
 
-![Image](../_media/x-2094457600259842065/poteto_2094457600259842065_3.png)
+![Image](https://pbs.twimg.com/media/HRArLIFa4AApHT3.png)
 
 Example: Building new features
 
@@ -238,7 +238,7 @@ Thanks for reading and stay tuned for Part 2!
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2094457600259842065/poteto_2094457600259842065_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ_0MA_aMAA9zMt.jpg)
 
 ## 💬 Replies
 

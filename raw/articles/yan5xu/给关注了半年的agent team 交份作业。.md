@@ -28,7 +28,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2083004612207051208/yan5xu_2083004612207051208_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HOhQ1robYAAwbuj?format=jpg&name=medium)
 
 ## 💬 Replies
 

@@ -19,7 +19,7 @@ The edge of the frontier is the manager agent that wakes on its trigger, delegat
 
 The scale most often mentioned is from Steve Yegge's single-axis ladder mentioned in "[Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)" and in The Pragmatic Engineer. It's a good reference if you want a number that tells you how AI-native you are: the ladder gives you a single number to measure if you know your trust in a single agent. Here's one version of it:
 
-![Image](../_media/x-2072885435312042327/addyosmani_2072885435312042327_1.jpg)
+![Image](https://pbs.twimg.com/media/HMRQivfaQAEzgEF.jpg)
 
 In early 2026, even while work began to shift from delegation to orchesration, this was a fairly good proxy for measuring risk. Today, however, many skill sets may have increased significance and leverage when you can run many agents at once. A single rung cannot help you place multi-agent skill.
 
@@ -27,7 +27,7 @@ Instead, almost every autonomy debate I've seen conflates two questions that sho
 
 To capture these two dimensions separately, we'll use two axes: agency and orchestration.
 
-![Image](../_media/x-2072885435312042327/addyosmani_2072885435312042327_2.jpg)
+![Image](https://pbs.twimg.com/media/HMRdAzwaQAAgjDL.jpg)
 
 On the agency axis, low includes suggesting candidate actions and waiting for a decision.
 
@@ -55,7 +55,7 @@ And third, in the era of orchestration, the system is capable of running the sho
 
 This makes things simpler, because the vertical position on the ladder neatly captures the two axes (orchestration only kicks in near the top), leaving it as a single steady climb through the rungs. And yet, the climb is still part of a shift that we're all going through.
 
-![Image](../_media/x-2072885435312042327/addyosmani_2072885435312042327_3.jpg)
+![Image](https://pbs.twimg.com/media/HMRRrbSaEAAbD0V.jpg)
 
 A good day doing engineering includes touching several rungs, sometimes more: it's normal to switch between the eras a few times in the course of a task.
 
@@ -193,7 +193,7 @@ Verification will always be the bottleneck.
 
 Despite current bravado and current tooling, the mature posture of an engineering team working with AI agents is calibrated autonomy. 
 
-![Image](../_media/x-2072885435312042327/addyosmani_2072885435312042327_4.jpg)
+![Image](https://pbs.twimg.com/media/HMRdj1KawAADkU6.jpg)
 
 In the near future, we'll want to design loops that know when to work, when to verify, and when to ask -  but the skill of the engineer will still lie in choosing the right level of autonomy and in building patterns and defensible evidence that guard against its darker corners.
 
@@ -201,7 +201,7 @@ Note: Pangram labels this article as 100% human-written: https://www.pangram.com
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2072885435312042327/addyosmani_2072885435312042327_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HMC14-_XoAAb7FA.jpg)
 
 ## 💬 Replies
 

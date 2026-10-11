@@ -267,7 +267,7 @@ Agent自动：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2041013815031267830/Vincent_AINotes_2041013815031267830_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HFMjIrtaUAAyM_r.jpg)
 
 ## 💬 Replies
 

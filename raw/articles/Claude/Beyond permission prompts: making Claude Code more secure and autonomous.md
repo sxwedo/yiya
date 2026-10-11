@@ -48,7 +48,7 @@ As described above, this sandbox enforces both:
 
 Both components are configurable: you can easily choose to allow or disallow specific file paths or domains.
 
-![](../_media/claude-beyond-permission-prompts-making-claude-code-more-secure-and-autonomous/Claude_beyond-permission-prompts-making-claude-code-more-secure-and-autonomous_1.png)
+![](https://assets.claude.com/957f5aaf1b2662b9ac5fe25815f0a8491f8966ff.png)
 
 Sandboxing ensures that even a successful prompt injection is fully isolated, and cannot impact overall user security. This way, a compromised Claude Code can't steal your SSH keys, or phone home to an attacker's server.
 
@@ -62,7 +62,7 @@ Today, we're also releasing [Claude Code on the web](https://docs.claude.com/en/
 
 Claude Code on the web uses a custom proxy service that transparently handles all git interactions. Inside the sandbox, the git client authenticates to this service with a custom-built scoped credential. The proxy verifies this credential and the contents of the git interaction (e.g. ensuring it is only pushing to the configured branch), then attaches the right authentication token before sending the request to GitHub.
 
-![](../_media/claude-beyond-permission-prompts-making-claude-code-more-secure-and-autonomous/Claude_beyond-permission-prompts-making-claude-code-more-secure-and-autonomous_2.png)
+![](https://assets.claude.com/bb8f554ea106223c996c309677b3eb2950d45f01.png)
 
 ## Getting started
 

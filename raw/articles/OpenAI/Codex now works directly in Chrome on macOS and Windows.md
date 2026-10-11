@@ -15,7 +15,7 @@ It’s even better at working with apps and sites in Chrome, and now works in pa
 
 To get started, install the Chrome plugin in the Codex app. 
 
-![Image](../_media/x-2052480800004956323/OpenAI_2052480800004956323_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg)
 
 ## 💬 Replies
 
@@ -37,7 +37,7 @@ If a task needs multiple tools, Codex chooses the best one for each step.
 
 It uses plugins when they can handle the job, Chrome when it needs a logged-in website, and combines approaches as needed. 
 
-![Image](../_media/x-2052480800004956323/OpenAI_2052480803318468770_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/2052447512422912000/img/V8h1lwsu5biramky.jpg)
 
 ### 3 @OpenAI (OpenAI) (Author)
 

@@ -26,7 +26,7 @@ We're also introducing service accounts to the Claude Platform, so each workload
 
 The [Claude Console](https://platform.claude.com/) has a guided setup flow for configuring workload identities. The setup validates each step and finishes with a test command that confirms your workload can authenticate.
 
-![](../_media/claude-secure-access-to-the-claude-platform-with-workload-identity-/Claude_workload-identity-federation_1.png)
+![](https://assets.claude.com/5d448ff75e736480f667947f5f1ee47befa8f566.png)
 
 ## Run your whole organization without static keys
 

@@ -23,7 +23,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1983826334767096014/realcoreychiu_1983826334767096014_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G4f3hlxa8AQlTjg?format=jpg&name=medium)
 
 ## 💬 Replies
 

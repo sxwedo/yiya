@@ -18,7 +18,7 @@ There's no step 3, it just works.
 
 Seriously it's that simple. 
 
-![Image](../_media/x-2080776965070496115/alex_frantic_2080776965070496115_1.jpg)
+![Image](https://pbs.twimg.com/media/HOBmY1gWcAAE-ko?format=jpg&name=medium)
 
 ## 💬 Replies
 

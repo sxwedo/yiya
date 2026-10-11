@@ -45,7 +45,7 @@ OneManCompany则把多智能体团队从固定组织图，变成了动态“人�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2051103428861202532/berryxia_2051103428861202532_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HHb7r6IagAAamlo?format=jpg&name=medium)
 
 ## 💬 Replies
 

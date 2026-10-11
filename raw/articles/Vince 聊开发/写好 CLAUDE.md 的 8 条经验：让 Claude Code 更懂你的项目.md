@@ -229,11 +229,11 @@ Hook 是 CLAUDE.md 规则的强制执行层。写在 CLAUDE.md 里的规则是�
 
 CLAUDE.md 不是一次写完就放那的文件。它是活的——你每发现一个 Claude 反复踩的坑、每总结一条有效的规则，都应该更新进去。一个月后回头看，你会发现 Claude 从一个菜鸟实习生，变成了真正懂你项目的高级工程师。
 
-![Image](../_media/x-2052368318825402507/vincemask_2052368318825402507_1.jpg)
+![Image](https://pbs.twimg.com/media/HIaUkSTbcAApw0x.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052368318825402507/vincemask_2052368318825402507_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HHpW25YbcAAzQdc.jpg)
 
 ## 💬 Replies
 

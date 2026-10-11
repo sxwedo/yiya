@@ -123,7 +123,7 @@ this does not mean you stop deciding what matters. it means the deciding happens
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2066401066518802637/mikenevermiss_2066401066518802637_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKzH-beWoAAdVET.jpg)
 
 ## 💬 Replies
 

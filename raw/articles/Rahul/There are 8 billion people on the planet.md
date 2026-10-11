@@ -59,7 +59,7 @@ You look at any agent system and instantly see what it is actually doing.
 
 That is the goal of this article.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_9.jpg)
+![Image](https://pbs.twimg.com/media/HLeI-l-a4AAuZvo.jpg)
 
 ---
 
@@ -111,7 +111,7 @@ Every agent you will ever use runs the same three-step cycle.
 
 Think. Act. Observe. Repeat.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_3.jpg)
+![Image](https://pbs.twimg.com/media/HLeJJARa4AAlFGR.jpg)
 
 Think: The model reads the goal and current context. Decides the next step.
 
@@ -161,7 +161,7 @@ It only works with what is visible right now.
 
 Access is not awareness. If it is not in context, the model is not using it.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_14.jpg)
+![Image](https://pbs.twimg.com/media/HLeKLFtbQAAZRUa.jpg)
 
 Where should state live?
 
@@ -203,7 +203,7 @@ Split one big task into many smaller pieces. Multiple agents work on the pieces 
 
 Useful for code review, research, document analysis, large content reviews.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_11.jpg)
+![Image](https://pbs.twimg.com/media/HLeKls4bEAAgxkL.jpg)
 
 Real workflows combine all three.
 
@@ -282,7 +282,7 @@ One file explains how to write tests. Another explains how to review a pull requ
 
 The agent does not need all of these all the time. It uses the right one at the right moment.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_1.jpg)
+![Image](https://pbs.twimg.com/media/HLeK-qObMAA0rJt.jpg)
 
 Research from SkillsBench tested 86 tasks across 11 domains.
 
@@ -316,7 +316,7 @@ More tokens. More cost. More latency.
 
 Prompt caching stores the stable part. The first call is expensive. Every call after is cheaper.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_2.jpg)
+![Image](https://pbs.twimg.com/media/HLeh1vaaEAA3NVL.jpg)
 
 The main catch: caches expire.
 
@@ -364,7 +364,7 @@ Instead of writing custom glue code for every tool and every agent, the tool exp
 
 GitHub. Databases. Internal APIs. Docs. Search. All accessible through a single standard.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_5.jpg)
+![Image](https://pbs.twimg.com/media/HLeicDbacAAgmQm.jpg)
 
 The biggest criticism of MCP is that it can add too much context. Tool descriptions and schemas cost tokens.
 
@@ -464,7 +464,7 @@ The parent agent gives it:
 
 When the subagent finishes, it sends back only the final result. Not every tool call. Not every intermediate step. Not the messy middle.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_4.jpg)
+![Image](https://pbs.twimg.com/media/HLejP4maQAACc0v.jpg)
 
 Two advantages of subagents:
 
@@ -501,7 +501,7 @@ Define a completion condition:
 
 The agent keeps working. After each turn, a small check runs. Did the goal complete? No → keep going. Yes → stop.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_8.jpg)
+![Image](https://pbs.twimg.com/media/HLejnrzaQAAJTFU.jpg)
 
 ---
 
@@ -521,7 +521,7 @@ They may run the wrong command. Read the wrong file. Follow a bad instruction.
 
 Sandboxing limits the damage when that happens.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_10.jpg)
+![Image](https://pbs.twimg.com/media/HLekUrfbwAAufpO.jpg)
 
 The important point:
 
@@ -587,7 +587,7 @@ That timing matters.
 
 This is the last moment where a dangerous command can still be stopped.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_12.jpg)
+![Image](https://pbs.twimg.com/media/HLelO4kacAAwyxk.jpg)
 
 For shell commands, this is especially critical.
 
@@ -627,7 +627,7 @@ The agent reads it. Trusts it. Starts sending environment details to a server yo
 
 That is not a model problem. That is a trust problem.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_6.jpg)
+![Image](https://pbs.twimg.com/media/HLelqysagAEIGb7.jpg)
 
 Rules for staying safe:
 
@@ -679,7 +679,7 @@ repos:
   args: \["-r", "src/"\]
 \`\`\`
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_7.jpg)
+![Image](https://pbs.twimg.com/media/HLel_lubUAAnCyT.jpg)
 
 The real value is the correction loop.
 
@@ -717,7 +717,7 @@ A useful trace shows:
 
 → The model's reasoning at key decision points.
 
-![Image](../_media/x-2069351848742629693/sairahul1_2069351848742629693_13.jpg)
+![Image](https://pbs.twimg.com/media/HLemcavbQAAfUjX.jpg)
 
 A flat list of tool calls is hard to follow.
 
@@ -859,7 +859,7 @@ I write about AI, building products, and systems that work while you sleep.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069351848742629693/sairahul1_2069351848742629693_15.jpg)
+![Image 1](https://pbs.twimg.com/media/HLesBC1agAA1EUr.jpg)
 
 ## 💬 Replies
 

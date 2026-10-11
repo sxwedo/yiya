@@ -73,7 +73,7 @@ type: "Article"
 
 🧌这个架构由四大组件构成，各司其职，又紧密配合：
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_5.jpg)
+![Image](https://pbs.twimg.com/media/HAfVMLnacAE3wIX.jpg)
 
 这个体系的协作流程，完美复刻了人类高效团队的工作模式：
 
@@ -107,7 +107,7 @@ type: "Article"
 
 为了更清晰地展示差异，我们整理了以下详细对比表格，这可能是全网最全的对比：
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_3.jpg)
+![Image](https://pbs.twimg.com/media/HAfZ2EfbAAA1CVi.jpg)
 
 如果你嫌麻烦，上面的表格直接忽略不看！！我们直接注意一下几个点：
 
@@ -213,29 +213,29 @@ $env:CLAUDE\_CODE\_EXPERIMENTAL\_AGENT\_TEAMS = "1"
 
 [1️⃣](https://abs-0.twimg.com/emoji/v2/svg/31-20e3.svg) 组建团队：Claude 自动成为队长，并且生成3个独立的队友
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_6.jpg)
+![Image](https://pbs.twimg.com/media/HAfpMVFbYAAeVoo.jpg)
 
 [2️⃣](https://abs-0.twimg.com/emoji/v2/svg/32-20e3.svg) To-Do List：Claude 队长为团队创建了任务清单
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_9.jpg)
+![Image](https://pbs.twimg.com/media/HAfpvmwbUAAvPbZ.jpg)
 
 [3️⃣](https://abs-0.twimg.com/emoji/v2/svg/33-20e3.svg) 竞品分析师率先开工：搜索资料、整理对比表格、分析差异化
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_7.jpg)
+![Image](https://pbs.twimg.com/media/HAfqDe1acAIyHme.jpg)
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_2.jpg)
+![Image](https://pbs.twimg.com/media/HAfqRjnacAIxgzw.jpg)
 
  [4️⃣](https://abs-0.twimg.com/emoji/v2/svg/34-20e3.svg) 文案策划同步起步：先用已有的产品信息开始写草稿框架
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_8.jpg)
+![Image](https://pbs.twimg.com/media/HAfqwCracAEgMFd.jpg)
 
 [5️⃣](https://abs-0.twimg.com/emoji/v2/svg/35-20e3.svg) 信息自动流转：队长会查看内容并进行评价和沟通
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_1.jpg)
+![Image](https://pbs.twimg.com/media/HAfsJk1acAQDPqF.jpg)
 
 [6️⃣](https://abs-0.twimg.com/emoji/v2/svg/36-20e3.svg)队长汇总：全部完成后，整理所有文件，给你一份交付清单
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_10.jpg)
+![Image](https://pbs.twimg.com/media/HAfsjioacAAkd9Z.jpg)
 
 [🏴‍☠](https://abs-0.twimg.com/emoji/v2/svg/1f3f4-200d-2620-fe0f.svg)️强烈建议大家可以去看看输出的结果
 
@@ -263,7 +263,7 @@ $env:CLAUDE\_CODE\_EXPERIMENTAL\_AGENT\_TEAMS = "1"
 
 Agent Teams 的出现，标志着我们与AI的交互方式正在经历一次根本性的范式转换。这个转换可以用三个阶段来概括：
 
-![Image](../_media/x-2019977867061522525/YukerX_2019977867061522525_4.png)
+![Image](https://pbs.twimg.com/media/HAfvEkQbcAAlNbd.png)
 
 我们正站在第二阶段向第三阶段跃迁的临界点上。Agent Teams 虽然仍是实验性功能，存在不支持会话恢复、不支持嵌套团队、费用较高等局限，但它所揭示的未来图景已经足够清晰：未来的超级个体，不是那个什么都会做的人，而是那个知道如何组建、指挥和优化一支AI团队的人。
 
@@ -275,7 +275,7 @@ Agent Teams 的出现，标志着我们与AI的交互方式正在经历一次根
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2019977867061522525/YukerX_2019977867061522525_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HAhkYANa0AAKhCN.jpg)
 
 ## 💬 Replies
 

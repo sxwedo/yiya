@@ -143,7 +143,7 @@ claude --channels plugin:discord@claude-plugins-official --dangerously-skip-perm
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2034848570722099641/MinLiBuilds_2034848570722099641_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HD08TMRboAArJvP.jpg)
 
 ## 💬 Replies
 

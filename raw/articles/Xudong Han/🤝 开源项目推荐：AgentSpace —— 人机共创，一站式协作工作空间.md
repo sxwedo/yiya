@@ -27,7 +27,7 @@ AgentSpace 是香港大学出品的开源框架，核心理念是 “Human + Age
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2080086994370306555/Xudong07452910_2080086994370306555_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HN3YxhDW4AA508I?format=jpg&name=medium)
 
 ## 💬 Replies
 

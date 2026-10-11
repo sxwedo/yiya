@@ -79,7 +79,7 @@ Rebuild them better.”
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2031033842849677600/berryxia_2031033842849677600_1.png)
+![Image 1](https://pbs.twimg.com/media/HC-ugGTasAAXW6x.png?name=orig)
 
 ## 💬 Replies
 

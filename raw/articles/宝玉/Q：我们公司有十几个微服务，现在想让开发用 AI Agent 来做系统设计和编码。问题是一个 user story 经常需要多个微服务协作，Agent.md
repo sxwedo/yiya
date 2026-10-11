@@ -53,7 +53,7 @@ monorepo 天然适合和 AI 配合，因为 Agent 可以在一个地方同时看
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071961238528012358/dotey_2071961238528012358_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMEVvebWMAARvHk?format=jpg&name=medium)
 
 ## 💬 Replies
 

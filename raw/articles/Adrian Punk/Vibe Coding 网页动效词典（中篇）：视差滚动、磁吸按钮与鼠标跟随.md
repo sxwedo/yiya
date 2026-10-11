@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/AdrianPunk115/status/2099772129478869309) · [X 文章](https://x.com/i/article/2099517692135034880)
 
-![封面](../_media/x-2099772129478869309/AdrianPunk115_2099518123179450368_1.jpg)
+![封面](https://pbs.twimg.com/media/HSL8m_ubIAA91rn.jpg)
 
 上篇讲完以后，你已经知道鼠标悬停、点击、进入视口和跟随滚动都属于触发方式。但知道“什么时候开始”，还不等于知道“画面具体怎么动”。
 
@@ -55,7 +55,7 @@ Character reveal 把文字拆成单个字符分别动画。它的视觉节奏最
 
 交给 AI：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517728176623617_2.jpg)
+![Image](https://pbs.twimg.com/media/HSL8QAOaUAEaeVA.jpg)
 
 ## 18. Typewriter：打字机效果
 
@@ -153,7 +153,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 交给 AI：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517711395274752_3.jpg)
+![Image](https://pbs.twimg.com/media/HSL8PBtbQAAIbJM.jpg)
 
 ---
 
@@ -172,9 +172,9 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 交给 AI：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517756081373184_4.jpg)
+![Image](https://pbs.twimg.com/media/HSL8RoLbAAA54bG.jpg)
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517743506894848_5.jpg)
+![Image](https://pbs.twimg.com/media/HSL8Q5VbsAAgg3J.jpg)
 
 ## 23. Horizontal scroll：横向滚动
 
@@ -192,7 +192,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 交给 AI：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517744312180736_6.jpg)
+![Image](https://pbs.twimg.com/media/HSL8Q8VbYAA_gGa?format=jpg&name=medium)
 
 ## 24. Scroll zoom：滚动缩放
 
@@ -234,7 +234,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 ---
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517744257581056_8.jpg)
+![Image](https://pbs.twimg.com/media/HSL8Q8IaQAAZgdP.jpg)
 
 ## 26. Image sequence：图片序列滚动
 
@@ -254,7 +254,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 ![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517758249873408_9.jpg)
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517728650600448_10.jpg)
+![Image](https://pbs.twimg.com/media/HSL8QB_aoAAlZiO?format=jpg&name=medium)
 
 ## 27. Scroll snap：滚动吸附
 
@@ -272,7 +272,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 交给 AI：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517711353348096_11.jpg)
+![Image](https://pbs.twimg.com/media/HSL8PBjbgAAr0Au.jpg)
 
 ---
 
@@ -364,7 +364,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 ---
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517769469628416_13.jpg)
+![Image](https://pbs.twimg.com/media/HSL8SaDbkAAuGae.jpg)
 
 ## 32. Cursor spotlight：光标聚光灯
 
@@ -424,7 +424,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 交给 AI：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517757935218688_15.jpg)
+![Image](https://pbs.twimg.com/media/HSL8RvFacAAeJx5.jpg)
 
 ```text
 首屏产品模型使用 3D 物体跟随（3D object follow）。光标在页面中移动时，模型只做小幅旋转并保持主体正面可见；光标离开后缓慢回正。加载前显示静态产品图，手机端改为轻微自动旋转。
@@ -452,7 +452,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 鼠标与指针：磁吸按钮、倾斜卡片、光标跟随、聚光灯、眼睛跟随
 ```
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517741934018560_16.jpg)
+![Image](https://pbs.twimg.com/media/HSL8QzebgAAyA1T.jpg)
 
 ## 36. 3D object follow：3D 物体跟随
 
@@ -484,7 +484,7 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 写提示词时，先说由什么触发，再说画面怎样变化。下面几句已经可以覆盖这一篇的大多数效果：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517727639851008_17.jpg)
+![Image](https://pbs.twimg.com/media/HSL8P-Ob0AAiTNH.jpg)
 
 一条完整描述至少要交代四件事：操作对象、触发方式、动效名称、结束或替代状态。先把这四项说清，再让 AI 采用项目里已有的工具实现。
 
@@ -496,11 +496,11 @@ Text morphing 指一个词平滑变化成另一个词。变化过程可以使用
 
 ## 往期前端类作品回顾：
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517711328149505_18.jpg)
+![Image](https://pbs.twimg.com/media/HSL8PBdbAAES2jr.jpg)
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517757918486528_19.jpg)
+![Image](https://pbs.twimg.com/media/HSL8RvBbIAAJuYl.jpg)
 
-![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517775077408768_20.jpg)
+![Image](https://pbs.twimg.com/media/HSL8Su8bgAAC9Gi?format=jpg&name=medium)
 
 ![Image](../_media/x-2099772129478869309/AdrianPunk115_2099517711298781184_21.jpg)
 

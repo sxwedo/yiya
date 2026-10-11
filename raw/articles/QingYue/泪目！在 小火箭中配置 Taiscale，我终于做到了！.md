@@ -34,13 +34,13 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2093630564884730244/YuLin807_2093630564884730244_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ4R5WeaAAA1nXr?format=jpg&name=medium)
 
-![Image 2](../_media/x-2093630564884730244/YuLin807_2093630564884730244_2.jpg)
+![Image 2](https://pbs.twimg.com/media/HQ4R5WfaUAALeDP?format=jpg&name=medium)
 
-![Image 3](../_media/x-2093630564884730244/YuLin807_2093630564884730244_3.jpg)
+![Image 3](https://pbs.twimg.com/media/HQ4R5WgbkAAOUNI?format=jpg&name=medium)
 
-![Image 4](../_media/x-2093630564884730244/YuLin807_2093630564884730244_4.jpg)
+![Image 4](https://pbs.twimg.com/media/HQ4R5XMbgAAItc5?format=jpg&name=medium)
 
 ## 💬 Replies
 

@@ -39,13 +39,13 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2044377116771553758/stark_nico99_2044377116771553758_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HF8WJOFbIAEFlqo?format=jpg&name=medium)
 
-![Image 2](../_media/x-2044377116771553758/stark_nico99_2044377116771553758_2.jpg)
+![Image 2](https://pbs.twimg.com/media/HF8WJOEagAA545B?format=jpg&name=medium)
 
-![Image 3](../_media/x-2044377116771553758/stark_nico99_2044377116771553758_3.jpg)
+![Image 3](https://pbs.twimg.com/media/HF8WJPIbYAEbbeo?format=jpg&name=medium)
 
-![Image 4](../_media/x-2044377116771553758/stark_nico99_2044377116771553758_4.jpg)
+![Image 4](https://pbs.twimg.com/media/HF8WJPoaYAAch_j?format=jpg&name=medium)
 
 ## 💬 Replies
 

@@ -23,11 +23,11 @@ At the AI Engineer 2026 conference, we shared [our vision](https://youtu.be/17-Y
 
 As shown in Figure 1, from February to Aug 2026, weekly active users across all agentic offerings across all our employees (engineers & non-engineers) grew 7x, and weekly agentic requests grew 9.4x. Meanwhile, our total AI spend has relatively stabilized since April due to optimizations across the board.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_8.jpg)
+![Image](https://pbs.twimg.com/media/HQ1lFqXbMAA58qf.jpg)
 
 Since adoption, workload mix, and model upgrades are all continuously changing, isolating our own optimization gains means holding one model fixed, since behavior shifts with every upgrade and model family. We did that from February to July: cost per 1,000 model requests is down almost 34% from its peak, and cost per session is down 52% from its June peak. 
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_12.jpg)
+![Image](https://pbs.twimg.com/media/HQ1lY8pa0AArbuP.jpg)
 
 This blog walks through how we think about our software factory: the four layers agent sessions run in, the cost equation we use to decompose spend, how we measure each term, and how we optimize those terms across every layer.
 
@@ -39,13 +39,13 @@ Four Layers of Agent Usage
 
 We organize AI usage into four layers, from the most specialized to the most general. As shown in Figure 3, the higher the layer, the more control we have over cost, quality, and model selection.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_4.jpg)
+![Image](https://pbs.twimg.com/media/HQ1ll9tbIAAvJLX.jpg)
 
 The Cost Equation
 
 Across any of the layers above, we can decompose the cost of an agentic session into the following terms, which we could measure and optimize independently.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_11.jpg)
+![Image](https://pbs.twimg.com/media/HQ1lz7paIAACkM0.jpg)
 
 The first two terms represent adoption & engagement, which we want to keep growing across our overall user base, whether users use it interactively or agents handle tasks on their behalf. The three middle terms provide opportunities for optimization: the work the agent does on its own behalf, on top of the request an engineer actually made. That is where most of our effort goes. This includes mechanisms that help agents plan faster, reduce unwanted turns or errors, optimize input tokens, and more.
 
@@ -53,13 +53,13 @@ The first two terms represent adoption & engagement, which we want to keep growi
 
 Below is the full set of metrics we track weekly and monthly that enable us to forecast & plan our efforts short-term and long-term.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_6.png)
+![Image](https://pbs.twimg.com/media/HQ1d0cKaQAA8M73.png)
 
 ## Optimization Levers
 
 In the following sections, we detail the key levers we used to optimize each part of the cost equation. Some of these levers affect one or more rows in the cost equation.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_2.png)
+![Image](https://pbs.twimg.com/media/HQ1Rux0a4AEEblw.png)
 
 ## Optimizing Price / Token
 
@@ -79,7 +79,7 @@ Looking ahead, we continually refine our workload performance by leveraging aggr
 
 For example, we use uReview, which handles AI code review for all pull requests. We built its benchmark from real pull requests with known bugs and graded them easy, medium, and hard. We score precision, recall, and F1 against those bugs, plus cost per review, latency, timeouts, and noise. As shown in Figure 5, switching models improved our F1 while dramatically reducing cost/PR. In the figure, the dashed line is the Pareto frontier. Everything below and left of it is beaten by something cheaper or better.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_7.jpg)
+![Image](https://pbs.twimg.com/media/HQ1mDZzasAAPKJn.jpg)
 
 Using thousands of real-world PRs across our large monorepos, we internally also have an Uber SWE Benchmark that runs frontier and open-weight models across different task types. We use it to inform model selection across all our SDLC-managed agents.
 
@@ -105,7 +105,7 @@ Prompt Caching Strategy
 
 Our prompt caching strategy is driven by the economics of provider prompt cache reads and writes. Since each turn re-transmits the full conversation history, caching the preceding context avoids paying the full cost repeatedly, reducing subsequent reads to just 0.1x the standard input token rate. However, write premiums vary: 5-minute cache entries cost 1.25x, while 1-hour entries cost 2x. Choosing an optimal TTL (Time-to-Live) therefore depends on the duration of gaps between turns. Available TTL options include 5 minutes and 1 hour from Anthropic®, alongside 30 minutes from OpenAI®.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_1.jpg)
+![Image](https://pbs.twimg.com/media/HQ1mSBhakAAEMpx.jpg)
 
 Because engineers often leave interactive sessions idle for more than 5 minutes, we transitioned from the default 5-minute TTL to a 1-hour window. These frequent idle gaps previously invalidated the prefix cache, forcing costly full-price context rebuilds. Sub-agents, by contrast, retain a 5-minute cache TTL because their execution focus is limited to single, short-lived tasks.
 
@@ -115,7 +115,7 @@ At Uber, all MCP (Model Context Protocol) interactions are routed through a unif
 
 However, standard MCP loads all tool schemas directly into every session, regardless of whether an engineer will ever invoke them in that session or not. For example, with over 100 tools installed, this pre-loading added approximately 50K-70K tokens of schema overhead to the initial prompt, which was subsequently re-sent on every context turn.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_14.jpg)
+![Image](https://pbs.twimg.com/media/HQ1mfIPagAASfyo?format=jpg&name=medium)
 
 To address this context bloat, we introduced two complementary optimization mechanisms:
 
@@ -127,11 +127,11 @@ Code-Mode
 
 When tools call functions directly as shell commands, models can batch multiple actions within a single script. This batching is particularly advantageous for chatty tool protocols. Under standard MCP workflows, each action requires a separate model turn to emit a request, load the raw response into the context window, and process the results sequentially. For instance, executing a single SQL query requires submitting the request, polling status 2 to 5 times, and retrieving the output. Code-mode streamlines this entire flow into an automated Python loop, keeping intermediate polling out of the model’s active context. As shown in Figure 8 on the left, the model participates in the polling loop, and every response lands in its context. On the right, the loop runs in a subprocess, and only the summary comes back.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_5.jpg)
+![Image](https://pbs.twimg.com/media/HQ1mthGbgAAoz7D.jpg)
 
 We measured this by running 5 identical SQL queries through both paths in the same session:
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_3.png)
+![Image](https://pbs.twimg.com/media/HQ1QrckawAACSTT.png)
 
 The initial three rows highlight the main finding: even for minimal result sets far below response-size limits, code-mode reduces token usage by more than 50%. Rather than bypassing large data payloads, these efficiencies stem from eliminating unnecessary overhead, including schema initialization, multi-turn polling, and redundant step-by-step reasoning.
 
@@ -143,7 +143,7 @@ Managing third-party software proved significantly more challenging than our int
 
 To address this, we route SaaS MCP servers through our MCP gateway using the same mechanism we do for our internal MCPs. We also expose all these MCPs as CLIs that any agentic surface can invoke. Additionally, we author dedicated skills within our code-mode plugin for each server to encapsulate common workflows. This unlocked efficient agentic workflows across many SaaS vendors.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_15.jpg)
+![Image](https://pbs.twimg.com/media/HQ1m6-ga4AAxR4d.jpg)
 
 Optimizing Requests / Turn
 
@@ -153,7 +153,7 @@ Context Engineering
 
 Across Uber’s vast codebase and data ecosystem, comprising hundreds of millions of code lines and thousands of tables, agents spend most of their turns locating information rather than generating code. To address this, we engineered the AI Context Graph: a unified network containing 24 million nodes and 80 million edges across 86 nodes and 117 edge types. It integrates data from over 30 internal systems, including services, engineering teams, incident logs, pull requests, architectural design docs, deployments, datasets, and historical table usage queries, and lets any agent query it in natural language.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_9.jpg)
+![Image](https://pbs.twimg.com/media/HQ1nFogagAAh5yy.jpg)
 
 The grounded agent queried historical usage, identified the specific table used by over 50 analysts, and delivered the answer in 38 seconds. Conversely, the ungrounded agent lacked visibility into that table; it spent 20 minutes inspecting service code, spawning 2 subagents, and hitting 3 errors before incorrectly concluding the dataset was unqueryable.
 
@@ -165,7 +165,7 @@ The Status Line
 
 We put a live cost counter in the harness status line that tracks live spend per harness and across all harnesses for each user.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_13.jpg)
+![Image](https://pbs.twimg.com/media/HQ1nQaybsAA_Hju.jpg)
 
 Visibility and Spend Tiers
 
@@ -197,7 +197,7 @@ Built directly into the runtime, it requires zero setup or opt-in. Executing the
 
 - Prompt initialization overhead: Pre-loading 100,000 tokens of system instructions and tool definitions before any user input is provided.
 
-![Image](../_media/uber-software-factory-cost/UberEng_2093444169037762840_10.jpg)
+![Image](https://pbs.twimg.com/media/HQ1PdF3a8AAqUHN.jpg)
 
 What’s Next?
 
@@ -231,5 +231,5 @@ OpenAI® and its logos are registered trademarks of OpenAI®.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/uber-software-factory-cost/UberEng_2093444169037762840_16.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ1LPdZasAAsgNT.jpg)
 

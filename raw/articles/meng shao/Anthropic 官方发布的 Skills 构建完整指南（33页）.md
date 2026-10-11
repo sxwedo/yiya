@@ -115,7 +115,7 @@ Anthropic 将 Agent Skills 定位为开放标准——像 MCP 一样，希望它
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2020491406423490782/shao__meng_2020491406423490782_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HAo6M62aoAAEA_-?format=jpg&name=medium)
 
 ## 💬 Replies
 

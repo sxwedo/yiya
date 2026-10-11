@@ -18,7 +18,7 @@ We hope their projects will inspire you to build something meaningful.
 
 ## First place: [CrossBeam](https://www.youtube.com/watch?v=jHwBkFSvyk0), Mike Brown
 
-![Image courtesy of Mike Brown.](../_media/claude-meet-the-winners-of-our-built-with-opus-4-6-claude-code-hack/Claude_meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon_1.png)
+![Image courtesy of Mike Brown.](https://assets.claude.com/5a143f0d2f4b5b67b3432a95daafeddec3940ab4.png)
 
 *Image courtesy of Mike Brown.*
 
@@ -38,7 +38,7 @@ Mike built CrossBeam using a workflow of prompting Claude Code and then having C
 
 ## Second place: [Elisa](https://www.youtube.com/watch?v=rsUaz_QAK6o), Jon McBee
 
-![Image courtesy of Jon McBee.](../_media/claude-meet-the-winners-of-our-built-with-opus-4-6-claude-code-hack/Claude_meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon_2.png)
+![Image courtesy of Jon McBee.](https://assets.claude.com/7d139f0e8510d01ec5bb43ecce365c3eccb70150.png)
 
 *Image courtesy of Jon McBee.*
 
@@ -54,7 +54,7 @@ Educators have reached out about using Elisa in classrooms and Jon is working to
 
 ## Third place: [PostVisit.ai](https://youtu.be/V29UCOii2jE), Michał Nedoszytko
 
-![Image courtesy of Michał Nedoszytko.](../_media/claude-meet-the-winners-of-our-built-with-opus-4-6-claude-code-hack/Claude_meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon_3.png)
+![Image courtesy of Michał Nedoszytko.](https://assets.claude.com/79a591324775739d926f39cee607e629591d6005.png)
 
 *Image courtesy of Michał Nedoszytko.*
 
@@ -68,7 +68,7 @@ To build PostVisit, Michał took himself on a hackathon road trip, building whil
 
 ## "Keep Thinking" Prize: [TARA](https://www.youtube.com/watch?v=GFCrXehS1DE), Kyeyune Kazibwe
 
-![Image courtesy of Kyeyune Kazibwe.](../_media/claude-meet-the-winners-of-our-built-with-opus-4-6-claude-code-hack/Claude_meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon_4.png)
+![Image courtesy of Kyeyune Kazibwe.](https://assets.claude.com/6c77dfdbad08af540301b88d02a4bab7b44476e7.png)
 
 *Image courtesy of Kyeyune Kazibwe.*
 
@@ -82,7 +82,7 @@ For the hackathon, Kyeyune uploaded actual dashcam footage from Kira - Matugga R
 
 ## Special Prize — Creative Exploration: [Conductr](https://www.youtube.com/watch?v=X6CqJoyj0kI), Asep Bagja Priandana
 
-![Image courtesy of Asep Bagja Priandana.](../_media/claude-meet-the-winners-of-our-built-with-opus-4-6-claude-code-hack/Claude_meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon_5.jpg)
+![Image courtesy of Asep Bagja Priandana.](https://assets.claude.com/8b6036fa13566bea22b3a97efdc826406cdf3e5f.jpg)
 
 *Image courtesy of Asep Bagja Priandana.*
 

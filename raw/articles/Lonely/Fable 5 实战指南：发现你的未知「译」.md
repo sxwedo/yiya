@@ -29,7 +29,7 @@ type: "Article"
 
 地图——对要做的工作的表征——是我的提示词、技能和上下文，是我给 Claude 的东西。疆域才是工作真正发生的地方：代码库、真实世界、它的实际约束。
 
-![Image](../_media/x-2073261408985497994/Lonely__MH_2073261408985497994_4.jpg)
+![Image](https://pbs.twimg.com/media/HMWv9TVbMAANHzp.jpg)
 
 地图与疆域之间的差距，我称之为未知。当 Claude 遇到一个未知，它必须基于对“我想要什么”的最佳猜测来做决定。工作量越大，Claude 可能遇到的未知就越多。
 
@@ -51,13 +51,13 @@ Fable 是第一个让我感到工作质量的上限取决于我澄清未知的�
 
 - 未知的未知：我完全没考虑过的东西。我不知道什么知识？我知道一件事可以做得有多好吗？
 
-![Image](../_media/x-2073261408985497994/Lonely__MH_2073261408985497994_1.jpg)
+![Image](https://pbs.twimg.com/media/HMWv-gmaIAAgeDD.jpg)
 
 最优秀的 agentic 程序员拥有相对较少的未知。看 [Boris](https://www.linkedin.com/in/bcherny) 或 [Jarred](https://www.linkedin.com/in/jarred-sumner-a8772425) 写提示词，很明显他们对自己想要什么了如指掌。他们与代码库和模型行为深度同步。
 
 但他们也在预设未知。从很多方面来看，减少和规划未知，就是 agentic 编程的核心技能。好消息是，这是一项可以通过与 Claude 协作来提高的技能。
 
-![Image](../_media/x-2073261408985497994/Lonely__MH_2073261408985497994_2.jpg)
+![Image](https://pbs.twimg.com/media/HMWv-8BbkAA9Qib.jpg)
 
 指导 Claude 是一种微妙的平衡。如果你太具体，Claude 会照你的指令走，即使转向更合适；如果你太模糊，Claude 往往会基于行业最佳实践做出选择，而这些选择可能并不适配你的任务。
 
@@ -71,7 +71,7 @@ Claude 可以帮你更快地发现未知。它能极快地搜索你的代码库�
 
 在本文中，我将详细介绍一些我用来发现未知的模式。我不一定每次都把每种技巧都用上，但手里有一套可用的技术工具箱是很有价值的。
 
-![Image](../_media/x-2073261408985497994/Lonely__MH_2073261408985497994_3.jpg)
+![Image](https://pbs.twimg.com/media/HMWv_VRbgAASbpg.jpg)
 
 ## 一、盲区扫描：找出你不知道自己不知道的东西
 
@@ -151,7 +151,7 @@ Claude 可以帮你更快地发现未知。它能极快地搜索你的代码库�
 
 - “维护一个 implementation-notes.md 文件。如果你遇到一个边缘情况迫使你偏离计划，选择保守方案，记录在 ‘Deviations’ 下，然后继续。”
 
-![Image](../_media/x-2073261408985497994/Lonely__MH_2073261408985497994_5.jpg)
+![Image](https://pbs.twimg.com/media/HMWv_vrbQAAGxHm.jpg)
 
 ## 七、交付物打包：加速认同与审批
 
@@ -193,7 +193,7 @@ Claude 可以帮你更快地发现未知。它能极快地搜索你的代码库�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073261408985497994/Lonely__MH_2073261408985497994_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMWy7fwbQAAjg4b.jpg)
 
 ## 💬 Replies
 

@@ -69,7 +69,7 @@ AI 领域发展迅速，但这些基础性仓库提供了稳定的构建基础�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2025735392423776697/gxjdian_2025735392423776697_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HBzbiQwbsAA3Otk.jpg)
 
 ## 💬 Replies
 

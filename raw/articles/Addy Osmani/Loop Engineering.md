@@ -43,7 +43,7 @@ Then the sixth thing, the memory. A markdown file, or a Linear board, anything t
 
 Both products have all five now.
 
-![Image](../_media/x-2064127981161959567/addyosmani_2064127981161959567_1.png)
+![Image](https://pbs.twimg.com/media/HKU_9kOakAEj0WP.png)
 
 The names are a bit different here and there but the capability is the same thing. Let me go one by one because honestly the details are where a loop either holds together or quietly leaks everywhere.
 
@@ -119,7 +119,7 @@ Build the loop. But build it like someone who intends to stay the engineer, not 
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064127981161959567/addyosmani_2064127981161959567_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HKU_Us-bMAAZO3J.jpg)
 
 ## 💬 Replies
 

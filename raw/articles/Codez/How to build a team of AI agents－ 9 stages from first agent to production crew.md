@@ -23,7 +23,7 @@ What works is structure. The 9 stages below are the structure - built from Anthr
 
 Three tiers: get one agent right, get them coordinating, get the whole crew production-ready.
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_5.jpg)
+![Image](https://pbs.twimg.com/media/HJoU-gnW0AAt9Pf.jpg)
 
 9 stages. 3 tiers. One crew that finishes work while you sleep.
 
@@ -39,11 +39,11 @@ An agent is a loop - the model receives a goal, picks an action, runs it, observ
 
 Everything else in this article assumes you have a real loop in code. Pseudo-code makes the shape obvious:
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_3.jpg)
+![Image](https://pbs.twimg.com/media/HJoVmSwXoAElWHw.jpg)
 
 Notice what is in there: an approval gate, a logging hook, and a clear stop condition. If your “agent” is one big prompt that asks the model to do everything in one shot, you do not have an agent - you have a long completion. Everything later in this article needs a real loop to build on.
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_7.jpg)
+![Image](https://pbs.twimg.com/media/HJoV2HlXwAQJSIr.jpg)
 
 Pro tip: The stop condition matters more than people think. A loop with no clear end will burn money. Common stop conditions: goal achieved, max iterations reached (typically 30–50), explicit user halt, error threshold exceeded. Always set max\_iterations. A runaway agent is worse than a slow one.
 
@@ -63,7 +63,7 @@ The four operations that matter, from Anthropic’s own engineering writing:
 
 - Isolate -subagents work in their own context window so the main thread stays clean.
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_2.jpg)
+![Image](https://pbs.twimg.com/media/HJoXAXTWgAg0117.jpg)
 
 In practice this means a structured context object, not free-form string concatenation. Here is the shape a working agent context takes:
 
@@ -79,7 +79,7 @@ That improvisation is where most production failures come from. Not because the 
 
 A typed schema converts the task from “guess how to call this” into “fill in these fields.” And it lets the harness enforce rules the model cannot bypass:
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_8.jpg)
+![Image](https://pbs.twimg.com/media/HJoXZRvXwAIJq8I.jpg)
 
 The fields beyond basic types are what make it production-grade: preconditions are what must be true before the call runs. side\_effects tell downstream readers what will happen. requires\_approval routes the call to a human checkpoint. blocked\_targets are hard constraints the harness enforces no matter what the model decides.
 
@@ -140,7 +140,7 @@ The orchestrator is usually the most capable model (Opus, in 2026). The subagent
 
 This is where the cost math works: the expensive model runs the plan, the cheap models run the work. A crew on this pattern can run 5–10x the tasks of a single-Opus setup at lower total cost.
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_4.jpg)
+![Image](https://pbs.twimg.com/media/HJoYbjcXMAEq-hd.jpg)
 
 ---
 
@@ -181,7 +181,7 @@ Three things make this work that pure memory does not: explicit assignees mean t
 
 Explicit dependencies stop subagents from running steps whose inputs are not ready. Explicit status lets the orchestrator check progress without reasoning over transcripts.
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_1.jpg)
+![Image](https://pbs.twimg.com/media/HJoZeKJW0AIiouL.jpg)
 
 ---
 
@@ -251,7 +251,7 @@ The trajectory\_must\_include list is the secret weapon. Two agents can produce 
 
 Trajectory checks catch the unsafe path before it ships. Pair this with anonymous logging of real production runs and you build the eval set automatically from cases that already happened.
 
-![Image](../_media/x-2061107447482237324/0xCodez_2061107447482237324_6.png)
+![Image](https://pbs.twimg.com/media/HJoaW86WwAMx17X.png)
 
 ---
 
@@ -325,7 +325,7 @@ If you have read this far and tried multi-agent setups before, the answer to “
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2061107447482237324/0xCodez_2061107447482237324_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HJodvFOXcAQIKcl.jpg)
 
 ## 💬 Replies
 

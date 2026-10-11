@@ -24,7 +24,7 @@ Read it now, then check the article below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070577723089768500/Raytar_2070577723089768500_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLwqPcKWYAAlvn_.jpg?name=orig)
 
 ## 💬 Replies
 

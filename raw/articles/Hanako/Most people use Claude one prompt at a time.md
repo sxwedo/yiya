@@ -33,7 +33,7 @@ That's it. No framework, no orchestration layer. The simplest thing that works, 
 
 Once a job repeats on its own, Claude stops being a chat window and starts being a worker that shows up on its own schedule.
 
-![Image](../_media/x-2065807526268920103/hanakoxbt_2065807526268920103_1.jpg)
+![Image](https://pbs.twimg.com/media/HKsQUAEXkAAup04.jpg)
 
 The trick is matching the interval to the task. Fast-changing things get tight loops. Slow things get a nightly pass.
 
@@ -51,7 +51,7 @@ None of them need you. They run side by side, on their own intervals, while you 
 
 This is how one person does the volume of a team. Not by typing faster, but by having dozens of loops typing for them around the clock.
 
-![Image](../_media/x-2065807526268920103/hanakoxbt_2065807526268920103_2.jpg)
+![Image](https://pbs.twimg.com/media/HKsQwJqXoAAuCZK.jpg)
 
 The mental shift is the hard part. You stop thinking "what do I prompt next" and start thinking "what job should run on its own from now on.
 
@@ -93,7 +93,7 @@ Once you trust one loop, the second one takes ten minutes. By the fifth, you sto
 
 A good first loop has three properties. It runs on a clear schedule, it has a narrow job it can't misread, and its output is something you can glance at in seconds. CI watcher, PR rebaser, daily digest. Boring, bounded, easy to verify.
 
-![Image](../_media/x-2065807526268920103/hanakoxbt_2065807526268920103_3.jpg)
+![Image](https://pbs.twimg.com/media/HKsyRjZWMAAaoyX.jpg)
 
 The loops that fail are the vague ones. "Improve the codebase" is not a loop, it's a wish. "Find functions over 50 lines and open an issue for each" is a loop. The tighter the job, the more you can trust it running without you.
 
@@ -127,7 +127,7 @@ Follow me and subscribe to my Telegram channel:
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065807526268920103/hanakoxbt_2065807526268920103_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HKsNsKIXkAApAUV.jpg)
 
 ## 💬 Replies
 

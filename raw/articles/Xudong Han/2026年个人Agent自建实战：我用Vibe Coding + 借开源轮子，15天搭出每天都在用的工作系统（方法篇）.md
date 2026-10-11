@@ -43,7 +43,7 @@ type: "Article"
 
 > "请fork https://github.com/HKUDS/nanobot 到本地，帮我安装好，要求能正常运行，一步步告诉我需要做什么。"
 
-![Image](../_media/x-2051891753821556976/Xudong07452910_2051891753821556976_1.png)
+![Image](https://pbs.twimg.com/media/HHlspAhXsAEkAHe.png)
 
 它会读项目，给你一串安装命令，每一步执行前你看一眼再回车就行。中途遇到报错它也会接着帮你排查。
 
@@ -73,7 +73,7 @@ type: "Article"
 
 如果走完这一段还是觉得吃力，回头我可以单独录个视频补一下。
 
-![Image](../_media/x-2051891753821556976/Xudong07452910_2051891753821556976_5.jpg)
+![Image](https://pbs.twimg.com/media/HHnEnzxW8AM9dA8.jpg)
 
 凭证全部填完之后，跟Claude Code说
 
@@ -91,7 +91,7 @@ type: "Article"
 
 整体长这样：
 
-![Image](../_media/x-2051891753821556976/Xudong07452910_2051891753821556976_3.jpg)
+![Image](https://pbs.twimg.com/media/HHkxQLhXkAQovZ_.jpg)
 
 \`tests/\`不用你建，nanobot仓库本身就自带完整的测试目录（\`tests/channels/\`、\`tests/providers/\`这些子目录都现成的），第五步往里加\`test\_\*.py\`就行。
 
@@ -158,7 +158,7 @@ type: "Article"
 
 表本身不重要，重要的是逼自己用一行字说清楚每个场景的痛点和期望。说不清楚的，下一步brainstorm阶段你自然会被AI问出来。
 
-![Image](../_media/x-2051891753821556976/Xudong07452910_2051891753821556976_4.jpg)
+![Image](https://pbs.twimg.com/media/HHknf9RX0Ashs-x.jpg)
 
 表本身不重要，重要的是逼自己用一行字说清楚每个场景的痛点和期望，说不清楚的，下一步 brainstorm 阶段你自然会被 AI 问出来。
 
@@ -212,7 +212,7 @@ vibe coding最容易偷懒的环节是测试。写完跑通就走人，结果两
 
 没测试，你的Agent就长不大。
 
-![Image](../_media/x-2051891753821556976/Xudong07452910_2051891753821556976_2.jpg)
+![Image](https://pbs.twimg.com/media/HHkymzQWYAAZwyo.jpg)
 
 ## 从别的agent项目里“偷点”好设计过来
 
@@ -285,7 +285,7 @@ EvoPaw : https://github.com/hxdflying/EvoPaw
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2051891753821556976/Xudong07452910_2051891753821556976_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HHmGrS8WkAU4DzM.jpg)
 
 ## 💬 Replies
 

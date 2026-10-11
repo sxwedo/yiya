@@ -43,7 +43,7 @@ March 2026. Andrej Karpathy pushes three files to GitHub. Around 630 lines betwe
 
 One held the model. One scored it. One told the agent which file it was allowed to touch. Then he closed the laptop.
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_11.jpg)
+![Image](https://pbs.twimg.com/media/HOXQH4PXwAAXYLe.jpg)
 
 Two days later that setup had worked through roughly 700 experiments and surfaced 20 improvements to a model he had been tuning by hand for two decades. 
 
@@ -82,7 +82,7 @@ Keeping the layers separate matters for one practical reason: each fails on a di
 
 The higher the floor, the further you are from the scene, and the longer mistakes compound before anyone catches them
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_8.png)
+![Image](https://pbs.twimg.com/media/HOXR9t5XMAAbw_H.png)
 
 ---
 
@@ -116,7 +116,7 @@ One turn of a real loop, in order:
 
 Take any one of those out and the thing either stalls or spins in place while the meter runs
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_4.jpg)
+![Image](https://pbs.twimg.com/media/HOXTZI8XkAArPCu.jpg)
 
 ---
 
@@ -153,7 +153,7 @@ if any step fails, fix it and rerun from step 1
 
 The more measurable those steps are, the less room Claude has to talk itself into finishing early
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_9.jpg)
+![Image](https://pbs.twimg.com/media/HOXT4mMX0AALl2B.jpg)
 
 ---
 
@@ -224,7 +224,7 @@ Rajasekaran wired his evaluator to Playwright MCP for exactly that reason. The v
 
 The generator sets what your loop can produce. The evaluator sets what it refuses to produce.
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_10.jpg)
+![Image](https://pbs.twimg.com/media/HOXWfSQW8AAT93R.jpg)
 
 ---
 
@@ -286,7 +286,7 @@ For long runs, pair the state file with a standing VISION.md. STATE.md holds the
 
 Give parallel agents isolation: worktree so two of them can never write the same file - two agents editing one file is the same mess as two engineers pushing to the same lines without talking. Let the builder run fast and cheap, and hand the reviewer the slower, stricter model
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_5.jpg)
+![Image](https://pbs.twimg.com/media/HObt03YWEAENB9M.jpg)
 
 ---
 
@@ -308,7 +308,7 @@ Local scheduling is "run a few more rounds while I am here." Cloud scheduling is
 
 The layer underneath is ordinary cron: five fields, one-minute granularity, and CLAUDE\_CODE\_DISABLE\_CRON=1 turns the whole thing off.
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_7.jpg)
+![Image](https://pbs.twimg.com/media/HOXXt9hWsAA_j9-.jpg)
 
 ---
 
@@ -334,7 +334,7 @@ Three things worth taking from it:
 
 1. The humans did not leave. Those 1,300 PRs are still reviewed by engineers. They changed desks, from writing to reviewing.
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_1.jpg)
+![Image](https://pbs.twimg.com/media/HOXgctfXgAApudP.jpg)
 
 > [⚠️](https://abs.twimg.com/emoji/v2/svg/26a0.svg) On the numbers flying around. "90 percent of Claude Code writes itself" and similar headline figures are mostly secondhand. 
 
@@ -381,7 +381,7 @@ Token spend, PR count and number of scheduled loops all resemble progress, and n
 
 Claude Code hands you the inputs: /usage breaks recent spend down by skills, subagents and MCPs, /goal with no argument reports turns and tokens on the active goal, and /workflows shows per-agent usage while letting you kill any agent mid-run.
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_6.jpg)
+![Image](https://pbs.twimg.com/media/HOXgOfIWEAAKFTI.jpg)
 
 ---
 
@@ -407,7 +407,7 @@ What stays scarce is judgment. Knowing which plan is right, which change should 
 
 The loop can produce a hundred options and it can even pick one, but its basis for picking is "looks reasonable" rather than "is correct." That gap is the entire reason the job still exists
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_2.jpg)
+![Image](https://pbs.twimg.com/media/HOaOgQbXoAA2XJI?format=jpg&name=medium)
 
 ---
 
@@ -448,7 +448,7 @@ Build the loop. Build it as someone who plans to stay the engineer, rather than 
 
 ---
 
-![Image](../_media/x-2083061585858158636/polydao_2083061585858158636_3.jpg)
+![Image](https://pbs.twimg.com/media/HOXPYo-WcAAZam9.jpg)
 
 The stack:
 
@@ -469,7 +469,7 @@ The stack:
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2083061585858158636/polydao_2083061585858158636_12.jpg)
+![Image 1](https://pbs.twimg.com/media/HOiD79EWwAEnPYM.jpg)
 
 ## 💬 Replies
 

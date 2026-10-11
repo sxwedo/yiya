@@ -463,7 +463,7 @@ Claude Code 的上限，从来不是模型能力，而是你是否在“系统�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074036521057812707/0xluffy_eth_2074036521057812707_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMh1MEKaIAADgTS.jpg)
 
 ## 💬 Replies
 

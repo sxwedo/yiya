@@ -21,7 +21,7 @@ type: "Article"
 
 在搭建知识库前，我想有必要区分下内容、信息、知识这3个概念。
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_18.jpg)
+![Image](https://pbs.twimg.com/media/HHzcCzUbEAAmR0A.jpg)
 
 在当下大模型快速发展、能力逐渐趋同的背景下，模型本身越来越像「底层算力」，而真正拉开差距的，是谁能把「内容 → 信息 → 知识」这条链路打通，并沉淀成属于自己的知识基座。
 
@@ -68,7 +68,7 @@ type: "Article"
 
 简单来说，知识系统就是一个「内容 → 信息 → 知识」的提炼与沉淀过程。在 AI 出现之前，这个过程完全依赖我们的头脑🧠去处理和整合。而 Karpathy 的方法，则提供了一个完美方案：用 LLM 作为外挂，让你的第二大脑高效运转。
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_8.jpg)
+![Image](https://pbs.twimg.com/media/HHzhbAQaAAA4OXr.jpg)
 
 ## 
 
@@ -88,7 +88,7 @@ type: "Article"
 
 ## 具体搭建步骤
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_9.png)
+![Image](https://pbs.twimg.com/media/HHzhNkfbMAAdzjg.png)
 
 [1️⃣](https://abs.twimg.com/emoji/v2/svg/31-20e3.svg) 安装Obsidian，搜索官网即可，暂略
 
@@ -96,17 +96,17 @@ type: "Article"
 
 设置——第三方插件——社区插件市场——搜索“Terminal”——安装——启用
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_11.jpg)
+![Image](https://pbs.twimg.com/media/HHzhss6bMAAoHi4.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_5.jpg)
+![Image](https://pbs.twimg.com/media/HHzhwWTbgAAdBG2.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_2.jpg)
+![Image](https://pbs.twimg.com/media/HHzhyuUakAAm9Se.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_3.jpg)
+![Image](https://pbs.twimg.com/media/HHzh2H1aoAELFVb.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_1.jpg)
+![Image](https://pbs.twimg.com/media/HHzh6E3aMAAgO8C.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_7.jpg)
+![Image](https://pbs.twimg.com/media/HHzh9AibwAA49kb.jpg)
 
 [3️⃣](https://abs.twimg.com/emoji/v2/svg/33-20e3.svg) 在Terminal中启动Claude Code
 
@@ -114,7 +114,7 @@ type: "Article"
 
 卡兹克：[从0开始，在国内用上Claude Code的终极保姆教程来了。](https://waytoagi.feishu.cn/wiki/XEJXwgpsFiTxk6kVmNPcNkXgnYe)）
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_12.png)
+![Image](https://pbs.twimg.com/media/HHziDv6bUAAQLBd.png)
 
 [4️⃣](https://abs.twimg.com/emoji/v2/svg/34-20e3.svg) 安装LLM wiki的系统
 
@@ -122,15 +122,15 @@ type: "Article"
 
 安装好后，可能会提示安装一些辅助插件
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_10.jpg)
+![Image](https://pbs.twimg.com/media/HHzi6G0boAAPcWp.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_6.jpg)
+![Image](https://pbs.twimg.com/media/HHzi1iFbEAAisxi.jpg)
 
 Dataview, Templater, Obsidian Gi
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_14.jpg)
+![Image](https://pbs.twimg.com/media/HHzjH08aMAApdsa.jpg)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_15.jpg)
+![Image](https://pbs.twimg.com/media/HHzjLfhbsAAM_Di.jpg)
 
 ## 
 
@@ -138,17 +138,17 @@ Dataview, Templater, Obsidian Gi
 
 1、输入信息源文章
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_17.png)
+![Image](https://pbs.twimg.com/media/HHzjOtcbIAA7bn2.png)
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_4.png)
+![Image](https://pbs.twimg.com/media/HHzjTo9bEAAPjbw.png)
 
 2、给出输出需求
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_13.png)
+![Image](https://pbs.twimg.com/media/HHzjWk8bsAAzw0V.png)
 
 3、写好的文章会存档在Obsidian本地
 
-![Image](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_16.jpg)
+![Image](https://pbs.twimg.com/media/HHzjZvzaIAIwk29.jpg)
 
 ## 
 
@@ -164,7 +164,7 @@ Dataview, Templater, Obsidian Gi
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052766937931973065/MindOS_Lisa_2052766937931973065_19.jpg)
+![Image 1](https://pbs.twimg.com/media/HHzflr-bwAAjy4h.jpg)
 
 ## 💬 Replies
 

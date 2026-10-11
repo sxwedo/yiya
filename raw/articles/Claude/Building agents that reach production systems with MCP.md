@@ -80,7 +80,7 @@ MCP standardizes how AI agents ([*clients*](https://modelcontextprotocol.io/docs
 
 [Tool search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) defers loading all tools into context, rather than loading them upfront. This allows the agent to search the catalog at runtime, pulling in the relevant tools when needed. In our [testing](https://www.anthropic.com/engineering/advanced-tool-use), tool search tends to cut tool-definition tokens by 85%+ while maintaining high selection accuracy.
 
-![Reducing context usage with tool search. Source: advanced tool use](../_media/claude-building-agents-that-reach-production-systems-with-mcp/Claude_building-agents-that-reach-production-systems-with-mcp_1.webp)
+![Reducing context usage with tool search. Source: advanced tool use](https://assets.claude.com/3ead16dbc271d174d8aa0067f2df09f23f964daf.png)
 
 *Reducing context usage with tool search. Source: advanced tool use*
 
@@ -100,7 +100,7 @@ Together, these patterns compose naturally across multiple servers: leaner conte
 
 Combining MCP servers with skills allows Claude to act more like a domain-specialist. Grab your tools via MCP, and give Claude the skills to orchestrate workflows end-to-end. See our [data plugin](https://claude.ai/directory/plugins/data%40knowledge-work-plugins) for Cowork as an example, which consists of 10 skills and 8 MCP servers for apps like Snowflake, Databricks, BigQuery, Hex and more.
 
-![Combining skills with MCP. Source: Extending Claude’s capabilities with skills and MCP servers](../_media/claude-building-agents-that-reach-production-systems-with-mcp/Claude_building-agents-that-reach-production-systems-with-mcp_2.png)
+![Combining skills with MCP. Source: Extending Claude’s capabilities with skills and MCP servers](https://assets.claude.com/63e82441ddfbcf4a29659d5007661b57e69a295e.png)
 
 *Combining skills with MCP. Source: Extending Claude’s capabilities with skills and MCP servers*
 

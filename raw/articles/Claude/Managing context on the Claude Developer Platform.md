@@ -20,7 +20,7 @@ As production agents handle more complex tasks and generate more tool results, t
 
 **Context editing** automatically clears stale tool calls and results from within the context window when approaching token limits. As your agent executes tasks and accumulates tool results, context editing removes stale content while preserving the conversation flow, effectively extending how long agents can run without manual intervention. This also increases the effective model performance as Claude focuses only on relevant context.
 
-![](../_media/claude-managing-context-on-the-claude-developer-platform/Claude_context-management_1.webp)
+![](https://assets.claude.com/614d9e48dd7fdba4d52f7ab3f12129793f337d01.png)
 
 **The memory tool** enables Claude to store and consult information outside the context window through a file-based system. Claude can create, read, update, and delete files in a dedicated memory directory stored in your infrastructure that persists across conversations. This allows agents to build up knowledge bases over time, maintain project state across sessions, and reference previous learnings without having to keep everything in context.
 

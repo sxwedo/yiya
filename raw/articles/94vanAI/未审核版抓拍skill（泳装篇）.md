@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/94vanai/status/2097899623645901136) · [X 文章](https://x.com/i/article/2097872109913481225)
 
-![封面](../_media/x-2097899623645901136/94vanAI_2097898811146502144_1.jpg)
+![封面](https://pbs.twimg.com/media/HR072oUaAAA-P2c.jpg)
 
 # 夏季泳装 × 垫图 × Universal COS × Multi-Person 男友视角自然抓拍 Skill
 

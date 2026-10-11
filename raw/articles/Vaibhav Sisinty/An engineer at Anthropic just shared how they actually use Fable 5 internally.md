@@ -35,7 +35,7 @@ Every pointer is now 2-3 lines max. No fluff. Want me to lock this in?
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064637175644463464/VaibhavSisinty_2064637175644463464_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKcQke2bEAAlw_Y.jpg?name=orig)
 
 ## 💬 Replies
 

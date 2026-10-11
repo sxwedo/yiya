@@ -18,7 +18,7 @@ Hermes官方 @Teknium @NousResearch 发帖，Hermes Curator 功能正式上线�
 AI Agent 自己生成的 skills 再也不会越用越乱了！
 每周自动追踪、自动合并、自动剪枝，真正实现 self-improvement loop 闭环！
 
-![Image](../_media/x-2050399225419370967/justloveabit_2050399225419370967_1.jpg)
+![Image](https://pbs.twimg.com/media/HHP2zDHbwAA21L0.jpg)
 
 先说痛点（所有玩过 Agent 的人都懂）：
 你让 Agent 帮你写代码、做研究、建工作流……它每次都“学会”新 skill。
@@ -83,7 +83,7 @@ hermes curator run --force
 
 这波更新直接把 Hermes 从「好用的 Agent」推到了「能长期陪伴你一起成长的 Agent」。
 
-![Image](../_media/x-2050399225419370967/justloveabit_2050399225419370967_2.jpg)
+![Image](https://pbs.twimg.com/media/HHP2-G2awAAuO8a.jpg)
 
 转发给你正在卷 Agent 的朋友，一起把 skills 从“混乱”进化成“智慧”！
 
@@ -91,7 +91,7 @@ hermes curator run --force
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2050399225419370967/justloveabit_2050399225419370967_3.jpg)
+![Image 1](https://pbs.twimg.com/media/HHP2q8RaMAApo2H.jpg)
 
 ## 💬 Replies
 

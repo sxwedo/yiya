@@ -14,7 +14,7 @@ When working with Claude Code, I’m often reminded of the difference between th
 
 The map, a representation of the work to be done, is my prompts and skills and context, it’s what I give Claude. The territory is where the work needs to happen, the codebase, the real world, its actual constraints.
 
-![](../_media/claude-a-field-guide-to-claude-fable-5-finding-your-unknowns/Claude_a-field-guide-to-claude-fable-finding-your-unknowns_1.png)
+![](https://assets.claude.com/0c9ef5f6d0bb96e0267b77ae7ec4ee3249a71778.png)
 
 The difference between the map and the territory is what I call *unknowns*. When Claude runs into an unknown, it needs to make a decision based on its best guess of what I want. The more work being done, the more unknowns Claude might run into.
 

@@ -12,7 +12,7 @@ date: "June 8, 2026"
 
 Today we're releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple's Foundation Models framework to call Claude for more complex workflows.
 
-![](../_media/claude-claude-for-foundation-models/Claude_claude-for-foundation-models_1.png)
+![](https://assets.claude.com/2c536ac9545ae24001d8f6d0ce604702e7f27eee.png)
 
 Apple’s Foundation Models framework gives developers access to tap into models natively from Swift. It is very easy to use and can return typed Swift values through guided generation in as few as three lines of code. Developers can use this to tap into Apple’s on-device models for fast, local tasks like summarization or extraction.
 
@@ -24,7 +24,7 @@ Because Apple's framework returns typed Swift values from @Generable annotations
 
 The Foundation Models framework already powers a range of intelligent on-device features — journaling apps that surface personalized prompts, document apps that summarize contracts, learning apps that explain a concept at a student's level. Adding Claude extends each of those patterns.
 
-![](../_media/claude-claude-for-foundation-models/Claude_claude-for-foundation-models_2.png)
+![](https://assets.claude.com/1fe4afefb5a24989001f5b36f9a211f597442586.png)
 
 A journaling app can generate daily prompts on-device, then ask Claude to find threads across months of entries. A study app can define a term on-device, then hand off to Claude when the student follows up with "why does this matter for everything else we've covered?"
 

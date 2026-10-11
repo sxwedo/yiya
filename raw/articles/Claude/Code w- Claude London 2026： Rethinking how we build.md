@@ -12,7 +12,7 @@ ingested: "2026-09-11"
 
 This week in London, we brought [Code w/ Claude](https://claude.com/code-with-claude/london) to Europe. The event brought together builders, developers, and founders for two days of keynotes, breakout sessions, and workshops with the teams building Claude.
 
-![Cat Wu, Head of Product, Claude Code, chats with an attendee between sessions. ](../_media/claude-code-w-claude-london-2026-rethinking-how-we-build/Claude_code-w-claude-london-2026-rethinking-how-we-build_1.jpg)
+![Cat Wu, Head of Product, Claude Code, chats with an attendee between sessions. ](https://assets.claude.com/31b51736f60c127b3a7f512cd7be4c40a62dd767.jpg)
 
 *Cat Wu, Head of Product, Claude Code, chats with an attendee between sessions.*
 
@@ -24,7 +24,7 @@ From workshops highlighting how to [go beyond the basics](https://claude.com/cod
 
 ## What was announced
 
-![Katelyn Lesse, Head of Engineering, Claude Developer Platform, and Angela Jiang, Head of Product, Claude Developer Platform, demo some of our new Claude Managed Agents features during Code w/ Claude London. ](../_media/claude-code-w-claude-london-2026-rethinking-how-we-build/Claude_code-w-claude-london-2026-rethinking-how-we-build_2.jpg)
+![Katelyn Lesse, Head of Engineering, Claude Developer Platform, and Angela Jiang, Head of Product, Claude Developer Platform, demo some of our new Claude Managed Agents features during Code w/ Claude London. ](https://assets.claude.com/c6233df0e9437b16fd5fa6660594a4384e14a9a0.jpg)
 
 *Katelyn Lesse, Head of Engineering, Claude Developer Platform, and Angela Jiang, Head of Product, Claude Developer Platform, demo some of our new Claude Managed Agents features during Code w/ Claude London.*
 
@@ -37,7 +37,7 @@ Teams including Amplitude, Clay, and Rogo are already building on Managed Agents
 
 ## In case you missed it
 
-![Lisa Crofoot, Research Product Manager, presents during the Code w/ Claude London keynote. ](../_media/claude-code-w-claude-london-2026-rethinking-how-we-build/Claude_code-w-claude-london-2026-rethinking-how-we-build_3.jpg)
+![Lisa Crofoot, Research Product Manager, presents during the Code w/ Claude London keynote. ](https://assets.claude.com/e442339a37c2269791017f2159a2b3022c9d598a.jpg)
 
 *Lisa Crofoot, Research Product Manager, presents during the Code w/ Claude London keynote.*
 

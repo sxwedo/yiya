@@ -13,7 +13,7 @@ type: "Article"
 
 > TLDR​：Claude Code的1902个源文件意外泄露。我翻完之后发现，这是一份关于「harness engineering」的绝佳教材。Claude Code好用，60%靠Opus模型本身的能力，40%靠围绕模型搭建的工程系统（也就是harness）。这个harness包括：一套精心拼装的system prompt、一个用第二AI做安全审查的四层权限系统、一个只记偏好不记代码的记忆系统、一套9段式结构化上下文压缩、以及一个像真实公司一样运转的多Agent协作框架。对于每个用AI的人来说，这些设计思路都可以直接借鉴。
 
-![Image](../_media/x-2038944798816505991/AlchainHust_2038944798816505991_4.jpg)
+![Image](https://pbs.twimg.com/media/HEvJFxqagAAO89m.jpg)
 
 Anthropic今天闹了个群众喜闻乐见的大笑话，算是在4月1日前给全球程序员献礼了。
 
@@ -31,7 +31,7 @@ Anthropic今天闹了个群众喜闻乐见的大笑话，算是在4月1日前给
 
 Claude Code的源码，就是一份harness engineering的活教材。
 
-![Image](../_media/x-2038944798816505991/AlchainHust_2038944798816505991_1.jpg)
+![Image](https://pbs.twimg.com/media/HEvJNZfXwAAlkXU.jpg)
 
 ## 1\. 你以为AI只收到了你的一句话，其实它收到了一整本说明书
 
@@ -65,7 +65,7 @@ Claude Code的源码，就是一份harness engineering的活教材。
 
 - Git仓库状态
 
-![Image](../_media/x-2038944798816505991/AlchainHust_2038944798816505991_3.jpg)
+![Image](https://pbs.twimg.com/media/HEvJTZvW0AAty9x.jpg)
 
 像餐厅的后厨。顾客点了一道菜（你的指令），但厨师同时看到食谱手册、食材清单、过敏信息、出菜标准、这桌客人的历史偏好... 所有这些上下文，决定了端上来的那道菜。
 
@@ -87,7 +87,7 @@ Claude Code的源码，就是一份harness engineering的活教材。
 
 还有个熔断机制。连续3次被拒或累计20次被拒后，直接降级为手动确认模式。
 
-![Image](../_media/x-2038944798816505991/AlchainHust_2038944798816505991_5.jpg)
+![Image](https://pbs.twimg.com/media/HEvJXFhW8AAzCCM.jpg)
 
 像一栋大楼的门禁。第一道门刷工卡自动过，第二道看你是不是员工，第三道看楼层是否需要授权，第四道才是人工安保审查。连续3次被拦？保安把你请到大厅等人来领。
 
@@ -113,7 +113,7 @@ Claude Code的auto memory是我用了之后觉得最惊艳的功能之一。它�
 
 最关键的是所有用户消息必须完整保留​。用户的每一句话都可能包含隐含的偏好。AI可能在第3轮被纠正了一个做法，压缩时丢掉那条纠正，后续就会重蹈覆辙。
 
-![Image](../_media/x-2038944798816505991/AlchainHust_2038944798816505991_2.jpg)
+![Image](https://pbs.twimg.com/media/HEvJcSkbwAAOmAr.jpg)
 
 如果你在多轮对话中需要保持AI的记忆，可以借鉴：别说「总结一下我们之前聊了什么」，要给出明确的结构。哪些信息必须保留、哪些可以丢弃、按什么格式组织。结构化压缩比自由总结可靠太多了。
 
@@ -187,7 +187,7 @@ Claude Code好用，60%靠模型能力，40%靠harness工程。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2038944798816505991/AlchainHust_2038944798816505991_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HEvI8ribAAEspCF.jpg)
 
 ## 💬 Replies
 

@@ -8,11 +8,11 @@ date: "2026-09-16T11:04:10.000Z"
 
 # The Ultimate Cloudflare Guide
 
-![](../_media/x-2100178927528595912/eliakuratli_2100178927528595912_1.jpg)
+![](https://pbs.twimg.com/media/HSVVkqfbIAAa3GG.jpg)
 
 The whole developer platform, what each piece is for, what it costs, and where it bites. Written by someone who runs everything on it.
 
-![](../_media/x-2100178927528595912/eliakuratli_2100178927528595912_2.jpg)
+![](https://pbs.twimg.com/media/HSVVlQBacAANfha.jpg)
 
 Most Cloudflare guides are either marketing or a wall of docs links. This is the version I wish I'd had: every part of the platform in plain language, the price of each, the rules for picking between them, and the things that will annoy you.
 
@@ -28,7 +28,7 @@ There's no network to configure, no VPC, no connection string in an env var. You
 
 Your whole stack ends up living in one file, usually under thirty lines.
 
-![](../_media/x-2100178927528595912/eliakuratli_2100178927528595912_3.jpg)
+![](https://pbs.twimg.com/media/HSVVlgFbcAAnQR3.jpg)
 
 # Compute
 
@@ -50,7 +50,7 @@ Cron Triggers are scheduled jobs. They're free. Use them liberally.
 
 Dynamic Workers (open beta) spin up sandboxed isolates on demand in milliseconds, which is how you run code an AI generated without handing it your machine.
 
-![](../_media/x-2100178927528595912/eliakuratli_2100178927528595912_4.jpg)
+![](https://pbs.twimg.com/media/HSVVlygbQAEMqnj.jpg)
 
 Live example. heydecks is a deck API: one POST returns a live URL, a PDF and an editable PPTX. The Worker takes the request and returns instantly, a Queue does the rendering, Durable Objects track job state, and R2 holds the output. Nothing about that shape is unusual, which is the point.
 
@@ -110,7 +110,7 @@ Included each month Worker requests 10 million CPU time 30 million ms Static ass
 
 Past those, you pay per unit: $0.30 per additional million requests, $0.75/GB-month for D1 storage, $0.015/GB-month for R2. Bandwidth is never billed.
 
-![](../_media/x-2100178927528595912/eliakuratli_2100178927528595912_5.jpg)
+![](https://pbs.twimg.com/media/HSVVmC9bkAAB1Rf.jpg)
 
 Two things follow from this table. First, you are not billed for wall-clock time, only CPU time, so a Worker waiting on a slow API costs nothing while it waits. Second, and this is the one that changes people's minds: the free static assets mean a normal website barely touches the 10 million requests. Only code execution counts. Most people quoting themselves $200 a month would land inside the included tier.
 
@@ -154,6 +154,6 @@ Set your billing alerts before you go to bed.
 
 A weekend, roughly. The reason it's worth it isn't the $5. It's that the bill stops being a thing you think about while the products on top of it grow.
 
-![](../_media/x-2100178927528595912/eliakuratli_2100178927528595912_6.jpg)
+![](https://pbs.twimg.com/media/HSVVmQlbsAA6iYy.jpg)
 
 I build [heydecks](https://heydecks.com/), [mrkr](https://mrkr.app/) and [skilessonfinder](https://www.skilessonfinder.com/) on this stack, and post the numbers as they change.

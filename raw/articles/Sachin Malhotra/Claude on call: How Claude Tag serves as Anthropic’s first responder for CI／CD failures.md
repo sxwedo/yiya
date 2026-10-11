@@ -24,7 +24,7 @@ In the past, I would have stopped what I was doing, sat down with my laptop, sig
 
 In this case, Claude found the tests disappeared when a feature flag got turned on that morning, and also that it would be safe to revert. I asked my colleague to revert the flag. Claude pinged me on Slack 3 minutes later to verify the skip rules had indeed been removed and the error rate was back to baseline.
 
-![Redesigned from a real exchange for clarity.](../_media/sachin-claude-oncall-ci/Sachin_Malhotra_ai-ci-cd-on-call_1.png)
+![Redesigned from a real exchange for clarity.](https://assets.claude.com/f5b4aa5251da65b25186018374984cef9d44996d.png)
 
 *Redesigned from a real exchange for clarity.*
 
@@ -74,7 +74,7 @@ There are two other ways the Claude on-call alert process can trigger:
 * A member of the CI team can report an issue in the on-call channel, as was the case in the opening example of 44 missing tests; or
 * Anyone in the company can open an incident through an internal page. If it’s marked as a CI infrastructure incident then a Slack channel is provisioned for that incident and our on-call Claude picks it up.
 
-![](../_media/sachin-claude-oncall-ci/Sachin_Malhotra_ai-ci-cd-on-call_2.png)
+![](https://assets.claude.com/9d24b607b92b034267c9c6095a6bffb2030f1158.png)
 
 The key takeaway here is that the alerting process is deterministic, while on-call escalation has both deterministic and agentic paths. 
 
@@ -88,7 +88,7 @@ For us that’s Grafana, our log store, PagerDuty, GitHub, Kubernetes and Slack 
 
 Executors report the findings back to the orchestration agent which synthesizes and surfaces the information in a coherent SITREP. 
 
-![](../_media/sachin-claude-oncall-ci/Sachin_Malhotra_ai-ci-cd-on-call_3.png)
+![](https://assets.claude.com/64d5b3d1b39aa8a5233ea05ac12c051e1b97f297.png)
 
 The orchestrator and executor agents aren’t searching blind. They are guided by an investigation skill with [more detailed reference markdown files for each bug class](https://github.com/anthropics/oncall-kit/tree/main/skills/triage). 
 
@@ -100,7 +100,7 @@ If the same pattern shows up enough times, we promote it into the investigation 
 
 Even with these tools and context, Claude doesn’t always get it right the first time. Human intuition and experience matter. Claude Tag allows the team to troubleshoot incidents in multi-player mode. Either of us can steer the investigation or add a hypothesis in real-time, together.
 
-![Recreated from a real conversation for clarity.](../_media/sachin-claude-oncall-ci/Sachin_Malhotra_ai-ci-cd-on-call_4.png)
+![Recreated from a real conversation for clarity.](https://assets.claude.com/9280b3233ea5f64b3e0d83ba5602905a77cd5b36.png)
 
 *Recreated from a real conversation for clarity.*
 
@@ -126,7 +126,7 @@ To communicate the full picture across multiple incidents, we created an agent c
 
 One honest note: we needed to iterate the report format several times. Claude can one-shot a skill that generates a status report, but what makes it readable is team-specific taste. It's human communication, not plumbing.
 
-![](../_media/sachin-claude-oncall-ci/Sachin_Malhotra_ai-ci-cd-on-call_5.png)
+![](https://assets.claude.com/41a169c1eb4a8d08db5297034089c893808ab77e.png)
 
 Finally, while Claude keeps a journal for itself in lessons.md, we also want to produce handoff reports for humans as well every Monday. Claude produces daily and weekly summaries so one member of the team can pick up where the other left off.
 

@@ -20,7 +20,7 @@ Many of the tools you use every day [connect directly to Claude](http://claude.c
 
 Until now, a session in the side panel was separate from those in the Claude apps, so context and conversations didn't carry between them. Now, the side panel runs the same Claude Cowork session you use on desktop, web, and mobile for longer, multi-step work. Because sessions live with your account rather than a single device, you can start work in a browser and pick it up later somewhere else.
 
-![](../_media/claude-the-claude-in-chrome-side-panel-is-now-claude-cowork/Claude_cowork-chrome-side-panel_1.png)
+![](https://assets.claude.com/cfb4072a7ab00b6aa3bc7dc0eb8deca9aa3f5a05.png)
 
 As an example, say you're putting together a budget spreadsheet and need to pull in invoices from several vendor portals. Now, you can ask Claude in Chrome to collect the amounts and dates, and it will open the tabs, read each invoice, and build the spreadsheet. Then, you can pick the session up in the desktop app to add files from your computer, or import last month's budget and ask what's changed, allowing you to maintain context across surfaces as you work.
 

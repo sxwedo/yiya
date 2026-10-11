@@ -21,7 +21,7 @@ type: "Article"
 
 来自《The Pragmatic Programmer》一书，直译是“曳光弹”。夜间射击时，机枪手看不清子弹轨迹。曳光弹射击后会发光，可以帮助机枪手修正瞄准偏差。
 
-![Image](../_media/x-2075425094915252235/kasong2048_2075425094915252235_1.png)
+![Image](https://pbs.twimg.com/media/HMy5qdaa8AAqm6b.png)
 
 在软件工程领域，他指一种竖切的开发策略。举个例子，你要做一个完整功能：
 
@@ -71,7 +71,7 @@ type: "Article"
 
 举个实际代码例子，你对 agent 说：给如下模块写测试
 
-![Image](../_media/x-2075425094915252235/kasong2048_2075425094915252235_2.jpg)
+![Image](https://pbs.twimg.com/media/HMzDx3mbsAAE0p3.jpg)
 
 agent 很可能导出并单独测试 discount 方法：
 
@@ -79,7 +79,7 @@ agent 很可能导出并单独测试 discount 方法：
 
 agent 会识别 finalPrice 才是 seam，也就是外部调用者真正接触的接口。于是测试变成：
 
-![Image](../_media/x-2075425094915252235/kasong2048_2075425094915252235_3.jpg)
+![Image](https://pbs.twimg.com/media/HMzF3mDagAAnUfZ.jpg)
 
 总结来说：“先找到模块 seam” 会把 AI 从“测试内部细节”拉回到“测试模块公开边界上的行为”。
 
@@ -123,7 +123,7 @@ agent 会识别 finalPrice 才是 seam，也就是外部调用者真正接触的
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2075425094915252235/kasong2048_2075425094915252235_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HM1j6ZLaEAA7eFg.jpg)
 
 ## 💬 Replies
 

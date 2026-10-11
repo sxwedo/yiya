@@ -20,11 +20,11 @@ In this post, we'll explain why we stopped building specialized agents and start
 
 We used to think agents in different domains would look very different. A coding agent, a research agent, one for finance, one for marketing—each seemed to need its own tools and scaffolding. The industry initially embraced this model of domain-specific agents. But as models improved in intelligence and agent capabilities progressed, we converged on a different approach.
 
-![](../_media/claude-building-agents-with-skills-equipping-agents-for-specialized-work/Claude_building-agents-with-skills-equipping-agents-for-specialized-work_1.png)
+![](https://assets.claude.com/3839436a24bb05c8cb491885831acb92d24c3bee.png)
 
 We came to see code less as just a use case and more as an interface for agents to do almost any digital work. Claude Code is a coding agent, but also a general-purpose agent that happens to work through code.
 
-![](../_media/claude-building-agents-with-skills-equipping-agents-for-specialized-work/Claude_building-agents-with-skills-equipping-agents-for-specialized-work_2.png)
+![](https://assets.claude.com/88670ce1662bc33a0d7019f12b60affcf8f7c9ff.png)
 
 Consider working with Claude Code to generate a financial report. It can call APIs for research, store data in the filesystem, analyze it with Python, and synthesize insights. All of that happens through code. The scaffolding becomes as simple as bash and a filesystem.
 
@@ -146,7 +146,7 @@ Putting it all together, the emerging agent architecture looks like a combinatio
 3. **MCP servers**: Connections to external tools and data sources
 4. **Skills library**: Domain expertise and procedural knowledge
 
-![](../_media/claude-building-agents-with-skills-equipping-agents-for-specialized-work/Claude_building-agents-with-skills-equipping-agents-for-specialized-work_3.png)
+![](https://assets.claude.com/7a74e774acfcc54e8daf30297ecca8581deca386.png)
 
 Each layer has a clear purpose: the loop reasons, the runtime executes, MCP connects, and skills guide. This separation makes the system comprehensible and allows each piece to evolve independently.
 

@@ -48,7 +48,7 @@ For example, a large retail organization we work with built a skill connecting C
 
 [**Subagents**](https://code.claude.com/docs/en/sub-agents) **split exploration from editing.** A subagent is an isolated Claude instance with its own context window that takes a task, does the work, and returns only the final result to the parent. Once the harness is in place, some teams spin up a read-only subagent to map a subsystem and write findings to a file, then have the main agent edit with the full picture.
 
-![Claude Code’s extension layer at a glance.](../_media/claude-how-claude-code-works-in-large-codebases-best-practices-and-/Claude_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start_1.png)
+![Claude Code’s extension layer at a glance.](https://assets.claude.com/5c7ff55cfdaa84b8b6ae03a99ad794f7e3862ce0.png)
 
 *Claude Code’s extension layer at a glance.*
 
@@ -96,7 +96,7 @@ Technical configuration alone doesn't drive adoption. The organizations that got
 
 The rollouts that spread fastest had a dedicated infrastructure investment before broad access. A small team, sometimes even just one person, wired up the tooling so Claude already fit developer workflows when they first touched it. At one company, a couple of engineers built a suite of plugins and MCPs that were available on day one. At another, an entire team focused on managing AI coding tools had the infrastructure in place before the rollout began. In both cases, developers' first experience was productive rather than frustrating, and adoption spread from there.
 
-![](../_media/claude-how-claude-code-works-in-large-codebases-best-practices-and-/Claude_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start_2.png)
+![](https://assets.claude.com/f6aed9026a2db46aee2b02175e4bc20e7e67aac6.png)
 
 The teams doing this work today tend to sit under developer experience or developer productivity, which is typically the function responsible for onboarding new engineers and building developer tooling. An emerging role in several organizations is an agent manager: a hybrid PM/engineer function dedicated to managing the Claude Code ecosystem. For organizations without a dedicated team, the minimum viable version is a DRI: one person with ownership over the Claude Code configuration, the authority to make calls on settings, permissions policy, the plugin marketplace, and CLAUDE.md conventions, and the responsibility to keep them current.
 
@@ -110,7 +110,7 @@ We’ve observed the smoothest deployments at organizations that establish cross
 
 Claude Code is designed around conventional software engineering environments where engineers are the primary codebase contributors, the repo uses Git, and code follows standard directory structures. Most large codebases fit this mold, but non-traditional setups such as game engines with large binary assets, environments with unconventional version control, or non-engineers contributing to the codebase require additional configuration work. Our guidance assumes a conventional setup and the patterns we’ve described have worked across many of our customers. Any remaining complexity requires judgment specific to your codebase, tooling, and organization. That's where Anthropic's Applied AI team works directly with engineering teams to translate these patterns into your organization’s specific requirements.
 
-![](../_media/claude-how-claude-code-works-in-large-codebases-best-practices-and-/Claude_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start_3.png)
+![](https://assets.claude.com/617e97d1759e010424e5026a3096942e804af149.png)
 
 *Get started with* [*Claude Code for Enterprise*](https://claude.com/product/claude-code/enterprise)*.*
 

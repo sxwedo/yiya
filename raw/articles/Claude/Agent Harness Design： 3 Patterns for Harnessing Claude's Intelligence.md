@@ -24,13 +24,13 @@ We suggest building applications using tools that Claude understands well. 
 
 In late 2024, Claude 3.5 Sonnet reached 49% on SWE-bench Verified—then [state of the art](https://www.anthropic.com/engineering/swe-bench-sonnet)—with only a [bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool) and a [text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool) for viewing, creating, and editing files. Claude Code is grounded in these same tools. [Bash](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool) wasn’t designed for building agents, but it's a tool that Claude *knows* how to use and gets better at using over time. 
 
-![Scores on the SWE-bench Verified benchmark across Claude model versions highlight its evolution.](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_1.png)
+![Scores on the SWE-bench Verified benchmark across Claude model versions highlight its evolution.](https://assets.claude.com/9ff0af45fd385dc84e3043c0646dd4b98ceba256.png)
 
 *Scores on the SWE-bench Verified benchmark across Claude model versions highlight its evolution.*
 
 We've seen Claude compose these general tools into patterns that solve different problems. For instance, [Agent Skills](https://agentskills.io/home), [programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling), and [the memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool) are all built from the bash and text editor tools.
 
-![Programmatic tool calling, skills, and memory are compositions of our bash and text editor tools.](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_2.png)
+![Programmatic tool calling, skills, and memory are compositions of our bash and text editor tools.](https://assets.claude.com/4f2f17a50558ff747a3cc161f845023ab21a9f21.png)
 
 *Programmatic tool calling, skills, and memory are compositions of our bash and text editor tools.*
 
@@ -42,7 +42,7 @@ We've seen Claude compose these general tools into patterns that solve different
 
 A common assumption is that every tool result should flow back through Claude’s [context window](https://platform.claude.com/docs/en/build-with-claude/context-windows) to inform the next action. Processing tool results in tokens can be slow, costly, and unnecessary if it only needs to be passed to the next tool or if Claude only cares about a small slice of the output. 
 
-![Claude calls tools, which are executed in an environment.](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_3.png)
+![Claude calls tools, which are executed in an environment.](https://assets.claude.com/846ce7bdd3af066b26f3eb238cce8df7302b9ccb.png)
 
 *Claude calls tools, which are executed in an environment.*
 
@@ -50,7 +50,7 @@ Consider reading a large table to reason about a single column: the whole table 
 
 Giving Claude a [code execution](https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool) tool (e.g., [bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool) or [language-specific REPL](https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool)) addresses this: it allows Claude to write code to express tool calls and the logic between them. Rather than the harness deciding that every tool call result is processed as tokens, Claude decides what results to pass through, filter, or pipe into the next call without touching the context window. Only the output of code execution reaches Claude’s context window.
 
-![Claude can write code that expresses tool calls and the logic between them.](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_4.png)
+![Claude can write code that expresses tool calls and the logic between them.](https://assets.claude.com/bd8453083ea472d1e2af60252a9ec47d7d429249.png)
 
 *Claude can write code that expresses tool calls and the logic between them.*
 
@@ -62,7 +62,7 @@ Task-specific context steers Claude’s use of general tools like bash and the t
 
 Giving Claude the ability to access [skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) addresses this: the YAML frontmatter of each skill is a short description pre-loaded into the context window, providing an overview of the skill contents. The full skill can be progressively disclosed by Claude calling a read file tool if a task calls for it.
 
-![Claude can use skills to progressively disclose task-relevant context. ](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_5.png)
+![Claude can use skills to progressively disclose task-relevant context. ](https://assets.claude.com/606dbffc4fe38a3a1a05c4d88650c2a2e160766d.png)
 
 *Claude can use skills to progressively disclose task-relevant context.* 
 
@@ -78,7 +78,7 @@ For example, [compaction](https://platform.claude.com/docs/en/build-with-claude/
 
 A [memory folder](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool) is another approach, allowing Claude to write context to files and later read them as needed. We’ve seen Claude use this for agentic search. On BrowseComp-Plus, giving Sonnet 4.5 a memory folder [lifted accuracy from 60.4% to 67.2%](https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf).
 
-![Claude can persist context to a memory folder.](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_6.png)
+![Claude can persist context to a memory folder.](https://assets.claude.com/2ac581337b2050f448e2a22b9a8e4a1451e0d72c.png)
 
 *Claude can persist context to a memory folder.*
 
@@ -132,7 +132,7 @@ Claude doesn't necessarily know an application's security boundary or UX surface
 
 Actions that require a security boundary are natural candidates for dedicated tools. Reversibility is often a good criterion, and hard-to-reverse actions such as external API calls can be gated by user confirmation. Write tools like `edit` can include a staleness check so Claude doesn't overwrite a file that changed since it was last read.
 
-![Dedicated tools can be used for actions based upon security, UX, or observability considerations.](../_media/claude-agent-harness-design-3-patterns-for-harnessing-claude-s-inte/Claude_harnessing-claudes-intelligence_7.png)
+![Dedicated tools can be used for actions based upon security, UX, or observability considerations.](https://assets.claude.com/ed3130dafac3f6d95a73485c34751ac8461625ca.png)
 
 *Dedicated tools can be used for actions based upon security, UX, or observability considerations.*
 

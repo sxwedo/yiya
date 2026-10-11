@@ -13,7 +13,7 @@ Pi now has 100000 stars on GitHub⭐️Thank you People of Pi for your contribut
 
 Pi v2 coming soon… 
 
-![Image](../_media/x-2094758621833765261/pidotdev_2094758621833765261_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/2094758269948497920/img/V9hB_hISu78L0Xko.jpg)
 
 ## 💬 Replies
 

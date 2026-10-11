@@ -32,7 +32,7 @@ Bookmark this. Set it up this week.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064021464559616052/PrajwalTomar__2064021464559616052_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2064021386453291008/img/Z_XXm5DBXjBCYIOR.jpg)
 
 ## 💬 Replies
 

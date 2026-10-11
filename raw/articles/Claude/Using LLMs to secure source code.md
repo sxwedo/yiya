@@ -27,7 +27,7 @@ Teams finding and fixing the most vulnerabilities converged on a variation of ex
 5. **Triage:** Deduplicate findings, assign severity, and prioritize what needs fixing.
 6. **Patching:** Apply the fix, confirm the vulnerability is nullified, and search for variants.
 
-![A one-time investment in threat modeling and sandboxing powers the defender's loop—a repeating cycle of discovery, verification, triage, and patching—where the bottleneck isn't finding vulnerabilities but everything that comes after.](../_media/claude-using-llms-to-secure-source-code/Claude_using-llms-to-secure-source-code_1.png)
+![A one-time investment in threat modeling and sandboxing powers the defender's loop—a repeating cycle of discovery, verification, triage, and patching—where the bottleneck isn't finding vulnerabilities but everything that comes after.](https://assets.claude.com/c39a895327a11e10dbea5162e74d38351b972825.png)
 
 *A one-time investment in threat modeling and sandboxing powers the defender's loop—a repeating cycle of discovery, verification, triage, and patching—where the bottleneck isn't finding vulnerabilities but everything that comes after.*
 

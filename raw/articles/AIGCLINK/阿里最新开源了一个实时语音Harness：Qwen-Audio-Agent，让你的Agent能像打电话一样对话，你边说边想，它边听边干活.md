@@ -27,7 +27,7 @@ OpenAI有GPT-Live，Qwen-Audio-Agent等于是给现有的Agent生态提供了一
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2082822414912860247/aigclink_2082822414912860247_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2082820684657610752/img/1oHOgYsWM5NrRuXj.jpg)
 
 ## 💬 Replies
 

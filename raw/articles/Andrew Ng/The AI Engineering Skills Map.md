@@ -54,4 +54,4 @@ DeepLearning.AI’s principal focus is to help developers gain these AI engineer
 
 ### 🖼️ Attached Media
 
-![The AI Engineering Skills Map](../_media/x-2088302050706686198/AndrewYNg_2088302050706686198_1.jpg)
+![The AI Engineering Skills Map](https://pbs.twimg.com/media/HPsiabfXoAEz0wO.jpg)

@@ -13,7 +13,7 @@ Introducing Gemini CLI, a light and powerful open-source AI agent that brings Ge
 
 Write code, debug, and automate tasks with Gemini 2.5 Pro with industry-leading high usage limits at no cost. 
 
-![Image](../_media/x-1937861646082515205/googleaidevs_1937861646082515205_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/1937860740188459008/img/Kofzb9eqpdaH7m6u.jpg)
 
 ## 💬 Replies
 

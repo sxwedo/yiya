@@ -342,7 +342,7 @@ No one shipping two hundred PRs a month started with a hundred agents. They all 
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2068987470960623783/h100envy_2068987470960623783_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLaFC11WEAACAyY.jpg)
 
 ## 💬 Replies
 

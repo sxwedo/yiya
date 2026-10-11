@@ -27,7 +27,7 @@ It is a complete guide to 𝗖𝗟𝗔𝗨𝗗𝗘.𝗺𝗱, custom commands, sk
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073409104132079632/akshay_pachaar_2073409104132079632_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMY6l3raUAAEXfR.jpg?name=orig)
 
 ## 💬 Replies
 

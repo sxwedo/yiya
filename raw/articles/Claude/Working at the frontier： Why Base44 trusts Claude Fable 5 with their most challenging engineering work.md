@@ -42,7 +42,7 @@ This type of work extends beyond the engineering team, too. When a product manag
 
 Before Claude Fable 5, this type of work had to wait for Base44's top three engineers or a specialist to free up. Now, the model executes tasks while Orlev's team reviews, tests, and approves the code before shipping it.
 
-![Claude Fable 5 gives Base44's product, engineering, and design teams confidence to build more ambitious parts of their Sugeragents platform.](../_media/claude-working-at-the-frontier-why-base44-trusts-claude-fable-5-wit/Claude_working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work_1.jpg)
+![Claude Fable 5 gives Base44's product, engineering, and design teams confidence to build more ambitious parts of their Sugeragents platform.](https://assets.claude.com/5f96b37adfbd2583eb00586a900e7b6e7890a14b.jpg)
 
 *Claude Fable 5 gives Base44's product, engineering, and design teams confidence to build more ambitious parts of their Sugeragents platform.*
 

@@ -574,5 +574,5 @@ I write about AI, building products, and systems that work while you sleep.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/rahul-gpt6-astra-money-ways/sairahul1_2097628279381581989_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HRxFgq0aEAAwPer.jpg)
 

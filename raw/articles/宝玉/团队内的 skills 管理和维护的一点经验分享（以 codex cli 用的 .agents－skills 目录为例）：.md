@@ -35,7 +35,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2039762741284553033/dotey_2039762741284553033_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HE6xZagXIAAWjpg?format=jpg&name=medium)
 
 ## 💬 Replies
 

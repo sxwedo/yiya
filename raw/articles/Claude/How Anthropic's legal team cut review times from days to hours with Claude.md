@@ -38,7 +38,7 @@ Over the course of several months and lots of experimentation, some of the legal
 
 ### **Marketing review workflow** ###
 
-![The Legal team's Marketing Material Self-Review Tool allows go-to-market employees to self-review their own content before sharing with Legal for a final pass.](../_media/claude-how-anthropic-s-legal-team-cut-review-times-from-days-to-hou/Claude_how-anthropic-uses-claude-legal_1.png)
+![The Legal team's Marketing Material Self-Review Tool allows go-to-market employees to self-review their own content before sharing with Legal for a final pass.](https://assets.claude.com/b70130a1213d1f87da2a7530ec9a2c11760fea24.png)
 
 *The Legal team's Marketing Material Self-Review Tool allows go-to-market employees to self-review their own content before sharing with Legal for a final pass.*
 
@@ -66,7 +66,7 @@ Mark and his colleagues also write [Skills](https://www.claude.com/blog/skills) 
 
 ### **Outside business activity review** ###
 
-![The Legal Team's Outside Business Activity Request Form expedite the process of assessing conflict-of-interest reviews for Anthropic employees.](../_media/claude-how-anthropic-s-legal-team-cut-review-times-from-days-to-hou/Claude_how-anthropic-uses-claude-legal_2.jpg)
+![The Legal Team's Outside Business Activity Request Form expedite the process of assessing conflict-of-interest reviews for Anthropic employees.](https://assets.claude.com/4a511f132bc9f11d2582225a6e1176f953ba483f.jpg)
 
 *The Legal Team's Outside Business Activity Request Form expedite the process of assessing conflict-of-interest reviews for Anthropic employees.*
 

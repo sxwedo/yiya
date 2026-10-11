@@ -29,7 +29,7 @@ type: "Article"
 
 说白了，它根本不了解你。
 
-![Image](../_media/x-2074515412272996467/jinchenma_ai_2074515412272996467_5.jpg)
+![Image](https://pbs.twimg.com/media/HMooOAIagAAJ2p7.jpg)
 
 那问题出在哪？
 
@@ -83,7 +83,7 @@ AI 最终的输出质量，其实由三件事共同决定。模型本身的能�
 
 # AI 知识库的五种实现方式
 
-![Image](../_media/x-2074515412272996467/jinchenma_ai_2074515412272996467_2.jpg)
+![Image](https://pbs.twimg.com/media/HMooX6lbcAAHxCD.jpg)
 
 聊到 AI 知识库，经常会遇到两个词：向量数据库和 RAG。
 
@@ -175,7 +175,7 @@ RAG 的做法是，提前把你的资料按片段处理好，AI 来检索的时�
 
 还有一个让我挺意外的功能是知识图谱。AI 会自动把我不同笔记之间的关联找出来，画成一张图。两个看起来没什么关系的笔记，AI 可能通过一些潜在的主题把它们连起来。
 
-![Image](../_media/x-2074515412272996467/jinchenma_ai_2074515412272996467_1.jpg)
+![Image](https://pbs.twimg.com/media/HMooHmPa4AEF9ZO.jpg)
 
 放在以前，这个事情要做的话，我需要一篇一篇地去想「这篇笔记跟哪篇笔记有关系」。有了几百条笔记之后，这个工作量大到根本不可能人工完成。
 
@@ -205,7 +205,7 @@ RAG 的做法是，提前把你的资料按片段处理好，AI 来检索的时�
 
 AI 先生成线索承接话术、客户答疑内容和内容选题。人再检查这些话术能不能真实使用，把好用的留下，把不自然的改掉，再写回规则里。
 
-![Image](../_media/x-2074515412272996467/jinchenma_ai_2074515412272996467_3.jpg)
+![Image](https://pbs.twimg.com/media/HMoocl_a0AAVImT.jpg)
 
 第二个是做健康睡眠产品的公司。
 
@@ -243,7 +243,7 @@ AI 先生成线索承接话术、客户答疑内容和内容选题。人再检�
 
 你会发现，这三个行业完全不同，但最后都不是为了把资料整理整齐。知识库最后要回到培训、客服、销售、内容营销这些具体出口。
 
-![Image](../_media/x-2074515412272996467/jinchenma_ai_2074515412272996467_4.jpg)
+![Image](https://pbs.twimg.com/media/HMoohTGa0AAjIcj.jpg)
 
 # 今天就能开始的最小版本
 
@@ -482,7 +482,7 @@ AI 知识库不是一个高大上的企业系统。它就是让你手里的资�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074515412272996467/jinchenma_ai_2074515412272996467_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMoo6kma0AA6TjQ.jpg)
 
 ## 💬 Replies
 

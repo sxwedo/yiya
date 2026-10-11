@@ -53,13 +53,13 @@ Go to Customize → Skills and make sure you have enabled the "Skill-Creator."
 
 This is a Skill that builds Skills (from Anthropic). 
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_2.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42kEbAAA5FE_.jpg)
 
 Step Two: Prompting Claude 
 
 Once enabled, you can tell Claude: "I want to build a Skill for \[workflow\]; help me build it." 
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_5.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42jubcAARvcD.jpg)
 
 Here is the template prompt to build your first Skill from scratch:
 
@@ -91,7 +91,7 @@ Once Claude finishes building the Skill, it will output a zip and/or markdown fi
 
 I also like to download the Skills to my laptop (in a dedicated folder), but that's optional. 
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_7.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42juaIAAKaeg.jpg)
 
 Go back to Customize → Skills → My Skills and ensure your new Skill is present and enabled. 
 
@@ -101,7 +101,7 @@ Now, all you have to do is prompt Claude to use your Skill: "use my \[x\] Skill 
 
 Example prompt:
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_8.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42kDaUAA_lao.jpg)
 
 That's it! 
 
@@ -157,7 +157,7 @@ To use these new features: Open a Claude chat with your Skill loaded and tell Cl
 
 Examples: "Run an eval on this Skill." "A/B test these two versions." "Optimize my trigger description." 
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_3.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42kAbgAAnnDt.jpg)
 
 ---
 
@@ -169,15 +169,15 @@ Copy these images into any LLM and ask it to generate the text to test these pro
 
 1. Brand Voice - For creating a voice/tone/writing style
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_4.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42jvagAAgVBU.jpg)
 
 2\.     PDF Generator - A Skill that turns any text into a well-formatted PDF
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_6.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42jtbYAAw64W.jpg)
 
 3\.     Document Summarizer - A simple skill to summarize any text in seconds
 
-![Image](../_media/x-2036815449225298369/aiedge__2036815449225298369_1.jpg)
+![Image](https://pbs.twimg.com/media/HEQ42kFbAAAfeyf.jpg)
 
 Other workflows to build:
 
@@ -231,7 +231,7 @@ Lastly, if you can, please Like/Repost this article so others can find it 💙
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2036815449225298369/aiedge__2036815449225298369_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HDpZQ5EbEAMord_.jpg)
 
 ## 💬 Replies
 

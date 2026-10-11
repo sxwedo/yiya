@@ -59,7 +59,7 @@ I prefer a simple hierarchy:
 
 3\. The executive delegates to narrow operator bots that do one specific task well.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_1.jpg)
+![Image](https://pbs.twimg.com/media/HRBQE5MW8AAepYm.jpg)
 
 My own setup has a chief of staff, COO, chief content officer, and CFO at the top. Under them are specialists for X research, animations, content strategy, meeting transcripts, finance, and other repeatable work.
 
@@ -71,7 +71,7 @@ A clear description on every bot makes that routing possible. The description is
 
 I use the same framework for Grok Bot that I use for any AI operating system:
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_4.jpg)
+![Image](https://pbs.twimg.com/media/HRBP2IGXUAAz_54.jpg)
 
 → Context
 
@@ -149,7 +149,7 @@ It also recommended three habits: watch for urgent mail, send a short weekday mo
 
 I approved the plan, but the first version only created drafts. It did not send customer emails on its own.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_7.jpg)
+![Image](https://pbs.twimg.com/media/HRBPzyRXMAAgz1f.jpg)
 
 The emergency watch ran every 30 minutes. It checked for new customer mail, applied the labels, surfaced emergencies, and did nothing when there was no urgent action.
 
@@ -177,7 +177,7 @@ The bot updated both the deliverable and the underlying skill. The next Friday's
 
 The finished report included the green headers and both charts.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_2.jpg)
+![Image](https://pbs.twimg.com/media/HRBPyhzXkAE2Mu0.jpg)
 
 Skills appear as private plugins and can include a name, description, inputs, steps, and expected output. Existing Claude Code or Codex skills can also be brought into the environment, and skills can be invoked with slash commands.
 
@@ -217,7 +217,7 @@ The workflow became:
 
 For the demo, Friend created a Summit Home Services Grok Bot list inside the Internal Automations space. The first two tasks were calls for Hannah and Marcus.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_8.jpg)
+![Image](https://pbs.twimg.com/media/HRBPuH5WQAA4qUj.jpg)
 
 In a real company, Fred could use a team directory, specialties, calendars, or a scheduling database to choose the right technician for AC, water heaters, warranty work, or other requests.
 
@@ -271,7 +271,7 @@ The shared file manager is part of the system.
 
 Every bot can work from the same local workspace, including videos, scripts, reports, downloaded repositories, and project folders. I asked Friend to create a context folder and a projects folder so agents had a predictable place to save information and pass file paths to each other.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_5.jpg)
+![Image](https://pbs.twimg.com/media/HRBPsj7WUAAmJiz.jpg)
 
 My own version of that idea is Herk-2, a repository containing business knowledge, projects, operating context, and content systems. A Grok Bot team can clone a repository like that from GitHub or build a smaller version directly in its workspace.
 
@@ -305,7 +305,7 @@ Studio generated profile-picture options for the marketing agents. I preferred t
 
 The finished comparison showed profile-picture options for Erin, Studio, and Slice from GPT Image 2 and Nano Banana 2.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_3.jpg)
+![Image](https://pbs.twimg.com/media/HRBPLzcWYAA64yD.jpg)
 
 Slack showed the event-triggered side of cadence.
 
@@ -359,7 +359,7 @@ I think about the offer as a ladder:
 
 The visible rungs run from hourly education and consulting through a $500 audit, $1,000 to $10,000 projects, and a $5,000 monthly retainer.
 
-![Image](../_media/x-2094263221645377911/nateherk_2094263221645377911_6.jpg)
+![Image](https://pbs.twimg.com/media/HRBOuNtWkAATC-Q.jpg)
 
 A Grok Bot setup fits near the education, consulting, or project rungs.
 
@@ -391,7 +391,7 @@ I walk through the entire build step by step in the full video. Link in the firs
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2094263221645377911/nateherk_2094263221645377911_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HRBRDFBXUAATbZI.jpg)
 
 ## 💬 Replies
 

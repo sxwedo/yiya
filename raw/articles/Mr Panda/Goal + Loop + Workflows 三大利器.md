@@ -218,7 +218,7 @@ Claude 会反复改代码、跑测试，每轮后让评估模型核对"测试全
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065714368071745710/PandaTalk8_2065714368071745710_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKrkPAZawAAoCCi.jpg)
 
 ## 💬 Replies
 

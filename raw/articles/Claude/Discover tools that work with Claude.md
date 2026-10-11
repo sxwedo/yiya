@@ -33,6 +33,6 @@ Here are some ways you could use Claude with connected tools:
 
 You can explore our directory of recommended tools at [claude.ai/directory](http://claude.ai/directory). Click "Connect" to authenticate (or “Install” for desktop extensions), and Claude gains access to your work context. You can also browse featured tools at [anthropic.com/partners/mcp](https://www.anthropic.com/partners/mcp).
 
-![Screenshot of a connectors dialog box in Claude app, showing various tools and services users can explore and connect to Claude.](../_media/claude-discover-tools-that-work-with-claude/Claude_connectors-directory_1.png)
+![Screenshot of a connectors dialog box in Claude app, showing various tools and services users can explore and connect to Claude.](https://assets.claude.com/78b167a1a7db601cd0ff39356d03e9925e59baba.png)
 
 The directory is available now to all Claude users on web and desktop. Local desktop extensions are available through the Claude Desktop app. Connectors to remote apps and services are available to paid plan users only.

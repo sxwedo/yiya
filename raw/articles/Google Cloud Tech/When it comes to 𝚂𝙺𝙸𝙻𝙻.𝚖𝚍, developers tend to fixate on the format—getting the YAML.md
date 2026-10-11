@@ -31,13 +31,13 @@ This article covers each one with working ADK code:
 
 - Pipeline: Enforce a strict multi-step workflow with checkpoints
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_7.jpg)
+![Image](https://pbs.twimg.com/media/HDoDgs6XAAYtw04.jpg)
 
 ## Pattern 1: The Tool Wrapper
 
 A Tool Wrapper gives your agent on-demand context for a specific library. Instead of hardcoding API conventions into your system prompt, you package them into a skill. Your agent only loads this context when it actually works with that technology.
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_4.jpg)
+![Image](https://pbs.twimg.com/media/HDoDoIeXAAUmQoy.jpg)
 
 It is the simplest pattern to implement. The 𝚂𝙺𝙸𝙻𝙻.𝚖𝚍 file listens for specific library keywords in the user's prompt, dynamically loads your internal documentation from the  𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜/ directory, and applies those rules as absolute truth. This is the exact mechanism you use to distribute your team's internal coding guidelines or specific framework best practices directly into your developers' workflows.
 
@@ -76,7 +76,7 @@ Load 'references/conventions.md' for the complete list of FastAPI best practices
 
 While the Tool Wrapper applies knowledge, the Generator enforces consistent output. If you struggle with an agent generating different document structures on every run, the Generator solves this by orchestrating a fill-in-the-blank process.
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_6.jpg)
+![Image](https://pbs.twimg.com/media/HDoEJdZbEAEdYMo.jpg)
 
 It leverages two optional directories: 𝚊𝚜𝚜𝚎𝚝𝚜/ holds your output template, and 𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜/ holds your style guide. The instructions act as a project manager. They tell the agent to load the template, read the style guide, ask the user for missing variables, and populate the document. This is practical for generating predictable API documentation, standardizing commit messages, or scaffolding project architectures.
 
@@ -113,7 +113,7 @@ Step 5: Return the completed report as a single Markdown document.
 
 The Reviewer pattern separates what to check from how to check it. Rather than writing a long system prompt detailing every code smell, you store a modular rubric inside a 𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜/𝚛𝚎𝚟𝚒𝚎𝚠-𝚌𝚑𝚎𝚌𝚔𝚕𝚒𝚜𝚝.𝚖𝚍 file.
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_5.jpg)
+![Image](https://pbs.twimg.com/media/HDoEa51XEAIKSnO.jpg)
 
 When a user submits code, the agent loads this checklist and methodically scores the submission, grouping its findings by severity. If you swap out a Python style checklist for an OWASP security checklist, you get a completely different, specialized audit using the exact same skill infrastructure. It is a highly effective way to automate PR reviews or catch vulnerabilities before a human looks at the code.
 
@@ -153,7 +153,7 @@ Step 4: Produce a structured review with these sections:
 
 Agents inherently want to guess and generate immediately. The Inversion pattern flips this dynamic. Instead of the user driving the prompt and the agent executing, the agent acts as an interviewer.
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_2.jpg)
+![Image](https://pbs.twimg.com/media/HDoEo5XbEAUaaFG.jpg)
 
 Inversion relies on explicit, non-negotiable gating instructions (like "DO NOT start building until all phases are complete") to force the agent to gather context first. It asks structured questions sequentially and waits for your answers before moving to the next phase. The agent refuses to synthesize a final output until it has a complete picture of your requirements and deployment constraints.
 
@@ -201,7 +201,7 @@ For complex tasks, you cannot afford skipped steps or ignored instructions. The 
 
 The instructions themselves serve as the workflow definition. By implementing explicit diamond gate conditions (such as requiring user approval before moving from docstring generation to final assembly), the Pipeline ensures an agent cannot bypass a complex task and present an unvalidated final result.
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_3.jpg)
+![Image](https://pbs.twimg.com/media/HDoE195bEAABitY.jpg)
 
 This pattern utilizes all optional directories, pulling in different reference files and templates only at the specific step where they are needed, keeping the context window clean.
 
@@ -245,7 +245,7 @@ Report results. Fix issues before presenting the final document.
 
 Each pattern answers a different question. Use this decision tree to find the right one for your use-case:
 
-![Image](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_1.jpg)
+![Image](https://pbs.twimg.com/media/HDoFWovXAAsbb8C.jpg)
 
 ## And finally, patterns compose
 
@@ -261,7 +261,7 @@ The Agent Skills specification is open-source and natively supported across ADK.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2033953579824758855/GoogleCloudTech_2033953579824758855_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HDoDJqGXAAg3-F-.jpg)
 
 ## 💬 Replies
 

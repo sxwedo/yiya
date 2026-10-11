@@ -43,43 +43,43 @@ type: "Article"
 
 - 打开 Gmail App,点右上角头像
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_11.jpg)
+![Image](https://pbs.twimg.com/media/HI0eAdmaIAABzLl.jpg)
 
 - 账号列表拉到底,点「添加其他账号」
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_1.jpg)
+![Image](https://pbs.twimg.com/media/HI0eE6ZaoAAoQic.jpg)
 
 - 选「Google」(不是 iCloud / Outlook)
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_10.jpg)
+![Image](https://pbs.twimg.com/media/HI0eKGhasAABnda.jpg)
 
 - 登录页别填邮箱,点左下角「创建账号」
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_5.jpg)
+![Image](https://pbs.twimg.com/media/HI0eOy9a8AAHqN1.jpg)
 
 - 填姓名(姓可选填,名字像真人)
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_7.jpg)
+![Image](https://pbs.twimg.com/media/HI0eTs8boAA-pCp.jpg)
 
 - 填生日和性别(设成年人,否则触发未成年额外验证)
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_6.jpg)
+![Image](https://pbs.twimg.com/media/HI0eiPQbgAAL7hu.jpg)
 
 - 选系统推荐的、或自己创建 Gmail 地址
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_4.jpg)
+![Image](https://pbs.twimg.com/media/HI0eoCca8AAYSTL.jpg)
 
 - 设密码(字母+数字+符号,勾"显示密码"核对)
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_8.jpg)
+![Image](https://pbs.twimg.com/media/HI0eySXbcAAqBSj.jpg)
 
 - 到"添加电话号码"页面,点左下角「跳过」(全程免手机号的关键就在这一步)
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_9.jpg)
+![Image](https://pbs.twimg.com/media/HI0e3vaaMAAEN7v.jpg)
 
 - 核对账号信息 → 同意隐私条款 → 完成
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_3.jpg)
+![Image](https://pbs.twimg.com/media/HI0e-02bAAE1SHu.jpg)
 
 走完第 10 步,账号就建好了,全程一个手机号都没用上。
 
@@ -93,7 +93,7 @@ type: "Article"
 
 ▎也可以通过 Telegram：@EvanCreates （微信同号） 联系我购买
 
-![Image](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_2.jpg)
+![Image](https://pbs.twimg.com/media/HI0fImsawAEe7V_.jpg)
 
 另外别注册完立刻嗨，先正常用几天(收发邮件、看看 YouTube)把号养起来，之后尽量固定用同一条干净线路登录,频繁切 IP 也会触发风控。
 
@@ -125,7 +125,7 @@ Telegram：[https://t.me/EvanCreates](https://t.co/2wytvRWjfN)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2057449626354295127/EvanWritesX_2057449626354295127_12.jpg)
+![Image 1](https://pbs.twimg.com/media/HI0gvQ3bQAAMA0x.jpg)
 
 ## 💬 Replies
 

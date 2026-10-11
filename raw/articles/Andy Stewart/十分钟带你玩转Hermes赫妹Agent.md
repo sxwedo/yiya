@@ -24,7 +24,7 @@ https://github.com/chinapxe/sketchshotHermes Agent 非常创新
 
 > 推荐使用 LC-03 48G大内存运行更快、更流畅、不卡顿，购机优惠咨询请加专业团队
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_17.jpg)
+![Image](https://pbs.twimg.com/media/HFS8HdkbMAA8hhf.jpg)
 
 首先安装最新版小龙虾养殖中心，如果您之前已经在用了，可以一键导入OpenClaw配置到Hermes中
 
@@ -36,13 +36,13 @@ https://github.com/chinapxe/sketchshotHermes Agent 非常创新
 
 进入小龙虾养殖中心，双击桌面上的终端按钮，复制下方命令，在终端中 Ctrl Shift + V 粘贴，回车执行
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_12.jpg)
+![Image](https://pbs.twimg.com/media/HFS82XoaEAANihL.jpg)
 
 \`\`\`bash
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh \| bash
 \`\`\`
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_13.jpg)
+![Image](https://pbs.twimg.com/media/HFS9AY0bsAAuF4b.jpg)
 
 安装程序会开始运行，如果失败可以检查科学上网环境
 
@@ -50,49 +50,49 @@ curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scri
 
 Permission denied 的提示可以忽略
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_3.jpg)
+![Image](https://pbs.twimg.com/media/HFS9YecbkAAWmOm.jpg)
 
 ## 一键迁移&初始化
 
 这里视您的需求，看是否从小龙虾养殖中心的OpenClaw 中导入配置，输入Y回车即可
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_2.jpg)
+![Image](https://pbs.twimg.com/media/HFS97kubgAA1anY.jpg)
 
 执行快速初始化
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_4.jpg)
+![Image](https://pbs.twimg.com/media/HFS-JGmawAAU_nQ.jpg)
 
 设置模型接入点
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_15.jpg)
+![Image](https://pbs.twimg.com/media/HFS-ogJaQAAYViI.jpg)
 
 部分供应商可能会导入失败，重新输入添加，后续重新配置下
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_7.jpg)
+![Image](https://pbs.twimg.com/media/HFS-5oVbUAABkby.jpg)
 
 Hermes赫妹暂无WebUI，这里来配置消息渠道
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_1.jpg)
+![Image](https://pbs.twimg.com/media/HFS--RKa4AAwW7W.jpg)
 
 我的 TelegramBot 已经自动从 OpenClaw 配置中导入了，直接回车
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_6.jpg)
+![Image](https://pbs.twimg.com/media/HFS_FpUa8AAVwd_.jpg)
 
 参考图中选择进行配置，稍后手动配对消息渠道id
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_14.jpg)
+![Image](https://pbs.twimg.com/media/HFWUMola0AAR2Rp.jpg)
 
 ## 启动
 
 安装进入末尾，直接顺手启动
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_9.jpg)
+![Image](https://pbs.twimg.com/media/HFWUQzcbwAAr3iD.jpg)
 
 ## 配对消息渠道
 
 随便发送消息给 Bot，点击配对命令，粘贴到终端进行配对
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_16.jpg)
+![Image](https://pbs.twimg.com/media/HFWUXLSa8AAFhrc.jpg)
 
 ## 守护进程
 
@@ -102,7 +102,7 @@ Hermes赫妹暂无WebUI，这里来配置消息渠道
 hermes gateway run&
 \`\`\`
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_8.jpg)
+![Image](https://pbs.twimg.com/media/HFWUb52a8AI4rGa.jpg)
 
 保存后重启小龙虾养殖中心，即可实现自启动
 
@@ -112,25 +112,25 @@ hermes gateway run&
 
 打开终端，执行hermes model 选择对应接口或更多提供商，这里自定义为例
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_18.jpg)
+![Image](https://pbs.twimg.com/media/HFWUmcPa8AMMMlM.jpg)
 
 自定义接入点
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_11.jpg)
+![Image](https://pbs.twimg.com/media/HFWUqZJa8AIopOH.jpg)
 
 按照图示交互式填入
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_5.jpg)
+![Image](https://pbs.twimg.com/media/HFWUt7gaIAAUBHY.jpg)
 
 ## 结束
 
 重新配置好模型后，可以正常和agent对话了
 
-![Image](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_10.jpg)
+![Image](https://pbs.twimg.com/media/HFWU35Ja8AIMk8M.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2041734508073120170/manateelazycat_2041734508073120170_19.jpg)
+![Image 1](https://pbs.twimg.com/media/HFWy34HbcAAZ05j.jpg)
 
 ## 💬 Replies
 

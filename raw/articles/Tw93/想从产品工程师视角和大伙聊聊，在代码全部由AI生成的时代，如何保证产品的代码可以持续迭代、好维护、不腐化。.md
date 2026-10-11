@@ -33,7 +33,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2094015568101921254/HiTw93_2094015568101921254_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ9uovPbEAAGtHk?format=jpg&name=medium)
 
 ## 💬 Replies
 

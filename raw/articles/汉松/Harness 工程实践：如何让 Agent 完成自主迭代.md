@@ -55,7 +55,7 @@ Harness 工程核心就是把原来这些流程由人完成的过程，变成人
 
 可以发现，80% 的工作都是 Agent 解决了。人负责最难的部分，即：定义问题和验收。
 
-![Image](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_6.jpg)
+![Image](https://pbs.twimg.com/media/HMXaDY1aoAA3mbM.jpg)
 
 理想状态是这样，但真正落地的时候，我们发现至少要补齐三件事。
 
@@ -142,7 +142,7 @@ Harness 工程核心就是把原来这些流程由人完成的过程，变成人
 \- 回到第 1 步，开始下一轮
 \`\`\`
 
-![Image](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_1.jpg)
+![Image](https://pbs.twimg.com/media/HMXaD05akAELhac.jpg)
 
 第三关：评测闭环要防止 reward hacking 与策略退化
 
@@ -164,7 +164,7 @@ Harness 工程核心就是把原来这些流程由人完成的过程，变成人
 
 此外，在这种多策略优化的过程里面，我们发现很难保证 AI 提出的策略每次都能往前迭代，它有可能也会退步，然后它有可能就沿着错误的路径，一直走到了死胡同。为了解决这个问题，我们设计了 champion-challenger 机制：
 
-![Image](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_2.jpg)
+![Image](https://pbs.twimg.com/media/HMXaEOpaYAAQmo_.jpg)
 
 - champion = 未过拟合的历史最高分轮次；
 
@@ -261,9 +261,9 @@ Agent：（以“我更擅长本领域的问题”为由婉拒了角色扮演，
 
 在前面这套训练集 / 验证集和 champion-challenger 机制下面，AI 会继续做多轮迭代。接下来我用一个例子给大家讲一下，这个模型通过这种打擂台机制优化 prompt 的一个过程。
 
-![Image](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_3.jpg)
+![Image](https://pbs.twimg.com/media/HMXaEj-b0AA0ky8.jpg)
 
-![Image](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_5.jpg)
+![Image](https://pbs.twimg.com/media/HMXaE_RboAAUPHX.jpg)
 
 第一轮：做加法。 模型根据评测结果，往 system prompt 里补了三类规则：
 
@@ -333,7 +333,7 @@ Agent：（以“我更擅长本领域的问题”为由婉拒了角色扮演，
 
 ## 下一步：从小循环到大循环
 
-![Image](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_4.jpg)
+![Image](https://pbs.twimg.com/media/HMXaFbtawAAagvb.jpg)
 
 最近 Loop Engineering 的概念火起来了，大家的普遍感觉是这个东西隐隐感觉很有道理，似曾相识，但是又没人能说清楚它到底是什么。在我看来，这只是把大家的日常实践起了个新名字而已，比如说我们用 AI 先写好测试用例，然后让它一直开发直到通过测试，然后它持续开发十个小时，这难道不是一种循环吗？
 
@@ -345,7 +345,7 @@ Agent：（以“我更擅长本领域的问题”为由婉拒了角色扮演，
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073313721829540171/Yonah_x_2073313721829540171_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HMXiacHagAA9fhs.jpg)
 
 ## 💬 Replies
 

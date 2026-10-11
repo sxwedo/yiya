@@ -26,7 +26,7 @@ Claude creates actual files from your instructions—whether working from upload
 * **Build spreadsheets**: Describe what you need—financial models with scenario analysis, project trackers with automated dashboards, or budget templates with variance calculations. Claude creates it with working formulas and multiple sheets.
 * **Cross-format work**: Upload a PDF report and get PowerPoint slides. Share meeting notes and get a formatted document. Upload invoices and get organized spreadsheets with calculations. Claude handles the tedious work and presents information how you need it.
 
-![Image of three prompts with the resulting Excel, Document, and PDF files.](../_media/claude-claude-can-now-create-and-edit-files/Claude_create-files_1.webp)
+![Image of three prompts with the resulting Excel, Document, and PDF files.](https://assets.claude.com/dbd800f381e7b4449ed6a87bdfda7097fb94a289.jpg)
 
 ‍
 
@@ -47,7 +47,7 @@ To start creating files:
 3. Guide Claude through the work via chat
 4. Download your completed files or save directly to Google Drive
 
-![Image of toggle to turn on](../_media/claude-claude-can-now-create-and-edit-files/Claude_create-files_2.png)
+![Image of toggle to turn on](https://assets.claude.com/f1451444c1da87b4e8990d280fc50ab7e8c5ebb1.png)
 
 Start with straightforward tasks like data cleaning or simple reports, then work up to complex projects like financial models once you're comfortable with how Claude handles files.
 

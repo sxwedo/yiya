@@ -35,7 +35,7 @@ Read it now, then explore the article below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069736449902027136/0xCodez_2069736449902027136_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLksf-AXUAAaYmh.jpg?name=orig)
 
 ## 💬 Replies
 

@@ -73,7 +73,7 @@ workflow 让你可以动态地创建这些定制 harness，它们可复用、可
 
 workflow 会执行 JavaScript 文件，文件里包含用于生成和协调 subagents 的特殊函数。JSON、Math、Array 这些标准 JavaScript 工具可以用来处理数据。workflow 可以选择 subagents 使用哪个模型，并决定它们是否在隔离的 worktree 里运行。如果运行被中断，恢复后 workflow 可以从中断处继续。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_3.jpg)
+![Image](https://pbs.twimg.com/media/HJ3varHasAAKGpA.jpg)
 
 ## 3.为什么需要 workflow
 
@@ -91,13 +91,13 @@ workflow 的对策，是编排一批彼此独立、各自拥有独立 context wi
 
 此前，用 Claude Agent SDK 或 claude -p 构建的 static workflows，是以通用方式协调多个 Claude Code 实例，这要求你把所有边缘情况都覆盖到。有了 Claude Opus 4.8 和 dynamic workflows，Claude 现在能写出针对具体场景量身定制的 harness。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_8.jpg)
+![Image](https://pbs.twimg.com/media/HJ3vnQ-aUAAkElb.jpg)
 
 ## 5.使用 workflow 时的实用模式
 
 你可以直接请求一个 workflow，或在提示里用 ultracode 来确保 Claude Code 创建一个 workflow，从而触发它。常见的组合模式包括：
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_9.jpg)
+![Image](https://pbs.twimg.com/media/HJ3vrVBaQAAb6S3.jpg)
 
 - 分类并执行：由一个 classifier agent 判断任务类型，据此路由到不同的 agent 或行为；也可以在任务完成时确定输出的分类。
 
@@ -119,19 +119,19 @@ workflow 的对策，是编排一批彼此独立、各自拥有独立 context wi
 
 - 深度验证：对那种每条事实都要标注出处的报告，可以生成这样的 workflow：一个 agent 负责识别出各项论断，subagents 逐一详细核查，再由 verifier agent 确保来源质量。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_6.jpg)
+![Image](https://pbs.twimg.com/media/HJ3vwfYacAAS3gv.jpg)
 
 - 排序：碰到需要定性衡量的大型条目列表，比如按缺陷严重程度给工单排序，在单个提示里给 1000 多行排名会拉低质量，还会撑爆 context。可以用锦标赛、成对比较的流水线，或者先并行分桶排名再合并；每一次比较都是它自己的一个 agent，context 里只保留当前的排序顺序。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_4.jpg)
+![Image](https://pbs.twimg.com/media/HJ3v1VpbIAASAuk.jpg)
 
 - 记忆与规则遵循：当 Claude 即便把规则写进 CLAUDE.md 仍会漏掉某些规则时，可以创建带 rule verifier 的 workflow，一条规则配一个 verifier。再让一个 skeptic 人设来审查这些规则，防止误报。也可以反过来做：从近期会话和代码审查评论里挖掘反复出现的纠正，用并行 agent 聚类，对每个候选规则做对抗式验证，也就是问一句这条规则真能避免实际发生过的错误吗，再把幸存下来的规则提炼回 CLAUDE.md。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_5.jpg)
+![Image](https://pbs.twimg.com/media/HJ3v43na4AAM3hF.jpg)
 
 - 大规模分类处理：triage workflow 会对条目分类、跟现有跟踪记录去重，然后采取行动。一个有用的模式是 quarantine：读取不受信任公开内容的 agent，被禁止执行高权限操作，这些操作改由负责信息处理的 agent 来做。配合 /loop 就能持续运行。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_7.jpg)
+![Image](https://pbs.twimg.com/media/HJ3v8gYbEAA19F3.jpg)
 
 - 探索与品味：在探索不同解法时很有用，尤其是设计或命名这种依赖品味的决策，它们能从 rubric 中受益。可以让 Claude 去探索解法，同时让一个 review agent 依据一套关于好方案的 rubric 来评判，满足审查标准时即告完成。方案可以排序，也可以基于 rubric 用锦标赛选出。
 
@@ -153,9 +153,9 @@ workflow 是新东西，并不是每个任务都需要它，它可能消耗多�
 
 - 保存与分享 workflow：在 workflow 菜单里按 s 就能保存。把它们签入 \~/.claude/workflows，或者通过技能来分发。把 JavaScript workflow 文件放进技能文件夹，并在 SKILL.md 里引用。想更灵活的话，可以提示 Claude 把技能里的 workflow 当成模板，而不是逐字照搬的脚本。
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_2.jpg)
+![Image](https://pbs.twimg.com/media/HJ3wSBea0AAQkvv.jpg)
 
-![Image](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_1.jpg)
+![Image](https://pbs.twimg.com/media/HJ3wFP7asAAfV5T.jpg)
 
 ## 9.探索的新起点
 
@@ -163,7 +163,7 @@ workflow 为扩展 Claude Code 提供了一种好用的新方式。把它看作�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2062068646902689895/MinLiBuilds_2062068646902689895_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HJ3qgBnakAElMX1.jpg)
 
 ## 💬 Replies
 

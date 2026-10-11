@@ -49,7 +49,7 @@ Obsidian 负责“记”，Claude Code 负责“想”和“做”。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2048211061380460884/Vincent_AINotes_2048211061380460884_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2048210338324369408/img/7plFB3XJvCWy-L85.jpg)
 
 ## 💬 Replies
 

@@ -32,7 +32,7 @@ full guide in the article below
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063272524927103459/eng_khairallah1_2063272524927103459_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2063269419753848832/img/nt-dejk08FoSme49.jpg)
 
 ## 💬 Replies
 

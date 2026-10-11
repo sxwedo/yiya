@@ -379,7 +379,7 @@ Telegram - [https://t.me/kopadzemp](https://t.me/kopadzemp)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2068328135611822149/AnatoliKopadze_2068328135611822149_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLQR6x3WgAAoX0v.jpg)
 
 ## 💬 Replies
 

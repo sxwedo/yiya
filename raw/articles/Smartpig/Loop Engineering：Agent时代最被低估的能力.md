@@ -15,7 +15,7 @@ type: "Article"
 
 但如果你最近半年持续使用 Claude Code、Codex、Gemini CLI 或各种 Agent 产品，你可能已经开始意识到一件事：Prompt Engineering 正在变得越来越不重要。真正决定 Agent 能力上限的东西，其实是 Loop Engineering。
 
-![Image](../_media/x-2064209609896968679/Smartpigai_2064209609896968679_1.jpg)
+![Image](https://pbs.twimg.com/media/HKWK-fxakAA-k1v.jpg)
 
 很多人对 Agent 的理解仍然停留在“大语言模型自动完成任务”这个层面。实际上，Agent 的核心从来都不是模型，而是循环。如果让 GPT、Claude 或 Gemini 完成一个复杂的软件项目，仅仅给它一个 Prompt，模型通常会在几分钟内输出一个看似合理但问题重重的结果。然而，当同一个模型被放进一个能够持续执行、验证、反馈和修正的循环系统之后，它的表现会发生质变。
 
@@ -55,7 +55,7 @@ Agent 时代正在经历同样的变化。未来最优秀的 Agent 公司未必�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064209609896968679/Smartpigai_2064209609896968679_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HKWLrOUbAAAJ7Rg.jpg)
 
 ## 💬 Replies
 

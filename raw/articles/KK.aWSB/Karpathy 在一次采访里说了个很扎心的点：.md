@@ -27,7 +27,7 @@ Karpathy 在一次采访里说了个很扎心的点：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2057081404689932559/KKaWSB_2057081404689932559_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2056983154079268864/img/SSi8O11kC_phP2AE.jpg)
 
 ## 💬 Replies
 

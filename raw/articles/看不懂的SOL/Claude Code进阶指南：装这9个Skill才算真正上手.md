@@ -15,7 +15,7 @@ Claude Code生态发展很快，头部项目已经有10万star了。
 
 我整理了9个值得关注的开源项目，从技能框架到记忆系统到工作流自动化，基本覆盖了当前热门的方向。
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_4.jpg)
+![Image](https://pbs.twimg.com/media/HEOgY0cakAEpdht.jpg)
 
 按star数排序：
 
@@ -31,7 +31,7 @@ GitHub:
 
 https://github.com/obra/superpowers
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_5.jpg)
+![Image](https://pbs.twimg.com/media/HEOf2ktaEAA1iCY.jpg)
 
 2、Everything Claude Code — Anthropic黑客松冠军
 
@@ -47,7 +47,7 @@ GitHub:
 
 https://github.com/affaan-m/everything-claude-code
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_6.jpg)
+![Image](https://pbs.twimg.com/media/HEOf51db0AAfH2t.jpg)
 
 3、UI UX Pro Max — 给Claude装上设计师大脑
 
@@ -61,7 +61,7 @@ GitHub:
 
 https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_9.jpg)
+![Image](https://pbs.twimg.com/media/HEOf8DfasAAdzuG.jpg)
 
 4、Claude Mem — 让Claude记住你的项目
 
@@ -77,7 +77,7 @@ GitHub:
 
 https://github.com/thedotmack/claude-mem
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_7.jpg)
+![Image](https://pbs.twimg.com/media/HEOf-XJakAEa02n.jpg)
 
 5、GSD (Get Shit Done) — 轻量级规范驱动开
 
@@ -91,7 +91,7 @@ GitHub:
 
 https://github.com/gsd-build/get-shit-done
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_8.jpg)
+![Image](https://pbs.twimg.com/media/HEOgD1Ib0AE2rQa.jpg)
 
 6、Awesome Claude Code — 生态导航地图
 
@@ -105,7 +105,7 @@ GitHub:
 
 https://github.com/hesreallyhim/awesome-claude-code
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_3.jpg)
+![Image](https://pbs.twimg.com/media/HEOgIw7bwAAcTVF.jpg)
 
 7、LightRAG — EMNLP 2025论文项目
 
@@ -119,7 +119,7 @@ GitHub:
 
 https://github.com/HKUDS/LightRAG
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_2.jpg)
+![Image](https://pbs.twimg.com/media/HEOgLDva0AA3Sj3.jpg)
 
 8、Obsidian Skills — 让AI操作你的知识库
 
@@ -135,7 +135,7 @@ GitHub:
 
 https://github.com/kepano/obsidian-skills
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_1.jpg)
+![Image](https://pbs.twimg.com/media/HEOgNRXaIAApfpO.jpg)
 
 9、n8n-MCP — 自动化工作流搭建器
 
@@ -149,7 +149,7 @@ GitHub:
 
 https://github.com/czlonkowski/n8n-mcp
 
-![Image](../_media/x-2036648074127270198/DtDt666_2036648074127270198_10.jpg)
+![Image](https://pbs.twimg.com/media/HEOgPS7akAAHCdc.jpg)
 
 安装建议
 
@@ -205,7 +205,7 @@ Claude Code的生态扩张速度很快，头部项目已经到了10万star级别
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2036648074127270198/DtDt666_2036648074127270198_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HEOgnj7akAAjLhB.jpg)
 
 ## 💬 Replies
 

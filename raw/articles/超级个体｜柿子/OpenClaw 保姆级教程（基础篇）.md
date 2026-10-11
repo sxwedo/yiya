@@ -514,7 +514,7 @@ OpenClaw 的核心价值不是「又一个 AI 聊天工具」
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2028340834228429272/yaohui12138_2028340834228429272_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HCYdJMqaIAA_K2F.jpg)
 
 ## 💬 Replies
 

@@ -8,7 +8,7 @@ date: "2026-08-12"
 
 # 已经有一套 AI 生图课了，我为什么又重写了 7 万多字？
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_1.jpg)
+![](https://pbs.twimg.com/media/HPf1vbuagAAFKO_.jpg)
 
 [VSC 社区课程入口，点击即可进入](https://vibeshot.club/courses/52703d31-dfd0-43fb-88bc-0fc53c4dcf39)
 
@@ -32,7 +32,7 @@ date: "2026-08-12"
 
 下面这是之前的目录
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_2.jpg)
+![](https://pbs.twimg.com/media/HPf1nyMbAAAe_wQ.jpg)
 
 只是它默认读者已经会一点：知道怎么打开工具，能写出一句提示词，也生成过几张图。于是我很自然地开始讲怎么控制画面、怎么拆构图、怎么处理光线和材质。
 
@@ -62,7 +62,7 @@ date: "2026-08-12"
 
 工具已经走到了下一站，很多入门内容还在上一站。
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_3.jpg)
+![](https://pbs.twimg.com/media/HPf1oIsbAAAIPnG.jpg)
 
 另一边，Prompt 又被讲得越来越神秘。
 
@@ -88,13 +88,13 @@ date: "2026-08-12"
 
 模型的意外，本来就是 AI 创作最好玩的部分之一。
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_4.jpg)
+![](https://pbs.twimg.com/media/HPf1pK9bIAADfWr.jpg)
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_5.jpg)
+![](https://pbs.twimg.com/media/HPf1qXla8AAfDiS.jpg)
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_6.jpg)
+![](https://pbs.twimg.com/media/HPf1rMtbsAAQIjn.jpg)
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_7.jpg)
+![](https://pbs.twimg.com/media/HPf1sgQb0AAFOvC.jpg)
 
 上面这些图片需要很长很专业的的提示词吗？可能并不需要
 
@@ -114,7 +114,7 @@ date: "2026-08-12"
 
 因为你缺的不是下一条咒语，而是一套看图、判断和继续沟通的方法。
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_8.jpg)
+![](https://pbs.twimg.com/media/HPf1tN8bIAEDuEh.jpg)
 
 ## 所以这次，我把起点退回到了真正的第一次
 
@@ -131,7 +131,7 @@ date: "2026-08-12"
 - 一篇序言；
 - 六篇入门课；
 - 十五篇主线课。
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_9.jpg)
+![](https://pbs.twimg.com/media/HPf1t3QbIAAXFTk.jpg)
 
 入门篇负责把你从空白输入框前接上车。
 
@@ -165,7 +165,7 @@ date: "2026-08-12"
 
 手画坏了、人物跑偏了、参考图串味了、改到第三轮脸已经油腻得不行了，这些结果我也尽量保留。
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_10.jpg)
+![](https://pbs.twimg.com/media/HPf1uKSaUAAlwu-.jpg)
 
 因为一张成功图只能证明“这样做有可能成功”。
 
@@ -240,7 +240,7 @@ date: "2026-08-12"
 
 从“我到底该写什么”，走到“我知道下一句该说什么”；再从偶然生成一张好图，走到慢慢做出自己真正想要的画面。
 
-![](../_media/x-2087409888767205704/nanyuan0412_2087409888767205704_11.jpg)
+![](https://pbs.twimg.com/media/HPf1uvjaIAAaELB.jpg)
 
 Prompt 到最后，可能反而没有那么神秘。
 

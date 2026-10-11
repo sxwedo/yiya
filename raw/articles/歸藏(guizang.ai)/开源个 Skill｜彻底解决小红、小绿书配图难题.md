@@ -11,13 +11,13 @@ type: "Article"
 
 # 📰 开源个 Skill｜彻底解决小红、小绿书配图难题
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_16.jpg)
+![Image](https://pbs.twimg.com/media/HJXru_nbkAApb4D.jpg)
 
 前段时间开源了 [guizang-ppt-skill](https://mp.weixin.qq.com/s/MVXHToWtNVT_b68zxr7fSA)，之后我自己用它做内容的时候发现一件事。
 
 用它出的网页，单张截下来发到图文平台，反响和数据比我手工排版还很多。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_7.jpg)
+![Image](https://pbs.twimg.com/media/HJXr0RqaEAA8clA.jpg)
 
 我相信你之前也找到过一些这种生成3：4 卡片图的提示词或者 Skill。
 
@@ -39,7 +39,7 @@ type: "Article"
 
 全部按 3:4 在手机信息流里被滑过的真实场景校准过。21:9 和  1:1 公众号头图也都支持。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_12.jpg)
+![Image](https://pbs.twimg.com/media/HJXr7qGbAAAycXX.jpg)
 
 下面从图文创作者最关心的事开始讲。
 
@@ -67,17 +67,17 @@ type: "Article"
 
 - 美食 / 探店：高饱和杂志风，俯拍图优先，文字向四角让位；
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_5.jpg)
+![Image](https://pbs.twimg.com/media/HJXsC7WbYAA109i.jpg)
 
 我甚至专门为旅行博主做了地图组件。你可以把店的位置和旅行路线都标注在上面，AI 会自动帮你生成标注。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_3.jpg)
+![Image](https://pbs.twimg.com/media/HJXsHTZakAA37-0.jpg)
 
 同一段文字喂给它，你说这是影评，它给你电影海报式的卡片；
 
 你说这是产品测评，它给你带设备框的对比图。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_4.jpg)
+![Image](https://pbs.twimg.com/media/HJXsJtfbgAAD-JV.jpg)
 
 更重要的是，它有明确不接的活：
 
@@ -103,7 +103,7 @@ type: "Article"
 
 1. 文字横跨整张图把本来好看的构图毁掉。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_6.jpg)
+![Image](https://pbs.twimg.com/media/HJXsP18awAAUD4t.jpg)
 
 Skill 处理这件事用了三步：
 
@@ -113,7 +113,7 @@ Skill 处理这件事用了三步：
 
 1. 字号和断行自适应：根据落点区域大小动态调整字号和换行位置，而不是写死字号让它溢出。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_2.jpg)
+![Image](https://pbs.twimg.com/media/HJXsTz7aIAABjwj.jpg)
 
 这套规则跑下来，卡片的"高级感"基本就立住了。读者看不出"被压上去的字"和"图本来就在那里的字"的区别。
 
@@ -131,7 +131,7 @@ Skill 处理这件事用了三步：
 
 - Wallhaven，游戏、摄影、壁纸之类的图都在这里，版权混乱。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_15.jpg)
+![Image](https://pbs.twimg.com/media/HJXsXpabAAAN-hk.jpg)
 
 它会根据正文段落的语义自动派发搜索词、拿回图、按版式裁切到位、避开人脸或主体被切掉。
 
@@ -155,7 +155,7 @@ Skill 内置了一套截图美化：
 
 同时根据视觉风格自动匹配阴影层次和圆角参数，两套风格各有一套截图配方，前后一致不用手动调。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_14.jpg)
+![Image](https://pbs.twimg.com/media/HJXsc5SaQAAs9Hh.jpg)
 
 简单一句，你随手截的图，过它一道，看上去就像产品官方做的宣传图。
 
@@ -169,7 +169,7 @@ Skill 内置了一套截图美化：
 
 也避免你使用 AI 图片导致内容曝光受影响。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_13.jpg)
+![Image](https://pbs.twimg.com/media/HJXshodboAA0bM3.jpg)
 
 2.6 视觉系统：两套风格 + 28 个版式骨架
 
@@ -185,7 +185,7 @@ Skill 内置了一套截图美化：
 
 - 网格风：Massimo Vignelli 和 Helmut Schmid 瑞士平面设计那一脉。强网格，无衬线，几何感，用色克制但精准。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_1.jpg)
+![Image](https://pbs.twimg.com/media/HJXsknfacAAAm9A.jpg)
 
 28 个版式骨架，是我从过去十年看过的杂志、海报、专辑封面、电影海报里挑出来，经得起放大看的那些。
 
@@ -193,7 +193,7 @@ AI 在"自由版面设计"上现在还是平庸的，给它一个被验证过的
 
 10 套主题色板、固定字体搭配、有限图标库，这些细节就不一一列了。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_8.png)
+![Image](https://pbs.twimg.com/media/HJXsnx8aYAAsVAF.png)
 
 它们的逻辑是同一个：限制不是阻碍，是底线。
 
@@ -213,7 +213,7 @@ AI 在"自由版面设计"上现在还是平庸的，给它一个被验证过的
 
 网页设计语言是为可滚动、可交互的场景做的，搬到一张静态图上，会显得用力过猛、信息平淡。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_11.jpg)
+![Image](https://pbs.twimg.com/media/HJXsuACa8AAX8jz.jpg)
 
 所以这个 Skill 在视觉决策上的所有"为什么"：
 
@@ -235,7 +235,7 @@ AI 在"自由版面设计"上现在还是平庸的，给它一个被验证过的
 
 Skill 这种东西，本质上是一个小产品。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_10.jpg)
+![Image](https://pbs.twimg.com/media/HJXsyJMbMAADIio.jpg)
 
 落到这个项目里：
 
@@ -273,7 +273,7 @@ Skill 这种东西，本质上是一个小产品。
 
 Skill 是一个产品。 判断一个 Skill 好不好，看它有没有被它的作者偏爱过。
 
-![Image](../_media/x-2059812895803011449/op7418_2059812895803011449_9.jpg)
+![Image](https://pbs.twimg.com/media/HJXs3ZVb0AAhph-.jpg)
 
 如果你也在做图文内容，希望它能帮你省掉那些被排版毁掉的好选题。
 
@@ -285,7 +285,7 @@ GitHub： https://github.com/op7418/guizang-social-card-skill
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2059812895803011449/op7418_2059812895803011449_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HJXrrPsbwAAVEdj.jpg)
 
 ## 💬 Replies
 

@@ -472,7 +472,7 @@ Claude Code 不是一个工具。它是一个队友。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2038466579814580391/yanhua1010_2038466579814580391_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HEoT3c9aoAArIKt.jpg)
 
 ## 💬 Replies
 

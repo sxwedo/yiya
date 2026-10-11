@@ -24,7 +24,7 @@ Electrical engineers already use Claude Code to auto-generate reference designs 
 
 When we uncover gaps in Claude’s capabilities on domain specific tasks requiring deep subject matter expertise, we can partner with experts in the field to teach Claude to improve on these tasks. This knowledge is encoded in the Claude models that are released publicly, so that all users of Claude models benefit, be it in Claude Code, [claude.ai](http://claude.ai), or their own Claude powered systems and applications.
 
-![Close-up of an engineer working with a printed circuit board designed with Claude’s help. Attribution: Diode Computers.](../_media/claude-making-claude-a-better-electrical-engineer/Claude_making-claude-a-better-electrical-engineer_1.png)
+![Close-up of an engineer working with a printed circuit board designed with Claude’s help. Attribution: Diode Computers.](https://assets.claude.com/36085fc061541b291ec9e1652f00fe3948518aa7.png)
 
 *Close-up of an engineer working with a printed circuit board designed with Claude’s help. Attribution: Diode Computers.*
 
@@ -40,7 +40,7 @@ Given this well defined task, and clear criteria for judging the success and fai
 
 To benchmark Claude’s performance on this task, we used a test set of generated reference designs in a blind head-to-head evaluation using Claude Opus 4.1, Claude Sonnet 4, and Claude Sonnet 4.5. We found that Claude Sonnet 4.5’s reference designs were preferred by Diode’s electrical engineers 8 out of 10 times. Compared to other models, Claude Sonnet 4.5 was more likely to pick up on small nuances in the documentation material and was better at following the conventions and semantics of their toolchain.
 
-![In blind head-to-head evaluations, Diode's electrical engineers preferred Sonnet 4.5's reference designs over those from Opus 4 (60% vs 40%) and Sonnet 4 (82% vs 18%).](../_media/claude-making-claude-a-better-electrical-engineer/Claude_making-claude-a-better-electrical-engineer_2.png)
+![In blind head-to-head evaluations, Diode's electrical engineers preferred Sonnet 4.5's reference designs over those from Opus 4 (60% vs 40%) and Sonnet 4 (82% vs 18%).](https://assets.claude.com/8e826d984e89f6e086f159955b564d56617e2539.png)
 
 *In blind head-to-head evaluations, Diode's electrical engineers preferred Sonnet 4.5's reference designs over those from Opus 4 (60% vs 40%) and Sonnet 4 (82% vs 18%).*
 

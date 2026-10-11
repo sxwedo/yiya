@@ -13,7 +13,7 @@ type: "Article"
 
 OpenAI 联合创始人卡帕西在他的知识库里塞了 40 万字、上百篇文章，但他自己从来不整理一个字，而是全部交给 AI。
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_2.jpg)
+![Image](https://pbs.twimg.com/media/HGUXZgdbAAA5-zT.jpg)
 
 他前几天把这套方法公开在了 GitHub 上，一条推文直接冲上 1900 万曝光，全网刷屏。
 
@@ -23,7 +23,7 @@ OpenAI 联合创始人卡帕西在他的知识库里塞了 40 万字、上百篇
 
 这些好的内容根本无法被我们吸收，只能白白躺在收藏夹，这是大部分人在知识管理上的通病。
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_3.jpg)
+![Image](https://pbs.twimg.com/media/HGUYTbAaQAAfFXL.jpg)
 
 ## 通过本文你将学到：
 
@@ -49,7 +49,7 @@ OpenAI 联合创始人卡帕西在他的知识库里塞了 40 万字、上百篇
 
 那 AI 到底是怎么做到这些的？
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_7.jpg)
+![Image](https://pbs.twimg.com/media/HGUYfbTasAAMr41.jpg)
 
 答案就在卡帕西设计的这套三层架构里，关键是把"人做什么、AI 做什么"分得清清楚楚。
 
@@ -79,11 +79,11 @@ AI 会把原始资料提炼成一个个概念页、实体页、摘要页，再�
 
 在 GitHub 上找到卡帕西开源的这份文档，把链接直接丢给 AI，告诉它：帮我根据这份内容搭建文件夹结构
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_6.jpg)
+![Image](https://pbs.twimg.com/media/HGUZRYCaMAA-RO_.jpg)
 
 AI 会自动读取这份文档，然后帮你创建 raw（原始资料）、wiki（知识网络），还有 [CLAUDE.md](http://claude.md/) 文件。
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_12.jpg)
+![Image](https://pbs.twimg.com/media/HGUZWZJbwAAFzDn.jpg)
 
 第三步，开始录入资料
 
@@ -91,15 +91,15 @@ AI 会自动读取这份文档，然后帮你创建 raw（原始资料）、wiki
 
 这里推荐用 Obsidian 官方出的 Chrome 插件，叫 Obsidian Web Clipper。它能一键把网页内容和 YouTube 视频，以 Markdown 格式直接保存到 Obsidian 本地。
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_9.jpg)
+![Image](https://pbs.twimg.com/media/HGUZcQHawAA5zRs.jpg)
 
 比如我最近想学 harness engineering，在 YouTube 上刷到一个质量不错的视频。以前收藏视频挺麻烦的，字幕没法直接复制收藏。
 
 现在我可以直接点一下插件，它就会自动把整段字幕提取出来，转成 Markdown，直接存进我知识库里。
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_10.jpg)
+![Image](https://pbs.twimg.com/media/HGUZhRNboAE4548.jpg)
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_4.jpg)
+![Image](https://pbs.twimg.com/media/HGUZl5YbYAAOJD_.jpg)
 
 网页文章也是一样的流程。看到好内容直接就能进知识库。
 
@@ -111,11 +111,11 @@ AI 会自动读取这份文档，然后帮你创建 raw（原始资料）、wiki
 
 最后它还会给我一份「核心内容速览」，把几篇文章提炼出来的共识用一张表格列出来，并且建议我下一步可以做什么。
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_11.jpg)
+![Image](https://pbs.twimg.com/media/HGUZq1ra8AApOF1.jpg)
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_5.jpg)
+![Image](https://pbs.twimg.com/media/HGUZu-hbgAASSSa.jpg)
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_8.jpg)
+![Image](https://pbs.twimg.com/media/HGUZzNgbsAA14lr.jpg)
 
 这个过程里我只做了一件事，就是把文章丢进文件夹。剩下的阅读、提炼、归类、建立链接、找洞察，全是 AI 在做。
 
@@ -133,11 +133,11 @@ AI 会自动读取这份文档，然后帮你创建 raw（原始资料）、wiki
 
 也欢迎关注我的公众号：
 
-![Image](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_1.png)
+![Image](https://pbs.twimg.com/media/HGUayxnbkAAuwiN.png)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2046071513779200275/imaxichuhai_2046071513779200275_13.jpg)
+![Image 1](https://pbs.twimg.com/media/HGUa-mbakAAxHX-.jpg)
 
 ## 💬 Replies
 

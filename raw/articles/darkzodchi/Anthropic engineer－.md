@@ -21,7 +21,7 @@ Watch the full talk, then save the exact setup below👇
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065384539988353143/zodchiii_2065384539988353143_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2065382159347560448/img/A8jvzMn0m0sC8F9-.jpg)
 
 ## 💬 Replies
 

@@ -36,7 +36,7 @@ Research conducted internally and through several third parties suggests that au
 
 ### Auto mode outperforms manual permissions on safety ###
 
-![In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%.](../_media/claude-auto-mode-default-in-claude-code/Claude_auto-mode-default-in-claude-code_1.png)
+![In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%.](https://assets.claude.com/7c1503f89bf6b3f747b8e251af999cdf254c3b7a.png)
 
 *In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%.*
 
@@ -64,7 +64,7 @@ These attacks are synthetic and adversarial by design, built to find where the c
 
 ### Auto mode reduces prompt injection risk ###
 
-![With auto mode enabled, no attack in an independent evaluation was successful against any of our models. GPT-5.6 Sol running in Codex v0.144.5 Auto-review permission mode had a 5.83% attack success rate. GPT-5.6 Sol was run on “max” reasoning effort to test performance with its highest level of reasoning, and all Claude models were run on high effort.](../_media/claude-auto-mode-default-in-claude-code/Claude_auto-mode-default-in-claude-code_2.png)
+![With auto mode enabled, no attack in an independent evaluation was successful against any of our models. GPT-5.6 Sol running in Codex v0.144.5 Auto-review permission mode had a 5.83% attack success rate. GPT-5.6 Sol was run on “max” reasoning effort to test performance with its highest level of reasoning, and all Claude models were run on high effort.](https://assets.claude.com/33d72ad3ddac7f76f35b91dad9fd6dd5ae38c4f1.png)
 
 *With auto mode enabled, no attack in an independent evaluation was successful against any of our models. GPT-5.6 Sol running in Codex v0.144.5 Auto-review permission mode had a 5.83% attack success rate. GPT-5.6 Sol was run on “max” reasoning effort to test performance with its highest level of reasoning, and all Claude models were run on high effort.*
 
@@ -76,9 +76,9 @@ Both Codex and Claude Code were evaluated using an identical browser integration
 
 **In this evaluation, none of the 720 attack attempts succeeded against Claude Fable 5, Opus 5, or Sonnet 5 running auto mode.** On the other hand, 5.83% of the attacks succeeded against GPT-5.6 Sol running Codex's *Auto-review* mode. Notably, this is greater than the 0.09% average attack success rate against our latest models running in *bypassPermissions* mode without additional safeguards. The tests showed a 19.03% attack success rate against GPT-5.6 Sol when running in *Full Access* mode. Attack success rates differ between tasks where tools return results as text and tasks that require interacting with a browser through screenshots, as shown below.
 
-![](../_media/claude-auto-mode-default-in-claude-code/Claude_auto-mode-default-in-claude-code_3.png)
+![](https://assets.claude.com/df30eddadb95ec1328900f655e9178b0e25a248f.png)
 
-![Auto mode protects against prompt injections both in tool calling and browser GUI use. OpenAI models showed higher attack success rates on browser tasks in a third-party evaluation.](../_media/claude-auto-mode-default-in-claude-code/Claude_auto-mode-default-in-claude-code_4.png)
+![Auto mode protects against prompt injections both in tool calling and browser GUI use. OpenAI models showed higher attack success rates on browser tasks in a third-party evaluation.](https://assets.claude.com/888bf40884ed18b3d375f9731635db408becb275.png)
 
 *Auto mode protects against prompt injections both in tool calling and browser GUI use. OpenAI models showed higher attack success rates on browser tasks in a third-party evaluation.*
 

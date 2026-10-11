@@ -67,11 +67,11 @@ AI 生成了提示词后，我拿去测试了一下，虽然也生成了一个�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1975054365363712419/dotey_1975054365363712419_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G2jMYGXW8AAzvXB?format=jpg&name=medium)
 
-![Image 2](../_media/x-1975054365363712419/dotey_1975054365363712419_2.jpg)
+![Image 2](https://pbs.twimg.com/media/G2jMdSKXwAEFejd?format=jpg&name=medium)
 
-![Image 3](../_media/x-1975054365363712419/dotey_1975054365363712419_3.jpg)
+![Image 3](https://pbs.twimg.com/media/G2jMrmCXoAAZzB7?format=jpg&name=medium)
 
 ## 💬 Replies
 

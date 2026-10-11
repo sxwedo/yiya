@@ -16,7 +16,7 @@ Today we're introducing the advisor tool on the Claude Platform to make the advi
 
 ## Build cost-effective agents with the advisor strategy
 
-![](../_media/claude-the-advisor-strategy-give-agents-an-intelligence-boost/Claude_the-advisor-strategy_1.png)
+![](https://assets.claude.com/8f630cd9ff3ec9f706e977e7b91143743c04221d.png)
 
 With the advisor strategy, Sonnet or Haiku runs the task end-to-end as the executor, calling tools, reading results, and iterating toward a solution. When the executor hits a decision it can't reasonably solve, it consults Opus for guidance as the advisor. Opus accesses the shared context and returns a plan, a correction, or a stop signal, and the executor resumes. The advisor never calls tools or produces user-facing output, and only provides guidance to the executor.
 
@@ -24,7 +24,7 @@ This inverts a common sub-agent pattern, where a larger orchestrator model decom
 
 In our evaluations, Sonnet with Opus as an advisor showed a 2.7 percentage point increase on[SWE-bench Multilingual](https://www.swebench.com/multilingual.html)<sup>1</sup> over Sonnet alone, while reducing cost per agentic task by 11.9%.
 
-![](../_media/claude-the-advisor-strategy-give-agents-an-intelligence-boost/Claude_the-advisor-strategy_2.png)
+![](https://assets.claude.com/fe28fc77f04a26f04870c65c3f36204f69a23e49.png)
 
 ## **The advisor tool**
 
@@ -32,11 +32,11 @@ We’re bringing the advisor strategy to our API with the [**advisor tool**](htt
 
 In our evaluations, Sonnet with an Opus advisor improved scores across BrowseComp<sup>2</sup> and Terminal-Bench 2.0<sup>3</sup> benchmarks while costing less per task than Sonnet alone.
 
-![](../_media/claude-the-advisor-strategy-give-agents-an-intelligence-boost/Claude_the-advisor-strategy_3.png)
+![](https://assets.claude.com/c01f1490dc3cfe7d5995541fc3fbd64d55d0dffe.png)
 
 The advisor strategy also works with Haiku as the executor. On BrowseComp, Haiku with an Opus advisor scored 41.2%, more than double its solo score of 19.7%. Haiku with an Opus advisor trails Sonnet solo by 29% in score but costs 85% less per task. The advisor adds cost relative to Haiku alone, but the combined price is still a fraction of what Sonnet costs, making it a strong option for high-volume tasks that require a balance of intelligence and cost.
 
-![](../_media/claude-the-advisor-strategy-give-agents-an-intelligence-boost/Claude_the-advisor-strategy_4.png)
+![](https://assets.claude.com/ea472c56f2d583b9d09c85e5c6539864e4dd9ab4.png)
 
 Declare advisor\_20260301 in your Messages API request, and the model handoff happens inside a single /v1/messages request—no extra round-trips or context management. The executor model decides when to invoke it. When it does, we route the curated context to the advisor model, return the plan, and the executor continues all within the same request.  
 

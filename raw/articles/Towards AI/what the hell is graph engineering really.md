@@ -21,7 +21,7 @@ We barely finished drawing the circles.
 
 Then Peter Steinberger, the creator of OpenClaw, posted:
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_10.png)
+![Image](https://pbs.twimg.com/media/HNmytiVa4AEnCkP.png)
 
 Nine words. Thousands of likes. Immediate confusion.
 
@@ -49,7 +49,7 @@ A loop gives it a goal, lets it act, checks the result, and sends it back to wor
 
 The basic shape is simple:
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_7.jpg)
+![Image](https://pbs.twimg.com/media/HNmxLudbAAAlni6.jpg)
 
 The loop is useful because the agent no longer needs a human to write every follow-up prompt.
 
@@ -93,7 +93,7 @@ It might carry data from one agent to another. It might express a dependency. It
 
 Several nodes can run at the same time. Their results can converge into one reviewer. A failed check can send the work back to a fixer. An external event can start an entire section of the graph.
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_1.jpg)
+![Image](https://pbs.twimg.com/media/HNmxYNibAAAce0e.jpg)
 
 Now put those pieces into a code review system.
 
@@ -101,11 +101,11 @@ A new pull request fans out to several audit agents. Their findings all go to a 
 
 If the tests fail, the work goes back to the fixer. If they pass, the review is published.
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_3.jpg)
+![Image](https://pbs.twimg.com/media/HNmx8dXaQAAeXqM.jpg)
 
 Now redraw the same system as nodes and edges. It becomes a graph containing a loop:
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_5.jpg)
+![Image](https://pbs.twimg.com/media/HNmyDYWa0AAYKYM.jpg)
 
 The graph is the whole system. The loop is only the retry path between fixing and testing.
 
@@ -141,7 +141,7 @@ That information is the system's state. It includes which tasks are finished, wh
 
 The graph is the map of possible paths. The state tells the system where it is on that map and what has happened so far.
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_6.jpg)
+![Image](https://pbs.twimg.com/media/HNmyLrcb0AAb78W.jpg)
 
 The underlying computer science is not new. Workflow engines, DAG schedulers, state machines, and distributed systems have worked this way for years.
 
@@ -219,7 +219,7 @@ Anthropic does not call this Graph Engineering. Mario Zechner's advice was to st
 
 > "start here. then think about what this actually is (a directed graph). then think about how you'd marry triggering (sub-)graphs via external events."
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_8.png)
+![Image](https://pbs.twimg.com/media/HNmyZHObAAA2rDp.png)
 
 That last part pushes the idea beyond one Claude Code run. If external events can trigger whole subgraphs, those workflows can be joined into something much larger.
 
@@ -237,7 +237,7 @@ Acyclic means the workflow never returns to an earlier node. Work moves forward 
 
 A research workflow can be a DAG:
 
-![Image](../_media/x-2078892237287801283/towards_AI_2078892237287801283_4.jpg)
+![Image](https://pbs.twimg.com/media/HNmygAhbsAAXT5b.jpg)
 
 Every stage runs once. Nothing travels backward.
 
@@ -353,7 +353,7 @@ That is graph engineering, at least until someone gives it a new name next week.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2078892237287801283/towards_AI_2078892237287801283_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HNm1EmLb0AEtO3T.jpg)
 
 ## 💬 Replies
 

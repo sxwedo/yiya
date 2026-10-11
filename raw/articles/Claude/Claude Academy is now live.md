@@ -13,7 +13,7 @@ Claude Academy is now live.
 
 Whether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at [academy.claude.com](https://academy.claude.com) 
 
-![Image](../_media/x-2090518650251804742/claudeai_2090518650251804742_1.jpg)
+![Image](https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg)
 
 ## 💬 Replies
 

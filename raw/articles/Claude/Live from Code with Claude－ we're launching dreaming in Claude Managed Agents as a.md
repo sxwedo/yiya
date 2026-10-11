@@ -13,7 +13,7 @@ Live from Code with Claude: we're launching dreaming in Claude Managed Agents as
 
 Outcomes, multiagent orchestration, and webhooks are now in public beta. 
 
-![Image](../_media/x-2052067399088664981/claudeai_2052067399088664981_1.jpg)
+![Image](https://pbs.twimg.com/media/HH0nwVrWsAMBys4.jpg)
 
 ## 💬 Replies
 

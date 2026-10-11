@@ -86,7 +86,7 @@ claude
 
 Start integrating APIs with Claude:
 
-![](../_media/claude-how-to-integrate-apis-seamlessly/Claude_integrate-apis-seamlessly_1.png)
+![](https://assets.claude.com/acb63b2b7269aaa86f9e3990c6ddc701d4c9f69c.png)
 
 Claude Code analyzes API specifications, creates typed clients matching your project patterns, implements retry mechanisms with your existing utilities. You reduce initial integration time by preventing common failure modes during implementation rather than discovering them in production.
 

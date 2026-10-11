@@ -91,7 +91,7 @@ Agent 从来不缺 Loop。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2067619946071515148/teach_fireworks_2067619946071515148_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLGpU1wagAAfC86?format=jpg&name=medium)
 
 ## 💬 Replies
 

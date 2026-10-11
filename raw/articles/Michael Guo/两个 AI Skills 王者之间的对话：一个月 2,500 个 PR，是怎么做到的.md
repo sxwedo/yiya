@@ -37,7 +37,7 @@ Matt 对这一点很有共鸣。他做 Skills，也是在把日常工作中的�
 
 对开发者来说，经验体现在如何定位问题、选择方案、判断质量。对其他行业的人来说，也可能是对用户需求、业务流程或专业问题的理解。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_6.jpg)
+![Image](https://pbs.twimg.com/media/HTrGxyrXcAA0uaM.jpg)
 
 Skills 给了这些经验一种可以被调用的形式。但前提是，你得把经验里的关键步骤和判断条件整理出来。
 
@@ -55,7 +55,7 @@ Poteto 讲了一个很具体的经历。
 
 Agent 改完代码，她去运行、观察，再把结果告诉它。只要这个环节还需要人，Agent 就很难自己完成一轮有效的迭代。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_4.jpg)
+![Image](https://pbs.twimg.com/media/HTrJBlbWMAIY1IN.jpg)
 
 所以，她开始给 Agent 补上验证能力：运行代码、操作应用、读取调试信息、查看 traces 和 snapshots，再根据真实结果继续修改。
 
@@ -81,7 +81,7 @@ Poteto 甚至说，即使不用她的 pstack，也不用 Matt 的 Skills，验�
 
 这样，Agent 可以调用已经可用的工具，把注意力留给需要判断的部分。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_5.jpg)
+![Image](https://pbs.twimg.com/media/HTrHBz4XgAA6jKF.jpg)
 
 她在访谈里把工作看成一个连续的范围：有些事情需要理解背景、权衡方案；有些事情则是明确的机械操作。
 
@@ -101,7 +101,7 @@ Poteto 提到一个内部框架 Dune，可以理解成服务于他们 Electron �
 
 例如，每个功能有自己的目录。Agent 添加功能时，可以沿着既定结构做，不容易继续往一个越来越大的文件里堆代码。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_7.jpg)
+![Image](https://pbs.twimg.com/media/HTrJMeVWEAA9AKt.jpg)
 
 这些约束来自她观察到的实际问题。
 
@@ -125,7 +125,7 @@ Poteto 的回答是，她已经把多个工作循环接了起来。
 
 而“外层循环”负责接收代码库之外的新信息，例如 Slack 里的讨论、Linear 里的问题、用户在 X 上反馈的 bug。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_1.jpg)
+![Image](https://pbs.twimg.com/media/HTrJWCrXQAACdjK.jpg)
 
 如果这些信息只能由人收集，再逐条转发给 Agent，人仍然是中间的瓶颈。与此同时，Agent 手里的目标和背景也可能逐渐过时。
 
@@ -133,7 +133,7 @@ Poteto 的回答是，她已经把多个工作循环接了起来。
 
 整个过程可以理解成：
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_2.png)
+![Image](https://pbs.twimg.com/media/HTrGJBGXoAElTqk.png)
 
 环节主要工作外部反馈用户报告问题，团队补充需求和限制外层 Agent收集相关背景，送到对应项目协调 Agent关联问题、组织任务、分配工作执行与验证 Agent复现、修改、检查结果、继续迭代人抽查产出，调整目标、工具和规则
 
@@ -157,7 +157,7 @@ Poteto 有一个 Agent，会持续寻找 React 代码中的不良模式。但她
 
 即时执行很容易让人只顾着清掉眼前任务。保留一段缓冲时间，则给了人和协调 Agent 寻找共同原因的机会。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_8.jpg)
+![Image](https://pbs.twimg.com/media/HTrJenLXQAEuPUX.jpg)
 
 这也为 2,500 个 PR 补上了必要的背景：大量工作属于代码维护。修 bug、清理不良模式、改善环境，都是其中的一部分。
 
@@ -171,7 +171,7 @@ Poteto 承认，规模上来以后，她无法逐个检查所有产出。她的�
 
 如果多个 Agent 都在走同一条捷径，或者反复使用同一种 workaround，她会检查 Skills、lint、类型约束和工具，寻找可以统一解决问题的地方。
 
-![Image](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_3.jpg)
+![Image](https://pbs.twimg.com/media/HTrJpWqW8AE52rr.jpg)
 
 她也描述了更进一步的工作方式：让多个验证 Agent 实际运行应用、尝试操作、寻找回归，发现问题后继续修复和验证，达到可合入的状态。她早上再检查提交记录，必要时回滚或修改。
 
@@ -207,5 +207,5 @@ Poteto 的 Recall 就来自这样的需求。她在处理相似问题时，总�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2106219013978140679/Michaelzsguo_2106219013978140679_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HTrKpiTWAAAluo0.jpg)
 

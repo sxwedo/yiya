@@ -209,7 +209,7 @@ Markdown 没有光环
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2036620734466830607/xxxjzuo_2036620734466830607_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HEOG8fwXsAAjGxh.jpg)
 
 ## 💬 Replies
 

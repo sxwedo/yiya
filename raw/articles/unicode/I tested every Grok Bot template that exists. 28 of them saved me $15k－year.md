@@ -153,7 +153,7 @@ Send this to the one friend who's still paying full price for everything.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2093706272885420402/unicodef1wn_2093706272885420402_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ5SCurWUAAcv38.jpg)
 
 ## 💬 Replies
 

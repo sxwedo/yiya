@@ -19,15 +19,15 @@ type: "Article"
 
 然后昨天，我收到的最多的两个需求，第一个就是深色看的太难受了，能不能增加浅色模式，这个确实是我自己的疏忽，昨天早上花了一个多小时紧急做完了，昨天中午已经上线了。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_5.jpg)
+![Image](https://pbs.twimg.com/media/HHxCaVlbUAEp7YG.jpg)
 
 然后另一个需求，就是能不能增加skill/API/RSS。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_3.png)
+![Image](https://pbs.twimg.com/media/HHxCddhacAAzBZS.png)
 
 也收到了阮总的督促，那必须得干了。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_10.png)
+![Image](https://pbs.twimg.com/media/HHxCh2dacAA1PrI.png)
 
 这毕竟是个AI时代，只有网站这一种形式，确实还是太笨拙了，所以晚上下班回家，决定继续打开AI开始Coding，把大家提的需求都补上。
 
@@ -42,7 +42,7 @@ type: "Article"
 你进入AIHOT主站，点击左边的Agent接入，就可以看到了。
 
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_8.jpg)
+![Image](https://pbs.twimg.com/media/HHxClXkbUAAx74M.jpg)
 
 目前开放了3种接入方式：
 
@@ -58,7 +58,7 @@ Skills我就不详细再去过多解释了，这玩意就是给Agent使用的技
 
 而这个AIHOT.skill的作用呢，也特别简单，让你的Agent可以直接读我的AIHOT网站的部分数据，从而来实现嵌入到你的工作流中。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_12.jpg)
+![Image](https://pbs.twimg.com/media/HHxCookbAAAtcYY.jpg)
 
 安装也特别简单，一句话就可以，我直接放在了我的服务器上，所以也无需魔法：
 
@@ -68,7 +68,7 @@ Skills我就不详细再去过多解释了，这玩意就是给Agent使用的技
 
 https://github.com/KKKKhazix/khazix-skills
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_7.jpg)
+![Image](https://pbs.twimg.com/media/HHxCvpza4AASVL0.jpg)
 
 AIHOT Skill装上之后，你就不用再打开浏览器，不用再去刷网站，甚至不用再去想今天AI圈到底发生了什么。
 
@@ -82,7 +82,7 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 比如你早上起来，打开Claude Code或者OpenClaw，跟它说一句“给我一份今天的AI日报”，它就会自动触发AIHOT Skill，把当天的AI日报拉下来，整理成一份中文简报，直接摆在你面前。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_15.jpg)
+![Image](https://pbs.twimg.com/media/HHxCzRMa4AECiDA.jpg)
 
 日报分五个版块，模型发布/更新、产品发布/更新、行业动态、论文研究、技巧与观点。每条都有中文标题、一句话摘要、信息来源、还有原文链接，你感兴趣的点进去就能看原文。
 
@@ -94,7 +94,7 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 就是周末我相信很多人肯定不咋看AI新闻或者消息，都是周日晚上或者周一早上再统一看下，这时候，你就可以周一早上说一句“给我总结一下最近三天的AI日报”，他就刷刷刷全出来了，还挺快的。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_2.jpg)
+![Image](https://pbs.twimg.com/media/HHxC2mcbQAADw1Z.jpg)
 
 第二个能力是精选模式。
 
@@ -104,7 +104,7 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 这块其实就看你自己的需求，如果只是每天早上快速扫一眼大事就看日报，想要不漏掉任何高质量条目就看精选就行了。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_13.jpg)
+![Image](https://pbs.twimg.com/media/HHxC6fMbEAAYzQy.jpg)
 
 第三个能力，按时间窗口或分类查。
 
@@ -112,7 +112,7 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 那再往上，其实还有全量的AI相关的所有信息，这些只不过为了保护注意力，他们可能没有被精选选中而已，但是不代表他们没有价值。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_4.jpg)
+![Image](https://pbs.twimg.com/media/HHxC9zNboAAZ80G.jpg)
 
 这时候，你可以Agent说，比如"看看全部消息，列出所有的新模型发布"，它就给你拉AI模型所有的相关条目了，你说"看看最近3天所有的AI产品发布"，它就给你筛所有产品方向的。
 
@@ -120,13 +120,13 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 当然，你也可以指定时间范围，比如你也可以说，过去24小时AI行业有啥大新闻。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_1.png)
+![Image](https://pbs.twimg.com/media/HHxDA_-bkAACy3V.png)
 
 1分钟左右，你就可以得到非常详细且准确的信息了。
 
 当然，默认也会使用精选的信息进行回答，保护你我的注意力。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_9.png)
+![Image](https://pbs.twimg.com/media/HHxDD4FbYAAGb6C.png)
 
 时间窗口最长支持7天，因为再往前的数据量就太大了，同时我也是为了保护一下我这个脆弱的土豆服务器，真的怕量一大，直接给我干崩了。。。
 
@@ -140,13 +140,13 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 装了skill的情况下，会非常的详细且全面，凌晨刚刚发布的语音模型也抓进去了。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_14.jpg)
+![Image](https://pbs.twimg.com/media/HHxDIHoacAAOiM2.jpg)
 
 并且都有源地址，你可以随意进行跳转。
 
 如果没装，就是这样的。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_11.jpg)
+![Image](https://pbs.twimg.com/media/HHxDLqqbMAAc09k.jpg)
 
 还是有一点奇怪和信息缺失的。
 
@@ -162,7 +162,7 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 我开放了三个Feed，精选动态、全部AI动态、AI日报，你挑你需要的订阅就行，Feed地址在Agent接入页面都能看到，一键复制。
 
-![Image](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_6.jpg)
+![Image](https://pbs.twimg.com/media/HHxDPJHbIAA9AA9.jpg)
 
 完整的OpenAPI规范文档我也尽可能让AI写的详细了，但是这块我提前说一个风险，因为我确实没有自己开放过API，也确实看不太懂，这块完全是完全我说了自己需求和一些风控问题之后，Agent自己处理的，所以API这块我心理真的没啥底。
 
@@ -178,7 +178,7 @@ AIHOT每天北京时间早上八点，会自动生成一份当天的AI日报。�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052607019019079768/Khazix0918_2052607019019079768_16.jpg)
+![Image 1](https://pbs.twimg.com/media/HHxTJ5Aa8AAtTEG.jpg)
 
 ## 💬 Replies
 

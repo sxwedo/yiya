@@ -363,7 +363,7 @@ X: https://x.com/ai\_rohitt
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074729530942775376/heyrohitai_2074729530942775376_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMriknLbsAA7t0Z.jpg)
 
 ## 💬 Replies
 

@@ -30,9 +30,9 @@ By integrating with GitHub, contribution metrics surface the following data poin
 
 Contribution data is calculated by matching Claude Code session activity with GitHub commits and PRs. We calculate this conservatively, and only code where we have high confidence in Claude Code's involvement is counted as assisted.
 
-![](../_media/claude-understand-claude-code-s-impact-with-contribution-metrics/Claude_contribution-metrics_1.png)
+![](https://assets.claude.com/006b8b641d3888dd312c8bd9ff3aeb6cf8773323.png)
 
-![](../_media/claude-understand-claude-code-s-impact-with-contribution-metrics/Claude_contribution-metrics_2.png)
+![](https://assets.claude.com/b76efb0d26f9a49a9823e47bc9b4dd17284eaf87.png)
 
 The metrics appear in your existing Claude Code analytics dashboard, accessible to workspace admins and owners. No external tools or data pipelines are required. Simply install our GitHub App and authenticate to your organization’s GitHub account, and metrics will automatically populate on the dashboard.
 

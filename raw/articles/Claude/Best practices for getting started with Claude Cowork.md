@@ -70,7 +70,7 @@ I manage growth marketing at Anthropic, so my examples are marketing-flavored. D
 
 The number of Slack channels and emails a marketer receives every day can be overwhelming. I have a "daily briefing" task that runs every morning at 6am. Claude Cowork is connected to my Slack and Gmail, and my prompt tells it to review my unread emails and the channels I care about, sort them into buckets, and produce a short report.
 
-![](../_media/claude-best-practices-for-getting-started-with-claude-cowork/Claude_best-practices-for-getting-started-with-claude-cowork_1.png)
+![](https://assets.claude.com/481d42a0f045f1e716e1f9f6f6571476157f2aab.png)
 
 The report gives me a TLDR of what to look into, flagged emails grouped by type, channel summaries, and any overnight product-related incidents that could have impacted marketing. Anyone drowning in Slack and email can run some version of this workflow.
 
@@ -78,7 +78,7 @@ The report gives me a TLDR of what to look into, flagged emails grouped by type,
 
 Part of my job includes budget pacing for performance marketing. It's the kind of work nobody wants because it's boring and tedious. Many performance marketing teams track daily spend and run rate in Google Sheets to estimate pacing to goal. Either you're manually exporting daily spend from each channel and pasting it into the sheet, or you're paying for a third-party tool to extract, transform, and load data for you.
 
-![](../_media/claude-best-practices-for-getting-started-with-claude-cowork/Claude_best-practices-for-getting-started-with-claude-cowork_2.png)
+![](https://assets.claude.com/4b0a081e502fc09bfc252fd2c23ea16347bc8dfd.png)
 
 With Claude Cowork, I connect to Google Ads and Meta Ads and create a live artifact (basically an HTML dashboard) in the desktop app that automatically pulls in my daily spend and calculates pacing for me. I can also just tell Claude in plain English how to filter my campaigns and what to look out for.
 
@@ -88,11 +88,11 @@ Run that against the checklist above: multiple sources in (every channel's spend
 
 Instead of exporting a pile of CSVs and building pivot tables or combining files manually, I have Claude Cowork connected to Google Search Console. It pulls what I care about (queries, countries, pages) and reconciles it into a single sheet, instead of Google's default of one CSV per dimension when you export data manually.
 
-![](../_media/claude-best-practices-for-getting-started-with-claude-cowork/Claude_best-practices-for-getting-started-with-claude-cowork_3.png)
+![](https://assets.claude.com/e7b3f3c2e2b7d73dd1e4b95da1889b53df0cfb57.png)
 
 I also give Claude the context on what to focus on, like looking at the last seven days vs the prior seven, filtering to only specific countries, flagging anything that moved meaningfully, and writing up the report in the template that I want. From there I can go ahead and tweak anything or ask Claude follow up questions.
 
-![](../_media/claude-best-practices-for-getting-started-with-claude-cowork/Claude_best-practices-for-getting-started-with-claude-cowork_4.png)
+![](https://assets.claude.com/a4239b970dff8e06581af6dacb876de8c9e917af.png)
 
 With scheduling in Claude Cowork, this runs automatically every week. Reporting used to take me \~30 minutes a week; now it takes five and I spend them on the part that needs my judgement: filling in missing context and workshopping the callouts.
 
@@ -112,7 +112,7 @@ This surfaces things you didn't think to specify, like which time period are we 
 
 Still not sure what to hand off? Ask Claude. Claude has memory and can search your past conversations, so you can ask it which tasks you do most often and which ones to try in Claude Cowork.
 
-![](../_media/claude-best-practices-for-getting-started-with-claude-cowork/Claude_best-practices-for-getting-started-with-claude-cowork_5.png)
+![](https://assets.claude.com/165fc0fddf6ae311f0b915883469ee1982e4bbc5.png)
 
 ### When I still reach for chat ###
 

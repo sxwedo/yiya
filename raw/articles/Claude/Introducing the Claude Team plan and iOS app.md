@@ -21,7 +21,7 @@ Claude is designed to help individuals—and now teams—harness the power of th
 
 Claude enables companies to shape their workflows based on their teams' unique needs and goals, rather than being limited by their existing tools. Built with security and data privacy in mind, Claude helps protect sensitive business information.
 
-![](../_media/claude-introducing-the-claude-team-plan-and-ios-app/Claude_team-plan-and-ios_1.jpg)
+![](https://assets.claude.com/7a4713495efbba1ae1c9a8f2944e8cbc07a3d603.jpg)
 
 The new Team plan features:
 
@@ -49,7 +49,7 @@ The Claude iOS app features:
 * **Vision capabilities**: Use photos from your library, take new photos, or upload files so you can have real-time image analysis, contextual understanding, and mobile-centric use cases on the go.
 * **Open access**: Users across all plans, including Pro and Team, can download the app free of charge.
 
-![](../_media/claude-introducing-the-claude-team-plan-and-ios-app/Claude_team-plan-and-ios_2.png)
+![](https://assets.claude.com/7b0cddf40ac0d7e32c74e86be07a9df438834121.png)
 
 Early testers report that the Claude app is exceptional for brainstorming ideas on the go, getting quick answers to questions, or analyzing scenes and images from the real world. Our new iOS app puts the power of frontier intelligence in your back pocket.
 

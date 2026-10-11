@@ -289,7 +289,7 @@ The natural question: depending on the model, how much thinking is optimal for c
 
 We tested each thinking effort level across a suite of end to end UI automation tasks spanning desktop applications, browsers, and multi-application workflows.
 
-![](../_media/claude-best-practices-for-computer-and-browser-use-with-claude/Claude_best-practices-for-computer-and-browser-use-with-claude_1.png)
+![](https://assets.claude.com/a874bc8fe8c7f6fbddf3d96a797b492a419b6c25.png)
 
 **Opus 4.7 outperforms the 4.6 family.** On the OSWorld Verified benchmark, we find that Opus outperforms all 4.6 family models at equivalent token usage and effort settings. Opus 4.7 on low effort scores similarly to Sonnet 4.6 on max, while using \~1/10th the tokens per task. For difficult tasks, Opus 4.7 is the obvious choice.
 
@@ -308,7 +308,7 @@ We tested each thinking effort level across a suite of end to end UI automation 
 
 We tested each thinking effort level across a suite of end to end UI automation tasks spanning desktop applications, browsers, and multi-application workflows.
 
-![](../_media/claude-best-practices-for-computer-and-browser-use-with-claude/Claude_best-practices-for-computer-and-browser-use-with-claude_2.png)
+![](https://assets.claude.com/53c9ab8bef7de617c3dd09ee6b27fb293873d3c6.png)
 
 Two patterns stand out:
 

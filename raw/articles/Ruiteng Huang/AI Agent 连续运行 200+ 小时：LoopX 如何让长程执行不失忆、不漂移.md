@@ -13,11 +13,11 @@ type: "Article"
 
 我开源了 LoopX，一个面向超长程 Agent 的 control plane。
 
-![Image](../_media/x-2084137041080504502/huangruiteng_2084137041080504502_1.jpg)
+![Image](https://pbs.twimg.com/media/HOxVL8UaMAAvSrV.jpg)
 
 目前，两条真实 Agent trajectory 已经连续运行了 220.7 和 272.9 小时。它们围绕同一个 goal 持续生成、验证和交付结果；中间经历等待、人工反馈、writeback、模型切换与 resume，执行链仍然保持连续。对 long-running Agent 来说，这就是连续执行 200+ 小时。
 
-![Image](../_media/x-2084137041080504502/huangruiteng_2084137041080504502_2.jpg)
+![Image](https://pbs.twimg.com/media/HOxVUd7bMAAFejM.jpg)
 
 这两条轨迹把 Agent 系统带到了一个新的工程尺度：一次模型调用可以只有几分钟，一个 goal 却要持续工作十天；模型、session 和 host 都可以更换，目标、证据、权限与下一步之间的因果链必须保持稳定。
 
@@ -285,7 +285,7 @@ Turn Journal 只记录单轮事务走到了 host result、validation、writeback
 
 前一组机制保证执行链不断，后一组机制保证执行链仍在向正确方向收敛。Replan 是连接两组机制的关键 transition：它读取已经提交的证据，判断当前 frontier 是否仍然有效，再把新的长期判断写回成下一轮可以执行的工作图。
 
-![Image](../_media/x-2084137041080504502/huangruiteng_2084137041080504502_3.jpg)
+![Image](https://pbs.twimg.com/media/HOxVc2LbcAAx1VH.jpg)
 
 # 工作图、Peer 与权限边界
 
@@ -483,7 +483,7 @@ replan evidence
 
   -&gt; new scheduler identity
 
-![Image](../_media/x-2084137041080504502/huangruiteng_2084137041080504502_4.jpg)
+![Image](https://pbs.twimg.com/media/HOxVliBbUAAVojx.jpg)
 
 只记录“已 replan”不会清除 obligation；没有 successor、resume condition、Next Action、gate 或 vision patch 的结果会被识别为 replan\_noop。这条规则把 replan 从一段模型反思变成可执行的状态 transition。
 
@@ -659,7 +659,7 @@ LoopX：https://github.com/huangruiteng/loopx
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2084137041080504502/huangruiteng_2084137041080504502_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HOuxfuHaEAAB9-y.jpg)
 
 ## 💬 Replies
 

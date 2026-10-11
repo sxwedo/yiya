@@ -31,7 +31,7 @@ Claude + Obsidian stops being a folder. It becomes a second brain.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070683754025177238/0xObssnnn_2070683754025177238_1.png)
+![Image 1](https://pbs.twimg.com/media/HLyK9R_XkAAiP5s?format=png&name=medium)
 
 ## 💬 Replies
 

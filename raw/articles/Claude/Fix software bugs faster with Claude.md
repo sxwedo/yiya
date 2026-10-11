@@ -93,7 +93,7 @@ claude
 
 Then immediately start investigating:
 
-![](../_media/claude-fix-software-bugs-faster-with-claude/Claude_fix-software-bugs-faster-with-claude_1.png)
+![](https://assets.claude.com/818e102b9c1a620d991305730d0cb690168e131f.png)
 
 Claude Code analyzes your entire codebase, examines dependencies, and provides specific reasons why checkout is failing. Typical debugging time drops from hours to minutes.
 

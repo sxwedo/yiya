@@ -901,7 +901,7 @@ Anthropic 已经上线了组织级 skill 部署——管理员可以一次推到
 
 哪种最佳取决于场景：
 
-![Image](../_media/x-2051111166416396713/Ryrenz_2051111166416396713_1.jpg)
+![Image](https://pbs.twimg.com/media/HJMkT5CWYAAbtGQ.jpg)
 
 ## 7.1 描述你的 Skill 时，聚焦成果
 
@@ -1009,7 +1009,7 @@ description: 规划自媒体作者下周的公众号选题。当用户说"定下
 
 # 附录 B：Skill YAML 完整字段
 
-![Image](../_media/x-2051111166416396713/Ryrenz_2051111166416396713_2.jpg)
+![Image](https://pbs.twimg.com/media/HJMmWSnWwAASR2e.jpg)
 
 例子：
 
@@ -1103,7 +1103,7 @@ Skill 解决的是之后一百次类似任务。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2051111166416396713/Ryrenz_2051111166416396713_3.jpg)
+![Image 1](https://pbs.twimg.com/media/HKWMaUCXIAA3UjI.jpg)
 
 ## 💬 Replies
 

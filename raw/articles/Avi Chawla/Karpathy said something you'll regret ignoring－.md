@@ -78,7 +78,7 @@ Read it below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065727218991735000/_avichawla_2065727218991735000_1.jpg)
+![Image 1](https://pbs.twimg.com/tweet_video_thumb/HKrv89HacAAWDpl.jpg)
 
 ## 💬 Replies
 

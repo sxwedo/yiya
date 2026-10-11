@@ -20,13 +20,13 @@ github repo：[github.com/antinomie-lab/…](https://github.com/antinomie-lab/pi
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2085931506707607661/QuantumTransf_2085931506707607661_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HPJlmPubcAAG3J9.jpg?name=orig)
 
-![Image 2](../_media/x-2085931506707607661/QuantumTransf_2085931506707607661_2.jpg)
+![Image 2](https://pbs.twimg.com/media/HPJlmPxbkAAY_xA.jpg?name=orig)
 
-![Image 3](../_media/x-2085931506707607661/QuantumTransf_2085931506707607661_3.jpg)
+![Image 3](https://pbs.twimg.com/media/HPJlmP-bsAAyNnf.jpg?name=orig)
 
-![Image 4](../_media/x-2085931506707607661/QuantumTransf_2085931506707607661_4.jpg)
+![Image 4](https://pbs.twimg.com/media/HPJlmPwbQAAc1lY.jpg?name=orig)
 
 ## 💬 Replies
 

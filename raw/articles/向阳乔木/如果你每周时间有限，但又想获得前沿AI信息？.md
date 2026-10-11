@@ -35,7 +35,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2046394569848455371/vista8_2046394569848455371_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HGZA3UDbQAA8pPc?format=jpg&name=medium)
 
 ## 💬 Replies
 

@@ -33,7 +33,7 @@ The result is usually the same: a workflow that does the exact same thing on run
 
 This is not that. This is the complete playbook for a swarm that compounds. 10 steps. Every prompt is copy-paste. Every number is verified.
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_2.png)
+![Image](https://pbs.twimg.com/media/HLBVTInWgAA_TJD.png)
 
 ---
 
@@ -62,7 +62,7 @@ ON CONFLICT: flag the row, never resolve silently
 STOP CONDITION: \[when to halt and report instead of guessing\]
 \`\`\`
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_9.jpg)
+![Image](https://pbs.twimg.com/media/HLBZ6vMXQAAnxGn.jpg)
 
 ---
 
@@ -85,7 +85,7 @@ Show me the proposed decomposition before running:
 Do NOT execute yet. Wait for my confirmation.
 \`\`\`
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_6.jpg)
+![Image](https://pbs.twimg.com/media/HLBaeKUXQAA8Unq.jpg)
 
 A one-line prompt is a wish. A spec is an order. The swarm executes orders.
 
@@ -112,7 +112,7 @@ If a sub-agent stalls &gt;10 min, reassign or report.
 Merge everything into the OUTPUT defined in the spec.
 \`\`\`
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_3.jpg)
+![Image](https://pbs.twimg.com/media/HLBbt6lXEAACrdS.jpg)
 
 ---
 
@@ -137,7 +137,7 @@ OUTPUT: 30 HTML files, one per store, named by business
 OUTPUT: 40-page PDF + 20,000-row CSV + 14 PNG charts
 \`\`\`
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_7.jpg)
+![Image](https://pbs.twimg.com/media/HLBd8FaXcAEUw-d.jpg)
 
 ---
 
@@ -149,7 +149,7 @@ Opus 4.8 is built for exactly this gate. Anthropic reports it's roughly 4x less 
 
 Its only job here is to refute, not to praise. You're not paying premium tokens to generate - you're paying them to catch the silent flaw before step 4 saves it into a skill forever.
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_4.jpg)
+![Image](https://pbs.twimg.com/media/HLBeUjMWoAEiOlN.jpg)
 
 Cheap volume is only a superpower when something trustworthy is checking the work. Keep the verify gate.
 
@@ -177,7 +177,7 @@ Capture:
 Next time I run this, I attach new files and get the same shape.
 \`\`\`
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_8.png)
+![Image](https://pbs.twimg.com/media/HLBfQWBXAAAUaT5.png)
 
 ---
 
@@ -199,7 +199,7 @@ Save it as "\[name\]". Then produce a new document on \[different topic\]
 using the captured skill — match the quality bar, not the content.
 \`\`\`
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_1.png)
+![Image](https://pbs.twimg.com/media/HLBfpfkW8AA6FL9.png)
 
 ---
 
@@ -232,7 +232,7 @@ This is where "compounding" stops being a buzzword and shows up on the invoice. 
 
 The fourth one is a 30-second prompt against the saved skill, and the output is sharper because it inherits every fix from the runs before it.
 
-![Image](../_media/x-2067291911468044494/0xMovez_2067291911468044494_5.png)
+![Image](https://pbs.twimg.com/media/HLBgJnNXMAAdPNf.png)
 
 \`\`\`python
 Run the saved skill "\[name\]" on these new inputs.
@@ -285,7 +285,7 @@ Build it. Verify it. Distill it. Then watch it get cheaper and sharper every sin
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2067291911468044494/0xMovez_2067291911468044494_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HLB9XxfXsAIAjdx.jpg)
 
 ## 💬 Replies
 

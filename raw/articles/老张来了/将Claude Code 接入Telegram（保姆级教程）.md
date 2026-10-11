@@ -33,15 +33,15 @@ npm install -g bun
 
 1. 打开 Telegram，在搜索框搜索 "@BotFather"
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_4.png)
+![Image](https://pbs.twimg.com/media/HEI2QROa4AAMTQE.png)
 
 2、向它发送指令 /newbot, 按照提示，它会问你两个问题：Name 和Username（机器人的唯一 ID）必须以 bot结尾
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_10.png)
+![Image](https://pbs.twimg.com/media/HEI2dgkaIAAqe7A.png)
 
 3、创建成功后，BotFather 会回复你一大段话，里面包含了一串 Token
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_2.png)
+![Image](https://pbs.twimg.com/media/HEI2pBoawAACu2i.png)
 
 ## 第三步：安装并配置 Claude 插件
 
@@ -51,7 +51,7 @@ npm install -g bun
 /plugin install telegram@claude-plugins-official
 \`\`\`
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_9.png)
+![Image](https://pbs.twimg.com/media/HEI2vkiaIAEPqrn.png)
 
 2、安装完成后，配置你刚才获取的 Token（把下面 Token 替换成你自己的）：
 
@@ -59,9 +59,9 @@ npm install -g bun
 /telegram:configure 87955:AGKGp-g7g-hII94I0euc\_G
 \`\`\`
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_3.png)
+![Image](https://pbs.twimg.com/media/HEI3UQOaQAAkxUb.png)
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_5.png)
+![Image](https://pbs.twimg.com/media/HEI3YwdbQAA283R.png)
 
 看到上图代表Token凭证保存成功，输入 /exit 或按 Ctrl+C 退出当前的 Claude 会话
 
@@ -77,22 +77,22 @@ claude --channels plugin:telegram@claude-plugins-official
 
 2、保持终端运行。打开 Telegram，向你刚才创建的机器人发送任意一条消息 "Hello"
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_1.png)
+![Image](https://pbs.twimg.com/media/HEI33nHaIAEjxwP.png)
 
 3、机器人会回复你一个 6位数的配对码 (Pairing code)
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_7.png)
+![Image](https://pbs.twimg.com/media/HEI4G9faIAQBEdJ.png)
 
 4、回到你的终端 Claude Code 界面，输入配对命令（替换为你收到的验证码）：
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_6.png)
+![Image](https://pbs.twimg.com/media/HEI4LArbQAAgMFh.png)
 
 你通过手机Telegram发给机器人一条信息："你好，请告诉我你现在的运行环境"
 “帮我看看当前目录下有哪些文件？” 
 “创建一个名为 test\_tg.txt 的文件，里面写上 "Hello from Telegram” 
 “帮我写一个简单的计算机状态的 Python 脚本保存在当前目录，并运行它告诉我输出结果。”
 
-![Image](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_8.jpg)
+![Image](https://pbs.twimg.com/media/HEI4UGgaIAI-Xwu.jpg)
 
 恭喜你 配对成功！
 你打算用 Telegram + Claude Code 做的第一件事是什么？
@@ -103,7 +103,7 @@ claude --channels plugin:telegram@claude-plugins-official
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2036263647165686054/laozhang2579_2036263647165686054_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HEJC9mZa8AAtYkx.jpg)
 
 ## 💬 Replies
 

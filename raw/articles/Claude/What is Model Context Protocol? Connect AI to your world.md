@@ -22,7 +22,7 @@ Think of MCP as **USB-C for LLMs**. Just as USB-C provides a universal connector
 
 MCP brings this same simplicity to AI integrations. Before MCP, every application and database required custom code to connect with LLMs. Google Drive needed its own integration, Slack needed another, Figma yet another. Now, MCP provides a single, standardized format for connecting these tools to Claude and other AI applications.
 
-![](../_media/claude-what-is-model-context-protocol-connect-ai-to-your-world/Claude_what-is-model-context-protocol_1.png)
+![](https://assets.claude.com/3550e511af4336f4aba7c10df6c5ae18b3218a3b.png)
 
 ## Where did MCP come from?
 
@@ -112,7 +112,7 @@ Claude Connectors include integrations for:
 
 Each connector takes just a few seconds to configure to become part of Claude's working context. Outside of Claude, there is an ecosystem of MCP servers on the[open-source MCP Registry](https://modelcontextprotocol.io).
 
-![](../_media/claude-what-is-model-context-protocol-connect-ai-to-your-world/Claude_what-is-model-context-protocol_2.png)
+![](https://assets.claude.com/f550b08fbbdb6cde2a8a6894dcaf89393d55a813.png)
 
 ## Start exploring MCP
 

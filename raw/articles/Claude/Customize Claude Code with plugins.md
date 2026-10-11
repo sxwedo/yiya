@@ -23,7 +23,7 @@ Plugins are a lightweight way to package and share any combination of:
 
 You can install plugins directly within Claude Code using the`/plugin` command, now in public beta. They’re designed to toggle on and off as needed. Enable them when you need specific capabilities and disable them when you don’t to reduce system prompt context and complexity.
 
-![Product screenshot showing Claude Code plugin menu](../_media/claude-claude-code-plugins/Claude_claude-code-plugins_1.png)
+![Product screenshot showing Claude Code plugin menu](https://assets.claude.com/81805a2d45f087f2cc153168759f8bf015706b04.png)
 
 Moving forward, plugins will be our standard way to bundle and share Claude Code customizations, and we’ll continue to evolve the format as we add more extension points.
 

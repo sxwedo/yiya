@@ -25,7 +25,7 @@ type: "Article"
 
 在 Claude Code 的会话里直接敲一个 \`/\`，就会弹出所有可用的命令，你也可以在 \`/\` 后面接几个字母来过滤，如图所示：
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_10.jpg)
+![Image](https://pbs.twimg.com/media/HNJ_zmFaAAA8bIp.jpg)
 
 有一点要记住，命令只有放在消息开头才会被识别，命令名后面跟的文字，会被当成参数传给这个命令。
 
@@ -49,7 +49,7 @@ type: "Article"
 
 这一组管账号登录、用量和套餐，钱包相关的都在这。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_1.jpg)
+![Image](https://pbs.twimg.com/media/HNKACkBbgAAVXo7.jpg)
 
 重度用户最该常看的是 \`/usage\`，它能拉出按技能、子代理、插件、MCP 服务器细分的用量，哪块在烧 Token 一目了然，省钱全靠它。
 
@@ -57,7 +57,7 @@ type: "Article"
 
 刚把 Claude Code 拉进一个新仓库时，最该干的事就是先让它「认识」这个项目，这几个命令是开荒标配。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_5.jpg)
+![Image](https://pbs.twimg.com/media/HNKAHXdbAAExXEY.jpg)
 
 这是新项目第一条该敲的命令，它会扫一遍代码结构，生成 \`CLAUDE.md\`，后面 Claude 干活就有了上下文。
 
@@ -65,7 +65,7 @@ type: "Article"
 
 进入正式开发后，这几个命令用好了能省 Token 也能提质量。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_3.jpg)
+![Image](https://pbs.twimg.com/media/HNKAgvdbcAAn6Ag.jpg)
 
 这里有几个是真正能拉开差距的：
 
@@ -81,7 +81,7 @@ type: "Article"
 
 一个项目干久了会攒一堆会话，怎么开新的、怎么找回旧的、怎么导出，看下面的命令。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_7.jpg)
+![Image](https://pbs.twimg.com/media/HNKArG0bkAAKuB-.jpg)
 
 最常用的是 \`/clear\` 和 \`/resume\` 这一对。开新任务时用 \`/clear\`，它清空上下文但保留项目记忆，旧对话不会丢，随时能 \`/resume\` 找回。
 
@@ -97,7 +97,7 @@ type: "Article"
 
 Claude Code 现在最猛的就是并行能力，一个人能当一支队伍用，这几个命令是核心。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_8.jpg)
+![Image](https://pbs.twimg.com/media/HNKAy0NbgAAymUL.jpg)
 
 这一组的精髓是让 Claude 同时干好几摊活：
 
@@ -111,7 +111,7 @@ Claude Code 现在最猛的就是并行能力，一个人能当一支队伍用�
 
 代码写完别急着提，Claude Code 自带一整套审查和验证命令，这一步做扎实，能帮你拦下不少坑。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_4.jpg)
+![Image](https://pbs.twimg.com/media/HNKA2keaUAE7Xjl.jpg)
 
 这套组合我建议养成习惯：
 
@@ -125,7 +125,7 @@ Claude Code 现在最猛的就是并行能力，一个人能当一支队伍用�
 
 工具用着用着难免出岔子，安装报错、跑着卡住、内存飙高，这几个是救命命令。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_6.jpg)
+![Image](https://pbs.twimg.com/media/HNKA9GVbwAA6xYq.jpg)
 
 遇到莫名其妙的问题，第一步先 \`/doctor\`，它会列出一堆带状态图标的检查项，发现毛病按 \`f\` 直接让 Claude 帮你修，省心。
 
@@ -139,7 +139,7 @@ Claude Code 现在最猛的就是并行能力，一个人能当一支队伍用�
 
 2026 的 Claude Code 早就不只是终端工具了，云端、网页、手机、桌面全打通。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_2.jpg)
+![Image](https://pbs.twimg.com/media/HNKBCeobYAAjeEK.jpg)
 
 这里值得单独拎出来的是这两个：
 
@@ -155,7 +155,7 @@ Claude Code 现在最猛的就是并行能力，一个人能当一支队伍用�
 
 工具用着顺不顺手，界面和快捷键也很关键，这几个命令负责调教手感。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_9.jpg)
+![Image](https://pbs.twimg.com/media/HNKBGo3a4AAZ1TR.jpg)
 
 同时开好几个 Claude Code 窗口的，强烈建议用 \`/color\` 给每个会话设不同颜色，再配 \`/statusline\` 把当前分支、模型这些信息显在状态栏，一眼就知道哪个窗口在干啥，不会手忙脚乱发错地方。
 
@@ -163,7 +163,7 @@ Claude Code 现在最猛的就是并行能力，一个人能当一支队伍用�
 
 剩下这些虽然不天天用，但关键时刻能帮大忙，我打包列一下。
 
-![Image](../_media/x-2076865068613206046/xmglab_2076865068613206046_11.jpg)
+![Image](https://pbs.twimg.com/media/HNKBNQXaIAASq6V.jpg)
 
 这里我特别推荐 \`/fewer-permission-prompts\`，被权限弹窗烦到的同学一定要试，它会扫你历史里那些常见的只读操作，自动整理成白名单写进项目配置，世界瞬间清净。
 
@@ -185,7 +185,7 @@ Java 后端的同学留意下 \`/claude-api\`，写代码引入 \`anthropic\` �
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2076865068613206046/xmglab_2076865068613206046_12.jpg)
+![Image 1](https://pbs.twimg.com/media/HNKBv-faoAAsW5k.jpg)
 
 ## 💬 Replies
 

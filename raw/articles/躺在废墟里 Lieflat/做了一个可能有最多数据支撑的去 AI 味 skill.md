@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/zhiyu333/status/2099746344466579566) · [X 文章](https://x.com/i/article/2099702313078382592)
 
-![封面](../_media/x-2099746344466579566/Zhiyu333_2099709577063550977_1.jpg)
+![封面](https://pbs.twimg.com/media/HSOqvFBb0AEkHap.jpg)
 
 我每天都在用 AI 写东西，用到某个阶段之后，对它输出的某些句式产生了一种近乎生理性的厌恶，包括"不是A而是B"的对举结构，破折号滥用等等。
 
@@ -27,7 +27,7 @@ type: "Article"
 
 项目地址在这儿：https://github.com/larashero3-dotcom/lieflat-less-ai-tone
 
-![Image](../_media/x-2099746344466579566/Zhiyu333_2099703778958299136_2.jpg)
+![Image](https://pbs.twimg.com/media/HSOldlZa0AAbzVq.jpg)
 
 这篇文章想分享下这个 skill 的制作过程、结论，以及我认为未来还可以努力的方向。做到最后，我意识到，去“AI 味”甚至是 AI 写作，这一整个能力，可能是更需要在模型预训练阶段解决的问题。
 
@@ -43,7 +43,7 @@ type: "Article"
 
 所以，我建了一个 AI 语料生成的 workflow，可以帮我自动化跑完 300 个语料生成任务。这个 workflow 新建了 5 个 agent，每个agent 使用的是不同的主流写作模型，包括 Claude Opus 4.6、DeepSeek V4-Pro、Gemini 3.1 Pro、GPT 5.6 Sol、Kimi K3（长期用 AI 写作的朋友都知道这几个模型的含金量吧）。
 
-![Image](../_media/x-2099746344466579566/Zhiyu333_2099703246973747200_3.jpg)
+![Image](https://pbs.twimg.com/media/HSOk-nmawAA8Jio.jpg)
 
 我让这些模型都在和人类语料同样的话题和体裁下生成文章，并且还有严格控制的条件：不联网、不给任何风格指令，只提供话题。每个模型生成 60 篇，共 300 篇，我从下班开始启动这个 workflow，第二天上班已经全部跑完了。到这里，整个研究合计 629 篇文章，283 万字。
 
@@ -61,7 +61,7 @@ type: "Article"
 
 真正通过检验的 11 项，集中在篇章和结构层面，词汇和标点上反倒没那么明显。
 
-![Image](../_media/x-2099746344466579566/Zhiyu333_2099702942819614720_4.jpg)
+![Image](https://pbs.twimg.com/media/HSOks6ibAAAr-sg.jpg)
 
 区分力比较强的是段首零回指评论，AI 出现这种情况的频率是人类的 4.4 倍。它指的是 AI 写作在段与段之间缺少衔接，喜欢在新段落开头直接抛出一句评价（"听起来像一条功能描述"），却不交代评价的对象，读者得回头翻上文才知道说的是什么。
 
@@ -85,7 +85,7 @@ type: "Article"
 
 另外，也有一些在流行认知里认为是“AI 味”，但在我的实验里并不显著的特征。
 
-![Image](../_media/x-2099746344466579566/Zhiyu333_2099703389848506368_5.jpg)
+![Image](https://pbs.twimg.com/media/HSOlG72akAALV0x.jpg)
 
 正文设问句是最典型的一个。"AI 爱设问"几乎是所有去 AI 味建议里都会出现的一条，可实测下来，人类的设问频率是 AI 的 17 倍（人类 1.83/千字，AI 0.10），5 个模型都不爱用设问句。如果按"减少设问"去改，只会让文章离人类的写法更远。
 
@@ -99,7 +99,7 @@ type: "Article"
 
 除了检验普遍意义上的“AI 味”是什么，这个研究还意外发现不同模型写作偏好的区别，最后发现，可能根本不存在统一的“AI 文风"。
 
-![Image](../_media/x-2099746344466579566/Zhiyu333_2099703528063488000_6.jpg)
+![Image](https://pbs.twimg.com/media/HSOlO-vb0AAWu9g.jpg)
 
 同一个特征，模型和模型之间能差到四十倍。就说破折号，DeepSeek V4-Pro 每千字会出现 5.16 次，GPT 则只有 0.11。
 

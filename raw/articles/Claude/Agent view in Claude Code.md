@@ -26,13 +26,13 @@ Agent view improves visualizing and interacting with your Claude Code sessions i
 
 Press the left arrow from any session or run `claude agents` from the terminal to open agent view. Each row shows the session, whether it needs your input, the contents of its last response, and when you last interacted with it.
 
-![](../_media/claude-agent-view-in-claude-code/Claude_agent-view-in-claude-code_1.png)
+![](https://assets.claude.com/ec0ce3b10fd3bd6bd4138252b1b42309b6ba78a7.png)
 
 ### Peek and reply without leaving ###
 
 Select a session to peek at the last turn. If a session is waiting on a decision, answer inline and the session picks back up. Press enter to attach directly to sessions where you want to explore the full transcript.
 
-![](../_media/claude-agent-view-in-claude-code/Claude_agent-view-in-claude-code_2.png)
+![](https://assets.claude.com/33969f1ec8439ac118ad8c88b467f3d916483320.png)
 
 ### Background anything ###
 

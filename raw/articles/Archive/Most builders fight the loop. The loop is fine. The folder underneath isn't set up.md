@@ -81,7 +81,7 @@ Keep it under 300 lines. Prune it weekly. Every added paragraph is a tax on ever
 
 The canonical reference is [centminmod/my-claude-code-setup](https://github.com/centminmod/my-claude-code-setup), which ships three working CLAUDE.md shapes side by side.
 
-![Image](../_media/x-2071192832455430283/ArchiveExplorer_2071192832455430283_1.jpg)
+![Image](https://pbs.twimg.com/media/HL5U4TbWgAArdOa.jpg)
 
 ## settings.json
 
@@ -163,7 +163,7 @@ The reviewer that lives inside the maker's context always agrees with itself. Pu
 
 Reference: [wshobson/agents](https://github.com/wshobson/agents) (37K stars) for 194 ready-made shapes. For an adversarial verifier with 11 named shortcut-checks (relaxed tests, swallowed errors, fake renames), pull [moonrunnerkc/swarm-orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator).
 
-![Image](../_media/x-2071192832455430283/ArchiveExplorer_2071192832455430283_2.jpg)
+![Image](https://pbs.twimg.com/media/HL5VyAAWwAAZXAX.jpg)
 
 ## skills
 
@@ -191,7 +191,7 @@ This discipline keeps a fifty-skill library from costing fifty skills' worth of 
 
 Canonical pattern: [anthropics/skills](https://github.com/anthropics/skills) (155K stars). Maximal pre-built kit: [affaan-m/ECC](https://github.com/affaan-m/ECC) (222K stars).
 
-![Image](../_media/x-2071192832455430283/ArchiveExplorer_2071192832455430283_3.jpg)
+![Image](https://pbs.twimg.com/media/HL5WWGsW4AAxnSd.jpg)
 
 Three skills built when you hit the same task a third time beat fifty skills built speculatively from a tutorial.
 
@@ -384,7 +384,7 @@ Three failure modes kill almost every first attempt:
 
 The [Less Context, Better Agents paper (arXiv 2606.10209)](https://arxiv.org/abs/2606.10209) measured full-history at 71% task completion versus prune-and-summarize at 91.6%, on a fraction of the tokens.
 
-![Image](../_media/x-2071192832455430283/ArchiveExplorer_2071192832455430283_4.png)
+![Image](https://pbs.twimg.com/media/HL5ZlSkXgAA09wS.png)
 
 \`\`\`
 before: single-context loop, 1.48M tokens, 71% completion, three hidden hallucinations per run
@@ -447,7 +447,7 @@ The harness is the floor. Without it, every loop runs over a hole.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071192832455430283/ArchiveExplorer_2071192832455430283_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HL2SvKHWgAAaZw2.jpg)
 
 ## 💬 Replies
 

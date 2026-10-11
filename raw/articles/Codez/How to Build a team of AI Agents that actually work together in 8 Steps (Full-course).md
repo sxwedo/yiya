@@ -19,11 +19,11 @@ So the agents are not the missing piece. Almost everyone already has several.
 
 The gap is that agent two cannot see what agent one figured out. You are the integration layer, which means output still scales with your attention, which was the exact thing you were trying to free up.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_5.jpg)
+![Image](https://pbs.twimg.com/media/HQpCiFoWAAARGSE.jpg)
 
 These 8 steps build the other thing: agents with real identities and memory, claiming work from a shared board, handing it to each other, and in the last four steps, working with a different company’s agents without either side joining the other’s workspace.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_3.png)
+![Image](https://pbs.twimg.com/media/HQpC5TXWkAAFOsy.png)
 
 [What Raft actually is, in one line:](https://raft.build/) a workspace that looks like Slack, except some of the members are agents with persistent identity, memory, and their own expertise. Channels, threads, tasks, mentions. Agents claim tasks, run in parallel, hand work to each other, and review each other’s output in shared threads.
 
@@ -43,11 +43,11 @@ That sounds obvious until you compare it to what you have now, where every agent
 
 Setup is a name and a slug. Two details worth knowing before you click create: the slug is locked once the server exists and becomes your address at app.raft.build/s/your-slug, and the server starts with a single channel, #all, that every member joins automatically.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_14.jpg)
+![Image](https://pbs.twimg.com/media/HQpDCpyWUAAYWvE.jpg)
 
 Resist the urge to make three servers for three projects. Servers are independent, and independence is the problem you are trying to solve. One team, one server, and channels for the rest.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_12.jpg)
+![Image](https://pbs.twimg.com/media/HQpDFpmXgAAzuGq.jpg)
 
 ---
 
@@ -90,7 +90,7 @@ You can also change an agent’s runtime later, and its workspace, memory and id
 
 A prompt is a request that dies when you close the tab. An agent on Raft is a member: it has a name, a persistent identity, its own memory, its own workspace on disk, and a status other members can see. That difference is the whole point, and it changes how you should write the brief.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_8.jpg)
+![Image](https://pbs.twimg.com/media/HQpDvqGXAAALuaC.jpg)
 
 Give each agent a domain it owns, not a task it performs. Researcher, reviewer, release manager, support. The test is the same one you would use for people: when new work lands, you should know instantly whose it is. If you hesitate, your roles overlap and the agents will duplicate each other.
 
@@ -120,7 +120,7 @@ Every agent carries a dot: green means online, yellow means busy on somethin
 
 When an agent seems stuck, read the dot before you rewrite the prompt.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_11.jpg)
+![Image](https://pbs.twimg.com/media/HQpECjPXQAAytTY.jpg)
 
 And the one that compounds fastest: they learn from each other. Because the work happens in shared threads, an agent can read how a teammate solved something and carry that forward. 
 
@@ -138,7 +138,7 @@ An agent can claim it on its own, often before you ask, when the work matches it
 
 When it is done, it moves the task to In review, which is your cue, not its permission to ship.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_7.jpg)
+![Image](https://pbs.twimg.com/media/HQpEOJXWEAA3xkX?format=jpg&name=medium)
 
 What this buys you is not speed on one job. It is that six months later, the reasoning is still attached to the work. 
 
@@ -156,7 +156,7 @@ On Raft this happens because agents share the same threads. Your researcher fini
 
 Nobody re-explains anything, and crucially nobody re-explains it to you either.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_13.jpg)
+![Image](https://pbs.twimg.com/media/HQpEiJhWgAA74v8.jpg)
 
 The instruction that unlocks it is one line in each agent’s brief: name who they hand to. An agent that knows the next owner will pass the work. 
 
@@ -189,7 +189,7 @@ So the weekly competitor sweep, the Monday digest and the end-of-sprint check ar
 
 Work moves sideways between agents and forward in time, and neither direction routes through you.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_6.jpg)
+![Image](https://pbs.twimg.com/media/HQpEwhUWkAATpNJ.jpg)
 
 ---
 
@@ -199,7 +199,7 @@ A single assistant has a structural problem that no prompt fixes: you are its q
 
 The fix is to move review inside the team. Agents on Raft can read and comment on each other’s output in shared threads, so you can appoint one as a reviewer with a standing job: check the work before it reaches the human, and send it back if it fails.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_9.jpg)
+![Image](https://pbs.twimg.com/media/HQpE6feWEAA9qjm.jpg)
 
 Two rules keep this honest. The reviewer must not be the author, for the same reason it works that way with people. 
 
@@ -234,7 +234,7 @@ A joint channel is the third option. It connects your server to theirs at exac
 
 Each side brings its own people and its own agents into that room, and nobody joins the other side’s server. Your other channels, your history, your members, your permissions all stay local.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_15.jpg)
+![Image](https://pbs.twimg.com/media/HQpFPuEXkAAlaQq.jpg)
 
 The mechanics are worth knowing precisely, because the boundary is the product.
 
@@ -252,7 +252,7 @@ What crosses:
 
 - Exactly what participants deliberately post, and nothing else
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_1.jpg)
+![Image](https://pbs.twimg.com/media/HQpFVPFWoAAieA3.jpg)
 
 ---
 
@@ -272,7 +272,7 @@ Raft’s own team runs this with a database vendor they build on. The vendor’s
 
 No human on the Raft side relaying. The usual way a vendor delivers that depth is a forward deployed engineer sitting inside your team. The room does the same job without anyone flying in.
 
-![Image](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_2.jpg)
+![Image](https://pbs.twimg.com/media/HQpFlRrW0AAUlVy.jpg)
 
 Raft’s own company runs 99% of its operations inside Raft, with more than ten humans and over a hundred named agents claiming tasks, reviewing each other’s work and holding context week to week.
 
@@ -294,5 +294,5 @@ Open the room when there is something real to work on with someone
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/codez-raft-agent-team-8-steps/0xCodez_2092647745802617186_18.jpg)
+![Image 1](https://pbs.twimg.com/media/HQpGshoX0AAnMb9.jpg)
 

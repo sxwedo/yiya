@@ -16,7 +16,7 @@ Today we're launching dreaming in [Claude Managed Agents](https://claude.com/blo
 
 [Dreaming](https://platform.claude.com/docs/en/managed-agents/dreams) is a scheduled process in Claude Managed Agents that reviews agent sessions and memory stores, extracts patterns, and curates memories so agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land.
 
-![](../_media/claude-new-in-claude-managed-agents-dreaming-outcomes-and-multiagen/Claude_new-in-claude-managed-agents_1.png)
+![](https://assets.claude.com/a8c196506682d36e5adf571c13332dceb8243b1f.png)
 
 Dreaming surfaces patterns that a single agent can’t see on its own, including recurring mistakes, workflows that agents converge on, and preferences shared across a team. It also restructures memory so it stays high-signal as it evolves. This is especially useful for long-running work and multiagent orchestration.
 
@@ -40,7 +40,7 @@ When there is too much work for a single agent to do well, [multiagent orchestra
 
 These specialists work in parallel on a shared filesystem and contribute to the lead agent's overall context. The lead agent can check back in with other agents mid-workflow because events are persistent and every agent remembers what it's done. You can also trace every step in the [Claude Console](https://platform.claude.com/): which agent did what, in what order, and why, giving you full visibility into how your task was delegated and executed.
 
-![](../_media/claude-new-in-claude-managed-agents-dreaming-outcomes-and-multiagen/Claude_new-in-claude-managed-agents_2.png)
+![](https://assets.claude.com/ee11ba25525a1b358935de9d9426a1f72df5314f.png)
 
 ## **What teams are building**
 

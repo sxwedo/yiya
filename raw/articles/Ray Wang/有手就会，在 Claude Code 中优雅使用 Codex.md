@@ -119,7 +119,7 @@ npm install -g @openai/codex
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2038912916741873836/wangray_2038912916741873836_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HEur5DebkAA99Ad.jpg)
 
 ## 💬 Replies
 

@@ -28,7 +28,7 @@ The next top categories are software development, at 8.7%; DevOps and infrastruc
 
 All other categories comprised less than 4% of the data set, including personal assistance at 3.8%, education at 2.4%, and meeting intelligence at 1.8%.
 
-![In a recent study, business process and operations accounted for a third of sampled Claude Cowork sessions (33.4%), more than double the next-largest category, content creation and copywriting (16.4%).](../_media/claude-how-people-are-using-claude-cowork/Claude_how-people-are-using-claude-cowork_1.png)
+![In a recent study, business process and operations accounted for a third of sampled Claude Cowork sessions (33.4%), more than double the next-largest category, content creation and copywriting (16.4%).](https://assets.claude.com/e7b48eac9654b3429ec6872b6a0dd63c4479d064.png)
 
 *In a recent study, business process and operations accounted for a third of sampled Claude Cowork sessions (33.4%), more than double the next-largest category, content creation and copywriting (16.4%).*
 

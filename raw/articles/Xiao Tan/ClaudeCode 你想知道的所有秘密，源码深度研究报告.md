@@ -11,7 +11,7 @@ type: "Article"
 
 # 📰 ClaudeCode 你想知道的所有秘密，源码深度研究报告
 
-![Image](../_media/x-2038939480892346699/tvytlx_2038939480892346699_1.jpg)
+![Image](https://pbs.twimg.com/media/HEvV3_vakAAeQxW.jpg)
 
 最近 Claude Code 泄露了 map 文件，导致泄露了源码文件，于是我下载了 npm 包里的 cli.js.map，从里面提取出 4756 个源码文件，沿着入口、提示词、工具、权限、Agent 调度、插件、Hook 一路拆下去，我发现其实 Claude Code 的system prompt 只是冰山露出水面的一小块。
 
@@ -215,7 +215,7 @@ Claude Code 对这些问题都有明确的处理路径。这就是为什么它�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2038939480892346699/tvytlx_2038939480892346699_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HEvDkLMa4AAvTOw.jpg)
 
 ## 💬 Replies
 

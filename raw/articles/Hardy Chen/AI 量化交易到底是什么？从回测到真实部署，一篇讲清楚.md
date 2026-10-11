@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/chchenhao0129/status/2099748082753937907) · [X 文章](https://x.com/i/article/2099730817530601472)
 
-![封面](../_media/x-2099748082753937907/Chchenhao0129_2099740753492901889_1.jpg)
+![封面](https://pbs.twimg.com/media/HSPHFyRbAAELQio.jpg)
 
 前几天，一位读者问我：
 
@@ -621,7 +621,7 @@ AI 提供研究结果或候选信号
 
 当这条链能够稳定运行，你就已经拥有了一个真正可操作的量化系统雏形。
 
-![Image](../_media/x-2099748082753937907/Chchenhao0129_2099747941217136640_4.jpg)
+![Image](https://pbs.twimg.com/media/HSPNoKoa8AAoCGv.jpg)
 
 它不一定赚钱，但至少：
 

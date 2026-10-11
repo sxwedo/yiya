@@ -259,7 +259,7 @@ hope this was useful for you, Khairallah [❤️](https://abs.twimg.com/emoji/v2
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074410155689542072/eng_khairallah1_2074410155689542072_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMfR_3IWkAAlq01.jpg)
 
 ## 💬 Replies
 

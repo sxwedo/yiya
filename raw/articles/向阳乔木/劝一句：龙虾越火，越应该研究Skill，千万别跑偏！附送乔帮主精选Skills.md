@@ -23,7 +23,7 @@ type: "Article"
 
 比如今天腾讯安排 20 个技术人员免费给大家安装龙虾，场面异常火爆。
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_5.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAsDaUAAsIYE.jpg)
 
 我的直观感受：最近所有邀约活动，全和龙虾相关，绝了！
 
@@ -71,7 +71,7 @@ type: "Article"
 
 ## 2\. Defuddle —— 网页正文提取神器
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_4.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAr-aUAIQ-N0.jpg)
 
 > https://github.com/joeseesun/defuddle-skill
 
@@ -87,7 +87,7 @@ Obsidian CEO下厂写的命令行工具，我把它封装成了Skill。
 
 ## 3\. YouTube 搜索下载，视频转写第一步
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_7.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAuTaUAYlWAK.jpg)
 
 > Github：https://github.com/joeseesun/yt-search-download
 
@@ -117,7 +117,7 @@ Obsidian CEO下厂写的命令行工具，我把它封装成了Skill。
 
 ## 4\. Anything to NotebookLM —— 万物皆可用NotebookLM处理
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_2.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAvOaUAEKTLA.jpg)
 
 > https://github.com/joeseesun/anything-to-notebooklm
 
@@ -229,7 +229,7 @@ AI 自动完成主题分析 → 内容创作 → 页面设计 → Vercel 部署�
 
 ## 8\. Spotify 音乐播放器 —— 用自然语言听歌
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_6.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAubbcAAWSnd.jpg)
 
 > https://github.com/joeseesun/qiaomu-music-player-spotify
 
@@ -305,7 +305,7 @@ https://github.com/joeseesun/qiaomu-music-player-spotify
 
 ## 1\. Skills.sh —— Vercel 官方技能目录
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_3.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAvKaUAQVqBb.jpg)
 
 > https://skills.sh/
 
@@ -327,7 +327,7 @@ Vercel 打造的开源 Skills 目录，收录超过 86,000+ 个 Skills。
 
 ## 3\. SkillsMP —— 最大的 Skill 集市
 
-![Image](../_media/x-2029935446810308817/vista8_2029935446810308817_1.jpg)
+![Image](https://pbs.twimg.com/media/HCvHAvJaAAAMGWt.jpg)
 
 > https://skillsmp.com/zh
 
@@ -349,7 +349,7 @@ Skill 是龙虾的灵魂。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2029935446810308817/vista8_2029935446810308817_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HCvH3f0bAAAmMu4.jpg)
 
 ## 💬 Replies
 

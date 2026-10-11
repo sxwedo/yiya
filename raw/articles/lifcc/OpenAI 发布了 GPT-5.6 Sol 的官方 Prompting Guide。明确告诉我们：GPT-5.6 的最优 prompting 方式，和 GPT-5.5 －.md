@@ -38,7 +38,7 @@ Answer：交付格式与成功标准
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2077399562814185615/mylifcc_2077399562814185615_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HNRm7rZWYAACjP6?format=jpg&name=medium)
 
 ## 💬 Replies
 

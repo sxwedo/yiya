@@ -223,7 +223,7 @@ by David Ondrej (spoken for YouTube, then re-written for article format)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2094424967345496191/DavidOndrej1_2094424967345496191_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HRDkPc-WoAAGoR_.jpg)
 
 ## 💬 Replies
 

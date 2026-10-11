@@ -28,7 +28,7 @@ When code is no longer the bottleneck and the build phase runs faster than the t
 * The controls stop matching reality and become intractable. Reviewing each line by hand made sense when a person had written it, but it can't keep up once agents write most of the diff.
 * Governance costs increase because exceptions still route through meetings and committees that meet weekly or monthly.
 
-![Build is no longer the constraint — the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.](../_media/claude-the-ai-native-sdlc-playbook/Louis_Claxton_the-ai-native-sdlc-playbook_1.png)
+![Build is no longer the constraint — the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.](https://assets.claude.com/90fb4ed05417570c9d4ff95d33bef9502c765da4.png)
 
 *Build is no longer the constraint — the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.*
 
@@ -54,7 +54,7 @@ The AI-native SDLC is a reimagined process that combines the old control objecti
 
 You'll also hear this shift called the agentic SDLC, the AI SDLC, or simply agentic software development — the labels differ, but they describe the same thing.
 
-![](../_media/claude-the-ai-native-sdlc-playbook/Louis_Claxton_the-ai-native-sdlc-playbook_2.png)
+![](https://assets.claude.com/75c8e050ace91c2b288498fe45384469cfb00aa2.png)
 
 ### The shifts across the six stages of an AI-native SDLC ###
 
@@ -93,7 +93,7 @@ A stage ends by committing an artifact with the commit initiating the next stage
 
 First, you prompt each step by hand with the end state being a loop in which each accepted artifact fires the next gate. Human attention concentrates at the gates, reviewing what the agent flagged rather than starting each stage from scratch.
 
-![The plays are listed with stage; the arrows give the order to adopt them in. The two are not the same. Start with any clay play — nothing points into it, so it needs nothing first. For any other play, the arrows pointing into it are the plays to adopt before it.](../_media/claude-the-ai-native-sdlc-playbook/Louis_Claxton_the-ai-native-sdlc-playbook_3.png)
+![The plays are listed with stage; the arrows give the order to adopt them in. The two are not the same. Start with any clay play — nothing points into it, so it needs nothing first. For any other play, the arrows pointing into it are the plays to adopt before it.](https://assets.claude.com/4c40f7b7577eb3ddfc1cce14a11ac6667be05c8c.png)
 
 *The plays are listed with stage; the arrows give the order to adopt them in. The two are not the same. Start with any clay play — nothing points into it, so it needs nothing first. For any other play, the arrows pointing into it are the plays to adopt before it.*
 
@@ -1024,7 +1024,7 @@ The conversation and institutional knowledge stay in the channel, with anyone in
 
 Incidents are not the only work Claude Tag picks up. Tagged on a ticket over MCP or asked in the channel, Claude triages the work the same way. A small, well-bounded fix arrives as a PR through the review gate, and anything larger is written up as `intent.md` for Stage 1: Plan, at which point the loop starts feeding itself. See: [how Claude Tag runs on-call for CI/CD at Anthropic](https://claude.com/blog/ai-ci-cd-on-call).
 
-![The channel is the audit trail: request, diagnosis, human authorization and fix all stay where the incident was handled.](../_media/claude-the-ai-native-sdlc-playbook/Louis_Claxton_the-ai-native-sdlc-playbook_4.png)
+![The channel is the audit trail: request, diagnosis, human authorization and fix all stay where the incident was handled.](https://assets.claude.com/c84d83832da7d5dcc41d79cd919446480f7755a7.png)
 
 *The channel is the audit trail: request, diagnosis, human authorization and fix all stay where the incident was handled.*
 

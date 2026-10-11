@@ -13,7 +13,7 @@ Pi-Agent 教程：10 章把 Agent Loop、工具系统、消息系统、事件驱
 
 [github.com/buchidonggua/d…](https://github.com/buchidonggua/dg-ai-notes) 
 
-![Image](../_media/x-2079449040455143821/geekbb_2079449040455143821_1.jpg)
+![Image](https://pbs.twimg.com/media/HNuCTcFa0AAl3pE?format=jpg&name=medium)
 
 ## 💬 Replies
 

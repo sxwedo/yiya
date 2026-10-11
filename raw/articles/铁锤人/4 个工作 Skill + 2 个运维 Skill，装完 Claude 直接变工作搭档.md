@@ -25,7 +25,7 @@ type: "Article"
 
 你每天的工作就 4 步：收集 → 消化 → 产出 → 汇报
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_1.jpg)
+![Image](https://pbs.twimg.com/media/HGB-5MUaUAAauSV.jpg)
 
 不信自己想一下，是不是这样？
 
@@ -59,7 +59,7 @@ Web Access 这个 Skill 做了一件事：通过 CDP 直连你本地的 Chrome
 
 地址：https://github.com/eze-is/web-access
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_7.jpg)
+![Image](https://pbs.twimg.com/media/HGB_IEvbwAAHpkN.jpg)
 
 你 Chrome 里登录了什么，它就能进什么
 
@@ -71,13 +71,13 @@ npx skills add eze-is/web-access
 
 配置一步：Chrome 地址栏打开 chrome://inspect/#remote-debugging，勾上允许远程调试
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_5.jpg)
+![Image](https://pbs.twimg.com/media/HGB_fwabIAAeqS0.jpg)
 
 配置完了
 
 你给地址让他去抓公众号，稳稳的，具体如下图：
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_3.jpg)
+![Image](https://pbs.twimg.com/media/HGCAXW5bkAAar0X.jpg)
 
 可以看到，它真的进去了，拿到全文，不被反爬拦截
 
@@ -101,7 +101,7 @@ npx skills add eze-is/web-access
 
 但Karpathy 的方法反过来：你只管扔素材进去，Claude 负责读、摘要、建页面、打双向链接
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_4.jpg)
+![Image](https://pbs.twimg.com/media/HGCAk2IawAAmBYv.jpg)
 
 维护成本从你的时间变成一条指令
 
@@ -153,7 +153,7 @@ humanize（https://github.com/blader/humanizer)
 
 举个图片例子：
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_6.jpg)
+![Image](https://pbs.twimg.com/media/HGCCPYaaMAAfKCY.jpg)
 
 改之前：
 
@@ -221,7 +221,7 @@ Superpowers（https://github.com/obra/superpowers）是 Claude 生态里最火�
 
 里面的 /systematic-debug，强制按隔离、观察、诊断、修复、验证的顺序走，找到根因之前，禁止提任何修复方案，不靠运气靠流程，最终找到真正原因
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_2.jpg)
+![Image](https://pbs.twimg.com/media/HGCC5-ba8AAyDom.jpg)
 
 如何安装呢？
 
@@ -265,7 +265,7 @@ npx skills add https://github.com/anthropics/skills --skill skill-creator
 
 存好这张图：
 
-![Image](../_media/x-2044781079660482801/lxfater_2044781079660482801_8.jpg)
+![Image](https://pbs.twimg.com/media/HGCFcAkboAABR40.jpg)
 
 从第一个开始装，一次一个，装完试一下再装下一个
 
@@ -273,7 +273,7 @@ npx skills add https://github.com/anthropics/skills --skill skill-creator
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2044781079660482801/lxfater_2044781079660482801_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HGCER92bcAAxnb-.jpg)
 
 ## 💬 Replies
 

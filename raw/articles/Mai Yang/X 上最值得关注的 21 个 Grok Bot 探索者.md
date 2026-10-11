@@ -31,7 +31,7 @@ Grok Bot 这波评测号已经很多了。我更想关注的，是把 Bot 当同
 
 1\. @mattyp matt palmer
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_1.png)
+![Image](https://pbs.twimg.com/media/HQ8O3XBXYAEeYR7.png)
 
 他有一条入门视频，从「Bot 是什么」讲到多 Bot 串起来，再到 X 粉丝进 Notion、自己做小软件、跟 Cursor 一起写代码。
 
@@ -41,7 +41,7 @@ https://x.com/mattyp/status/2092286281266962681
 
 2\. @poteto lauren
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_5.png)
+![Image](https://pbs.twimg.com/media/HQ8PF8ZWkAAecRi.png)
 
 Grok Bot 工程师。以前在 Cursor、Meta、Netflix，还做过 React compiler。
 
@@ -51,7 +51,7 @@ Grok Bot 工程师。以前在 Cursor、Meta、Netflix，还做过 React compile
 
 3\. @ericzakariasson eric zakariasson
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_10.png)
+![Image](https://pbs.twimg.com/media/HQ8PP2GWYAA5Wv6.png)
 
 以前 Cursor，现在 SpaceXAI。他写过一篇 [How I run multiple teams of Grok Bots](https://x.com/ericzakariasson/status/2092982710465970425)。
 
@@ -77,29 +77,29 @@ https://x.com/benln/status/2092995402953884072
 
 5\. @shaoruu ian · engineer
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_9.png)
+![Image](https://pbs.twimg.com/media/HQ8P1LxacAAP42n.png)
 
 6\. @baltaaazr Balta · engineer
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_7.png)
+![Image](https://pbs.twimg.com/media/HQ8P4m5aoAA_OUj.png)
 
 7\. @lingxi Lingxi Li · engineer / product / design。简介写过 prev agent window @cursor\_ai。
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_2.png)
+![Image](https://pbs.twimg.com/media/HQ8P8pdbIAAJNRk.png)
 
 8\. @johnbai John Bai · designer
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_3.png)
+![Image](https://pbs.twimg.com/media/HQ8QAQba8AAU6vV.png)
 
 他写过 Designing Grok Bot with Grok Bot 。用 Bot 设计 Bot。Figma Bro 干重复活，Motion God 做动效，Experiments 专门接「先做出来再看值不值得」的想法。
 
 9\. @pengzheng\_ Peng Zheng · designer。prev Zoom、IDEO。
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_6.png)
+![Image](https://pbs.twimg.com/media/HQ8QNJzaIAADHJJ.png)
 
 10\. @SamSokolin Sam Sokolin· engineer
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_4.png)
+![Image](https://pbs.twimg.com/media/HQ8QR4naoAAHKUD.png)
 
 这 7 个号，新功能经常比评测号更早出现。想看产品往哪走，关注他们比关注资讯号有用。
 
@@ -121,7 +121,7 @@ https://x.com/XFreeze/status/2093337680452968873
 
 Elon 转发了这条。26 万粉。
 
-![Image](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_8.jpg)
+![Image](https://pbs.twimg.com/media/HQ8QqHMaQAAqoSe.jpg)
 
 14\. @chddaniel Daniel Ch
 
@@ -189,7 +189,7 @@ June 烤箱（后来卖给 Weber），也参与过后来变成 Lyft 的那家公
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2093912172917121444/MaiYangAI_2093912172917121444_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ8N--ca0AApXaa.jpg)
 
 ## 💬 Replies
 

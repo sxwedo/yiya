@@ -439,7 +439,7 @@ AI 这件事，工具只是入口。入口之后走多远，还是看人。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2055892075556847827/dashen_wang_2055892075556847827_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HIf9-yeaIAApTw3.jpg)
 
 ## 💬 Replies
 

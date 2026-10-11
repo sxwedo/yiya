@@ -32,7 +32,7 @@ Here's what you can now do directly in Claude:
 * [Figma](https://claude.com/connectors/figma) – Prompt to turn text and images into flow charts, Gantt charts, or other visual diagrams in FigJam.
 * [Hex](https://claude.com/connectors/hex) - Ask data questions and get answers complete with interactive charts, tables, and citations.
 
-![](../_media/claude-your-favorite-work-tools-are-now-interactive-connectors-insi/Claude_interactive-tools-in-claude_1.png)
+![](https://assets.claude.com/577251f8c98cfeb6a67ffe98b4e1be7d29503e64.png)
 
 * [monday.com](https://claude.com/connectors/monday) - Manage your work, run projects, update boards, smartly assign tasks, and visualize progress with insights.
 * [Slack](https://claude.com/connectors/slack) (from Salesforce) – Search and retrieve Slack conversations for context, generate message drafts, format them your way, and review before you post.

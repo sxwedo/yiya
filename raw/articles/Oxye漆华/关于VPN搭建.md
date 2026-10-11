@@ -29,87 +29,87 @@ type: "Article"
 
 准备一个 Cloudflare 账号，点击 计算和AI &gt; Workers 和 Pages &gt; 创建应用程序
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_9.png)
+![Image](https://pbs.twimg.com/media/HFOu5L0acAAuMgu.png)
 
 或
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_10.png)
+![Image](https://pbs.twimg.com/media/HFOvU1rb0AA0QFR.png)
 
 选择 Pages 选项卡，点击 拖放文件 &gt; 开始使用
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_2.png)
+![Image](https://pbs.twimg.com/media/HFOvZxJaUAESroP.png)
 
 项目名称 填写任意值，但必须是全新的名字，避免出现1101错误，推荐末尾补上任意数字，如 edt123123123
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_5.png)
+![Image](https://pbs.twimg.com/media/HFOvj--bMAA2ACX.png)
 
 点击 从计算机中选择 &gt; 上传压缩文件，选择第一步下载的 direct-upload-demo.zip 压缩包，等待上传完成；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_13.png)
+![Image](https://pbs.twimg.com/media/HFOvnOpbwAAnXja.png)
 
 点击 部署站点，等待部署完成
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_18.png)
+![Image](https://pbs.twimg.com/media/HFOvqLqakAAPDTb.png)
 
 提示成功，代表初始化部署完成！点击 继续处理项目 进入下一步设置变量绑定KV的操作
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_14.png)
+![Image](https://pbs.twimg.com/media/HFOvthSaYAAmcof.png)
 
 设置管理员变量
 
 进入项目设置页面，点击 设置 选项卡，添加变量和机密
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_1.png)
+![Image](https://pbs.twimg.com/media/HFOv1J7bUAAD5NI.png)
 
 点击 + 添加，类型 文本 变量名称 ADMIN 变量，变量值为WebUI管理员密码，建议设置复杂密码，避免被暴力破解
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_20.png)
+![Image](https://pbs.twimg.com/media/HFOwM9iasAEWYas.png)
 
 变量即可设置完成，如忘记密码可返回此页面查看
 
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_16.png)
+![Image](https://pbs.twimg.com/media/HFOwERNaYAIRQlA.png)
 
 绑定 KV 命名空间
 
 点击 存储和数据库 &gt; Workers KV &gt; + Create Instance 创建一个命名空间；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_19.png)
+![Image](https://pbs.twimg.com/media/HFOwRI3bEAAJSvP.png)
 
 命名空间名称可自定义，建议命名为 EDT2 以便区分，点击 创建 完成创建
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_7.png)
+![Image](https://pbs.twimg.com/media/HFOwUi_b0AANPer.png)
 
 返回项目设置页面，点击 设置 &gt; 绑定 &gt; + 添加 &gt; KV 命名空间；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_3.png)
+![Image](https://pbs.twimg.com/media/HFOwZcSaMAA59Sh.png)
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_25.png)
+![Image](https://pbs.twimg.com/media/HFOwdnaaoAAReKe.png)
 
 变量名称必须填写大写 KV ，命名空间选择刚刚创建的 EDT2，点击 保存 完成绑定；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_22.png)
+![Image](https://pbs.twimg.com/media/HFOwisnb0AAHs3S.png)
 
 返回项目设置页面，确认绑定成功；
 
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_4.png)
+![Image](https://pbs.twimg.com/media/HFOwp7JaUAA-gim.png)
 
 重试部署，使其变量生效！
 
 点击右上角 创建部署 ，上传第一步刚刚下载的 edgetunnel-main.zip 压缩包；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_24.png)
+![Image](https://pbs.twimg.com/media/HFOw1WCbEAE3pM4.png)
 
 部署环境选择 生产，点击 从计算机中选择 &gt; 上传压缩文件，选择第一步下载的 edgetunnel-main.zip 压缩包，等待上传完成
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_8.png)
+![Image](https://pbs.twimg.com/media/HFOxEgjaIAAHTsM.png)
 
 点击 保存并部署，等待部署完成
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_12.png)
+![Image](https://pbs.twimg.com/media/HFOxHipagAADZyv.png)
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_23.png)
+![Image](https://pbs.twimg.com/media/HFOxLW_aIAEUGdq.png)
 
 如需修改管理员密码，修改完变量之后必须重新上传部署，否则变量无法生效！
 
@@ -117,23 +117,23 @@ type: "Article"
 
 进入 Pages 应用程序，点击 自定义域 选项卡，点击 设置自定义域 ；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_21.png)
+![Image](https://pbs.twimg.com/media/HFOxPAPa0AAhois.png)
 
 添加自定义域
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_17.png)
+![Image](https://pbs.twimg.com/media/HFOxR-7bcAABwyf.png)
 
 选择开始 CNAME 设置
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_15.png)
+![Image](https://pbs.twimg.com/media/HFOxU0ia0AEgUPK.png)
 
 记录名称 edt2 和 CNAME 记录值 edt123123123.pages.dev ；
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_6.png)
+![Image](https://pbs.twimg.com/media/HFOxYZ9aIAAL3mN.png)
 
 添加前往域名服务商添加CNAME记录
 
-![Image](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_11.png)
+![Image](https://pbs.twimg.com/media/HFOxb5WagAEKqb8.png)
 
 返回 自定义域 选项卡，点击 稍后完成 DNS 设置 等待域名验证成功
 
@@ -167,7 +167,7 @@ type: "Article"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2041173024289018132/ferdie_jhovie_2041173024289018132_26.jpg)
+![Image 1](https://pbs.twimg.com/media/HFOzOKfbsAAAMk8.jpg)
 
 ## 💬 Replies
 

@@ -29,7 +29,7 @@ To get the most out of Opus 4.7 in Claude Code, we’ve found it’s helpful to 
 
 ## Recommended effort settings for Opus 4.7
 
-![](../_media/claude-best-practices-for-using-claude-opus-4-7-with-claude-code/Claude_best-practices-for-using-claude-opus-4-7-with-claude-code_1.png)
+![](https://assets.claude.com/b4fb97cfd771475f84be7b065f5ccaa82072e4f0.png)
 
 The default effort level for Opus 4.7 in Claude Code is now `xhigh`. This is a new effort level between `high` and `max` that gives users more control over the tradeoff between reasoning and latency on hard problems. We recommend xhigh for most agentic coding work, especially for intelligence-sensitive tasks like designing APIs and schemas, migrating legacy code, and reviewing large codebases.
 

@@ -33,7 +33,7 @@ Sign up to get started: [deeplearning.ai/courses/agenti…](https://www.deeplear
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1975614372799283423/AndrewYNg_1975614372799283423_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/1975612300506898436/img/N8hxTf__L3O_qVDF.jpg)
 
 ## 💬 Replies
 

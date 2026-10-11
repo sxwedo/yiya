@@ -303,7 +303,7 @@ Two things make up the whole structure:
 
 ---
 
-![Image](../_media/mahax-agents-loops-graphs/Mahaximus__2085024744387092973_1.jpg)
+![Image](https://pbs.twimg.com/media/HO5hp7fXQAAmVK8.jpg)
 
 ---
 
@@ -343,7 +343,7 @@ You will find two or three fake edges in almost any workflow you draw. Every one
 
 ---
 
-![Image](../_media/mahax-agents-loops-graphs/Mahaximus__2085024744387092973_2.jpg)
+![Image](https://pbs.twimg.com/media/HO5hPC9XgAAwRF2.jpg)
 
 ---
 
@@ -353,7 +353,7 @@ Once you start removing fake edges, one shape appears more than any other.
 
 The work splits into several independent jobs that run at the same time. Those jobs all feed into one final step that pulls their outputs together. Draw it and it looks like a diamond, wide in the middle, narrow at both ends.
 
-![Image](../_media/mahax-agents-loops-graphs/Mahaximus__2085024744387092973_3.jpg)
+![Image](https://pbs.twimg.com/media/HO5guyAW0AEJC9C.jpg)
 
 ---
 
@@ -548,5 +548,5 @@ Each one builds on the last. You do not need all three for every task. But once 
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/mahax-agents-loops-graphs/Mahaximus__2085024744387092973_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HO5t8UXWsAAJrRf.jpg)
 

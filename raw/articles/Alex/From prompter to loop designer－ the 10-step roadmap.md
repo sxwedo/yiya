@@ -36,7 +36,7 @@ A while loop with a model inside.
 
 On a timer -&gt; Prompt -&gt; Agent runs -&gt; Chech vs Goal -&gt; Done 
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_3.jpg)
+![Image](https://pbs.twimg.com/media/HLfIFQ1agAAf2Jr.jpg)
 
 That reframing is the whole shift from prompter to designer. A prompter optimizes the single message. 
 
@@ -48,7 +48,7 @@ A loop is only as good as the environment it runs in. That environment is the ha
 
 Wrap a loop around a thin harness and you do not get autonomy, you get garbage produced faster.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_6.jpg)
+![Image](https://pbs.twimg.com/media/HLfzA3LXEAAltAA.jpg)
 
 So before you automate anything, get one manual run reliable. A CLAUDE.md with your standing facts, a clear verification target, the right tools connected. The loop will reuse all of it on every iteration, which means every weakness in the harness gets multiplied by however many times the loop run.
 
@@ -58,7 +58,7 @@ The phrase "self-improving agent" invites a misunderstanding worth killing early
 
 Its weights do not change between your runs. What improves is the system around it: the memory it accumulates, the skills that get sharper as edge cases are added, the grader that keeps it honest.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_8.jpg)
+![Image](https://pbs.twimg.com/media/HLf4Fi7WMAMAL5q.jpg)
 
 This is the honest version of the idea, and it matters because it tells you where to put the work. 
 
@@ -85,7 +85,7 @@ The reason a separate grader beats self-review is structural, not effort. A mode
 
 A separate agent, with its own fresh context window, sees only the artifact and the standard. It has no stake in the maker's choices.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_2.jpg)
+![Image](https://pbs.twimg.com/media/HLf6QDpXIAAVBqN.jpg)
 
 So you define a verifier as a subagent:
 
@@ -116,7 +116,7 @@ Then take your laptop out of the equation. Cloud routines run a saved configurat
 
 A timer turns a run into a habit. The cloud turns the habit into infrastructure.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_5.jpg)
+![Image](https://pbs.twimg.com/media/HLf8qUyWcAAvhH8.jpg)
 
 > 07\. Compose the hard ones with workflows.
 
@@ -124,7 +124,7 @@ Some jobs are too structured for a single loop: massively parallel, multi-stage,
 
 For those, Claude Code can write its own orchestration plan and follow it strictly. You ask for a workflow in plain language and it composes the subagents you defined into a shape:
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_9.jpg)
+![Image](https://pbs.twimg.com/media/HLf6SS9W0AASxMf.jpg)
 
 \`\`\`bash
 &gt; Build a workflow: for each failing test, spawn an agent to draft a
@@ -156,7 +156,7 @@ This is the step that turns a configured loop into a system that improves. The a
 
 Two rules make it compound instead of just grow. Write before walking away: every run ends by updating the file. Read at the start: every run begins by loading it. Skip either and tomorrow restarts from zero.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_4.jpg)
+![Image](https://pbs.twimg.com/media/HLf6XU-aoAA5lm4.jpg)
 
 > 09\. Distill lessons into skills.
 
@@ -181,13 +181,13 @@ When a loop hits a wall, the lesson goes into the skill, and every future loop o
 
 That is the difference between an agent that re-derives your environment each time and one that stands on everything it learned before.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_1.jpg)
+![Image](https://pbs.twimg.com/media/HLf8uh3a4AAX46A.jpg)
 
 > 10\. Close the loop, and make it fail safe.
 
 Now the parts lock together. Each run produces output. The verifier grades it. The verdict is written to memory. The general lessons are distilled into skills. The next run inherits sharper skills and richer memory. The model never changed. The system around it got sharper. That is what "self-improving" honestly means.
 
-![Image](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_7.jpg)
+![Image](https://pbs.twimg.com/media/HLf6Z9xXsAEn1-M.jpg)
 
 An autonomous loop also has to fail safe, because no one is watching each iteration. That is what guardrails are for. A hook is a wall the model cannot talk its way past:
 
@@ -238,7 +238,7 @@ Pick the one step you are not doing yet, probably an independent grader, a state
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069726411724673077/de1lymoon_2069726411724673077_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HLkHB54WAAExHL5.jpg)
 
 ## 💬 Replies
 

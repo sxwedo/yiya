@@ -24,7 +24,7 @@ Once your changes look right, ask Claude to review them using the new “Review 
 
 You immediately get a second set of eyes to catch obvious issues before anything leaves your machine, and you can ask Claude to address the inline comments and make changes.
 
-![](../_media/claude-bringing-automated-preview-review-and-merge-to-claude-code-o/Claude_preview-review-and-merge-with-claude-code_1.png)
+![](https://assets.claude.com/75aa0f90a062a60b0cb99fd1ee6ea1b2daf5ee65.png)
 
 ## **Monitor PRs without leaving the app**
 
@@ -34,7 +34,7 @@ You can also enable auto-fix so Claude automatically attempts to fix any CI fail
 
 You can work on one task in a Claude Code session and open a PR, then move on to a new task. In the background, Claude Code will be monitoring the PR for the original task, and will attempt to fix CI failures so that the PR is ready to merge (or is automatically merged) by the time you switch back to that task.
 
-![](../_media/claude-bringing-automated-preview-review-and-merge-to-claude-code-o/Claude_preview-review-and-merge-with-claude-code_2.png)
+![](https://assets.claude.com/470fca7b25e7ebc75147e83b641df5034d9d9be7.png)
 
 ## **Pick up where you left off**
 

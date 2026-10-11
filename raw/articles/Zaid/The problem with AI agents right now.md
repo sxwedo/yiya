@@ -94,7 +94,7 @@ Mercury is built for that reality. You can review the architecture, read the doc
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2046902326657749114/Ctrl_Alt_Zaid_2046902326657749114_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HGgJWlcaAAA1QgW.jpg)
 
 ## 💬 Replies
 

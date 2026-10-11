@@ -28,7 +28,7 @@ Workflow 有 6 种形式。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2062902783595147544/MinLiBuilds_2062902783595147544_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKDnI6gaUAAHGPJ.jpg?name=orig)
 
 ## 💬 Replies
 

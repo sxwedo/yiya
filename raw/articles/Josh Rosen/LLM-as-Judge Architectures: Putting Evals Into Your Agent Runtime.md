@@ -105,5 +105,5 @@ We will need to invest in these architectures and mature these patterns before w
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/josh-llm-as-judge-runtime/JoshARosen_2097324183428444499_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HRswoxrXwAAH0hX.jpg)
 

@@ -17,7 +17,7 @@ type: "Article"
 
 Hook。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_10.jpg)
+![Image](https://pbs.twimg.com/media/HLuHzXiaMAA1JJu.jpg)
 
 每一个Agent里，几乎都会有Hook这个东西，Claude Code和Codex的自动化里面，背后也都有。
 
@@ -45,13 +45,13 @@ Agent里面也是如此，你可以通过给Hook设置特定的规则，自动�
 
 打开Claude Code，在底部输入/hooks，会看到这个界面。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_16.jpg)
+![Image](https://pbs.twimg.com/media/HLuH7SybEAAa2lS.jpg)
 
 按下回车后，他会列出所有可用的Hook事件。
 
 我记得年初看的时候只有13个，现在有将近30个了，翻了一倍多。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_2.jpg)
+![Image](https://pbs.twimg.com/media/HLuIfmWasAAdGZw.jpg)
 
 不过别被30这个数字吓到，我们日常真正会用到的，可能也就常用的那几个。
 
@@ -69,11 +69,11 @@ Agent里面也是如此，你可以通过给Hook设置特定的规则，自动�
 
 发送给AI，它就会帮你配好了。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_15.jpg)
+![Image](https://pbs.twimg.com/media/HLuInCZaoAABXLL.jpg)
 
 配完之后可以让Claude Code测试一下。当需要授权时，右上角会弹出提醒。再也不怕切走窗口时，AI卡住不动，白白浪费时间了。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_7.jpg)
+![Image](https://pbs.twimg.com/media/HLuIwHkaMAAqm4L.jpg)
 
 这时候肯定会有人问了，那每次授予权限的时候都会弹窗提醒，那岂不是很浪费Token。
 
@@ -89,11 +89,11 @@ Agent里面也是如此，你可以通过给Hook设置特定的规则，自动�
 
 帮我创建一个会话开始的Hook，每当我打开或恢复Claude Code的时候，输出一段元气满满的问候。告诉我北京朝阳区今天的天气，会不会下雨、要不要带伞，调用飞书CLI拉出当天的日程安排，内容要有趣一些。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_8.jpg)
+![Image](https://pbs.twimg.com/media/HLuI0peboAAajgM.jpg)
 
 重新打开Claude Code后，就自动弹出这个提醒，让原本枯燥的终端，多了点温度。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_6.jpg)
+![Image](https://pbs.twimg.com/media/HLuI79PbAAA6ZEv.jpg)
 
 当然这只是一个前菜。
 
@@ -115,11 +115,11 @@ Agent里面也是如此，你可以通过给Hook设置特定的规则，自动�
 
 帮我编写一个Hook，当上下文处于预压缩时，生成一张摘要卡片，记录当前上下文的概要内容，方便我后续查看，将文件保存到一个跨项目也可以查看的地方，总结完毕后打印到Claude Code中，方便我查看。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_4.jpg)
+![Image](https://pbs.twimg.com/media/HLuJA7HasAAScNz.jpg)
 
 之后，在上下文快被压缩、还没丢掉的时候，他就会赶紧生成一张摘要卡片。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_14.jpg)
+![Image](https://pbs.twimg.com/media/HLuJFhdawAA4KFh.jpg)
 
 这玩意的意义还是很大的，聊天记录太长，回看成本极高，你根本不想翻。
 
@@ -141,7 +141,7 @@ Agent里面也是如此，你可以通过给Hook设置特定的规则，自动�
 
 所以，我就做了一个Hook，逻辑特别简单，指定一个文件夹，每次有新文件丢进来，它自己看一下这是什么、内容是什么，然后自动重命名，再挪到该去的地方。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_3.jpg)
+![Image](https://pbs.twimg.com/media/HLuJivMbwAAz3Pl.jpg)
 
 不过文件整理这件事，光靠简单代码搞不定，所以这里用了一个组合技，Hook+Skill。
 
@@ -155,7 +155,7 @@ Skill也非常简单，你直接用嘴让Claude Code给你写就行了，因为�
 
 但凡有一个新文件进来，等几秒确认传完了，它就开始干活，然后帮你自动处理完。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_12.png)
+![Image](https://pbs.twimg.com/media/HLuJrD_acAAMimC.png)
 
 不管是PDF还是图片，它都能自己识别内容，会议纪要归到会议那栏，发票归到报销那栏，截图还会按内容起个看得懂的名字，然后帮你挪到对应文件夹。
 
@@ -179,7 +179,7 @@ AI替你干活的感觉很爽，但他有一个副作用，就是太爽了，一
 
 然后我发现，这事不是我一个人，很多用AI写代码的人都这样。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_9.jpg)
+![Image](https://pbs.twimg.com/media/HLuJyMYagAAAIxp.jpg)
 
 以前沉迷打游戏，现在沉迷Vibe Coding。
 
@@ -189,7 +189,7 @@ AI替你干活的感觉很爽，但他有一个副作用，就是太爽了，一
 
 于是简单描述了一下需求，只要我启动了Claude Code之后，只要过了一个小时，Claude Code就会给我发通知提醒我休息了。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_1.jpg)
+![Image](https://pbs.twimg.com/media/HLuJ4gJb0AAd6US.jpg)
 
 健康还是很重要的，身体才是革命的本钱，Vibe Coding上头的时候，你根本想不起来需要站起来活动，有这么一个小提醒，还是很管用的。
 
@@ -213,7 +213,7 @@ AI替你干活的感觉很爽，但他有一个副作用，就是太爽了，一
 
 于是让Claude Code帮我研究了一下，看看有没有什么办法能让它干完活了通知我一下，最好是可以和常用软件提示音区分开的。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_13.jpg)
+![Image](https://pbs.twimg.com/media/HLuJ-l_aoAAIZv9.jpg)
 
 然后它就跟我说了Bark。
 
@@ -223,13 +223,13 @@ AI替你干活的感觉很爽，但他有一个副作用，就是太爽了，一
 
 于是我顺手让Claude Code帮我写了个调用Bark的Hook。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_11.jpg)
+![Image](https://pbs.twimg.com/media/HLuKGlvbsAAY77C.jpg)
 
 这下就舒服了。
 
 手机和手表同时收到消息，还可以自定义推送声音，跟微信、飞书、短信这些区分开，一听声音就知道AI干完活了，可以切回去查看成果了，而且还是中文。
 
-![Image](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_5.jpg)
+![Image](https://pbs.twimg.com/media/HLuNCSnagAE8x5L.jpg)
 
 这个体验真的很爽。
 
@@ -269,7 +269,7 @@ AI越来越成为一个替你运转的系统。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070403772703285575/Khazix0918_2070403772703285575_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HLuNNjwbwAAbJtO.jpg)
 
 ## 💬 Replies
 

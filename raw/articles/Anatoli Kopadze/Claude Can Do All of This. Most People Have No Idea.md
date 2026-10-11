@@ -98,7 +98,7 @@ Turn it on. Ask the same question you've been asking. Compare the answers.
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_7.jpg)
+![Image](https://pbs.twimg.com/media/HI3wWvAXMAAGiY5.jpg)
 
 ---
 
@@ -133,7 +133,7 @@ It's off by default. Most people don't know it exists
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_6.jpg)
+![Image](https://pbs.twimg.com/media/HI3yGMwXcAQ_J9H.jpg)
 
 ---
 
@@ -323,7 +323,7 @@ Cowork is a desktop app that gives Claude direct access to your file system. It 
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_5.jpg)
+![Image](https://pbs.twimg.com/media/HI3znU_W8AIR2MD.jpg)
 
 ---
 
@@ -335,7 +335,7 @@ Scheduled Tasks change that. You set a task once and Claude executes it automati
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_1.jpg)
+![Image](https://pbs.twimg.com/media/HI33KXwXUAEB-78.jpg)
 
 ---
 
@@ -363,7 +363,7 @@ How to find and install: Cowork → Customize → Skills to see what's installed
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_8.jpg)
+![Image](https://pbs.twimg.com/media/HI7A9bHW0AAOCKD.jpg)
 
 ---
 
@@ -412,7 +412,7 @@ It integrates with VS Code and JetBrains. You can drop it into GitHub Actions an
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_4.jpg)
+![Image](https://pbs.twimg.com/media/HI69Ep8aMAAAzx2.jpg)
 
 ---
 
@@ -426,7 +426,7 @@ To get access, just head to claude.ai/design - that's the direct link to Claude 
 
 ---
 
-![Image](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_2.jpg)
+![Image](https://pbs.twimg.com/media/HI7BhJDWgAAP27X.jpg)
 
 ---
 
@@ -473,7 +473,7 @@ Come back to this article when you're ready for the next one.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2057813254617858078/AnatoliKopadze_2057813254617858078_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HI7SEG9WsAAq74B.jpg)
 
 ## 💬 Replies
 

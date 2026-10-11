@@ -181,7 +181,7 @@ hope this was useful for you, Khairallah [❤️](https://abs.twimg.com/emoji/v2
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2051596186851914019/eng_khairallah1_2051596186851914019_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HHgRmZJagAAuXqJ.jpg)
 
 ## 💬 Replies
 

@@ -28,7 +28,7 @@ Getting there means running every new model through Hebbia's finance-specific be
 
 "The bar is extremely high, and our customers hold us to that extremely high bar—and rightfully so," Mehta says. "At the end of the day, they're making investment decisions at a very large scale based on the analysis and final work product built in Hebbia."
 
-![The team at Hebbia runs every new Claude model through finance-specific benchmarks that run head-to-head against the model it would replace.](../_media/claude-working-at-the-frontier-how-hebbia-builds-ai-for-financial-d/Claude_working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail_1.jpg)
+![The team at Hebbia runs every new Claude model through finance-specific benchmarks that run head-to-head against the model it would replace.](https://assets.claude.com/89ea204c3b0753eca5f0b4a8e3b694f87b6f0492.jpg)
 
 *The team at Hebbia runs every new Claude model through finance-specific benchmarks that run head-to-head against the model it would replace.*
 
@@ -54,7 +54,7 @@ That might be a data room with thousands of documents, where the work is finding
 
 With earlier Sonnet and Opus models, Matrix could already pull out and synthesize a credit agreement's covenants—the dense protections a lender writes in for itself. With Claude Fable 5, Hebbia is reaching for the rest of the job: the multi-step analysis on top of those covenants, comparing them against live monitoring data, flagging risks, all the way to a first draft of the covenant review and an internal memo. That review is something credit firms used to pay outside teams a great deal to produce by hand.
 
-![Claude Fable 5 enables Matrix, Hebbia's AI platform built for financial professionals, to take on longer-running, multi-step tasks like synthesizing credit agreement coven](../_media/claude-working-at-the-frontier-how-hebbia-builds-ai-for-financial-d/Claude_working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail_2.jpg)
+![Claude Fable 5 enables Matrix, Hebbia's AI platform built for financial professionals, to take on longer-running, multi-step tasks like synthesizing credit agreement coven](https://assets.claude.com/675280af0230cbc453d91b56ebfd4040588920ec.jpg)
 
 *Claude Fable 5 enables Matrix, Hebbia's AI platform built for financial professionals, to take on longer-running, multi-step tasks like synthesizing credit agreement coven*
 

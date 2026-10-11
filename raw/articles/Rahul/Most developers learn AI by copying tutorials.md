@@ -41,7 +41,7 @@ Let's start from zero and build this properly.
 
 ## 6-week roadmap
 
-![Image](../_media/x-2093989227696623658/sairahul1_2093989227696623658_4.jpg)
+![Image](https://pbs.twimg.com/media/HQ88vuXaoAAXOQL.jpg)
 
 Here is where we are going across the full series:
 
@@ -197,7 +197,7 @@ This is the beginning of understanding hallucinations.
 
 ## Temperature — the creativity dial
 
-![Image](../_media/x-2093989227696623658/sairahul1_2093989227696623658_5.jpg)
+![Image](https://pbs.twimg.com/media/HQ89PIlagAA0q1z?format=jpg&name=medium)
 
 Same prompt. Same model. Different answer every time.
 
@@ -877,7 +877,7 @@ I write about AI, building products, and systems that work while you sleep.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2093989227696623658/sairahul1_2093989227696623658_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HQ896Yqb0AAl4Ye.jpg)
 
 ## 💬 Replies
 

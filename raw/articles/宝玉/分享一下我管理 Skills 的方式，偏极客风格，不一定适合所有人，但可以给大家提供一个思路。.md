@@ -76,7 +76,7 @@ Agent 会自动帮你创建软链接，后续的维护、添加、删除也都�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069632132431929651/dotey_2069632132431929651_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLjPDTLW8AALIp2?format=jpg&name=medium)
 
 ## 💬 Replies
 

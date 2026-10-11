@@ -51,17 +51,17 @@ hermes setup
 
 效果-配置前：
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_14.png)
+![Image](https://pbs.twimg.com/media/HFY8FJXa8AIsEme.png)
 
 配置后：
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_7.png)
+![Image](https://pbs.twimg.com/media/HFY8uhGa8AAQ4YV.png)
 
 Hermes 亮点一：
 
 这里要赞一下hermes 的地方，就是它自己判断哪些是高危指令，然后适当的让你授权即可。这里要比OpenClaw好太多，OpenClaw配置了你都想关闭授权，而且授权带一堆无意义的数字，你也不知道它要干啥
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_11.png)
+![Image](https://pbs.twimg.com/media/HFY8UIqa8AQSFTI.png)
 
 ## 第二件：灵魂定义 ([SOUL.md](https://soul.md/))
 
@@ -75,7 +75,7 @@ SOUL.md 文件默认是注释掉的空文件，需要自己添加
 
 如截图，感觉和可以哈，文本也分享给大家供参考
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_19.jpg)
+![Image](https://pbs.twimg.com/media/HFZCScsa4AE9Nu-.jpg)
 
 Hermes 亮点二：
 
@@ -132,19 +132,19 @@ auxiliary 模块是 Hermes 的 副驾 LLM 路由中心，Hermes  它的设计目
 
 配置方式，口喷示例：“压缩会话辅助模型帮我配置成qwen3.5-plus ”
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_23.jpg)
+![Image](https://pbs.twimg.com/media/HFdoMBha4AALSUt.jpg)
 
 验证：
 我们手动触发 compress：
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_17.jpg)
+![Image](https://pbs.twimg.com/media/HFdoSH4bcAAqdTy.jpg)
 
 看日志（\~/.hermes/logs/agent.log ）：
 关键两条： flush\_memories 用的默认模型 qwen3.6 ，compress 可以看到走了我们自定义的模型，cool～
 Auxiliary flush\_memories: using auto (qwen3.6-plus)
 Auxiliary compression: using auto (qwen3.5-plus) at [https://dashscope.aliyuncs.com/compatible-mode/v1/](https://dashscope.aliyuncs.com/compatible-mode/v1/)
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_12.jpg)
+![Image](https://pbs.twimg.com/media/HFdoVrHa0AAIhQ6.jpg)
 
 压缩阈值： 太频繁和不压缩其实都不好，目前默认配置是50% ，这个建议大家可根据真实使用过程调整
 
@@ -195,18 +195,18 @@ nudge\_interval: 10
 
 Hermes 支持8大插件：
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_10.jpg)
+![Image](https://pbs.twimg.com/media/HFdpgpsa8AExcpa.jpg)
 
 我们以 配置 mem0 为例：
 这个建议终端执行配置：
 执行： hermes memory setup
 然后配置密钥即可
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_24.jpg)
+![Image](https://pbs.twimg.com/media/HFdpwa3a0AAsmZh.jpg)
 
 Hermes 亮点四：配置解耦，密钥、配置分开。采用yaml 格式，个人感觉比json 要更友好。google 会喜欢😊
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_20.jpg)
+![Image](https://pbs.twimg.com/media/HFdp66FacAAetlq.jpg)
 
 > 但也有不如OpenClaw 的地方，没有配置热加载，修改config.yaml后需要重启
 
@@ -217,7 +217,7 @@ Hermes 亮点四：配置解耦，密钥、配置分开。采用yaml 格式，�
 
 配张图，便于大家了解一轮对话全貌
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_8.jpg)
+![Image](https://pbs.twimg.com/media/HFdqGR9b0AA5QlF.jpg)
 
 第三层：Session Search（默认已开，确认 auxiliary 可用）
 
@@ -250,9 +250,9 @@ exa、Tavily、parallel、firecrawl
 
 告诉Hermes： “帮我配置个exa吧”
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_25.jpg)
+![Image](https://pbs.twimg.com/media/HFdqfPHboAAXvWG.jpg)
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_4.jpg)
+![Image](https://pbs.twimg.com/media/HFdqnhgbcAAlBWi.jpg)
 
 Hermes 亮点五：细心的朋友可以看到Hermes 默认会在IM里清晰打印其执行tool过程，这个做的非常友好
 
@@ -266,7 +266,7 @@ Hermes Agent 有两套互补的扩展系统：
 
 可用8 个生命周期 Hook
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_22.jpg)
+![Image](https://pbs.twimg.com/media/HFdrvPIbAAAOjxu.jpg)
 
 执行流程图示例
 
@@ -291,15 +291,15 @@ Hermes Agent 有两套互补的扩展系统：
 
 直接告诉Hermes： “做一个 终端命令审计插件（Terminal Audit Hook）：在每次 terminal 工具执行完毕后，自动把命令内容、执行结果、时间戳、会话ID 追加到日志文件。”
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_18.jpg)
+![Image](https://pbs.twimg.com/media/HFdr-doa8AE0X5J.jpg)
 
 授权后，Hermes就写好了：
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_9.jpg)
+![Image](https://pbs.twimg.com/media/HFdsFXXbkAAn6Yt.jpg)
 
 这样我们的命令审计hook 就开发配置好了，是不是比龙虾方便～
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_3.jpg)
+![Image](https://pbs.twimg.com/media/HFdsK_9bQAAjTwT.jpg)
 
 ## 第七件 sandbox
 
@@ -328,20 +328,20 @@ hermes -p worker config set model.model qwen3.5-plus
 测试，我在work bot 告诉他rm -rf  /
 看截图，一开始它是拒绝的，哈哈
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_13.jpg)
+![Image](https://pbs.twimg.com/media/HFdsoS_aYAEaqa3.jpg)
 
 我给它打气，最终确认执行，可以看到截图也说了，触发系统保护，只删除了部分目录
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_16.jpg)
+![Image](https://pbs.twimg.com/media/HFdsscYaoAApQ2t.jpg)
 
 我们，让主agent 排查下看看，确认了，没有问题
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_2.jpg)
+![Image](https://pbs.twimg.com/media/HFdsxU-bUAEEAK7.jpg)
 
 我们再在宿主机上看docker ps
 可以看到确实启动了docker ，完美～
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_15.jpg)
+![Image](https://pbs.twimg.com/media/HFds2OUb0AA2BO4.jpg)
 
 Hermes亮点六：多profile（agent 实例）配置友好，一句话Hermes 就帮你搞定了，我在龙虾里基本还需要自己登录后台调整。。
 
@@ -353,13 +353,13 @@ Hermes亮点六：多profile（agent 实例）配置友好，一句话Hermes 就
 同一个session 下可以触发不同的多agent 能力
 当然还有一种，完全隔离的多agent ，就是上文提到的多profile ，我们就不再赘述了
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_5.png)
+![Image](https://pbs.twimg.com/media/HFdtD9Na0AAW6wj.png)
 
 但对话subagent 触发方式很很简单，说句话即可，示例如下：
 
 “请spawn 三个subagent 来相互讨论下Hermes的优劣势”
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_6.jpg)
+![Image](https://pbs.twimg.com/media/HFdteJgbkAADIUW.jpg)
 
 ## 
 
@@ -428,7 +428,7 @@ Hermes 系统非常智能，它会复盘skill ，它识别到我们任务，自�
 
 我们在config.yaml 看到，creation\_nudge\_interval 默认配置是 15（老版本可能是10）
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_21.png)
+![Image](https://pbs.twimg.com/media/HFdu9hAacAAp8h4.png)
 
 这个参数意思是每累计 15 次工具循环，触发一次后台 skill review。
 skill revies过程：
@@ -452,7 +452,7 @@ skill revies过程：
 
 Hermes亮点七：自动将价值操作专场成永久技能，出圈亮点，伟大无须多言～
 
-![Image](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_1.png)
+![Image](https://pbs.twimg.com/media/HFdvYcVbMAAMNMj.png)
 
 Hermes 亮点八：不管以什么方式退出（正常/异常/中断），消息都不会丢。20 个触发点覆盖了所有退出路径，增量写入，通过session 分裂的方式也保证每个session记录完整和不重复
 
@@ -484,7 +484,7 @@ Hermes 亮点八：不管以什么方式退出（正常/异常/中断），消�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2042237123865297267/LufzzLiz_2042237123865297267_26.jpg)
+![Image 1](https://pbs.twimg.com/media/HFd1J5zb0AAG6jR.jpg)
 
 ## 💬 Replies
 

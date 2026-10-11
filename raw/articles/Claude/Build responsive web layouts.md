@@ -178,25 +178,25 @@ Consider a product dashboard that breaks on tablet viewports. Navigation overlap
 
 Claude Code scans layout.css to identify fixed-width styles and layout patterns that cause overflow on smaller screens, finding 3 specific issues with line numbers and recommendations.
 
-![](../_media/claude-build-responsive-web-layouts/Claude_build-responsive-web-layouts_1.png)
+![](https://assets.claude.com/c1b9c017f8898ce9ad8743e3fa658269a7e2cfc6.png)
 
 #### **Implement targeted fixes** ####
 
 It then updates the CSS by replacing fixed widths with responsive alternatives (max-width, flex basis, grid-template-columns with auto-fit), adding media queries for breakpoint-specific adjustments.
 
-![](../_media/claude-build-responsive-web-layouts/Claude_build-responsive-web-layouts_2.png)
+![](https://assets.claude.com/950fedbe350b19dd925c23980a344f659be2de8b.png)
 
 #### **Verify the fixes work** ####
 
 The code then tests the updated styles at viewport sizes 320px and 512px to confirm there's no horizontal overflow and the layout responds correctly at each breakpoint.
 
-![](../_media/claude-build-responsive-web-layouts/Claude_build-responsive-web-layouts_3.png)
+![](https://assets.claude.com/cd88263af62d3189da842d22b9b2647efd5e661f.png)
 
 #### **Test across viewport ranges** ####
 
 Finally, Claude Code generates a comprehensive Playwright test suite that validates responsive behavior across real device sizes (iPhone SE, iPhone 12, iPad, iPad Pro, Desktop) to prevent future regressions.
 
-![](../_media/claude-build-responsive-web-layouts/Claude_build-responsive-web-layouts_4.png)
+![](https://assets.claude.com/b521e90923da15f5f1cb3ccf591e2855b4e025d1.png)
 
 ## ‍**Get started**
 

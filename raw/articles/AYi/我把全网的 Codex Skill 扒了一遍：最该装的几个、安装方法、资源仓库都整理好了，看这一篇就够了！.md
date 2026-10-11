@@ -45,7 +45,7 @@ type: "Article"
 
 找 Skill 别瞎搜，盯住下面这几个源头就够了。
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_5.jpg)
+![Image](https://pbs.twimg.com/media/HKI23y8WkAAnlng.jpg)
 
 1. 这张表怎么用：官方仓库管地基和精选：[github.com/openai/skills](http://github.com/openai/skills)
 
@@ -67,27 +67,27 @@ type: "Article"
 
 这一组是管 Codex 怎么干活的元能力层，社区几乎所有神级"单都把它们排在第一。
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_8.jpg)
+![Image](https://pbs.twimg.com/media/HKI3mLcWkAAfvLt.jpg)
 
 一句话总结这组：让 Codex 先想清楚再动手，干完能交接，方案还有人帮你挑刺，这是整套打法里收益最高的一档，可别跳过去。
 
 ## GitHub & CI/CD（工程必备）
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_2.jpg)
+![Image](https://pbs.twimg.com/media/HKI3vogXAAAUL9L.jpg)
 
 CI 红了那一下最磨人，装了 gh-fix-ci，它自己去读日志、定位、改，你只管 review 结果——光这一个，很多人就觉得值回票价了。
 
 ## 测试、质量、安全
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_4.jpg)
+![Image](https://pbs.twimg.com/media/HKI33VGXYAA19_k.jpg)
 
 ## 前端、设计与集成
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_6.jpg)
+![Image](https://pbs.twimg.com/media/HKI4CPGXUAAMuD0.jpg)
 
 ## 生产力与内容
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_9.jpg)
+![Image](https://pbs.twimg.com/media/HKI4KaKXoAAPcjw.jpg)
 
 这些大多来自官方 .curated + Composio Awesome + 社区高赞，不是我拍脑袋选的。
 
@@ -120,7 +120,7 @@ $skill-installer install https://github.com/openai/skills/tree/main/skills/.cura
 
 把 Skill 文件夹丢到对应目录，重启 Codex 就生效：
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_7.jpg)
+![Image](https://pbs.twimg.com/media/HKJBhRaW4AAXXf7.jpg)
 
 重启方式：CLI 重开终端，App 重启应用。
 
@@ -128,7 +128,7 @@ $skill-installer install https://github.com/openai/skills/tree/main/skills/.cura
 
 ## 第 2 步：怎么喊它干活
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_1.png)
+![Image](https://pbs.twimg.com/media/HKI4ygfXIAAgKSH.png)
 
 隐式那条是关键：装好之后你甚至不用记 Skill 名字，把活描述清楚，它自己会去翻卡。
 
@@ -150,7 +150,7 @@ $skill-installer install https://github.com/openai/skills/tree/main/skills/.cura
 
 Skill 生态更新很快，这几个地方值得长期蹲：
 
-![Image](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_3.jpg)
+![Image](https://pbs.twimg.com/media/HKI48EnXgAAih9U.jpg)
 
 # 最后
 
@@ -176,7 +176,7 @@ Skill 生态更新很快，这几个地方值得长期蹲：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063283898419749193/AYi_AInotes_2063283898419749193_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HKI8qLnWsAEiaOo.jpg)
 
 ## 💬 Replies
 

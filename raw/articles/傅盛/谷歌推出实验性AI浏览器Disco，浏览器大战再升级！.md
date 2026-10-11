@@ -15,7 +15,7 @@ Disco的核心是由Gemini 3驱动的GenTabs功能，能把你的浏览行为直
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2000839970681184325/FuSheng_0306_2000839970681184325_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2000839849839058944/img/Z3V7RBEVIlExDFMz.jpg)
 
 ## 💬 Replies
 

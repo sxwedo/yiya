@@ -19,7 +19,7 @@ I've seen $300 courses that don't cover what they teach in the first 8 minutes.
 
 Watch it and bookmark it now.7
 
-![Image](../_media/x-2065186193071903071/eng_khairallah1_2065186193071903071_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/2065184356709040130/img/fJX6F8QLNvL98rYC.jpg)
 
 ## 💬 Replies
 

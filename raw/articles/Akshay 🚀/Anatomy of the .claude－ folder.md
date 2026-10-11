@@ -29,7 +29,7 @@ Before diving in, one thing worth knowing upfront: there are actually two .claud
 
 The first lives inside your project and the second lives in your home directory:
 
-![Image](../_media/x-2035341800739877091/akshay_pachaar_2035341800739877091_1.jpg)
+![Image](https://pbs.twimg.com/media/HD70c_tbMAAvhzK.jpg)
 
 The project-level folder holds team configuration. You commit it to git. Everyone on the team gets the same rules, the same custom commands, the same permission policies.
 
@@ -108,7 +108,7 @@ Sometimes you have a preference that's specific to you, not the whole team. Mayb
 
 Create CLAUDE.local.md in your project root. Claude reads it alongside the main CLAUDE.md, and it's automatically gitignored so your personal tweaks never land in the repo.
 
-![Image](../_media/x-2035341800739877091/akshay_pachaar_2035341800739877091_2.jpg)
+![Image](https://pbs.twimg.com/media/HD710uUaQAAppSN.jpg)
 
 # The rules/ folder: modular instructions that scale
 
@@ -154,7 +154,7 @@ CLAUDE.md instructions are good. But they're suggestions. Claude follows them mo
 
 Hooks make these behaviors deterministic. They're event handlers that fire automatically at specific points in Claude's workflow. Your shell script runs every time, no exceptions.
 
-![Image](../_media/x-2035341800739877091/akshay_pachaar_2035341800739877091_3.jpg)
+![Image](https://pbs.twimg.com/media/HEa1csZaoAAQ7cc.jpg)
 
 All hook configuration lives in settings.json under a hooks key. Claude Code snapshots the config at session start, receives a JSON payload on stdin when an event fires, and uses exit codes to decide what happens next. The critical thing to know: exit code 2 is the only code that blocks execution. Exit 0 means success. Exit 1 means error but non-blocking. Exit 2 means stop everything and send your stderr to Claude for self-correction. Using exit 1 for security hooks is the most common mistake. It logs an error and does nothing.
 
@@ -286,7 +286,7 @@ The model field lets you use a cheaper, faster model for focused tasks. Haiku ha
 
 Personal agents go in \~/.claude/agents/ and are available across all projects.
 
-![Image](../_media/x-2035341800739877091/akshay_pachaar_2035341800739877091_4.jpg)
+![Image](https://pbs.twimg.com/media/HD76U4QbAAAt7X5.jpg)
 
 # settings.json: permissions and project config
 
@@ -432,7 +432,7 @@ Every day, I share tutorials and insights on AI, Machine Learning and vibe codin
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2035341800739877091/akshay_pachaar_2035341800739877091_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HD78D48b0AAI72h.jpg)
 
 ## 💬 Replies
 

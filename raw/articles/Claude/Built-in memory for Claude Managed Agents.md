@@ -12,7 +12,7 @@ date: "April 23, 2026"
 
 Memory on [Claude Managed Agents](https://claude.com/blog/claude-managed-agents) is available today in public beta. Your agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility. Because memories are stored as files, developers can export them, manage them via the API, and keep full control over what agents retain.
 
-![](../_media/claude-claude-managed-agents-memory/Claude_claude-managed-agents-memory_1.png)
+![](https://assets.claude.com/f55bb71c387d00c0604c391b77605382df1cfff6.png)
 
 ## How memory works in Claude Manged Agents
 

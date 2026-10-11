@@ -25,4 +25,4 @@ In summary:
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/karpathy-understand-llm-outputs/karpathy_2105819303471976479_1.png)
+![Image 1](https://pbs.twimg.com/media/HTlaHqgbwAAS1lv?format=png&name=medium)

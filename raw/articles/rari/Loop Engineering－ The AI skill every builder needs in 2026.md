@@ -713,7 +713,7 @@ Also you can read other articles:
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065539680146182270/0xwhrrari_2065539680146182270_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKpER8QWgAAXkOH.jpg)
 
 ## 💬 Replies
 

@@ -46,7 +46,7 @@ AI终于有了长期记忆，不会每次都像第一次见你的项目一样。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2045075148131193160/AYi_AInotes_2045075148131193160_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HGGQ_d-WoAA7xtB.jpg?name=orig)
 
 ## 💬 Replies
 

@@ -48,7 +48,7 @@ When Anthropic's business development representatives (BDRs) wanted their own ve
 
 No matter how fast the business moves, my team and I, with Claude’s help, make sure that sales reps start their Monday knowing exactly what’s happening that week and what accounts and events to prioritize. Each Monday's send is archived in full, so I can pull up exactly what any seller received on any date, and managers see their whole team's recommendations in a single roll-up. I still read what goes out, though the system no longer waits for my approval. When I went on holiday a few weeks ago, the Monday send went off on its own, without a hitch. 
 
-![An example of what a Monday brief looks like, shown with a UI mockup depicted with synthetic data that does not represent real companies or individuals.](../_media/claude-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee/Adam_Ward_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep_1.png)
+![An example of what a Monday brief looks like, shown with a UI mockup depicted with synthetic data that does not represent real companies or individuals.](https://assets.claude.com/9776663750f82b46d588a0f463f649a54b82dddd.png)
 
 *An example of what a Monday brief looks like, shown with a UI mockup depicted with synthetic data that does not represent real companies or individuals.*
 

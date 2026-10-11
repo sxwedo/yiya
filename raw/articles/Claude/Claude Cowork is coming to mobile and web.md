@@ -38,7 +38,7 @@ Desktop remains the place for deep work, and it’s the full Cowork experience, 
 
 Two more changes you'll notice: on web and desktop, chat and Cowork now share one home, and your projects and artifacts live together across both. Delegating is now as easy as asking.
 
-![](../_media/claude-claude-cowork-is-coming-to-mobile-and-web/Claude_cowork-web-mobile_1.png)
+![](https://assets.claude.com/929878fd0530236a3b94dcc763b357e199e23d9b.png)
 
 ## Getting started
 

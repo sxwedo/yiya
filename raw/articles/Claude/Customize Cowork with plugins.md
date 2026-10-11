@@ -18,11 +18,11 @@ Plugins work for any use case, but they're especially powerful for tailoring Cla
 
 A sales plugin, for example, could connect Claude to your CRM and knowledge base, teach it your sales process, and give you commands for everything from prospect research to call follow ups. You define what goes in the plugin once, and Claude pulls from that context whenever it's relevant.
 
-![](../_media/claude-customize-cowork-with-plugins/Claude_cowork-plugins_1.png)
+![](https://assets.claude.com/3d53e9483c97c9b72631d65043667ca565ef6a1a.png)
 
 As your team builds and shares plugins, Claude becomes a cross-functional expert. The rich context you share gets baked into every relevant interaction, so leaders and admins can spend less time enforcing processes and more time improving them.
 
-![](../_media/claude-customize-cowork-with-plugins/Claude_cowork-plugins_2.png)
+![](https://assets.claude.com/b8a65a36c208d7e99570641b9c4d7ae1833c0a27.png)
 
 ## Plugin marketplace
 

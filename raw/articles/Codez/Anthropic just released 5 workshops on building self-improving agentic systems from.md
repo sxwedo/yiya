@@ -23,7 +23,7 @@ Watch today, then read article below on how to build a self-improving agentic sy
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074527573116133425/0xCodez_2074527573116133425_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2074526088974184448/img/YQ-GM5UWNwI1tUmg.jpg)
 
 ## 💬 Replies
 

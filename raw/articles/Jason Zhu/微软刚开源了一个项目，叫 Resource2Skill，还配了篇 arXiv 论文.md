@@ -27,7 +27,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2079363507674566971/GoSailGlobal_2079363507674566971_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HNtiDn8aIAAeMq2?format=jpg&name=medium)
 
 ## 💬 Replies
 

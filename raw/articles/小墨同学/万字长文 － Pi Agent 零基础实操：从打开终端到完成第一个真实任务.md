@@ -55,7 +55,7 @@ Pi 是一个运行在终端里的 Agent。你在某个文件夹里启动它，�
 
 第二个是“能动手”。普通聊天工具也能根据一段会议记录写出行动清单，你还要复制结果、新建文件、选择位置、粘贴保存。Pi 可以直接读取 input/项目会议记录.md，再把整理结果写进 output/行动清单.md。任务复杂一些时，它还能继续检查目录、调用脚本，或者根据前一步的结果调整下一步。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_6.jpg)
+![Image](https://pbs.twimg.com/media/HQoAbSHacAAN3lI.jpg)
 
 这种工作方式很适合目标清楚、材料已经放在电脑里的任务。整理会议纪要、批量修改文件名、检查一组配置、从几份资料里提取固定字段，都能从同一条思路开始。
 
@@ -99,7 +99,7 @@ pwd 会打印当前所在位置。ls 会列出当前位置里的文件和文件�
 npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 \`\`\`
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_5.jpg)
+![Image](https://pbs.twimg.com/media/HQoAokjacAELD2e.jpg)
 
 -g 表示全局安装。完成以后，你可以在不同目录直接运行 pi。当前官网命令还带有 --ignore-scripts，复制时要把整行一起带上，不要根据旧教程自行删改。
 
@@ -120,7 +120,7 @@ npm --version
 pi --version
 \`\`\`
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_10.jpg)
+![Image](https://pbs.twimg.com/media/HQoAx_5bMAAx6S3.jpg)
 
 我在本机重新执行，返回的是 0.80.10。这也是本文所有界面和命令的测试版本。你的数字更新一些很正常，只要它直接返回版本号，没有出现 command not found，Pi 就已经能从终端启动。
 
@@ -140,7 +140,7 @@ pi
 
 另一种是使用模型提供方的 API Key，按对应文档写入环境变量或认证文件。教程里只会出现占位符，不应该把真实 Key 放进截图、文章或聊天记录。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_7.jpg)
+![Image](https://pbs.twimg.com/media/HQoA1j1bwAAIfpo.jpg)
 
 已经有受支持订阅，可以先走 /login。平时习惯按 API 用量付费，就配置对应提供方的 Key。选一条能明确核对账号和计费来源的路径即可。两套认证一起堆上去，后面发现模型或账单不符合预期，又要回头猜它到底用了哪一套。
 
@@ -156,7 +156,7 @@ pi
 
 终端界面刚出现时，很多人会下意识盯着满屏英文看。其实第一次只要认四块。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_12.jpg)
+![Image](https://pbs.twimg.com/media/HQoA_VxaUAAJHST.jpg)
 
 ## 1\. 顶部启动区
 
@@ -196,7 +196,7 @@ Pi 还在工作时，你可以再次提交消息。普通 Enter 会把它作为�
 
 最后看上下文。它快满时，Pi 对早期内容的处理会受影响，需要压缩或开新会话。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_14.jpg)
+![Image](https://pbs.twimg.com/media/HQoBDLJacAA98xB.jpg)
 
 截图里当前模型是 deepseek-v4-flash，思考级别是 low。这是本机测试时的选择，不是通用排行榜。
 
@@ -260,7 +260,7 @@ e1d5fce2a192e31aa5bbc676c93621f58f12f52f4b76c4ba7580c6f4fe594eca  input/项目�
 
 Pi 会根据当前目录搜索文件，并显示候选项。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_13.jpg)
+![Image](https://pbs.twimg.com/media/HQoBVMnb0AAr2n0.jpg)
 
 这里要看完整相对路径。文件夹里如果有两个同名文件，只盯着最后的文件名，很容易选到 output 中的旧结果。确认候选项来自 input，再继续写任务。
 
@@ -272,7 +272,7 @@ Pi 会根据当前目录搜索文件，并显示候选项。
 
 > 读取 input/项目会议记录.md，整理成 output/行动清单.md。必须保留每个事项、负责人、截止日期和风险提醒；不要修改 input 中的原文件，不要访问当前练习目录以外的内容。完成后列出新增和修改的文件，并说明我应该怎样验收。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_2.jpg)
+![Image](https://pbs.twimg.com/media/HQoBYUibYAAWe9U.jpg)
 
 这段话可以拆成四部分。
 
@@ -305,7 +305,7 @@ Pi 会根据当前目录搜索文件，并显示候选项。
 Successfully wrote 281 bytes to output/行动清单.md
 \`\`\`
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_3.jpg)
+![Image](https://pbs.twimg.com/media/HQoBsHMawAAfX6l.jpg)
 
 这时已经有了两层信息。
 
@@ -349,7 +349,7 @@ test -f output/行动清单.md && echo PASS
 
 第三件是打开文件，检查三位负责人。第四件是核对三个截止日期。最后再看三条风险提醒有没有被压缩掉。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_11.jpg)
+![Image](https://pbs.twimg.com/media/HQoB14RbEAA2Gl4.jpg)
 
 Pi 最后生成的文件如下。
 
@@ -421,7 +421,7 @@ Pi 的输入区可以直接运行 Shell 命令。
 
 两个感叹号也会执行命令，输出只给你看，不进入模型上下文。适合查看一段无需交给模型继续分析的信息。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_8.jpg)
+![Image](https://pbs.twimg.com/media/HQoCLWHbcAEEoaz.jpg)
 
 两个感叹号没有增加安全保护。删除文件、安装程序、上传内容或覆盖数据的命令，照样会真实执行。区别只在于命令输出是否进入模型上下文。
 
@@ -453,7 +453,7 @@ Pi 会从全局位置、父目录和当前目录加载 Context 文件。当前�
 
 已经打开 Pi，再修改 AGENTS.md，可以在输入区执行 /reload。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_15.jpg)
+![Image](https://pbs.twimg.com/media/HQoCWf7aYAAammK.jpg)
 
 Pi 会重新加载快捷键、Extension、Skill、提示模板、主题和 Context 文件。看到 Reloaded 以及对应的 context files 提示，说明新资源已经进入当前环境。
 
@@ -501,7 +501,7 @@ pi -c 继续当前目录最近一次会话。pi -r 打开历史会话选择。pi
 
 ## 2\. 回退和分支有不同用途
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_9.jpg)
+![Image](https://pbs.twimg.com/media/HQoCeNlbAAAvajy.jpg)
 
 /tree 会打开当前会话的树结构。前半段方向正确，后面走偏时，可以跳回早期节点，从那里继续。
 
@@ -557,7 +557,7 @@ Extension 是运行在 Pi 进程里的 TypeScript 或 JavaScript 模块。它可
 
 Pi Package 可以把 Extension、Skill、提示模板和主题组合起来，通过 npm、git 或本地路径分发。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_4.jpg)
+![Image](https://pbs.twimg.com/media/HQoCoa4aUAAnklH.jpg)
 
 我先运行 pi list 盘点本机，没有新增，也没有更新，实际看到三个用户包。
 
@@ -603,7 +603,7 @@ Pi 的 Project Trust 控制是否加载项目本地的设置、资源、Package 
 
 它没有限制模型启动后能要求内置工具做什么，也没有把当前目录变成一个系统级围栏。
 
-![Image](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_1.jpg)
+![Image](https://pbs.twimg.com/media/HQoC1TFakAAXItY.jpg)
 
 Pi 会沿用启动它的当前用户权限。这个账号能够读取、覆盖或删除的文件，Pi 的内置工具通常也能在相同权限下操作。Extension 运行在同一个进程里，边界同样要按本机权限来理解。
 
@@ -693,7 +693,7 @@ Project Trust 处理的是另一类风险。陌生项目里可能自带设置、
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2092488445117755645/xiaomovps_2092488445117755645_16.jpg)
+![Image 1](https://pbs.twimg.com/media/HQoAReWaYAAhfvB.jpg)
 
 ## 💬 Replies
 

@@ -17,7 +17,7 @@ Anthropic终于出了官方的Agent Skills教学视频，一共6节课，总时�
 
 ## Skills解决了什么问题
 
-![Image](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_4.jpg)
+![Image](https://pbs.twimg.com/media/HD5s584boAEigTO.jpg)
 
 每次你向Claude解释你们团队的编码标准，你都是在重复自己。每次PR审核，你都要重新描述你希望如何组织反馈。每条提交信息，你都要提醒Claude你偏好的格式
 
@@ -33,7 +33,7 @@ Skills就是为了消除这种重复。一个Skill就是一个Markdown文件，�
 
 ## 从零创建第一个Skill
 
-![Image](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_1.jpg)
+![Image](https://pbs.twimg.com/media/HD5s7lQboAIJ-XI.jpg)
 
 创建一个Skill只需要两步：建目录，写文件
 
@@ -51,7 +51,7 @@ Claude Code启动时会扫描四个位置获取Skills：企业路径、个人Ski
 
 ## 配置进阶：元数据字段和渐进式披露
 
-![Image](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_6.jpg)
+![Image](https://pbs.twimg.com/media/HD5uP9KboAA84Br.jpg)
 
 基本Skill只需要name和description，但有几个进阶配置能让Skill更强大
 
@@ -69,7 +69,7 @@ description的写法直接决定Skill能不能被正确触发。好的descriptio
 
 ## Skills和其他Claude Code功能的区别
 
-![Image](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_5.jpg)
+![Image](https://pbs.twimg.com/media/HD5tgsPboAAoI6r.jpg)
 
 Skills vs claude.md：claude.md始终加载到每个对话中，用来放项目标准这种始终适用的规则，比如"本项目使用TypeScript严格模式"。Skills按需加载，只在Claude匹配到请求时激活
 
@@ -83,7 +83,7 @@ Skills vs MCP：MCP提供外部工具连接，让Claude能调用Gmail、Notion�
 
 ## 分享Skills：从个人到团队到组织
 
-![Image](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_2.jpg)
+![Image](https://pbs.twimg.com/media/HD5uYOEakAE0rB1.jpg)
 
 Skills的价值在于分享。一个只有你自己用的PR审核Skill是有帮助的，团队共享的同一个Skill可以标准化代码审查并提供一致的体验
 
@@ -101,7 +101,7 @@ Skills的价值在于分享。一个只有你自己用的PR审核Skill是有帮�
 
 ## 排错指南：Skill不工作的六种原因和解法
 
-![Image](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_3.jpg)
+![Image](https://pbs.twimg.com/media/HD5umO4aQAA9F7m.jpg)
 
 Skill出问题通常归为六种情况
 
@@ -121,7 +121,7 @@ Anthropic还提供了一个验证工具skills-ref，可以检查Skill的文件�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2035185754553639422/GoSailGlobal_2035185754553639422_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HD5uLJHboAEA6wk.jpg)
 
 ## 💬 Replies
 

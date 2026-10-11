@@ -29,7 +29,7 @@ type: "Article"
 
 ## 触发与拓扑
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_12.jpg)
+![Image](https://pbs.twimg.com/media/HImNDUdaUAAH1Zb.jpg)
 
 很多讨论混在一起，是因为大家把两个问题当成了一个问题。
 
@@ -49,37 +49,37 @@ type: "Article"
 
 拓扑也可以分成几种。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_2.jpg)
+![Image](https://pbs.twimg.com/media/HImLz_La0AEC-9R.jpg)
 
 单 agent 是默认形态。需求模糊、修改很小、步骤强依赖时，单 agent 往往最稳定。很多任务不需要多智能体，只需要更好的上下文和更短的反馈循环。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_1.jpg)
+![Image](https://pbs.twimg.com/media/HImL6AcbYAALPYO.jpg)
 
 星型 fan-out/fan-in 是最常见的 subagent 形态。一个主 agent 派多个 worker，worker 之间不直接协商，结果回到主 agent，主 agent 做 reduce。Codex subagents、Claude 普通 subagents、Hermes delegate\_task 都主要是这种结构。它的优点是责任中心清楚，缺点是 worker 之间不能互相纠错，所有冲突都压到主 agent 的 merge 阶段。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_5.jpg)
+![Image](https://pbs.twimg.com/media/HImL_f5a8AAC6j2.jpg)
 
 链式 pipeline 适合强顺序任务。比如先定位 bug，再写修复，再补测试，再 review。硬把这种任务并行化，通常只会让后面的 worker 在错误假设上浪费时间。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_9.jpg)
+![Image](https://pbs.twimg.com/media/HImMFeMasAAzh3r.jpg)
 
 树型适合大任务分层。main agent 派一个 orchestrator，orchestrator 再派几个 leaf worker。树型看起来强，但要严格限制 depth 和并发，否则 fan-out 会指数级膨胀。OpenClaw 和 Hermes 都把默认深度压得很低，就是在控制这个风险。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_6.jpg)
+![Image](https://pbs.twimg.com/media/HImMbxVaAAA89B_.jpg)
 
 网状 team 适合多假设问题。比如生产登录故障可能来自前端状态、后端 token、数据库 session、缓存或部署配置，多个 teammate 可以分别验证假设，并互相挑战。网状结构的代价也很直接：消息更多、上下文更多、协调成本更高，写文件冲突也更容易出现。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_13.jpg)
+![Image](https://pbs.twimg.com/media/HImMluMaUAA8fXt.jpg)
 
 Gateway routing 适合常驻多入口系统。它不是“一个任务拆给多个 agent”，而是“不同入口进入不同 agent”。OpenClaw 的多 agent 价值，很大一部分在这里。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_14.jpg)
+![Image](https://pbs.twimg.com/media/HImMq4aa4AAMDVU.jpg)
 
 Durable board 适合长期协作。任务、评论、handoff、阻塞状态、重试记录都落到持久化存储里。
 
 ## 调用链
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_8.jpg)
+![Image](https://pbs.twimg.com/media/HImNNMAbEAA5i7r.jpg)
 
 我会把一个多智能体系统拆成下面这条调用链：
 
@@ -110,7 +110,7 @@ merge / reduce 负责收口。多个 worker 给出结果后，谁判断冲突，
 
 ## Codex：显式 fan-out
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_15.jpg)
+![Image](https://pbs.twimg.com/media/HImNddfaoAAtpad.jpg)
 
 Codex 的 subagent 策略很克制。它默认不会因为任务听起来复杂就自动开一组 agent。你需要明确给出并行授权，比如：
 
@@ -167,7 +167,7 @@ Main agent must synthesize findings, resolve conflicts, and present one final pl
 
 ## Claude Code：description+team
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_11.jpg)
+![Image](https://pbs.twimg.com/media/HImNnPnbEAE_7re.jpg)
 
 Claude Code 的普通 subagent 更像一个本地专家注册表。每个 subagent 有 name、description、system prompt、工具权限、模型和独立上下文。主 session 可以根据 description 判断什么时候调用它，也可以被用户显式点名调用。
 
@@ -215,7 +215,7 @@ direct teammate messages
 
 team 模式适合多假设问题。比如生产登录失败，可能来自前端状态、后端 token、数据库 session、缓存或部署配置。一个 agent 顺着一条线查，容易早早锚定；多个 teammate 分头验证，再互相挑战，覆盖面会更好。
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_4.jpg)
+![Image](https://pbs.twimg.com/media/HImNwYCacAIR58Z.jpg)
 
 但 team 模式的成本也更高。teammate 会产生更多上下文、更多消息、更多中间判断。它们可能改同一文件，可能给出互相冲突的建议，也可能在共享任务列表里制造管理负担。lead 必须有明确收口责任。没有 ownership 的 team，很容易变成“多个 Claude session 同时忙，但没人负责最终结果”。
 
@@ -261,7 +261,7 @@ Do not modify files.
 
 ## OpenClaw：Gateway+后台任务
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_3.jpg)
+![Image](https://pbs.twimg.com/media/HImN3cgaoAAYCTv.jpg)
 
 OpenClaw 和 Codex、Claude Code 的出发点不同。Codex 和 Claude Code 多半发生在一个 coding session 里；OpenClaw 先面对的是多渠道事件流。它更像一个 self-hosted Gateway，把 WhatsApp、Telegram、Discord、Slack 等 channel 接到 agent runtime。
 
@@ -313,7 +313,7 @@ routing 配错，消息会进错 agent。权限策略太宽，低风险入口可
 
 ## Hermes：短任务 RPC，长任务 durable queue
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_10.jpg)
+![Image](https://pbs.twimg.com/media/HImN_SXbMAEjVVi.jpg)
 
 Hermes Agent 的设计很工程化，因为它把短程并行和长期协作拆成两个原语：delegate\_task 和 Kanban。
 
@@ -419,7 +419,7 @@ Do not modify files. Main agent synthesizes one review.
 
 ## 选择顺序
 
-![Image](../_media/x-2056331558223786416/Russell3402_2056331558223786416_7.jpg)
+![Image](https://pbs.twimg.com/media/HImOSkgbQAA5qcr.jpg)
 
 做多智能体设计时，可以按这个顺序问。
 
@@ -495,7 +495,7 @@ Codex 适合显式、可控的星型并行。Claude Code 适合 description 驱�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2056331558223786416/Russell3402_2056331558223786416_16.jpg)
+![Image 1](https://pbs.twimg.com/media/HImKiKyaIAA0kWY.jpg)
 
 ## 💬 Replies
 

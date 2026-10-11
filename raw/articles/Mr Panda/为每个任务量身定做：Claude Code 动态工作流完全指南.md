@@ -575,7 +575,7 @@ const fleetSize = budget.total ? Math.floor(budget.total / 100000) : 5
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063918562318946740/PandaTalk8_2063918562318946740_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKSC1ltaQAA1EA2.jpg)
 
 ## 💬 Replies
 

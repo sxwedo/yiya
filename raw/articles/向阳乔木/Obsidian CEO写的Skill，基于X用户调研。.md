@@ -25,7 +25,7 @@ Obsidian CEO写的Skill，基于X用户调研。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2008714622035956104/vista8_2008714622035956104_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G-BiB8laMAA4Lx2?format=jpg&name=medium)
 
 ## 💬 Replies
 

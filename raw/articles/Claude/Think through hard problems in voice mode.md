@@ -10,7 +10,7 @@ ingested: "2026-09-11"
 
 > Starting today, voice mode runs on Claude Opus, Claude Sonnet, and Claude Haiku, reaches the tools you’ve connected like Gmail and Slack, and speaks many more languages.
 
-![](../_media/claude-think-through-hard-problems-in-voice-mode/Claude_think-through-hard-problems-in-voice-mode_1.png)
+![](https://assets.claude.com/30378eeef4acaf8767584682acb830aceb120214.png)
 
 Some problems you can't type your way through. Voice mode is for practicing for an important pitch meeting, deciding between multiple offers, reviewing your own process out loud, or brainstorming new ideas.
 
@@ -22,7 +22,7 @@ After we added hands-free conversation earlier this year, people started using v
 
 Claude Opus and Sonnet, models designed for hard problem-solving, are now available in voice mode. You can switch models mid-conversation from the model picker. Voice mode uses the fastest version of whichever model you’ve selected, so the conversation runs smoothly. It defaults to the last model you used in text chat, so you can move between voice and text without starting over.
 
-![](../_media/claude-think-through-hard-problems-in-voice-mode/Claude_think-through-hard-problems-in-voice-mode_2.png)
+![](https://assets.claude.com/865b630abe138d5d9e340d021d081ee2f07f7292.png)
 
 With more capable models, you can talk through a half-formed idea and work out what you actually think. Claude asks follow-up questions and builds on your thinking rather than handing you an answer. Voice mode takes turns, meaning Claude listens, pauses to think, and then responds.
 
@@ -41,7 +41,7 @@ When you’ve decided what to do, ask Claude to do it. Some examples of what you
 * Turn a conversation about a client pitch into a one-pager in Canva.
 * Ask Claude to summarize the emails you’ve received today and draft responses to the most critical ones.
 
-![](../_media/claude-think-through-hard-problems-in-voice-mode/Claude_think-through-hard-problems-in-voice-mode_3.png)
+![](https://assets.claude.com/aa6f885466e845c2e438a48e8f4002558619ab67.png)
 
 Claude will ask for permission before using one of your connected tools. You can connect a new tool in Settings \> Connectors on the Claude mobile, desktop or web apps.
 
@@ -63,7 +63,7 @@ With many more languages now available in voice mode on every plan, you can talk
 
 Tell Claude out loud to switch from English to your language of choice, or select your language from the language picker in voice settings.
 
-![](../_media/claude-think-through-hard-problems-in-voice-mode/Claude_think-through-hard-problems-in-voice-mode_4.png)
+![](https://assets.claude.com/f8e24ddaa5683961cc283b79d5b0c33475cda524.png)
 
 Claude doesn’t automatically detect your language, so you’ll need to ask out loud or select your language to make the switch from English. You will need to set your language specifically for voice mode, as your previous language settings will not carry over.
 

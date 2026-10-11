@@ -23,7 +23,7 @@ Hermes Agent 要解决的正是这个限制。它由 AI 开源研究组织 [Nous
 
 （插入小广告 ）
 
-![Image](../_media/x-2041751372161544334/PandaTalk8_2041751372161544334_3.jpg)
+![Image](https://pbs.twimg.com/media/HFXJOqCa8AArNMU.jpg)
 
 我会在社群分享各种AI 编程技巧和AI内容分析， 去年搞流量，今年带大家搞AI。 我认为搞AI最一劳永逸的方式就是学会用AI 编程， 这是一项元技能， 学会这个，你就可以用AI+Coding 理解和去做一切你想做的事。  
 
@@ -55,7 +55,7 @@ Hermes Agent 要解决的正是这个限制。它由 AI 开源研究组织 [Nous
 
 平台语音图片文件多线程流式输出
 
-![Image](../_media/x-2041751372161544334/PandaTalk8_2041751372161544334_2.jpg)
+![Image](https://pbs.twimg.com/media/HFW_CYTa8AA3bD1.jpg)
 
 一个后台进程就能同时连接所有平台，消息自动路由，会话独立隔离。你在 Telegram 上让它跑个脚本，然后切到 Slack 上问它结果，上下文完全保持。
 
@@ -109,7 +109,7 @@ Hermes Agent 要解决的正是这个限制。它由 AI 开源研究组织 [Nous
 
 ## 4\. 4 7 个内置工具——开箱即用的能力矩阵
 
-![Image](../_media/x-2041751372161544334/PandaTalk8_2041751372161544334_5.png)
+![Image](https://pbs.twimg.com/media/HFW_h7Ea8AEh0Gt.png)
 
 工具按照 toolset 分组，可以按需启用：
 
@@ -257,13 +257,13 @@ hermes gateway         # 启动后台服务
 
 Hermes Agent 的架构设计遵循平台无关核心原则：
 
-![Image](../_media/x-2041751372161544334/PandaTalk8_2041751372161544334_1.png)
+![Image](https://pbs.twimg.com/media/HFXAT_Oa4AA1SN4.png)
 
 核心是一个统一的 AIAgent 类，所有入口点（CLI、消息网关、IDE 插件）都通过它处理。这意味着无论你从哪个平台发消息，获得的能力完全一致。
 
 ## 与其他 AI 工具的对比
 
-![Image](../_media/x-2041751372161544334/PandaTalk8_2041751372161544334_4.jpg)
+![Image](https://pbs.twimg.com/media/HFXAZqjbsAAGx03.jpg)
 
 Hermes Agent 的定位更接近一个可编程的 AI 基础设施，而非简单的编码辅助工具。
 
@@ -297,7 +297,7 @@ Hermes Agent 代表了 AI Agent 发展的一个重要方向：从 IDE 插件走�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2041751372161544334/PandaTalk8_2041751372161544334_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HFXBpoYa8AIPCNv.jpg)
 
 ## 💬 Replies
 

@@ -75,7 +75,7 @@ Typical questions that work well:
 
 Sometimes you need to understand the root cause before jumping into optimization. Claude.ai excels at breaking down performance issues in accessible language, explaining exactly why certain code patterns become bottlenecks as your application scales. You can paste code that's consuming excessive memory, causing API timeouts, or degrading under load, then ask Claude to explain what's happening.
 
-![](../_media/claude-optimize-code-performance-quickly/Claude_optimize-code-performance-quickly_1.png)
+![](https://assets.claude.com/6de5665eb36da6aaf3911200f6f091621090d029.png)
 
 ## Scale optimizations with Claude Code
 
@@ -95,7 +95,7 @@ claude
 
 Start asking Claude about ways to optimize your code:
 
-![](../_media/claude-optimize-code-performance-quickly/Claude_optimize-code-performance-quickly_2.png)
+![](https://assets.claude.com/1ab4b29f3ea89384159509c6be72931fcf3eb4e3.png)
 
 Claude Code autonomously analyzes your entire codebase, correlates recent changes with performance degradation, and provides specific optimization recommendations targeting root causes rather than symptoms.
 
@@ -119,7 +119,7 @@ Claude Code optimizes workflows in large codebases, updating code to increase ef
 
 ### Example: eliminate N+1 database queries ###
 
-![](../_media/claude-optimize-code-performance-quickly/Claude_optimize-code-performance-quickly_3.png)
+![](https://assets.claude.com/2a0dc8ed98de270d46a25f0410031ac00bcb19c9.png)
 
 Claude Code scans your codebase for loops triggering database queries, identifies specific ORM patterns causing N+1 problems, implements eager loading or batch query solutions, measures query reduction and response time improvements, generates tests preventing N+1 regressions.
 

@@ -20,7 +20,7 @@ Since launching in July 2025, the Claude [directory](https://claude.ai/directory
 
 This expansion extends that functionality to more of the tools you use outside of work. Starting today, Claude connects to AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, and Viator, with more on the way.
 
-![](../_media/claude-new-connectors-in-claude-for-everyday-life/Claude_connectors-for-everyday-life_1.png)
+![](https://assets.claude.com/aa2c7d9ee97ff75dc46d455fa1743cc5e0c4b194.png)
 
 ## Connectors dynamically show up in conversations
 

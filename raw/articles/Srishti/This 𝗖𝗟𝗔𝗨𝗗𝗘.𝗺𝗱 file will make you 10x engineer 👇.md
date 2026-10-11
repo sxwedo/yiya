@@ -29,7 +29,7 @@ If you build with AI daily, this will save you a lot of time.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2025254119636959701/srishticodes_2025254119636959701_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HBsl4iha0AA0TEL?format=jpg&name=medium)
 
 ## 💬 Replies
 

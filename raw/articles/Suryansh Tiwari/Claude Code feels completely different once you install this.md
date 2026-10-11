@@ -37,7 +37,7 @@ Bookmark this before you forget it.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2062798892006256646/Suryanshti777_2062798892006256646_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2062798830371000320/img/-jhPIwIURGd5qQXV.jpg)
 
 ## 💬 Replies
 

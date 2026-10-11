@@ -17,7 +17,7 @@ type: "Article"
 
 4-20那天，单日6388条消息。
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_7.jpg)
+![Image](https://pbs.twimg.com/media/HIGgrpEaoAAy-QV.jpg)
 
 先给爱杠的朋友打个预防针。这$13,222是按Anthropic公开API价格、折算cache命中之后算出来的「等价API费用」，假设我真按API付费就要这么多。但我其实是 Max 20x档（200美元/月）的订阅会员​，订阅费已经覆盖了绝大部分用量，真正超出额度需要按API单独结算的部分加起来不算多。Anthropic的prompt cache设计（你跟Claude聊天时重复的上下文，第二次不重复计费）还在结算之前帮我省了大概5倍。
 
@@ -33,21 +33,21 @@ type: "Article"
 
 用Anthropic Claude Code工程lead Thariq的话来说呢：
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_2.jpg)
+![Image](https://pbs.twimg.com/media/HIGhJqKasAANpac.jpg)
 
 「给Claude Code的tmux」。
 
 如果你不熟tmux，大概画面是这样的：一个终端窗口里能塞下N个会话，可以来回切，可以让某个会话在后台跑，可以一眼看到谁忙完了、谁还在等输入。Agent View在这个基础上加了AI语境：每个会话是一个Claude，状态自动分类成「等输入 / 跑着 / 跑完了」三栏。
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_6.jpg)
+![Image](https://pbs.twimg.com/media/HIGhMmUbsAAukur.jpg)
 
 打开方式有两种：
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_5.jpg)
+![Image](https://pbs.twimg.com/media/HIGhWx3a8AAGy3R.jpg)
 
 后台会话持久化到磁盘，关掉终端窗口它还活着。每个后台会话会被自动放进独立的git worktree里，不会互相打架。这是个我觉得挺有趣的隐形细节，下面会说为什么。
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_3.jpg)
+![Image](https://pbs.twimg.com/media/HIGhbDzbcAAe5xm.jpg)
 
 ## 二、它解决的不是AI的问题，是人的问题
 
@@ -55,7 +55,7 @@ Agent View本质是个产品功能。
 
 它不让Claude Code变聪明。它想要解决的问题算是人类的问题：就是当你同时让N个Claude在干N件事时，你这个人类的注意力怎么分配。
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_8.jpg)
+![Image](https://pbs.twimg.com/media/HIGhd4UaMAAaer5.jpg)
 
 这几个窗口基本上靠自己脑子维护，一边执行不同的任务，一边切换不同的窗口，看看哪个会话ready了？哪个在等输入？哪个崩了？一个个tab切过去看。
 
@@ -65,7 +65,7 @@ Agent View把这件事抽象成一个面板。像看项目看板一样看所有C
 
 顺便厘清一个最容易混的边界。Claude Code里有三个看着像但完全不同的概念：
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_1.jpg)
+![Image](https://pbs.twimg.com/media/HIGhkefbwAA6mPa.jpg)
 
 subagent和team是AI内部的并行，Agent View是人的dashboard。subagent让单个Claude在它自己的任务里更聪明，Agent View让人能同时管好几个Claude。
 
@@ -121,7 +121,7 @@ Agent View做的事是：每派一个后台agent，就把整个代码项目「�
 
 别因为派活变简单，就一次派8件​。AI派任务的边际成本是0，你review任务的边际成本不是。
 
-![Image](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_4.jpg)
+![Image](https://pbs.twimg.com/media/HIGgmPNaMAAo-sh.jpg)
 
 ## 参考来源
 
@@ -139,7 +139,7 @@ Agent View做的事是：每派一个后台agent，就把整个代码项目「�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2054100934893174996/AlchainHust_2054100934893174996_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HIGgyjXbYAAViMA.jpg)
 
 ## 💬 Replies
 

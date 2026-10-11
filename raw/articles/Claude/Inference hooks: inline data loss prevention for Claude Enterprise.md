@@ -18,7 +18,7 @@ Security teams require every channel where employees can move sensitive data to 
 
 ## How inference hooks works
 
-![](../_media/claude-claude-enterprise-inference-hooks/Claude_claude-enterprise-inference-hooks_2.png)
+![](https://assets.claude.com/d4d917c41136cdd796632537b4ed39618b0bc62b.png)
 
 When an organization turns on inference hooks, every inference request routes through a signed WebSocket connection to a security server. Before the model starts generating, Claude sends the prompt and its surrounding context to your server. Your server returns a verdict — allow or deny — and Claude only proceeds once it has one. The same check runs on tool calls: when Claude calls a tool — including tools connected through MCP, skills, and plugins — the tool's response is checked before it's sent back to the model.
 

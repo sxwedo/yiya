@@ -20,7 +20,7 @@ That post focused on [Claude Code](https://claude.com/product/claude-code) (the 
 
 This post discusses how the data team at Anthropic applies that foundation to where the rest of the company works using [Claude Tag](https://claude.com/product/tag) (public beta), which is the foundation for our data analytics agent in Slack. Anyone can ask it data-related questions and receive answers backed by **the same governed definitions analysts use**.
 
-![Fictional recreation of a Claude Tag conversation for illustrative purposes. Details, names, and tools are not real.](../_media/claude-self-service-data-analytics-in-slack-how-anthropic-deploys-c/Clement_Peng_Lily_Zhao_self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions_1.png)
+![Fictional recreation of a Claude Tag conversation for illustrative purposes. Details, names, and tools are not real.](https://assets.claude.com/2a42bc446aa9ca8b37a47b8a658b909a9a481e5b.png)
 
 *Fictional recreation of a Claude Tag conversation for illustrative purposes. Details, names, and tools are not real.*
 

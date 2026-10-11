@@ -29,7 +29,7 @@ Context Engineering is not a feature - it's the foundation
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073399056181649763/Sprytixl_2073399056181649763_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMYwDoXWYAAwYz1?format=jpg&name=medium)
 
 ## 💬 Replies
 

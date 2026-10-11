@@ -30,7 +30,7 @@ A financial analyst can pull comparable company financials from an open workbook
 
 [Skills](https://support.claude.com/en/articles/12512180-use-skills-in-claude) turn complete workflows into a one-click action. When someone on the team figures out the right way to run a variance analysis or compose a client deck using the firm's template, saving it as a skill makes that process instantly repeatable for the future.
 
-![](../_media/claude-claude-excel-powerpoint-updates/Claude_claude-excel-powerpoint-updates_1.png)
+![](https://assets.claude.com/744b20022fb320feea15ebffd9a86f712893f9af.png)
 
 We've shipped a preloaded starter set of skills that cover the most common Excel and PowerPoint use cases. For Excel, the starter skills cover the workflows that come up most often in financial analysis:
 

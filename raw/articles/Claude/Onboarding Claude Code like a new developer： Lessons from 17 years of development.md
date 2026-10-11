@@ -12,7 +12,7 @@ ingested: "2026-09-11"
 
 [Skyline](https://skyline.ms/home/software/Skyline/wiki-page.view?name=team), the open source protein analysis software maintained by principal developer Brendan MacLean at the University of Washington's MacCoss Lab, has been in active development since 2008. Skyline helps researchers detect and quantify proteins in things like blood plasma and tissue, which is vital for biomarker discovery, disease research, and drug development. The MacCoss Lab codebase contains 700,000+ lines of C#, maintained for 17 years by a small team running 200,000+ automated nightly tests.
 
-![A 3D illustration of the Seattle skyline created in Blender, representing the home of the University of Washington's MacCoss Lab, where Brendan MacLean and his team have developed and maintained Skyline since 2008. Claude helped Brendan add the Claude logo in the back. Image courtesy of MacCoss lab.](../_media/claude-onboarding-claude-code-like-a-new-developer-lessons-from-17-/Claude_onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development_1.png)
+![A 3D illustration of the Seattle skyline created in Blender, representing the home of the University of Washington's MacCoss Lab, where Brendan MacLean and his team have developed and maintained Skyline since 2008. Claude helped Brendan add the Claude logo in the back. Image courtesy of MacCoss lab.](https://assets.claude.com/09cbdf2aad8d5540176ec97e84281f4a24a1f686.png)
 
 *A 3D illustration of the Seattle skyline created in Blender, representing the home of the University of Washington's MacCoss Lab, where Brendan MacLean and his team have developed and maintained Skyline since 2008. Claude helped Brendan add the Claude logo in the back. Image courtesy of MacCoss lab.*
 
@@ -40,7 +40,7 @@ He moved all AI context into its own repository, [pwiz-ai](https://github.com/Pr
 
 The expertise lives in [skills,](https://agentskills.io/home) an open format for giving agents capabilities and expertise. His `debugging` skill, for example, is designed to pull Claude out of what he calls "guess and test" mode, pushing it toward root cause analysis before attempting any fix. Skills can be triggered manually or automatically; Brendan tunes his most critical ones with explicit conditions—the `debugging` skill description reads "ALWAYS load when investigating bugs, failures, or unexpected behavior."
 
-![The pwiz-ai repository structure, showing how context, skills, and MCP integrations connect to Skyline's codebase. Image courtesy of MacCoss lab.](../_media/claude-onboarding-claude-code-like-a-new-developer-lessons-from-17-/Claude_onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development_2.png)
+![The pwiz-ai repository structure, showing how context, skills, and MCP integrations connect to Skyline's codebase. Image courtesy of MacCoss lab.](https://assets.claude.com/40f63554a290e65424901bfad5aa0d0749d3c5b0.png)
 
 *The pwiz-ai repository structure, showing how context, skills, and MCP integrations connect to Skyline's codebase. Image courtesy of MacCoss lab.*
 
@@ -64,13 +64,13 @@ Screenshot reproduction for Skyline's 2,000+ tutorial images is now fully automa
 
 Claude also wrote the MCP server in Python to make this capability possible, drawing from three separate relational data streams on a LabKey Server, team email, and code with release tags on GitHub.
 
-![A daily summary email generated automatically by Claude Code, pulling from Skyline's nightly test infrastructure. Image courtesy of MacCoss lab.](../_media/claude-onboarding-claude-code-like-a-new-developer-lessons-from-17-/Claude_onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development_3.png)
+![A daily summary email generated automatically by Claude Code, pulling from Skyline's nightly test infrastructure. Image courtesy of MacCoss lab.](https://assets.claude.com/0ff1409f39a8033931c94fea35040a15c9b8f19b.png)
 
 *A daily summary email generated automatically by Claude Code, pulling from Skyline's nightly test infrastructure. Image courtesy of MacCoss lab.*
 
 Brendan's developers are now barely writing code themselves, largely instructing Claude Code instead, and use the tool to autonomously generate automation scripts and MCP implementations. For instance, a developer in the lab who had been skeptical of agentic coding tools built and shipped a new plotting extension—a mobilogram pane for visualizing ion mobility data—and credited Claude Code.
 
-![The mobilogram pane was built with Claude Code, visualizing ion mobility data alongside mass spectrometry results. Image courtesy of MacCoss lab.](../_media/claude-onboarding-claude-code-like-a-new-developer-lessons-from-17-/Claude_onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development_4.png)
+![The mobilogram pane was built with Claude Code, visualizing ion mobility data alongside mass spectrometry results. Image courtesy of MacCoss lab.](https://assets.claude.com/2f0cdd124719c62695d2d30f7cdd9381e7079bf2.png)
 
 *The mobilogram pane was built with Claude Code, visualizing ion mobility data alongside mass spectrometry results. Image courtesy of MacCoss lab.*
 

@@ -27,7 +27,7 @@ here is the official document from Karpathy explaining the architecture
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071327017161617843/hanakoxbt_2071327017161617843_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HL7Svy2XYAAdouZ?format=jpg&name=medium)
 
 ## 💬 Replies
 

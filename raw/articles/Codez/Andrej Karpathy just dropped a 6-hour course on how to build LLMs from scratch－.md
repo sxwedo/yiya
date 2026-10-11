@@ -21,7 +21,7 @@ Start watching today, then read how to become an AI engineer in article below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2075599273048039806/0xCodez_2075599273048039806_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2075596018712756224/img/dTv5HitVleOrFC4g.jpg)
 
 ## 💬 Replies
 

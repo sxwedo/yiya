@@ -23,7 +23,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071758113150292181/Xudong07452910_2071758113150292181_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HL_tfkIWgAAzoac.jpg?name=orig)
 
 ## 💬 Replies
 

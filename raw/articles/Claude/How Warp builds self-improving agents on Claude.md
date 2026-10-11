@@ -34,7 +34,7 @@ Read on to learn how they built it with skills on top of the Claude Platform.
 
 The central technique is a self-improvement loop using [**skills**](https://support.claude.com/en/articles/12512176-what-are-skills), which are file based encodings of knowledge that keep instructions out of the raw prompt. Warp evolved a self-improving agent architecture consisting of two skills, with human feedback in between.
 
-![](../_media/claude-how-warp-builds-self-improving-agents-on-claude/Michael_Segner_how-warp-builds-self-improving-agents-on-claude_1.jpg)
+![](https://assets.claude.com/bb9618fd3ecd93fea5f0b2c7d9d0bf6f64287c50.jpg)
 
 The **inner/base skill** holds the functional domain knowledge and instructions. For example, when a PR is opened, Warp’s code agent executes using that base skill and context to produce its review.
 

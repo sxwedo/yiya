@@ -35,7 +35,7 @@ type: "Article"
 
 这是一个让所有能跑shell的Agent共享长期记忆的命令行工具。
 
-![Image](../_media/x-2064629321562517662/Zesee_2064629321562517662_1.jpg)
+![Image](https://pbs.twimg.com/media/HKcIUpbWsAAoK1B.jpg)
 
 它跟其他CLI不一样的地方在于：它既能为人所用，亦能为Agent服务，旨在成为人与Agent、Agent与Agent、人与人之间无缝沟通的纽带。
 
@@ -82,7 +82,7 @@ memos chat "你知道我的文档偏好吗？"
 
 给每个Agent培养了事前翻笔记、事后写日报的习惯。
 
-![Image](../_media/x-2064629321562517662/Zesee_2064629321562517662_2.jpg)
+![Image](https://pbs.twimg.com/media/HKcI-FiXEAA-tPZ.jpg)
 
 配完之后我没立刻信，专门测了一周:
 
@@ -100,7 +100,7 @@ memos chat "你知道我的文档偏好吗？"
 
 附件上我自用的调试技巧，记得收藏：
 
-![Image](../_media/x-2064629321562517662/Zesee_2064629321562517662_3.jpg)
+![Image](https://pbs.twimg.com/media/HKcJJ-uWcAAfcrJ.jpg)
 
 亲测当agent的记忆出问题时，用 CLI 排查比在agent里猜高效得多。
 
@@ -118,7 +118,7 @@ memos chat "你知道我的文档偏好吗？"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064629321562517662/Zesee_2064629321562517662_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HKcH3dbXIAA9Te1.jpg)
 
 ## 💬 Replies
 

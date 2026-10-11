@@ -21,13 +21,13 @@ Fable 5 was built to run for days. You’re using it for minutes. This is the 14
 
 Claude Fable 5 launched June 9, 2026 - the first publicly available Mythos-class model, the tier Anthropic put one rung above Opus. 
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_3.jpg)
+![Image](https://pbs.twimg.com/media/HKiirRjXMAAmFZ0.jpg)
 
 This is the 14-step roadmap to build the self-improving system Fable 5 was designed for - sourced from Anthropic engineering posts, the team’s public experiments, and verified against the launch documentation as of June 2026. 
 
 Three tiers: what Fable 5 actually unlocks, the three primitives that make it compound (loops, dynamic workflows, routines), and the self-improvement layer that turns it into a system.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_5.png)
+![Image](https://pbs.twimg.com/media/HKijA_hXcAASk75.png)
 
 14 steps. 3 tiers. Stop prompting. Start building a system that compounds.
 
@@ -39,7 +39,7 @@ PART 1 · What Fable 5 actually unlocks
 
 Claude Fable 5 launched June 9, 2026 as the first publicly available Mythos-class model - the tier Anthropic introduced one rung above Opus. 
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_7.jpg)
+![Image](https://pbs.twimg.com/media/HKij2uNXsAAvV9s.jpg)
 
 Mythos Preview shipped in April through Project Glasswing to a handful of critical-infrastructure partners; Fable 5 is the version Anthropic considered safe for general release, with built-in safety classifiers that decline requests in high-risk areas. 
 
@@ -65,7 +65,7 @@ Available on Claude API, AWS, Amazon Bedrock, Vertex AI, Microsoft Foundry, and 
 
 The phrase “self-improving agent system” gets thrown around carelessly. The version that’s real and the version that’s hype are very different things, and the gap is worth understanding before you build anything.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_9.jpg)
+![Image](https://pbs.twimg.com/media/HKillxqXwAAt6id.jpg)
 
 - Self-learning - the agent updates its own weights based on what it learns. Fable 5 does not do this. No publicly available model does this in production. 
 
@@ -103,7 +103,7 @@ The reason this architecture compounds: every output from layer 1 flows up throu
 
 Fable 5 costs \~5× what Opus 4.8 does per token. Not every step in a self-improving system needs the top tier. The teams running this in production route by task complexity, not by default:
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_10.jpg)
+![Image](https://pbs.twimg.com/media/HKimYEZX0AAINZg.jpg)
 
 - Fable 5 for the heavy-lift orchestrator role: planning across days, delegating to sub-agents, checking work with vision, distilling rules from accumulated evidence. 
 
@@ -132,7 +132,7 @@ They share the same shape: an independent grader checks the work, a not-met verd
 
 The implementations differ in surface details that matter for which you use.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_6.jpg)
+![Image](https://pbs.twimg.com/media/HKim8vlXcAA5sMr.jpg)
 
 The decision rule between them is short:
 
@@ -154,7 +154,7 @@ The mechanism is structural, not about “trying harder.” A model evaluating i
 
 A separate model evaluating the same output sees only the artifact and the rubric. The verifier has no skin in the maker’s game.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_11.jpg)
+![Image](https://pbs.twimg.com/media/HKinjktWAAAzP1o.jpg)
 
 What the chart actually shows, beyond the headline numbers:
 
@@ -194,7 +194,7 @@ The second is rare in coding loops but useful for design or naming tasks.
 
 The moment a self-improving system spawns more than one agent, files start colliding. Two agents writing the same file is the same problem as two engineers committing to the same lines without talking first. 
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_4.png)
+![Image](https://pbs.twimg.com/media/HKioShTXkAAMNDj.png)
 
 A git worktree fixes it - a separate working directory on its own branch sharing the same repo history, so one agent’s edits literally cannot touch the other’s checkout.
 
@@ -216,7 +216,7 @@ Routines launched April 14, 2026 in research preview. They’re saved Claude Cod
 
 Your laptop can be off. The run still happens.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_8.jpg)
+![Image](https://pbs.twimg.com/media/HKioliCW8AAcwPF.jpg)
 
 For Fable 5 specifically, Routines are the trigger layer that earns the model’s capability. Anthropic measures Fable 5’s “days at a time” on Claude Managed Agents - a hosted sandbox with full tools and no local machine constraint. 
 
@@ -265,7 +265,7 @@ The single most useful framing for what “agent memory” means in practice com
 
 - 5\. Consult - on the next task, the agent reads the rule instead of re-deriving the fact from scratch.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_1.jpg)
+![Image](https://pbs.twimg.com/media/HKipDTPX0AAHH7i.jpg)
 
 The measured difference between models on a SQL exploration task from the Continual Learning Bench, each model with memory provided:
 
@@ -325,7 +325,7 @@ STATE.md is for project memory. Skills are for procedural memory - the “how to
 
 The compounding pattern: after any non-trivial failure, write the lesson into the Skill itself. The Skill gets sharper every time the system runs.
 
-![Image](../_media/x-2065089060104720776/0xCodez_2065089060104720776_2.jpg)
+![Image](https://pbs.twimg.com/media/HKipmwuXIAELOAC.jpg)
 
 A Skill that’s been compounding for two weeks looks different from a fresh one. New sections appear: known failure modes, rules that came out of post-mortems, anti-patterns observed in production. 
 
@@ -454,7 +454,7 @@ Self-improvement is a property of the system, not the model. Build the system.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065089060104720776/0xCodez_2065089060104720776_12.jpg)
+![Image 1](https://pbs.twimg.com/media/HKirdDRXYAEw1E7.jpg)
 
 ## 💬 Replies
 

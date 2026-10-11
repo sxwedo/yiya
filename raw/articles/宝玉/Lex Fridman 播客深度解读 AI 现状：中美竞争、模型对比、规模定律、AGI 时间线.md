@@ -39,7 +39,7 @@ Nathan 的判断是：至少几年。中国公司很清楚，美国顶级科技�
 
 "他们对此非常现实，而且正在奏效。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_2.jpg)
+![Image](https://pbs.twimg.com/media/HADSp-TXAAANI2q.jpg)
 
 ## ChatGPT、Claude、Gemini、Grok：谁更强？
 
@@ -67,7 +67,7 @@ Sebastian 认为这是平台和模型的脱节——中国开源模型更多是�
 
 "简单说，美国模型目前更好，我们就用它们。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_8.jpg)
+![Image](https://pbs.twimg.com/media/HADPr_YXgAEv2cS.jpg)
 
 ## 最佳编程 AI
 
@@ -85,7 +85,7 @@ Sebastian 提了一个值得思考的问题：如果大语言模型随时可用�
 
 资深开发者用 AI 更多，可能是因为他们更会用、更会审查。但新人如果从不经历挣扎，怎么成为专家？"我是通过自己尝试来学习的。如果大语言模型一直在那儿，你还会愿意挣扎吗？"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_5.jpg)
+![Image](https://pbs.twimg.com/media/HADPuemWgAAKciU.jpg)
 
 ## 开源与闭源大模型
 
@@ -113,7 +113,7 @@ Sebastian 指出中国模型许可证的优势：几乎无限制。而 Llama、G
 
 Sebastian 补充：开源还解决了教育和人才问题。如果只有闭源模型，你只能加入公司后才能学习，但怎么识别和招聘人才呢？"开源是培养下一代研究者的唯一方式。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_6.jpg)
+![Image](https://pbs.twimg.com/media/HADPxFiXIAAa5I4.jpg)
 
 ## Transformer 架构：从 2019 年到现在的演进
 
@@ -147,7 +147,7 @@ Nathan 补充了另一个变化维度：系统层面。FP8、FP4 训练（低精
 
 Sebastian 提到一些替代架构正在冒头：文本扩散模型、Mamba（状态空间模型）。但它们有各自的权衡取舍。如果追求最先进的效果，自回归 Transformer 仍然是首选。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_20.jpg)
+![Image](https://pbs.twimg.com/media/HADP0CrXsAAPQ5M.jpg)
 
 ## 规模定律：死了还是活着？
 
@@ -175,7 +175,7 @@ GPT-4.5 就是一个例子：预训练一个更大的模型，性价比不如用
 
 Nathan 预测 2026 年会出现 2000 美元/月的订阅服务——是现在 200 美元的 10 倍。新的 Blackwell 计算集群正在上线，实验室会有更多训练计算资源。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_18.jpg)
+![Image](https://pbs.twimg.com/media/HADP2v9XwAAcGDb.jpg)
 
 ## 训练流程详解：预训练、中训、后训练
 
@@ -193,7 +193,7 @@ Nathan 补充了数据规模的概念：小型模型的预训练数据集是 5-1
 
 关于合成数据，两人都强调：这不等于"AI 编造的数据"。它包括光学字符识别提取、格式转换、数据清洗——很多是技术处理而非凭空生成。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_3.jpg)
+![Image](https://pbs.twimg.com/media/HADP5Z3W8AAhFy_.jpg)
 
 ## 后训练前沿：RLVR 与 RLHF
 
@@ -225,7 +225,7 @@ Nathan：RLHF 有天然上限。偏好是主观的、可平均的，训练到一
 
 这将定义这个领域。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_7.jpg)
+![Image](https://pbs.twimg.com/media/HADP8ByWcAAMGUj.jpg)
 
 ## 入行建议：如何进入 AI 研发
 
@@ -251,7 +251,7 @@ Nathan 的建议更偏向职业路径：
 
 "花哨的算法工作是最性感的想法，但大多数贡献是让数据更好，或让基础设施更好。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_15.jpg)
+![Image](https://pbs.twimg.com/media/HADP-pwXAAA-PB-.jpg)
 
 ## AI 工作文化：996 与幸福感
 
@@ -273,7 +273,7 @@ Nathan 提到帕特里克·麦基的书《苹果在中国》：苹果在中国�
 
 Sebastian 补充：很多时候不是被强迫的，是太热爱这件事了。他自己也有过过度工作导致的身体问题——背痛、颈椎问题。"不是因为有人逼我，是因为我想工作，因为这东西太激动人心了。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_16.jpg)
+![Image](https://pbs.twimg.com/media/HADQBRyX0AE3EgV.jpg)
 
 ## 硅谷泡沫
 
@@ -289,7 +289,7 @@ Nathan 提到伯恩·霍巴特的泡沫分类：金融投机型（坏的）和�
 
 Lex 的建议：如果你要进入这个泡沫——它确实有价值——也要出来。读历史书，读文学，去世界其他地方看看。推特和 Substack 不是整个世界。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_1.jpg)
+![Image](https://pbs.twimg.com/media/HADQD5nWcAEFCI8.jpg)
 
 ## 新研究方向：文本扩散模型
 
@@ -305,7 +305,7 @@ Nathan 提到一个实际用例：代码创业公司用文本扩散生成超长�
 
 Sebastian 的判断：文本扩散不会取代自回归 Transformer，但会成为"廉价快速选项"——也许是免费层级的选择。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_11.jpg)
+![Image](https://pbs.twimg.com/media/HADQGgkWMAA6zd0.jpg)
 
 ## 工具使用
 
@@ -325,7 +325,7 @@ Sebastian 提到一篇 2024 年底的论文《递归语言模型》：将长上�
 
 "你不是把所有东西塞进一个长上下文，而是分解成多个小调用。这样节省内存，准确率还更高。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_13.jpg)
+![Image](https://pbs.twimg.com/media/HADQJK9XAAAQ6Mg.jpg)
 
 ## 持续学习
 
@@ -345,7 +345,7 @@ Sebastian 补充了障碍：为每个用户更新权重太昂贵了。即使是 
 
 可能的突破口是设备端模型，比如苹果智能，成本由消费者的硬件承担。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_21.jpg)
+![Image](https://pbs.twimg.com/media/HADQLwrW0AIO5mX.jpg)
 
 ## 长上下文
 
@@ -361,7 +361,7 @@ Claude 用户都知道"压缩"的痛苦，当对话太长时，Claude 会把整�
 
 Sebastian 提到 DeepSeek-V3 的稀疏注意力机制，用轻量级索引器选择"实际需要注意的词元"，而不是注意全部。这是在全注意力和压缩之间寻找平衡。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_19.jpg)
+![Image](https://pbs.twimg.com/media/HADQOXOWEAAoM8C.jpg)
 
 ## 机器人
 
@@ -379,7 +379,7 @@ Lex 提了一个几乎没人讨论的问题：安全。
 
 "学习机器人的所有有趣复杂性，我们讨论的所有失败模式，在大语言模型领域这都是好玩的。但在机器人领域，在人们家里，在数百万分钟和数十亿次交互中，你几乎不允许任何失败。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_24.jpg)
+![Image](https://pbs.twimg.com/media/HADQQ-0XYAAGtNM.jpg)
 
 ## AGI 时间线
 
@@ -397,7 +397,7 @@ Nathan 的核心论点是 AI 能力是"锯齿状的"，某些事情非常擅长�
 
 "到今年年底，被自动化的软件量将非常高。但像用多组 GPU 通信训练强化学习模型这样的事仍然很难，可能一两年后会容易很多。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_14.jpg)
+![Image](https://pbs.twimg.com/media/HADQTklXUAAZCFt.jpg)
 
 ## 程序员会被取代吗？
 
@@ -419,7 +419,7 @@ Nathan 补充：失败模式目前很蠢。"Claude，你试了 14 次我没装�
 
 9
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_17.jpg)
+![Image](https://pbs.twimg.com/media/HADQWgdX0AAlI9e.jpg)
 
 ## AGI 梦想是否在死去？
 
@@ -435,7 +435,7 @@ Sebastian 同意但提了一个反问：那这真的是 AGI 吗？"我们正在�
 
 他认为真正的突破是有了"基础模型可以专业化"——这是新的。但如果 AGI 的实现方式是一堆专用系统的组合，那这个词的含义需要重新思考。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_4.jpg)
+![Image](https://pbs.twimg.com/media/HADQaFeWkAA5a6-.jpg)
 
 ## AI 如何赚钱？
 
@@ -451,7 +451,7 @@ Nathan 说问题是竞争，只要有一家不放广告，用户就会流向那�
 
 他预测 10 年后的格局：靠广告收入可以补贴更好的研发、训练更好的模型。YouTube 就是这个逻辑，广告收入让它主导视频市场。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_23.jpg)
+![Image](https://pbs.twimg.com/media/HADQcstW0AA_1oq.jpg)
 
 ## 2026 年大收购
 
@@ -463,7 +463,7 @@ Nathan 预计 200 亿美元级别的收购会变得常见。Groq 被收购（传
 
 关于首次公开募股：只要融资容易，这些公司不会上市。公开市场会带来压力。但 MiniMax 和智谱 AI 已经在中国提交了上市申请。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_9.jpg)
+![Image](https://pbs.twimg.com/media/HADQfT8XQAAHN6r.jpg)
 
 ## 各大公司前景
 
@@ -491,7 +491,7 @@ Nathan 发起了 ATOM（美国真正开放模型），目标是让美国建立�
 
 但他强调：任何开源模型都是有价值的模型。他不是要"禁止中国模型"，而是要美国在开源领域有竞争力。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_10.jpg)
+![Image](https://pbs.twimg.com/media/HADQiAfWwAACQ0U.jpg)
 
 ## AI 曼哈顿计划
 
@@ -505,7 +505,7 @@ Nathan 提了一个有趣的反向思路：开源模型的"曼哈顿计划"成�
 
 "一亿美元左右就能训一个前沿开源模型。对这些公司来说这不算什么。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_25.jpg)
+![Image](https://pbs.twimg.com/media/HADQkmKWEAAwlJ5.jpg)
 
 ## 英伟达与计算未来
 
@@ -517,7 +517,7 @@ Nathan 说只要黄仁勋还这么深度参与运营，英伟达就会持续创�
 
 关于太空数据中心的想法：问题不是能源（太阳能充足），是散热，太空没有空气散热，还会接收太阳辐射。但有大量空间可以放集群，工程上可能可以解决。
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_12.jpg)
+![Image](https://pbs.twimg.com/media/HADQnNuX0AA13dn.jpg)
 
 ## 人类文明的未来
 
@@ -553,7 +553,7 @@ Lex 的结尾：
 
 "如果是人类和机器的后奇点、后末日战争，我认为人类会赢。我们太聪明了。很难解释我们怎么会想出办法，但我们会的。而且我们可能会用本地大语言模型、开源大语言模型来帮助对抗机器。"
 
-![Image](../_media/x-2017844716293832753/dotey_2017844716293832753_22.jpg)
+![Image](https://pbs.twimg.com/media/HADS5WFXoAA4aU4.jpg)
 
 这场 4 小时的对话覆盖了 AI 的几乎所有维度：技术细节、商业逻辑、人才市场、社会影响、哲学思考。两位嘉宾都是真正在一线的人，他们的判断不一定对，但至少是基于真实经验。
 
@@ -561,7 +561,7 @@ Lex 的结尾：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2017844716293832753/dotey_2017844716293832753_26.jpg)
+![Image 1](https://pbs.twimg.com/media/HADPo4iWUAAt9jd.jpg)
 
 ## 💬 Replies
 

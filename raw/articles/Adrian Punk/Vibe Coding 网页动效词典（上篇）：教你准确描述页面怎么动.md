@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/AdrianPunk115/status/2099485951701721585) · [X 文章](https://x.com/i/article/2098669987930210304)
 
-![封面](../_media/x-2099485951701721585/AdrianPunk115_2099485763171995648_1.jpg)
+![封面](https://pbs.twimg.com/media/HSLfLZTbUAAIUe-.jpg)
 
 你让 AI“给网页加点高级动效”，它通常会把标题、图片和卡片一起淡入。
 
@@ -62,7 +62,7 @@ Vibe coding 是用自然语言描述页面、行为和功能，让 AI 生成、�
 
 工具决定代码怎样完成效果。先记住下面六种常见分工：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481124959608833_2.jpg)
+![Image](https://pbs.twimg.com/media/HSLa9ana4AEwvoJ.jpg)
 
 如果你不知道当前项目用了什么，直接告诉 AI：
 
@@ -168,7 +168,7 @@ Pointer 是鼠标、触控笔等指针设备的统一叫法。它可以读取光
 
 提示词例子：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481060291788800_4.jpg)
+![Image](https://pbs.twimg.com/media/HSLa5ptaQAA2K4w.jpg)
 
 ## 5. 进入视口（In view / Scroll-triggered）
 
@@ -250,7 +250,7 @@ Gesture 指用户直接操纵元素。它比“点击后播放一段动画”更
 
 提示词例子：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481107561697281_5.jpg)
+![Image](https://pbs.twimg.com/media/HSLa8Zzb0AE-KV2.jpg)
 
 ![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481090851557376_6.jpg)
 
@@ -296,11 +296,11 @@ Gesture 指用户直接操纵元素。它比“点击后播放一段动画”更
 级联动画：cascade animation
 ```
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481135671873536_7.jpg)
+![Image](https://pbs.twimg.com/media/HSLa-ChbEAAfZ44.jpg)
 
 描述触发方式时，可以沿着这条顺序检查：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481109126131712_8.jpg)
+![Image](https://pbs.twimg.com/media/HSLa8fobMAAYP4P.jpg)
 
 ```
 进入新页面（Route enter）时先完成页面容器的淡入，再播放标题和卡片入场；离开页面（Route exit）时快速收起。用户连续切换页面时取消尚未完成的动画，不能阻塞导航。
@@ -352,7 +352,7 @@ Duration 是一次动画从开始到结束持续多久。按钮和图标需要�
 
 提示词例子：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481108048158720_9.jpg)
+![Image](https://pbs.twimg.com/media/HSLa8bnaoAAqS_j.jpg)
 
 ## 3. Delay：延迟
 
@@ -420,7 +420,7 @@ Spring 模拟物体的惯性和回弹。它常用于拖拽回位、按钮按下�
 
 ![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481135982284800_12.jpg)
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481124091342848_13.jpg)
+![Image](https://pbs.twimg.com/media/HSLa9XYaMAAkT9z.jpg)
 
 https://x.com/@AdrianPunk115
 
@@ -468,7 +468,7 @@ Crossfade 指旧内容淡出的同时，新内容淡入。两个画面会短暂�
 
 提示词例子：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481059394256896_14.jpg)
+![Image](https://pbs.twimg.com/media/HSLa5mXbAAAsWJD.jpg)
 
 ```
 移动端菜单从右侧滑入（Slide in），关闭时沿原方向滑出（Slide out）；章节标题从下方轻微滑入。保持位移克制，让用户看得出方向即可。
@@ -536,7 +536,7 @@ Blur reveal 指元素先处于模糊状态，再逐渐恢复清晰，通常还�
 
 ![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481075043213312_17.jpg)
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481131079155712_18.jpg)
+![Image](https://pbs.twimg.com/media/HSLa9xabwAAz-Im.jpg)
 
 ## 11. Clip-path reveal：裁剪揭示
 
@@ -556,7 +556,7 @@ Clip-path reveal 通过改变一个裁剪区域，让内容从某个方向或形
 
 ---
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481141850075137_19.jpg)
+![Image](https://pbs.twimg.com/media/HSLa-Zia8AEzNnF.jpg)
 
 ## 12. Mask reveal：蒙版显现
 
@@ -654,7 +654,7 @@ Line reveal 把标题或段落拆成多行，每一行分别进入。它保留�
 
 交给 AI：
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481090830503936_21.jpg)
+![Image](https://pbs.twimg.com/media/HSLa7beaEAAK3R2.jpg)
 
 ![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481105565188096_22.jpg)
 
@@ -700,5 +700,5 @@ Word reveal 把一句话拆成多个词，每个词依次或分组出现。它�
 
 Punk｜中科大管理学硕士｜AI提示词、AI小白教程｜Punk系列Skills作者｜3个月赚了8位数｜Learn in Public｜FDE文章浏览量240w｜@AdrianPunk115
 
-![Image](../_media/x-2099485951701721585/AdrianPunk115_2099481091010908160_24.jpg)
+![Image](https://pbs.twimg.com/media/HSLa7cJa0AAGAaQ.jpg)
 

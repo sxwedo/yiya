@@ -8,7 +8,7 @@ date: "2026-09-18T16:25:10.000Z"
 
 # Jev Engineering: Full 10-Step Roadmap to Set Up and Use a New Brain for AI (from scratch)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_1.jpg)
+![](https://pbs.twimg.com/media/HSgY7VCXUAAWG9f.jpg)
 
 The Jevons Paradox (he's on picture) is a rule stating that an increase in the efficiency of a resource's use does not reduce, but rather increases, its overall consumption
 
@@ -19,7 +19,7 @@ And Jev by @typesafeai is built to save 101% of your money, time and will improv
 So trust me - this is the 2030 setup that you need to install right now
 before the alpha -  subscribe to my substack for more fresh alpha - [https://substack.com/@0xcodila](https://substack.com/@0xcodila)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_2.jpg)
+![](https://pbs.twimg.com/media/HSgq7fkWMAAagx3.jpg)
 
 "Browser Use put Jev inside an agent that found flights in 7 seconds for $0.0039"
 
@@ -46,7 +46,7 @@ Those are candidates for Jev. Fetching sources, writing paragraphs, and saving f
 
 For a GrokBot-style Chief of Staff, the saved handoff can feed an existing worker. Connecting that worker comes after the standalone setup below; you can complete the first run without an agent team.
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_3.png)
+![](https://pbs.twimg.com/media/HSgs099XgAAw37r.png)
 
 ## 02. Give it one decision in the Playground
 
@@ -71,13 +71,13 @@ Windows PowerShell:
 
 These commands create an isolated environment and install the [official Python SDK](https://docs.typesafe.ai/sdk/python). Keep your key outside source files; the script below asks for it privately.
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_4.jpg)
+![](https://pbs.twimg.com/media/HSgsuSvWMAAUmht.jpg)
 
 Using a coding agent? With Node.js/npm installed, add TypeSafe's official skill:
 
 Select your supported agent when prompted. The skill gives it integration instructions; Jev itself runs through the API. [Official repository](https://github.com/typesafe-ai/skills)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_5.jpg)
+![](https://pbs.twimg.com/media/HSgsR3ZXIAA9iMp.jpg)
 
 ## 04. Turn a request into a saved handoff
 
@@ -106,13 +106,13 @@ Jev gives you three question types, each built for a different kind of decision:
 - Noul answers a yes-or-no question. Use it for questions like: "Does this request require publishing?" It returns the probability of “yes” from 0 to 1.
 Define a relevance Score with three descriptions: unrelated, partially relevant, directly addresses the question. Its numeric result runs from 0 to 2, including fractions. A Noul near 0.5 means uncertainty about yes/no. [Score](https://docs.typesafe.ai/primitives/score) · [Noul](https://docs.typesafe.ai/primitives/noul)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_6.jpg)
+![](https://pbs.twimg.com/media/HSgs9sCXYAEaXNH.jpg)
 
 A useful detail: Jev does not see your question ID. Naming a field safe_to_publish contributes no instructions. Put the actual requirement in the question and describe each option clearly. [Choice documentation](https://docs.typesafe.ai/primitives/choice)
 
 Also supply evidence. "The researcher finished" tells Jev less than the sources, findings, and remaining gaps. Keep those fields separate from the original request. [State documentation](https://docs.typesafe.ai/concepts/state)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_7.jpg)
+![](https://pbs.twimg.com/media/HSgtBJgWgAEGBgE.jpg)
 
 ## 06. Steal Browser Use's best idea: rebuild the menu
 
@@ -121,11 +121,11 @@ A browser's available actions change after every click. Browser Use builds a fre
 Apply that design to your Chief of Staff. Build the choices from workers that exist and are available now. Include the current source IDs when selecting research material. Refresh the options after a tool changes the state.
 
 - Otherwise your decision model is choosing from yesterday's menu.
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_8.jpg)
+![](https://pbs.twimg.com/media/HSgsVsUW4AALdJK.jpg)
 
 For large candidate lists, filter obvious mismatches in code, score the remaining items, then choose among the shortlist. Choice supports up to 255 options; TypeSafe describes this scoring-then-selection approach in its [launch examples](https://typesafe.ai/blog/introducing-system-one-models-and-jev)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_9.png)
+![](https://pbs.twimg.com/media/HSgtEigXYAAwQnH.png)
 
 ## 07. Stop paying for questions to wait on each other
 
@@ -139,7 +139,7 @@ The browser example exposes another bottleneck. Its optimized runtime reduced me
 
 The changes included collecting the page state in one read and avoiding fresh predictions for irrelevant animations. Inspect repeated tool calls before paying for a faster model. [Performance report](https://github.com/browser-use/jev-ultrafast/blob/main/docs/performance.md)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_10.jpg)
+![](https://pbs.twimg.com/media/HSgtO1dWMAAgrsO.jpg)
 
 ## 08. Give overnight work somewhere to stop
 
@@ -150,7 +150,7 @@ After an interruption, it should inspect the last completed action before repeat
 
 Browser Use independently checks the outcome after Jev selects DONE. Borrow that separation for your own completion checks. [Agent loop](https://github.com/browser-use/jev-ultrafast/blob/main/jev_ultrafast/agent.py)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_11.jpg)
+![](https://pbs.twimg.com/media/HSgtVN2XgAEydLO.jpg)
 
 Once the local router works, use this brief to connect your existing agents:
 
@@ -179,7 +179,7 @@ Browser costs sit outside that calculation. Its roughly seven-second clock start
 For a different workload, Vercel's fx team reported roughly 5-18x faster safety classification than GPT-5.6-luna, alongside improved accuracy. 
 That comparison concerns the classifier, not the duration of an entire agent run. [Original benchmark](https://x.com/fazxes/status/2100300097695232164)
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_13.jpg)
+![](https://pbs.twimg.com/media/HSgrRIYXQAA_qIm.jpg)
 
 Track the bill per completed task. A cheap decision that sends a worker down the wrong branch can cost more than the decision itself.
 
@@ -211,7 +211,7 @@ How to repeat it: pass each email as the state, then add reply, research, wait, 
 
 LangChain uses Jev to choose between cheaper and more capable models based on the task
 
-![](../_media/x-2100984487802708306/0xcodila_2100984487802708306_14.jpg)
+![](https://pbs.twimg.com/media/HSgotROWgAAjE5w.jpg)
 
 [Open the LangChain guid](https://www.langchain.com/blog/building-a-harness-with-jev)
 

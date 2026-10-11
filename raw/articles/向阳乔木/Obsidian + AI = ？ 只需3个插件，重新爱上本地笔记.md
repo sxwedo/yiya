@@ -33,7 +33,7 @@ Obsidian + AI = ？ 只需3个插件，重新爱上本地笔记
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2007824424771469415/vista8_2007824424771469415_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G904aiHbQAE9ktY?format=jpg&name=medium)
 
 ## 💬 Replies
 

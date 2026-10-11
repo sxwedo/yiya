@@ -84,7 +84,7 @@ AI 也是一样。
 你的这个 AI 产品，在你的真实任务上，究竟哪里有效，哪里不可靠。
 
 
-![Image](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_3.jpg)
+![Image](https://pbs.twimg.com/media/HQx41W_agAAPutU.jpg)
 
 # 2\. 为什么 AI 比传统软件更需要 Eval？
 
@@ -144,7 +144,7 @@ Testing 保证系统没有坏掉。
 
 Eval 帮你判断系统有没有变得更有用。
 
-![Image](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_6.jpg)
+![Image](https://pbs.twimg.com/media/HQx6QkmbYAA78FL.jpg)
 
 # 3\. 没有 Eval 的 AI 项目有多危险？
 
@@ -234,7 +234,7 @@ Golden Set 可以先理解为：
 
 > 最有价值的 Eval 数据，往往不是成功案例，而是 AI 曾经真正犯过的错。
 
-![Image](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_1.jpg)
+![Image](https://pbs.twimg.com/media/HQx48jebYAAxV1G.jpg)
 
 # 5\. Rubric：AI 的阅卷标准
 
@@ -346,7 +346,7 @@ LLM Judge 也可能：
 
 因此，真实项目更适合采用组合方式：
 
-![Image](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_2.jpg)
+![Image](https://pbs.twimg.com/media/HQx5CCFa8AAzD57.jpg)
 
 规则先挡住硬错误，LLM Judge 处理大规模语义判断，人工复核高风险和争议样本。  
 
@@ -380,11 +380,11 @@ V2 比 V1 更好。
 
 一个合格的报告，不应该用平均数把这种问题遮掉。
 
-![Image](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_5.jpg)
+![Image](https://pbs.twimg.com/media/HQx5L-mbcAAz1B1.jpg)
 
 # 8\. 真正正确的 AI 开发流程
 
-![Image](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_4.jpg)
+![Image](https://pbs.twimg.com/media/HQx5PkIaIAAgJ2l.jpg)
 
 传统项目经常把开发流程想成：
 
@@ -516,7 +516,7 @@ FDE 的价值，往往就在“把技术能力翻译成客户结果”。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2093183040952623415/UPing123zzz_2093183040952623415_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HQx4ipTa8AAMGbD.jpg)
 
 ## 💬 Replies
 

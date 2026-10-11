@@ -28,7 +28,7 @@ Google Chrome团队Addy Osmani搞的生产级AI编程技能库。覆盖开发、
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2093851693725216885/bkdgiffug_2093851693725216885_1.png)
+![Image 1](https://pbs.twimg.com/media/HQ49j_MacAE86uJ.png?name=orig)
 
 ## 💬 Replies
 

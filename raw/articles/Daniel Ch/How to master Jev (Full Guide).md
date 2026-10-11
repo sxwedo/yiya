@@ -8,7 +8,7 @@ date: "2026-09-18T12:29:04.000Z"
 
 # How to master Jev (Full Guide) 
 
-![](../_media/x-2100925069765534024/chddaniel_2100925069765534024_1.jpg)
+![](https://pbs.twimg.com/media/HSf8FmcXMAAKnZ2.jpg)
 
 TypeSafe just released the strongest model, and it introduced a completely different way to put intelligence inside software...
 
@@ -18,7 +18,7 @@ out of the box it's an insanely fast decision engine, exceptional at classificat
 
 and if you understand the methods, the primitives and the architecture behind it, you can put intelligence inside parts of your product that were previously too slow, expensive or unreliable to automate
 
-![](../_media/x-2100925069765534024/chddaniel_2100925069765534024_2.jpg)
+![](https://pbs.twimg.com/media/HSf79BzWwAAfrX4.jpg)
 
 people are calling it the first real model built for machines for a reason...
 
@@ -58,7 +58,7 @@ ask thirteen independent questions about the same support ticket and Jev evaluat
 
 the questions do not need to wait for one another, and adding more barely changes the response time
 
-![](../_media/x-2100925069765534024/chddaniel_2100925069765534024_3.jpg)
+![](https://pbs.twimg.com/media/HSf7_x7XQAAPCY8.jpg)
 
 you can check urgency, refund intent, frustration, product area, churn risk and abuse at once... then let code decide what happens next
 
@@ -98,7 +98,7 @@ when you're ready to put it inside a product, call POST /v1/systemone, install t
 
 use jev-latest if you want the SDK to follow the newest stable release
 
-![](../_media/x-2100925069765534024/chddaniel_2100925069765534024_4.jpg)
+![](https://pbs.twimg.com/media/HSf8DU_WcAABlzc.jpg)
 
 use jev-1.13.0 if you have tuned thresholds and need the same model behavior to stay pinned
 

@@ -62,13 +62,13 @@ claude --dangerously-skip-permissions
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1964659306110013760/hylarucoder_1964659306110013760_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G0PfKq-akAARid3?format=jpg&name=medium)
 
-![Image 2](../_media/x-1964659306110013760/hylarucoder_1964659306110013760_2.jpg)
+![Image 2](https://pbs.twimg.com/media/G0PfLiVaMAE2i8U?format=jpg&name=medium)
 
-![Image 3](../_media/x-1964659306110013760/hylarucoder_1964659306110013760_3.jpg)
+![Image 3](https://pbs.twimg.com/media/G0PfMh6bMAEjKQd?format=jpg&name=medium)
 
-![Image 4](../_media/x-1964659306110013760/hylarucoder_1964659306110013760_4.jpg)
+![Image 4](https://pbs.twimg.com/media/G0PfN87awAAwcXS?format=jpg&name=medium)
 
 ## 💬 Replies
 

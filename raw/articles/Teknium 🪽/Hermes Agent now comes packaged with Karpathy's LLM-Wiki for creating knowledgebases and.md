@@ -23,7 +23,7 @@ in a new message or session to begin :)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2041370915012071577/Teknium_2041370915012071577_1.png)
+![Image 1](https://pbs.twimg.com/media/HFRn5cAbYAAM8ZE?format=png&name=medium)
 
 ## 💬 Replies
 

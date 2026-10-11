@@ -15,7 +15,7 @@ Working with Claude Fable 5 keeps re-teaching me an old lesson: the map is not t
 
 The map, a representation of the work to be done, is my prompts and skills and context, it’s what I give Claude. The territory is where the work needs to happen, the codebase, the real world, its actual constraints.
 
-![Image](../_media/x-2073100352921215386/trq212_2073100352921215386_3.jpg)
+![Image](https://pbs.twimg.com/media/HMUY0Dpa4AA__qj.jpg)
 
 The difference between the map and the territory is what I call unknowns. When Claude runs into an unknown, it needs to make a decision based on its best guess of what I want. The more work being done, the more unknowns Claude might run into
 
@@ -39,7 +39,7 @@ What are your unknowns? When I come to Claude with a problem I tend to break it�
 
 - Unknown Unknowns: What haven't I considered at all? What knowledge am I not aware of? Do I know how good something can be?
 
-![Image](../_media/x-2073100352921215386/trq212_2073100352921215386_1.jpg)
+![Image](https://pbs.twimg.com/media/HMUa_3jbcAAJeRy.jpg)
 
 The best agentic coders are good have relatively few unknowns. Watching someone like [Boris](https://www.google.com/url?q=https://www.linkedin.com/in/bcherny&sa=D&source=editors&ust=1783101769343560&usg=AOvVaw0NSN4RLOEaJ_k7bIWfat2t) or [Jarred](https://www.google.com/url?q=https://www.linkedin.com/in/jarred-sumner-a8772425&sa=D&source=editors&ust=1783101769343738&usg=AOvVaw1jFeuVIbBffAC5464Tk_TD) prompt, it is obvious to me that they know what they want in-detail. They are deeply in-sync with both the codebase and the model behaviors.
 
@@ -47,7 +47,7 @@ But they also assume unknowns. In many ways, reducing and planning for your unkn
 
 ## Help Claude help you
 
-![Image](../_media/x-2073100352921215386/trq212_2073100352921215386_5.jpg)
+![Image](https://pbs.twimg.com/media/HMUZ8FWacAAK4eL.jpg)
 
 Instructing Claude is a delicate balance. If you are too specific, Claude will follow your instructions even when a pivot may be more appropriate. If you are too vague, Claude will often make choices and assumptions based on industry best practices that may not be a fit for your task.
 
@@ -61,7 +61,7 @@ I've previously written about using [HTML with Claude](https://x.com/trq212/stat
 
 In this article I detail some of the patterns I use to uncover these unknowns. I don't use every technique each time, but it's a useful collection of techniques to have.
 
-![Image](../_media/x-2073100352921215386/trq212_2073100352921215386_4.jpg)
+![Image](https://pbs.twimg.com/media/HMUbXPhaoAIKuhv.jpg)
 
 # Pre-implementation
 
@@ -149,7 +149,7 @@ Example prompts:
 
 ## Pitches and explainers
 
-![Image](../_media/x-2073100352921215386/trq212_2073100352921215386_2.jpg)
+![Image](https://pbs.twimg.com/media/HMUce7UaEAAegM5.jpg)
 
 One of the most important parts of shipping something is getting buy-in and approvals.  Building pitch and explainer artifacts in the final document helps:
 
@@ -193,7 +193,7 @@ So start your next project by asking Claude to help you find your unknowns.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073100352921215386/trq212_2073100352921215386_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMUY_HnbcAAa51I.jpg)
 
 ## 💬 Replies
 
@@ -401,7 +401,7 @@ I won’t say hi to Claude.
 
 @trq212 Great little artifact for starting a project with Claude 
 
-![Image](../_media/x-2073100352921215386/TahiGichigi_2073116806177304635_1.jpg)
+![Image](https://pbs.twimg.com/media/HMUa_3jbcAAJeRy?format=jpg&name=900x900)
 
 ### 32 @vivek_naskar (Vivek Naskar)
 

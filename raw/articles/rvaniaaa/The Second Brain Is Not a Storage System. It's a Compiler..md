@@ -101,5 +101,5 @@ Build the compiler. Let it run. The compounding starts immediately and it never 
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/rvaniaaa-second-brain-compiler/rvaniaaaa_2090512486738845784_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HQL9tvuXUAAkgLX.jpg)
 

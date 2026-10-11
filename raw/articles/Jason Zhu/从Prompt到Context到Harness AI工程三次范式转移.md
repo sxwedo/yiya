@@ -13,7 +13,7 @@ type: "Article"
 
 2026年初，Anthropic 和 OpenAI 几乎同一周发了各自关于 Harness Engineering 的实践文章。加上两篇关于 Agent 记忆基础设施的学术论文，以及社区里关于三代工程范式演进的讨论，一个完整的图景正在浮现
 
-![Image](../_media/x-2037805864367911394/GoSailGlobal_2037805864367911394_1.jpg)
+![Image](https://pbs.twimg.com/media/HEe3frpbUAAMUyw.jpg)
 
 ## 三代工程范式各解决什么问题
 
@@ -25,7 +25,7 @@ type: "Article"
 
 三代之间的关系：每一代都包含前一代。Harness 包含 Context，Context 包含 Prompt。但每一代解决的核心问题完全不同
 
-![Image](../_media/x-2037805864367911394/GoSailGlobal_2037805864367911394_3.jpg)
+![Image](https://pbs.twimg.com/media/HEe3hcQasAEPZSS.jpg)
 
 ## Anthropic 怎么做：让 Agent 互相评估
 
@@ -39,7 +39,7 @@ Anthropic 工程师 Prithvi Rajasekaran 的实验揭示了一个反直觉的事�
 
 最有价值的发现：随着 Opus 4.6 能力提升，sprint 分解可以去掉了，但评估器不能去掉。Harness 的每个组件都编码了对模型局限性的假设。模型变强之后有些假设不再成立，但有些永远成立。识别哪些该留哪些该删，是 harness engineering 的核心技能
 
-![Image](../_media/x-2037805864367911394/GoSailGlobal_2037805864367911394_5.jpg)
+![Image](https://pbs.twimg.com/media/HEe3jOma0AAnlHZ.jpg)
 
 ## OpenAI 怎么做：百万行代码零手写
 
@@ -51,7 +51,7 @@ OpenAI 的实验更激进。五个月，一个小团队用 Codex Agent 构建了
 
 Martin Fowler 的评价很到位：Harness Engineering 把 context engineering、架构约束和垃圾回收编码成了机器可读的制品，Agent 可以系统性地执行
 
-![Image](../_media/x-2037805864367911394/GoSailGlobal_2037805864367911394_2.jpg)
+![Image](https://pbs.twimg.com/media/HEe3lL7bYAAHld3.jpg)
 
 ## 记忆系统：Harness 里最容易被忽略的一层
 
@@ -69,7 +69,7 @@ Anthropic 讲评估闭环，OpenAI 讲架构约束，但两家都没有深入讨
 
 这意味着记忆层给 Agent 系统带来的不是更高的初始性能，而是组织级的纵向学习能力。人类组织的第100个项目通常比第1个好，因为有过程文档、事后复盘、知识库积累。现在 Agent 系统也开始展现同样的特征
 
-![Image](../_media/x-2037805864367911394/GoSailGlobal_2037805864367911394_4.jpg)
+![Image](https://pbs.twimg.com/media/HEe3nKDaIAAY1aO.jpg)
 
 ## Prompt vs Context vs Harness 的本质区别
 
@@ -89,7 +89,7 @@ via Anthropic Engineering Blog / OpenAI Blog / (S)AGE Paper / Longitudinal Learn
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2037805864367911394/GoSailGlobal_2037805864367911394_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HEe5NpRbQAAW1Zg.jpg)
 
 ## 💬 Replies
 

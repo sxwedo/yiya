@@ -24,7 +24,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2023985866725785894/hylarucoder_2023985866725785894_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2023984510866792448/img/1fwl4KoBgrgPQgI7.jpg)
 
 ## 💬 Replies
 

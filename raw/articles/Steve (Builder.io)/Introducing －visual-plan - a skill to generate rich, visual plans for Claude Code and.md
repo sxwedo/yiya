@@ -51,7 +51,7 @@ Will link to it in the reply because we all know how dumb these algorithms are w
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2066906454704218337/Steve8708_2066906454704218337_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2066906208624332801/img/6AhexHl5EQVh4xYk.jpg)
 
 ## 💬 Replies
 

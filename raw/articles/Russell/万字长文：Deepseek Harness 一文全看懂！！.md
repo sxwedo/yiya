@@ -39,7 +39,7 @@ DeepSeek 在官方页面上写了一个公式：
 
 如果把 Agent 当成一名数字员工，模型相当于员工的脑子。Harness 则是电脑、办公软件、文件柜、操作手册、权限制度、项目经理和工作记录。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_9.jpg)
+![Image](https://pbs.twimg.com/media/HQoaZoMbAAAQ89Z.jpg)
 
 同一个人坐进两间配置不同的办公室，工作结果会差很多。一个人只能口头回答问题；另一个人能查数据库、运行程序、分派任务，还能在第二天接着昨天的进度继续干。
 
@@ -72,11 +72,11 @@ Harness 收到这段意图后，才会完成后面的工作：
 
 模型随后再判断下一步。复杂任务会重复这个过程几十次。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_10.jpg)
+![Image](https://pbs.twimg.com/media/HQoaczBawAA0hfY.jpg)
 
 一套完整 Harness 通常包含下面这些部分：
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_20.png)
+![Image](https://pbs.twimg.com/media/HQoavWoakAAU0dk.png)
 
 模型厂商经常公布参数量、推理能力和评测成绩。Agent 真正开始工作后，表格中的每一层都会影响最后产出的结果
 
@@ -88,7 +88,7 @@ DeepSeek Harness 是 DeepSeek 开源的 Agent Harness。官方同时把它描述
 
 > 目前它仍处于 Developer Preview，官方明确提醒后续会有破坏兼容性的修改。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_22.jpg)
+![Image](https://pbs.twimg.com/media/HQobQoubIAA6ozw.jpg)
 
 对于产品的普通使用者，可以把它当成一个能读写文件、搜索和运行命令的有自己市场的Agent。对于开发者，看到的则是一套组装 Agent 的框架。
 
@@ -122,7 +122,7 @@ Patch 解决的是“小改动”。假设 Profile 已经写了几百行配置�
 
 它像贴在装机单旁边的一张便签：其他配置照旧，只把便签上写到的项目换掉。Patch 也可以插入新插件，因此你既能修改现有设置，也能给当前 Agent 临时加一项能力。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_17.jpg)
+![Image](https://pbs.twimg.com/media/HQocCidaUAAAbRd.jpg)
 
 DeepSeek Harness 会把这些配置一层层摞起来。可以把它想成几张透明胶片：底层画着完整的 Profile，Bundle 往房间里添设备，Profile Patch 修改这套方案的局部设置，用户级 Patch 再加入个人偏好，命令行参数负责这一次启动的临时调整。
 
@@ -152,7 +152,7 @@ Cordis 根据依赖关系加载插件
 
 如果运行中的 fs 服务消失，Cordis 会把依赖它的文件工具卸载，避免系统留下一个“按钮还在，按下去却没有后端”的半残状态。fs 恢复以后，Cordis 再把文件工具加载回来。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_23.jpg)
+![Image](https://pbs.twimg.com/media/HQodUuqbQAAP9BG.jpg)
 
 普通读者可以先记住三个动作：Profile 选择整套 Agent，Bundle 安装一组能力，Patch 修改几个局部设置。Cordis 接过最终清单，按照依赖关系把这些零件组装成一套能运行、也能安全拆卸的系统。
 
@@ -160,7 +160,7 @@ Cordis 根据依赖关系加载插件
 
 DeepSeek Harness 使用 Cordis 管理插件。Cordis 论文提出了一个术语：Spatiotemporal Composability，时空可组合性
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_19.jpg)
+![Image](https://pbs.twimg.com/media/HQodeP1acAArM70.jpg)
 
 空间可组合性：谁依赖谁，由系统管理
 
@@ -205,7 +205,7 @@ Effect 指程序对外部环境造成的改变。注册工具、订阅事件和�
 
 插件拥有的子插件会一起递归卸载。异步清理完成后，dispose() 才结束。这个设计也支撑热模块替换：系统先卸载旧插件并清理注册，再加载新代码。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_4.jpg)
+![Image](https://pbs.twimg.com/media/HQod3SbbgAACYQa.jpg)
 
 ## 五、一次任务怎样运行：Turn 里面可以有多个 Step
 
@@ -219,7 +219,7 @@ Step：一次模型请求，加上它触发的工具执行
 
 模型第一次查看目录，这是一个 Step；读取文件后再次请求模型，让它判断下一步，这是第二个 Step。一个 Turn 经常包含多个 Step
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_5.jpg)
+![Image](https://pbs.twimg.com/media/HQoejdobsAAVpB0.jpg)
 
 以“读取 sales.csv，计算增长率并写入 report.md”为例，实际流程大致如下：
 
@@ -253,7 +253,7 @@ agent/pre-step 检查、补充或拒绝输入
 
 1\. Inbox 统一接收输入
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_6.jpg)
+![Image](https://pbs.twimg.com/media/HQoe5ZEagAAPlvt.jpg)
 
 用户新消息、任务中的补充指令和插件注入的上下文都会进入 Agent Inbox。有些消息会唤醒 Agent，有些上下文会等到下一次 Step 再被领取。
 
@@ -273,7 +273,7 @@ agent/pre-step 检查、补充或拒绝输入
 
 4\. 持久事件和实时事件承担不同工作
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_13.jpg)
+![Image](https://pbs.twimg.com/media/HQofGVGbEAAzU4U.jpg)
 
 DeepSeek Harness 里有两类容易混淆的事件。
 
@@ -303,7 +303,7 @@ agent/pre-step、agent/request、tools/pre-execute 这类 Cordis Event 是运行
 
 Agent Loop 在每个 Step 开始前组装一次完整请求
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_25.jpg)
+![Image](https://pbs.twimg.com/media/HQofRxtbEAA95Y1.jpg)
 
 术语解释：Tool Schema 是什么？
 
@@ -335,7 +335,7 @@ Tool Schema 是工具给模型看的使用说明，通常包含工具名、用�
 
 它还影响模型服务的 KV Cache。Provider 可以复用没有变化的请求前缀，减少相同 Prompt 的重复计算；插件加载、工具排序或 Persona 改变后，请求前缀也会改变，缓存可能从第一个变化的 Token 开始失效。可插拔带来实验自由，也要求开发者留意延迟和调用成本
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_2.jpg)
+![Image](https://pbs.twimg.com/media/HQoffC6bkAAPHTW.jpg)
 
 ## 七、Session Log 怎样成为唯一事实来源
 
@@ -365,7 +365,7 @@ Event Sourcing 可以翻译成事件溯源。系统不只保存“现在是什�
 
 DeepSeek Harness 使用同样思路保存 Agent 运行过程。deriveMessages() 从 Session Log 事件中推导模型下一次看到的历史，系统无需另存一份聊天数组。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_7.jpg)
+![Image](https://pbs.twimg.com/media/HQofzUEaEAAawt5.jpg)
 
 一份日志，同时服务多个系统
 
@@ -387,7 +387,7 @@ DeepSeek Harness 使用同样思路保存 Agent 运行过程。deriveMessages() 
 
 上下文太长时，旧历史怎样压缩？
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_18.jpg)
+![Image](https://pbs.twimg.com/media/HQof6w7a4AAX6c4.jpg)
 
 模型有上下文窗口限制。Session 越长，请求成本越高，最终还会超过模型能接收的长度。
 
@@ -409,7 +409,7 @@ DeepSeek Harness 的 Compaction 插件会在上下文压力达到阈值时生成
 
 ## 八、工具调用不会直接落到操作系统，中间有一条安全管线
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_21.jpg)
+![Image](https://pbs.twimg.com/media/HQogJCEaUAEL3J4.jpg)
 
 模型输出 write\_file 或 bash 调用后，DeepSeek Harness 先记录 tool/call，再执行工具。官方工具管线包含这些阶段
 
@@ -503,7 +503,7 @@ DeepSeek Harness 对模型、Web 搜索、Shell、持久化、上下文压缩和
 
 DeepSeek Harness 当前提供 Standard、Code、Minimal 和 Creator 四种主要模式
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_3.jpg)
+![Image](https://pbs.twimg.com/media/HQog5HIa8AE3Nvz.jpg)
 
 它们不是四套完全独立的 Agent。开发者通过不同插件组合和工具暴露方式，让同一个内核服务不同目标。
 
@@ -519,7 +519,7 @@ Code Mode：让模型先写一段工具编排程序
 
 Code Mode 不再把所有工具都作为普通的末端调用方式呈现。系统向模型提供一个 run\_code 入口，以及根据当前工具生成的 TypeScript 或 Python SDK 声明。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_14.jpg)
+![Image](https://pbs.twimg.com/media/HQohAuzaoAAyLP3.jpg)
 
 模型可以写出类似下面的程序：
 
@@ -562,7 +562,7 @@ Creator Mode 在 Standard 能力之上增加运行时检查、内存插件试验
 
 DeepSeek Harness 没把子 Agent 写死成一种内部线程。它定义统一的 ctx.subagents 接口，不同 Provider 可以启动：
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_24.jpg)
+![Image](https://pbs.twimg.com/media/HQohhikb0AAfjib.jpg)
 
 - 当前进程里的新 Agent；
 
@@ -582,7 +582,7 @@ Fork Provider 只复制父 Session 中已经完整结束的 Turn。父 Agent 当
 
 Fork 传递的是对话历史，不是权限。子 Agent 会得到新的作用域，不会自动继承父 Agent 的工具限制和操作授权
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_1.jpg)
+![Image](https://pbs.twimg.com/media/HQohsAZa4AAeIEX.jpg)
 
 这个细节很重要。上下文继承和权限继承属于两件事。一个子 Agent 知道父任务发生过什么，不代表它有权做父 Agent 能做的所有操作。
 
@@ -592,7 +592,7 @@ Fork 传递的是对话历史，不是权限。子 Agent 会得到新的作用�
 
 所以下面说的“案例”分成四类：
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_11.png)
+![Image](https://pbs.twimg.com/media/HQojsifbkAEXoRc.png)
 
 案例一：Agent 在对话中给自己造一个新工具
 
@@ -606,7 +606,7 @@ Fork 传递的是对话历史，不是权限。子 Agent 会得到新的作用�
 
 这里的 release\_guard 是基于官方机制构造的业务例子，不是 DeepSeek 预装工具。官方 Creator Skill 给出的真实示例叫 preset\_check：Agent 临时注册这个工具，用它检查一个 Agent Preset 能否找到对应的 Standing Key
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_15.jpg)
+![Image](https://pbs.twimg.com/media/HQokPytbAAACPfI.jpg)
 
 创建过程不是“模型随便执行一段代码”，而是一条有状态的插件生命周期：
 
@@ -657,7 +657,7 @@ cordis\_run
 
 这里的 RPC，可以理解成前台与后台之间的“内部电话”：浏览器按钮发出一份结构化请求，Host 完成工作后再把结果送回界面。
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_12.jpg)
+![Image](https://pbs.twimg.com/media/HQokqEXagAAy3mm.jpg)
 
 如果实验失败，cordis\_stop 会停止当前 Run，但保留 Plugin 和各版 Package；cordis\_undefine 才会删除定义。插件产生的工具、监听器和其他 Effect 由 Cordis 生命周期统一清理。
 
@@ -697,11 +697,11 @@ Workflow 脚本本身不能访问文件、网络、定时器或 Node API。它�
 
 这套系统里还有几个容易被混称为“自动运行”的概念：
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_8.png)
+![Image](https://pbs.twimg.com/media/HQolKeVagAAEIG8.png)
 
 Goal 的进展留在同一条 Session 历史里。Ralph 每轮不继承父对话或上一名子 Agent 的会话，只共享工作区，并让上一轮传递一份受限的结构化报告。官方还要求 Ralph 只能在用户明确提出时使用，不应被 Agent 擅自开启
 
-![Image](../_media/x-2092535898034630816/Russell3402_2092535898034630816_16.jpg)
+![Image](https://pbs.twimg.com/media/HQolPNhaEAAc5aE.jpg)
 
 再往外一层，Subagent Provider 还能连接进程内 Agent、Fork Agent、ACP Agent、Codex 和 Claude Code。 团队因此可以组合一种“代码评审委员会”：DeepSeek 主 Agent 拆题，Codex 执行实现检查，Claude Code 看架构，Fork Agent 带着父会话历史核对用户意图，最后由主 Agent 汇总。这里描述的是架构允许的组合方式，不是官方公布的客户部署。
 
@@ -777,7 +777,7 @@ DeepSeek 的设计选择也可以分成两条线：Cordis 负责组件的装载�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2092535898034630816/Russell3402_2092535898034630816_26.jpg)
+![Image 1](https://pbs.twimg.com/media/HQorluqbAAAFxBu.jpg)
 
 ## 💬 Replies
 

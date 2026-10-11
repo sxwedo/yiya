@@ -29,7 +29,7 @@ type: "Article"
 
 不再让一个 AI 循环干活，而是设计一张任务流程图，让多个 AI 各管一段，按顺序交接。
 
-![Image](../_media/x-2081268706483814605/AdrianPunk115_2081268706483814605_1.jpg)
+![Image](https://pbs.twimg.com/media/HOIjOvgbcAA60Et.jpg)
 
 ---
 
@@ -77,7 +77,7 @@ Graph Engineering，就是把一个复杂任务拆成多个节点，用流程图
 
 一张 Graph 就三样东西：
 
-![Image](../_media/x-2081268706483814605/AdrianPunk115_2081268706483814605_2.jpg)
+![Image](https://pbs.twimg.com/media/HOIlt6iaYAAZX5T.jpg)
 
 节点（Nodes）——一个干活的单元。可以是一个 AI、一次工具调用，甚至一个点头的人。
 
@@ -177,7 +177,7 @@ Graph Engineering 做的不是取代 Loop，而是：
 
 单兵作战的能力没消失，但你还需要学会怎么排兵布阵。
 
-![Image](../_media/x-2081268706483814605/AdrianPunk115_2081268706483814605_3.jpg)
+![Image](https://pbs.twimg.com/media/HOImZSRaIAAucv5.jpg)
 
 ---
 
@@ -213,7 +213,7 @@ Airflow 画了十年的任务图。Anthropic 2024 年那篇《Building Effective
 
 # 六、Graph Engineering 的 4 个核心模块
 
-![Image](../_media/x-2081268706483814605/AdrianPunk115_2081268706483814605_4.jpg)
+![Image](https://pbs.twimg.com/media/HOIhZV8bgAA97uu.jpg)
 
 1\. 节点模块：每个节点凭什么存在
 
@@ -558,7 +558,7 @@ Punk｜中科大 MBA｜HerName 首席设计师｜Stanley 商学院执行院长�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2081268706483814605/AdrianPunk115_2081268706483814605_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HOIm1R4bAAAgxZh.jpg)
 
 ## 💬 Replies
 

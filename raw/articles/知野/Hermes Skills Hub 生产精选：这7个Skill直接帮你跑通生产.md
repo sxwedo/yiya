@@ -17,7 +17,7 @@ hermes的skill hub技能商场上线了🥳🥳
 
 我帮大家归类出了7个可落地，能接入生产的skill，它们连起来刚好是一条线：工具层 → 输出层 → 知识层 → 推理层 → 部署层 → 可观测层 →安全层。
 
-![Image](../_media/x-2052626513888203131/knoYee__2052626513888203131_1.jpg)
+![Image](https://pbs.twimg.com/media/HHxd2gQa8AAY0bQ.jpg)
 
 ## 一、fastmcp
 
@@ -189,5 +189,5 @@ hermes skills install docker-management
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052626513888203131/knoYee__2052626513888203131_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HHxj5rrbMAA1icf.jpg)
 

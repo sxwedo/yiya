@@ -29,7 +29,7 @@ CC 也是那个让著名的 OpenAI 研究员 AK 都感到自己落伍的那个�
 
 这是 CC 的作者和 AK 之间的一段对话，你只需要把 CC 对准目标，它就会把你的问题熔化！
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_13.jpg)
+![Image](https://pbs.twimg.com/media/G9SsT9bbMAAh9AY.jpg)
 
 我一直在给身边的同事们、朋友们安利 CC，每次看他们用完之后都会惊呼，这 AI 太智能了。
 
@@ -43,7 +43,7 @@ CC 也是那个让著名的 OpenAI 研究员 AK 都感到自己落伍的那个�
 
 在周一的时候，我的朋友杨攀在群里激动地说，这个时刻到了！
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_8.png)
+![Image](https://pbs.twimg.com/media/G9SspcMbAAAaA4M.png)
 
 现在，终于有一个开源模型，可以在 Claude Code 里真正用起来了。
 
@@ -69,7 +69,7 @@ https://nodejs.org/en/download/
 
 1. 在你的电脑上，搜索「终端」，打开它，是这样的，不用害怕，你就把它理解成一个界面很酷的 AI 对话框。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_10.jpg)
+![Image](https://pbs.twimg.com/media/G9Ss5uhakAIBOeT.jpg)
 
 2. 在终端里，粘贴下面的命令，然后回车。
 npm install -g @anthropic-ai/claude-code
@@ -92,7 +92,7 @@ irm https://claude.ai/install.ps1 \| iex
 
 安装完成后，输入 claude --version ，如果出现版本号，则代表安装成功。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_9.png)
+![Image](https://pbs.twimg.com/media/G9StBi7bQAASDDq.png)
 
 新版本的 Claude Code 增加了一个恶心的验证，我们通过这个方法跳过它。
 
@@ -122,7 +122,7 @@ irm https://claude.ai/install.ps1 \| iex
 
 可以在这里购买：https://www.bigmodel.cn/glm-coding?ic=KSGMCBOXUT
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_5.jpg)
+![Image](https://pbs.twimg.com/media/G9StGD2aoAAjgp4.jpg)
 
 ## 四、配置 CC 服务器
 
@@ -138,7 +138,7 @@ npx @z\_ai/coding-helper
 
 2. 这时候你会看到一个亲切的中文界面
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_7.jpg)
+![Image](https://pbs.twimg.com/media/G9StKdQawAAIAFx.jpg)
 
 3. 你按照这个工具的提示，把在上面拿到的 API Key 粘贴到这里，并且按提示一步一步地走完就可以了。
 
@@ -153,7 +153,7 @@ npx @z\_ai/coding-helper
 
 还是在终端里，每次只要输入 claude ，然后回车，你就能看到下面的界面了。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_11.jpg)
+![Image](https://pbs.twimg.com/media/G9StPZxbYAAVWKg.jpg)
 
 说个你好，打个招呼吧！
 
@@ -163,7 +163,7 @@ npx @z\_ai/coding-helper
 
 安装之后，在你的任意文件夹里，都可以看到 Claude Code，点击一下，就能启动了，超级方便。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_4.jpg)
+![Image](https://pbs.twimg.com/media/G9StStPaQAA7kO9.jpg)
 
 ## 六、Claude Code 的上手技巧
 
@@ -185,7 +185,7 @@ CC 启动的时候，需要你给它指定一个文件夹，这个文件夹就�
 
 下面是我的 CC 文件夹，我用他做笔记、分析数据、深度阅读、开发软件，每个任务都建立一个文件夹，这样就互不干扰。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_2.jpg)
+![Image](https://pbs.twimg.com/media/G9StceqaIAAKN4a.jpg)
 
 指定文件夹的方式有两种，一种是上面说的 Claude Code Now，你点击一下，就启动，并自动加载文件夹了。
 
@@ -203,7 +203,7 @@ CC 每次启动的时候，都会自动加载这个文件，它记录了你要�
 
 你也可以让 CC 来自己创建这个文件，并把你觉得重要的信息告诉它。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_6.jpg)
+![Image](https://pbs.twimg.com/media/G9Stk5gbkAANTcL.jpg)
 
 3. 危险模式
 
@@ -231,7 +231,7 @@ Control + V
 
 粘贴之后，CC 就能看到图片了。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_14.jpg)
+![Image](https://pbs.twimg.com/media/G9StrdLaMAAu-GY.jpg)
 
 ## 七、一个真实的用法：拆工资条
 
@@ -243,7 +243,7 @@ Control + V
 
 但是代理只给我一个工资表，这个表是长这样的：
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_3.jpg)
+![Image](https://pbs.twimg.com/media/G9StuHoaQAABNfE.jpg)
 
 我要把这个表拆开，每一行做个表，再发给每个人。
 
@@ -279,11 +279,11 @@ npx skills-installer install @anthropics/claude-code/frontend-design --client cl
 
 使用 @anthropics/skills/frontend-design skill，重新设计 https://listenhub.ai 的首页
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_1.jpg)
+![Image](https://pbs.twimg.com/media/G9SuFGnbcAAjYJl.jpg)
 
 得到的结果是这样的，非常高级，完全没有 AI 设计网页的默认蓝紫色。
 
-![Image](../_media/x-2005419365450252425/oran_ge_2005419365450252425_12.jpg)
+![Image](https://pbs.twimg.com/media/G9SuCTSagAArkqD.jpg)
 
 # 结语：一鲸落，万物生
 
@@ -315,7 +315,7 @@ npx skills-installer install @anthropics/claude-code/frontend-design --client cl
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2005419365450252425/oran_ge_2005419365450252425_15.jpg)
+![Image 1](https://pbs.twimg.com/media/G9SseS2bkAAF2y3.jpg)
 
 ## 💬 Replies
 
