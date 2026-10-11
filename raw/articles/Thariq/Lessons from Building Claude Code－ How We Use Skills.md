@@ -31,7 +31,7 @@ We’ve found that some of the most interesting skills in Claude Code use these 
 
 After cataloging all of our skills, we noticed they cluster into a few recurring categories. The best skills fit cleanly into one; the more confusing ones straddle several. This isn't a definitive list, but it is a good way to think about if you're missing any inside of your org.
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_2.jpg)
+![Image](https://pbs.twimg.com/media/HDlvMmubEAIzF-N.jpg)
 
 ## 1\. Library & API Reference
 
@@ -145,7 +145,7 @@ Examples:
 
 # Tips for Making Skills
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_4.jpg)
+![Image](https://pbs.twimg.com/media/HDoKg58bEAAL1bw.jpg)
 
 Once you've decided on the skill to make, how do you write it? These are some of the best practices, tips, and tricks we've found.
 
@@ -159,13 +159,13 @@ The [frontend design skill](https://github.com/anthropics/skills/blob/main/skill
 
 ## Build a Gotchas Section
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_5.jpg)
+![Image](https://pbs.twimg.com/media/HDlwEG1bEAUdmcV.jpg)
 
 The highest-signal content in any skill is the Gotchas section. These sections should be built up from common failure points that Claude runs into when using your skill. Ideally, you will update your skill over time to capture these gotchas.
 
 ## Use the File System & Progressive Disclosure
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_9.jpg)
+![Image](https://pbs.twimg.com/media/HDlwhSjbEAIJSc9.jpg)
 
 Like we said earlier, a skill is a folder, not just a markdown file. You should think of the entire file system as a form of context engineering and progressive disclosure. Tell Claude what files are in your skill, and it will read them at appropriate times.
 
@@ -179,11 +179,11 @@ You can have folders of references, scripts, examples, etc., which help Claude w
 
 Claude will generally try to stick to your instructions, and because Skills are so reusable you’ll want to be careful of being too specific in your instructions. Give Claude the information it needs, but give it the flexibility to adapt to the situation. For example:
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_6.jpg)
+![Image](https://pbs.twimg.com/media/HDlwurvbEAM5ZNu.jpg)
 
 ## Think through the Setup
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_7.jpg)
+![Image](https://pbs.twimg.com/media/HDlw1mYbEAY-Bul.jpg)
 
 Some skills may need to be set up with context from the user. For example, if you are making a skill that posts your standup to Slack, you may want Claude to ask which Slack channel to post it in.
 
@@ -195,11 +195,11 @@ If you want the agent to present structured, multiple choice questions you can i
 
 When Claude Code starts a session, it builds a listing of every available skill with its description. This listing is what Claude scans to decide "is there a skill for this request?" Which means the description field is not a summary — it's a description of when to trigger this PR.
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_1.jpg)
+![Image](https://pbs.twimg.com/media/HDlw5ULbEAQOqtJ.jpg)
 
 ## Memory & Storing Data
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_3.jpg)
+![Image](https://pbs.twimg.com/media/HDoImh1bEAU-mMI.jpg)
 
 Some skills can include a form of memory by storing data within them. You could store data in anything as simple as an append only text log file or JSON files, or as complicated as a SQLite database.
 
@@ -213,11 +213,11 @@ One of the most powerful tools you can give Claude is code. Giving Claude script
 
 For example, in your data science skill you might have a library of functions to fetch data from your event source.  In order for Claude to do complex analysis, you could give it a set of helper functions like so:
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_8.jpg)
+![Image](https://pbs.twimg.com/media/HDlxbtkbkAAOse7.jpg)
 
 Claude can then generate scripts on the fly to compose this functionality to do more advanced analysis for prompts like “What happened on Tuesday?”
 
-![Image](../_media/x-2033949937936085378/trq212_2033949937936085378_10.jpg)
+![Image](https://pbs.twimg.com/media/HDlxfEIb0AA2E7l.jpg)
 
 ## On Demand Hooks
 
@@ -271,7 +271,7 @@ I hope this was helpful, let me know if you have any questions.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2033949937936085378/trq212_2033949937936085378_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HDl2jn9a0AAZkyz.jpg)
 
 ## 💬 Replies
 

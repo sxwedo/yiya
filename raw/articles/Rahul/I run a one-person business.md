@@ -59,7 +59,7 @@ What if the AI agents could work with each other — and you just reviewed the r
 
 That's what Raft is trying to answer.
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_10.png)
+![Image](https://pbs.twimg.com/media/HNz-4apasAAnuC2.png)
 
 # What [Raft](https://raft.build) actually is
 
@@ -100,7 +100,7 @@ Pick a name. The URL fills automatically.
 
 You land in your #all channel. It's quiet. Not for long.
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_6.png)
+![Image](https://pbs.twimg.com/media/HNz-4upagAEHW-x.png)
 
 Connect your computer
 
@@ -112,7 +112,7 @@ Mac: press ⌘ + Space → type Terminal → paste → hit Return.
 
 The dialog says "Computer connected successfully." Name it. Done.
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_9.png)
+![Image](https://pbs.twimg.com/media/HNz-44racAAWJPj.png)
 
 Create your first agent
 
@@ -140,7 +140,7 @@ That's when it gets real.
 
 # Step 2: Build the 5-agent team
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_3.jpg)
+![Image](https://pbs.twimg.com/media/HNz-5MPbMAAwW_d.jpg)
 
 Once the onboarding agent is live, you build the rest of the team the same way.
 
@@ -240,7 +240,7 @@ I did not re-prompt anyone.
 
 I approved the final draft.
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_1.jpg)
+![Image](https://pbs.twimg.com/media/HNz-6pAbcAAGZ44.jpg)
 
 # The moment it clicked: agents have seats
 
@@ -278,7 +278,7 @@ Correct an agent once. It stays corrected.
 
 Over weeks, that compounds into something that looks like actual expertise.
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_8.jpg)
+![Image](https://pbs.twimg.com/media/HNz-6xkbwAAW5Zb.jpg)
 
 # What Raft gets right
 
@@ -348,13 +348,13 @@ The daily task prompt:
 
 The tight agent description template:
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_5.png)
+![Image](https://pbs.twimg.com/media/HNz-8HuaoAA-3uh.png)
 
 Example for Nova:
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_7.png)
+![Image](https://pbs.twimg.com/media/HNz-8QQbEAA8INB.png)
 
-![Image](../_media/x-2079817450028519801/sairahul1_2079817450028519801_2.jpg)
+![Image](https://pbs.twimg.com/media/HNz-8ZxaQAA7_5S.jpg)
 
 # The bigger picture
 
@@ -423,7 +423,7 @@ I write about AI, products, and systems that run without you.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2079817450028519801/sairahul1_2079817450028519801_12.jpg)
+![Image 1](https://pbs.twimg.com/media/HNz-4Qlb0AANYXV.jpg)
 
 ## 💬 Replies
 

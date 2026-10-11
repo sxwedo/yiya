@@ -33,7 +33,7 @@ Skills 的完整名称叫 Agent Skills。注意这个“Agent”，它不是装�
 
 一句话总结：ChatBot 只能对话，Agent 能动手干活。
 
-![Image](../_media/x-2015212857374413040/dotey_2015212857374413040_5.jpg)
+![Image](https://pbs.twimg.com/media/G_d4wboWMAAa7Gx.jpg)
 
 具体来说：
 
@@ -55,7 +55,7 @@ Agent 能调用工具。 同样的配图任务，它能像个经验丰富的编�
 
 全程自动化，你只需要验收。
 
-![Image](../_media/x-2015212857374413040/dotey_2015212857374413040_1.jpg)
+![Image](https://pbs.twimg.com/media/G_d4zF6WcAAguvn.jpg)
 
 ## 那 Skill 到底是什么？
 
@@ -71,7 +71,7 @@ SKILL.md 的核心确实是指令文本。但 Skill 不止于此。
 
 第三层：资源和代码。 附带的脚本、模板、参考文档。Agent 按需读取，用的时候才加载。
 
-![Image](../_media/x-2015212857374413040/dotey_2015212857374413040_2.jpg)
+![Image](https://pbs.twimg.com/media/G_d42AvW0AALEz2.jpg)
 
 这就是官方说的“渐进式加载”：不是一股脑把所有内容塞进上下文，而是用到什么加载什么。
 
@@ -85,7 +85,7 @@ SKILL.md 的核心确实是指令文本。但 Skill 不止于此。
 
 但如果你说的是发给普通 ChatBot 的提示词，比如 ChatGPT 的自定义指令、Gemini 的 Gem、Claude 的 Project 指令，那确实做不到。因为 ChatBot 没有工具调用能力，它只能输出文字。
 
-![Image](../_media/x-2015212857374413040/dotey_2015212857374413040_4.jpg)
+![Image](https://pbs.twimg.com/media/G_d445uWoAEXyPc.jpg)
 
 我原文的问题在于：默认读者理解的“提示词”是 ChatBot 场景下的提示词，但没有明确说出来。
 
@@ -107,7 +107,7 @@ SKILL.md 的核心确实是指令文本。但 Skill 不止于此。
 
 可渐进加载。 Skill 附带的资源文件不会一开始就占用上下文。你的提示词模板再怎么组织，发出去就是全量加载。
 
-![Image](../_media/x-2015212857374413040/dotey_2015212857374413040_3.jpg)
+![Image](https://pbs.twimg.com/media/G_d471gXIAAAE06.jpg)
 
 简单说：Skill 是提示词的工程化封装。 能做的事差不多，但管理成本、复用成本、迭代成本完全不同。
 
@@ -125,7 +125,7 @@ Skill 是给 Agent 用的。 没有 Agent 的工具调用能力，Skill 就只�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2015212857374413040/dotey_2015212857374413040_6.jpg)
+![Image 1](https://pbs.twimg.com/media/G_d4rRzWEAEdBa1.jpg)
 
 ## 💬 Replies
 

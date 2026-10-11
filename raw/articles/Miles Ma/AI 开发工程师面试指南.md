@@ -45,7 +45,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 所以这个岗位能做的事情很多：智能客服、业务助手、数据分析工具、自动化办公、编程助手、语音交互，还有接入图片和视频的应用。有些工作以软件开发为主，有些更偏模型部署和优化，有些要深入客户现场。具体叫什么，看公司的招聘习惯。Agent 工程师、大模型应用工程师、部分算法开发岗位，今天我都放在 AI 开发工程师这个范围里讲。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_1.jpg)
+![Image](https://pbs.twimg.com/media/HTi1QdKagAAg06n.jpg)
 
 # 二、为什么我认为，这个方向值得长期做
 
@@ -61,7 +61,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 当然，岗位名称不能保证机会。一个公司挂着 AI 开发的名字，实际上只让你搭几张演示页面，和一个需要接入真实业务、持续维护的岗位，能积累的经验差很多。求职时要看它准备让你做什么。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_4.jpg)
+![Image](https://pbs.twimg.com/media/HTi1QdPbIAAQB_0.jpg)
 
 # 三、公司招人到底在算什么
 
@@ -79,7 +79,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 所以简历和面试，都要让人看见你做事的过程。你不能只给我一个“成功上线”，让我自己猜是谁做的、为什么做成。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_10.jpg)
+![Image](https://pbs.twimg.com/media/HTi1RusboAAbedI.jpg)
 
 # 四、简历分开准备：基础岗和高级岗
 
@@ -103,7 +103,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 个人项目可以写，课程作业也可以写，标清楚就行。没有真实用户，不要写服务多少用户；没有上线，不要写生产落地。你能拿出代码、测试记录和选择过程，已经比一份堆满大词的简历有用。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_9.jpg)
+![Image](https://pbs.twimg.com/media/HTi1ROzawAA_nTj.jpg)
 
 ## 高级岗：写判断、积累和责任
 
@@ -133,7 +133,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 别从大学专业一路讲到每一家公司，把时间用完了，面试官还没听到你的重点。你得先给我一个入口，我才知道怎么往下问。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_8.jpg)
+![Image](https://pbs.twimg.com/media/HTi1RzIbIAApD6E.jpg)
 
 # 六、专家路线：这些技术，你得知道自己懂到哪里
 
@@ -185,7 +185,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 多 Agent 也会追问为什么需要。任务能否分开、角色之间传什么、失败怎样定位、额外调用值不值。如果只是为了让架构图热闹，面试时很难往下讲。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_6.jpg)
+![Image](https://pbs.twimg.com/media/HTi1RKZbwAAb9hv.jpg)
 
 ## 5\. 效果怎么测，错误怎么查
 
@@ -211,7 +211,7 @@ AI 开发工程师，就是把模型用到实际工作里，把它做成一个�
 
 发布也有工程要求。配置和密钥怎样管理，服务如何健康检查，新版本如何小范围上线，异常怎样回退，模型服务不可用时怎样处理。容器能帮你统一运行环境，不能替你完成这些安排。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_7.jpg)
+![Image](https://pbs.twimg.com/media/HTi1RPVaQAAYIcw.jpg)
 
 ## 7\. 微调和模型原理，按岗位往深处准备
 
@@ -247,7 +247,7 @@ LoRA 常用于参数高效微调，通常冻结原来的模型权重，训练额
 
 最后看交接和培养。你离开一周，项目还能不能继续，关键方案有没有记录，新人有没有成长？高级岗位的责任里，包括让工作能够持续进行。自己很强，和能带出一支能工作的团队，需要分别证明。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_5.jpg)
+![Image](https://pbs.twimg.com/media/HTi1SeDawAAQ9Ou.jpg)
 
 # 八、自己的项目，至少要讲清楚这些事
 
@@ -267,7 +267,7 @@ LoRA 常用于参数高效微调，通常冻结原来的模型权重，训练额
 
 如果项目是个人练习，可以拿需求说明、代码、运行说明、评测和失败记录来聊。模拟业务就说模拟业务，用公开数据就说公开数据。材料越真实，越容易把追问接下去。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_11.jpg)
+![Image](https://pbs.twimg.com/media/HTi1R8KawAMh9Bu.jpg)
 
 # 九、转型怎么学，学完拿什么去面试
 
@@ -287,7 +287,7 @@ LoRA 常用于参数高效微调，通常冻结原来的模型权重，训练额
 
 到了面试，最有用的准备，还是把手里的东西吃透。你为什么这样做，自己真正做了哪部分，换一个条件还会怎样做。这些讲明白，我才知道你现在能接什么，也才看得出以后值得把什么交给你。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_2.jpg)
+![Image](https://pbs.twimg.com/media/HTi1SYzagAAYju-.jpg)
 
 ---
 
@@ -295,9 +295,9 @@ LoRA 常用于参数高效微调，通常冻结原来的模型权重，训练额
 
 关注我 [@miles\_mazy](https://x.com/miles_mazy)，一起成长，一起赚钱。
 
-![Image](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_3.jpg)
+![Image](https://pbs.twimg.com/media/HTi1R5XaoAAGYqM.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/miles-ai-dev-interview/miles_mazy_2105633096506720626_12.jpg)
+![Image 1](https://pbs.twimg.com/media/HTi1QdRaYAAIVVz.jpg)
 

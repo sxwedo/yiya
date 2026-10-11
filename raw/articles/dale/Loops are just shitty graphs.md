@@ -75,7 +75,7 @@ The model’s context window is not actually infinite. The context available to 
 
 That's what we hope to achieve with Polygres.
 
-![Image](../_media/x-2078969402046009374/daleverett_2078969402046009374_1.jpg)
+![Image](https://pbs.twimg.com/media/HNn5ipQa8AAF3dZ.jpg)
 
 \- Dale
 
@@ -83,7 +83,7 @@ If you want to try polygres today, you can sign up and use it for free on polygr
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2078969402046009374/daleverett_2078969402046009374_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HNkMabra0AAxJ5O.jpg)
 
 ## 💬 Replies
 

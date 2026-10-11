@@ -28,7 +28,7 @@ A scheduled task runs every Sunday evening, prompting Claude to read the previou
 
 On Monday morning, Ian opens Claude Cowork and pulls the initial report, which contains the metrics tables and suggested headlines, or areas of focus. 
 
-![The weekly business review summary is shown here created with demo data and all information anonymized or modified for publication.](../_media/claude-how-anthropic-s-marketing-operations-team-uses-claude-cowork/Claude_how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds_1.png)
+![The weekly business review summary is shown here created with demo data and all information anonymized or modified for publication.](https://assets.claude.com/d43bf44782135a54337a8c2266454ca5e3760d1d.png)
 
 *The weekly business review summary is shown here created with demo data and all information anonymized or modified for publication.*
 
@@ -36,7 +36,7 @@ Ian reviews them and once he’s confirmed or decided where to focus the narrati
 
 Claude generates the leadership slide from the same data and narrative: what changed, why, and what the teams are doing about it. Any follow-ups become Asana tasks. 
 
-![The weekly metrics report, shown here with demo data and all information anonymized or modified for publication, contains key metrics and suggested areas of focus.](../_media/claude-how-anthropic-s-marketing-operations-team-uses-claude-cowork/Claude_how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds_2.png)
+![The weekly metrics report, shown here with demo data and all information anonymized or modified for publication, contains key metrics and suggested areas of focus.](https://assets.claude.com/ad69d3beee1a1d1dc889a8ce450a33d7ece5ab17.png)
 
 *The weekly metrics report, shown here with demo data and all information anonymized or modified for publication, contains key metrics and suggested areas of focus.*
 
@@ -62,13 +62,13 @@ Before Claude Cowork, Annabel picked up every request from a dedicated Slack cha
 
 Once an hour, a **dispatcher skill** reads the channel, picks the most urgent request, stamps the ticket so the work doesn't get duplicated, and hands it off to one of five specialist skills that Annabel has set up to do the required work. It doesn’t do any event setup itself; its job is to decide what runs next, and keeping it separate lets Annabel refine each specialist skill on its own without touching the routing.
 
-![The dispatcher skill, edited for publication to show demo data and information, reads the channel and hand off requests to one of five specialist skills that do the required work.](../_media/claude-how-anthropic-s-marketing-operations-team-uses-claude-cowork/Claude_how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds_3.png)
+![The dispatcher skill, edited for publication to show demo data and information, reads the channel and hand off requests to one of five specialist skills that do the required work.](https://assets.claude.com/2fac0143d74fdbda9f26332805dd2b6fa4292d53.png)
 
 *The dispatcher skill, edited for publication to show demo data and information, reads the channel and hand off requests to one of five specialist skills that do the required work.*
 
 For an event build, which is the most complex request type, an **event-build skill** handles the full sequence end to end: CRM campaign creation, marketing automation campaign with workflows and lists, event platform setup, email drafting, landing page generation, and all of the integrations between them. 
 
-![The event-build skill (excerpted and edited for publication) scripts two Slack updates: when Claude picks up the request, and when the landing page is ready for the requester's review and the audit takes over.](../_media/claude-how-anthropic-s-marketing-operations-team-uses-claude-cowork/Claude_how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds_4.png)
+![The event-build skill (excerpted and edited for publication) scripts two Slack updates: when Claude picks up the request, and when the landing page is ready for the requester's review and the audit takes over.](https://assets.claude.com/5c9c5cc2da7167c3016c29a3d0da2f7b7932b702.png)
 
 *The event-build skill (excerpted and edited for publication) scripts two Slack updates: when Claude picks up the request, and when the landing page is ready for the requester's review and the audit takes over.*
 

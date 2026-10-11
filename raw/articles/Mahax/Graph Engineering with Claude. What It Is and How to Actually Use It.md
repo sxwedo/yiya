@@ -29,7 +29,7 @@ A node is a unit of work. One agent, one task, one thing going in and one thing 
 
 An edge is a dependency. It connects two nodes when the second one genuinely needs what the first one produced. Not "these two things happen in sequence." Only when the output of one actually feeds the input of the other.
 
-![Image](../_media/mahax-graph-engineering/Mahaximus__2082442856417956173_1.jpg)
+![Image](https://pbs.twimg.com/media/HOVfttcXYAAscNA.jpg)
 
 That's it. Nodes do the work. Edges carry what moves between them. Everything else in graph engineering is just applying those two ideas at different scales.
 
@@ -97,7 +97,7 @@ Once you start removing fake edges, one pattern shows up more than any other. It
 
 The idea is simple. One node fans out into several parallel nodes. Those parallel nodes all feed into one final node that pulls their outputs together. Draw it out and it looks like a diamond.
 
-![Image](../_media/mahax-graph-engineering/Mahaximus__2082442856417956173_2.jpg)
+![Image](https://pbs.twimg.com/media/HOVmhU6WQAA9iEi.jpg)
 
 Here is what that looks like in practice. Say you are researching a topic to write about. The linear version looks like this: search → read source 1 → read source 2 → read source 3 → synthesize.
 
@@ -246,7 +246,7 @@ nodes:
     output: comparison.md
 \`\`\`
 
-![Image](../_media/mahax-graph-engineering/Mahaximus__2082442856417956173_3.jpg)
+![Image](https://pbs.twimg.com/media/HOVraK_XcAEtkR4.jpg)
 
 Three things to notice. First, research\_a, research\_b, and research\_c have no depends\_on - Claude runs all three at the same time the moment the workflow starts. Second, checker lists all three as dependencies, so it waits until all three finish before it runs. Third, compare depends only on checker, not directly on the research nodes - the checker is the gatekeeper
 
@@ -380,5 +380,5 @@ The rest follows from there.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/mahax-graph-engineering/Mahaximus__2082442856417956173_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HOVxJdDWIAEWu_d.jpg)
 

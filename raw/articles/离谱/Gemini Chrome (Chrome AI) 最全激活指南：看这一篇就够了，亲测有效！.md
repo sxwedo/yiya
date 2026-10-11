@@ -61,13 +61,13 @@ Gemini Chrome 只在米国开放了，所以要切换至米国线路，其次要
 
 在 Gemini界面上，点击右上角的头像，点击服务条款，在服务条款中可以看到账号所在的国家或地区。如下图所示：
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_6.jpg)
+![Image](https://pbs.twimg.com/media/G_-uNd5bEAElp65.jpg)
 
 ## 如何查看账号获得了官方下发的 Gemini Chrome 使用资格？
 
 在 Chrome浏览器地址栏中输入 chrome://sync-internals 并回车，点击上面Tab “Sync Node Browser” ，接着点击 “Priority Preferences” 文件夹，查看是否存在一个名为 “sync.glic\_rollout\_eligibility” 的条目，点击后，右侧会出现“true”的资格确认/开启代码。如下图所示。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_1.png)
+![Image](https://pbs.twimg.com/media/G_-uVQmakAAgfIU.png)
 
 若没有“sync.glic\_rollout\_eligibility”则说明你的账号没有资格。
 
@@ -87,7 +87,7 @@ Gemini Chrome 只在米国开放了，所以要切换至米国线路，其次要
 
 若若这些方法都尝试了还未出现 Gemini的图标的话，则可能是 Glic功能没有打开，可以在 Chrome 地址栏输入“chrome://flags/”，进入 Experiments（实验室），依次开启Glic、Tabstrip Combo Button和Glic side panel，即 Default 改成 Enabled，最后点击右下角的“重新启动”即可。如下图所示。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_11.jpg)
+![Image](https://pbs.twimg.com/media/G_-ujCOa4AA8x0r.jpg)
 
 说明：这里的 Glic 其实就是谷歌内部对 Gemini Live in Chrome（或者更广泛的 Chrome AI 助手项目）的代号。
 
@@ -97,7 +97,7 @@ Glic (核心开关)：启用 Glic，这是 Gemini 助手的总开关。
 
 Glic side panel (Glic 侧边栏)：启用 Glic 的多个侧边栏。这是本次更新的新的交互方式——侧边栏。若大家将 Chrome 浏览器更新至最新后（Win版本 144.0.7559.110），发现设置中侧边栏配置是置灰状态，如下图所示，则可以在这里将Glic side panel开启。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_8.png)
+![Image](https://pbs.twimg.com/media/G_-uu_-bQAANpk9.png)
 
 # 脚本修改法（以 Windows电脑为例，仅展示邪修）
 
@@ -123,7 +123,7 @@ Glic side panel (Glic 侧边栏)：启用 Glic 的多个侧边栏。这是本次
 
 1\. 在电脑开始搜索框中搜 PowerShell，右键以管理员身份运行。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_10.jpg)
+![Image](https://pbs.twimg.com/media/G_-u6iZaYAAYxs2.jpg)
 
 2\. 粘贴并运行以下命令：
 
@@ -133,7 +133,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 \| i
 
 窗口会显示下载和进度，完成后输入 uv --version，如果出现 uv 0.x.x，如下图所示uv 0.9.28则说明成功了。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_2.png)
+![Image](https://pbs.twimg.com/media/G_-vJvEbEAMUmkR.png)
 
 步骤三：下载 lcandy2/enable-chrome-ai 项目
 
@@ -167,15 +167,15 @@ https://github.com/lcandy2/enable-chrome-ai
 
 2\. 点击 Code，在下拉栏中点击 Download ZIP，下载项目压缩包。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_9.jpg)
+![Image](https://pbs.twimg.com/media/G_-veLvaEAA-_Sa.jpg)
 
 3\. 解压该项目压缩包后，进入该文件夹中，在地址栏上输入 cmd 并回车，进入该项目的命令行窗口。
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_4.png)
+![Image](https://pbs.twimg.com/media/G_-vi6Ra4AAlV90.png)
 
 4\. 同步环境：在命令窗口输入 uv sync 下载程序。如下图所示：
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_5.png)
+![Image](https://pbs.twimg.com/media/G_-vo6NbEAEXLyk.png)
 
 5\. 执行修改：输入以下命令，此时 Chrome 会被强制关闭和重启
 
@@ -183,7 +183,7 @@ https://github.com/lcandy2/enable-chrome-ai
 uv run main.py
 \`\`\`
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_3.png)
+![Image](https://pbs.twimg.com/media/G_-wE6SbEAgfSpa.png)
 
 不出意外，Chrome 浏览器右上角会出现 Gemini角标了。
 
@@ -233,7 +233,7 @@ uv run main.py
 
 "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --variations-override-country=us
 
-![Image](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_7.png)
+![Image](https://pbs.twimg.com/media/G_-yhi6aUAAylxn.png)
 
 步骤三：保存并运行。点击右下角的“应用”-&gt;“确定”。如果系统提示需要管理员权限，点击“继续”。双击这个修改过的快捷方式启动 Chrome。
 
@@ -261,7 +261,7 @@ Mac 用户： 必须每次都用这行命令启动。为了方便，你可以�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2017527560016691266/LipuAIX_2017527560016691266_12.jpg)
+![Image 1](https://pbs.twimg.com/media/G_-yCEMbEAMiOST.jpg)
 
 ## 💬 Replies
 

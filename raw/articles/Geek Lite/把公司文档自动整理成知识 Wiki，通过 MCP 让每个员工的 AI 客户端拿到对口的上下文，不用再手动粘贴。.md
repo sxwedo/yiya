@@ -17,7 +17,7 @@ Arkon 是可自部署的企业 AI 知识中枢。上传 SOP、政策、产品文
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052937851906510857/QingQ77_2052937851906510857_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HHsR3X6bAAAyMPM?format=jpg&name=medium)
 
 ## 💬 Replies
 

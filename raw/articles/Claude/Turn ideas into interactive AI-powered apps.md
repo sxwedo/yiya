@@ -41,7 +41,7 @@ Additionally, our new artifacts space makes creation seamless:
 
 Music producer Rick Rubin captured this shift perfectly with “[The Way of Code](https://www.thewayofcode.com/),” exploring how conversation itself becomes a form of creative expression. His project paired 81 meditations with interactive artifacts that anyone can reshape with Claude.
 
-![An image titled](../_media/claude-build-artifacts/Claude_build-artifacts_1.png)
+![An image titled](https://assets.claude.com/163fe1d05e30df285cabe24fe3454215edfa4ec9.png)
 
 ### Getting started ###
 

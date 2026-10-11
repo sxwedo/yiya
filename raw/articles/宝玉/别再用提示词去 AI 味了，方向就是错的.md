@@ -47,7 +47,7 @@ AI 在用所有训练数据的平均风格写作。它学过无数人的文字�
 
 ## 【3】从提示词到写作风格 Agent Skills
 
-![Image](../_media/x-2022774029220749538/dotey_2022774029220749538_4.jpg)
+![Image](https://pbs.twimg.com/media/HBJVig3W0AAPPb8.jpg)
 
 提示词是你每次口头跟厨子说"少盐、少辣、别太甜"，这次说完他按你要求做了，但下次再做就忘了。
 
@@ -87,7 +87,7 @@ AI 在用所有训练数据的平均风格写作。它学过无数人的文字�
 
 XIMGPH\_2
 
-![Image](../_media/x-2022774029220749538/dotey_2022774029220749538_1.jpg)
+![Image](https://pbs.twimg.com/media/HBJVkeQacAAExZy.jpg)
 
 第三步：根据你的反馈更新菜谱。
 
@@ -97,7 +97,7 @@ XIMGPH\_2
 
 再比如，AI 发现你把所有的“首先……其次……最后……”结构都改成了平铺直叙，它就会在 Skill 里加一条：“禁止使用'首先、其次、最后'的三段式结构，改为自然过渡。”
 
-![Image](../_media/x-2022774029220749538/dotey_2022774029220749538_5.jpg)
+![Image](https://pbs.twimg.com/media/HBJVmjRaIAAB_7y.jpg)
 
 每一次修改都是训练数据。 几轮下来，Skill 里会积累出非常具体的规则，比你一开始凭空写的规则精准得多。
 
@@ -111,7 +111,7 @@ XIMGPH\_2
 
 XIMGPH\_4
 
-![Image](../_media/x-2022774029220749538/dotey_2022774029220749538_3.jpg)
+![Image](https://pbs.twimg.com/media/HBJVosaXkAAEtZx.jpg)
 
 我自己的 Skill 到现在还在更新。就像这一篇，在和 AI 反复迭代了几个版本后，我手动修改了一遍，修改完又迭代了一版。
 
@@ -139,7 +139,7 @@ Skill 文档分四个部分，你可以在这个基础上改。
 
 ## 【6】一份底味，百道菜：和其他 Agent Skills 组合
 
-![Image](../_media/x-2022774029220749538/dotey_2022774029220749538_2.jpg)
+![Image](https://pbs.twimg.com/media/HBJVqxQWoAASI6w.jpg)
 
 做菜有个概念叫"底味"。川菜的底味是麻辣，粤菜的底味是鲜甜。不管做什么具体的菜，底味是不变的。
 
@@ -171,7 +171,7 @@ AI 的平均风格就像食堂大锅菜，营养够，能吃饱，但没人会�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2022774029220749538/dotey_2022774029220749538_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HBJVflDXsAEVykL.jpg)
 
 ## 💬 Replies
 

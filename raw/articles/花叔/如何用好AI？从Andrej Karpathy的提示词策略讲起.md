@@ -13,7 +13,7 @@ type: "Article"
 
 Andrej Karpathy昨天发了条X，讲当AI越来越强，输出速度也越来越快后，我们怎么更好地看懂AI的输出，我觉得非常有参考价值。有很实用的可以直接借用的Prompt，也可以从他的例子延伸出去，聊聊怎么让Agent产出更符合自己需要的东西。
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_4.jpg)
+![Image](https://pbs.twimg.com/media/HTsB889XsAA2POG.jpg)
 
 他给了四个办法：
 
@@ -34,7 +34,7 @@ https://x.com/karpathy/status/2105819303471976479
 
 这条X我看的时候已经有两万多收藏，然后我看到有人当天就照着把ASD-STE100写进了CLAUDE.md、system prompt，GitHub上一天多就新建了29个名字里带ASD-STE100的仓库，不少是把它做成了skill，好像捡到了一本秘籍。其实这招两个月前就在圈里火过一轮，Matt Pocock把它写进了全局CLAUDE.md，levelsio让Claude存进了memory，两条都有好几千赞：
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_12.jpg)
+![Image](https://pbs.twimg.com/media/HTsC3tfXIAAycYo.jpg)
 
 公众号上也一样，我搜了一下，昨天到今天光标题里带Karpathy的就有十几篇，翻下来基本都在转述他的四个办法。
 
@@ -52,11 +52,11 @@ AGENTS.md、CLAUDE.md这类配置每次开会话都会加载，你写代码、�
 
 ASD-STE100这个名字我倒也是第一次知道。它是一套最早给航空维修手册用的受控英语规范，有写作规则也有词典，哪个词能用、一句话最多几个词，都规定得死死的。Karpathy帖子里附的这张图，把规则分节、词典条目、字数上限都摆在了一页上：
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_14.jpg)
+![Image](https://pbs.twimg.com/media/HTsB8v0WEAAzKyp.jpg)
 
 拿图里那句改写来看，ensure、prior to、commence这些词都不在批准词表里，词典直接给了替换：
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_11.png)
+![Image](https://pbs.twimg.com/media/HTsB6GoWAAAIaYU.png)
 
 再对比一下我们平时最常说的「写得简洁一点」，你想要的是字少一点，句子短一点，还是少用术语？这些都可以叫简洁，AI大概只能挑一个它觉得对的。
 
@@ -72,7 +72,7 @@ ASD-STE100这个名字我倒也是第一次知道。它是一套最早给航空�
 
 ## 看文字的结果
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_7.jpg)
+![Image](https://pbs.twimg.com/media/HTsB4n2XwAACBSg.jpg)
 
 「写得简洁一点」那组是我最意外的，我原本以为它至少会短一点，可能现在的模型不用提醒也写得挺简洁了。
 
@@ -82,25 +82,25 @@ ASD-STE100这个名字我倒也是第一次知道。它是一套最早给航空�
 
 全文在这，左右滑动可以看：
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_5.jpg)
+![Image](https://pbs.twimg.com/media/HTsB2OVW4AAe3V_.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_16.jpg)
+![Image](https://pbs.twimg.com/media/HTsBzqJX0AAAQSa.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_8.jpg)
+![Image](https://pbs.twimg.com/media/HTsBxdaXoAA6Ml1.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_15.jpg)
+![Image](https://pbs.twimg.com/media/HTsBu4bXcAAD-KR.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_17.jpg)
+![Image](https://pbs.twimg.com/media/HTsBsLFWcAE8rjU.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_3.jpg)
+![Image](https://pbs.twimg.com/media/HTsBpwQXkAA3eMO.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_10.jpg)
+![Image](https://pbs.twimg.com/media/HTsBncrXsAA4AZq.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_6.jpg)
+![Image](https://pbs.twimg.com/media/HTsBkpgX0AIoLNi.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_2.jpg)
+![Image](https://pbs.twimg.com/media/HTsBi9MXEAAOGsR.jpg)
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_13.jpg)
+![Image](https://pbs.twimg.com/media/HTsBhf9XUAAjc0p.jpg)
 
 所以选哪个被压缩过的词汇去调整模型的输出，得看你要什么：想让说明好查、不出歧义，可以试ASD-STE100或者维基百科词条；想让读者第一句就拿到结论，试金字塔原理或者新闻倒金字塔；想写得有点意思，苏格拉底式对话、单口相声都可以；要发小红书，直接说小红书笔记就行。
 
@@ -108,7 +108,7 @@ ASD-STE100这个名字我倒也是第一次知道。它是一套最早给航空�
 
 文字测完，我又想知道名字在图上管不管用，就让四个agent各画一张RSI的图解，提示词同样只差一句：不加要求、「画得高级一点」、「用3Blue1Brown的风格」和「用xkcd的风格」，每个条件只生成了一版。
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_1.jpg)
+![Image](https://pbs.twimg.com/media/HTsBfuPW4AAf793.jpg)
 
 「画得高级一点」那张换了字体，把循环画成了螺旋，配色还是不加要求那一路；两个名字那两张，从配色、字体到线条整套都换了。
 
@@ -118,7 +118,7 @@ Karpathy最看好的是讲解视频，最近大家也都在关注GPT-6 Astra、O
 
 J-cut，下一个镜头的声音先进来，画面再切过去，比如「从街景切到咖啡店时做J-cut，先听见店里的磨豆机声，再看见咖啡店」；L-cut反过来，画面已经切走了，上一个镜头的声音还在，比如人还在讲最后一句，画面已经切到了电脑演示。这两个字母，来自它们在剪辑软件时间线上摆出来的形状：
 
-![Image](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_9.png)
+![Image](https://pbs.twimg.com/media/HTsBeH6WEAANzXA.png)
 
 Match cut，用前后两个镜头共同的形状、构图或者动作把它们接起来，比如让杯口和月亮在画面里大小、位置对上；cut on action，在动作进行中切，下一个镜头接着同一个动作，比如抬杯抬到一半，从中景切到手部特写。
 
@@ -146,7 +146,7 @@ Match cut，用前后两个镜头共同的形状、构图或者动作把它们�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2106280969506377759/AlchainHust_2106280969506377759_18.jpg)
+![Image 1](https://pbs.twimg.com/media/HTsCSAfXwAEG4sT.jpg)
 
 ## 💬 Replies
 

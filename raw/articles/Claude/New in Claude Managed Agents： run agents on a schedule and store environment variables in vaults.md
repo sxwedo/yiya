@@ -18,7 +18,7 @@ Agents can now run on a schedule, completing routine work automatically. A [sche
 
 Use it for recurring work like a nightly data sync, a weekly compliance scan, or a daily digest. Once a deployment is live, you can pause, resume, or archive it at any time, or trigger additional runs on demand.
 
-![](../_media/claude-new-in-claude-managed-agents-run-agents-on-a-schedule-and-st/Claude_whats-new-in-claude-managed-agents_1.png)
+![](https://assets.claude.com/baff2128f2d026b8c6892798adfc4021170bce04.png)
 
 Teams are already using scheduled deployments to automate recurring work:
 
@@ -34,7 +34,7 @@ Agents[connect to external systems](https://claude.com/blog/building-agents-that
 
 The agent never sees your key because the sandbox only holds a placeholder. The real key is attached at the network boundary, and only on requests to domains you allow, so it only goes where you’ve approved. To change a key, update it in the vault, and running sessions will pick up the new value on their next call. Most CLIs that send their key in an HTTP request work this way, including the Browserbase, KERNEL, Notion, Ramp, and Sentry CLIs. [Browserbase](https://docs.browserbase.com/integrations/anthropic/managed-agents/quickstart) and [KERNEL](https://www.kernel.sh/docs/integrations/claude-managed-agents) give Managed Agents browser capabilities for the first time, so agents can navigate and interact with the web alongside their other tools.
 
-![](../_media/claude-new-in-claude-managed-agents-run-agents-on-a-schedule-and-st/Claude_whats-new-in-claude-managed-agents_2.png)
+![](https://assets.claude.com/e17afdf706d61056b4686ea4649ab1f0ee2e706e.png)
 
 Teams are using environment variables in vaults to give agents secure access to authenticated tools:
 

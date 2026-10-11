@@ -22,7 +22,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052726850431148059/Khazix0918_2052726850431148059_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HHzAGTeboAAWSwA?format=jpg&name=medium)
 
 ## 💬 Replies
 

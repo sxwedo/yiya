@@ -56,7 +56,7 @@ To start, he opened Claude Code and described his problem through a prompt: "Cla
 
 Claude went out and did the research, evaluating how to best build a plugin, what the limitations were, and then started prototyping. After some troubleshooting, Austin had a working plugin installed in Figma.
 
-![__wf_reserved_inherit](../_media/claude-how-anthropic-s-growth-marketing-team-cut-ad-creation-time-f/Claude_how-anthropic-uses-claude-marketing_1.png)
+![__wf_reserved_inherit](https://assets.claude.com/8fcd4943e754755157c55f1a059597756373119a.png)
 
 *Austin's plugin lets him paste headline copy from a Google Sheet and generate dozens of ad variants with a single click.*
 
@@ -76,7 +76,7 @@ That refinement matters because Austin is evaluating each headline against what 
 
 And all of this builds on a human foundation. "All of the copy and examples that we provide Claude were written in partnership with the product marketing and copywriting teams," Austin says. That strong starting point means there's human judgment baked in before Claude even starts brainstorming.
 
-![__wf_reserved_inherit](../_media/claude-how-anthropic-s-growth-marketing-team-cut-ad-creation-time-f/Claude_how-anthropic-uses-claude-marketing_2.png)
+![__wf_reserved_inherit](https://assets.claude.com/d18dbdc9038dfaa0e2f44d3edab18218729ff229.png)
 
 *The workflow exports the relevant campaign and ad group columns, along with 15 headlines, and 4 descriptions per ad into a CSV file ready to upload directly into Google Ads (after undergoing manual review).*
 

@@ -59,7 +59,7 @@ and a small set of running notes travels along with the work, holding what was f
 
 i turned this whole vocabulary into the card below, so save it once and you will never need a definition again:
 
-![Image](../_media/x-2079934660982047021/EXM7777_2079934660982047021_6.jpg)
+![Image](https://pbs.twimg.com/media/HN1pgO8aQAAth8F.jpg)
 
 now i would advise you to do one thing tonight, before you touch any new tool
 
@@ -95,7 +95,7 @@ so you should never let the same agent grade its own homework
 
 give the checking to a separate job whose only task is to kill weak findings before they reach you, and give every checker a different question... one asks if it is correct, one asks if it is current, one asks if the source is real
 
-![Image](../_media/x-2079934660982047021/EXM7777_2079934660982047021_2.jpg)
+![Image](https://pbs.twimg.com/media/HN1pgwiaIAA_sNU.jpg)
 
 ## lesson 3: the stop rule
 
@@ -129,7 +129,7 @@ i would also advise you to judge the whole system on numbers that cannot argue b
 
 four small rules keep everything from becoming an expensive accident, and the card below is the version you save: every loop gets a maximum number of rounds, only one job writes to any one file, the routing lives in written steps while the AI fills the jobs, and there is always a cap on how many agents can spawn
 
-![Image](../_media/x-2079934660982047021/EXM7777_2079934660982047021_3.jpg)
+![Image](https://pbs.twimg.com/media/HN1phTFbwAEGA_U.jpg)
 
 ---
 
@@ -147,7 +147,7 @@ you probably decided it on a week of googling, or an expensive analyst invoice, 
 
 your question splits into five angles, five researchers dig at once, a skeptic attacks every finding, and only the survivors reach the final report with their sources attached
 
-![Image](../_media/x-2079934660982047021/EXM7777_2079934660982047021_5.jpg)
+![Image](https://pbs.twimg.com/media/HN1ph0YaAAEuE55.jpg)
 
 1. open Claude Code in an empty folder
 
@@ -173,7 +173,7 @@ this build writes one ranking-ready draft per run, and it never publishes withou
 
 three researchers work side by side, one on what the current top pages cover, one on the real questions people ask, one on what everyone misses, then their work merges into an outline, a draft gets written and fact-checked, and it waits in your folder for your yes
 
-![Image](../_media/x-2079934660982047021/EXM7777_2079934660982047021_1.jpg)
+![Image](https://pbs.twimg.com/media/HN1piWMbAAAlOCq.jpg)
 
 1. pick the one topic your customers type into google
 
@@ -201,7 +201,7 @@ three researchers profile the buyer, the channels and the competition in paralle
 
 then three writers draft the landing copy, the launch posts and the outreach messages side by side, a checker flags anything that drifts from the positioning, and the kit lands in a folder where nothing goes live on its own
 
-![Image](../_media/x-2079934660982047021/EXM7777_2079934660982047021_4.jpg)
+![Image](https://pbs.twimg.com/media/HN1pi38a4AAJ7Rb.jpg)
 
 1. name the product and the person it is for, one line each
 
@@ -249,7 +249,7 @@ that is the first move of the whole craft, it costs nothing, and it usually remo
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2079934660982047021/EXM7777_2079934660982047021_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HN1pfpdaEAAZMeZ.jpg)
 
 ## 💬 Replies
 

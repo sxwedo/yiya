@@ -23,7 +23,7 @@ This guide: the full setup, 3 copy-paste loops, and every mistake I made in week
 
 No code required.
 
-![Image](../_media/x-2073391903819608421/free_ai_guides_2073391903819608421_4.jpg)
+![Image](https://pbs.twimg.com/media/HMYkYTwX0AAyvph.jpg)
 
 What's inside:
 
@@ -89,7 +89,7 @@ Step 3: Watch the first cycle. Claude will plan its approach, start searching, c
 
 When all 5 entries are complete and sourced, it stops.
 
-![Image](../_media/x-2073391903819608421/free_ai_guides_2073391903819608421_2.jpg)
+![Image](https://pbs.twimg.com/media/HMYkvkdXkAAohBU.jpg)
 
 That's it. You just ran your first loop.
 
@@ -105,7 +105,7 @@ Every good loop has four elements. Miss one and the loop either produces bad out
 
 I learned this the hard way (more on that in the mistakes section).
 
-![Image](../_media/x-2073391903819608421/free_ai_guides_2073391903819608421_3.jpg)
+![Image](https://pbs.twimg.com/media/HMYk47NWAAAhcZ4.jpg)
 
 1\. The Goal (what "done" looks like)
 
@@ -176,7 +176,7 @@ These are real loops I've run in the past three weeks.
 
 Each one is copy-paste ready. Customize the bracketed parts for your situation.
 
-![Image](../_media/x-2073391903819608421/free_ai_guides_2073391903819608421_5.jpg)
+![Image](https://pbs.twimg.com/media/HMYlVioWYAA-PTy.jpg)
 
 Loop 1: The Research Brief
 
@@ -263,7 +263,7 @@ Every one of these cost me either wasted output, wasted tokens, or both.
 
 Each one is fixable in under a minute.
 
-![Image](../_media/x-2073391903819608421/free_ai_guides_2073391903819608421_1.jpg)
+![Image](https://pbs.twimg.com/media/HMYnCW-WYAAr3V8.jpg)
 
 Mistake 1: No failure stop.
 
@@ -357,7 +357,7 @@ Follow @free\_ai\_guides for more like this [❤️](https://abs.twimg.com/emoji
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073391903819608421/free_ai_guides_2073391903819608421_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMYkQ1UWcAAT2TX.jpg)
 
 ## 💬 Replies
 

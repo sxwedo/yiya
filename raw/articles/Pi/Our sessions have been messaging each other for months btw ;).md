@@ -15,7 +15,7 @@ Our sessions have been messaging each other for months btw ;)
 
 Open source Pi packages mean there are multiple ways you can customize Pi. Link to this package and more below. 
 
-![Image](../_media/x-2086053165460267047/pidotdev_2086053165460267047_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/2086049201503256576/img/eCREvGA44IEOR6fo.jpg)
 
 ## 💬 Replies
 

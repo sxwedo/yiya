@@ -28,6 +28,6 @@ This feature will be on by default. Claude will decide when to build a visual fo
 
 These visuals are part of a broader set of improvements we’ve made to Claude’s responses recently. Earlier this year, Claude began using purpose-designed formats for some topics: recipes, for example, now appear with ingredients and steps, and Claude provides a visual when you ask it for the weather. You can also [interact directly](https://claude.com/blog/interactive-tools-in-claude) with apps like Figma, Canva, and Slack within your discussions.
 
-![](../_media/claude-claude-builds-visuals/Claude_claude-builds-visuals_2.png)
+![](https://assets.claude.com/ab34fed16cf592864c262b3d9b359a8ed3ee6668.png)
 
 Try it today. This feature is available on all plan types.

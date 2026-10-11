@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/nanyuan0412/status/2098245691542061090) · [X 文章](https://x.com/i/article/2098244453391835136)
 
-![封面](../_media/x-2098245691542061090/nanyuan0412_2098244553270755328_1.jpg)
+![封面](https://pbs.twimg.com/media/HR52TeGaAAA133a.jpg)
 
 最近GPT Image 2.5更新了，我玩了两天，最让我无语的是，他那个脸一直都是底膜的脸，我就非常难受，非常难受。我就在想，怎么样才能解决这个问题？于是我就搞了这个Skill。
 
@@ -33,7 +33,7 @@ type: "Article"
 
 短卷发、暖光、砖红色嘴唇，人物的复古感比较明确。头发和耳饰也在配合这个方向。
 
-![Image](../_media/x-2098245691542061090/nanyuan0412_2098244530046971904_2.jpg)
+![Image](https://pbs.twimg.com/media/HR52SHlbMAAUOBh.jpg)
 
 这张就轻了很多。浅色针织衫，淡淡的唇色，嘴角稍微带一点笑，像日常拍照时会留下来的一张。
 
@@ -73,7 +73,7 @@ type: "Article"
 
 确定之后，我再发了一句“生成图片”，得到这张：
 
-![Image](../_media/x-2098245691542061090/nanyuan0412_2098244540746600448_3.jpg)
+![Image](https://pbs.twimg.com/media/HR52SvcakAA29d6.jpg)
 
 这张按唐风创作来理解就好，没做严格的历史妆容复原。
 
@@ -117,7 +117,7 @@ https://github.com/nuyoah-ai-works/nuyoah-portrait-character-designer
 
 它展开之后，生成的是这张窗边人像。
 
-![Image](../_media/x-2098245691542061090/nanyuan0412_2098244509276770304_4.jpg)
+![Image](https://pbs.twimg.com/media/HR52Q6NbEAAdBO-.jpg)
 
 然后我想换成更亮的校园场景，扎高马尾，人物再青春洋溢一点。
 
@@ -147,7 +147,7 @@ https://github.com/nuyoah-ai-works/nuyoah-portrait-character-designer
 
 喜欢一套妆，想换几张不同的脸，可以这样说：
 
-![Image](../_media/x-2098245691542061090/nanyuan0412_2098244481976094720_5.jpg)
+![Image](https://pbs.twimg.com/media/HR52PUgb0AALnel.jpg)
 
 这里的“不同脸”，要从比例、眼鼻、下颌等结构上拉开。换发型、换衣服，不能拿来凑不同人物。妆容则保留主色、质地、线条方向和相对落点。
 
@@ -157,7 +157,7 @@ https://github.com/nuyoah-ai-works/nuyoah-portrait-character-designer/releases/d
 
 看到参考图，单纯想借它的妆，也可以说：
 
-![Image](../_media/x-2098245691542061090/nanyuan0412_2098244458009772032_6.jpg)
+![Image](https://pbs.twimg.com/media/HR52N7OawAAYm7F.jpg)
 
 这些是 Skill 里的设计与修改规则。本篇没有把每一种都做成图片对照，实际生图时，人脸有没有保持、妆有没有落准，还是要看结果。
 

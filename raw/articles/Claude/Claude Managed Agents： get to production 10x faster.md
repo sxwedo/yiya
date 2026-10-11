@@ -35,7 +35,7 @@ Managed Agents includes:
 * **Multi-agent coordination** so agents can spin up and direct other agents to parallelize complex work (available in *research preview*, request access [here](http://claude.com/form/claude-managed-agents)).**‍**
 * **Trusted governance,** giving agents access to real systems with scoped permissions, identity management, and execution tracing built in.
 
-![Claude Managed Agents architecture](../_media/claude-claude-managed-agents-get-to-production-10x-faster/Claude_claude-managed-agents_1.png)
+![Claude Managed Agents architecture](https://assets.claude.com/08b6a06365ef3624bef93f9cdcff4b29e80ad7f2.png)
 
 *Claude Managed Agents architecture*
 

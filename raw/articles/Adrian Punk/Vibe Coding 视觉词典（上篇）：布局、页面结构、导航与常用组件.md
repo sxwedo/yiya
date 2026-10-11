@@ -89,7 +89,7 @@ type: "Article"
 桌面端保持左右分屏，手机端改为上下结构，文字在前、视觉在后。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_15.jpg)
+![Image](https://pbs.twimg.com/media/HO22G2KbsAA_iaJ.jpg)
 
 # 5\. CSS 网格布局 CSS Grid Layout
 
@@ -141,7 +141,7 @@ Punk 网站的顶部导航使用 Flexbox，左侧显示 Punk Logo，右侧显示
 桌面端侧栏固定，手机端转换为 Drawer。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_4.jpg)
+![Image](https://pbs.twimg.com/media/HO22O6AbIAA2ues.jpg)
 
 # 9\. 响应式布局 Responsive Layout
 
@@ -168,7 +168,7 @@ Punk 网站的顶部导航使用 Flexbox，左侧显示 Punk Logo，右侧显示
 Hero 下方的正文重新回到 1120px 的居中容器，并保证文字与背景有足够对比度。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_16.jpg)
+![Image](https://pbs.twimg.com/media/HO22YTxasAAPi1b.jpg)
 
 # 第二章：页面结构 Page Structure
 
@@ -222,7 +222,7 @@ Hero 下方的正文重新回到 1120px 的居中容器，并保证文字与背�
 顶部使用大封面，正文保持窄阅读宽度，过程图片可全宽穿插，桌面端右侧提供 Sticky Table of Contents。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_5.jpg)
+![Image](https://pbs.twimg.com/media/HO22lQfaoAArSyC.jpg)
 
 # 15\. 首屏 Hero Section
 
@@ -266,7 +266,7 @@ Hero 下方的正文重新回到 1120px 的居中容器，并保证文字与背�
 在 Punk 的 About 页面添加一条 Vertical Timeline，每个节点包含年份、事件名称和两行说明；桌面端内容位于时间线右侧，手机端保持单列；使用细绿色线条和圆形节点，不要做成复杂路线地图。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_2.jpg)
+![Image](https://pbs.twimg.com/media/HO220vAaMAA8hR4.jpg)
 
 # 19\. 常见问题 FAQ Section
 
@@ -292,7 +292,7 @@ Hero 下方的正文重新回到 1120px 的居中容器，并保证文字与背�
 使用深绿色背景和米白文字，与页面主体形成明确收尾。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_11.jpg)
+![Image](https://pbs.twimg.com/media/HO229vSaEAE2HI_.jpg)
 
 # 第三章：导航与切换 Navigation
 
@@ -323,7 +323,7 @@ Punk 网站在 768px 以下使用 Hamburger Menu，
 打开后锁定背景滚动，支持 Esc 关闭、点击遮罩关闭和键盘焦点管理。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_10.jpg)
+![Image](https://pbs.twimg.com/media/HO2_vS-bIAA_hqe.jpg)
 
 # 23\. 面包屑 Breadcrumb
 
@@ -350,7 +350,7 @@ Punk 网站在 768px 以下使用 Hamburger Menu，
 并让当前所在区块对应的导航项显示 active 状态。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_14.jpg)
+![Image](https://pbs.twimg.com/media/HO3BtWha8AAuYb0.jpg)
 
 # 25\. 标签切换 Tabs
 
@@ -376,7 +376,7 @@ Punk 网站在 768px 以下使用 Hamburger Menu，
 桌面端固定显示，手机端收起为 Drawer。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_9.jpg)
+![Image](https://pbs.twimg.com/media/HO3ClRNb0AAf6eA.jpg)
 
 # 27\. 超级菜单 Mega Menu
 
@@ -403,7 +403,7 @@ Punk 网站的 Work 导航项使用 Mega Menu，
 桌面端不显示该组件。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_8.jpg)
+![Image](https://pbs.twimg.com/media/HO3CeTlaYAANyn7.jpg)
 
 # 29\. 分页 Pagination
 
@@ -430,7 +430,7 @@ Punk 网站的 Work 导航项使用 Mega Menu，
 按钮提供 aria-label="返回顶部"，并在 reduced motion 模式下取消平滑动画。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_3.jpg)
+![Image](https://pbs.twimg.com/media/HO3CYV0aYAAcEej.jpg)
 
 # 第四章：常用组件 UI Components
 
@@ -461,7 +461,7 @@ Punk 的项目列表点击卡片后，从右侧打开一个 Project Detail Drawe
 页面主体仍然可见但不可操作，手机端让 Drawer 从底部打开并接近全屏。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_1.jpg)
+![Image](https://pbs.twimg.com/media/HO3CsoIagAA306X.jpg)
 
 # 33\. 手风琴 Accordion
 
@@ -487,7 +487,7 @@ Punk 的项目列表点击卡片后，从右侧打开一个 Project Detail Drawe
 不要只支持 hover，触屏设备需要提供可理解的替代方式。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_13.jpg)
+![Image](https://pbs.twimg.com/media/HO3Cvt7aQAAloMU.jpg)
 
 # 35\. 轻提示 Toast
 
@@ -514,7 +514,7 @@ Toast 包含状态图标、文字和关闭按钮，4 秒后自动消失；
 默认不自动播放，支持触摸滑动和键盘操作，用户启用 reduced motion 时取消滑行动画。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_12.jpg)
+![Image](https://pbs.twimg.com/media/HO3C4A-bgAAzgzj.jpg)
 
 # 37\. 图片灯箱 Lightbox
 
@@ -541,7 +541,7 @@ Toast 包含状态图标、文字和关闭按钮，4 秒后自动消失；
 提交中显示 loading 状态，成功后显示 Toast，并在确认提交成功前保留用户输入内容。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_7.jpg)
+![Image](https://pbs.twimg.com/media/HO3C_zWbIAA9IXo.jpg)
 
 # 39\. 命令面板 Command Palette
 
@@ -565,7 +565,7 @@ Toast 包含状态图标、文字和关闭按钮，4 秒后自动消失；
 按钮不能遮挡底部导航或重要内容，并考虑移动端安全区域。
 \`\`\`
 
-![Image](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_6.jpg)
+![Image](https://pbs.twimg.com/media/HO3DC-_bEAAASJ9.jpg)
 
 # 一段可以直接复制的完整网页提示词
 
@@ -597,7 +597,7 @@ Punk｜中科大 MBA｜HerName 首席设计师｜Stanley 商学院执行院长�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2084538166577602899/AdrianPunk115_2084538166577602899_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HO3EYeDa8AA43xA.jpg)
 
 ## 💬 Replies
 

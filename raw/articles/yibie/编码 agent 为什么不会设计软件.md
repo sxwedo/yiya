@@ -173,5 +173,5 @@ Mario：用最新的 Opus，我有所有这些推理……我把推理任务交�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/yibie-agent-wont-design/yibie_2108463381607027131_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HULEONZb0AADFtq.jpg)
 

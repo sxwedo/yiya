@@ -8,7 +8,7 @@ date: "2026-09-18T17:56:33.000Z"
 
 # Jev Engineering: how to build the fastest AI Agent Brain in 10 Steps (Full-Setup)
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_1.jpg)
+![](https://pbs.twimg.com/media/HShGxV4XgAA2JRK.jpg)
 
 Every agent you've built has the same problem. An LLM that costs $0.03 per call sits in a loop answering yes-or-no questions, picking the next worker, and scoring relevance.
 
@@ -16,7 +16,7 @@ Those decisions don't need generation. They need a model that was built to decid
 
 This is the 10-step setup that gives your agents a dedicated decision brain. Install it once. Measure it. Then replace every expensive fork.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_2.jpg)
+![](https://pbs.twimg.com/media/HSg_UN1WQAA1vtW.jpg)
 
 The Jevons Paradox is a rule from 1865: when a steam engine uses coal more efficiently, total coal consumption goes up, not down.
 
@@ -24,7 +24,7 @@ Follow my Substack to get fresh AI alpha:[movez.substack.com](https://movez.subs
 
 That is the global problem for AI. Tokens get cheaper every quarter. Usage explodes. The bill stays the same or grows. Jev by @typesafeai  is built to break this cycle.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_3.jpg)
+![](https://pbs.twimg.com/media/HSg7Jn3W0AEh1JU.jpg)
 
 It is a System One model: you send it state and predefined questions, it returns typed answers with probabilities. No text generation. No chat. No autoregressive loop.
 
@@ -38,7 +38,7 @@ Start with a job like this:
 
 That job contains several decisions: Do we have enough sources? Which worker goes next? Is the draft ready for review?
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_4.png)
+![](https://pbs.twimg.com/media/HSg_2kNXIAAs1Xm.png)
 
 Those are candidates for Jev. Fetching sources, writing paragraphs, and saving files still belong to your tools and generative models. An exact rule, such as stopping after ten actions, belongs in code.
 
@@ -55,7 +55,7 @@ Define three options:
 - research for missing evidence,
 - write for drafting from sufficient evidence
 - review for unclear requests or completed work.
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_5.jpg)
+![](https://pbs.twimg.com/media/HSg8c5IXgAARk_C.jpg)
 
 Run it. Then replace the completed-work field with actual research notes and compare the decision. This is the basic interaction described in the official Quickstart.
 
@@ -65,7 +65,7 @@ You need a TypeSafe account with API access enabled and a key from key settings.
 
 Install Python 3.12 or newer, then open Terminal.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_6.jpg)
+![](https://pbs.twimg.com/media/HShBwFSW4AA9z4p.jpg)
 
 With Node.js/npm installed, add TypeSafe's official skill:
 
@@ -79,7 +79,7 @@ Open that JSON file. It contains your request, progress, Jev's choice, confidenc
 
 These are local task queues. A saved job waits for a worker to consume it.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_7.png)
+![](https://pbs.twimg.com/media/HSg8_FqWsAAg2oG.png)
 
 The confidence threshold is set to 0.85. Adjust it using labeled examples from your workflow. Confidence is not an accuracy percentag\
 
@@ -87,7 +87,7 @@ The confidence threshold is set to 0.85. Adjust it using labeled examples from y
 
 Jev gives you three question types, each built for a different kind of decision:
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_8.png)
+![](https://pbs.twimg.com/media/HSg9IGgW8AARuSJ.png)
 
 A useful detail: Jev does not see your question ID. Naming a field safe_to_publish contributes no instructions. Put the actual requirement in the question and describe each option clearly.
 
@@ -101,7 +101,7 @@ A browser's available actions change after every click. Browser Use builds a fre
 
 Apply that design to your Chief of Staff. Build the choices from workers that exist and are available now. Include the current source IDs when selecting research material.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_9.png)
+![](https://pbs.twimg.com/media/HSg9al7XkAAN46S.png)
 
 Refresh the options after a tool changes the state. Otherwise your decision model is choosing from yesterday's menu.
 
@@ -127,7 +127,7 @@ Browser Use independently checks the outcome after Jev selects DONE. Borrow that
 
 If the starter fails, use the error to choose the fix:
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_10.png)
+![](https://pbs.twimg.com/media/HShCnOXXAAANQKz.png)
 
 DEEP DIVE // THE JEV HARNESS
 
@@ -139,7 +139,7 @@ That is where the harness matters more than the model.
 
 The harness is the difference between 78% and 42% on the same model. Same weights. Different loop engineering. The harness decides the performance.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_11.png)
+![](https://pbs.twimg.com/media/HSg-DDZW8AAjsZw.png)
 
 Coding harnesses like Claude Code, Codex, and Cursor have shipped some kind of way to classify dangerous actions before they're taken.
 
@@ -149,7 +149,7 @@ Now that a cheap and performant classifier model exists, you can take the same p
 
 Same model. Same tools. Different harness. Different results.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_12.png)
+![](https://pbs.twimg.com/media/HShCz1EXYAA5L7k.png)
 
 LangChain's AutoModeMiddleware uses Jev to check every tool call for risky decisions before the tool executes. One line of middleware. Zero generation tokens burned on safety checks.
 
@@ -161,7 +161,7 @@ Neither layer generates text. Neither layer adds latency you can feel. Both run 
 
 Jev 1.13 costs $0.042 per million input tokens, with no output-token charge. At 1,000 billed input tokens per decision, 10,000 decisions cost $0.42 for Jev inference.
 
-![](../_media/x-2101007482919227841/0xmovez_2101007482919227841_13.jpg)
+![](https://pbs.twimg.com/media/HShDN30XcAAoiHx.jpg)
 
 The flight demo's reported $0.0039 fits its recorded 90,558 Jev input tokens plus the text helper's reported charge. Browser costs sit outside that calculation. Its roughly seven-second clock starts after the initial page observation and excludes fresh post-run verification.
 

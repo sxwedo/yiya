@@ -23,7 +23,7 @@ Dynamic Workflows shipped in Claude Code on May 28, 2026. The default Claude Cod
 
 For those, Anthropic used to build custom harnesses themselves (Research, Code Review, agent teams). With Dynamic Workflows, Claude writes that harness for you on the fly, custom-built for your task, in JavaScript.
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_2.png)
+![Image](https://pbs.twimg.com/media/HJ4diCcXIAAJ71v.png)
 
 14 steps. 6 patterns. One workflow instead of fifty prompts.
 
@@ -73,7 +73,7 @@ You may have already built static workflows using the Claude Agent SDK or claude
 
 - Dynamic Workflows are different: Claude writes this workflow for this task. The harness is tailor-made. Below is the same question handled both ways:
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_3.png)
+![Image](https://pbs.twimg.com/media/HJ4esVVXwAEc9i9.png)
 
 The reason the dynamic version wins isn’t the search step - both can search. 
 
@@ -87,7 +87,7 @@ A static harness can’t do this because it doesn’t know your code exists.
 
 Three functions do most of the work in a workflow. Knowing them is enough to read any workflow Claude writes for you and to nudge Claude when you want a specific shape.
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_5.png)
+![Image](https://pbs.twimg.com/media/HJ4e_rnW0AASiu6.png)
 
 parallel() is a barrier: it fans out, then waits for everything before returning. pipeline() is streaming: each item flows through every stage independently. 
 
@@ -185,7 +185,7 @@ Instead of dividing the work, have agents compete on it. Spawn N agents that eac
 
 Comparative judgment is more reliable than absolute scoring - especially for taste-based work.
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_6.png)
+![Image](https://pbs.twimg.com/media/HJ4gDbnW4AAP3eB.png)
 
 Why this beats sort-by-score: trying to sort 1,000 items in one prompt fails on two fronts - quality degrades, and it won’t fit in context. A tournament splits the bracket across fresh agents, each comparing just two items. 
 
@@ -258,7 +258,7 @@ Workflows can be expensive. Three controls turn them from “cool but costly” 
 
 Quoting the Claude Code team directly: “Best practices are still developing. Dynamic workflows often use more tokens, so think carefully about when and how to use them.” Most traditional coding tasks do not need a panel of 5 reviewers. 
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_4.jpg)
+![Image](https://pbs.twimg.com/media/HJ4hGnuW8AAuDU-.jpg)
 
 Ask yourself: does this task really need more compute? If a regular Claude Code session would finish it in five minutes, you don’t need a workflow.
 
@@ -270,7 +270,7 @@ Any workflow that reads untrusted public content - support tickets, bug reports,
 
 The fix: quarantine. Bar the agents that read the untrusted content from taking any high-privilege actions. Separate agents, with no exposure to the raw content, do the acting.
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_1.png)
+![Image](https://pbs.twimg.com/media/HJ4hVdjWMAAlmaT.png)
 
 Any workflow that processes user-submitted content (support tickets, bug reports, customer feedback, social media), scrapes public web pages, or runs against output from a third-party API. 
 
@@ -286,7 +286,7 @@ Once a workflow works, save it: press s in the workflow menu. Saved workflows go
 
 - Ship it as a Skill - bundle the JavaScript file inside a Skill folder, reference it in SKILL.md, and anyone who installs the Skill runs the same workflow.
 
-![Image](../_media/x-2062127385923776831/0xCodez_2062127385923776831_7.png)
+![Image](https://pbs.twimg.com/media/HJ4hmqnXwAAxuX6.png)
 
 One practical nuance worth knowing: when you package a workflow into a Skill, prompt Claude to treat the workflow as a template, not a script to run verbatim. 
 
@@ -318,7 +318,7 @@ That leaves room for Claude to adapt the workflow shape to the specific task at 
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2062127385923776831/0xCodez_2062127385923776831_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HJ4l2SjXsAALyp3.jpg)
 
 ## 💬 Replies
 

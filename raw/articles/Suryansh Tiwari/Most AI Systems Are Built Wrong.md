@@ -21,7 +21,7 @@ That answer determines everything about your architecture.
 
 Claude-style systems give you two distinct approaches: sub-agents and agent teams. They may look similar, but they solve completely different problems.
 
-![Image](../_media/x-2047694444787577236/Suryanshti777_2047694444787577236_3.jpg)
+![Image](https://pbs.twimg.com/media/HGreTwvaMAA2pxv.jpg)
 
 Sub-Agents: Parallelism with Isolation
 
@@ -37,7 +37,7 @@ A completely isolated context
 
 A single, well-scoped task
 
-![Image](../_media/x-2047694444787577236/Suryanshti777_2047694444787577236_4.jpg)
+![Image](https://pbs.twimg.com/media/HGret2raIAA_l3D.jpg)
 
 When it finishes, it returns only the final output, not reasoning or intermediate steps.
 
@@ -96,7 +96,7 @@ Teammates that execute tasks
 
 A shared task layer that tracks progress and dependencies
 
-![Image](../_media/x-2047694444787577236/Suryanshti777_2047694444787577236_2.jpg)
+![Image](https://pbs.twimg.com/media/HGrez0UaEAAX9P2.jpg)
 
 This allows real coordination. A frontend agent can signal backend changes and things update instantly.
 
@@ -138,7 +138,7 @@ Quality drops at every boundary.
 
 The better approach is context-based decomposition.
 
-![Image](../_media/x-2047694444787577236/Suryanshti777_2047694444787577236_1.jpg)
+![Image](https://pbs.twimg.com/media/HGre4EaawAECVXq.jpg)
 
 Ask: What information does this task actually need?
 
@@ -148,7 +148,7 @@ The 5 Patterns That Actually Matter
 
 1\. Prompt chaining — sequential steps
 
-![Image](../_media/x-2047694444787577236/Suryanshti777_2047694444787577236_5.jpg)
+![Image](https://pbs.twimg.com/media/HGre8HpbkAAkYSx.jpg)
 
 2\. Routing — send tasks to the right agent
 
@@ -184,7 +184,7 @@ Design around context boundaries, not roles. Start simple and add complexity onl
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2047694444787577236/Suryanshti777_2047694444787577236_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HGrcfZPbQAATY9A.jpg)
 
 ## 💬 Replies
 

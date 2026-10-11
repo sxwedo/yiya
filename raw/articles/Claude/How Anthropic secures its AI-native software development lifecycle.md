@@ -35,7 +35,7 @@ In this article, we’ll cover the security processes we have implemented at spe
 
 ## **The evolving software development lifecycle**
 
-![](../_media/claude-how-anthropic-secures-its-ai-native-software-development-lif/Jason_Clinton_how-anthropic-secures-its-ai-native-software-development-lifecycle_1.png)
+![](https://assets.claude.com/8a4767e652bdda6c9680055b306c14d2b7b765ad.png)
 
 Our development team has covered the changes to their software development lifecycle [at length](https://claude.com/blog/running-an-ai-native-engineering-org), so this will be a brief primer before we dive into each stage. 
 
@@ -49,7 +49,7 @@ One of our first security automations ever was a simple Claude Opus powered PSR 
 
 We’ve significantly enhanced the system by connecting it to an internal knowledge index that provides much deeper context across our organization-wide policies, past decisions, and related systems. 
 
-![The process internally at Anthropic for an automated PSR.](../_media/claude-how-anthropic-secures-its-ai-native-software-development-lif/Jason_Clinton_how-anthropic-secures-its-ai-native-software-development-lifecycle_2.png)
+![The process internally at Anthropic for an automated PSR.](https://assets.claude.com/a8cf8d786f7fb97bb2222e66aa377838ff9a496c.png)
 
 *The process internally at Anthropic for an automated PSR.*
 

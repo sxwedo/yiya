@@ -30,7 +30,7 @@ For all that progress, one ceiling remained: how long an agent could run before 
 
 Incident triage showed the same shape. Earlier models tended to stay at the surface of the logs instead of digging for the relevant line, and they were trained to give an answer no matter what—so they'd "confidently claim the first plausible thing they discover and then stop." Engineers learned to tune them out.
 
-![Cognition evaluates frontier models against a series of benchmarks, including Frontier Code.](../_media/claude-working-at-the-frontier-how-cognition-trusts-claude-fable-5-/Claude_working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night_1.jpg)
+![Cognition evaluates frontier models against a series of benchmarks, including Frontier Code.](https://assets.claude.com/aba77cdcbd02f2d3747def7ee6ab3bffea6d5e0b.jpg)
 
 *Cognition evaluates frontier models against a series of benchmarks, including Frontier Code.*
 
@@ -46,7 +46,7 @@ The horizon held because Claude Fable 5 stayed clear-headed in messy context. It
 
 He puts the jump in a small class of true step changes, the kind that come roughly once a year.
 
-![Silas and his team are building Devin, powered by models like Claude, to tackle more complex, longer running workloads.](../_media/claude-working-at-the-frontier-how-cognition-trusts-claude-fable-5-/Claude_working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night_2.jpg)
+![Silas and his team are building Devin, powered by models like Claude, to tackle more complex, longer running workloads.](https://assets.claude.com/b18dad0104113d740bdaeed8459dacb01a522c5b.jpg)
 
 *Silas and his team are building Devin, powered by models like Claude, to tackle more complex, longer running workloads.*
 

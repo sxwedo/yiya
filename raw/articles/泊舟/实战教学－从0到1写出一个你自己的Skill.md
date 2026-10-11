@@ -46,7 +46,7 @@ my-skill/
 
 第二部分是操作指南，告诉 AI 具体怎么一步步干活。
 
-![Image](../_media/x-2039596877650551056/bozhou_ai_2039596877650551056_4.jpg)
+![Image](https://pbs.twimg.com/media/HE4YfxzakAIFkz8.jpg)
 
 一个容易忽略的细节：Description
 
@@ -70,7 +70,7 @@ Claude Code 和 OpenClaw 的 Skills：一套东西，两个地方用
 
 拆成 5 步来说。
 
-![Image](../_media/x-2039596877650551056/bozhou_ai_2039596877650551056_5.jpg)
+![Image](https://pbs.twimg.com/media/HE4YnL5bUAEC5jQ.jpg)
 
 第一步：找到你的重复劳动
 
@@ -142,7 +142,7 @@ Skill 生成之后，试跑一次。
 
 从触发到出图，全程不用我动手。
 
-![Image](../_media/x-2039596877650551056/bozhou_ai_2039596877650551056_1.jpg)
+![Image](https://pbs.twimg.com/media/HE4Y-CKbUAAU-ll.jpg)
 
 迭代过程中的坑
 
@@ -176,7 +176,7 @@ GitHub Trending 也踩了坑。上面的项目不一定都和 AI 相关，光看
 
 整个工作流也串得很顺：分析文章、确认设置、生成大纲、写 prompt、生成图片、插入文章，6 步走完不用我操心中间环节。
 
-![Image](../_media/x-2039596877650551056/bozhou_ai_2039596877650551056_3.jpg)
+![Image](https://pbs.twimg.com/media/HE4ZE8LaoAAKexD.jpg)
 
 我改了什么
 
@@ -254,7 +254,7 @@ skill-vetter：技能安全审查器
 
 有现成的就用 find-skills 找，找不到就用 skill-creator 自己造。不管哪种，装之前让 skill-vetter 扫一遍。
 
-![Image](../_media/x-2039596877650551056/bozhou_ai_2039596877650551056_2.png)
+![Image](https://pbs.twimg.com/media/HE4ZUscasAAKVu3.png)
 
 从每天 40 分钟扒新闻，到一句话搞定日报。中间隔的不是什么高深技术，就是一个 SKILL.md 文件。
 
@@ -264,7 +264,7 @@ skill-vetter：技能安全审查器
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2039596877650551056/bozhou_ai_2039596877650551056_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HE4agEnbgAAOBzx.jpg)
 
 ## 💬 Replies
 

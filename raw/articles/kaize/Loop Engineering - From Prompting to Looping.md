@@ -23,7 +23,7 @@ A week later, Andrew Ng placed this conversation within the broader context of "
 
 This article starts from that story and then walks you through building a minimal but complete loop from scratch: 5 moves, 6 parts, one door that says "no," and one human door - all running on your own machine, and reusable on any software project.
 
-![Image](../_media/x-2073438517775003671/0x_kaize_2073438517775003671_1.png)
+![Image](https://pbs.twimg.com/media/HMYnppvXkAAbUyz.png)
 
 ## The week 3 people lit the fuse
 
@@ -43,7 +43,7 @@ Practice came before the name by months, everyone was already writing loops, nob
 
 So, loops are now a key part of how we enable AI agents to work iteratively over the long term to create software.
 
-![Image](../_media/x-2073438517775003671/0x_kaize_2073438517775003671_2.png)
+![Image](https://pbs.twimg.com/media/HMYm-AGXoAAUqAu.png)
 
 Andrew Ng arranged the three loops from innermost to outermost based on their time scales: the innermost loop is the fastest, and the outermost loop is the slowest. Furthermore, the input to the outermost loop comes from the output of the innermost loop:
 
@@ -55,7 +55,7 @@ Andrew Ng arranged the three loops from innermost to outermost based on their ti
 
 Andrew Ng gave us the map by time: three loops running at different speeds. Addy Osmani drew a second map by abstraction: prompt -&gt; context -&gt; harness -&gt; loop.
 
-![Image](../_media/x-2073438517775003671/0x_kaize_2073438517775003671_3.png)
+![Image](https://pbs.twimg.com/media/HMYs2rNXcAEpPfE.png)
 
 Loop engineering sits at the top and adds three verbs the harness doesn't have. It runs on a timer, spawns helpers, and feeds itself - today's output becomes tomorrow's input. That last one is what makes it a loop, not the same task run N times.
 
@@ -74,7 +74,7 @@ What happens inside one turn:
 
 "Loop" gets misread as "spinning in place." It's not, every turn has 5 concrete moves. cut any one and the loop either won't run - or it runs without going anywhere.
 
-![Image](../_media/x-2073438517775003671/0x_kaize_2073438517775003671_4.png)
+![Image](https://pbs.twimg.com/media/HMYx2PaWIAAOg8G.png)
 
 1. Verification is the move that says "no."
 
@@ -579,7 +579,7 @@ Good luck :)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073438517775003671/0x_kaize_2073438517775003671_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HMYUXp3XUAEC9dA.jpg)
 
 ## 💬 Replies
 

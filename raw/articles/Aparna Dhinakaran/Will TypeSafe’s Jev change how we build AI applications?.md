@@ -8,7 +8,7 @@ date: "2026-09-18T16:06:06.000Z"
 
 # Will TypeSafe’s Jev change how we build AI applications?
 
-![](../_media/x-2100979688072224957/aparnadhinak_2100979688072224957_1.jpg)
+![](https://pbs.twimg.com/media/HSgtobXaEAAaDhD.jpg)
 
 This week the AI community was in uproar about [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) from @typesafeai, not just a new model but a new kind of model: one that classifies, scores, and routes but cannot write a sentence. The reason for the fuss is simple: it’s radically faster and cheaper than using an LLM to perform the same task, up to 200x faster and 400x cheaper if TypeSafe’s numbers are to be trusted. In one small independent test, a general-purpose model spent about 910 output tokens reasoning its way to each yes-or-no answer while Jev spent 85, and it doesn’t even bill for them.
 
@@ -36,7 +36,7 @@ These are small samples and early data but hey, the thing was released two days 
 
 Why are we using LLMs to make decisions in the first place? The reason is simple: they are able to do it without huge, expensive training sets, which is what most ML solutions prior to LLMs required. Here’s the options on the table now:
 
-![](../_media/x-2100979688072224957/aparnadhinak_2100979688072224957_2.png)
+![](https://pbs.twimg.com/media/HSgtEdJa0AAtNDa.png)
 
 The first two rows are the old-school options, which need a training dataset: hundreds to thousands of labeled examples before you get a single prediction, and then a training run, and then someone to maintain it. Nobody building a first version of an AI product has that data or that kind of time. The LLM as a judge on the other hand just asks for a paragraph-long prompt. The decision was easy.
 

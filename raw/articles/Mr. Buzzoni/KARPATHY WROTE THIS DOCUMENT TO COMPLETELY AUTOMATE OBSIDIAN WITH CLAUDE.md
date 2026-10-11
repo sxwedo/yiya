@@ -28,7 +28,7 @@ here is the official document from Karpathy explaining the architecture 👇
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071105441698910415/polydao_2071105441698910415_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HL3jBB4W8AEDN7w?format=jpg&name=medium)
 
 ## 💬 Replies
 

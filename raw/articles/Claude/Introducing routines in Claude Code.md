@@ -16,7 +16,7 @@ Developers already use Claude Code to automate the software development cycle, b
 
 ## How it works
 
-![](../_media/claude-introducing-routines-in-claude-code/Claude_introducing-routines-in-claude-code_1.png)
+![](https://assets.claude.com/7dcf6205a44d0fe732a9697c294eed3e7f3e12a1.png)
 
 ### Scheduled routines ###
 

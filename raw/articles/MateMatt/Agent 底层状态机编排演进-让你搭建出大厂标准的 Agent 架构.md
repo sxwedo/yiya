@@ -127,7 +127,7 @@ langGraph 是全局状态管理，所以每个节点函数的函数签名也比�
 
 整体架构图
 
-![Image](../_media/x-2073699050671734919/mate_mattt_2073699050671734919_2.jpg)
+![Image](https://pbs.twimg.com/media/HMc9lwTbMAAjNKG.jpg)
 
 LangGraph 并没有显式抽象一组图结构类型；它提供的是图构造原语和状态合并机制。顺序、分支、并行、循环、map-reduce、子图这些，开发者可以通过组合 node、edge、conditional edge、reducer、Send、Command 得到的图拓扑。
 
@@ -164,7 +164,7 @@ LangGraph 并没有显式抽象一组图结构类型；它提供的是图构造�
 
 - 为什么适合编码？ 因为写代码需要极高频的“修改-报错-再修改”的闭环。Pi-Agent 这种紧凑的单环结构，把控制权完全交给了大模型，让它自己在图里转圈，直到它自己发出 { "action": "finish" } 的指令，才会跳出循环。
 
-![Image](../_media/x-2073699050671734919/mate_mattt_2073699050671734919_3.jpg)
+![Image](https://pbs.twimg.com/media/HMc-RAQbQAAhPfw.jpg)
 
 ## 终极横向对比与演进路径
 
@@ -252,7 +252,7 @@ LangGraph 并没有显式抽象一组图结构类型；它提供的是图构造�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073699050671734919/mate_mattt_2073699050671734919_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HMdBUCpa4AAqtpg.jpg)
 
 ## 💬 Replies
 

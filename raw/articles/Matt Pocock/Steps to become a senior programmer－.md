@@ -36,7 +36,7 @@ Below is an example of what the first output will look like. I used Opus 4.8, me
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064663221718425660/mattpocockuk_2064663221718425660_1.png)
+![Image 1](https://pbs.twimg.com/media/HKcn_G2XQAEAA1O.png?name=orig)
 
 ## 💬 Replies
 

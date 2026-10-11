@@ -230,7 +230,7 @@ context被压缩时，文件不受影响——新session开始读取计划文件
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2033528531834290264/yaohui12138_2033528531834290264_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HDiLYYNbkAA5wxD.jpg)
 
 ## 💬 Replies
 

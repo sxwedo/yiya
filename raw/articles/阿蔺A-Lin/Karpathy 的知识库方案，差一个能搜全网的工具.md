@@ -29,7 +29,7 @@ Karpathy 前几天发了个知识库方案，架构很漂亮：文档丢进去�
 
 00收件箱/ 放原始素材，AI 自动编译成 40知识库/ 里的知识条目，写文章的时候直接从知识库调用。和 Karpathy 描述的架构一模一样。
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_7.jpg)
+![Image](https://pbs.twimg.com/media/HFx9G18aEAAXTmy.jpg)
 
 ---
 
@@ -57,7 +57,7 @@ Claude Code 自带的 WebSearch 能搜，但返回的结果有限，摘要也很
 
 [1️⃣](https://abs-0.twimg.com/emoji/v2/svg/31-20e3.svg) 去 [xcrawl](https://xcrawl.com/?keyword=dcjjy5qc) 注册，拿到 API Key（新账号送 1000 免费积分，不用绑卡）
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_2.jpg)
+![Image](https://pbs.twimg.com/media/HFx9okUbsAEuhfr.jpg)
 
 [2️⃣](https://abs-0.twimg.com/emoji/v2/svg/32-20e3.svg) 装 CLI
 
@@ -65,7 +65,7 @@ Claude Code 自带的 WebSearch 能搜，但返回的结果有限，摘要也很
 npm install -g @xcrawl/cli
 \`\`\`
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_1.jpg)
+![Image](https://pbs.twimg.com/media/HFx93isbEAArxS_.jpg)
 
 剩下的交给 Claude Code。打开 Claude Code，说一句：
 
@@ -75,7 +75,7 @@ npm install -g @xcrawl/cli
 
 Claude Code 会自动 clone 仓库、装好 Skills、配好 Key。
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_4.jpg)
+![Image](https://pbs.twimg.com/media/HFx-BnWbcAA-dmE.jpg)
 
 ---
 
@@ -91,9 +91,9 @@ Claude Code 会自动 clone 仓库、装好 Skills、配好 Key。
 
 几秒钟返回了 20 条结果，Claude Code 还自动帮我分成了「核心源头」和「深度解读文章」两类。Karpathy 本人的 GitHub Gist、VentureBeat 的报道、社区讨论都搜到了。
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_9.jpg)
+![Image](https://pbs.twimg.com/media/HFx-MWlbYAAOYtu.jpg)
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_3.jpg)
+![Image](https://pbs.twimg.com/media/HFx-OINbMAApXY8.jpg)
 
 ---
 
@@ -103,9 +103,9 @@ Claude Code 会自动 clone 仓库、装好 Skills、配好 Key。
 
 Claude Code 调用 xcrawl-scrape 逐个抓取，返回干净的 Markdown 正文，自动保存到 00\_收件箱/Karpathy-LLM-Knowledge-Base/ 目录下。
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_6.jpg)
+![Image](https://pbs.twimg.com/media/HFx-ay0aMAApx4M.jpg)
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_5.jpg)
+![Image](https://pbs.twimg.com/media/HFx-cuqa4AIJGwB.jpg)
 
 ---
 
@@ -127,9 +127,9 @@ Claude Code 自动读取 5 篇原始素材，提取核心概念，生成了 5 �
 
 5 篇笔记之间用 wikilink 互相引用，在 Obsidian 里自动形成知识图谱。
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_8.jpg)
+![Image](https://pbs.twimg.com/media/HFx-lTZa8AAAS_K.jpg)
 
-![Image](../_media/x-2043648349484839124/alin_zone_2043648349484839124_10.jpg)
+![Image](https://pbs.twimg.com/media/HFx-nCmaAAAWRsw.jpg)
 
 ---
 
@@ -175,7 +175,7 @@ XCrawl 注册送 1000 免费积分，不用绑卡 → https://xcrawl.com/?keywor
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2043648349484839124/alin_zone_2043648349484839124_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HFx8m3Pa0AAKptY.jpg)
 
 ## 💬 Replies
 

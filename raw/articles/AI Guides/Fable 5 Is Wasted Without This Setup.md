@@ -19,7 +19,7 @@ I spent 3 weeks testing what actually makes it useful, where it burns money, and
 
 This is the playbook I wish I had on day one.
 
-![Image](../_media/x-2073050543027638443/free_ai_guides_2073050543027638443_3.jpg)
+![Image](https://pbs.twimg.com/media/HMTs5FuWYAAV3wZ.jpg)
 
 What's inside:
 
@@ -65,7 +65,7 @@ I don't care about benchmarks. I care about what changes in my daily work.
 
 After 3 weeks, three things stand out.
 
-![Image](../_media/x-2073050543027638443/free_ai_guides_2073050543027638443_1.jpg)
+![Image](https://pbs.twimg.com/media/HMTtVriWgAAanB9.jpg)
 
 1\. It sustains work over days, not minutes.
 
@@ -111,7 +111,7 @@ It doesn't know your business, your writing style, your clients, or your prefere
 
 The fix is a local context system. It takes about 20 minutes to set up, and it's the difference between Fable being a powerful stranger and Fable being a powerful colleague who knows your world.
 
-![Image](../_media/x-2073050543027638443/free_ai_guides_2073050543027638443_5.jpg)
+![Image](https://pbs.twimg.com/media/HMTtheoXoAARe6x.jpg)
 
 Step 1: Create a context folder.
 
@@ -239,7 +239,7 @@ Summarize any new ones and draft a reply if action is needed.
 Save drafts to /drafts/.
 \`\`\`
 
-![Image](../_media/x-2073050543027638443/free_ai_guides_2073050543027638443_2.jpg)
+![Image](https://pbs.twimg.com/media/HMTvQG0XIAASpq7.jpg)
 
 When to use which:
 
@@ -251,7 +251,7 @@ A real caution: Always set cost controls before you walk away from a long-runnin
 
 ## The Cost Problem (and How I Solve It)
 
-![Image](../_media/x-2073050543027638443/free_ai_guides_2073050543027638443_4.jpg)
+![Image](https://pbs.twimg.com/media/HMTvdROXoAAmr7n.jpg)
 
 At $10/$50 per million tokens, Fable 5 is not cheap. If you run it all day for every task, you'll burn through a Max plan's usage cap fast.
 
@@ -396,7 +396,7 @@ Follow @free\_ai\_guides for the updates [❤️](https://abs.twimg.com/emoji/v2
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073050543027638443/free_ai_guides_2073050543027638443_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMTswdHXAAAVC7p.jpg)
 
 ## 💬 Replies
 

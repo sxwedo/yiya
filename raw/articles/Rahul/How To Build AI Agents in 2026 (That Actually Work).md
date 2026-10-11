@@ -85,7 +85,7 @@ Over and over until the goal is reached.
 
 (The three stages that actually matter)
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_7.jpg)
+![Image](https://pbs.twimg.com/media/HKWeVfHaAAEvcOx.jpg)
 
 Think of it like three versions of a helper in your kitchen.
 
@@ -167,7 +167,7 @@ That one sentence is the whole shift.
 
 ## PART 3: THE MENTAL MODEL THAT MAKES AGENTS CLICK
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_3.jpg)
+![Image](https://pbs.twimg.com/media/HKWeeDrawAAz9qv.jpg)
 
 Every real agent — no matter how complex — runs one loop.
 
@@ -233,7 +233,7 @@ That is the entire architecture. Every serious agent — Cursor, Claude Code, De
 
 ## PART 4: THE 5 BUILDING BLOCKS OF EVERY GOOD AGENT
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_4.jpg)
+![Image](https://pbs.twimg.com/media/HKWejdba8AAU7Fr.jpg)
 
 Every agent that actually works has exactly five pieces.
 
@@ -372,7 +372,7 @@ Add this one step and your agent goes from 60% reliability to 90%.
 
 (A Startup Research Agent — step by step)
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_5.jpg)
+![Image](https://pbs.twimg.com/media/HKWfJHKbUAAxWgt.jpg)
 
 Enough theory.
 
@@ -634,7 +634,7 @@ Do not pad the list. 3 great leads beat 20 weak ones.
 
 ## PART 6: WHY MOST AI AGENTS FAIL
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_1.jpg)
+![Image](https://pbs.twimg.com/media/HKWfVrJbkAAm17G.jpg)
 
 Most tutorials only show you agents that work.
 
@@ -714,7 +714,7 @@ Fix: Start with narrow goals. Give it guardrails. Keep a human in the loop for h
 
 ## PART 7: THE ACTUAL TOOLS TO BUILD THIS
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_6.jpg)
+![Image](https://pbs.twimg.com/media/HKWhRVIaUAA3cuz.jpg)
 
 Now the question everyone asks:
 
@@ -774,7 +774,7 @@ Start every agent project locally. Only move to cloud APIs when you're ready to 
 
 ## PART 8: HOW TO BUILD YOUR FIRST AGENT THIS WEEKEND
 
-![Image](../_media/x-2064988918630736353/sairahul1_2064988918630736353_2.jpg)
+![Image](https://pbs.twimg.com/media/HKWhhdBaAAAKWuA.jpg)
 
 Here is the exact roadmap.
 
@@ -1015,7 +1015,7 @@ I write about AI, building products, and systems that work while you sleep.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064988918630736353/sairahul1_2064988918630736353_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HKWj9-Na8AEh_AV.jpg)
 
 ## 💬 Replies
 

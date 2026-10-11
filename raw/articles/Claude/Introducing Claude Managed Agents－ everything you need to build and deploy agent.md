@@ -15,7 +15,7 @@ It pairs an agent harness tuned for performance with production infrastructure, 
 
 Now in public beta on the Claude Platform. 
 
-![Image](../_media/x-2041927687460024721/claudeai_2041927687460024721_1.jpg)
+![Image](https://pbs.twimg.com/media/HFZiwfuWkAEHrrV.jpg)
 
 ## 💬 Replies
 

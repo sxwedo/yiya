@@ -31,15 +31,15 @@ By integrating Claude with your organization’s knowledge, you can scale expert
 
 With the Enterprise plan, you can collaborate with Claude with an expanded **500K context window**—equivalent to hundreds of sales transcripts, dozens of 100+ page documents, or medium-sized codebases. Ingesting knowledge enables Claude to provide deep, function-specific guidance.
 
-![Claude UI shown with the user uploading in several documents, csvs, and PDFs](../_media/claude-claude-for-enterprise/Claude_claude-for-enterprise_1.png)
+![Claude UI shown with the user uploading in several documents, csvs, and PDFs](https://assets.claude.com/9f2de17959c48904961eb98fa7aa7fd085b30f4e.png)
 
 We’re also introducing a **native GitHub integration** for engineering teams to sync GitHub repositories with Claude. Now, you can work alongside your codebase to iterate on new features, debug issues, or onboard new engineers. GitHub is the first of the native integrations we're building to connect Claude to your most important data sources, enabling Claude to provide more relevant and insightful assistance. This feature is available in beta for early Enterprise plan users today. We plan to make it more broadly available later this year.
 
-![Claude UI where the user is selecting the GitHub connector to add knowledge to a project](../_media/claude-claude-for-enterprise/Claude_claude-for-enterprise_2.png)
+![Claude UI where the user is selecting the GitHub connector to add knowledge to a project](https://assets.claude.com/fb4ba0ca10323c6fc7c16aca1072d4b6749ab590.png)
 
 When you combine expanded context windows with **Projects** and **Artifacts**, Claude becomes an end-to-end solution to help your team take any initiative from idea to high-quality work output. For example, marketers can turn market trends into a compelling campaign. Product managers can upload product specifications for Claude to build an interactive prototype. Engineers can connect codebases for help on troubleshooting errors and identifying optimizations.
 
-![Claude UI featuring a scatter plot artifact](../_media/claude-claude-for-enterprise/Claude_claude-for-enterprise_3.png)
+![Claude UI featuring a scatter plot artifact](https://assets.claude.com/7ccbee6da85787009663ec5ead8e123f778a2ae6.png)
 
 ## Customer spotlights
 

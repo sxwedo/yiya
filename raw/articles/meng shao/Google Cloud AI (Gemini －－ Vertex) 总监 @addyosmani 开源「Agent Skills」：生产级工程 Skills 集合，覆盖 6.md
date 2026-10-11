@@ -90,7 +90,7 @@ Agent 角色（3 个预配置专家）
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2040402798794166620/shao__meng_2040402798794166620_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HFD3g0kWAAAnJfs?format=jpg&name=medium)
 
 ## 💬 Replies
 

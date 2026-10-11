@@ -15,7 +15,7 @@ Of everything happening in your brain right now, only a tiny fraction is conscio
 
 We found a strikingly similar divide inside Claude. 
 
-![Image](../_media/x-2074185348142280912/AnthropicAI_2074185348142280912_1.jpg)
+![Image](https://pbs.twimg.com/media/HMj8zKXXoAAohgS.jpg)
 
 ## 💬 Replies
 

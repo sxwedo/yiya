@@ -98,7 +98,7 @@ Done when: every factual claim has a source, conflicts are surfaced, and open ga
 
 That is not a prompt. It is durable infrastructure. It should still be correct in six weeks.
 
-![Image](../_media/x-2105275395901726845/distortgeekin_2105275395901726845_1.png)
+![Image](https://pbs.twimg.com/media/HTdmxQJXsAAttRs.png)
 
 Keep the job separate from today's assignment.
 
@@ -180,7 +180,7 @@ Always ask: send, publish, purchase, delete, overwrite, change permissions, cont
 
 Notice that "draft the outreach to 40 prospects" sits in the first group and "send it" sits in the third. That split is the whole design.
 
-![Image](../_media/x-2105275395901726845/distortgeekin_2105275395901726845_2.jpg)
+![Image](https://pbs.twimg.com/media/HTdm-qvWIAA43AL.jpg)
 
 Finish the safe 90 percent.
 
@@ -222,7 +222,7 @@ Run 3: release. Let it work without intervention. Step in only for approvals, ge
 
 Then measure five things: completion rate, how many times you intervened, how many review loops it needed, time to an accepted result, and cost per accepted result.
 
-![Image](../_media/x-2105275395901726845/distortgeekin_2105275395901726845_3.png)
+![Image](https://pbs.twimg.com/media/HTdnI4lWsAAODnl.png)
 
 Repair the rule, not the artifact.
 
@@ -258,7 +258,7 @@ Level 3, run on a schedule or a trigger. It starts without a prompt and comes ba
 
 Level 4, coordinate. It routes work across other Bots and pulls you in only where judgment or identity is required.
 
-![Image](../_media/x-2105275395901726845/distortgeekin_2105275395901726845_4.jpg)
+![Image](https://pbs.twimg.com/media/HTdnQdEWMAAfalJ.jpg)
 
 Promotion is not a feeling about how the demo went. It is a gate:
 
@@ -346,7 +346,7 @@ P.S. If you only take one thing from this: write the "what to do when unsure" li
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2105275395901726845/distortgeekin_2105275395901726845_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HTdmJrHWYAAVRUh.jpg)
 
 ## 💬 Replies
 

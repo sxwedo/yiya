@@ -170,7 +170,7 @@ Answer that one well, and you'll stop prompting too.
 
 Here's a summary of
 
-![Image](../_media/x-2069118430582866051/akshay_pachaar_2069118430582866051_1.jpg)
+![Image](https://pbs.twimg.com/media/HLb7qMjacAAddIh.jpg)
 
 ---
 
@@ -181,7 +181,7 @@ Akshay.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069118430582866051/akshay_pachaar_2069118430582866051_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HLb2P3ta4AAwPri.jpg)
 
 ## 💬 Replies
 

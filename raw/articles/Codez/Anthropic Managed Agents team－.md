@@ -23,7 +23,7 @@ Live from the last Anthropic stage in Japan. Unpublished.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065097407965127142/0xCodez_2065097407965127142_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2065097160123686912/img/P5Iv7QENksmmT0oA.jpg)
 
 ## 💬 Replies
 

@@ -8,7 +8,7 @@ date: "2026-09-23T14:09:59.000Z"
 
 # Building a Custom Harness with Pi and Jev
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_1.jpg)
+![](https://pbs.twimg.com/media/HS3VQR-WUAAEiBw.jpg)
 
 An AI agent is a language model that works in a loop. It reads the task, uses a tool such as "read this file" or "delete that file", looks at the result, and keeps going until the job is done. Each time the model asks to use a tool, that request is called a tool call.
 
@@ -32,7 +32,7 @@ This guide was inspired by Sydney Runkle's [Building a Harness with Jev](https:/
 
 The harness has three parts. Each one asks Jev a question at a different moment, and the rest of this guide refers to them by these names.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_2.jpg)
+![](https://pbs.twimg.com/media/HS3VkD1XwAAdsFd.jpg)
 
 The running example is an agent working in a folder of trail survey notes, one file per outing. It can read, write, and really delete those notes, which is why the gate matters.
 
@@ -42,7 +42,7 @@ TypeSafe calls Jev a System One model. The name comes from psychologist Daniel K
 
 In this harness, a regular language model does the slow work of reading files and writing answers. Jev makes the quick judgment calls around it. Jev is cheap and fast enough to ask about every tool call, not just the ones you expected to be risky.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_3.jpg)
+![](https://pbs.twimg.com/media/HS3VryBX0AASy-R.jpg)
 
 Each number is a probability between 0 and 1. A 0.83 means Jev is fairly sure the answer is yes. A 0.03 means it is fairly sure the answer is no.
 
@@ -52,7 +52,7 @@ Every Jev request has two parts. The state is the situation you want judged, suc
 
 Jev supports three kinds of questions. The first, which Jev calls a noul, is a yes-or-no question.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_4.jpg)
+![](https://pbs.twimg.com/media/HS3VyIQWsAAMlNT.jpg)
 
 Jev only knows what you tell it, so describe every option and every level in plain words. The descriptions are the prompt.
 
@@ -68,7 +68,7 @@ The agent waits while Jev answers, so the call gives up after two seconds. A nor
 
 Pi's Agent class runs the loop for you. It lets your own code run at set moments in that loop. These spots are called hooks. The harness uses one hook for each of its three parts.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_5.jpg)
+![](https://pbs.twimg.com/media/HS3WqNVWcAA48P6.jpg)
 
 ## A first gate
 
@@ -107,7 +107,7 @@ The policy also adds a middle option. One threshold can only say allow or block.
 - In between, the call waits for a person to approve it.
 That middle range catches the calls Jev is unsure about, which a single cutoff would get wrong one way or the other.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_6.jpg)
+![](https://pbs.twimg.com/media/HS3W5CHWEAAylGB.jpg)
 
 Because it is a plain function, you can test it by passing in numbers like the ones above, with no live model involved.
 
@@ -119,7 +119,7 @@ Some requests are easy, like reading one file. Some are hard, like tracking down
 
 Before a request starts, the router asks Jev two questions in one call. A choice picks the tier, and a score rates the request's complexity.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_7.jpg)
+![](https://pbs.twimg.com/media/HS3XC-FXAAAB3dP.jpg)
 
 The router's policy uses the two answers like this.
 
@@ -146,7 +146,7 @@ The gate blocks the call. If the gate can't ask Jev, it has no idea whether the 
 
 The router uses the powerful model. If the router can't ask Jev, it doesn't know how hard the request is. The powerful model can handle anything, so the request still gets a good answer, and you pay a little more. This is failing open, letting the work go ahead.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_8.jpg)
+![](https://pbs.twimg.com/media/HS3XUuGXUAAWX7Q.jpg)
 
 ## 4. Verify the answer
 
@@ -156,7 +156,7 @@ An agent can finish with an answer that leaves something out, or that states thi
 
 The verifier sends Jev the finished answer along with the files and tool results it was based on. Jev scores the answer's quality and says whether its claims are grounded, meaning backed up by what the agent actually read.
 
-![](../_media/x-2102762406204076532/omarsar0_2102762406204076532_9.jpg)
+![](https://pbs.twimg.com/media/HS3Xb2GXkAEIJim.jpg)
 
 Two rules stop the agent from retrying forever. It gets at most two attempts in total. And when Jev isn't confident about its own grade, the harness accepts the answer rather than paying for another try.
 

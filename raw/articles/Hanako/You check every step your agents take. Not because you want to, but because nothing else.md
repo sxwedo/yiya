@@ -67,7 +67,7 @@ Every step is correct. The result is still slow and still wrong-shaped, and tuni
 
 That is the moment people blame the model. It is also the moment the next layer starts paying for itself.
 
-![Image](../_media/x-2091515787366306154/hanakoxbt_2091515787366306154_1.png)
+![Image](https://pbs.twimg.com/media/HQZ4wCCWgAA5YYj.png)
 
 ## The graph is the layer above
 
@@ -117,7 +117,7 @@ If you can describe the transformation without using the words judge, decide, as
 
 A graph where every edge is an agent pays rent on its own wiring.
 
-![Image](../_media/x-2091515787366306154/hanakoxbt_2091515787366306154_2.png)
+![Image](https://pbs.twimg.com/media/HQZ5BxZXwAAY8_J.png)
 
 ## Where the loop actually lives
 
@@ -158,7 +158,7 @@ Notice where it lands. Not in the worker's instructions, in the brief that shape
 
 A confirmed cause becomes a rule, so the next break starts where this one ended.
 
-![Image](../_media/x-2091515787366306154/hanakoxbt_2091515787366306154_3.png)
+![Image](https://pbs.twimg.com/media/HQZ6Gt9WQAAbTUk.png)
 
 ## Return the unit, not the batch
 
@@ -211,7 +211,7 @@ That third row is not a threshold set very high. It is a lane that does not open
 
 Inside an open lane the gate reads evidence in order: deterministic results, then the trajectory of this run, then how often work from this node has been rolled back before, and the model's own assessment last.
 
-![Image](../_media/x-2091515787366306154/hanakoxbt_2091515787366306154_4.jpg)
+![Image](https://pbs.twimg.com/media/HQZ5mTxXUAANsQt.jpg)
 
 ## Where to start on your own work
 
@@ -249,7 +249,7 @@ Also follow me for more on agent internals, and subscribe to my Telegram channel
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2091515787366306154/hanakoxbt_2091515787366306154_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HQaNiAyXMAEIPNz.jpg)
 
 ## 💬 Replies
 

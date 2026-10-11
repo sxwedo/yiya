@@ -381,7 +381,7 @@ brew install --cask font-maple-mono-nf-cn
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2033524177295274496/alin_zone_2033524177295274496_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HDiDWyAaQAAYAT2.jpg)
 
 ## 💬 Replies
 

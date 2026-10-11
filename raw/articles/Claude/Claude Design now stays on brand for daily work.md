@@ -10,7 +10,7 @@ date: "June 17, 2026"
 
 > Claude Design now sticks to your design system across projects, works fluidly with Claude Code, lets you edit directly on the canvas, and connects to more tools you already use. It has a new home in the sidebar on the Claude desktop app; you can also find it at claude.ai/design.
 
-![](../_media/claude-claude-design-stays-on-brand-for-daily-work/Claude_claude-design-stays-on-brand-for-daily-work_1.webp)
+![](https://assets.claude.com/26fe4b872e9039c8736c215fcc8d33a8c933961f.webp)
 
 [Claude Design](https://claude.com/product/design)now sticks to your design system across projects, works fluidly with Claude Code, lets you edit directly on the canvas, and connects to more tools you already use. It has a new home in the sidebar on the Claude desktop app; <https://claude.com/product/design>
 

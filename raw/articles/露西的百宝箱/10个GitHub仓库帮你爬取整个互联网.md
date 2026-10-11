@@ -56,13 +56,13 @@ curl的增强版，完美模拟真实浏览器指纹，请求看起来就像有C
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071040656634732984/Lucy_love_AI_2071040656634732984_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HL3QfF8bgAM3NL1?format=jpg&name=medium)
 
-![Image 2](../_media/x-2071040656634732984/Lucy_love_AI_2071040656634732984_2.jpg)
+![Image 2](https://pbs.twimg.com/media/HL3QfNebMAAGtnL.jpg?name=orig)
 
-![Image 3](../_media/x-2071040656634732984/Lucy_love_AI_2071040656634732984_3.jpg)
+![Image 3](https://pbs.twimg.com/media/HL3QfYcasAA8pRE.jpg?name=orig)
 
-![Image 4](../_media/x-2071040656634732984/Lucy_love_AI_2071040656634732984_4.jpg)
+![Image 4](https://pbs.twimg.com/media/HL3QfiIbkAABZFY.jpg?name=orig)
 
 ## 💬 Replies
 

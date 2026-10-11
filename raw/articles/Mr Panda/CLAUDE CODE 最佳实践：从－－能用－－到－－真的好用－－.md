@@ -64,7 +64,7 @@ CLAUDE.md 是 Claude Code 在每次对话开始时自动读取的指令文件。
 
 Claude Code 支持四级 CLAUDE.md，按优先级从高到低：
 
-![Image](../_media/x-2035975664730575325/PandaTalk8_2035975664730575325_5.png)
+![Image](https://pbs.twimg.com/media/HEE6VYCbYAA2NA7.png)
 
 我的全局 CLAUDE.md 里通常会写：
 
@@ -318,7 +318,7 @@ Claude Code 的上下文窗口虽然大（最多 1M token），但它不是无�
 
 Memory vs CLAUDE.md
 
-![Image](../_media/x-2035975664730575325/PandaTalk8_2035975664730575325_3.png)
+![Image](https://pbs.twimg.com/media/HEE7adsasAA5w49.png)
 
 Memory 适合存什么： 你的偏好（"这个人喜欢简洁回复"）、项目约定（"部署有个特殊步骤"）、历史决策（"上次选了方案 A 是因为 X"）。
 
@@ -330,7 +330,7 @@ Memory 不适合存什么： 代码细节、Git 历史、临时状态——这�
 
 Claude Code 提供了五种权限模式，用 Shift+Tab 在对话中循环切换：
 
-![Image](../_media/x-2035975664730575325/PandaTalk8_2035975664730575325_4.png)
+![Image](https://pbs.twimg.com/media/HEE7e06bsAI6zqC.png)
 
 ## 权限规则配置
 
@@ -385,7 +385,7 @@ Hooks 是在特定生命周期事件上自动触发的 shell 命令。配置在 
 
 ## 关键事件类型
 
-![Image](../_media/x-2035975664730575325/PandaTalk8_2035975664730575325_1.png)
+![Image](https://pbs.twimg.com/media/HEE7xJpaMAAID_n.png)
 
 实用示例
 
@@ -497,7 +497,7 @@ claude --from-pr 123
 
 最常用的快捷键
 
-![Image](../_media/x-2035975664730575325/PandaTalk8_2035975664730575325_2.png)
+![Image](https://pbs.twimg.com/media/HEE8WPabkAAxuX3.png)
 
 最常用的斜杠命令
 
@@ -698,7 +698,7 @@ Claude Code 的核心使用哲学其实很简单：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2035975664730575325/PandaTalk8_2035975664730575325_6.png)
+![Image 1](https://pbs.twimg.com/media/HEE6ESsbAAAsWSp.png)
 
 ## 💬 Replies
 

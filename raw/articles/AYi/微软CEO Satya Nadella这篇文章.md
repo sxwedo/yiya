@@ -55,7 +55,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2066546692262892013/AYi_AInotes_2066546692262892013_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HK3ZQepW8AAU2x3?format=jpg&name=medium)
 
 ## 💬 Replies
 

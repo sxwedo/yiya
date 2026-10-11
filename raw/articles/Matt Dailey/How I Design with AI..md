@@ -29,7 +29,7 @@ The design process is roughly 3 steps:
 
 This is from Notes on the Synthesis of Form by Christopher Alexander. It's a pleasingly rigorous exploration of the design process.
 
-![Image](../_media/matt-dailey-design-with-ai/reactiverobot_2092638003789439075_2.jpg)
+![Image](https://pbs.twimg.com/media/HQnzTLyasAEscbN.jpg)
 
 Constraints can take many forms. They could be font and sizing rules, workflows you must support or business-logic states. The important thing is that you decide the constraints.
 
@@ -37,7 +37,7 @@ The common problem is skipping Step 3 and playing design wackamole.
 
 A user gets confused and it's natural to jump into solution mode. Our team gets nerd sniped by this all the time. Especially with the left sidebar because it packs so much information into a small space.  The temptation is to spot-fix but that road leads to ruin.
 
-![Image](../_media/matt-dailey-design-with-ai/reactiverobot_2092638003789439075_6.jpg)
+![Image](https://pbs.twimg.com/media/HQm3Eara4AENdjM.jpg)
 
 The problem from skipping laying out the constraints is that you get a disjoint patchwork that randomly prioritizes some interactions over others. AI exacerbates the draw to wackamole design. It encourages prompting "Make X more prominent" or "Add an affordance to do Y". In the end, more users are confused.
 
@@ -67,7 +67,7 @@ Figma is still the GOAT and the AI integration is getting better every week. Cur
 
 Just please use a tool meant for design and have AI generate 3-4 variants of everything. 
 
-![Image](../_media/matt-dailey-design-with-ai/reactiverobot_2092638003789439075_4.jpg)
+![Image](https://pbs.twimg.com/media/HQm4bQRbgAARCfY.jpg)
 
 # 
 
@@ -93,7 +93,7 @@ It's important to remember, there will always be some polish and re-work necessa
 
 For a large feature that involves frontend and backend, preview deploys can be tricky. At Ref we solve this by separating frontend and backend PRs. Backend changes can be verified with unit and integration tests. Frontend changes require human verification and preview deploys make it easy to share a link.
 
-![Image](../_media/matt-dailey-design-with-ai/reactiverobot_2092638003789439075_7.jpg)
+![Image](https://pbs.twimg.com/media/HQnZTvBagAEM-3N.jpg)
 
 # 
 
@@ -103,7 +103,7 @@ Most UX problems have been solved already and you should be taking pieces and pu
 
 Every cracked designer I've worked with starts every single project by pulling together a bunch of screenshots. You should do the same, it makes amazing context to send to your agent.
 
-![Image](../_media/matt-dailey-design-with-ai/reactiverobot_2092638003789439075_3.jpg)
+![Image](https://pbs.twimg.com/media/HQm5TvsaEAAgzOr.jpg)
 
 # 
 
@@ -123,5 +123,5 @@ That's all I've got. GLHF.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/matt-dailey-design-with-ai/reactiverobot_2092638003789439075_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HQqK_LMaEAAUXxC.jpg)
 

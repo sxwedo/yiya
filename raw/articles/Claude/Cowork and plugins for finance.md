@@ -24,7 +24,7 @@ An equity analyst can ask Claude to analyze earnings, update a financial model, 
 
 Claude working across Excel and PowerPoint is now available in research preview for all paid plans across Mac and Windows.  
 
-![](../_media/claude-cowork-and-plugins-for-finance/Claude_cowork-plugins-finance_1.png)
+![](https://assets.claude.com/1e053b413b77d9b75ca10eac96e371e77e8dd3a7.png)
 
 ## New finance plugins
 

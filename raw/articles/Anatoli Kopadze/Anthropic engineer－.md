@@ -21,7 +21,7 @@ Watch the session, then save the guide below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2072004849873391744/AnatoliKopadze_2072004849873391744_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2072003445490376704/img/rm07xYeNl0MKGrhX.jpg)
 
 ## 💬 Replies
 

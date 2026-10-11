@@ -56,7 +56,7 @@ AI 可以替你省去体力劳动。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070075793980399630/mubeitech_2070075793980399630_1.jpg)
+![Image 1](https://pbs.twimg.com/ext_tw_video_thumb/2070075610118889472/pu/img/Oepa0ZjJbn4K21pw.jpg)
 
 ## 💬 Replies
 

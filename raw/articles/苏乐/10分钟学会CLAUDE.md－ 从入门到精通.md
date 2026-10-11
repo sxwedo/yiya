@@ -28,7 +28,7 @@ CLAUDE.md 和 AGENTS.md
 
 但这里也有一个很常见的误区：很多人把它写成了项目百科全书。
 
-![Image](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_5.jpg)
+![Image](https://pbs.twimg.com/media/HQf_xWUaoAAmJWT?format=jpg&name=medium)
 
 教程只解决三个问题：
 
@@ -66,7 +66,7 @@ CLAUDE.md 和 AGENTS.md
 
 两者概念相似，但原生加载方式不同。
 
-![Image](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_6.jpg)
+![Image](https://pbs.twimg.com/media/HQf_jjNbUAAf8MZ.jpg)
 
 Claude Code 还支持项目根目录下的 CLAUDE.local.md，适合保存只属于你、又不想提交给团队的项目偏好。记得把它加入 .gitignore。
 
@@ -189,7 +189,7 @@ Claude Code 还支持 .claude/rules/ 下带 paths 的路径规则。规则只在
 
 现在技术事实和隐性知识混在了一起。不要一上来润色，先逐条分流：
 
-![Image](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_8.jpg)
+![Image](https://pbs.twimg.com/media/HQf_ji3bQAAI2tP.jpg)
 
 整理后，根目录 AGENTS.md 只剩：
 
@@ -230,7 +230,7 @@ Claude Code 还支持 .claude/rules/ 下带 paths 的路径规则。规则只在
 
 写指令文件最实用的能力，不是文笔，而是分流。
 
-![Image](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_1.jpg)
+![Image](https://pbs.twimg.com/media/HQf_iNFa8AA0SbH.jpg)
 
 发布的 12 步清单属于 Skill，只有发布时才加载；“API Key 不能提交”可以保留提醒，但还要用密钥扫描工具、权限、Hook 或 CI 兜底。
 
@@ -299,7 +299,7 @@ CLAUDE.md 第一行写：
 
 这样，团队只维护 AGENTS.md 的公共内容。Claude Code 读取这份 CLAUDE.md 时会导入 AGENTS.md，Codex 则原生读取它。
 
-![Image](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_7.jpg)
+![Image](https://pbs.twimg.com/media/HQgAFXYa8AEV1Zu.jpg)
 
 也可以让 CLAUDE.md 成为指向 AGENTS.md 的符号链接，但跨平台和 Windows 权限会带来额外麻烦。对大多数团队来说，@AGENTS.md 更直观。
 
@@ -373,7 +373,7 @@ Claude Code v2.1.206 及以上版本的 /doctor，可以检查已提交的 CLAUD
 
 这版提示词也支持 AGENTS.md，默认只做审计，不会直接改文件。你先看逐条建议和候选稿，确认没有误删项目知识后，再让 Agent 执行修改。
 
-![Image](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_4.jpg)
+![Image](https://pbs.twimg.com/media/HQgAgBbbMAEmOCe?format=jpg&name=medium)
 
 \`\`\`text
 你现在是这个项目的长期指令审计员。请审计并精简项目中的 CLAUDE.md、AGENTS.md 及相关规则文件。
@@ -587,7 +587,7 @@ Claude Code v2.1.206 及以上版本的 /doctor，可以检查已提交的 CLAUD
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2092090376899199201/ai_suxiaole_2092090376899199201_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HQgA8adb0AA_lhk.jpg)
 
 ## 💬 Replies
 

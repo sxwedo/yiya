@@ -29,13 +29,13 @@ type: "Article"
 
 要理解循环工程，先看它在谱系里的位置。这几年杠杆点一直在往离“裸模型调用”更远的地方移：
 
-![Image](../_media/x-2070333819249627273/KyrieCheungYep_2070333819249627273_1.jpg)
+![Image](https://pbs.twimg.com/media/HLtJo2va0AAdKwF.jpg)
 
 它和 cron 定时任务的差别，在于里面多了一个会判断下一步的 agent。cron 跑写死的脚本；循环会看当前状态，挑动作，执行，检查结果，再决定继续、重试、回滚或停止。这个“观察、决策、行动、验证”（observe-decide-act-verify）就是循环的内核。主流 AI 厂商最后都靠近了这个结构，源头可以追到 2022 年普林斯顿和 Google 的 ReAct 框架（推理与行动交替）。
 
 一个循环由什么组成：五个部件和一个状态层
 
-![Image](../_media/x-2070333819249627273/KyrieCheungYep_2070333819249627273_2.jpg)
+![Image](https://pbs.twimg.com/media/HLtJqPobkAA0Fi9.jpg)
 
 第六个最容易被新手跳过。模型每次跑完都会忘，状态文件就是让今天这次运行知道昨天干了什么的办法。少了它，很多系统看似在循环，其实只是在重复同一个第一步。
 
@@ -92,7 +92,7 @@ type: "Article"
 
 这是全场最难的一步。“把代码改好”太虚，“test/auth 全过且 npm run lint 干净”才够用。把停止条件写成验收单，四个字段尽量都补上：
 
-![Image](../_media/x-2070333819249627273/KyrieCheungYep_2070333819249627273_3.jpg)
+![Image](https://pbs.twimg.com/media/HLtJqQGb0AA0Rut.jpg)
 
 agent 还是那个执行者，你写的是它必须通过的那张验收单。
 
@@ -370,7 +370,7 @@ model: claude-haiku-4-5
 
 不要追求一步到位，一步跳到“自动合并”。按成熟度阶梯，一次爬一格。当前这格产出的东西，已经是你本来也会手动接受的结果，再往上走。
 
-![Image](../_media/x-2070333819249627273/KyrieCheungYep_2070333819249627273_4.jpg)
+![Image](https://pbs.twimg.com/media/HLtJo6Fa8AArt6m.jpg)
 
 放手前的最小安全清单有七样：成功条件、上限（次数、分钟、花费）、隔离分支或 worktree、只读的 checker、状态文件、人类闸门（风险或失败的活交给人，绝不直推 main）、日志或通知（夜里出事要看得见）。缺一样，循环就容易不安全、健忘，或者出了事没人知道。
 
@@ -398,7 +398,7 @@ Kyrie — 前国内大厂 R&D 工程师，现居曼谷，做中国科技企业�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070333819249627273/KyrieCheungYep_2070333819249627273_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HLtKM7SaoAAYjQ9.jpg)
 
 ## 💬 Replies
 

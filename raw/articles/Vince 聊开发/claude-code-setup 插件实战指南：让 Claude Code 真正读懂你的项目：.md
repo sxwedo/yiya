@@ -346,7 +346,7 @@ recommend automations for this project
 
 社区插件像对待 PyPI 包一样：审查，测试，再信任。
 
-![Image](../_media/x-2057430633971114100/vincemask_2057430633971114100_1.jpg)
+![Image](https://pbs.twimg.com/media/HIxx8MtaEAAu2wz.jpg)
 
 ## 
 
@@ -364,7 +364,7 @@ recommend automations for this project
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2057430633971114100/vincemask_2057430633971114100_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HI12KlcbQAAnbYG.jpg)
 
 ## 💬 Replies
 

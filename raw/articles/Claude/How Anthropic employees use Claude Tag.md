@@ -24,7 +24,7 @@ That Slack thread ran to more than 15 messages, with multiple people chiming in 
 
 ‍
 
-![Asking Claude to generate marketing collateral based on a Slack thread. This image has been generated to illustrate a use case and does not contain real information. ](../_media/claude-how-anthropic-employees-use-claude-tag/Aleksandra_Todorova_how-anthropic-employees-use-claude-tag_1.png)
+![Asking Claude to generate marketing collateral based on a Slack thread. This image has been generated to illustrate a use case and does not contain real information. ](https://assets.claude.com/cd6e52d544d5810794a2a25fd2d232f5beb22fdb.png)
 
 *Asking Claude to generate marketing collateral based on a Slack thread. This image has been generated to illustrate a use case and does not contain real information.* 
 
@@ -36,7 +36,7 @@ Next, Hema asked Claude to verify its responses:
 
 Claude sorted the document's claims into ones verified against public documentation and those that were its own framing, which it flagged for product-lead sign-off. Hema supplied two official resources with relevant information, and Claude rewrote one section to match the approved wording in those resources. 
 
-![Follow-up instructions for Claude also happen in Slack. This image has been generated to illustrate a use case and does not contain real information. ](../_media/claude-how-anthropic-employees-use-claude-tag/Aleksandra_Todorova_how-anthropic-employees-use-claude-tag_2.png)
+![Follow-up instructions for Claude also happen in Slack. This image has been generated to illustrate a use case and does not contain real information. ](https://assets.claude.com/b1a32b3705407471a5fdd9d472361a56725ab419.png)
 
 *Follow-up instructions for Claude also happen in Slack. This image has been generated to illustrate a use case and does not contain real information.* 
 
@@ -56,7 +56,7 @@ To start, Steph messaged Claude with the search targets, a one-sentence definiti
 
 Claude ran about 20 search variants across several channels and the wider workspace. The product-feedback hub blocked its direct access, so it surfaced hub items through Slack cross-references instead, and it folded in a first-pass list another internal assistant had posted, deduplicating the two. The consolidated list came back in about 26 minutes and included roughly 24 accounts, with one line per requester containing their Slack handle, team, account, and a link to the original ask.
 
-![Asking Claude to generate a list of everyone who has posted asked for a specific feature in Slack. This image has been generated to illustrate a use case and does not contain real information.](../_media/claude-how-anthropic-employees-use-claude-tag/Aleksandra_Todorova_how-anthropic-employees-use-claude-tag_3.png)
+![Asking Claude to generate a list of everyone who has posted asked for a specific feature in Slack. This image has been generated to illustrate a use case and does not contain real information.](https://assets.claude.com/96945facf5688f10a4116c1f22bf8ff58f7e8a1f.png)
 
 *Asking Claude to generate a list of everyone who has posted asked for a specific feature in Slack. This image has been generated to illustrate a use case and does not contain real information.*
 
@@ -72,7 +72,7 @@ Anthropic’s legal team reviews each blog, landing page, email, or any other co
 
 To request legal review, marketers post a document link in the Slack channel, where Molly, who has no engineering background, has set up specific rules and instructions for Claude. Not only can Claude spot issues for legal (like unsubstantiated marketing claims), but it can also help check factual statements in the marketing content because it has access to the company Slack, an internal knowledge index, and the public web. If there are flags, Claude lists those with specific instructions on how to address them and works directly with the requester to do so. For remaining issues that need legal sign-off, Claude tags the appropriate product counsel, who can quickly review the flagged statements. 
 
-![Marketers request legal review by posting a link to the document in a dedicated Slack channel. This image has been generated to illustrate a use case and does not contain real information.](../_media/claude-how-anthropic-employees-use-claude-tag/Aleksandra_Todorova_how-anthropic-employees-use-claude-tag_4.png)
+![Marketers request legal review by posting a link to the document in a dedicated Slack channel. This image has been generated to illustrate a use case and does not contain real information.](https://assets.claude.com/96c9ecf2f2b83550f60188647cd55f738e11b17b.png)
 
 *Marketers request legal review by posting a link to the document in a dedicated Slack channel. This image has been generated to illustrate a use case and does not contain real information.*
 

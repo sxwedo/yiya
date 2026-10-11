@@ -46,7 +46,7 @@ Your team can confidently assign work across broader areas of the codebase. The 
 
 Traditional development automation requires predetermined scripts where every step is mapped in advance. These scripts break when assumptions change. Agentic systems work differently. They assess tasks dynamically, choose appropriate tools based on context, evaluate results, and adjust strategies when initial approaches fail.
 
-![Claude Code identifying a production bug](../_media/claude-what-are-the-key-benefits-of-transitioning-to-agentic-coding/Claude_key-benefits-transitioning-agentic-coding_1.png)
+![Claude Code identifying a production bug](https://assets.claude.com/70b242c987b91aec6f976a763ea99ae8238300d2.png)
 
 *Claude Code identifying a production bug*
 
@@ -72,7 +72,7 @@ Code quality often degrades under deadline pressure. You might take shortcuts, m
 
 They identify potential issues you might overlook: race conditions in concurrent code, memory leaks in long-running processes, security vulnerabilities in input handling, and N+1 query patterns that degrade database performance. They ensure consistent code style across your team, implement security best practices automatically, and document code comprehensively as they write.
 
-![Claude Code refactoring a file, adding in relevant comments to track changes](../_media/claude-what-are-the-key-benefits-of-transitioning-to-agentic-coding/Claude_key-benefits-transitioning-agentic-coding_2.png)
+![Claude Code refactoring a file, adding in relevant comments to track changes](https://assets.claude.com/b3c20cf74f8531703ddaa702c2e84efcefb8019a.png)
 
 *Claude Code refactoring a file, adding in relevant comments to track changes*
 

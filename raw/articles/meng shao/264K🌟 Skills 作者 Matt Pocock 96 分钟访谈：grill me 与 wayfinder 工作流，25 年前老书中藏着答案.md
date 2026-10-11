@@ -8,7 +8,7 @@ date: "2026-09-17T12:19:31.000Z"
 
 # 264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案
 
-![](../_media/x-2100560279209979934/shao_meng_2100560279209979934_1.jpg)
+![](https://pbs.twimg.com/media/HSawQOYbwAEepFr.jpg)
 
 264K 🌟 Skills For Real Engineers @mattpocockuk 与 The Pragmatic Engineer @GergelyOrosz 梦幻联动了！96 分钟深度对谈，把 “如何提升与 AI 协作质量” 的关键点，完全展开讲明白了。
 

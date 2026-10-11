@@ -8,7 +8,7 @@ date: "2026-09-19T05:38:14.000Z"
 
 # 这个 Skill 把你的简历部署成个人网站
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_1.jpg)
+![](https://pbs.twimg.com/media/HSJLR0fa0AAOaBm.jpg)
 
 发现很多人都有做个人网站的需求。所以，我做了一个 Skill：personal-site-builder。
 
@@ -16,7 +16,7 @@ date: "2026-09-19T05:38:14.000Z"
 
 下面是我用这个 Skill 给自己制作的极客风格网站，只要给到信息就能按 6 种内置的风格出网站。
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_2.jpg)
+![](https://pbs.twimg.com/media/HSJJ9kXbUAAg3yo.jpg)
 
 个人网站在找工作时，可以介绍你自己；别人搜索你时可以找到你；如果你有咨询、课程或产品，也可以直接在网站上销售。
 
@@ -32,7 +32,7 @@ date: "2026-09-19T05:38:14.000Z"
 
 这个 Skill 可以帮你快速搭建，下面是详细教程：
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_3.jpg)
+![](https://pbs.twimg.com/media/HSJKAicbsAAt44a.jpg)
 
 安装和使用
 
@@ -50,7 +50,7 @@ date: "2026-09-19T05:38:14.000Z"
 
 简历、GitHub、公众号、小红书、作品集， 给个链接也可以。有什么就给什么。
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_4.jpg)
+![](https://pbs.twimg.com/media/HSJKDoeaEAALLuH.jpg)
 
 它会读取资料，并整理成一份清单：
 
@@ -62,15 +62,15 @@ date: "2026-09-19T05:38:14.000Z"
 
 它不会先问你喜欢什么颜色，而是先问：
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_5.jpg)
+![](https://pbs.twimg.com/media/HSJKGwiboAAck96.jpg)
 
 继续和它讨论，它会给你提供一些详细的网站搭建的方案。
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_6.jpg)
+![](https://pbs.twimg.com/media/HSJKJxJakAAWsbD.jpg)
 
 这个 Skill 总共内置了 7 种类型的网站设计方案
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_7.png)
+![](https://pbs.twimg.com/media/HSJKMwWasAAs89K.png)
 
 网站还会根据用户提供的内容量级，分成三个层级：
 
@@ -85,13 +85,13 @@ date: "2026-09-19T05:38:14.000Z"
 
 Skill 内置了极简黑白、编辑排版、终端极客、Bento 卡片、杂志标题和暖色手作等 6 种风格。下面是一些示例。
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_8.jpg)
+![](https://pbs.twimg.com/media/HSJKRXQa0AAsHCW.jpg)
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_9.jpg)
+![](https://pbs.twimg.com/media/HSJKTahbEAIK7Rs.jpg)
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_10.jpg)
+![](https://pbs.twimg.com/media/HSJKWglbcAAzIOX.jpg)
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_11.jpg)
+![](https://pbs.twimg.com/media/HSJKaTra4AAKvHF.jpg)
 
 如果你有自己喜欢的风格，也可以直接发给它一个参考网站，说：
 
@@ -101,7 +101,7 @@ Skill 内置了极简黑白、编辑排版、终端极客、Bento 卡片、杂�
 
 可以在 behance 站酷搜个人网站设计给 Agent 参考：
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_12.jpg)
+![](https://pbs.twimg.com/media/HSJKeCtbcAAo2Uh.jpg)
 
 好的个人网站是借助设计把你自己的信息讲清楚。
 
@@ -117,7 +117,7 @@ Skill 内置了极简黑白、编辑排版、终端极客、Bento 卡片、杂�
 
 详细教程：[个人网站](https://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247495909&idx=1&sn=cd9beaaeca1d807942c50c708ea3f687&scene=21#wechat_redirect)教程
 
-![](../_media/x-2101184069509747014/kongge_space_2101184069509747014_13.jpg)
+![](https://pbs.twimg.com/media/HSJKiHiaYAAi7Nz.jpg)
 
 最后
 

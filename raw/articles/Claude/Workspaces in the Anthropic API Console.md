@@ -16,7 +16,7 @@ We're introducing Workspaces in the Anthropic API Console to help developers eff
 
 For developers using Claude across different environments—like development, staging, and production—and different use cases, Workspaces provide an abstraction layer for your overall organization and individual API keys.
 
-![Product image showing different workspaces](../_media/claude-workspaces-in-the-anthropic-api-console/Claude_workspaces_1.png)
+![Product image showing different workspaces](https://assets.claude.com/d07c04192b72f56c97ec51e9f5950d14549cbdc7.png)
 
 **With Workspaces, you can:**
 

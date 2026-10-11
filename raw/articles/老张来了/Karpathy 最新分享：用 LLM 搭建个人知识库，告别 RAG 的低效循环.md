@@ -37,19 +37,19 @@ Karpathy 指出了这种方式的根本问题是没有积累。
 
 1、在浏览器安装 Obsidian Web Clipper 扩展
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_15.jpg)
+![Image](https://pbs.twimg.com/media/HFIfwbOagAEMQvo.jpg)
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_1.png)
+![Image](https://pbs.twimg.com/media/HFIf06pbwAEdvEg.png)
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_16.png)
+![Image](https://pbs.twimg.com/media/HFIf4qSbUAA0emo.png)
 
 2、打开任意网页文章，点击扩展图标--Add to Obsidian
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_14.jpg)
+![Image](https://pbs.twimg.com/media/HFIgIcBb0AADVvi.jpg)
 
 3、保存后文章自动转为 Markdown 出现在 Obsidian 里
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_13.png)
+![Image](https://pbs.twimg.com/media/HFIgeDibAAAVCaY.png)
 
 ## 2.2 一个快捷键，让图片本地化，告别外链失效
 
@@ -61,12 +61,12 @@ Karpathy 的方案是两步配置，一劳永逸：
 打开 设置 → 文件与链接 → 找到附件存储路径 → 设为当前文件夹下指定的子文件夹，子文件夹名称设为attachments
 不推荐Karpathy的固定到一个目录 raw/assets/ 因为多了之后附件混在了一起不好管理。
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_9.png)
+![Image](https://pbs.twimg.com/media/HFIgqCpbgAEOV93.png)
 
 第二步：绑定下载快捷键
 设置 → 快捷键 → 搜索 "下载" →  绑定快捷键Ctrl+Shift+D
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_3.jpg)
+![Image](https://pbs.twimg.com/media/HFIgul2bQAAZjCZ.jpg)
 
 以后每次剪藏完一篇文章，按一下 Ctrl+Shift+D，所有图片自动下载到本地。AI 就能直接读取和引用这些图片了
 
@@ -76,7 +76,7 @@ Karpathy 的方案是两步配置，一劳永逸：
 
 Obsidian 的 Graph View是这套方法使你的所有 Wiki 页面以节点形式展示，页面之间的 双链 关系自动连线。打开方式：左侧边栏点击图谱图标或者用快捷键 Ctrl+G
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_2.jpg)
+![Image](https://pbs.twimg.com/media/HFIg0L4a8AAGgU_.jpg)
 
 Karpathy把图谱视图结合AI用在两个场景：
 
@@ -90,7 +90,7 @@ Dataview 是 Obsidian 的社区插件，它能对页面的 YAML frontmatter 做�
 我觉得这个价值不大，只有多到一定程度或者想用元数据查询方式习惯的可以考虑，老张是直接用索引文件或者配合Claude 的文件检索 ,需要了无非在Prompt写的细一点
 安装路径：设置 → 第三方插件→社区插件市场 → 搜索 "Dataview" → 安装并启用
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_5.png)
+![Image](https://pbs.twimg.com/media/HFIhHx2bUAAZKVZ.png)
 
 配合 LLM Wiki 的用法是：让 AI 在每个 Wiki 页面的 frontmatter 里写上结构化元数据，比如：
 
@@ -117,11 +117,11 @@ SORT date DESC
 Marp 是一个基于 Markdown 的幻灯片格式，在 Obsidian 里装上 Marp Slides 插件就能直接预览和导出。
 安装路径：设置 → 社区插件 → 搜索 "Marp Slides" → 安装并启用。
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_10.jpg)
+![Image](https://pbs.twimg.com/media/HFIhYqTboAAu1rq.jpg)
 
 用法：在 Markdown 文件开头加上 marp: true，用 --- 分隔每页幻灯片，写完直接在 Obsidian 里预览，也可以导出为 PDF / HTML / PPTX。
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_4.png)
+![Image](https://pbs.twimg.com/media/HFIhdzfbUAAgJya.png)
 
 配合 LLM Wiki 的场景，让 AI 从 Wiki 的某个主题页面直接生成 Marp 格式的幻灯片草稿，你微调后就能用。
 
@@ -129,17 +129,17 @@ Marp 是一个基于 Markdown 的幻灯片格式，在 Obsidian 里装上 Marp S
 
 操作步骤：设置 → 第三方插件 → 社区插件市场 → 搜索 "git" → 安装并启用
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_11.png)
+![Image](https://pbs.twimg.com/media/HFIhkfUbIAAGuLW.png)
 
 如果你的 Vault 还不是一个 Git 仓库，需要初始化一次：
 
 1、打开终端（Windows 用 PowerShell，Mac 用 Terminal），cd 到你的 Vault 目录 执行 git init 初始化仓库
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_6.png)
+![Image](https://pbs.twimg.com/media/HFIhqjbbMAEmCfp.png)
 
 2、打开github.com 创建一个private仓库
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_8.jpg)
+![Image](https://pbs.twimg.com/media/HFIhv6zacAAIKgd.jpg)
 
 3、如果要同步到 GitHub，在 GitHub 上创建一个私有仓库（重要，知识库是私人数据），然后
 
@@ -151,11 +151,11 @@ git commit -m "init: 初始化知识库"
 git push -u origin main
 \`\`\`
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_7.png)
+![Image](https://pbs.twimg.com/media/HFIh_s6bYAAJteM.png)
 
 安装完 Obsidian Git 插件后，打开它将Auto commit-and-sync interval设为10 分钟，插件会自动 commit + push，你完全不用管
 
-![Image](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_12.png)
+![Image](https://pbs.twimg.com/media/HFIiEftacAAdhBo.png)
 
 配好之后日常使用你不需要做任何事情。每隔几分钟插件自动 commit 和 push，相当于你的知识库有了一个实时备份+完整历史。
 
@@ -186,7 +186,7 @@ Karpathy的llm-wiki链接：[https://gist.github.com/karpathy/442a6bf555914893e9
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2040732229035585615/laozhang2579_2040732229035585615_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HFIjBzwakAAfq0e.jpg)
 
 ## 💬 Replies
 

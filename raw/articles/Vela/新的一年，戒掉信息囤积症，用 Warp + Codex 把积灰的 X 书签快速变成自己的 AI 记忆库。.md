@@ -17,7 +17,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2007104306844148012/QuantVela_2007104306844148012_1.png)
+![Image 1](https://pbs.twimg.com/media/G9qqBcTb0AAfzK_?format=png&name=medium)
 
 ## 💬 Replies
 

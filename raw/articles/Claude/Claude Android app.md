@@ -19,7 +19,7 @@ The Claude Android app works just like Claude on iOS and the web, meaning you ge
 * **Multilingual processing:** Real-time language translation to help communicate or translate aspects of the world around you
 * **Advanced reasoning:** Claude can help you tackle complex problems, like analyzing contracts while traveling or conducting market research to prepare for a meeting
 
-![Four examples of use cases on Android devices](../_media/claude-android-app/Claude_android-app_1.png)
+![Four examples of use cases on Android devices](https://assets.claude.com/5e700de1c74ae3846f527c5917066a59bcd9dcf7.png)
 
 ## Talk to Claude from anywhere
 

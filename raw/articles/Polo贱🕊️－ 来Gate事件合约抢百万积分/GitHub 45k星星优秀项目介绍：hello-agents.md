@@ -56,7 +56,7 @@ hello-agents 这本书厉害的地方，在于它不教你追潮流，它教你�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2053302408978043324/xiaojianjian567_2053302408978043324_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HH7Lp-rb0AACKvv?format=jpg&name=medium)
 
 ## 💬 Replies
 

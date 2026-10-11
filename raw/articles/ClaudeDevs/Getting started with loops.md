@@ -29,7 +29,7 @@ We’ll cover the main loop types, when to use each, and how to maintain code qu
 
 ## Turn-based loops
 
-![Image](../_media/x-2074208949205881033/ClaudeDevs_2074208949205881033_1.jpg)
+![Image](https://pbs.twimg.com/media/HMkOVNybEAAncbL.jpg)
 
 - Triggered by: A user prompt.
 
@@ -71,7 +71,7 @@ If any step fails, fix the issue and rerun from step 1 — do not hand back part
 
 ## Goal-based loop (/goal)
 
-![Image](../_media/x-2074208949205881033/ClaudeDevs_2074208949205881033_2.jpg)
+![Image](https://pbs.twimg.com/media/HMkOlk3bcAAHX46.jpg)
 
 - Triggered by: A manual prompt in real-time.
 
@@ -121,7 +121,7 @@ For these, you can trigger when Claude runs with \`/loop\` which re-runs a promp
 
 ## Proactive loops
 
-![Image](../_media/x-2074208949205881033/ClaudeDevs_2074208949205881033_3.jpg)
+![Image](https://pbs.twimg.com/media/HMkPQM8bEAA3RAk.jpg)
 
 - Triggered by: An event or schedule, with no human in real time.
 
@@ -206,7 +206,7 @@ This article was written by @delba\_oliveira
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074208949205881033/ClaudeDevs_2074208949205881033_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HMkRVmsaEAA3Dl5.jpg)
 
 ## 💬 Replies
 

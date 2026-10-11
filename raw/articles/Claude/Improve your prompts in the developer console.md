@@ -34,7 +34,7 @@ Once the new prompt is generated, you can provide feedback for Claude about what
 
 Adding examples to prompts is one of the most effective ways to improve model response quality, especially when it comes to getting Claude to precisely follow a specific format in the output. You can now manage examples in a structured format directly in the Workbench. This makes it easier to add new examples with clear input/output pairs or edit existing examples to refine response quality.
 
-![A visual of the Anthropic Console showing examples for a prompt.](../_media/claude-improve-your-prompts-in-the-developer-console/Claude_prompt-improver_1.jpg)
+![A visual of the Anthropic Console showing examples for a prompt.](https://assets.claude.com/dc5899475f8c28aad0d45a35d7477d0c8ab620ca.jpg)
 
 If your prompt doesn’t have examples, you can add them with Claude-driven example generation. Claude can automatically create synthetic example inputs and draft outputs for you to streamline this process.
 

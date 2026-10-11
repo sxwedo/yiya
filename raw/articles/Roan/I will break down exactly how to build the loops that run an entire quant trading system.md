@@ -87,7 +87,7 @@ That is exactly what a loop does.
 
 If you are still typing prompts into Claude one trade at a time, you are doing what Boris stopped doing two years ago. The leverage point has moved one floor up. You are not writing better prompts anymore. You are writing the system that writes the prompts.
 
-![Image](../_media/x-2069056530960490835/RohOnChain_2069056530960490835_1.jpg)
+![Image](https://pbs.twimg.com/media/HLGJ0hxaEAA6Gzz.jpg)
 
 ---
 
@@ -236,7 +236,7 @@ The verifier never sees what the maker reasoned. That separation is the entire e
 
 You can also use a stronger model for the checker than the maker. Claude Opus for verification, Claude Sonnet for generation. Different model architectures catch different kinds of errors. This is the same logic ensemble methods use in machine learning.
 
-![Image](../_media/x-2069056530960490835/RohOnChain_2069056530960490835_2.jpg)
+![Image](https://pbs.twimg.com/media/HLGLfHRaYAAVSku.jpg)
 
 Stage four. Execution.
 
@@ -273,7 +273,7 @@ Data flows in. Signals get generated. Signals get verified. Verified signals get
 
 Then it starts over.
 
-![Image](../_media/x-2069056530960490835/RohOnChain_2069056530960490835_3.jpg)
+![Image](https://pbs.twimg.com/media/HLGL7EeaMAA-zjx.jpg)
 
 I designed this once. I have not prompted any of these steps since.
 
@@ -313,7 +313,7 @@ There is no wrong answer but there are very revealing ones.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069056530960490835/RohOnChain_2069056530960490835_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HLZ4VdoacAA8c8b.jpg)
 
 ## 💬 Replies
 

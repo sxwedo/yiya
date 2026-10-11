@@ -22,7 +22,7 @@ Together, these updates will help you process more requests within your existing
 
 Prompt cache read tokens no longer count against your Input Tokens Per Minute (ITPM) limit for Claude 3.7 Sonnet on the Anthropic API. This means you can now optimize your prompt caching usage to increase throughput and get more out of your existing ITPM rate limits. Your Output Tokens Per Minute (OTPM) rate limit remains the same.
 
-![A bar chart showing additional throughput with cache-aware ITPM.](../_media/claude-token-saving-updates-on-the-anthropic-api/Claude_token-saving-updates_1.png)
+![A bar chart showing additional throughput with cache-aware ITPM.](https://assets.claude.com/9e45c3e34838c6320ad076d606f7801ec0cb6eab.png)
 
 This makes Claude 3.7 Sonnet particularly powerful for applications that benefit from extensive context while requiring high throughput, such as:
 
@@ -38,7 +38,7 @@ We've updated prompt caching to be easier to use. Now, when you set a cache brea
 
 You no longer need to manually track and specify which cached segments to use as we automatically identify and use the most relevant cached content. This not only reduces your workload, but also frees up more tokens.
 
-![A comparison of prompt caching with and without automatic use of the largest cached prefix.](../_media/claude-token-saving-updates-on-the-anthropic-api/Claude_token-saving-updates_2.png)
+![A comparison of prompt caching with and without automatic use of the largest cached prefix.](https://assets.claude.com/b7b77a35d6d9da007b70558062694d6db1a92eb9.png)
 
 This feature is available on the Anthropic API and Google Cloud’s Vertex AI. Explore our [documentation](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching) to learn more.
 

@@ -93,7 +93,7 @@ CLI 解决的是“如何直接把事情做完”。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2091446028537061629/Smartpigai_2091446028537061629_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HQZO_p8asAA2sMn.jpg)
 
 ## 💬 Replies
 

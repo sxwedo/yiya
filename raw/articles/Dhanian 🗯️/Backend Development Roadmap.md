@@ -237,7 +237,7 @@ Get The Backend Engineering Handbook now and begin your journey : [codewithdhani
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2017495884313841930/e_opore_2017495884313841930_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G_-TCZPWsAABdYQ?format=jpg&name=medium)
 
 ## 💬 Replies
 

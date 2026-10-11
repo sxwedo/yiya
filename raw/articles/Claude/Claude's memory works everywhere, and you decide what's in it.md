@@ -12,7 +12,7 @@ ingested: "2026-09-11"
 
 Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it. Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you're tired of re-explaining, you can turn them on in Memory settings.
 
-![](../_media/claude-claude-s-memory-works-everywhere-and-you-decide-what-s-in-it/Claude_claudes-memory-works-everywhere-and-you-decide-whats-in-it_1.png)
+![](https://assets.claude.com/cb0dd2c8bda7c4cbec768f664e528b6c7f8eaa19.png)
 
 ## **One memory across Claude Cowork and chat**
 
@@ -28,9 +28,9 @@ Claude now adds topics to memory as you chat, instead of summarizing conversatio
 
 Everything Claude remembers is in a list of files under Topics in Memory settings, where you can read, edit, or delete each one. The files are short, and a fix pays off everywhere: correct your company's old name in one file and every conversation from then on gets it right.
 
-![](../_media/claude-claude-s-memory-works-everywhere-and-you-decide-what-s-in-it/Claude_claudes-memory-works-everywhere-and-you-decide-whats-in-it_2.png)
+![](https://assets.claude.com/f0ad434614518667f9ed3cc34b7722bae9628eef.png)
 
-![](../_media/claude-claude-s-memory-works-everywhere-and-you-decide-what-s-in-it/Claude_claudes-memory-works-everywhere-and-you-decide-whats-in-it_3.png)
+![](https://assets.claude.com/f8767e3cca9f33729ab057937923ffe64024900e.png)
 
 ## **Decide if you want Claude to remember sensitive topics**
 

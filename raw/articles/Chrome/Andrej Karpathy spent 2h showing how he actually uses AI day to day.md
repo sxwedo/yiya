@@ -29,7 +29,7 @@ check his work, then build the version that keeps working when you stop
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063321324605280569/0xchromium_2063321324605280569_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2063320024371093504/img/3bV-ZONjCYuqsvR6.jpg)
 
 ## 💬 Replies
 

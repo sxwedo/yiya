@@ -16,7 +16,7 @@ type: "Article"
 This stack merges them into one feedback loop:
 Obsidian as your memory, Hermes as your agent, MiniMax M3 as the reasoning core
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_9.jpg)
+![Image](https://pbs.twimg.com/media/HK53RjDXQAAKrnE.jpg)
 
 ---
 
@@ -49,7 +49,7 @@ I picked it because I wanted one model that could read my whole vault, my logs, 
 
 The result feels less like “using an LLM” and more like slowly training a second brain
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_1.jpg)
+![Image](https://pbs.twimg.com/media/HK53_piWgAEMtz1.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ Three honest caveats after months of use:
 That is the whole pitch.
 The model is good at exactly the thing a vault workflow needs: reading the whole graph at once and writing back into it without losing structure.
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_8.jpg)
+![Image](https://pbs.twimg.com/media/HK6BP1nWcAAR3oR.jpg)
 
 ---
 
@@ -144,7 +144,7 @@ A practical structure:
 
 Hermes will read, refactor, and create these notes - but the vault remains the source of truth
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_5.jpg)
+![Image](https://pbs.twimg.com/media/HK5506EXIAA-gCn.jpg)
 
 ---
 
@@ -162,7 +162,7 @@ You can run Hermes in two main ways:
 
 - Via Hermes Desktop - a native app for macOS, Windows, and Linux that wraps the same agent core in a GUI
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_7.jpg)
+![Image](https://pbs.twimg.com/media/HK6Bd7gWcAAMB4k.jpg)
 
 ## Install paths
 
@@ -202,7 +202,7 @@ If you do not want to live in the terminal, [download Hermes Desktop](https://he
 
 Most people will use both: Desktop for day-to-day interaction, CLI for setup, automation, and remote work
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_2.jpg)
+![Image](https://pbs.twimg.com/media/HK57epvXIAAqQnh.jpg)
 
 ---
 
@@ -408,7 +408,7 @@ Concrete examples:
 
 - Compare current notes to older ones and highlight changed opinions
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_4.jpg)
+![Image](https://pbs.twimg.com/media/HK6CtlnWYAAQ4Un.jpg)
 
 This is where MiniMax M3 earns its keep.
 
@@ -471,7 +471,7 @@ The architectural shift is big:
 
 Over time, that compound effect is what turns “just notes” into a real second brain
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_6.jpg)
+![Image](https://pbs.twimg.com/media/HK6C15HXMAAKU28.jpg)
 
 ---
 
@@ -538,7 +538,7 @@ At this point, the useful first move is not “write code”. It is:
 Once one loop feels solid, add another -&gt; Then another.
 That is how you turn Hermes + MiniMax M3 + Obsidian from a cool idea into actual infrastructure
 
-![Image](../_media/x-2066904909849440434/polydao_2066904909849440434_3.jpg)
+![Image](https://pbs.twimg.com/media/HK5_zNBXAAA0RaT.jpg)
 
 ---
 
@@ -556,7 +556,7 @@ That is how you turn Hermes + MiniMax M3 + Obsidian from a cool idea into actual
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2066904909849440434/polydao_2066904909849440434_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HKkSb3jW4AAtvg5.jpg)
 
 ## 💬 Replies
 

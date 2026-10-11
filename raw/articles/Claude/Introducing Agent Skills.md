@@ -39,7 +39,7 @@ Think of Skills as custom onboarding materials that let you package expertise, m
 
 Skills are available to Pro, Max, Team and Enterprise users. We provide skills for common tasks like document creation, examples you can customize, and the ability to create your own custom skills.
 
-![The Skills capabilities interface in Claude.ai with example Skills toggled on.](../_media/claude-introducing-agent-skills/Claude_skills_1.webp)
+![The Skills capabilities interface in Claude.ai with example Skills toggled on.](https://assets.claude.com/58ee7ca4a32c0db53ffdf489cd88e217fb4fbe27.jpg)
 
 Claude automatically invokes relevant skills based on your task—no manual selection needed. You'll even see skills in Claude's chain of thought as it works.  
 

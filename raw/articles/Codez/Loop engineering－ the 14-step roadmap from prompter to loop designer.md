@@ -21,7 +21,7 @@ This is the 14-step roadmap to make that shift - sourced from Anthropic’s engi
 
 Three tiers: figure out if you actually need a loop, learn the five building blocks, then build the smallest one that works without hurting you.
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_1.png)
+![Image](https://pbs.twimg.com/media/HKYTPjUX0AAJooq.png)
 
 14 steps. 3 tiers. Stop prompting. Start designing.
 
@@ -37,7 +37,7 @@ Loop engineering is building a small system that finds the work, hands it to the
 
 Addy Osmani breaks it into six parts:
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_2.png)
+![Image](https://pbs.twimg.com/media/HKYT-XBXEAI0yYt.png)
 
 Anthropic engineers now merge eight times as much code per day as they did in 2024 - a figure Anthropic itself calls “almost certainly an overstatement of the true productivity gain.” 
 
@@ -49,7 +49,7 @@ The number is debated. The mechanism isn’t: the leverage point moved from typi
 
 Loops earn their cost under four conditions. Miss one and the loop costs more than it returns. The honest take from AlphaSignal’s analysis, and the part most X-threads skip:
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_5.png)
+![Image](https://pbs.twimg.com/media/HKYVILFW0AAmsCm.png)
 
 The four conditions in plain English:
 
@@ -105,7 +105,7 @@ Miss one box and keep it as a manual prompt.
 
 - 5\. A human reviews before merge, deploy, or dependency changes. Anything irreversible needs a human approval gate before action.
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_8.png)
+![Image](https://pbs.twimg.com/media/HKYYGruWIAAWmLC.png)
 
 Good first loops:
 
@@ -153,7 +153,7 @@ Two primitives inside an automation that separate working loops from expensive o
 
 - /goal keeps going until a condition you wrote is actually true. A separate small model checks completion, so the agent that wrote the code isn’t the one grading it. 
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_9.jpg)
+![Image](https://pbs.twimg.com/media/HKYY3V-WkAAiB-j.jpg)
 
 This is the maker-vs-checker split applied to the stop condition itself.
 
@@ -234,7 +234,7 @@ PRs opened, items escalated.
 
 A loop that can only see the filesystem is a tiny loop. Connectors, built on the Model Context Protocol (MCP), let the agent read your issue tracker, query a database, hit a staging API, drop a message in Slack. 
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_6.jpg)
+![Image](https://pbs.twimg.com/media/HKYZ6H9XEAA54ks.jpg)
 
 Codex and Claude Code both speak MCP, so the connector you wrote for one usually just works in the other.
 
@@ -260,7 +260,7 @@ The most useful structural thing in a loop, by far, is splitting the agent that 
 
 Osmani’s framing is exact: the model that wrote the code is “way too nice grading its own homework.” A second agent with different instructions and sometimes a different model catches the stuff the first one talked itself into.
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_3.png)
+![Image](https://pbs.twimg.com/media/HKYaufLXEAAgTCz.png)
 
 This is the evaluator-optimizer pattern from Anthropic’s December 2024 engineering post under a new name. One model generates, another critiques, repeat. The vocabulary going viral in 2026 was documented eighteen months ago.
 
@@ -330,7 +330,7 @@ For long-running loops that risk drifting off the goal, pair the state file with
 
 If you passed the 4-condition test in step 2, build the smallest loop that works before anything fancy. Four parts, no swarm.
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_4.png)
+![Image](https://pbs.twimg.com/media/HKYbR9NXcAAfivV.png)
 
 The four parts, in plain language:
 
@@ -352,7 +352,7 @@ The metric that matters is cost per accepted change - not tokens spent, not task
 
 Engineer Geoffrey Huntley documented this failure mode and named it. An agent meant to emit a completion token only when finished emits it early, and the loop exits on a half-done job. Without a hard gate, loops fail quietly and keep spending.
 
-![Image](../_media/x-2064374643729773029/0xCodez_2064374643729773029_7.jpg)
+![Image](https://pbs.twimg.com/media/HKYcBV9WwAApV5v.jpg)
 
 The Ralph Wiggum loop is what happens when:
 
@@ -452,7 +452,7 @@ Cherny’s point isn’t that the work got easier. It’s that the leverage poin
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064374643729773029/0xCodez_2064374643729773029_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HKYhsj-XsAAd3fr.jpg)
 
 ## 💬 Replies
 

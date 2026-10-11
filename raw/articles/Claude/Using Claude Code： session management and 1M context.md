@@ -20,7 +20,7 @@ There’s a surprising amount of detail here that can really shape your experien
 
 ## **A quick primer on context, compaction and context rot**
 
-![__wf_reserved_inherit](../_media/claude-using-claude-code-session-management-and-1m-context/Claude_using-claude-code-session-management-and-1m-context_1.png)
+![__wf_reserved_inherit](https://assets.claude.com/a1d3f4d3841b7718b168df873db833f08031b21d.png)
 
 The context window is everything the model can "see" at once when generating its next response. It includes your system prompt, the conversation so far, every tool call and its output, and every file that's been read. Claude Code has a context window of one million tokens.
 
@@ -28,7 +28,7 @@ Unfortunately, using context has a slight impact on performance, which is often 
 
 Context windows are a hard cutoff, so when you’re nearing the end of the context window, the task you’ve been working on is automatically summarized into a smaller description and the model continues the work in a new context window. We call this compaction. You can also trigger compaction yourself.
 
-![__wf_reserved_inherit](../_media/claude-using-claude-code-session-management-and-1m-context/Claude_using-claude-code-session-management-and-1m-context_2.png)
+![__wf_reserved_inherit](https://assets.claude.com/be22be7e25198ecb717775fadf1e0d3ec41446a2.png)
 
 ## **Every turn as a branching point**
 
@@ -42,7 +42,7 @@ Say you've just asked Claude to do something and it's finished—you’ve now go
 
 While the most natural course is just to continue, the other four options exist to help manage your context.
 
-![__wf_reserved_inherit](../_media/claude-using-claude-code-session-management-and-1m-context/Claude_using-claude-code-session-management-and-1m-context_3.png)
+![__wf_reserved_inherit](https://assets.claude.com/0f096c1128f26b656d8bd4ca2355f35ac17456d6.png)
 
 ## **When to start a new session**
 
@@ -54,7 +54,7 @@ Sometimes you may do related tasks where some of the context is still necessary,
 
 ## **Rewinding instead of correcting**
 
-![__wf_reserved_inherit](../_media/claude-using-claude-code-session-management-and-1m-context/Claude_using-claude-code-session-management-and-1m-context_4.png)
+![__wf_reserved_inherit](https://assets.claude.com/0e0460fbf4e1894b2ab552db722fa50709125f14.png)
 
 In Claude Code, double-tapping Esc (or running `/rewind`) lets you jump back to any previous message and re-prompt from there. The messages after that point are dropped from the context.
 
@@ -68,7 +68,7 @@ Once a session gets long, you have two ways to shed extraneous context: `/compac
 
 **Compact** asks the model to summarize the conversation so far, then replaces the history with that summary. It's lossy, but you didn't have to write anything yourself and Claude might be more thorough in including important learnings or files. You can also steer it by passing instructions (`/compact focus on the auth refactor, drop the test debugging`).
 
-![__wf_reserved_inherit](../_media/claude-using-claude-code-session-management-and-1m-context/Claude_using-claude-code-session-management-and-1m-context_5.png)
+![__wf_reserved_inherit](https://assets.claude.com/45cde22d0d024defb3e6276ade31d5bc1bf9834c.png)
 
 With `/clear`**` `***you* write down what matters ("we're refactoring the auth middleware, the constraint is X, the files that matter are A and B, we've ruled out approach Y") and start clean. It's more work, but the resulting context is what you decided was relevant.
 
@@ -88,7 +88,7 @@ This is particularly difficult, because due to context rot, the model is at its 
 
 When Claude spawns a subagent via the Agent tool, that subagent gets its own fresh context window. It can do as much work as it needs to, and then synthesize its results so only the final report comes back to the parent.
 
-![__wf_reserved_inherit](../_media/claude-using-claude-code-session-management-and-1m-context/Claude_using-claude-code-session-management-and-1m-context_6.png)
+![__wf_reserved_inherit](https://assets.claude.com/0cd3a7b2e6fce665631f1c77a10eb6de8d0c1a08.png)
 
 The mental test we use at Anthropic: *will I need this tool output again, or just the conclusion?*
 

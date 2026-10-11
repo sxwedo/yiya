@@ -156,7 +156,7 @@ subagent：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1986683674188828695/noisepoint_agi_1986683674188828695_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G5IcZq2WoAALm8y?format=jpg&name=medium)
 
 ## 💬 Replies
 

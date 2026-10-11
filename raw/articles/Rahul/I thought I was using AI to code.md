@@ -23,7 +23,7 @@ Save this. It will save you months.
 
 The loop that feels productive but isn't:
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_11.jpg)
+![Image](https://pbs.twimg.com/media/HJJZuz-bUAAIciP.jpg)
 
 → Ask Claude to build a feature → It generates code → Something breaks → Paste the error back → It patches it → Something else breaks → Ask again
 
@@ -71,7 +71,7 @@ And it has a hard ceiling.
 
 What actually changes everything:
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_1.jpg)
+![Image](https://pbs.twimg.com/media/HJJZ1qDaYAANkx0.jpg)
 
 Real engineering teams don't work in one big conversation.
 
@@ -97,7 +97,7 @@ Here are the seven agents that make it work.
 
 ## Agent 1: The Codebase Researcher
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_7.jpg)
+![Image](https://pbs.twimg.com/media/HJJakAcbsAAEelQ.jpg)
 
 The biggest mistake developers make with AI?
 
@@ -123,7 +123,7 @@ The Researcher runs first. Always.
 
 ## Agent 2: The Story Writer
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_12.jpg)
+![Image](https://pbs.twimg.com/media/HJJasbubsAA7kJn.jpg)
 
 Most features fail not because the code was wrong.
 
@@ -181,7 +181,7 @@ Catch it now. Not after 10 files have been changed.
 
 ## Agent 4: The Backend Builder
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_6.jpg)
+![Image](https://pbs.twimg.com/media/HJJa6daacAAhfq5.jpg)
 
 Now the building starts.
 
@@ -203,7 +203,7 @@ Backend Builder cannot accidentally break the frontend. Ever.
 
 ## Agent 5: The Frontend Builder
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_5.jpg)
+![Image](https://pbs.twimg.com/media/HJJbDHRaYAAWqpz.jpg)
 
 The Frontend Builder implements the UI half — and only the UI half.
 
@@ -233,7 +233,7 @@ Zero chance one breaks the other's work.
 
 ## Agent 6: The Test Verifier
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_2.jpg)
+![Image](https://pbs.twimg.com/media/HJJbJ2SbIAEmcNL.jpg)
 
 Both builders wrote unit tests for their own code.
 
@@ -269,7 +269,7 @@ The rule: you don't have a feature until the acceptance tests pass.
 
 ## Agent 7: The Implementation Validator
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_9.jpg)
+![Image](https://pbs.twimg.com/media/HJJbQW2awAAyrBn.jpg)
 
 This is the agent that catches everything everyone else missed.
 
@@ -307,7 +307,7 @@ A validator that sees only what's on disk — not how it was written — is hone
 
 The full flow — one prompt starts it all:
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_8.jpg)
+![Image](https://pbs.twimg.com/media/HJJcDPQbsAA61t6.jpg)
 
 You open Claude Code and type:
 
@@ -347,7 +347,7 @@ Everything else runs on its own.
 
 CLAUDE.md — the memory that survives every session:
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_4.jpg)
+![Image](https://pbs.twimg.com/media/HJJcHnxaMAEPefe.jpg)
 
 Every time you open Claude Code, it starts with zero memory.
 
@@ -433,7 +433,7 @@ Not trapped in availability.
 
 8-step setup checklist:
 
-![Image](../_media/x-2058832033628241931/sairahul1_2058832033628241931_3.jpg)
+![Image](https://pbs.twimg.com/media/HJJcLzybIAAGyJo.jpg)
 
 1\. Install Claude Code → code.claude.com
 
@@ -505,7 +505,7 @@ I write about AI, building products, and systems that work while you sleep.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2058832033628241931/sairahul1_2058832033628241931_13.jpg)
+![Image 1](https://pbs.twimg.com/media/HJJdb6laMAAMIpe.jpg)
 
 ## 💬 Replies
 

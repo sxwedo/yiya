@@ -13,7 +13,7 @@ type: "Article"
 
 > 上周末，我在「产品力领航者大会」上做了一场分享，没有包装过的宏伟叙事，也没有精心设计的金句轰炸。只用大白话，讲了自己从大厂出来两年间的真实思考。以下是整理稿。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_10.jpg)
+![Image](https://pbs.twimg.com/media/HG_Bt-ObAAA2laP.jpg)
 
 ## 先说说我是谁
 
@@ -23,7 +23,7 @@ type: "Article"
 
 从创业第一天起，我跟团队定了一条价值观：诚实。对自己诚实，对团队诚实，对投资人诚实，对数据诚实。所以接下来说的这些，都是诚实的大白话，是真实的心路历程，可能跟大家想象中的创业故事不太一样。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_3.jpg)
+![Image](https://pbs.twimg.com/media/HG_B5uMaoAA3NU8.jpg)
 
 ## 起心动念：创业三问
 
@@ -31,7 +31,7 @@ type: "Article"
 
 那种飘浮感越来越强。我开始问自己三个问题：
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_14.jpg)
+![Image](https://pbs.twimg.com/media/HG_CBOQbUAMYQzW.jpg)
 
 愿不愿：这是最根本的。创业的“愿”，很多时候来自于在大厂的“不愿”。不愿意继续在大平台上浪费时间。对时间的恐惧是真实的，“再不出来就老了”。
 
@@ -59,7 +59,7 @@ type: "Article"
 
 和大量用户聊完后，在内容创作领域，有三个普遍痛点浮出水面：选题难、工具杂、赚钱难。如果在任何一个点上做到有价值，这事就有机会。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_9.jpg)
+![Image](https://pbs.twimg.com/media/HG_CsiWbYAArdi8.jpg)
 
 2024 年八九月份，我内心比较笃定了 YouMind 的产品定位，是 Project-based AI Creation Studio，一个基于项目的 AI 创作工作室。这个定位从确定到现在，从来没变过。
 
@@ -71,13 +71,13 @@ type: "Article"
 
 第三，以稿子为中心：万物化稿，稿生万物。 各种素材、录音、截图、上传的文件，先转化成一份有上下文的稿子。基于这份稿子再去写公众号、做小红书笔记、做视频、做 PPT，效果好太多。稿子承载着人的认知和风格，稿子就是内容制作的 long prompt。永远不要相信“一键生成”，但可以相信你付出的时间和你喂给 AI 的素材。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_4.jpg)
+![Image](https://pbs.twimg.com/media/HG_CzikbQAA035E.jpg)
 
 ## 五个非共识：我们选了少有人走的路
 
 过去两年，我们做了五个关键选择，每一个当时都有人说我们错了。这次分享，并不是来证明我们是对的，而是想分享，我们为什么选了这些路。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_1.jpg)
+![Image](https://pbs.twimg.com/media/HG_DH98bYAA79WC.jpg)
 
 一、好看是战略，不是装饰
 
@@ -89,7 +89,7 @@ type: "Article"
 
 有用户告诉我，他弃用了 Perplexity 转而用 YouMind 的搜索功能。原因不是我们搜索更强，而是“在 YouMind 搜索像是在一个房子里，有安全感、跟自己相关、可以持续积累”。这是一种建筑感和氛围感。好的 AI 产品不是一把把锤子，而是一座座建筑。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_5.jpg)
+![Image](https://pbs.twimg.com/media/HG_DmOXasAAgJuS.jpg)
 
 二、选文科，不选武科
 
@@ -101,7 +101,7 @@ type: "Article"
 
 创业者的生存空间不在擂台上，在花园里。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_11.jpg)
+![Image](https://pbs.twimg.com/media/HG_DuWIaAAAC3V7.jpg)
 
 三、听老手的话，服务新手
 
@@ -115,7 +115,7 @@ type: "Article"
 
 我们的目标不是服务李子柒，是培养下一个李子柒。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_8.jpg)
+![Image](https://pbs.twimg.com/media/HG_D-C0bMAAr3fa.jpg)
 
 四、不做 for Agent，做 for Human
 
@@ -127,7 +127,7 @@ type: "Article"
 
 Agent 可以很强，然而最终是人在用、人在决策、人在承担后果。AI 越强，人的判断越珍贵。把复杂留给 AI，把意义留给人。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_6.jpg)
+![Image](https://pbs.twimg.com/media/HG_EKi-bkAABDB4.jpg)
 
 五、多看一年，少看五年
 
@@ -141,7 +141,7 @@ Agent 可以很强，然而最终是人在用、人在决策、人在承担后�
 
 ## 品味：AI 时代人的终极瓶颈
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_16.jpg)
+![Image](https://pbs.twimg.com/media/HG_EU9QaEAAZUg0.jpg)
 
 五个非共识看似是五个独立的选择，但它们背后有一个共同的驱动力：品味。选好看、选文科、选新手、选人、选当下，每一个选择都不是纯理性推演的结果，而是品味在暗中做决定。
 
@@ -156,7 +156,7 @@ Agent 遍地开花，内容数量涨了 1000 倍，但质量大同小异。区�
 
 更有意思的是，品味只在暗处运作。一个钢琴家弹世界名曲的时候不会想着键盘，一个厨师炒菜的时候如果还在想“盐是不是放多了”，那菜已经不好吃了。品味必须在你不看的时候才运作。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_2.jpg)
+![Image](https://pbs.twimg.com/media/HG_FeuWbAAAaASu.jpg)
 
 LLM 是人类所有显性知识集大成的究极产物，但品味是隐性的。品味在你写 prompt 之前就已经在暗中发力，决定了你会写什么样的 prompt。Agent 能执行，但不能替你拥有品味。
 
@@ -164,7 +164,7 @@ LLM 是人类所有显性知识集大成的究极产物，但品味是隐性的�
 
 这是我们正在做的“YouMind 精灵”：有灵魂（你的品味）+ 有记忆（你的碎片库）+ 有技能（创作工具链）。精灵不是你创建的工具，也不是你骑的马，它是你从精灵森林里召唤出来的，精灵是懂你但不惯着你的好朋友。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_12.jpg)
+![Image](https://pbs.twimg.com/media/HG_ElP1bMAAlb9Y.jpg)
 
 精灵不替你创作，精灵让创作随时发生。
 
@@ -180,7 +180,7 @@ LLM 是人类所有显性知识集大成的究极产物，但品味是隐性的�
 
 我们还用 GPA 框架替代了 OKR：G（Goal，独裁式目标设定）→ P（Priority，集中民主式优先级排序）→ A（Alternatives，彻底民主式方案选择）。团队无绩效考核，人人都是全干工程师。招人只看两点：对这件事是否真正感兴趣，以及学习能力，学习能力的核心判断标准是动手能力。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_7.jpg)
+![Image](https://pbs.twimg.com/media/HG_FWi-aAAAryx0.jpg)
 
 二、全员运营的复利
 
@@ -198,7 +198,7 @@ LLM 是人类所有显性知识集大成的究极产物，但品味是隐性的�
 
 那种落寞中抬头看窗外的不服，就叫心力。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_13.jpg)
+![Image](https://pbs.twimg.com/media/HG_E3TAbMAEOXSz.jpg)
 
 AI 没有这股劲。AI 的劲是你给它的，而人的心力，是自己长出来的。有时候越丧的时候人越有力量，因为你是在蹲着的，蹲着的人比跳起来的人更有后劲。
 
@@ -214,13 +214,13 @@ YouMind 的愿景是：让再小的个体，都能拥有创作的乐趣。
 
 人人皆可创作，创作皆有乐趣。
 
-![Image](../_media/x-2049074014727844246/lifesinger_2049074014727844246_15.jpg)
+![Image](https://pbs.twimg.com/media/HG_E7_RbYAAnzxV.jpg)
 
 本文审美：玉伯    本文写作：YouMind
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2049074014727844246/lifesinger_2049074014727844246_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HG_BXntaQAAAP8I.jpg)
 
 ## 💬 Replies
 

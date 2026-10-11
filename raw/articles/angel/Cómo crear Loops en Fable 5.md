@@ -64,7 +64,7 @@ Resultado:
 
 Pero lo importante no es el número. Es el CÓMO:
 
-![Image](../_media/x-2065145486890164524/angeldot__2065145486890164524_1.jpg)
+![Image](https://pbs.twimg.com/media/HKjbvIvWcAE4uIl.jpg)
 
 → Opus 4.7 encontró una pequeña mejora al principio y repitió la misma plantilla 20 veces: tocar un parámetro, medir, quedarse con lo que sume → Fable 5 apostó por cambios estructurales grandes (arquitectura, no constantes) y aguantó una regresión de cuantización que acabó siendo su mayor victoria
 
@@ -98,7 +98,7 @@ Resultados finales (score medio):
 
 → Fable 5: 0.839 → Opus 4.7: 0.700 → Sonnet 4.6: 0.364
 
-![Image](../_media/x-2065145486890164524/angeldot__2065145486890164524_2.jpg)
+![Image](https://pbs.twimg.com/media/HKjcFPTXsAAeSoy.jpg)
 
 ¿Por qué tanta diferencia? Porque usar bien la memoria tiene 5 niveles:
 
@@ -203,7 +203,7 @@ Configuras max\_iterations como límite, y Outcomes lanza un subagente corrector
 
 Así corrió Fable 5 durante 8 horas solo. Sin nadie mirando.
 
-![Image](../_media/x-2065145486890164524/angeldot__2065145486890164524_3.jpg)
+![Image](https://pbs.twimg.com/media/HKjb711WwAAgYy5.jpg)
 
 PASO EXTRA: AÑÁDELE MEMORIA
 
@@ -280,7 +280,7 @@ Porque un loop fiable vale más que mil prompts perfectos.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065145486890164524/angeldot__2065145486890164524_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HKjezJHXsAEk5s7.jpg)
 
 ## 💬 Replies
 

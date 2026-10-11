@@ -91,7 +91,7 @@ OpenAI Academy 自 2025 年起开放公共学习平台，2026 年中将陆续推
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2054019746300043550/GoSailGlobal_2054019746300043550_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HIFYEEnb0AA4kBi?format=jpg&name=medium)
 
 ## 💬 Replies
 

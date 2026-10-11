@@ -8,7 +8,7 @@ date: "2026-09-16T13:06:35.000Z"
 
 # Vibe Coding 网页动效词典（下篇）：组件反馈、布局过渡与页面转场
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_1.jpg)
+![](https://pbs.twimg.com/media/HSOn6KkakAEfSem.jpg)
 
 你已经会让内容淡入、让卡片交错出现，也知道视差滚动、磁吸按钮和鼠标跟随该怎么说。可一到产品页面，新的问题又来了：弹窗突然蹦出来，菜单展开像页面坏了一下，加载时整块内容凭空消失，切到详情页以后用户不知道自己去了哪里。
 
@@ -37,7 +37,7 @@ date: "2026-09-16T13:06:35.000Z"
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_2.jpg)
+![](https://pbs.twimg.com/media/HSOkKkvaoAAcMgy.jpg)
 
 ## 38. Dropdown / Tooltip / Popover：锚定浮层
 
@@ -72,7 +72,7 @@ Modal 和 Dialog 都指覆盖在当前页面上方的弹窗。出现时通常先
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_4.jpg)
+![](https://pbs.twimg.com/media/HSOkKk5asAAHEE_?format=jpg&name=medium)
 
 ## 40. Drawer / Bottom sheet：抽屉与底部面板
 
@@ -89,7 +89,7 @@ Drawer 是从页面边缘滑出的抽屉，Bottom sheet 是从屏幕底部升起
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_5.jpg)
+![](https://pbs.twimg.com/media/HSOkKkua8AAK1xr.jpg)
 
 ## 41. Tab transition：标签页切换
 
@@ -106,7 +106,7 @@ Drawer 是从页面边缘滑出的抽屉，Bottom sheet 是从屏幕底部升起
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_6.jpg)
+![](https://pbs.twimg.com/media/HSOkLOUbEAA_K2Z?format=jpg&name=medium)
 
 ## 42. Carousel / Slider transition：轮播与滑块切换
 
@@ -123,7 +123,7 @@ Carousel 和 Slider 都用于在固定区域里切换多张图片或卡片。常
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_7.jpg)
+![](https://pbs.twimg.com/media/HSOkLP0boAAfB-E.jpg)
 
 ## 43. Toast / Snackbar：轻提示消息
 
@@ -250,7 +250,7 @@ Toast 或 Snackbar 是短暂出现的操作反馈，常见于“保存成功”�
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_14.jpg)
+![](https://pbs.twimg.com/media/HSOkMX-bAAAR6RK?format=jpg&name=medium)
 
 ## 50. Shared element transition：共享元素转场
 
@@ -267,7 +267,7 @@ Toast 或 Snackbar 是短暂出现的操作反馈，常见于“保存成功”�
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_15.jpg)
+![](https://pbs.twimg.com/media/HSOkMbdaAAAraJe.jpg)
 
 ## 51. Page transition：页面转场
 
@@ -284,7 +284,7 @@ Toast 或 Snackbar 是短暂出现的操作反馈，常见于“保存成功”�
 
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_16.jpg)
+![](https://pbs.twimg.com/media/HSOkMpOaUAEIU_9?format=jpg&name=medium)
 
 四、第四层：UX 规则——怎样动才好用
 
@@ -302,7 +302,7 @@ Toast 或 Snackbar 是短暂出现的操作反馈，常见于“保存成功”�
 - 失败后：用户知道怎样修正或重试。
 交给 AI：
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_17.jpg)
+![](https://pbs.twimg.com/media/HSOkMfbaUAApfEj?format=jpg&name=medium)
 
 ## 53. Affordance：操作暗示
 
@@ -408,4 +408,4 @@ UX 规则： 操作有没有反馈？用户看得出哪里能点吗？手机和�
 
 Punk｜中科大管理学硕士｜AI提示词、AI小白教程｜Punk系列Skills作者｜3个月赚了8位数｜Learn in Public｜FDE文章浏览量240w｜[@AdrianPunk115](https://x.com/@AdrianPunk115)
 
-![](../_media/x-2100209733567430964/AdrianPunk115_2100209733567430964_22.jpg)
+![](https://pbs.twimg.com/media/HSOkQmubUAE1n2j.jpg)

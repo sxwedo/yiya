@@ -27,7 +27,7 @@ Agent 的控制平面 (Runtime、事件调度、状态机) 和数据平面 (Prom
 
 由于整个上下文工程的核心是围绕 LLM 提示词来构建的，所以很有必要了解 LLM 的基本特性。LLM 比较重要的 7 大特性，这里我直接放一张图：
 
-![Image](../_media/x-2075171293029179866/mate_mattt_2075171293029179866_3.jpg)
+![Image](https://pbs.twimg.com/media/HMw3rFNaoAAp0KS.jpg)
 
 篇幅有限，这里就不做 7 大特性细节展开；但是这部分很重要，不能不提，LLM 的 7 大特性就是 Agent  Context 工程第一性原理的起点， 是为什么要做 Context Engineering 的事实基础。
 
@@ -55,11 +55,11 @@ Context 包括但不限于用户输入、工具集合、Memory 记忆，本地�
 
 前一篇 [Hermes Runtime 架构文章](https://x.com/mate_mattt/status/2074313623523271010)中，可以看到 session key 串联每一层的工作流，是个关键的 identifier：
 
-![Image](../_media/x-2075171293029179866/mate_mattt_2075171293029179866_5.jpg)
+![Image](https://pbs.twimg.com/media/HMwsRU-bEAAlHbi.jpg)
 
 不同的 Agent 设计，对 session 的归属也不同，例如 codex 的 session 可以归属于某个项目，也可以是不属于任何项目的顶层 session：
 
-![Image](../_media/x-2075171293029179866/mate_mattt_2075171293029179866_4.png)
+![Image](https://pbs.twimg.com/media/HMwlNzqboAAoMtb.png)
 
 Hermes 的 session 表示某个从外部聊天入口进来，关联一个具体 Profile (可以设定一个身份模版) 的完整路径。
 
@@ -69,7 +69,7 @@ Hermes 的 session 表示某个从外部聊天入口进来，关联一个具体 
 
 创建 Profile 模版后，可以把这些 Profile 挂载关联到某个 session 上。尽管产品层面，OpenClaw 和 Hermes 都把这个叫做不同的智能体。但是作为开发者，你应该知道，底层只不过是用一个文件夹和一些静态 md 文件，定义了一套身份模版，挂载给某个 session，然后每一轮 session 对话都固定注入给 LLM。来实现表现层上他们是不同的智能体。
 
-![Image](../_media/x-2075171293029179866/mate_mattt_2075171293029179866_2.jpg)
+![Image](https://pbs.twimg.com/media/HMwnUjcaIAApWZ-.jpg)
 
 Codex 没有像 Hermes/OpenClaw 那样显式命名为 Profile 的模板系统，但它通过 workspace、AGENTS.md、session instructions、skills/tool 配置等机制，实现了类似的上下文注入能力。
 
@@ -151,7 +151,7 @@ MEMORY.md
 
 外部长期记忆 provider，这是 Hermes 长期记忆工具的核心插件，工程实现和 memory 重心都在这个 Provider 插件里。内部使用了：mem0 / supermemory / honcho / hindsight / holographic 等工具。
 
-![Image](../_media/x-2075171293029179866/mate_mattt_2075171293029179866_1.jpg)
+![Image](https://pbs.twimg.com/media/HMxQS3xaUAAlRIv.jpg)
 
 MemoryProvider 是 Hermes 记忆系统的核心插件模块，用来对接不同形态的长期记忆后端，包括本地事实库、语义检索服务、用户建模系统和知识图谱记忆引擎。它可以承接检索、召回、抽取、重排、写入和上下文注入等能力。其内部概念较多，我会分为上下两篇逐步拆解。
 
@@ -249,7 +249,7 @@ Context 上下文工程里概念非常多，知识体系复杂，零碎，所以
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2075171293029179866/mate_mattt_2075171293029179866_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMx6mGLboAAe7pN.jpg)
 
 ## 💬 Replies
 

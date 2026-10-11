@@ -33,7 +33,7 @@ It pays off under four conditions: the task repeats, verification is automated, 
 
 A loop finds the work, hands it to the agent, checks the result, records what happened, and decides the next move.
 
-![Image](../_media/x-2064055529883029550/AlphaSignalAI_2064055529883029550_1.jpg)
+![Image](https://pbs.twimg.com/media/HKT5TXqW4AA6X03.jpg)
 
 Addy Osmani, who published a long post on the practice the same week, defines it plainly: loop engineering is replacing yourself as the person who prompts the agent, and building the system that does it instead.
 
@@ -59,7 +59,7 @@ Capability: Anthropic reports the task length a model can complete reliably is d
 
 More than 80% of the code Anthropic merges into its own codebase is now written by Claude.
 
-![Image](../_media/x-2064055529883029550/AlphaSignalAI_2064055529883029550_2.jpg)
+![Image](https://pbs.twimg.com/media/HKT6lVtXkAA8PEq.jpg)
 
 Distribution changed too.
 
@@ -73,7 +73,7 @@ Running it now takes a config file, not a custom rig.
 
 Loops earn their cost under four conditions. Run the test before you build.
 
-![Image](../_media/x-2064055529883029550/AlphaSignalAI_2064055529883029550_3.jpg)
+![Image](https://pbs.twimg.com/media/HKT8LNxW4AABkgc.jpg)
 
 The task repeats. 
 
@@ -205,7 +205,7 @@ If you pass the four-condition test, build the smallest loop that works before a
 
 Four parts, no swarm.
 
-![Image](../_media/x-2064055529883029550/AlphaSignalAI_2064055529883029550_4.jpg)
+![Image](https://pbs.twimg.com/media/HKT82bNWwAIURC8.jpg)
 
 One automation. A scheduled run, /loop in Claude Code or an automation in Codex, that fires on a cadence and stops on a clear condition. Both tools also expose /goal, which runs until a stated condition is true.
 
@@ -257,7 +257,7 @@ What should I build first? The smallest possible loop: one scheduled automation,
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064055529883029550/AlphaSignalAI_2064055529883029550_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HKT1tnKXEAAxXgs.jpg)
 
 ## 💬 Replies
 

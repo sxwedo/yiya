@@ -37,7 +37,7 @@ Google Skills
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2000374500358328371/shao__meng_2000374500358328371_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G8LAxwxbIAAwkve?format=jpg&name=medium)
 
 ## 💬 Replies
 

@@ -8,7 +8,7 @@ date: "2026-09-16T12:11:53.000Z"
 
 # 上帝之手Blender丨从入门到榨干
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_1.jpg)
+![](https://pbs.twimg.com/media/HSVUTyIaoAAsdLm.jpg)
 
 Astra 一出来，Blender 却成了最大的受益者，下载量激增，占满了时间线，它是什么？和普通人有关吗？我也没忍住，摸索了一下，跟着造了几样东西
 
@@ -26,7 +26,7 @@ Astra 一出来，Blender 却成了最大的受益者，下载量激增，占满
 - 第四阶段：打开思路——看看别人还做出了什么
 # 第一阶段：认识 Blender——装好软件，看懂基本界面
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_2.jpg)
+![](https://pbs.twimg.com/media/HSVTHRNbAAE-fbQ?format=jpg&name=medium)
 
 ## 1. Blender 是什么，能拿来做什么
 
@@ -48,15 +48,15 @@ Edit → Preferences → Interface → Language → Simplified Chinese（简体�
 
 如果菜单仍是英文，再勾选下方的 Interface（界面）翻译选项。中文界面不影响 AI 执行脚本，代码里的 bpy 等名称也不会变。
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_3.jpg)
+![](https://pbs.twimg.com/media/HSVTHRXbEAA8oM5.jpg)
 
 现在回到主窗口，先认四块。
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_4.jpg)
+![](https://pbs.twimg.com/media/HSVTH_AbQAAveC_.jpg)
 
 顶部的“布局、建模、着色、动画、渲染、脚本”是不同工作区，会按用途摆放面板。先留在“布局”就好；需要自己运行 AI 给的代码时，再去“脚本”。
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_5.jpg)
+![](https://pbs.twimg.com/media/HSVU_t8acAA4UJt.jpg)
 
 视图里的模型如果是灰色，先别急着让 AI 重做：它可能只是为了流畅而显示简化外观。看颜色和质感时切到“材质预览”，看最终出图则要看正式渲染。
 
@@ -86,7 +86,7 @@ Edit → Preferences → Interface → Language → Simplified Chinese（简体�
 
 - **Blender 里：**插件启用后，点击 Start MCP Bridge Server，看到 Server is running。本次地址为 127.0.0.1:9876，只连接本机。
 - **Codex 里：**让它读出当前场景的对象、相机或文件名，与屏幕上实际打开的工程对应起来。
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_7.jpg)
+![](https://pbs.twimg.com/media/HSVTIGiaYAAsqUX.jpg)
 
 图中 Auto Start 没有勾选，下次打开 Blender 还要手动启动连接。遇到报错，把原文交给 AI 排查，不要关闭全部安全保护。
 
@@ -106,13 +106,13 @@ MCP 可以执行代码，只用可信项目，修改前另存副本；服务不�
 
 我把这张鸭子版《最后的晚餐》交给 Codex，让它在 Blender 里搭出餐厅：
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_8.jpg)
+![](https://pbs.twimg.com/media/HSVTIfsbIAAJEd1.jpg)
 
 角色、餐桌、餐具分别保存，方便后续修改。中央主角用了已有的 Tripo 模型，其他角色做了简化重建；原图没画出的侧面和背面，需要补出来，无法准确还原。
 
 换成自己的图片时，告诉 AI 要保留哪些角色和物品，先看预览里的比例、位置和遮挡，再继续加游戏。
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_9.jpg)
+![](https://pbs.twimg.com/media/HSVTIl7b0AAJqK9.jpg)
 
 建完以后，能用提示词改什么？
 
@@ -120,7 +120,7 @@ MCP 可以执行代码，只用可信项目，修改前另存副本；服务不�
 
 上面是可尝试的用法，未逐项实测。先让 AI 在副本上修改、给预览，再决定是否出正式文件。
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_10.jpg)
+![](https://pbs.twimg.com/media/HSVZkZZbIAA09F7.jpg)
 
 能改到什么程度，取决于模型本身。 这桌鸭子可以换座位、换照明，但想自然跳舞，还得先加上控制身体的“骨骼”。图片没画出的背面需要补建；复杂特效更耗时间，导出到网页后也可能要重做部分材质。AI 能帮你操作，成品仍要自己看。
 
@@ -128,9 +128,9 @@ MCP 可以执行代码，只用可信项目，修改前另存副本；服务不�
 
 让 AI 保留角色、座位、材质和拍摄角度，只调整灯光。暖光下，桌布和墙面偏黄；改后偏灰蓝，整个餐厅冷了下来。
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_11.jpg)
+![](https://pbs.twimg.com/media/HSVTIr9agAA_MHK.jpg)
 
-![](../_media/x-2100195971284316228/noahduck283_2100195971284316228_12.jpg)
+![](https://pbs.twimg.com/media/HSVTJMNbkAAsDPc.jpg)
 
 再加一个故事，就成了开头的晚餐小游戏。
 

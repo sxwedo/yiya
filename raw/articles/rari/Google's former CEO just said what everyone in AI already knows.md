@@ -68,7 +68,7 @@ Save this and start learning the stack
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063244577482440978/0xwhrrari_2063244577482440978_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2063235326617817088/img/ZNg6phen8G-yDBSX.jpg)
 
 ## 💬 Replies
 

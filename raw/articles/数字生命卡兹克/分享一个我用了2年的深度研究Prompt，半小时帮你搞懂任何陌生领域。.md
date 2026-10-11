@@ -53,7 +53,7 @@ type: "Article"
 
 纵向追时间深度，横向追同期广度，最后交汇出判断。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_2.jpg)
+![Image](https://pbs.twimg.com/media/HFwpGq3bQAA5piZ.jpg)
 
 就这么简单。
 
@@ -79,7 +79,7 @@ Prompt版本配合一些有深度研究功能的AI效果会特别好，比如Cha
 
 我把Prompt放在这里，有需要的朋友直接复制，也可以去Github仓库自取：
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_3.jpg)
+![Image](https://pbs.twimg.com/media/HFwqA6YagAAvBiC.jpg)
 
 使用方法特别简单，把那个研究对象等式后面那个词组，直接改成你想要的研究对象就行。
 
@@ -93,37 +93,37 @@ Prompt版本配合一些有深度研究功能的AI效果会特别好，比如Cha
 
 我直接把那个Prompt改了一下，等式里面换成了Harness，然后打开了Claude的深度研究模式。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_6.png)
+![Image](https://pbs.twimg.com/media/HFwqeKca0AAuf29.png)
 
 直接发送。
 
 然后Claude会跟我确认一下Harness到底是个什么东西，我就补充了一下。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_12.jpg)
+![Image](https://pbs.twimg.com/media/HFwqh3saoAA07uN.jpg)
 
 然后就直接开始了。
 
 13分钟以后，这篇关于Harness的研究报告就写好了。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_10.png)
+![Image](https://pbs.twimg.com/media/HFwqkQObAAAtY7G.png)
 
 可以看看效果，纵向分析我觉得写的还不错，历史给你拉的非常清楚，什么时候诞生的，什么时候爆发的，有哪些关键节点。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_9.jpg)
+![Image](https://pbs.twimg.com/media/HFwqmnMa4AAjMIx.jpg)
 
 为什么是这个时间点爆发也非常的有道理。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_8.png)
+![Image](https://pbs.twimg.com/media/HFwqqqmbYAAwyjf.png)
 
 而在横向研究上，对比的是Prompt Engineering、Context Engineering和Agent Engineering。
 
 我相信任何一个懂Agent的，都不会质疑它对比的不专业对吧，你可以非常快速的理清跟一些同类概念的区别。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_4.png)
+![Image](https://pbs.twimg.com/media/HFwqtTEbEAAtTrp.png)
 
 还有最后的未来演进方向。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_11.png)
+![Image](https://pbs.twimg.com/media/HFwqyNnbQAEE5lV.png)
 
 这整篇报告大概一万字，相信我，如果你是对Harness感到好奇，想最快速度尽可能全面的了解关于它的一切，这篇研究报告，几乎比你看到的大多数的汇总文章，都要好。
 
@@ -137,13 +137,13 @@ Prompt会根据研究对象的类型，自动调整纵向和横向分析的侧�
 
 装上之后你直接跟Agent说「帮我研究一下xxx」，它就会按照横纵分析法的框架去做。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_7.png)
+![Image](https://pbs.twimg.com/media/HFwq2W1bMAEFGDE.png)
 
 而且这个Skill版本还会自动联网搜索信息、还包了arxiv的API，会在你研究一些学术问题的时候自主去查询论文，最后还会生成一份排版好的PDF研究报告，文风也会更易读，比Prompt版本更自由丰富一些。
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_1.jpg)
+![Image](https://pbs.twimg.com/media/HFwq7c8a0AAY8jE.jpg)
 
-![Image](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_5.jpg)
+![Image](https://pbs.twimg.com/media/HFwq-xrboAAiMCP.jpg)
 
 当然，我得坦诚的说一下这个方法的局限。
 
@@ -205,7 +205,7 @@ Prompt会根据研究对象的类型，自动调整纵向和横向分析的侧�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2043555868902637845/Khazix0918_2043555868902637845_13.jpg)
+![Image 1](https://pbs.twimg.com/media/HFwot7bbkAEthcd.jpg)
 
 ## 💬 Replies
 

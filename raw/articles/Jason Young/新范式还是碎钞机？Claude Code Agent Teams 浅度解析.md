@@ -35,7 +35,7 @@ type: "Article"
 
 比如你在调试一个 Bug。A 觉得是前端问题，B 觉得是后端问题，C 觉得是数据库问题。在 Subagent 模式下，它们各自调查完，分别给经理一份报告。但 A 的发现可能直接推翻 B 的假设，B 的结论可能需要 C 进一步验证——这种「交叉验证」在旧模式下根本做不到。
 
-![Image](../_media/x-2020806167782732073/Jason_Young1231_2020806167782732073_1.jpg)
+![Image](https://pbs.twimg.com/media/HAtXgSPb0AAJd0z.jpg)
 
 新模式：AI 学会了「开会」
 
@@ -77,7 +77,7 @@ Agent Teams 内置了一套邮箱系统（Mailbox），支持：
 
 由于每个 teammate 的上下文完全独立，它们不会被彼此的推理过程"污染"——每个人都是从自己的角度独立得出结论，然后再碰撞。这比在同一个上下文里"假装从不同角度思考"要可靠得多。单个 AI 容易「锚定」——找到一个看似合理的解释就停下来了。多个独立 AI 互相挑战，存活下来的假设更可能接近真相。
 
-![Image](../_media/x-2020806167782732073/Jason_Young1231_2020806167782732073_2.jpg)
+![Image](https://pbs.twimg.com/media/HAtXvvNagAATSnA.jpg)
 
 团队是怎么运转的：五个核心机制
 
@@ -157,7 +157,7 @@ Agent Teams 目前为实验性功能（Research Preview），需在 settings.jso
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2020806167782732073/Jason_Young1231_2020806167782732073_3.jpg)
+![Image 1](https://pbs.twimg.com/media/HAtRubxakAAuVzd.jpg)
 
 ## 💬 Replies
 

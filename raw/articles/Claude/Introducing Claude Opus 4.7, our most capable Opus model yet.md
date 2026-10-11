@@ -15,7 +15,7 @@ It handles long-running tasks with more rigor, follows instructions more precise
 
 You can hand off your hardest work with less supervision. 
 
-![Image](../_media/x-2044785261393977612/claudeai_2044785261393977612_1.jpg)
+![Image](https://pbs.twimg.com/media/HGCGugrXUAAKcHp.jpg?name=orig)
 
 ## 💬 Replies
 

@@ -10,7 +10,7 @@ ingested: "2026-09-11"
 
 > Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost.
 
-![Graph showing fine-tuning with Claude 3 Haiku](../_media/claude-fine-tune-claude-3-haiku-in-amazon-bedrock/Claude_fine-tune-claude-3-haiku_1.png)
+![Graph showing fine-tuning with Claude 3 Haiku](https://assets.claude.com/f79092f7aee0e94afa919099ab82ea8a13725592.png)
 
 ***Update:*** *Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available. (November 1, 2024)*
 
@@ -34,7 +34,7 @@ Fine-tuning allows you to customize Claude 3 Haiku so it can acquire specialized
 
 We fine-tuned Haiku to moderate online comments on internet forums<sup>1</sup>, including identifying insults, threats, and explicit content. Fine-tuning improved classification accuracy from 81.5% to 99.6% while reducing tokens per query by 85%.
 
-![Graph illustrating fine-tuning on Claude 3 Haiku](../_media/claude-fine-tune-claude-3-haiku-in-amazon-bedrock/Claude_fine-tune-claude-3-haiku_2.png)
+![Graph illustrating fine-tuning on Claude 3 Haiku](https://assets.claude.com/a503580b58aa9485eb095e090a78708129424a36.png)
 
 ## Customer spotlight
 

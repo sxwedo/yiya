@@ -240,11 +240,11 @@ Windows 用户现在先别急着跟风折腾，看到入口之前可以先当作
 
 而 AI 最先接管的可能就是这些“你会做，但不想重复做”的事情。
 
-![Image](../_media/x-2072318206019256350/yunxi0623_2072318206019256350_1.jpg)
+![Image](https://pbs.twimg.com/media/HL01eQbakAEXgs9.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2072318206019256350/yunxi0623_2072318206019256350_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HL0yMUbbUAA9SMs.jpg)
 
 ## 💬 Replies
 

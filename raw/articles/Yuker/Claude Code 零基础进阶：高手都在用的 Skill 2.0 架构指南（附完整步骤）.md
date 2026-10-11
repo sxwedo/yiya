@@ -229,7 +229,7 @@ description: 自动生成周报。当用户说"写周报"、"生成本周总结"
 
 ## 知识库 vs. 工作流：我该如何选择？
 
-![Image](../_media/x-2014537059504161173/YukerX_2014537059504161173_1.jpg)
+![Image](https://pbs.twimg.com/media/G_SFYuXX0AA5dXE.jpg)
 
 当然，在现实世界的复杂项目中，这两种模式并非完全互斥。你完全可以在一个工作流型的 Skill 中，引入一个 reference/ 目录来存放知识库型的参考文档。
 
@@ -249,7 +249,7 @@ description: 自动生成周报。当用户说"写周报"、"生成本周总结"
 
 💡下面较长篇幅都是模板文件，以供大家 Copy & Paste 体验！大家实操完的结构应该如下：
 
-![Image](../_media/x-2014537059504161173/YukerX_2014537059504161173_2.png)
+![Image](https://pbs.twimg.com/media/G_SInYhbAAoMOSu.png)
 
 🔥前几步大家只需要跟着 Copy & Paste 即可，一切感悟都会在“最后一步”为大家打通！
 
@@ -470,11 +470,11 @@ description: AI 周报助手，帮助用户快速生成专业的工作周报。�
 
 如果你能在 Claude Code 里面，看到以下画面，那就代表着 Skill 已经存在于你的目录了：
 
-![Image](../_media/x-2014537059504161173/YukerX_2014537059504161173_3.jpg)
+![Image](https://pbs.twimg.com/media/G_T6uzAacAAfxLe.jpg)
 
 当你输入指令，并且把这一周的工作告诉 Claude Code 后，你能惊讶的发现，它居然真的在按照你的 Workflow 设定工作！正如下图一样：
 
-![Image](../_media/x-2014537059504161173/YukerX_2014537059504161173_4.jpg)
+![Image](https://pbs.twimg.com/media/G_T7CFPXYAAWwjd.jpg)
 
 Claude Code 会：
 
@@ -580,7 +580,7 @@ workflow/step4-review.md
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2014537059504161173/YukerX_2014537059504161173_5.jpg)
+![Image 1](https://pbs.twimg.com/media/G_USScEaAAAFd9_.jpg)
 
 ## 💬 Replies
 

@@ -19,7 +19,7 @@ Watch the full talk, then save the config below👇
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063722061126651935/0x_rody_2063722061126651935_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2063721603762880512/img/L3dl_ebGjY8QLHse.jpg)
 
 ## 💬 Replies
 

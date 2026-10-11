@@ -16,7 +16,7 @@ From prompting and [model selection](https://www.youtube.com/watch?v=OXJO4LldSnc
 
 We demonstrated this through [live coding sessions](https://www.youtube.com/watch?v=DlTCu_pNDHE&list=PLmWCw1CzcFim2obQ-w3ohbULOfwp5lApR&index=5), [customer deep-dives](https://www.youtube.com/watch?v=EdmuYPBt_EM&list=PLmWCw1CzcFim2obQ-w3ohbULOfwp5lApR&index=2), and hands-on tutorials highlighting what this looks like today.
 
-![Daniela Amodei, Co-founder and President, and Dario Amodei, Co-founder and CEO, participate in a fireside chat moderated by Ami Vora, CPO.](../_media/claude-code-w-claude-sf-2026-recap-building-on-the-ai-exponential/Claude_code-w-claude-sf-2026-sf_1.jpg)
+![Daniela Amodei, Co-founder and President, and Dario Amodei, Co-founder and CEO, participate in a fireside chat moderated by Ami Vora, CPO.](https://assets.claude.com/5ce47761e06eea0ebce95e7f6fa878ca6de07b81.jpg)
 
 *Daniela Amodei, Co-founder and President, and Dario Amodei, Co-founder and CEO, participate in a fireside chat moderated by Ami Vora, CPO.*
 
@@ -33,7 +33,7 @@ We also introduced new capabilities to [Claude Managed Agents](https://platform.
 
 ## In case you missed it
 
-![Boris Cherny, creator of Claude Code, presents during Code w/ Claude 2026 in San Francisco.](../_media/claude-code-w-claude-sf-2026-recap-building-on-the-ai-exponential/Claude_code-w-claude-sf-2026-sf_2.jpg)
+![Boris Cherny, creator of Claude Code, presents during Code w/ Claude 2026 in San Francisco.](https://assets.claude.com/7bc45a832ecc1123b17c72c613f9d85a4107d799.jpg)
 
 *Boris Cherny, creator of Claude Code, presents during Code w/ Claude 2026 in San Francisco.*
 

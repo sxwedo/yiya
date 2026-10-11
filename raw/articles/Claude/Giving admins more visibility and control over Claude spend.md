@@ -14,7 +14,7 @@ We’re introducing richer admin analytics, model-level entitlements, and spend 
 
 Today's additions build on controls Anthropic already provides: spend caps at every level, access and model routing, a usage analytics dashboard with exports and an Analytics API, and effort controls. Richer analytics and more granular cost controls are the newest additions to a control surface we've been building on for months.
 
-![__wf_reserved_inherit](../_media/claude-giving-admins-more-visibility-and-control-over-claude-spend/Claude_giving-admins-more-visibility-and-control-over-claude-usage-and-spend_1.png)
+![__wf_reserved_inherit](https://assets.claude.com/1ecfa597c6c46012e12defafc698a30b2f862634.png)
 
 ## Track adoption and cost
 

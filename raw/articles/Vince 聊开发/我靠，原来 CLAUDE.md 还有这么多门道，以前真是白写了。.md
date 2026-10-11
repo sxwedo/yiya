@@ -23,7 +23,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2066827450852769854/vincemask_2066827450852769854_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2066827372175978496/img/t3j9KaEzmRcu2W9T.jpg)
 
 ## 💬 Replies
 

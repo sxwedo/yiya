@@ -185,7 +185,7 @@ P2P 网络短兵相接，但城墙最厚。Venmo 活跃账户破 1 亿；Zelle �
 
 [Embedded Tweet: https://x.com/i/status/2093638333809435105]
 
-![Image](../_media/x-2094245640272560361/app_sail_2094245640272560361_1.jpg)
+![Image](https://pbs.twimg.com/media/HRH-Bs3b0AApZDy.jpg)
 
 如果微信群满了，欢迎大家进这个群交流 𝕏 Mone[y](https://abs.twimg.com/emoji/v2/svg/1f449.svg)👉  
 

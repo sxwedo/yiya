@@ -31,7 +31,7 @@ Claude 读了它，大概 80% 的时间会遵守。但 Hooks 不同。它们是�
 
 下面 8 个 Hooks，直接复制到 settings.json，设完就忘。
 
-![Image](../_media/x-2040229845830091011/MinLiBuilds_2040229845830091011_1.jpg)
+![Image](https://pbs.twimg.com/media/HFBW0OVbsAAmZZK.jpg)
 
 ## 30 秒搞懂原理
 
@@ -50,7 +50,7 @@ hook在哪：
 
 文档：[https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks)
 
-![Image](../_media/x-2040229845830091011/MinLiBuilds_2040229845830091011_2.jpg)
+![Image](https://pbs.twimg.com/media/HFBXCuSa0AAjtWL.jpg)
 
 ## 1\. 自动格式化
 
@@ -387,7 +387,7 @@ exit 0
 
 这里把所有内容放一起，方便复制。
 
-![Image](../_media/x-2040229845830091011/MinLiBuilds_2040229845830091011_3.jpg)
+![Image](https://pbs.twimg.com/media/HFBZD-MacAAJ1bd.jpg)
 
 复制到 .claude/settings.json，脚本放 .claude/hooks/，chmod +x .claude/hooks/\*.sh，commit。全组同步。
 
@@ -438,7 +438,7 @@ exit 0
 
 今天先装 #1 和 #2。 就这俩，最常见的翻车已经干掉一大半。
 
-![Image](../_media/x-2040229845830091011/MinLiBuilds_2040229845830091011_4.jpg)
+![Image](https://pbs.twimg.com/media/HFBaAkQbEAAMAZT.jpg)
 
 > 实践哥：翻译完这里我突然想到一件事。
 
@@ -460,7 +460,7 @@ exit 0
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2040229845830091011/MinLiBuilds_2040229845830091011_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HFBaKV1agAAnxZP.jpg)
 
 ## 💬 Replies
 

@@ -11,7 +11,7 @@ type: "Article"
 
 # 📰 来自 Claude Code 创始团队的 CC 最佳实践技巧
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_8.jpg)
+![Image](https://pbs.twimg.com/media/HAD4OkBX0AAY4dd.jpg)
 
 > 译者注：本文翻译自 Claude Code 创始人 Boris 的分享文章
 
@@ -25,7 +25,7 @@ type: "Article"
 
 参考：https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_2.png)
+![Image](https://pbs.twimg.com/media/HAD4bcDWQAEImJd.png)
 
 ## 2\. 每个复杂任务都从 plan mode 开始：把精力用在计划上，让 Claude 一把完成实
 
@@ -35,7 +35,7 @@ type: "Article"
 
 他们还会明确告诉 Claude：验证步骤也要进入 plan mode，不只是写代码时才用。
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_5.png)
+![Image](https://pbs.twimg.com/media/HAD4kC8WkAA6Dnl.png)
 
 ##  3\. 认真维护你的 CLAUDE.md
 
@@ -45,7 +45,7 @@ type: "Article"
 
 有位工程师会让 Claude 为每个任务/项目维护一个 notes 目录，每次 PR 后都更新，然后在 \[CLAUDE.md\](http://CLAUDE.md) 里指向这个目录。
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_1.png)
+![Image](https://pbs.twimg.com/media/HAD4vyjXsAACVfr.png)
 
 ## 4\. 自己做 skills（技能）并提交到 git：所有项目复用
 
@@ -61,7 +61,7 @@ type: "Article"
 
 了解更多：https://pbs.twimg.com/card\_img/2015672598026399744/fwSIztiM?format=jpg&name=small
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_3.png)
+![Image](https://pbs.twimg.com/media/HAD447rWoAANIQX.png)
 
 ## 5\. 大多数 bug Claude 能自己修：我们是这么做的
 
@@ -71,7 +71,7 @@ type: "Article"
 
 把 Claude 指向 docker logs 来排查分布式系统问题——它在这方面强得出乎意料。
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_7.png)
+![Image](https://pbs.twimg.com/media/HAD5H2WWAAAfMCI.png)
 
 ## 6\. 提示词进阶
 
@@ -91,7 +91,7 @@ c. 交付前先写清楚规格说明（spec），尽量减少歧义。你越具�
 
 更多建议：&lt;https://code.claude.com/docs/en/terminal-config&gt;
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_6.png)
+![Image](https://pbs.twimg.com/media/HAD5aJEXoAA9gV_.png)
 
 ## 8\. 使用 subagents（子代理）
 
@@ -101,7 +101,7 @@ b. 把单独的小任务丢给 subagents，保持主 agent 的上下文窗口更
 
 c. 用 hook 把权限请求路由到 Opus 4.5：让它扫描攻击并自动批准安全请求（见 https://code.claude.com/docs/en/hooks#permissionrequest）
 
-![Image](../_media/x-2017887388941345122/cellinlab_2017887388941345122_4.png)
+![Image](https://pbs.twimg.com/media/HAD5iYmW4AAakhA.png)
 
 ## 9\. 用 Claude 做数据分析与指标查询
 
@@ -133,7 +133,7 @@ d. 做一个 spaced-repetition（间隔复习）学习 skill：你先讲自己�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2017887388941345122/cellinlab_2017887388941345122_9.jpg)
+![Image 1](https://pbs.twimg.com/media/HAD3_Y7WAAAU9DK.jpg)
 
 ## 💬 Replies
 

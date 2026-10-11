@@ -42,7 +42,7 @@ Announcement + spec file in 🧵↓
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065747550226075836/DataChaz_2065747550226075836_1.png)
+![Image 1](https://pbs.twimg.com/media/HKsCcyia4AANrf3.png?name=orig)
 
 ## 💬 Replies
 

@@ -19,7 +19,7 @@ Read it, then check the article below. Worth every second.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069748610799911121/AnatoliKopadze_2069748610799911121_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLk3LKJWQAADTgI.jpg?name=orig)
 
 ## 💬 Replies
 

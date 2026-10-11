@@ -18,7 +18,7 @@ Published connectors in the [directory](https://claude.ai/directory/connectors) 
 * **Diagnose errors and latency.** See health score, error rates, and latency at a glance, with per-tool error breakdowns to pinpoint what's failing.**‍**
 * **Break down usage by product.** Compare tool calls across Claude, Claude Code, Cowork, and more to understand where users are engaging.
 
-![Stylized view of observability for connectors. Data is illustrative.](../_media/claude-observability-for-developers-building-connectors/Claude_observability-for-developers-building-connectors_1.png)
+![Stylized view of observability for connectors. Data is illustrative.](https://assets.claude.com/69957c2df21a0573dd6742e6b4738c46a13b77f2.png)
 
 *Stylized view of observability for connectors. Data is illustrative.*
 

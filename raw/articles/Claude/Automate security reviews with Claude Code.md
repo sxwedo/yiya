@@ -41,7 +41,7 @@ The new GitHub action for Claude Code takes security reviews a step further by a
 
 This creates a consistent security review process across your entire team, ensuring no code reaches production without a baseline security review. The action integrates with your existing CI/CD pipeline and can be customized to match your team's security policies.
 
-![2 screenshots showing vulnerabilities that were caught by Claude Code, leaving comments in GitHub.](../_media/claude-automate-security-reviews-with-claude-code/Claude_automate-security-reviews-with-claude-code_1.png)
+![2 screenshots showing vulnerabilities that were caught by Claude Code, leaving comments in GitHub.](https://assets.claude.com/1ebef4ff829fa7823e1b95a589e3a2591efdda73.png)
 
 ### Improving product security at Anthropic ###
 
@@ -49,11 +49,11 @@ We're using these features ourselves to help secure the code our team ships to p
 
 For example, last week, our team built a new feature for an internal tool that relied on starting a local HTTP server meant to accept local connections. The GitHub action identified a remote code execution vulnerability exploitable through DNS rebinding and it was fixed before the PR was ever merged.
 
-![A GitHub comment showing a remote code execution vulnerability](../_media/claude-automate-security-reviews-with-claude-code/Claude_automate-security-reviews-with-claude-code_2.png)
+![A GitHub comment showing a remote code execution vulnerability](https://assets.claude.com/1d0fc2da3b1c33de2a4829f92e7dc4a7a6d5b510.png)
 
 In another case, an engineer built a proxy system to enable secure management of internal credentials. The GitHub action automatically flagged that this proxy was vulnerable to SSRF attacks, and we promptly fixed this issue.
 
-![A GitHub comment showing a SSRF attack vulnerability](../_media/claude-automate-security-reviews-with-claude-code/Claude_automate-security-reviews-with-claude-code_3.png)
+![A GitHub comment showing a SSRF attack vulnerability](https://assets.claude.com/fc0402007fcc1308f30973e6ddcfbf909bae198b.png)
 
 ### Getting started ###
 

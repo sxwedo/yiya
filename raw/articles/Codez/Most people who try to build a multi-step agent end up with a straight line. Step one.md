@@ -21,7 +21,7 @@ They don’t route. They don’t branch. They don’t parallelize. They just que
 
 This is the 14-step roadmap that turns that single-file line into a graph: one that fans out across a fleet, verifies its own findings, and converges on a result a lone agent could never hold.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_6.jpg)
+![Image](https://pbs.twimg.com/media/HNqdriNXYAAJlBB.jpg)
 
 Here’s the shift nobody spells out. A prompt is a sentence. A loop is a cycle. A harness is the floor the agent stands on. 
 
@@ -39,7 +39,7 @@ A graph has exactly two things, and getting them straight fixes most of the conf
 
 An edge is a dependency: it says this node’s output feeds that node’s input. Nothing more.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_14.png)
+![Image](https://pbs.twimg.com/media/HNqlJ68XUAAe-PB.png)
 
 The mistake is treating “and then” as an edge. “Summarize the file and then tell me the weather” has no edge between the two - the weather doesn’t consume the summary. 
 
@@ -64,7 +64,7 @@ When you write an agent as “do A, then B, then C, then D,” you’ve drawn a 
 
  It runs correctly. It also runs slowly and fragile, because a chain has no redundancy: if C stalls, D never happens, and A’s work is trapped upstream with nowhere to go.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_16.png)
+![Image](https://pbs.twimg.com/media/HNql8XpXcAA5-2h.png)
 
 The first real skill of graph engineering is redrawing the chain. Take your linear agent and, for each arrow, ask the Step 1 question. 
 
@@ -80,7 +80,7 @@ A node you can’t reason about is a node you can’t parallelize. The fix is a 
 
 The input is whatever the node reads - passed in explicitly, never assumed from a shared window. The output is a defined shape, ideally validated, so the next node can consume it without guessing.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_9.jpg)
+![Image](https://pbs.twimg.com/media/HNqmfUhXIAA_Y70.jpg)
 
 In a workflow this contract is enforced with a schema. When you hand Claude an agent() call with a JSON schema, the subagent Claude spawns is forced to return validated structured data - validation happens at the tool-call layer, so Claude retries on mismatch instead of handing you free text you have to parse and pray over. 
 
@@ -112,7 +112,7 @@ const result = await agent(source.prompt, {
 
 An edge isn’t just “B comes after A.” It’s a promise about what crosses: A produces this shape, and B is built to consume this shape. When you name the edge by its data - not its order - two things get easier. 
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_10.png)
+![Image](https://pbs.twimg.com/media/HNqnSStWIAAPvab.png)
 
 You can see instantly whether the edge is real (does data actually move?), and you can swap the node on either end without breaking the graph, as long as the shape holds.
 
@@ -171,7 +171,7 @@ That’s what lets Claude scale a workflow to dozens or hundreds of subagents wi
 
 A fan-out is only useful if something gathers it. The fan-in is the node where edges converge - where one agent (or one piece of code) sees all the upstream results at once and does something that requires the whole set: dedupe across sources, rank by impact, early-exit if the total came back empty. This is the one place a barrier earns its wall-clock cost.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_5.jpg)
+![Image](https://pbs.twimg.com/media/HNqoqYPWcAEYbIc.jpg)
 
 The rule that keeps graphs fast: use a barrier only when a stage genuinely needs every prior result together. Deduping across all sources? Barrier - correct. 
 
@@ -198,7 +198,7 @@ Put fan-out and fan-in together and you get the workhorse topology of every seri
 
  One node splits the job, many nodes do the work in parallel, one node merges. It’s the shape behind a market scan, a dependency audit, a code review, a research report - swap the sources and prompts and the same skeleton adapts.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_4.png)
+![Image](https://pbs.twimg.com/media/HNqpB0FWgAAM74x.png)
 
 The canonical form has a name worth memorizing: fan out → reduce → synthesize. Fan out to gather breadth, reduce with plain code to compress it, synthesize with a final agent to write the answer. 
 
@@ -212,7 +212,7 @@ Not every graph is fixed. Sometimes the edge to take depends on what a node foun
 
 In a workflow this is just a JavaScript if or switch on a node’s validated output, because control flow lives in code.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_12.png)
+![Image](https://pbs.twimg.com/media/HNqpYomX0AAPw7z.png)
 
 This is where determinism becomes a feature, not a limitation. The router’s decision can be Claude-powered (a subagent classifies), but the routing is code Claude wrote - so it runs the same way every time for the same classification. 
 
@@ -245,7 +245,7 @@ The real leverage of a graph isn’t more agents - it’s the structure you can 
 
 A verifier node sits on the edge before a result is allowed downstream, and its only job is to try to kill the finding. If it survives, it passes. If not, it never reaches the answer.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_2.png)
+![Image](https://pbs.twimg.com/media/HNqp1zkW8AA4fhg.png)
 
 Three patterns are worth having in your hands. 
 
@@ -267,7 +267,7 @@ That’s already partly true: a thunk that throws inside parallel() resolves to 
 
 Design every fan-in to tolerate missing inputs rather than assume a full set.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_15.png)
+![Image](https://pbs.twimg.com/media/HNqqdlGXcAAYFV3.png)
 
 The subtler failure is nodes stepping on each other. When agents write files in parallel, they can collide. 
 
@@ -283,7 +283,7 @@ Sometimes you don’t know how big the job is until you’re in it: unknown-size
 
 The danger is obvious: a cycle that doesn’t converge is an infinite loop that spawns agents until your budget is gone.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_3.png)
+![Image](https://pbs.twimg.com/media/HNqrFflXAAEGQxk.png)
 
 The pattern that converges is loop-until-dry: keep spawning finders until K consecutive rounds surface nothing new, then stop. The one detail that makes or breaks it - and the mistake almost everyone makes the first time - is what you dedupe against. 
 
@@ -320,7 +320,7 @@ Not every node needs your best model. A graph makes this obvious in a way a sing
 
 Run the boring nodes on a cheaper model and spend your expensive tokens where judgment actually lives.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_8.jpg)
+![Image](https://pbs.twimg.com/media/HNqrj4UWYAAvHC0.jpg)
 
 In a workflow every subagent Claude spawns inherits your session model unless the script overrides it - so by default a big run bills entirely at your session tier. The model option on a single agent() call tells Claude to route just that node elsewhere. 
 
@@ -334,7 +334,7 @@ The shape of the graph isn’t cosmetic - it’s the single biggest lever on wal
 
 A pipeline() streams each item through all stages independently, with no barrier - item A can be in stage 3 while item B is still in stage 1. Fast items finish early instead of idling behind slow ones.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_13.png)
+![Image](https://pbs.twimg.com/media/HNqr10sW0AAFINc.png)
 
 Default to pipeline(). Reach for a barrier only when a stage truly needs every prior result at once - a cross-set dedupe, an early-exit on the total, a prompt that compares against “the other findings.” “It’s cleaner code” and “the stages feel separate” are not reasons; barrier latency is real, measurable, wasted time. Separate is not the same as synchronized.
 
@@ -346,7 +346,7 @@ The final move is to stop drawing the graph by hand for jobs you can’t plan in
 
 With dynamic workflows, you describe the objective and Claude writes the orchestration script itself- decomposing the task, choosing the fan-out, spawning a coordinated fleet of subagents, and synthesizing the result. You get a graph tailored to this run instead of a fixed one you hoped would fit.
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_7.jpg)
+![Image](https://pbs.twimg.com/media/HNqsMKpXMAAB09_.jpg)
 
 There are three ways in. Say the word “workflow” in your prompt and Claude writes one for the task. Run a saved or bundled one - /deep-research is a real graph shipping in production: scope → parallel search → fetch → adversarial verify → synthesize, the exact skeleton from this course. 
 
@@ -366,7 +366,7 @@ responsive — keep working while the fleet runs
 
 ## Six graphs to build with Claude this week
 
-![Image](../_media/x-2079165300625330317/0xCodez_2079165300625330317_11.png)
+![Image](https://pbs.twimg.com/media/HNqtS-UXkAAAKzv.png)
 
 - Security sweep across every route. Claude spawns one subagent per route file, each hunting for missing auth checks, then a verifier pass confirms every finding before it reaches the report. Breadth no single context could hold.
 
@@ -394,7 +394,7 @@ Most people will keep queueing steps in a line. The ones who learn to draw the g
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2079165300625330317/0xCodez_2079165300625330317_17.jpg)
+![Image 1](https://pbs.twimg.com/media/HNqZMWeWYAAqsw-.jpg)
 
 ## 💬 Replies
 

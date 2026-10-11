@@ -32,7 +32,7 @@ These projects took hundreds of hours of prompting Claude Code powered by Sonnet
 
 ## Designing a new product management workflow
 
-![Tools like Claude Code and Cowork are blurring the lines between distinct roles in the product development life cycle.](../_media/claude-product-management-on-the-ai-exponential/Cat_Wu_product-management-on-the-ai-exponential_1.png)
+![Tools like Claude Code and Cowork are blurring the lines between distinct roles in the product development life cycle.](https://assets.claude.com/2eb62c76e42ed4b27ca8f25dc57b7612a6294500.png)
 
 *Tools like Claude Code and Cowork are blurring the lines between distinct roles in the product development life cycle.*
 
@@ -54,7 +54,7 @@ One of the most exciting parts of being a product manager today is that these wo
 
 ## Leaning into the AI exponential
 
-![METR. (2026, March). Task-Completion Time Horizons of Frontier AI Models. https://metr.org/time-horizons/](../_media/claude-product-management-on-the-ai-exponential/Cat_Wu_product-management-on-the-ai-exponential_2.png)
+![METR. (2026, March). Task-Completion Time Horizons of Frontier AI Models. https://metr.org/time-horizons/](https://assets.claude.com/f869c186fa92de1125180eabb1e4e5332f0feb44.png)
 
 *METR. (2026, March). Task-Completion Time Horizons of Frontier AI Models. <https://metr.org/time-horizons/>*
 

@@ -83,7 +83,7 @@ Part of what lets Claude Fable 5 carry long work is that it knows how to set and
 
 That panel is your chance to catch problems and redirect early. A mistake you'd otherwise find in the finished output instead shows up as one wrong step in the plan. You can correct the plan in one sentence and Claude adjusts without starting over.
 
-![](../_media/claude-working-with-claude-fable-5-in-claude-cowork/Claude_working-with-claude-fable-5-in-claude-cowork_1.png)
+![](https://assets.claude.com/426b5a3d0277b94a87edc784ca2f496e3f175855.png)
 
 When the work is finished, review it the way you would a colleague's: open the files Claude produced and read them. If something appears off, the record of the run is still in the conversation. Scroll back through the steps Claude listed as it worked, including the files it read and the tools it used, and expand its thinking to see the reasoning behind a decision. Or ask directly: "Where did this figure come from?" and Claude will point you to the source.
 

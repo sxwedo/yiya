@@ -29,5 +29,5 @@ type: "Article"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073413449930207662/ba_niu80557_2073413449930207662_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMY-iIHa0AAtz9h.jpg)
 

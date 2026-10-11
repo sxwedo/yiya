@@ -31,7 +31,7 @@ IV: My Honest Analysis & Key Takeaways
 
 ## I: What even is Grok Bot?
 
-![Image](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_6.jpg)
+![Image](https://pbs.twimg.com/media/HP9BpI2asAIRG5P.jpg)
 
 Last week (August 11th), the SpaceXAI team officially announced Grok Bot.
 
@@ -51,7 +51,7 @@ You assign each bot a role and essentially launch an agent swarm.
 
 E.g., research, outreach, scheduling, finance - whatever the job is. Your agents sign in to the tools they need once and reuse those logins going forward.   
 
-![Image](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_1.jpg)
+![Image](https://pbs.twimg.com/media/HP9C8lTbUAAdjtI.jpg)
 
 Grok Bot versus OpenClaw/Hermes 
 
@@ -71,7 +71,7 @@ Another drawback is that Grok Bot is relatively expensive right now.
 
 $200/mo minimum with Cursor Ultra. 
 
-![Image](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_2.jpg)
+![Image](https://pbs.twimg.com/media/HP9FiUKaMAANt25.jpg)
 
 TL;DR: Grok Bot is a team of 24/7 AI agents that get work done on your behalf. Think of Grok Bot as your own personal team of desktop employees. 
 
@@ -124,7 +124,7 @@ Oscar: General
 
 Each one runs as its own persistent agent, with its own memory, role, and cloud computer. 
 
-![Image](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_4.jpg)
+![Image](https://pbs.twimg.com/media/HP9IS5HbYAAbngu.jpg)
 
 Here's exactly how I've set up each of my five agents, along with the prompts behind them, if you want to deploy them yourself.
 
@@ -152,7 +152,7 @@ vibe-code a dashboard that displays this automatically instead of
 sending it as a message, and have it self-update every morning.
 \`\`\`
 
-![Image](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_5.jpg)
+![Image](https://pbs.twimg.com/media/HP9LQRmaYAA9BSQ.jpg)
 
 The cool thing about Alex is that I can actually record how I personally go about finding outlier content and package it into an agentic skill that Alex can use - much like training a real employee. 
 
@@ -211,7 +211,7 @@ Oscar doesn't have one narrow role. You can use a simple prompt like:
 
 Tip: Definitely worth setting up "Plugins" inside your Grok Bot teams.
 
-![Image](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_3.jpg)
+![Image](https://pbs.twimg.com/media/HP9PVBRaMAAq9Uw.jpg)
 
 ---
 
@@ -269,7 +269,7 @@ https://www.skool.com/milesdeutscher
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2089724781449052255/milesdeutscher_2089724781449052255_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HP82nh6a4AA-1us.jpg)
 
 ## 💬 Replies
 

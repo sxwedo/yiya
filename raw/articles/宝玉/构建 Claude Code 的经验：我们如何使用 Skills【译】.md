@@ -39,7 +39,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 
 在梳理了我们所有的 Skills 之后，我们注意到它们大致可以归为几个反复出现的类别。最好的 Skills 清晰地落在某一个类别里；让人困惑的 Skills 往往横跨了好几个。这不是一份终极清单，但如果你想检查团队里是否还缺了什么类型的 Skills，这是一个很好的思路。
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_2.jpg)
+![Image](https://pbs.twimg.com/media/HDo5BLyXEAA8McR.jpg)
 
 ## 1\. 库与 API 参考
 
@@ -151,7 +151,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 
 - cost-investigation — “我们的存储/出口带宽费用为什么突然涨了”，附带具体的存储桶和查询模式
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_4.jpg)
+![Image](https://pbs.twimg.com/media/HDo5Dl9XsAAWY7o.jpg)
 
 确定了要做什么 Skill 之后，怎么写呢？以下是我们总结的一些最佳实践和技巧。
 
@@ -165,13 +165,13 @@ Claude Code 对你的代码库已经非常了解，Claude 本身对编程也很�
 
 ## 建一个踩坑点章节
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_1.jpg)
+![Image](https://pbs.twimg.com/media/HDo5GDjbEAMAlZj.jpg)
 
 任何 Skill 中信息量最大的部分就是踩坑点章节。这些章节应该根据 Claude 在使用你的 Skill 时遇到的常见失败点逐步积累起来。理想情况下，你会持续更新 Skill 来记录这些踩坑点。
 
 ## 利用文件系统与渐进式披露
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_10.jpg)
+![Image](https://pbs.twimg.com/media/HDo5JN1WQAAPmnG.jpg)
 
 就像前面说的，Skill 是一个文件夹，不只是一个 markdown 文件。你应该把整个文件系统当作上下文工程（Context Engineering）和渐进式披露（progressive disclosure）的工具。告诉 Claude 你的 Skill 里有哪些文件，它会在合适的时候去读取它们。【注：上下文工程（Context Engineering）是 2025 年由 Andrej Karpathy 等人提出并广泛传播的概念，指的是精心设计和管理输入给大语言模型的上下文信息，以最大化模型的输出质量。渐进式披露（progressive disclosure）借用了 UI 设计中的概念，意思是不一次性把所有信息塞给模型，而是让它在需要时再去读取，从而节省上下文窗口空间。】
 
@@ -185,11 +185,11 @@ Claude Code 对你的代码库已经非常了解，Claude 本身对编程也很�
 
 Claude 通常会努力遵循你的指令，而由于 Skills 的复用性很强，你需要注意不要把指令写得太具体。给 Claude 它需要的信息，但留给它适应具体情况的灵活性。例如：
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_5.jpg)
+![Image](https://pbs.twimg.com/media/HDo5Lo1W8AArlpo.jpg)
 
 ## 考虑好初始设置
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_3.jpg)
+![Image](https://pbs.twimg.com/media/HDo5OrObEAAENZA.jpg)
 
 有些 Skills 可能需要用户提供上下文来完成初始设置。例如，如果你做了一个把站会内容发到 Slack 的 Skill，你可能希望 Claude 先问用户要发到哪个 Slack 频道。
 
@@ -201,11 +201,11 @@ Claude 通常会努力遵循你的指令，而由于 Skills 的复用性很强�
 
 当 Claude Code 启动一个会话时，它会构建一份所有可用 Skills 及其描述的清单。Claude 通过扫描这份清单来判断“这个请求有没有对应的 Skill？”所以 description 字段不是摘要——它描述的是何时该触发这个 Skill。【注：这条建议经常被忽略。很多人写 description 时会写“这个 Skill 做什么”，但 Claude 需要的是“什么情况下该用这个 Skill”。好的 description 读起来更像 if-then 条件，而不是功能说明。】
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_8.jpg)
+![Image](https://pbs.twimg.com/media/HDo5Rspa0AApYXU.jpg)
 
 ## 记忆与数据存储
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_6.jpg)
+![Image](https://pbs.twimg.com/media/HDo5UrhbEAAqlvQ.jpg)
 
 有些 Skills 可以通过在内部存储数据来实现某种形式的记忆。你可以用最简单的方式——一个只追加写入的文本日志文件或 JSON 文件，也可以用更复杂的方式——比如 SQLite 数据库。
 
@@ -219,11 +219,11 @@ Claude 通常会努力遵循你的指令，而由于 Skills 的复用性很强�
 
 例如，在你的数据科学 Skill 中，你可以放一组从事件源获取数据的函数库。为了让 Claude 做更复杂的分析，你可以提供一组辅助函数，像这样：
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_9.jpg)
+![Image](https://pbs.twimg.com/media/HDo5XLwXcAA-ocz.jpg)
 
 Claude 就可以即时生成脚本来组合这些功能，完成更高级的分析——比如回答“周二发生了什么？”这样的问题。
 
-![Image](../_media/x-2034002188994060691/dotey_2034002188994060691_7.jpg)
+![Image](https://pbs.twimg.com/media/HDo5ZkUW0AAMmfP.jpg)
 
 ## 按需钩子
 
@@ -271,7 +271,7 @@ Skills 是 AI 智能体（AI Agent）极其强大且灵活的工具，但这一�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2034002188994060691/dotey_2034002188994060691_11.jpg)
+![Image 1](https://pbs.twimg.com/media/HDo4-t_W8AAbv9D.jpg)
 
 ## 💬 Replies
 

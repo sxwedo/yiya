@@ -28,7 +28,7 @@ Claude works with:
 
 ## Enterprise search
 
-![Workflow diagram showing a variety of connected app icons](../_media/claude-claude-and-your-productivity-platforms/Claude_productivity-platforms_1.png)
+![Workflow diagram showing a variety of connected app icons](https://assets.claude.com/1097542eb1cafd7ad79c95f302686bf5733a40c4.png)
 
 We're also making it easier to access company knowledge through a dedicated, shared project that's personalized with your company name. This project includes custom prompts to help Claude search effectively across your company's tools, plus simple setup steps for connecting your essential work apps. Everyone in your organization gets automatic access to the project once an admin sets it up and connects your essential tools.
 

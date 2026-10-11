@@ -17,7 +17,7 @@ More papers are also designing self-evolving algorithms, including both reinforc
 
 # Models, Harness, and Artifacts
 
-![Image](../_media/x-2074800880017342665/Shilong_Liu_AI_2074800880017342665_2.png)
+![Image](https://pbs.twimg.com/media/HMsroN5bsAAT9in.png)
 
 Models, harness, and artifacts are three key factors in a self-evolving system. Models, usually large language models (LLMs), are the brains that respond to prompts. Harness includes loop designs, memory, tools, and other surrounding components. It turns models into agents. Hence there is a famous equation:
 
@@ -31,13 +31,13 @@ With this view, existing self-evolving systems can be grouped into three levels:
 
 # Artifacts Iterative Optimization
 
-![Image](../_media/x-2074800880017342665/Shilong_Liu_AI_2074800880017342665_4.png)
+![Image](https://pbs.twimg.com/media/HMsrtNWasAAJiiW.png)
 
 The recent wave of self-evolving agents was largely pushed by artifact iterative optimization. The motivation is simple: use powerful LLMs to create new artifacts for complex optimization problems. \[AlphaEvolve\](https://arxiv.org/pdf/2506.13131) leveraged coding agents for scientific and algorithm discovery. In this taxonomy, the discovered algorithms are artifacts. Later, several auto-research systems were proposed. One representative event is that Analemma AI's \[FARS\](https://arxiv.org/html/2606.31651v1) ran for 417 hours and produced 166 fully AI-generated papers, at a cost of around 180k USD. \[Recursive Superintelligence\](https://www.recursive.com/articles/first-steps-toward-automated-ai-research) also found better GPU kernel algorithms.
 
 Artifact iterative optimization systems are not conceptually complex. A human sets a target and evaluation criteria. Then the agent repeatedly finds something to improve, produces a new output, and checks whether the output meets the criteria. If it does, the process finishes. If not, the loop continues. The AlphaEvolve pipeline above is one example. Readers may already be familiar with this pattern, as tools like Codex, Claude Code, and OpenClaw all follow similar behavior.
 
-![Image](../_media/x-2074800880017342665/Shilong_Liu_AI_2074800880017342665_5.jpg)
+![Image](https://pbs.twimg.com/media/HMsr3m2a4AAOemF.jpg)
 
 This idea is intuitive, and of course it is not new. What changed is that LLMs, especially coding models, make the loop much more flexible. Before LLMs became dominant, researchers usually designed operators or actions by hand, and then designed search or optimization methods over these operators. Neural architecture search is a good example. Work such as \[EfficientNet\](https://arxiv.org/pdf/1905.11946) defined a search space of possible network operators, then searched for better network designs. This line of work succeeded on many tasks, sometimes achieving better results than human-designed algorithms.
 
@@ -51,7 +51,7 @@ The world is the agents' oyster.
 
 # Agent Harness Self-improvement
 
-![Image](../_media/x-2074800880017342665/Shilong_Liu_AI_2074800880017342665_1.png)
+![Image](https://pbs.twimg.com/media/HMsr89rawAEUKs8.png)
 
 Almost at the same time as Artifact Iterative Optimization, Agent Harness Self-improvement became popular in research. The motivation is different. Model training is expensive, so a natural question is whether we can improve agents after deployment without updating model weights.
 
@@ -89,7 +89,7 @@ A human is a router.
 
 # Model Learning without Gold Answers
 
-![Image](../_media/x-2074800880017342665/Shilong_Liu_AI_2074800880017342665_3.png)
+![Image](https://pbs.twimg.com/media/HMssCnba4AA9thu.png)
 
 This is the third topic. Compared with artifact optimization and harness self-improvement, this direction updates the model itself. Many works in this area may never call themselves self-evolving agents. They usually appear under names such as self-training, weak supervision, self-play, reinforcement learning, test-time training, online learning, or continual learning.
 
@@ -153,7 +153,7 @@ The world is still the hardest environment. It is also the place where self-evol
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074800880017342665/Shilong_Liu_AI_2074800880017342665_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HMssU00bQAAOxqc.jpg)
 
 ## 💬 Replies
 

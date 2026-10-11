@@ -37,7 +37,7 @@ Almost everyone starts with AI the same way. You type a question, get an answer,
 
 Then you notice you’re spending more time managing the AI than the AI is saving you. You’re the one copying between steps. You’re the one remembering what step three needed from step one.
 
-![Image](../_media/x-2067892652306018598/leopardracer_2067892652306018598_1.jpg)
+![Image](https://pbs.twimg.com/media/HLKdcR6XgAA_GiH.jpg)
 
 An October 2025 study [published on arXiv](https://arxiv.org/abs/2406.15782) found that LLM accuracy drops significantly when relevant information is embedded within longer contexts, even when all irrelevant tokens are masked.
 
@@ -103,7 +103,7 @@ Anthropic’s “[Building Effective Agents](https://www.anthropic.com/engineeri
 
 For non-coders, workflows are the sweet spot. You define the path. The AI does the work at each stop.
 
-![Image](../_media/x-2067892652306018598/leopardracer_2067892652306018598_2.jpg)
+![Image](https://pbs.twimg.com/media/HLKeKOvXAAAIaZz.jpg)
 
 Anthropic describes five workflow patterns. In plain English:
 
@@ -205,7 +205,7 @@ If the output is fine and no decision is needed, you don’t stop. Workflows run
 
 Decision gates check whether the output matches your intent. AI produces grammatically correct, well-researched content that still goes in the wrong direction. Decision gates catch that before the next step builds on a mistaken assumption.
 
-![Image](../_media/x-2067892652306018598/leopardracer_2067892652306018598_3.jpg)
+![Image](https://pbs.twimg.com/media/HLKfLCoXcAAYTAP.jpg)
 
 In my telegram chanel I wrote a full guide on adding approval gates to Hermes workflows if you want the technical details. Gates protect your reputation by blocking external actions without your OK, protect your data by requiring confirmation before system changes, and protect your wallet by blocking spending above a threshold without approval.
 
@@ -241,7 +241,7 @@ If this changed how you think about AI workflows, follow [@leopardracer](https:/
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2067892652306018598/leopardracer_2067892652306018598_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HLKggw6XgAASVB3.jpg)
 
 ## 💬 Replies
 

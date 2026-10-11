@@ -55,7 +55,7 @@ Zach 的框架已经很全面，但如果要补充，我会加几点：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1965920362816004382/shao__meng_1965920362816004382_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G0haDgHaQAA8a0U?format=jpg&name=medium)
 
 ## 💬 Replies
 

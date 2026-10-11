@@ -64,11 +64,11 @@ Pick one distinctive font, use it decisively. Load from Google Fonts.
 
 **Output generated with base prompt:**
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_1.png)
+![](https://assets.claude.com/c15689d28929def7281398d254b1692b67ba34f2.png)
 
 **Output generated with base prompt and typography section**
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_2.png)
+![](https://assets.claude.com/899bf3293083a42ded028aa4daa0a4c505ffc561.png)
 
 ‍
 
@@ -93,7 +93,7 @@ Always design with RPG aesthetic:
 
 This produces the following RPG-themed UI:
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_3.png)
+![](https://assets.claude.com/9e5014bce3c6502c734fb668b77bfe7126861d8e.png)
 
 Typography and themes show targeted prompting works. But manually specifying each dimension is tedious. What if we could combine all these improvements into one reusable asset?
 
@@ -133,33 +133,33 @@ With this skill active, Claude's output improves across several types of fronten
 
 **Example 1: SaaS landing page**
 
-![Caption: AI-generated SaaS landing page with generic Inter font, purple gradient, and standard layout. No skills were used.](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_4.png)
+![Caption: AI-generated SaaS landing page with generic Inter font, purple gradient, and standard layout. No skills were used.](https://assets.claude.com/5096e4e90054d8456dce2c8caa8c39e55e912119.png)
 
 *Caption: AI-generated SaaS landing page with generic Inter font, purple gradient, and standard layout. No skills were used.*
 
-![Caption: AI-generated frontend generated using the same prompt as the rendering above in addition to the frontend skill, now with distinctive typography, cohesive color scheme, and layered backgrounds.](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_5.png)
+![Caption: AI-generated frontend generated using the same prompt as the rendering above in addition to the frontend skill, now with distinctive typography, cohesive color scheme, and layered backgrounds.](https://assets.claude.com/0b9a125ecab8f3a75aaf877ac838dc371185ed5e.png)
 
 *Caption: AI-generated frontend generated using the same prompt as the rendering above in addition to the frontend skill, now with distinctive typography, cohesive color scheme, and layered backgrounds.*
 
 **Example 2: Blog layout**
 
-![AI-generated blog layout with default system fonts and flat white background. No skills were used.](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_6.png)
+![AI-generated blog layout with default system fonts and flat white background. No skills were used.](https://assets.claude.com/9d54f9ef7943105e514ec63f9d609684a895f46d.png)
 
 *AI-generated blog layout with default system fonts and flat white background. No skills were used.*
 
-![AI-generated blog layout using the same prompt as well as the frontend skill, featuring editorial typeface with atmospheric depth and refined spacing.](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_7.png)
+![AI-generated blog layout using the same prompt as well as the frontend skill, featuring editorial typeface with atmospheric depth and refined spacing.](https://assets.claude.com/c55b327ad4e7242889786067087a907c5ccf386c.png)
 
 *AI-generated blog layout using the same prompt as well as the frontend skill, featuring editorial typeface with atmospheric depth and refined spacing.*
 
 **Example 3: Admin dashboard**
 
-![AI-generated admin dashboard with standard UI components with minimal visual hierarchy. No skills were used.](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_8.png)
+![AI-generated admin dashboard with standard UI components with minimal visual hierarchy. No skills were used.](https://assets.claude.com/94101c4bbc2457c4a1bdcb2423243e568e8fc2c5.png)
 
 *AI-generated admin dashboard with standard UI components with minimal visual hierarchy. No skills were used.*
 
 ‍
 
-![AI-generated admin dashboard with bold typography, cohesive dark theme, and purposeful motion, using the same prompt in addition to the frontend skill.](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_9.png)
+![AI-generated admin dashboard with bold typography, cohesive dark theme, and purposeful motion, using the same prompt in addition to the frontend skill.](https://assets.claude.com/6161fc3a14335a4aa90d96d62ee4682637837ff1.png)
 
 *AI-generated admin dashboard with bold typography, cohesive dark theme, and purposeful motion, using the same prompt in addition to the frontend skill.*
 
@@ -179,11 +179,11 @@ With the web-artifacts-builder skill, Claude could leverage shadcn/ui's form com
 
 For example, when prompted to create a whiteboard app without the web-artifacts-builder skill, Claude outputted a very basic interface:
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_10.png)
+![](https://assets.claude.com/0553a5bd3ed0bca40fe71351ae0ccc359d1638cd.png)
 
 On the other hand, when using the new web-artifacts-builder skill, Claude generated a much cleaner and more featureful application out-of-the-box that included drawing different shapes and text:
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_11.png)
+![](https://assets.claude.com/734a801bdaca9d200e1950b248474183ab93a6b7.png)
 
 ‍
 
@@ -191,13 +191,13 @@ On the other hand, when using the new web-artifacts-builder skill, Claude genera
 
 Similarly, when asked to create a task management app, without the skill, Claude generated a functional but very minimal application:
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_12.png)
+![](https://assets.claude.com/35724eea470619dc0db7f196c3b70be31fa6e814.png)
 
 With the skill, Claude generated an app that was more featureful out of the box. For example, Claude included a “Create New Task” form component that allows users to set an associated Category and Due Date on tasks:
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_13.png)
+![](https://assets.claude.com/24a5a4064a18040973beeb319bd0b9bfac72608a.png)
 
-![](../_media/claude-improving-frontend-design-through-skills/Claude_improving-frontend-design-through-skills_14.png)
+![](https://assets.claude.com/c58efe59554ca0e60a17d2dc1512b4b897d3694e.png)
 
 ‍
 

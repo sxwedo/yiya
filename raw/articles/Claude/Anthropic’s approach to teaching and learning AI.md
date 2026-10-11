@@ -36,7 +36,7 @@ In Claude Academy, all educational materials are designed to be broadly accessib
 
 Learning to use AI well should open up new doors and opportunities for students. Our learning materials are designed to help learners solve the problems they care about most. Instead of simply offering learning that shows you how to use our products and features, our education is centered on the problems you face at work and in life. Of note, our educational materials also encourage mindfulness about continuing to practice skills that matter to you in order to prevent skill atrophy. For example, this [collection of legal use cases](https://academy.claude.com/use-cases?department=legal) teaches you how to use Claude while also offering you the chance to reflect on what tasks should stay with you.
 
-![Claude Academy is organized around problems you need to solve with AI.](../_media/claude-anthropic-s-approach-to-teaching-and-learning-ai/Claude_anthropics-approach-to-teaching-and-learning-ai_1.png)
+![Claude Academy is organized around problems you need to solve with AI.](https://assets.claude.com/5f6cd02e42cf4002166da95453fb4206b5ea5176.png)
 
 *Claude Academy is organized around problems you need to solve with AI.*
 
@@ -44,7 +44,7 @@ Learning to use AI well should open up new doors and opportunities for students.
 
 Given how fast AI is changing, mastering features alone won’t lead to lasting AI fluency. Even specific behaviors like “describe your audience” that were once useful have become less important when using the newest models. For example, where you used to have to tell Claude that your task is intended for “colleagues working in legal” now Claude will simply ask you for that information if it’s needed for a high quality output. Our education team has shifted away from emphasizing specific behaviors for AI fluency towards cultivating broader, more durable mindsets for using AI. Things like “today’s AI is the worst AI you’ll ever use” and “verify in proportion to the stakes” help people exercise good judgement with AI even as products and features change.
 
-![Claude Academy’s curriculum is built from a set of mindsets that support intentional AI adoption.](../_media/claude-anthropic-s-approach-to-teaching-and-learning-ai/Claude_anthropics-approach-to-teaching-and-learning-ai_2.png)
+![Claude Academy’s curriculum is built from a set of mindsets that support intentional AI adoption.](https://assets.claude.com/b9910fe5db5f1f87afd00d5af2dfc1c74de90cbc.png)
 
 *Claude Academy’s curriculum is built from a set of mindsets that support intentional AI adoption.*
 
@@ -52,7 +52,7 @@ Given how fast AI is changing, mastering features alone won’t lead to lasting 
 
 Most learning about AI focuses almost exclusively on a user’s conversation with an agent. While that’s critical, we also believe that the moments surrounding AI use are just as important. For example, we encourage learners to ask themselves what tasks should be delegated to AI in the first place and which tasks should stay with them. For example, you may want to draft sensitive parts of a memo but leave putting together summary slides to AI. Or you may want Claude to help with some exploratory data analysis but do final checks yourself. We also educate learners on how to ethically disclose AI use to colleagues, customers, and other stakeholders. This includes explicitly stating how AI was used in the production of documents, analyses, or media before you share it with others. This broader perspective ensures that learners build an intentional relationship with AI from the start.
 
-![Claude Academy tutorials give you the building blocks to delegate effectively with AI.](../_media/claude-anthropic-s-approach-to-teaching-and-learning-ai/Claude_anthropics-approach-to-teaching-and-learning-ai_3.png)
+![Claude Academy tutorials give you the building blocks to delegate effectively with AI.](https://assets.claude.com/7ed71ba9b30709b915c8870dd993395394010ee2.png)
 
 *Claude Academy tutorials give you the building blocks to delegate effectively with AI.*
 
@@ -60,7 +60,7 @@ Most learning about AI focuses almost exclusively on a user’s conversation wit
 
 Our use cases, tutorials, and courses encourage you to practice with Claude as you go. Our learning exercises encourage reflection and experimentation so learners can discover what works best for them when using AI. Of note, we believe that today’s Claude Academy experience is the most rigid it’ll ever be. With Claude, we’ll be able to deliver very personalized learning activities and exercises at a scale that hasn’t been possible before.
 
-![Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.](../_media/claude-anthropic-s-approach-to-teaching-and-learning-ai/Claude_anthropics-approach-to-teaching-and-learning-ai_4.png)
+![Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.](https://assets.claude.com/6dd3fc13e6772bf301f62ae8b4c081b987d198c3.png)
 
 *Claude Academy allows you to practice as you go, incorporating a library of step-by-step tutorials.*
 

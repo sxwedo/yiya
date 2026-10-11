@@ -51,11 +51,11 @@ type: "Article"
 
 ## 效果示例
 
-![Image](../_media/x-2107108350299443342/leo_xiaolei_2107108350299443342_1.jpg)
+![Image](https://pbs.twimg.com/media/HT3zUf4b0AAgvP_.jpg)
 
-![Image](../_media/x-2107108350299443342/leo_xiaolei_2107108350299443342_2.jpg)
+![Image](https://pbs.twimg.com/media/HT3zgrmbYAAZhxQ.jpg)
 
-![Image](../_media/x-2107108350299443342/leo_xiaolei_2107108350299443342_3.jpg)
+![Image](https://pbs.twimg.com/media/HT3za21boAAexwx.jpg)
 
 完整 SKILL.md
 
@@ -200,7 +200,7 @@ text
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2107108350299443342/leo_xiaolei_2107108350299443342_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HT3yZHSaoAAJepM.jpg)
 
 ## 💬 Replies
 

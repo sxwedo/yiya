@@ -50,7 +50,7 @@ Over time, teams build up collections of interrelated skills and connections tha
 
 **Further reading**: Tim O'Reilly on what [MCP and skills mean for open source AI](https://www.oreilly.com/radar/what-mcp-and-claude-skills-teach-us-about-open-source-for-ai/)
 
-![How skills and MCP work together: MCP provides tool access, skills provide workflow logic.](../_media/claude-extending-claude-s-capabilities-with-skills-and-mcp-servers/Claude_extending-claude-capabilities-with-skills-mcp-servers_1.png)
+![How skills and MCP work together: MCP provides tool access, skills provide workflow logic.](https://assets.claude.com/63e82441ddfbcf4a29659d5007661b57e69a295e.png)
 
 *How skills and MCP work together: MCP provides tool access, skills provide workflow logic.*
 

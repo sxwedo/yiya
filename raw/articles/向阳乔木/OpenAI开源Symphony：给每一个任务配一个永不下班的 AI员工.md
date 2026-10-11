@@ -85,7 +85,7 @@ Agent崩溃了，自动重启；有新任务进来，自动接手。
 
 AI 代理在这些状态之间流转，人类在"Human Review"节点介入。
 
-![Image](../_media/x-2049484504444834126/vista8_2049484504444834126_1.jpg)
+![Image](https://pbs.twimg.com/media/HHE5yvsagAAiFPF.jpg)
 
 ## 几个让人印象深刻的细节
 
@@ -171,7 +171,7 @@ Issue Tracker Client（任务追踪客户端）：负责和 Linear 通信，拉�
 
 正常完成后的续跑检查只等 1 秒。
 
-![Image](../_media/x-2049484504444834126/vista8_2049484504444834126_2.jpg)
+![Image](https://pbs.twimg.com/media/HHE6jvlbUAAx-xM.jpg)
 
 ## 一个重要的架构选择：App Server 模式
 
@@ -275,7 +275,7 @@ Symphony 提供的，是一种思路：不要管理Agent，管理任务就够了
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2049484504444834126/vista8_2049484504444834126_3.jpg)
+![Image 1](https://pbs.twimg.com/media/HHE7F5JasAAEjVU.jpg)
 
 ## 💬 Replies
 

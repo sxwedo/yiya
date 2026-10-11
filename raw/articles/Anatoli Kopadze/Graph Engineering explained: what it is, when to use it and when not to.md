@@ -57,7 +57,7 @@ A box is called a node. It's one job: one agent doing one task, with one thing g
 
 An arrow is called an edge. It just means one job needs what another job produced, so it has to wait for it. And the arrow only counts when something real actually passes along it.
 
-![Image](../_media/anatoli-graph-engineering-explained/AnatoliKopadze_2080668775796314331_3.jpg)
+![Image](https://pbs.twimg.com/media/HN_lWe1WUAA-3E0.jpg)
 
 ---
 
@@ -91,7 +91,7 @@ You will find two or three of these fake edges in almost any workflow you draw. 
 
 ---
 
-![Image](../_media/anatoli-graph-engineering-explained/AnatoliKopadze_2080668775796314331_5.jpg)
+![Image](https://pbs.twimg.com/media/HN_ot18WwAA4lk-.jpg)
 
 ---
 
@@ -119,7 +119,7 @@ Fan out to gather breadth, reduce with plain code to compress it, synthesize wit
 
 ---
 
-![Image](../_media/anatoli-graph-engineering-explained/AnatoliKopadze_2080668775796314331_2.jpg)
+![Image](https://pbs.twimg.com/media/HN_qHfuXcAAlcLr.jpg)
 
 ---
 
@@ -304,7 +304,7 @@ This graph fails exactly like the single loop did, just later, more expensively,
 
 ---
 
-![Image](../_media/anatoli-graph-engineering-explained/AnatoliKopadze_2080668775796314331_1.jpg)
+![Image](https://pbs.twimg.com/media/HN_wbhWWUAAJteJ.jpg)
 
 ---
 
@@ -361,7 +361,7 @@ That is a graph. A dozen agents from a single sentence. When a run comes out goo
 
 ---
 
-![Image](../_media/anatoli-graph-engineering-explained/AnatoliKopadze_2080668775796314331_4.jpg)
+![Image](https://pbs.twimg.com/media/HN_0W-CXIAAndeR.jpg)
 
 Notice the "20 files" cap in that prompt. It keeps your first run cheap, and it hints at the thing every demo leaves out: the bill.
 
@@ -511,5 +511,5 @@ Telegram - [https://t.me/kopadzemp](https://t.me/kopadzemp)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/anatoli-graph-engineering-explained/AnatoliKopadze_2080668775796314331_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HOAA7BpW0AE_Dxe.jpg)
 

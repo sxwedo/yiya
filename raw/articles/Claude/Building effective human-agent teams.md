@@ -16,7 +16,7 @@ This is changing with the release of tools like [Claude Tag](https://www.anthrop
 
 This involves some new ways of working. At Anthropic, we’ve been testing the technology required to make human-agent teams successful for the last several months. In this article, we explain what multiplayer agents are, and the lessons we’ve learned for building with them.
 
-![](../_media/claude-building-effective-human-agent-teams/Claude_building-effective-human-agent-teams_1.png)
+![](https://assets.claude.com/4fd99c4ea3dd3549e849472c006c1e0b715b65c2.png)
 
 ## **What are multiplayer agents?**
 
@@ -24,7 +24,7 @@ This involves some new ways of working. At Anthropic, we’ve been testing the t
 
 Here’s an example of a human-agent team analyzing a dataset together in Slack:
 
-![](../_media/claude-building-effective-human-agent-teams/Claude_building-effective-human-agent-teams_2.png)
+![](https://assets.claude.com/a304399325b106186614bff98451ae08496ceb40.png)
 
 For agents to productively participate in a team channel, they need specific capabilities:
 
@@ -59,7 +59,7 @@ Human-agent teams share one roster, one set of artifacts, and one working space.
 
 When a project kicks off, humans chat with the agents to figure out which roles to assign, and how the humans and agents will work together.
 
-![](../_media/claude-building-effective-human-agent-teams/Claude_building-effective-human-agent-teams_3.png)
+![](https://assets.claude.com/6275a8f0acdc059740a27a70a82a9d396aff50dd.png)
 
 Once the jobs for humans and agents are clear, an agent might spin up other agents to make sure that specific tasks are handled by the agents with the right memory and appropriate access. Importantly, they need access to all the tools required to accomplish the job: one that handles data analysis might need access to BigQuery, and one that performs QA might need access to the Playwright MCP.
 
@@ -72,7 +72,7 @@ At Anthropic, having clearly defined roles on human-agent teams looks like:
 * Humans and agents that have access to the right tools to accomplish their respective jobs
 * Descriptions of agents’ roles and scopes
 
-![Claude agents share the day-to-day maintenance of a codebase, triaging feedback, planning, writing code, reviewing changes, and reporting status. Each owns a clear task and works on its own schedule; people set the goals and review output.](../_media/claude-building-effective-human-agent-teams/Claude_building-effective-human-agent-teams_4.png)
+![Claude agents share the day-to-day maintenance of a codebase, triaging feedback, planning, writing code, reviewing changes, and reporting status. Each owns a clear task and works on its own schedule; people set the goals and review output.](https://assets.claude.com/0ce7798881ebd83c002392c403bc9ddc85f48faa.png)
 
 *Claude agents share the day-to-day maintenance of a codebase, triaging feedback, planning, writing code, reviewing changes, and reporting status. Each owns a clear task and works on its own schedule; people set the goals and review output.*
 
@@ -119,7 +119,7 @@ At Anthropic, building trust with agents over time looks like:
 
 One engineering leader at Anthropic took on a new team with a big backlog. To get a handle on it, he invited a few humans and a few agents to help him sort through the backlog and prioritize what was most important. One set of agents on the team read through all of the items in the backlog, figured out if anyone was working on the items, and assigned a complexity score to anything that was unowned. The other set read from the list, filtered to the medium and low complexity items, and created code changes. At the beginning, humans reviewed every decision made by an agent and marked any that required human input. Then the humans taught the agents to surface those decisions to humans directly, ensuring that decisions with hard tradeoffs always had a human in the loop.
 
-![](../_media/claude-building-effective-human-agent-teams/Claude_building-effective-human-agent-teams_5.png)
+![](https://assets.claude.com/e6de90c72d2c7baaa1f732580c2d8d950e83bf48.png)
 
 Every week, the leader and his team asked the agents to compile a weekly report that included “lessons & missteps” so the agents would keep track of mistakes and avoid making them again in the future. Over time, the leader was able to give more and more complex code changes to his agents and spend less time guiding the agents’ day to day tasks.
 

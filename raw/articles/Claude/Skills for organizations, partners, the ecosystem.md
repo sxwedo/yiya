@@ -16,7 +16,7 @@ In October, we introduced [skills](https://claude.com/blog/skills)—a way to te
 
 Claude Team and Enterprise plan admins can now provision skills centrally from admin settings. Admin-provisioned skills are enabled by default for all users. Users can still toggle individual skills off if they choose. This gives organizations consistent, approved workflows across teams while letting individual users customize their experience.
 
-![](../_media/claude-skills-for-organizations-partners-the-ecosystem/Claude_organization-skills-and-directory_1.png)
+![](https://assets.claude.com/9c64e79724254d88623b70d69e969db6bfbf5a87.png)
 
 ## **Discover, create, and edit new skills**
 

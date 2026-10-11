@@ -14,7 +14,7 @@ type: "Media"
 在线阅读：[cholf5.com/claude-code-in…](https://cholf5.com/claude-code-in-action/index.html)
 源码：[github.com/cholf5/claude-…](https://github.com/cholf5/claude-code-in-action) 
 
-![Image](../_media/x-2007989474194845869/cholf5_2007989474194845869_1.jpg)
+![Image](https://pbs.twimg.com/media/G93Pcwya8AAgO0H?format=jpg&name=medium)
 
 ## 💬 Replies
 

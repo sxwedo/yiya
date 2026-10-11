@@ -221,7 +221,7 @@ So start with the first or second. Take the morning test triage or the dependenc
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070852153594290195/zostaff_2070852153594290195_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HL0a6RDWgAAfC9u.jpg)
 
 ## 💬 Replies
 

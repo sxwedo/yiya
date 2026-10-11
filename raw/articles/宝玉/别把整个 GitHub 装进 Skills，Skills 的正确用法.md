@@ -23,7 +23,7 @@ Skills 很酷，就像切西瓜拿电锯，感觉是真的爽😂
 
 但你只是切西瓜的话，西瓜刀更顺手。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_4.jpg)
+![Image](https://pbs.twimg.com/media/G_VRaOcXkAAS67_.jpg)
 
 Skill 是用来补充 Agent 本身不具备、而你又反复需要的信息。
 
@@ -33,7 +33,7 @@ Skill 是用来补充 Agent 本身不具备、而你又反复需要的信息。
 
 真正需要 Skill 的场景是：你反复踩坑之后，发现某个地方每次都要解释一遍。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_8.jpg)
+![Image](https://pbs.twimg.com/media/G_VRdQQWQAAGt44.jpg)
 
 就像我在维护 [baoyu-skills](https://github.com/JimLiu/baoyu-skills) 时发现的：每次发布前，我都要教它写 changelog、更新 README、写 commit message、根据变更大小决定版本号。几次之后我就把这个流程封装成了 release-skills。
 
@@ -45,13 +45,13 @@ Skill 的优势在于：让 Agent 能自主完成多步骤任务，还不用怎�
 
 如果一个任务用提示词就能解决，那提示词就够了；如果必须写个 Web 应用才能跑通，那成本又太高。Skill 的甜蜜点在中间：任务需要多个步骤串联，但又不值得为此开发一套系统。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_5.jpg)
+![Image](https://pbs.twimg.com/media/G_VRf2xXEAE_tLt.jpg)
 
 比如给文章配图。单纯靠提示词做不了，因为提示词只能帮你分析文章、生成画图提示词，但还是要人去一张张生成、一张张插入合适位置。
 
 用配图 Skill 就不一样了。Agent 分析文章需要多少配图，一张张生成提示词，一张张调图像 API，最后还给你插入到合适位置。全程自动化，你只需要验收。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_7.jpg)
+![Image](https://pbs.twimg.com/media/G_VRi51XgAAO5lv.jpg)
 
 这事写程序也能做，但你得搭 Web 应用，后台接 LLM API 和画图 API，成本比 Skills 高得多。用 Skills 呢？几句话接入一个画图 Skill，事就成了。没有任何代码，写好了还能分享给其他人用。
 
@@ -59,7 +59,7 @@ Skill 的优势在于：让 Agent 能自主完成多步骤任务，还不用怎�
 
 Skill 的设计初衷是模块化：每个 Skill 做好一件事，然后像乐高一样拼起来。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_3.jpg)
+![Image](https://pbs.twimg.com/media/G_VRlgCXYAAuSY-.jpg)
 
 单点方案和可组合方案的差别，往往不在第一次使用时显现，而在后续复用时拉开差距。一个孤立的 Skill 解决一个问题；一组可组合的 Skills 能解决一类问题。
 
@@ -101,7 +101,7 @@ Skill 的设计初衷是模块化：每个 Skill 做好一件事，然后像乐�
 
 最有趣的是，用的过程中发现问题，马上让 Agent 帮你优化，都省了去重现去描述。迭代成本极低，这是 Skill 相比传统代码的独特优势。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_6.jpg)
+![Image](https://pbs.twimg.com/media/G_VRoN7WcAAOHLx.jpg)
 
 ## 什么才是最正确用法？
 
@@ -113,15 +113,15 @@ Skills 的正确用法是：先干活，干到某个地方反复卡壳，然后�
 
 三个词：因需而建、可组合、可迭代。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_2.jpg)
+![Image](https://pbs.twimg.com/media/G_VRq3VWEAI9X8K.jpg)
 
 给 Agent 写 Skill，就像给新员工写入职指南。你不会在第一天就把公司所有文档都塞给他，而是根据他要做的事，给他最需要的那几份。
 
-![Image](../_media/x-2014607139352859077/dotey_2014607139352859077_1.jpg)
+![Image](https://pbs.twimg.com/media/G_VSdT6WYAEwvdx.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2014607139352859077/dotey_2014607139352859077_9.jpg)
+![Image 1](https://pbs.twimg.com/media/G_VRUweW4AAbvm2.jpg)
 
 ## 💬 Replies
 

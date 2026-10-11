@@ -21,7 +21,7 @@ type: "Article"
 
 ## 为什么会话历史值得留下来
 
-![Image](../_media/x-2065696197206233554/thinkszyg_2065696197206233554_1.jpg)
+![Image](https://pbs.twimg.com/media/HKrTUhfaQAEW-Lg.jpg)
 
 Claude Code 和 Codex 的会话，和普通聊天不太一样。普通聊天可能只是问答，代码 Agent 的会话里会包含大量过程信息，比如它读了哪些文件、判断了哪些依赖、改了哪些地方、跑了哪些命令、测试失败在哪里、后来怎么修复。
 
@@ -47,7 +47,7 @@ Claude Code 官方已经支持 session 管理，可以恢复之前的会话，�
 
 ## 可以先从三个文件开始
 
-![Image](../_media/x-2065696197206233554/thinkszyg_2065696197206233554_2.jpg)
+![Image](https://pbs.twimg.com/media/HKrTaORaYAAcGKI.jpg)
 
 如果不想一上来搞复杂系统，可以先在项目里放三个文件：agent-handoff.md、WORKLOG.md、AGENTS.md。这三个文件的分工要清楚，不然很快又会变成新的信息堆积。
 
@@ -57,7 +57,7 @@ agent-handoff.md 适合写短期交接，比如这次任务做到哪，改了哪
 
 ## 每次任务结束前，让 Agent 写交接
 
-![Image](../_media/x-2065696197206233554/thinkszyg_2065696197206233554_3.jpg)
+![Image](https://pbs.twimg.com/media/HKrTjsWbEAAwY-b.jpg)
 
 最简单的做法，是在 Claude Code 或 Codex 每次完成任务前，加一句固定提示：
 
@@ -149,7 +149,7 @@ Agent 会话历史别浪费，但也别全部塞进长期知识库。原始历�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2065696197206233554/thinkszyg_2065696197206233554_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HKrTP-cbYAAB0JF.jpg)
 
 ## 💬 Replies
 

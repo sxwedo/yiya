@@ -8,7 +8,7 @@ date: "2026-09-19T09:32:59.000Z"
 
 # The Jev Setup Guide: How to Get Maximum Quality for Minimum Cost (Exact Config Inside)
 
-![](../_media/x-2101243146596384854/zodchiii_2101243146596384854_1.jpg)
+![](https://pbs.twimg.com/media/HSkc4rnaYAAkI6V.jpg)
 
 Jev shipped this week at $0.042 per million tokens. Output is free. Most people will reach for it like a cheap LLM.
 
@@ -20,7 +20,7 @@ Here's the full setup 👇
 
 Before we dive in, I break down new models, test the configs and share what works on my Substack: https://zodchiii.substack.com/ 🧠
 
-![](../_media/x-2101243146596384854/zodchiii_2101243146596384854_2.jpg)
+![](https://pbs.twimg.com/media/HSkXrYIbsAAvg2s.jpg)
 
 ## The price sheet
 
@@ -32,7 +32,7 @@ Put that against Astra at $10 per million input:
 
 That ratio is why the API bill is not where you'll lose money. You'll lose it on architecture.
 
-![](../_media/x-2101243146596384854/zodchiii_2101243146596384854_3.jpg)
+![](https://pbs.twimg.com/media/HSkYCK5aIAAI3az.jpg)
 
 ## The setting that decides your bill: questions per call
 
@@ -46,7 +46,7 @@ Ask the speculative ones too. If the ticket turns out to be a feature request, b
 
 That's the pattern: fan out every question you might need, route in code afterwards.
 
-![](../_media/x-2101243146596384854/zodchiii_2101243146596384854_4.jpg)
+![](https://pbs.twimg.com/media/HSkYl2-agAA8TRK.jpg)
 
 ## Confidence is the second axis
 
@@ -58,7 +58,7 @@ Three tiers, and the threshold moves with the stakes:
 
 A read-only action can run on a 0.5. A destructive one waits for 0.9. Your code encodes the risk tolerance, and TypeSafe hands you the full probabilities array if you want your own confidence measure instead of theirs.
 
-![](../_media/x-2101243146596384854/zodchiii_2101243146596384854_5.jpg)
+![](https://pbs.twimg.com/media/HSkZ0sza0AAk363.jpg)
 
 ## Six things that aren't in the quickstart
 
@@ -120,4 +120,4 @@ Thanks for reading!
 
 Full guides like this one land on Substack first: https://zodchiii.substack.com/ 🧠
 
-![](../_media/x-2101243146596384854/zodchiii_2101243146596384854_6.jpg)
+![](https://pbs.twimg.com/media/HSkbAqAbQAAztjW.jpg)

@@ -175,7 +175,7 @@ Co-founded a self-driving oven company (acquired by Weber) and the company that 
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063865685558903149/mvanhorn_2063865685558903149_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKRJqM9acAALukQ.jpg)
 
 ## 💬 Replies
 

@@ -31,7 +31,7 @@ Claude Code 团队把 loop 分成四类。我觉得最有意思的不是分类�
 
 1\. Turn-based Loop（回合制）
 
-![Image](../_media/x-2072170080969138616/yanhua1010_2072170080969138616_1.jpg)
+![Image](https://pbs.twimg.com/media/HMHTG-rbAAAU1sa.jpg)
 
 你发一条 prompt，Claude 读代码、改代码、跑测试、返回结果，然后你检查，再发下一条。
 
@@ -45,7 +45,7 @@ Claude Code 团队把 loop 分成四类。我觉得最有意思的不是分类�
 
 2\. Goal-based Loop（目标制）
 
-![Image](../_media/x-2072170080969138616/yanhua1010_2072170080969138616_2.jpg)
+![Image](https://pbs.twimg.com/media/HMHTO3la0AAMpjk.jpg)
 
 用 /goal 命令定义成功标准，Claude 会反复迭代，直到达标或者达到你设的轮次上限。
 
@@ -81,7 +81,7 @@ Claude Code 团队把 loop 分成四类。我觉得最有意思的不是分类�
 
 4\. Proactive Loop（主动式）
 
-![Image](../_media/x-2072170080969138616/yanhua1010_2072170080969138616_3.jpg)
+![Image](https://pbs.twimg.com/media/HMHTSpqb0AAYn65.jpg)
 
 这是最激进的形态，没有人类实时参与，Agent 自己监听事件、自己决定行动、自己验证结果。
 
@@ -149,7 +149,7 @@ Dynamic Workflows 可以并行派出几百个 Agent，如果你没在小规模�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2072170080969138616/yanhua1010_2072170080969138616_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HMHP4oVbkAETOUf.jpg)
 
 ## 💬 Replies
 

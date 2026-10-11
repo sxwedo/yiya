@@ -37,7 +37,7 @@ GitHub：[github.com/mindfold-ai/Tr…](https://github.com/mindfold-ai/Trellis/b
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2061054868153119208/grgerwcwetwet_2061054868153119208_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HJpWd14bAAAmcwD?format=jpg&name=medium)
 
 ## 💬 Replies
 

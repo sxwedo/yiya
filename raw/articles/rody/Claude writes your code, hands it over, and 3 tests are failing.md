@@ -21,7 +21,7 @@ Most devs accept this as the workflow.
 
 Here's the full setup you need 👇
 
-![Image](../_media/x-2064728139314389073/0x_rody_2064728139314389073_1.jpg)
+![Image](https://pbs.twimg.com/media/HKdiLPvXQAA_ZlA.jpg)
 
 ## How the loop works
 
@@ -31,7 +31,7 @@ The loop closes the line into a circle. Claude writes, runs the checks, sees wha
 
 You go from messenger to reviewer. The setup is 3 files.
 
-![Image](../_media/x-2064728139314389073/0x_rody_2064728139314389073_2.jpg)
+![Image](https://pbs.twimg.com/media/HKdiWsuXYAAptGY.jpg)
 
 ## File 1: the loop protocol in CLAUDE.md
 
@@ -117,7 +117,7 @@ to silence errors, marking tests as skipped.
 
 The main session calls it with @fixer when the loop stalls. A fresh context window without the baggage of failed attempts solves what retry #4 can't.
 
-![Image](../_media/x-2064728139314389073/0x_rody_2064728139314389073_3.jpg)
+![Image](https://pbs.twimg.com/media/HKdi3_4WIAAYXJy.jpg)
 
 ## Common mistakes
 
@@ -143,11 +143,11 @@ You stop being the messenger between Claude and your terminal. The model didn't 
 
 Thanks for reading!
 
-![Image](../_media/x-2064728139314389073/0x_rody_2064728139314389073_4.jpg)
+![Image](https://pbs.twimg.com/media/HKdi8FXXcAAFHqv.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064728139314389073/0x_rody_2064728139314389073_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HKdjNnhXwAAU9_7.jpg)
 
 ## 💬 Replies
 

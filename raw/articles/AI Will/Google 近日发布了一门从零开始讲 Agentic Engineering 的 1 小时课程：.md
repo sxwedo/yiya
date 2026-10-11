@@ -20,7 +20,7 @@ Google 近日发布了一门从零开始讲 Agentic Engineering 的 1 小时课�
 足以替代网上 10 门付费 Agentic 课程。
 
 
-![Image](../_media/x-2075463751315476740/FinanceYF5_2075463751315476740_1.jpg)
+![Image](https://pbs.twimg.com/amplify_video_thumb/2074864710063706112/img/7Dn__Uv2yU7U_gju.jpg)
 
 ## 💬 Replies
 

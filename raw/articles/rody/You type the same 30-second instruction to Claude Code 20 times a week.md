@@ -19,7 +19,7 @@ Most devs never set up the shortcut system because they think it's complicated. 
 
 Here's the full template to fix this👇
 
-![Image](../_media/x-2063549084695158936/0x_rody_2063549084695158936_1.jpg)
+![Image](https://pbs.twimg.com/media/HKMrmNoW4AAs5AR.jpg)
 
 ## What slash commands actually are
 
@@ -60,7 +60,7 @@ allowed-tools scopes what the command can do. Tighter scope means faster, safer 
 
 model is optional. Use haiku for routine work, sonnet for most things, opus for security and complex reasoning.
 
-![Image](../_media/x-2063549084695158936/0x_rody_2063549084695158936_2.jpg)
+![Image](https://pbs.twimg.com/media/HKMwxMqWAAEaWYX.jpg)
 
 ## The 7 ready-to-ship commands
 
@@ -263,11 +263,11 @@ Wrong location. Project commands in .claude/commands/, global commands in \~/.cl
 
 Not committing project commands to git. .claude/commands/ should be in your repo. Your teammates get the same shortcuts the moment they clone.
 
-![Image](../_media/x-2063549084695158936/0x_rody_2063549084695158936_3.jpg)
+![Image](https://pbs.twimg.com/media/HKMxwqjXUAA77it.jpg)
 
 ## The 15-minute breakdown
 
-![Image](../_media/x-2063549084695158936/0x_rody_2063549084695158936_4.jpg)
+![Image](https://pbs.twimg.com/media/HKMxz_dWMAA_grR.jpg)
 
 3 minutes: pick the one task you do 5+ times a week. Copy the matching template above.
 
@@ -287,7 +287,7 @@ I share daily notes on AI, finance, and vibe coding in my Telegram channel: http
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063549084695158936/0x_rody_2063549084695158936_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HKMyujMWIAAUw8M.jpg)
 
 ## 💬 Replies
 

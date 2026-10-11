@@ -8,7 +8,7 @@ date: "2026-09-19T02:13:59.000Z"
 
 # 拿到 Jev，然后呢？ Jev 到底能干什么：剔掉虚火之后的一份真实落地清单
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_1.jpg)
+![](https://pbs.twimg.com/media/HSi3JD0bcAEhil0.jpg)
 
 ## 为什么写这篇
 
@@ -35,13 +35,13 @@ TypeSafe AI 在 2026 年 9 月 15 日发布了 Jev，创始人 Diogo Almeida 出
 
 今天有两条路。一条是官方：去 TypeSafe 官网排队申请，通过后会收到一封“You‘re in!”的邮件，点进去注册账号就能拿到 API 密钥。我等了几天才排到，下面就是那封邮件。
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_2.jpg)
+![](https://pbs.twimg.com/media/HSi3LLBa4AA-Ma0.jpg)
 
 另一条是 [OpenRouter](https://openrouter.ai)：不用排队，注册后直接调用 typesafe/jev 模型，按量付费。想马上上手的走这条，后文两轮实测就是从 OpenRouter 跑的。
 
 官方数字，以及要打折的地方
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_3.jpg)
+![](https://pbs.twimg.com/media/HSi3MbfaUAAAr8p.jpg)
 
 官方对比（全部自报）：
 
@@ -65,7 +65,7 @@ Hacker News 上值得记住的三条质疑：
 
 一、给 AI 助手当“决策器”
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_4.jpg)
+![](https://pbs.twimg.com/media/HSi3NCrbEAA893d.jpg)
 
 数量最多、质量最高的一类。AI 助手每一步都要在有限动作里选一个，正好是选择题，而且要快。
 
@@ -75,7 +75,7 @@ Hacker News 上值得记住的三条质疑：
 
 二、海量数据逐条分类
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_5.jpg)
+![](https://pbs.twimg.com/media/HSi3NpgaAAAJlQm.jpg)
 
 这是 Jev 最能省钱的地方。输出免费、输入极便宜，意味着对几百万条数据逐条问“这条要不要报警“”这封邮件是不是诈骗“是算得过账的。用大模型干这事从来都太贵太慢。
 
@@ -83,7 +83,7 @@ Hacker News 上值得记住的三条质疑：
 
 三、“有把握就自动过，没把握再问大模型”
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_6.jpg)
+![](https://pbs.twimg.com/media/HSi3ORzaIAAEjbE.jpg)
 
 我认为最值得研究的用法，因为它用上了 Jev 最独特的东西：那个“几成把握”。
 
@@ -91,7 +91,7 @@ Hacker News 上值得记住的三条质疑：
 
 四、实时反应与“预测你想做什么”的界面
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_7.jpg)
+![](https://pbs.twimg.com/media/HSi3O93agAAMrkC.jpg)
 
 五、仿真与控制实验
 
@@ -111,7 +111,7 @@ OpenJev、Kev、Nimble 这类模仿 Jev 的替代模型没算，它们不是 Jev
 
 先说四次失败：把 Jev 塞进自己的工具，全卡死
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_8.jpg)
+![](https://pbs.twimg.com/media/HSi3PoOasAErt5W.jpg)
 
 拿到 Jev 的第一周，我没急着做基准测试，而是直接把它往自己每天用的工具里塞，想看它能不能帮我提效。试了四次，全失败。先说清楚：失败原因都不在模型本身——Jev 的接口每次都正常返回，中文判断也准——而是它一被塞进真实应用，就撞墙。
 
@@ -131,7 +131,7 @@ OpenJev、Kev、Nimble 这类模仿 Jev 的替代模型没算，它们不是 Jev
 
 第一轮：让 Jev 自己给 217 个项目打分
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_9.jpg)
+![](https://pbs.twimg.com/media/HSi3QQXaEAAgLX6.jpg)
 
 把 60 个案例加上 GitHub 上 167 个 Jev 项目，共 217 条的公开介绍喂给 Jev，让它逐条判断“今天能不能拿到、能不能用”。
 
@@ -145,7 +145,7 @@ X 上的演示，大多是“作者跑通了，但你拿不到”。 热闹是�
 
 第二轮：它的“几成把握”准不准，国内多快
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_10.jpg)
+![](https://pbs.twimg.com/media/HSi3Q5fasAAK73h.jpg)
 
 100 条中文科技资讯，答案事先标好，每条三道题，共 300 个判断。对照组是便宜的大模型 Qwen 3.8 Flash。从上海一条一条串行调用。
 
@@ -159,7 +159,7 @@ X 上的演示，大多是“作者跑通了，但你拿不到”。 热闹是�
 
 ## 综合判断
 
-![](../_media/x-2101132667056185544/servasyy_ai_2101132667056185544_11.jpg)
+![](https://pbs.twimg.com/media/HSi3RmIacAEpKBu.jpg)
 
 两轮实测做完，加上前面四次失败，我的观点很明确。
 

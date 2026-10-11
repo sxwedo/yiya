@@ -47,9 +47,9 @@ Here is what nobody says out loud: the job title "AI engineer" in 2026 does not 
 
 The model is a commodity. The system around it is the job. Once you get that, the entire learning path looks different.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_2.png)
+![Image](https://pbs.twimg.com/media/HNRBT2kXEAAOh_H.png)
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_9.png)
+![Image](https://pbs.twimg.com/media/HNRBXuVW4AEs5t2.png)
 
 ---
 
@@ -61,7 +61,7 @@ Phase 1 · Month 1-2
 
 Most beginners spend 3 months on Python before they touch anything AI-related. That is backwards.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_7.jpg)
+![Image](https://pbs.twimg.com/media/HNRJl-2W4AASXVP.jpg)
 
 You need exactly four things: functions, dictionaries, async/await, and how to call an API. Everything else you learn on demand.
 
@@ -109,7 +109,7 @@ Go to docs.anthropic.com. Build three things: a chatbot, a classifier, and an ex
 
 Claude Code is a command-line coding agent. You point it at a codebase and it reads, writes, tests, and commits code autonomously.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_1.jpg)
+![Image](https://pbs.twimg.com/media/HNRJ_NlXwAALTHG.jpg)
 
 It went from zero to $400M in revenue in months. It started as a hackathon project.
 
@@ -156,7 +156,7 @@ Phase 2 · Month 3-4
 
 Most people stall here. They learn the API and stop. Never build anything autonomous.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_5.jpg)
+![Image](https://pbs.twimg.com/media/HNRKT8ZXEAAojNf.jpg)
 
 $250K+ AI engineering jobs in 2026 are agent engineering jobs. Not prompt engineering jobs.
 
@@ -166,7 +166,7 @@ $250K+ AI engineering jobs in 2026 are agent engineering jobs. Not prompt engine
 
 A prompt is one instruction. A loop is a goal the AI keeps working toward until it gets there - without you babysitting every step.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_13.png)
+![Image](https://pbs.twimg.com/media/HNRCVgyXQAEo9z5.png)
 
 - A verifier turns repetition into progress. Without a real check, you have the agent agreeing with itself on repeat.
 
@@ -219,7 +219,7 @@ That is how you go from chatbot to agent. Build a research agent that takes a qu
 
 MCP (Model Context Protocol) is Anthropic's open standard for connecting AI to external systems. Think of it as USB for AI agents.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_8.jpg)
+![Image](https://pbs.twimg.com/media/HNRKmYdXMAAQOgr.jpg)
 
 Every company building AI agents needs someone who can wire models to internal systems. MCP is how that wiring happens in 2026.
 
@@ -233,9 +233,9 @@ Build an MCP server that connects Claude to a real data source. Portfolio projec
 
 > "Sub agents came from a Reddit post. Someone built an army of agents - PM, designer, frontend, backend. An engineer saw it and built it during a hackathon." - Boris Cherny, Head of Claude Code
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_3.png)
+![Image](https://pbs.twimg.com/media/HNRC02-WkAA8lpo.png)
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_12.png)
+![Image](https://pbs.twimg.com/media/HNRC3YGXUAAZmuI.png)
 
 > Same model. Different harness. That is the gap between a $100K developer and a $300K AI engineer.
 
@@ -255,7 +255,7 @@ Building agents is month 3-4. Shipping agents that survive real users is month 5
 
 Most agents work in demos and break in production. The difference is evaluation.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_15.png)
+![Image](https://pbs.twimg.com/media/HNRKtfPXsAAmJiT.png)
 
 \`\`\`python
 \# An eval is embarrassingly simple
@@ -279,7 +279,7 @@ Ask any AI startup what killed their first product. The answer is always the sam
 
 An agent without memory makes the same mistake on run #50 as on run #1.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_14.jpg)
+![Image](https://pbs.twimg.com/media/HNRK14QWAAAh_hn.jpg)
 
 I watched this happen on a real project. An agent kept putting the auth token in the request body instead of the header. Fixed it manually. Next session - same bug. Fixed again. Third session - same bug. The agent had no way to remember what it learned 20 minutes ago.
 
@@ -303,7 +303,7 @@ The system around the model is getting smarter - your skill library grows with e
 
 A single CLAUDE.md file hit #1 on GitHub Trending with 82,000 stars. Most people using Claude have never heard of it.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_10.png)
+![Image](https://pbs.twimg.com/media/HNRLGE3XQAAttEL.png)
 
 \`\`\`markdown
 \# CLAUDE.md
@@ -332,7 +332,7 @@ Without CLAUDE.md, your agent guesses. With it, your agent follows your exact en
 
 Most prompt advice is useless. "Be specific." "Give context." That is common sense, not engineering. These 6 rules actually change output quality.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_4.jpg)
+![Image](https://pbs.twimg.com/media/HNRMWk5XAAAMukg.jpg)
 
 1\. Role before task. Tell Claude who to be before what to do. "You are a senior backend engineer who values simple, testable code" turns a Stack Overflow snippet into production code.
 
@@ -384,7 +384,7 @@ The portfolio
 
 # The Portfolio That Gets You Hired
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_6.png)
+![Image](https://pbs.twimg.com/media/HNRDqSiXgAAeheQ.png)
 
 ---
 
@@ -392,7 +392,7 @@ The stack
 
 # Stop collecting frameworks. Lock your stack.
 
-![Image](../_media/x-2077370335452672284/0xRafy_2077370335452672284_11.png)
+![Image](https://pbs.twimg.com/media/HNRD1gwXEAAKKQF.png)
 
 > A chatbox is a vending machine. A custom Claude harness is an operating system.
 
@@ -452,7 +452,7 @@ The other five are here when you are ready.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2077370335452672284/0xRafy_2077370335452672284_16.jpg)
+![Image 1](https://pbs.twimg.com/media/HNRA01iXYAAf18D.jpg)
 
 ## 💬 Replies
 

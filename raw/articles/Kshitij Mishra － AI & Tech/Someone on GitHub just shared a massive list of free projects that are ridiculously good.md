@@ -63,7 +63,7 @@ They're hidden in GitHub repositories.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2066212008782172238/DAIEvolutionHub_2066212008782172238_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKyo3a2aIAAFLVK.jpg?name=orig)
 
 ## 💬 Replies
 

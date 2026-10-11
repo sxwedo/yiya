@@ -24,11 +24,11 @@ Research delivers high-quality, comprehensive answers in minutes, making it prac
 
 Claude now integrates with Gmail and Calendar, in addition to Google Docs – helping it gain deeper insight into your work context. By connecting Google Workspace, Claude can securely search emails, review documents, and see your calendar commitments – eliminating the need to manually upload files or repeatedly provide context about your work and schedule.
 
-![A product screenshot of Claude interacting with Google Workspace](../_media/claude-claude-takes-research-to-new-places/Claude_research_1.png)
+![A product screenshot of Claude interacting with Google Workspace](https://assets.claude.com/d94666bde1a93acd0d678ecf8c4017230a6416a5.png)
 
 Ask Claude to pull together meeting notes from last week, identify action items from follow-up email threads, and search relevant documents for additional context. Claude brings these insights directly to you, eliminating hours of manual work and letting you focus on strategic planning instead of information gathering. Claude will provide inline citations that you can use to verify the source, so that you can trust Claude is working from the most recent context.
 
-![Google Drive suggestion chips on the Claude home page](../_media/claude-claude-takes-research-to-new-places/Claude_research_2.png)
+![Google Drive suggestion chips on the Claude home page](https://assets.claude.com/2de448df750ac57760e61a59fe8af1defc46d86e.png)
 
 Using Research with Google Workspace:
 

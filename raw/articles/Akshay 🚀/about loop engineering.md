@@ -41,7 +41,7 @@ the full article, Your Agent Harness Should Repair Itself, is quoted below.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2064265203488076020/akshay_pachaar_2064265203488076020_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKW-QyubQAAkRkE?format=jpg&name=medium)
 
 ## 💬 Replies
 

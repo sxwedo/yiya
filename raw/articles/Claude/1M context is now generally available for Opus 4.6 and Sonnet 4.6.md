@@ -25,7 +25,7 @@ Claude Opus 4.6 and Sonnet 4.6 now include the full 1M context window at standar
 
 A million tokens of context only matters if the model can recall the right details and reason across them. Opus 4.6 scores 78.3% on MRCR v2, the highest among frontier models at that context length.
 
-![Claude Opus 4.6 and Sonnet 4.6 maintain accuracy across the full 1M window. Long context retrieval has improved with each model generation.](../_media/claude-1m-context-ga/Claude_1m-context-ga_1.png)
+![Claude Opus 4.6 and Sonnet 4.6 maintain accuracy across the full 1M window. Long context retrieval has improved with each model generation.](https://assets.claude.com/20962572d16ec5031b2100795c58a3974ab7a304.png)
 
 *Claude Opus 4.6 and Sonnet 4.6 maintain accuracy across the full 1M window. Long context retrieval has improved with each model generation.*
 

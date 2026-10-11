@@ -27,7 +27,7 @@ type: "Article"
 
 ## 先搞清楚 Harness 是什么
 
-![Image](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_2.jpg)
+![Image](https://pbs.twimg.com/media/HEku67EaoAAFXkZ.jpg)
 
 Phil Schmid 在 HuggingFace 的博客里打了一个比方，我觉得特别到位。
 
@@ -51,7 +51,7 @@ Martin Fowler 说了一句话我印象很深。他说 Harness 未来可能会变
 
 ## 为什么 2026 年突然火了
 
-![Image](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_3.jpg)
+![Image](https://pbs.twimg.com/media/HEku_SgaMAE7s-k.jpg)
 
 因为模型够强了。
 
@@ -71,7 +71,7 @@ OpenAI 的 Codex 团队有一个很夸张的数据。他们用 Codex 写了一�
 
 ## 三根支柱
 
-![Image](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_4.jpg)
+![Image](https://pbs.twimg.com/media/HEkvSEQbIAAkfbF.jpg)
 
 好，Harness 到底包含什么？
 
@@ -165,7 +165,7 @@ Agent 遇到的问题，不是去修 Agent，而是去修 Harness。这个思路
 
 ## 谁在做这件事
 
-![Image](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_6.jpg)
+![Image](https://pbs.twimg.com/media/HEkvXvXbwAAVvFN.jpg)
 
 这个领域现在分成了两条线。一条是开源社区，已经有不少项目走出了坚实的一步，你今天就能拿来用。另一条是商业公司的内部实践，思路很好，但你只能看文章学方法论，代码拿不到。
 
@@ -195,7 +195,7 @@ OpenAI Codex，架构约束的极致实践。5 个月百万行代码零手写，
 
 ## 一个让我印象深刻的教训
 
-![Image](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_1.jpg)
+![Image](https://pbs.twimg.com/media/HEkvcAfasAA0eVz.jpg)
 
 Rich Sutton 写过一篇经典论文叫"苦涩的教训"。大意是说，长期来看，利用计算能力的通用方法总是会打败人类精心设计的特定方法。
 
@@ -215,7 +215,7 @@ Phil Schmid 说了一句话我觉得是这篇文章最值得记住的：
 
 ## 三个阶段
 
-![Image](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_5.jpg)
+![Image](https://pbs.twimg.com/media/HEkvfoDaIAA4VAO.jpg)
 
 如果要用一张图来理解 Harness 在整个 AI 工程中的位置，可以这么看。
 
@@ -235,7 +235,7 @@ OpenAI、Anthropic、LangChain 已经在这么干了。
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2038213141083947053/servasyy_ai_2038213141083947053_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HEku3KZboAARNxl?format=jpg&name=medium)
 
 ## 💬 Replies
 

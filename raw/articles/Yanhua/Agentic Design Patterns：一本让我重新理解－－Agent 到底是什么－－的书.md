@@ -35,7 +35,7 @@ Level 3：多 Agent 协作。 书的立场很明确：别老想着造一个全�
 
 看完这四个等级，我突然明白为什么很多人说"我的 Agent 不好用"。模型没问题，问题是你在把它当聊天机器人用，它可能连 Level 1 都没到。
 
-![Image](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_1.jpg)
+![Image](https://pbs.twimg.com/media/HJFvrmWasAAukQa.jpg)
 
 ## Context Engineering：书里最被低估的概念
 
@@ -53,7 +53,7 @@ Level 3：多 Agent 协作。 书的立场很明确：别老想着造一个全�
 
 我读到这里的时候想起之前写那篇"AI 智能体不是魔法"，里面有一条经验是"你的智能体需要规则，而且是很多规则"。现在回头看，那些规则本质上就是 Context Engineering 的手工版，书里把它系统化了。
 
-![Image](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_5.jpg)
+![Image](https://pbs.twimg.com/media/HJFxJJ-awAAA6G0.jpg)
 
 ## Reflection：两个 Agent 真的比一个好
 
@@ -67,7 +67,7 @@ Reflection 的核心很简单：Agent 干完活后自己审一遍，发现问题
 
 用途远不止写代码。写文章、做计划、总结文档、解决逻辑题，Producer-Critic 模型全都能套。书里列了七种应用场景，核心逻辑一样：先产出，后审查，再修正。
 
-![Image](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_6.jpg)
+![Image](https://pbs.twimg.com/media/HJFxDFRaUAAfmRL.jpg)
 
 ## Multi-Agent 不是越复杂越好
 
@@ -83,7 +83,7 @@ Supervisor（中心调度）： 一个 Supervisor Agent 管一群 Worker Agent�
 
 我的体会是，很多人搭 Multi-Agent 的时候花了 80% 的时间在通信协议上，忘了问一个更基本的问题：这个任务真的需要多个 Agent 吗？ 书里写得很清楚，Level 2 的单 Agent + Reflection 往往已经够用了。Level 3 是给那些单 Agent 确实搞不定的场景准备的。
 
-![Image](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_3.jpg)
+![Image](https://pbs.twimg.com/media/HJFwZ9rawAAZjsZ.jpg)
 
 ## Memory 三层模型，我之前隐约感觉到了但没命名
 
@@ -99,7 +99,7 @@ Memory（持久层）： 跨会话、跨任务的长期记忆。用户偏好、�
 
 我之前写 Clawdbot 那篇文章里提到"状态文件"和"工作区文档"，本质上就是在手搓 State 层和 Memory 层，书里把这件事框架化了。
 
-![Image](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_2.jpg)
+![Image](https://pbs.twimg.com/media/HJFx4NWbwAA4214.jpg)
 
 ## 五种假设，第五个最离谱
 
@@ -113,7 +113,7 @@ Memory（持久层）： 跨会话、跨任务的长期记忆。用户偏好、�
 
 这让我想起 Karpathy 的 AutoResearch：写一个 program.md，定义目标、指标、边界，按"启动"。人类在循环外面。但这本书推得更远：连 Agent 团队怎么组建、怎么重组，都交给系统自己决定。人类只声明"要什么"。
 
-![Image](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_4.jpg)
+![Image](https://pbs.twimg.com/media/HJFwzoYbcAAulEY.jpg)
 
 ## 三件可以马上做的事
 
@@ -135,7 +135,7 @@ Memory（持久层）： 跨会话、跨任务的长期记忆。用户偏好、�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2058552177912947044/yanhua1010_2058552177912947044_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HJFsJNLbkAAuNuw.jpg)
 
 ## 💬 Replies
 

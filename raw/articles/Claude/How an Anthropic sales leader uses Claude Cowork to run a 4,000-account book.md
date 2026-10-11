@@ -32,7 +32,7 @@ I started by defining two five-dimension scoring rubrics with Claude: one for te
 
 Once the rubric was set, I pointed Claude Cowork at the 4,000-account list. Claude Cowork ran overnight, scoring each account one by one with deep web research, Salesforce data, and BigQuery data, producing a numerical score and a written rationale for every dimension. Then I asked Claude Cowork to build an interactive dashboard from the results. Each AE clicks into their territory's pie slice and sees their accounts ranked by score, with the rationale generated for each dimension. Hovering over an account surfaces potential use cases and comparable case studies for prospecting. The dashboard turned the scores from a data exercise into a working sales tool.
 
-![Territory scoring dashboard, shown here with demo data.](../_media/claude-how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-/Claude_how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book_1.png)
+![Territory scoring dashboard, shown here with demo data.](https://assets.claude.com/79b63fbd0fc51883815a854c84146bcdffc2c2ab.png)
 
 *Territory scoring dashboard, shown here with demo data.*
 

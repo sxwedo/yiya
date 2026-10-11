@@ -45,7 +45,7 @@ Tailscale 不替你存文件，也不替你控制屏幕。它做的是更底层�
 
 # 1\. Tailscale 到底是什么，为什么技术圈总能看到它？
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_10.jpg)
+![Image](https://pbs.twimg.com/media/HPP3vZAasAA1i5g.jpg)
 
 你可以把 Tailscale 理解成一个“私人网络搭建器”。在自己的电脑、手机、服务器或 NAS 上安装它，再登录同一个账号，这些原本分散在家里、公司和云端的设备，就有了固定的私人地址和名字。NAS 指的是长期联网、专门在家里存放和共享文件的设备。以后这些设备换了 Wi-Fi、改用手机流量或者去了另一个城市，你仍然可以用同一个名字找到它。
 
@@ -81,11 +81,11 @@ Mac 客户端目前支持 macOS Monterey 12 或更高版本。进入 [Tailscale 
 
 Windows 目前要求 Windows 10 或更高版本。进入 [Windows 安装页](https://tailscale.com/docs/install/windows)，下载 .exe 安装包。安装完成后，Tailscale 图标会出现在右下角系统托盘；若没看到，先展开隐藏图标。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_4.jpg)
+![Image](https://pbs.twimg.com/media/HPP3vZLboAANU02.jpg)
 
 两台电脑务必使用同一种登录方式和同一个账号。例如 Mac 选择 Google 登录，Windows 也选择同一个 Google 账号。第一次登录后，Tailscale 会自动为这个账号建立一张私人设备网。后台把这张网叫作 tailnet，后文再看到这个词，就把它理解成“我的 Tailscale 设备列表”。若页面询问用途，个人非商业使用选择 Personal。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_8.jpg)
+![Image](https://pbs.twimg.com/media/HPP3vZKbsAAnqgq.jpg)
 
 Mac 端出现 Connected，才算真正接入；截图中的账号和设备信息已遮挡。
 
@@ -150,7 +150,7 @@ tailscale ping noah-mac
 
 这条命令是在问：“我能找到这台电脑吗？”只要结果里出现 pong from 和对方设备名，就说明能找到。后面可能还会跟着 direct、peer-relay 或 DERP 等英文，现在不用理解；第九章排查速度时再解释。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_12.png)
+![Image](https://pbs.twimg.com/media/HPP3v_daAAAoIal.png)
 
 如果管理后台能看到两台设备，但 tailscale ping 失败，先确认两端客户端都处于 Connected 状态、没有登错账号，再临时暂停其他 VPN 或代理软件重试。不要为了省事关闭系统防火墙。
 
@@ -170,7 +170,7 @@ Tailscale 自带一个名叫 Taildrop 的传文件功能，用起来类似跨网
 
 也可以反过来，在 Windows 中右键文件，选择 Send with Tailscale，再选择 Mac。当前客户端接收到的文件会进入各自的“下载”文件夹。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_5.png)
+![Image](https://pbs.twimg.com/media/HPP3wEdawAAuOye.png)
 
 下面三处都对上，这一章就完成了：
 
@@ -186,7 +186,7 @@ Tailscale 自带一个名叫 Taildrop 的传文件功能，用起来类似跨网
 
 # 3\. 发文件、看文件、同步文件，原来是三回事
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_3.jpg)
+![Image](https://pbs.twimg.com/media/HPP3wfDasAA9L8M.jpg)
 
 先不要记工具名。文件在多台设备之间使用，实际只有三种情况。
 
@@ -276,7 +276,7 @@ tcp://noah-mac:22000
 
 tcp:// 和末尾的 :22000 是 Syncthing 要求的固定写法，中间的 home-windows 才是你自己的设备名。保存后，远程设备状态应从 Disconnected（未连接）变成 Connected（已连接）。若设备名连不上，先换成 100. 地址；数字地址能连、设备名不能连时，再回第二章检查 MagicDNS。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_9.png)
+![Image](https://pbs.twimg.com/media/HPP3wlOakAARcdC.png)
 
 只安装两款软件然后等待它们自动找到彼此，并不总是可靠。手动填入 Tailscale 里的设备名，反而能明确告诉 Syncthing 应该去哪里连接。
 
@@ -302,9 +302,9 @@ C:\\Users\\你的用户名\\Tailscale-Sync-Test
 
 在 Mac 文件夹里新建 hello-from-mac.txt，等待 Windows 出现；再从 Windows 新建 hello-from-windows.txt，确认 Mac 收到。然后让一台设备离线，新增一个文件，再重新上线，观察它是否补同步。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_14.png)
+![Image](https://pbs.twimg.com/media/HPP3w7qbIAAxznj.png)
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_1.png)
+![Image](https://pbs.twimg.com/media/HPP3xEubsAAthnn.png)
 
 ## 第五步：先给误删留一条退路
 
@@ -312,7 +312,7 @@ Syncthing 默认不等于备份。你在 Mac 删除文件，删除动作也可�
 
 至少在接收端为这个文件夹启用 File Versioning，也就是“保留文件的旧版本”。在 Syncthing 首页展开目标文件夹，点击 Edit → File Versioning，选择 Simple File Versioning。它会在文件被另一台设备替换或删除前保留旧副本。把 Keep Versions 设为一个明确数量，例如 5，表示最多保留 5 个旧版本。更复杂的 Staggered Versioning 暂时不用碰。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_13.jpg)
+![Image](https://pbs.twimg.com/media/HPP3xTvbcAAkOXU.jpg)
 
 选择“简单文件版本控制”，把保留版本数量设为 5；历史版本路径留空时，旧版本默认进入 .stversions。
 
@@ -332,7 +332,7 @@ Syncthing 默认不等于备份。你在 Mac 删除文件，删除动作也可�
 
 只有找回这个文件，才算完成“误删可恢复”。如果 .stversions 中没有它，先检查版本控制是否开在接收这次删除动作的那台设备上。
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_2.png)
+![Image](https://pbs.twimg.com/media/HPP3xaTawAALLkZ.png)
 
 等双向同步稳定后，你才可能需要两种单向模式：Receive Only 表示这台设备只接收，Send Only 表示这台设备只发送。第一次配置不要使用它们，因为点错 “Override Changes” 或 “Revert Local Changes” 会用一端的文件状态强制覆盖另一端。
 
@@ -447,7 +447,7 @@ Windows 的 Run Unattended 可以让 Tailscale 在登录桌面前运行；普通
 
 # 6\. 只给自己开放本地 AI 和家庭服务
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_7.jpg)
+![Image](https://pbs.twimg.com/media/HPP3xkNacAAk1-l.jpg)
 
 如果家里没有正在运行的本地 AI、影音库、智能家居后台或个人网页，这一章可以直接跳过。这里的目标很明确：让自己的手机和电脑访问家中网页，但不把网页公开给整个互联网。
 
@@ -570,7 +570,7 @@ http://192.168.31.45
 
 # 8\. 出门以后，从家里的网络上网
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_6.jpg)
+![Image](https://pbs.twimg.com/media/HPP3x5wa0AAb4Gu.jpg)
 
 上一章是让你在外面进入家里的内部网络。这一章换一个方向：不再访问家中的某台设备，而是让另一台设备替你访问普通网站。
 
@@ -651,7 +651,7 @@ sudo tailscale set --advertise-exit-node
 
 # 9\. 显示在线，为什么还是连不上或很慢？
 
-![Image](../_media/x-2086297868034617534/noahduck283_2086297868034617534_11.jpg)
+![Image](https://pbs.twimg.com/media/HPP3x-aagAAY6JZ.jpg)
 
 Tailscale 图标显示 Connected，只能证明当前设备已经成功登录 Tailscale。它不代表另一台电脑没有休眠，也不代表两台设备之间的速度足够快，更不代表你要打开的远程桌面或网页正在运行。
 
@@ -753,7 +753,7 @@ tailscale netcheck
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2086297868034617534/noahduck283_2086297868034617534_15.jpg)
+![Image 1](https://pbs.twimg.com/media/HPP3zIdaYAExZfS.jpg)
 
 ## 💬 Replies
 

@@ -64,7 +64,7 @@ The Service-Overdue-Nudger works the tier-1 layer of ABC Legal's operational bac
 
 ABC Legal's agents work under human supervision, posting what they did or what they recommend to Slack, where people reply in threads and react with emoji.
 
-![Hank, an internal code review agent, posts every review to a shared Slack channel. Each entry names the pull request and the counts that came out of it so the trail of what the agent decided is public and searchable.](../_media/claude-how-abc-legal-turned-every-employee-into-a-builder-with-clau/Claude_how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents_1.png)
+![Hank, an internal code review agent, posts every review to a shared Slack channel. Each entry names the pull request and the counts that came out of it so the trail of what the agent decided is public and searchable.](https://assets.claude.com/8f900037eb2f484fefedada30cfe8e50e744453b.png)
 
 *Hank, an internal code review agent, posts every review to a shared Slack channel. Each entry names the pull request and the counts that came out of it so the trail of what the agent decided is public and searchable.*
 
@@ -74,7 +74,7 @@ Fuller saw all that reaction data as a training signal going to waste. Not every
 2. **The Harvester** runs hourly or daily and gathers human feedback from Slack, where it arrives as thread replies and emoji reactions. Each one becomes a labeled data point.
 3. **The Tuner** runs weekly, looks across everything at once, and proposes a change to the prompt or config rather than the model's weights. It drafts only. A human reviews and merges the pull request.
 
-![In ABC Legal’s self-improving agent loop, an initial agent does the work in real time, a harvester sweeps up human feedback from Slack on an hourly cadence, and a weekly tuner proposes prompt and config changes as a pull request. Agents improve through the same workflows developers already use.](../_media/claude-how-abc-legal-turned-every-employee-into-a-builder-with-clau/Claude_how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents_2.png)
+![In ABC Legal’s self-improving agent loop, an initial agent does the work in real time, a harvester sweeps up human feedback from Slack on an hourly cadence, and a weekly tuner proposes prompt and config changes as a pull request. Agents improve through the same workflows developers already use.](https://assets.claude.com/be80e667d16bcafbeda2800fafdcc97e780547f2.png)
 
 *In ABC Legal’s self-improving agent loop, an initial agent does the work in real time, a harvester sweeps up human feedback from Slack on an hourly cadence, and a weekly tuner proposes prompt and config changes as a pull request. Agents improve through the same workflows developers already use.*
 

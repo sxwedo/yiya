@@ -41,7 +41,7 @@ stay tuned for more on this!
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069404367497953592/akshay_pachaar_2069404367497953592_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLgATheagAAnczc?format=jpg&name=medium)
 
 ## 💬 Replies
 

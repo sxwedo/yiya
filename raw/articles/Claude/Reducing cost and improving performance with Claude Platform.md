@@ -36,7 +36,7 @@ We’ve [accumulated](https://claude.com/blog/lessons-from-building-claude-code-
 
 * **Monitor your prompt cache hit rate carefully**. [Claude Console](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics) provides prompt cache diagnostics, including reasoning for prompt cache misses (Figure 1). If hits drop unexpectedly, the [cache diagnostics API](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics)tells you exactly where two requests diverged.
 
-![Figure 1. Claude Console can diagnose unexpected prompt cache misses by comparing consecutive requests and identifying exactly where the prompt prefix diverged.](../_media/claude-reducing-cost-and-improving-performance-with-claude-platform/Lance_Martin_reducing-cost-and-improving-performance-with-claude-platform_1.png)
+![Figure 1. Claude Console can diagnose unexpected prompt cache misses by comparing consecutive requests and identifying exactly where the prompt prefix diverged.](https://assets.claude.com/d6b40161dc25a247ac6782ccde49e2198a76cbf6.png)
 
 *Figure 1. Claude Console can diagnose unexpected prompt cache misses by comparing consecutive requests and identifying exactly where the prompt prefix diverged.*
 
@@ -46,7 +46,7 @@ We’ve [accumulated](https://claude.com/blog/lessons-from-building-claude-code-
 
 * **Lay out the request out so the stable part stays stable**. Add static context (tool definitions and the system prompt) first and the growing conversation behind them (Figure 2).
 
-![Figure 2. Organize prompts to ensure dynamic content is appended to the end of a stable prefix.](../_media/claude-reducing-cost-and-improving-performance-with-claude-platform/Lance_Martin_reducing-cost-and-improving-performance-with-claude-platform_2.png)
+![Figure 2. Organize prompts to ensure dynamic content is appended to the end of a stable prefix.](https://assets.claude.com/bf235bef54d335c8f367a90e6d986e0e480b3659.png)
 
 *Figure 2. Organize prompts to ensure dynamic content is appended to the end of a stable prefix.*
 
@@ -98,7 +98,7 @@ Cost-versus-performance across effort levels on a single model can vary. For exa
 
 On Claude Fable 5.1, Humanity's Last Exam (without tools) shows a steep curve with a diminishing last step. It scores about 53% at low effort for about $0.30 per question and about 61% at max effort for about $2.23; the last step up to max adds about half a point for 46% more cost. The gain inside the benchmark's run-to-run noise, so you pay more for no measurable gain.
 
-![Figure 4. Fable 5 performance vs cost across effort levels on FrontierCode Diamond.](../_media/claude-reducing-cost-and-improving-performance-with-claude-platform/Lance_Martin_reducing-cost-and-improving-performance-with-claude-platform_4.png)
+![Figure 4. Fable 5 performance vs cost across effort levels on FrontierCode Diamond.](https://assets.claude.com/e98f3439bf7c1ab39255923d00a84093a2eab83a.png)
 
 *Figure 4. Fable 5 performance vs cost across effort levels on FrontierCode Diamond.*
 
@@ -114,7 +114,7 @@ There are some useful ways to calibrate effort:
 
 * **Test stronger models at lower effort**. A stronger model at low effort can be cheaper than a weaker model working hard (high effort). For example, on CursorBench 3.2, Claude Fable 5.1 at low effort [matches the performance](https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf) of Fable 5 at high effort at a third of the cost (Figure 5). Two things make the newer model cheaper: at low effort it does less work per task, and Fable 5.1's prompt-cache reads are priced at $0.25 per million tokens versus $1.00 for Fable 5. Even at Fable 5's prices, Fable 5.1 at low effort would cost about 40% less.
 
-![Figure 5. Fable 5 vs. Fable 5.1 across effort levels on CursorBench 3.2.](../_media/claude-reducing-cost-and-improving-performance-with-claude-platform/Lance_Martin_reducing-cost-and-improving-performance-with-claude-platform_5.png)
+![Figure 5. Fable 5 vs. Fable 5.1 across effort levels on CursorBench 3.2.](https://assets.claude.com/2dc3f817d4e2d1a60281710824b0be56af297073.png)
 
 *Figure 5. Fable 5 vs. Fable 5.1 across effort levels on CursorBench 3.2.*
 
@@ -124,7 +124,7 @@ This calibration often involves running an evaluation across models and effort l
 
 We ran it on a customer support benchmark, starting from Opus 4.8 at its default (high) effort. The hillclimber first tried Opus 5 at low effort, applying prompt-audit to remove mandatory tool-call rituals, scratchpad steps, and contradictory rules. That cleared the Opus 4.8 baseline at 98.9% train accuracy and cut cost to 2.6 cents per ticket.
 
-![Figure 6. Hillclimbing improves cost and performance by updating model choice, effort, and prompt.](../_media/claude-reducing-cost-and-improving-performance-with-claude-platform/Lance_Martin_reducing-cost-and-improving-performance-with-claude-platform_6.png)
+![Figure 6. Hillclimbing improves cost and performance by updating model choice, effort, and prompt.](https://assets.claude.com/79ea3830539e1a251c9b96faa4bb5f66bc38e9e5.png)
 
 *Figure 6. Hillclimbing improves cost and performance by updating model choice, effort, and prompt.*
 

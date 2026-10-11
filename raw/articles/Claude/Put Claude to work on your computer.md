@@ -22,7 +22,7 @@ Claude will reach for the most precise tool first, starting with connectors to s
 
 We’ve built this capability with safeguards that minimize risk, including prompt injection. When Claude uses your computer, our system will automatically scan activations within the model to detect for such activity. You also have the ability to stop Claude at any point, and Claude will always request permission before accessing new applications.
 
-![](../_media/claude-put-claude-to-work-on-your-computer/Claude_dispatch-and-computer-use_1.png)
+![](https://assets.claude.com/13513e685fc97e37191c82c09a01b0403107073c.png)
 
 Computer use is still early compared to Claude’s ability to code or interact with text. Claude can make mistakes, and while we continue to improve our safeguards, threats are constantly evolving. We recommend starting with the apps you trust and not working with sensitive data. Some apps are off-limits by default for this reason. You can learn more about safety best practices [here](https://support.claude.com/en/articles/14128542).
 
@@ -30,7 +30,7 @@ Computer use is still early compared to Claude’s ability to code or interact w
 
 Last week, we released [Dispatch](https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork): a new feature in Claude Cowork (and now available in Claude Code) that lets you have one continuous conversation with Claude from your phone or your desktop. You can assign Claude a task on your phone, turn your attention to something else, then open up the finished work on your computer.
 
-![](../_media/claude-put-claude-to-work-on-your-computer/Claude_dispatch-and-computer-use_2.png)
+![](https://assets.claude.com/cc8110adaeb6a22acd16e593c7a41442701052ce.png)
 
 With Dispatch, you can tell Claude to automatically check your emails every morning or pull some metrics every week, or spin up a Claude Cowork or Claude Code session for a report or a pull request. 
 

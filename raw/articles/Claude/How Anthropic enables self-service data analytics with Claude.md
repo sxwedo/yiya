@@ -34,7 +34,7 @@ LLMs' generative abilities are a double-edged sword: the mechanisms that enable 
 
 Coding is an open-ended solution space that rewards the models' creativity, while documentation and tests provide natural guardrails against hallucination. In contrast, for analytics use cases, there’s often only a single correct answer using a single correct source in which there’s no deterministic way of proving the correctness. 
 
-![](../_media/claude-how-anthropic-enables-self-service-data-analytics-with-claud/Josh_Cherry_Clement_Peng_Johanne_Jiao_Justin_Leder_Chen_Chang_how-anthropic-enables-self-service-data-analytics-with-claude_1.png)
+![](https://assets.claude.com/21d2ac79b6483d9c14944a94123ea9ffe7fd2f9b.png)
 
 For self-service agentic business analytics, the complexity mainly lies in the ambiguity of the data. The central problem comes down to our ***ability to map a user’s question to specific and up-to-date entities in our data model and know the correct way of working with them***. If we can do that, then the resulting execution and SQL becomes trivial.
 

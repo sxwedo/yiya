@@ -17,7 +17,7 @@ Every AI tool you have used so far waits for you. You open it, you ask, it answe
 
 Grok Bot inverts that. Each bot gets its own computer in the cloud. It signs into the tools you already use, clicks through them the way you would, and keeps going after you shut the lid.
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_13.png)
+![Image](https://pbs.twimg.com/media/HP_7a1RXkAA12oo.png)
 
 Which means you stop prompting and start delegating. You stop building workflows and start describing a job in a sentence.
 
@@ -33,13 +33,13 @@ You download it for macOS, sign in with your Grok or Cursor account, and land in
 
 Your starting point is usually a general-purpose bot - call it the Chief. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_9.jpg)
+![Image](https://pbs.twimg.com/media/HP_9NxOWsAAtC41.jpg)
 
 Its job is not to do everything. Its job is to be the one you talk to when you do not yet know which specialist should own a task, and later, to coordinate the others. Think of it as the person you message when you are not sure who to message.
 
 Say hello and give it something small and real. Not a test question - an actual errand with a checkable result. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_15.png)
+![Image](https://pbs.twimg.com/media/HP_9VjxX0AAMcNc.png)
 
 The first task should be something you can verify in thirty seconds, because the whole point of the next nine steps is learning to trust the thing with progressively bigger jobs.
 
@@ -88,13 +88,13 @@ Defining where it stops is not caution for its own sake - it is what makes the a
 
 Grok Bot ships a plugin panel for the integrations it expects you to lean on: 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_11.jpg)
+![Image](https://pbs.twimg.com/media/HP_--YbXIAAA8L1.jpg)
 
 Notion, Slack, Google Drive, AWS Agents, AWS SageMaker, Browserbase, Composio, and Context7, plus an option to build a custom one. These are one-click connections.
 
 The detail worth knowing is that connections are shared across your account. Connect Gmail or GitHub once for one bot, and every other bot you create can use that same connection. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_4.jpg)
+![Image](https://pbs.twimg.com/media/HP__QjuWEAAyPk1.jpg)
 
 So do this deliberately and early - it is account-level plumbing, not per-bot setup, and it means the fifth bot you hire is productive in seconds rather than minutes.
 
@@ -106,7 +106,7 @@ Here is the mechanic that makes the whole product work on tools with no API and 
 
 The bot navigates on its own cloud browser until it hits a login wall. Then it hands you the screen. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_10.png)
+![Image](https://pbs.twimg.com/media/HP__hp6WoAAf7mk.png)
 
 You authenticate, click done, and the bot resumes on that same browser instance from where it left off. 
 
@@ -114,7 +114,7 @@ The same handoff pattern applies whether you are connecting Notion, Gmail, or so
 
 Watch what this does to the trust model. You never type a credential into a chat message. The bot gets a session, not a secret - and you stayed in the loop for exactly the sensitive part. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_3.png)
+![Image](https://pbs.twimg.com/media/HP__lStXgAAHV77.png)
 
 This is the pattern to insist on: if a tool ever asks you to paste a password into a conversation, that is the wrong path.
 
@@ -126,7 +126,7 @@ This is the feature that changes how you think about the product.
 
 You can teach a bot a workflow by doing it once while it watches. It saves the routine and can then run the same steps on its own next time.
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_14.jpg)
+![Image](https://pbs.twimg.com/media/HQAARqAXMAA5n1v.jpg)
 
 Why this matters more than it sounds: the tasks that eat your week are usually the ones that are tedious to describe and trivial to demonstrate. 
 
@@ -134,7 +134,7 @@ Why this matters more than it sounds: the tasks that eat your week are usually t
 
 Pick your first recording carefully. The best candidate is something you do at least weekly, that involves two or more tools, and where the steps rarely change. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_7.png)
+![Image](https://pbs.twimg.com/media/HP___MJWQAAtJj_.png)
 
 Recurring, multi-tool, stable. Anything that fits all three is a routine waiting to be lifted off your plate.
 
@@ -148,7 +148,7 @@ SpaceXAI’s own claim is that bots eventually start working before you ask. Tre
 
 A saved routine still needs a reason to fire. Grok Bot gives you two, and you set them conversationally - no workflow builder, no canvas of nodes. In hands-on walkthroughs, setting up a trigger-based routine took roughly two minutes and a single prompt.
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_1.png)
+![Image](https://pbs.twimg.com/media/HQAAsQrWQAA3kJ6.png)
 
 Schedule is the obvious one: a 7am daily briefing, a Friday pipeline summary, month-end expense filing. 
 
@@ -181,7 +181,7 @@ Run this every week.
 
 You can run multiple bots in parallel, each handling a different area - and this is where the product stops resembling anything you have used before. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_12.png)
+![Image](https://pbs.twimg.com/media/HQABHsxWMAAxoiD.png)
 
 Separate bots mean separate memory, separate context, and separate accountability. 
 
@@ -197,7 +197,7 @@ SpaceXAI says its own teams run bots for sales outreach, marketing, office opera
 
 Bots can message each other and share context in threads. Put several in a group chat and they coordinate on their own - passing work, assigning ownership, and pulling you in only for judgment calls. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_2.png)
+![Image](https://pbs.twimg.com/media/HQABcEBXYAA2YoG.png)
 
 When projects overlap, they stay aligned on the same account without you copy-pasting notes between conversations.
 
@@ -205,7 +205,7 @@ SpaceXAI’s own example is an engineering bot that reproduces a bug, files a ti
 
 That handoff - one bot deciding another is better suited and passing ownership - is the thing that does not exist in any tool you have used before.
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_6.png)
+![Image](https://pbs.twimg.com/media/HQABgq_X0AA7gQ8.png)
 
 The way to make it work is to give the group an objective, not a task list. 
 
@@ -219,7 +219,7 @@ Grok Bot’s whole premise is that a bot finishes jobs end to end and comes back
 
 Which puts the burden on you to define what “needs approval” means - because the default answer the bot picks may not match yours.
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_5.png)
+![Image](https://pbs.twimg.com/media/HQAByUHWUAA26yg.png)
 
 The line that works is not about task size. It is about reversibility. Anything the bot can undo - drafting, filing, tagging, summarizing, researching, preparing - it should finish alone. 
 
@@ -251,7 +251,7 @@ Notice how that maps onto the Sales Outbound example: 36 drafts queued, 0 sent. 
 
 Automation rots quietly. A site changes its layout, a routine starts silently producing garbage, and because the bot runs while you sleep, nobody notices for three weeks. 
 
-![Image](../_media/x-2089676836619878567/0xCodez_2089676836619878567_8.jpg)
+![Image](https://pbs.twimg.com/media/HQACeuzXAAAfrZo.jpg)
 
 This is the failure mode of every always-on system ever built, and it will find you here too.
 
@@ -286,7 +286,7 @@ That is a smaller change in technology than it sounds and a much bigger change i
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2089676836619878567/0xCodez_2089676836619878567_16.jpg)
+![Image 1](https://pbs.twimg.com/media/HQAFqHeWUAAgmGM.jpg)
 
 ## 💬 Replies
 

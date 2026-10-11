@@ -39,7 +39,7 @@ Web search enables Claude to power a wide range of use cases that benefit from r
 
 Every web-sourced response includes citations to source materials, enabling users to verify information directly. This is particularly valuable for sensitive use cases that require accuracy and accountability.
 
-![A screenshot of the UX showing blocked domains.](../_media/claude-introducing-web-search-on-the-anthropic-api/Claude_web-search-api_1.png)
+![A screenshot of the UX showing blocked domains.](https://assets.claude.com/526227ee1533df4b9ff7cf84d7b302d58ccddf90.png)
 
 Organizations can maintain additional control through the following admin settings:
 

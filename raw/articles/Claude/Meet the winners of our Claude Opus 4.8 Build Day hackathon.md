@@ -18,7 +18,7 @@ Congratulations to the winners and everyone who took part. We hope their project
 
 ## First place: [Tekton](https://tekton-build.vercel.app/), Holly Tang and Austin Burgess
 
-![Holly Tang and Austin Burgess built Tekton, a 3D reconstruction platform that brings Tang Dynasty architecture back to life, with every component traceable to its historical source.](../_media/claude-meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon/Claude_meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon_1.jpg)
+![Holly Tang and Austin Burgess built Tekton, a 3D reconstruction platform that brings Tang Dynasty architecture back to life, with every component traceable to its historical source.](https://assets.claude.com/3c666bac82ecb587b4631110b797eabbd49c1187.jpg)
 
 *Holly Tang and Austin Burgess built Tekton, a 3D reconstruction platform that brings Tang Dynasty architecture back to life, with every component traceable to its historical source.*
 
@@ -42,7 +42,7 @@ To build Tekton, the two worked in stages: they got the spire of Notre-Dame rend
 
 ## Second place: [Sim Francisco](https://simfrancisco.org/), Tanmayi Priya Dasari and Tejas Prabhune
 
-![Tanmayi Priya Dasari and Tejas Prabhune built Sim Francisco, a Census-seeded digital twin of San Francisco's population that can poll a synthetic city in seconds and forecast real-world outcomes.](../_media/claude-meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon/Claude_meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon_2.jpg)
+![Tanmayi Priya Dasari and Tejas Prabhune built Sim Francisco, a Census-seeded digital twin of San Francisco's population that can poll a synthetic city in seconds and forecast real-world outcomes.](https://assets.claude.com/56b34ef44f1ec5e2c5e9be8576b0a3e725d14973.jpg)
 
 *Tanmayi Priya Dasari and Tejas Prabhune built Sim Francisco, a Census-seeded digital twin of San Francisco's population that can poll a synthetic city in seconds and forecast real-world outcomes.*
 
@@ -64,7 +64,7 @@ The team's first version made a separate inference call for each of the 10,000 r
 
 ## **Third place:** [**Custom Universe**](https://www.luminal.com/realtime-edit-demo)**, Jake Stevens and Mauricio Pereira**
 
-![Jake Stevens and Mauricio Pereira built Custom Universe, a real-time engine that turns a single phone photo into a fully editable, photorealistic 3D scene.](../_media/claude-meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon/Claude_meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon_3.jpg)
+![Jake Stevens and Mauricio Pereira built Custom Universe, a real-time engine that turns a single phone photo into a fully editable, photorealistic 3D scene.](https://assets.claude.com/e947d47d13907775c8984835415d1d442221aca0.jpg)
 
 *Jake Stevens and Mauricio Pereira built Custom Universe, a real-time engine that turns a single phone photo into a fully editable, photorealistic 3D scene.*
 

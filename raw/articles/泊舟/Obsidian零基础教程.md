@@ -45,7 +45,7 @@ type: "Article"
 
 下载安装
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_2.jpg)
+![Image](https://pbs.twimg.com/media/G-sXF2GbQAMLjq3.jpg)
 
 打开官网
 https://obsidian.md/
@@ -54,7 +54,7 @@ https://obsidian.md/
 新建笔记仓库
 在下载过程中我们打开github，没有的伙伴可以注册一个，点击New Repository
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_19.png)
+![Image](https://pbs.twimg.com/media/G-sXN04bAAA_hwg.png)
 
 创建完以后，将链接复制在本地找个文件夹，执行以下命令
 \`git clone  链接地址\`
@@ -64,27 +64,27 @@ https://obsidian.md/
 > .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_14.jpg)
+![Image](https://pbs.twimg.com/media/G-sXWbvboAAjqaE.jpg)
 
 打开本地仓库
 这时候如果已经下载安装好了，我们打开刚刚clone下来的文件夹
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_13.jpg)
+![Image](https://pbs.twimg.com/media/G-sXZ6XbQAgyUyq.jpg)
 
 配置git同步
 我们点击第三方插件，然后先将安全模型关闭，然后点击浏览，在搜索框输入git，下载第一个就可以
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_3.jpg)
+![Image](https://pbs.twimg.com/media/G-sVvX1a0AIghBI.jpg)
 
 在选项这里，注意配置更新时间 然后打开下面标识的按钮
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_5.jpg)
+![Image](https://pbs.twimg.com/media/G-sUvm-bgAA1Tw9.jpg)
 
 这样我们进行修改以后，再右边就会有黑框，告诉你 pull
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_23.jpg)
+![Image](https://pbs.twimg.com/media/G-sVmaTbcAAqnNT.jpg)
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_12.jpg)
+![Image](https://pbs.twimg.com/media/G-sUlazbQAA_Eo3.jpg)
 
 图片插件
 
@@ -92,7 +92,7 @@ https://obsidian.md/
 
 插件市场搜索 Custom attachment 安装然后启动
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_10.jpg)
+![Image](https://pbs.twimg.com/media/G-sXkngbcAAvy5d.jpg)
 
 点击选项需要配置一下几个东西
 
@@ -102,15 +102,15 @@ https://obsidian.md/
 
 还有按照我图片的配置都选一下，要和我保持一致
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_9.jpg)
+![Image](https://pbs.twimg.com/media/G-sUTWwaAAAow_P.jpg)
 
 点击文件与链接也需要改下面两个
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_20.jpg)
+![Image](https://pbs.twimg.com/media/G-sUIZaaIAASgS5.jpg)
 
 这时候我们将图片复制过来就可以看到路径了，我们可以通过修改\`\[\]\` 内的数字改变图片尺寸
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_17.jpg)
+![Image](https://pbs.twimg.com/media/G-sT-akbsAA8_0U.jpg)
 
 我们已经完成了基础配置，接下来我带大家学习一下md语法
 
@@ -141,13 +141,13 @@ Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容�
 
 > ==这是高亮文字==
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_8.png)
+![Image](https://pbs.twimg.com/media/G-sYJssacAAwu1b.png)
 
 \~\~删除线\~\~：使用两个波浪号包裹文字
 
 > \~\~这是删除线文字\~\~
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_11.png)
+![Image](https://pbs.twimg.com/media/G-sYPE4aMAAnXPE.png)
 
 列表与任务管理
 
@@ -157,7 +157,7 @@ Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容�
 \- 列表项2
   \- 子列表项
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_1.png)
+![Image](https://pbs.twimg.com/media/G-sYTzWaUAAfS4C.png)
 
 有序列表：使用数字加点号开头
 
@@ -165,7 +165,7 @@ Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容�
 2\. 第二项
 3\. 第三项
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_16.png)
+![Image](https://pbs.twimg.com/media/G-sYZpTbQAI9AxH.png)
 
 任务列表：使用\`- \[ \]\`创建待办事项
 
@@ -173,7 +173,7 @@ Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容�
 \- \[ \] 未完成的任务
 \- \[ \] 待处理的任务
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_6.png)
+![Image](https://pbs.twimg.com/media/G-sYekKaEAE211G.png)
 
 代码块
 
@@ -186,7 +186,7 @@ Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容�
 def hello\_world():
     print("Hello, World!")
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_18.png)
+![Image](https://pbs.twimg.com/media/G-sYlFlaoAAVDdO.png)
 
 表格
 
@@ -199,7 +199,7 @@ def hello\_world():
 
 效果：
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_21.png)
+![Image](https://pbs.twimg.com/media/G-sYoYZbQAYvhCP.png)
 
 链接与图片
 
@@ -236,7 +236,7 @@ claude "帮我基于晴天写一首诗放到随笔里面"
 
 AI会自动创建文件,然后写入到随笔里。
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_4.jpg)
+![Image](https://pbs.twimg.com/media/G-sTzCnaAAAHtp2.jpg)
 
 Markdown文件批处理
 
@@ -317,7 +317,7 @@ Claude Code：
 
 > 我本月写了一个教程 \[Obsidian零基础教程\](../Obsidian零基础教程.md)
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_7.jpg)
+![Image](https://pbs.twimg.com/media/G-sToJ-bwAAAryP.jpg)
 
 链接到标题：
 
@@ -402,7 +402,7 @@ Claude Code：
 
 - 使用筛选器关注特定主题
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_22.jpg)
+![Image](https://pbs.twimg.com/media/G-sTb8LbQCcU3xh.jpg)
 
 实用技巧：
 
@@ -411,7 +411,7 @@ Claude Code：
 使用标签分类：
 #项目管理 #个人成长 #技术学习
 
-![Image](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_15.png)
+![Image](https://pbs.twimg.com/media/G-sZnT8bQAAwPj8.png)
 
 ## 好用的插件推荐
 
@@ -532,7 +532,7 @@ WHERE !completed
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2011738838767423983/bozhou_ai_2011738838767423983_24.jpg)
+![Image 1](https://pbs.twimg.com/media/G-sTF--bQAgkL1S.jpg)
 
 ## 💬 Replies
 

@@ -56,7 +56,7 @@ while (true) {
 
 对应的控制流如下，感知 -&gt; 决策 -&gt; 行动 -&gt; 反馈四个阶段不断循环，直到模型返回纯文本为止：
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_21.jpg)
+![Image](https://pbs.twimg.com/media/HDsyfsXbkAAF2MG.jpg)
 
 看过不少 Agent 实现和官方 SDK，结构都差不多，循环本身相当稳定，从最小实现一路扩展到支持子 Agent、上下文压缩和 Skills 加载，主循环基本没有变化，新增能力通常都是叠加在循环外部，而不是改动循环内部。
 
@@ -66,11 +66,11 @@ while (true) {
 
 Anthropic 对这两类系统有一个直接区分：执行路径由代码预先写死的是 Workflow，由 LLM 动态决定下一步的是 Agent，核心区别在于控制权掌握在谁手里，现实中很多标着 Agent 的产品，深入看其实更接近 Workflow，不过两者本身并无高下之分，真正重要的是给任务找到更适合的解决方案。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_22.jpg)
+![Image](https://pbs.twimg.com/media/HDsysm2a8AAbnIe.jpg)
 
 放在一张图里看，会更直观：
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_7.jpg)
+![Image](https://pbs.twimg.com/media/HDsyzUobUAAl2pu.jpg)
 
 ## 五种常见控制模式
 
@@ -86,7 +86,7 @@ Anthropic 对这两类系统有一个直接区分：执行路径由代码预先�
 
 1. 评估器-优化器 Evaluator-Optimizer：生成器产出，评估器给反馈，循环直到达标，适合翻译、创意写作这类质量标准难以用代码精确定义的任务。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_5.jpg)
+![Image](https://pbs.twimg.com/media/HDsy6bzbYAAzQX1.jpg)
 
 上面这些模式解决的是控制流怎么搭，下面再看另一个更工程的问题，系统为什么能跑稳。
 
@@ -110,13 +110,13 @@ Harness 是指围绕 Agent 构建的测试、验证与约束基础设施，这�
 
 1. 最小化合并阻力：测试偶发失败用重跑处理而不是阻塞进度，在高吞吐环境下等待人工审查的成本往往高于修复小错误的成本。写代码的纪律没有消失，只是从人工 Review 变成了机器执行的约束，一次写进去，到处生效。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_2.png)
+![Image](https://pbs.twimg.com/media/HDszK-tbAAAsL25.png)
 
 APP 把日志、指标、追踪三路数据经由 Vector 分发到 Victoria 存储层，对应 LogQL、PromQL、TraceQL 三个查询接口，Codex 通过这三个接口查询、关联、推理，完成改动后重启应用、重跑工作负载，结果再打回给 Codex，UI Journey 也作为输入接入。整套可观测性栈按任务临时创建、任务完成即销毁，Agent 不需要等人告知错误，直接查询系统状态验证修改是否生效。
 
 ## Harness 的关键结论是什么
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_24.jpg)
+![Image](https://pbs.twimg.com/media/HDszgmMaYAAobKL.jpg)
 
 图里用任务清晰度和验证自动化程度把任务分成四种状态，右上角目标明确、结果可以自动验证，是最适合 Agent 发挥的区域，左上角任务清楚但验收还得人盯，吞吐量天花板是人的审查速度，右下角有自动化反馈但目标模糊，系统会高效地往错误方向跑，左下角两者都缺，Agent 基本起不到作用。
 
@@ -132,7 +132,7 @@ Transformer 的注意力复杂度是 O(n2)，上下文越长，关键信号越�
 
 问题通常不是窗口不够长，而是信息密度不对，偶尔用的东西每次都加载进来，稳定的规则和动态的状态混在一起，模型能看到的内容越来越多，但真正有用的部分越来越难被注意到。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_25.jpg)
+![Image](https://pbs.twimg.com/media/HDsztgBaMAAVYeq.jpg)
 
 解决方式是按信息的使用频率和稳定性分层管理，每层只放自己该放的东西：
 
@@ -181,7 +181,7 @@ async function executeLoadSkill(name: string): Promise&lt;string&gt; {
 
 Skill 描述要足够短，避免常驻上下文持续涨 token，也要足够像路由条件而不是功能介绍，至少说明什么时候用、什么时候不要用、产出物是什么，最直接的写法是 Use when / Don't use when 再补几条反例，很多路由失败不是模型能力问题，而是边界写得不清楚。系统提示里也要把调用规则写明确：每次回复前先扫描 available\_skills，有明确匹配时再读取对应 SKILL.md，多个匹配时优先选最具体的那个，没有匹配就不读取，一次只加载一个。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_1.jpg)
+![Image](https://pbs.twimg.com/media/HDs0CkDaoAAXbvj.jpg)
 
 图里的数据很直接：没有反例时准确率从基准 73% 掉到 53%，加上反例后升到 85%，响应时间还降了 18.1%。反例不是可选项，是 Skill 描述能不能起作用的关键。
 
@@ -238,7 +238,7 @@ Cursor 在 MCP 工具上也验证过这个方向：他们把工具描述同步�
 
 工具问题多数不在数量不够，而在选不对、描述看不懂、返回一堆没用的、出了错 Agent 也不知道怎么改。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_17.jpg)
+![Image](https://pbs.twimg.com/media/HDs0RembcAEa8Ys.jpg)
 
 ## 工具设计如何演进
 
@@ -299,7 +299,7 @@ const updateTool = betaZodTool({
 });
 \`\`\`
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_15.jpg)
+![Image](https://pbs.twimg.com/media/HDs0heUbwAARbHZ.jpg)
 
 左边是差工具设计，工具只说自己能做什么，不说明什么时候该用、什么时候不该用，结果是 Agent 容易选错工具、填错参数，报错后不断重试绕圈，右边是符合 ACI 原则的工具设计，边界清楚、结构化错误给出修正建议，Agent 更容易一次选对，失败后也能快速修正。
 
@@ -331,7 +331,7 @@ Agent 不具备原生的时间连续性，会话结束后，上下文随之清�
 
 - MEMORY.md，语义记忆：Agent 主动写入认为重要的事实，每次启动时注入系统提示
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_18.jpg)
+![Image](https://pbs.twimg.com/media/HDs02EqaIAA8Ge3.jpg)
 
 左侧是 Agent 运行时，只有上下文窗口存在于 messages\[\] 中，会随着会话结束一起清空，右侧是磁盘上的持久层，Skills 文件按需加载，JSONL 会话历史保留完整过程并支持检索，MEMORY.md 则沉淀 Agent 主动写入的稳定事实，并在后续会话中持续注入。
 
@@ -360,7 +360,7 @@ OpenClaw 混合检索
 
 有了记忆分层之后，下一步要处理的就不是「要不要存」，而是「什么时候整合，以及整合失败怎么办」。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_14.jpg)
+![Image](https://pbs.twimg.com/media/HDs1G2wa8AEQkjJ.jpg)
 
 这张图强调的不是「把旧消息删掉」，而是把它们从活跃上下文中安全移出，左边是持续增长的对话消息流，中间用 tokenUsage / maxTokens &gt;= 0.5 作为触发阈值，达到阈值后，成功路径会先对待整合消息做 llmSummarize(toConsolidate)，再把摘要追加到 MEMORY.md，最后只更新 lastConsolidatedIndex，失败路径则把原始消息写入 archive/，保留完整历史，避免整合失败时丢失上下文。
 
@@ -380,7 +380,7 @@ OpenClaw 混合检索
 
 Initializer Agent 只在第一轮运行一次，负责生成 feature-list.json、init.sh、初始 git commit 和 claude-progress.txt，先把任务变成可持久化的外部状态，后面的多个 session 由 Coding Agent 循环执行，每次从 claude-progress.txt 和 git log 恢复现场，定位当前任务，实现一个功能，跑测试，更新 passes 字段，提交代码后退出，这样即使中途崩溃，也能直接从文件系统里的状态继续，而不是从头再来。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_11.jpg)
+![Image](https://pbs.twimg.com/media/HDs1Q7CbwAA0Wse.jpg)
 
 进度要放在文件里，不要放在上下文里，功能清单用 JSON，不用 Markdown，结构化格式更适合模型稳定修改，当 feature-list.json 里所有功能都变成 passes: true，任务才算完成。
 
@@ -418,11 +418,11 @@ Initializer Agent 只在第一轮运行一次，负责生成 feature-list.json�
 
 统筹者模式是异步委派，人在开始时设定目标，中间让多个 Agent 并行工作，最后再审查产出，这样人只在起点和终点出现，中间产出会变成分支、PR 这类可持久化工件，多 Agent 的主要价值也在这里，不是单纯多开几个模型，而是把人的持续参与，变成对工件的最终审核。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_12.jpg)
+![Image](https://pbs.twimg.com/media/HDs1esyaAAAJ9lw.jpg)
 
 常见的组织方式是主 Agent 作为 Orchestrator 统筹全局，下挂多个子 Agent 独立并行工作。它们之间通过 JSONL inbox 协议通信，用 Worktree 隔离文件修改，用任务图管理依赖关系。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_23.jpg)
+![Image](https://pbs.twimg.com/media/HDs1icxakAAomDu.jpg)
 
 ## 子 Agent 适合做什么
 
@@ -452,13 +452,13 @@ return summarize(result); // 主 Agent 上下文里只有这一行
 
 这里至少要先有三样东西，协议、任务图、隔离边界，主 Agent 通过 JSONL 消息队列分派任务给子 Agent，子 Agent 执行后只回摘要，搜索和调试细节留在自己的独立上下文里，.tasks/ 记录任务图和依赖关系，.worktrees/ 隔离每个子 Agent 的文件修改，顺序也别反过来，协议先定，隔离先做，再谈协作和并行。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_10.jpg)
+![Image](https://pbs.twimg.com/media/HDs12S6asAAkNVx.jpg)
 
 ## 多 Agent 下幻觉会互相放大
 
 多个 Agent 频繁互动时，错误也会被一层层放大。Agent A 先带偏，Agent B 跟着强化，Agent C 再继续叠加，最后所有 Agent 都收敛到同一个高置信度的错误结论。交叉验证的价值就在这里，它能打断这条链，让某个 Agent 独立判断，而不是顺着前面的结论继续走。这里也有顺序，先有可持久化任务图，再引入有身份的队友，再引入结构化通信协议，最后再加交叉验证或外部反馈，比如独立的第二个 Agent、单元测试、编译器或人工审查。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_6.jpg)
+![Image](https://pbs.twimg.com/media/HDs17Y7bAAACq4R.jpg)
 
 ## 子 Agent 的深度限制和最小提示
 
@@ -474,11 +474,11 @@ Agent 做得对不对，最终要靠评测来判断，很多团队会把这一�
 
 ##  
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_13.jpg)
+![Image](https://pbs.twimg.com/media/HD5Y_h7WUAAi-ev.jpg)
 
 上半是传统 Single-turn 评测，一个 Prompt 进去，模型输出一个 Response，判断对不对就结束了，下半是 Agent 评测，要先准备好工具、运行环境和任务，Agent 在执行过程中多次调用工具、修改环境状态，最后的评分不是看它说了什么，而是跑一批测试验证环境里真正发生了什么，结构上复杂了不止一个层级，这也是为什么传统评测方法在 Agent 场景里往往不够用。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_20.jpg)
+![Image](https://pbs.twimg.com/media/HDs2CCzbUAAcCon.jpg)
 
 这张图里真正需要记住的，其实就三组概念，第一组是 task 任务、trial 单次运行、grader 评分器，分别对应测什么、跑多少次、怎么打分，第二组是 transcript 完整执行记录和 outcome 环境最终结果，评测不能只看其中一边，第三组是 agent harness 被评测的 Agent 运行框架和 evaluation harness 评测基础设施，后者负责把任务跑起来、打分、汇总结果，evaluation suite 就是一批任务的集合，是评测跑起来的原材料。
 
@@ -486,7 +486,7 @@ Agent 做得对不对，最终要靠评测来判断，很多团队会把这一�
 
 Agent 的评测比传统软件更难，输入空间近乎无限，LLM 对提示措辞高度敏感，同一任务在不同运行之间也可能出现差异，从调查数据看，很多团队的评测体系仍不成熟，人工审查和 LLM 评分依然是最常见的做法。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_3.jpg)
+![Image](https://pbs.twimg.com/media/HD5ZITGXIAAEFN2.jpg)
 
 左图是评测方式，右图是常用指标，人工标注和 LLM judge 加起来占主导，传统 ML 指标只有 16.9%，还有近四分之一的团队还没开始做评测。
 
@@ -524,7 +524,7 @@ Anthropic 在《Demystifying evals for AI agents》里提到过一个机票预�
 
 评测系统常见的出错来源有几类：运行环境资源不足导致进程被杀、评分器本身有 bug 把正确答案判成失败、测试用例和生产场景脱节、或者只看聚合分数而漏掉某一类任务系统性变差，这些问题在表现上都和模型退化一模一样，很难从结果数字上直接区分。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_16.jpg)
+![Image](https://pbs.twimg.com/media/HDtCPFIbMAAZiiu.jpg)
 
 红色是基础设施错误率，蓝色是模型得分，资源上限越严，环境越容易在内存峰值时崩掉，评测直接记失败，但模型其实没答错，随着上限放开，红色跌到接近 0，蓝色几乎不变，说明之前的「失败」不少是环境噪声，看到评测分数下降，先查环境，再动 Agent。
 
@@ -554,7 +554,7 @@ Anthropic 在《Demystifying evals for AI agents》里提到过一个机票预�
 
 第二层是 LLM 自动评估，对更大范围的 Trace 做全量覆盖，以第一层标注结果作为校准依据，只跑第二层，评分标准很容易漂移，只靠第一层，规模上又覆盖不了真实流量，两层要一起用。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_4.jpg)
+![Image](https://pbs.twimg.com/media/HDtC1bYbkAEjrzc.jpg)
 
 ## 在线评测如何做采样
 
@@ -572,7 +572,7 @@ Anthropic 在《Demystifying evals for AI agents》里提到过一个机票预�
 
 Agent Loop 在 tool\_start、tool\_end、turn\_end 三个节点发出事件，完整 Trace 同步落盘，再分发给日志系统、UI 更新、在线评测、人工审查队列这些下游，事件一次发布，多路消费，主循环不需要为了任何下游改代码。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_19.jpg)
+![Image](https://pbs.twimg.com/media/HDtC_BKacAEgjL1.jpg)
 
 \`\`\`markdown
 \# Agent 执行时 emit 事件
@@ -596,7 +596,7 @@ agent.on("event") -&gt; send\_to\_eval\_framework
 
 OpenClaw 可以拆成五个层次，最上面是负责连接和消息分发的 WebSocket 服务，底部是 SOUL.md、MEMORY.md、Skills 等配置文件。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_8.jpg)
+![Image](https://pbs.twimg.com/media/HDtDYbNa4AAxXAM.jpg)
 
 1\. Gateway：WebSocket 服务，统一路由消息，Channel 和 Agent 不直接通信2. Channel 适配器：23+ 渠道统一接口，新增渠道不改 Agent 代码
 3\. Pi Agent：维护主循环、会话状态、调度，核心循环和渠道完全解耦
@@ -716,7 +716,7 @@ OpenClaw 的系统提示可以从 SOUL.md 看起，这个文件定义了 Agent �
 
 三种触发模式的加载范围也不同。普通会话加载完整系统提示，子 Agent 只加载最基础的运行时信息，不带记忆和 Skills，heartbeat 模式则单独加载 HEARTBEAT.md，也就是不等用户发消息，而是由系统按固定节奏唤起 Agent 检查是否有任务需要继续处理。长任务里再额外加一行身份重申，主要是为了压住任务漂移。
 
-![Image](../_media/x-2034627967926825175/HiTw93_2034627967926825175_9.jpg)
+![Image](https://pbs.twimg.com/media/HDtDvzDaQAAqsTh.jpg)
 
 ## cron 和 heartbeat 如何主动触发
 
@@ -967,7 +967,7 @@ async function runWithFallback(task) {
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2034627967926825175/HiTw93_2034627967926825175_26.png)
+![Image 1](https://pbs.twimg.com/media/HDsxr_paYAApHIA.png)
 
 ## 💬 Replies
 

@@ -23,7 +23,7 @@ What ended that cycle was giving corrections a place to live.
 
 A system improves between runs when two things are true. Something carries forward, and something rejects work before it carries forward. Loop engineering gives you the first. 
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_1.png)
+![Image](https://pbs.twimg.com/media/HRblm_1bgAACFmY.png)
 
 Graph engineering gives the memory a shape you can query. Routines make it run without you in the room. Kimi K3's Agent Swarm supplies enough parallel capacity - up to three hundred agents on one problem - to make the structure worth building in the first place.
 
@@ -40,7 +40,7 @@ Fourteen steps, in build order. Every one of them is a file you write or a rule 
 
 # Phase I · The Spine
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_5.png)
+![Image](https://pbs.twimg.com/media/HRbly65XoAMcLLt.png)
 
 ---
 
@@ -101,7 +101,7 @@ Run them in that order. The script is free, so it should reject everything it ca
 
 # Phase II · The Graph
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_6.jpg)
+![Image](https://pbs.twimg.com/media/HRbl8dqbcAAq6bJ.jpg)
 
 ---
 
@@ -146,7 +146,7 @@ RETURN (per agent, nothing else):
   confidence: 0-1
 \`\`\`
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_7.png)
+![Image](https://pbs.twimg.com/media/HRbmIbNXMAEDsc8.png)
 
 ## 8 · Land every node before you draw a single edge
 
@@ -195,7 +195,7 @@ CAP: 300. If the query returns more, take the highest inbound\_edges first.
 
 This table is why the second run costs a fraction of the first. Skipping settled work is the entire economics of the setup.
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_3.png)
+![Image](https://pbs.twimg.com/media/HRbm6krWYAApONk.png)
 
 ## 11 · Branch on the verdict, and cap the retries
 
@@ -212,7 +212,7 @@ Retrying a failure without telling the agent what failed is how a loop burns a b
 
 # Phase IV · Routines and the Review Loop
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_9.png)
+![Image](https://pbs.twimg.com/media/HRbmTDybUAA4iQM.png)
 
 ---
 
@@ -259,7 +259,7 @@ WEEKLY REVIEW (one agent, fresh context):
   output:  a diff. You approve or reject. It never writes to those files itself.
 \`\`\`
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_8.jpg)
+![Image](https://pbs.twimg.com/media/HRbmlVUbgAAd8nz.jpg)
 
 ---
 
@@ -280,7 +280,7 @@ graph-workspace/
 
 One author per directory. Numeric prefixes fix the write order, so returns never overwrite launches and the graph never overwrites returns. 
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_4.jpg)
+![Image](https://pbs.twimg.com/media/HRbmtSvasAANCN6.jpg)
 
 40-runs is append only, because it is the file that answers "why does the graph say that" six weeks later.
 
@@ -306,7 +306,7 @@ Steps 1 to 4 give you a loop that finishes. Steps 5 to 8 give it memory with a s
 
 The first run is research. The twelfth is an asset, and the gap between them is four files you wrote in an afternoon.
 
-![Image](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_2.jpg)
+![Image](https://pbs.twimg.com/media/HRbnFZRbAAAk4BF.jpg)
 
 ---
 
@@ -320,5 +320,5 @@ And if you found this useful:
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/polydao-graph-loop-meta-loop/polydao_2096128417108287566_10.jpg)
+![Image 1](https://pbs.twimg.com/media/HRbZkFHaYAA7CAk.jpg)
 

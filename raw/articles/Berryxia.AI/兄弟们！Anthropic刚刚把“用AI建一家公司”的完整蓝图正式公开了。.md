@@ -53,7 +53,7 @@ Anthropic这次直接把“AI替你上班”这件事，从概念变成了可复
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2051345717885853987/berryxia_2051345717885853987_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2051343822190473216/img/4IIIKmpWvabqGuwo.jpg)
 
 ## 💬 Replies
 

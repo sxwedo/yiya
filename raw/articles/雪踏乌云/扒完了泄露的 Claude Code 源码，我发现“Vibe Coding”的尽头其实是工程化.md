@@ -67,7 +67,7 @@ Vibe coding 的天花板，永远取决于我们给 AI 画的那个“框”有�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2038980082471997921/Pluvio9yte_2038980082471997921_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HEvpgs5bYAAIYql.jpg)
 
 ## 💬 Replies
 

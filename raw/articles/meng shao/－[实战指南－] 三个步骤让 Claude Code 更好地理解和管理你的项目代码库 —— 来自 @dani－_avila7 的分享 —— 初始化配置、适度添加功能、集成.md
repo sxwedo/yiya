@@ -69,7 +69,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-1953268921995591865/shao__meng_1953268921995591865_1.jpg)
+![Image 1](https://pbs.twimg.com/media/Gxtnt_CawAEJ54v?format=jpg&name=medium)
 
 ## 💬 Replies
 

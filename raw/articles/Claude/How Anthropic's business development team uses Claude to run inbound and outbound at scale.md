@@ -28,11 +28,11 @@ A foundational piece of our inbound setup is a document where I’ve collected t
 
 The heaviest workflow built on that document is an inbox skill that runs every hour: it scans a rep's inbox, finds every thread that the rep needs to answer, and drafts a reply for the rep to read, edit, and send. This skill is made of a thin system prompt, the knowledge base as context, and a profile of the rep’s writing style (which each of us also creates using a voice skill that reads through documents, messages, and emails we have written).
 
-![The inbox skill runs on a thin system prompt, the team's sales knowledge base as the source for product facts, and a customized voice profile for each rep.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_1.png)
+![The inbox skill runs on a thin system prompt, the team's sales knowledge base as the source for product facts, and a customized voice profile for each rep.](https://assets.claude.com/1a738405809dbb5b81041ae63260632feed124db.png)
 
 *The inbox skill runs on a thin system prompt, the team's sales knowledge base as the source for product facts, and a customized voice profile for each rep.*
 
-![The inbox skill scans a rep’s inbox and leaves drafted replies for review. All information in this preview has been anonymized for publication.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_2.png)
+![The inbox skill scans a rep’s inbox and leaves drafted replies for review. All information in this preview has been anonymized for publication.](https://assets.claude.com/4a5839915c64386cfa820e568caf757bd1c3522d.png)
 
 *The inbox skill scans a rep’s inbox and leaves drafted replies for review. All information in this preview has been anonymized for publication.*
 
@@ -42,7 +42,7 @@ The other skill uses our CRM connector to scan for all new leads and draft a per
 
 We also have a skill that keeps Salesforce current by reading our internal guidance on opportunity stages and checking it against what's actually happening in Gmail and Gong. If we've met with a customer and moved on to pricing questions, the opportunity should probably progress a stage. Claude proposes each Salesforce update with the evidence behind it and waits for approval. When I edit or reject a proposal, it records the reason why so it doesn’t repeat the mistake.
 
-![The pipeline scanner skill proposes Salesforce updates for approval by the rep. Shown here with demo data and all information anonymized for publication.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_3.png)
+![The pipeline scanner skill proposes Salesforce updates for approval by the rep. Shown here with demo data and all information anonymized for publication.](https://assets.claude.com/f2c29cec44f8663d9bb00f388846400a7d1f53c5.png)
 
 *The pipeline scanner skill proposes Salesforce updates for approval by the rep. Shown here with demo data and all information anonymized for publication.*
 
@@ -58,7 +58,7 @@ We use this research in follow-up conversations, so our outreach is tailored and
 
 Discovery calls are another part of our outbound motion we are working to improve with Claude. We use a skill that evaluates Gong transcripts against our discovery call playbook and builds a scorecard for each call, with specific feedback based on the conversation. The feedback includes top three things done well, top three areas to improve, an explicit pass or fail score on our criteria, and a single highest-leverage thing to practice next.
 
-![The call coach skill provides a scorecard for our discovery calls, along with specific recommendations on improving them. Shown here with demo data and all information anonymized for publication.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_4.png)
+![The call coach skill provides a scorecard for our discovery calls, along with specific recommendations on improving them. Shown here with demo data and all information anonymized for publication.](https://assets.claude.com/9506ace15ed7c945f1fb71f4af45995528024911.png)
 
 *The call coach skill provides a scorecard for our discovery calls, along with specific recommendations on improving them. Shown here with demo data and all information anonymized for publication.*
 
@@ -66,19 +66,19 @@ Discovery calls are another part of our outbound motion we are working to improv
 
 Often, requests come to the BDR team in an ad-hoc manner and Claude makes it possible for us to partner with our AEs in a more strategic way. If an AE is curious about usage trends for a top account, we are a prompt away from providing a legible and descriptive dashboard that highlights the relevant trends.
 
-![ A spend analysis report generated for target accounts.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_5.png)
+![ A spend analysis report generated for target accounts.](https://assets.claude.com/7319087ead08eda021ed8d1b911e880a15531cb2.png)
 
  *A spend analysis report generated for target accounts.*
 
 Working with Claude on data analysis and reporting comes into play in outbound work, too. One of my favorite workflows is running an undiscovered usage prompt. It considers an AE’s full book and finds usage signals on the account level where we do not yet have a sales opportunity. Often, this is a great signal for us to begin reaching out and working together with a customer to optimize their usage and experience with Claude. 
 
-![A product-focused sweep of one AE's book returns every account already using the product with no matching opportunity. Shown with demo data and all information anonymized or modified for publication.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_6.png)
+![A product-focused sweep of one AE's book returns every account already using the product with no matching opportunity. Shown with demo data and all information anonymized or modified for publication.](https://assets.claude.com/ae33f6312f2086926039c7be80380081d705855a.png)
 
 *A product-focused sweep of one AE's book returns every account already using the product with no matching opportunity. Shown with demo data and all information anonymized or modified for publication.*
 
 We also use Claude for event outreach. One of my AEs recently flagged that we have an upcoming [Claude Code for Data Engineering](https://www.anthropic.com/webinars/claude-code-for-data-engineering) webinar and asked if I could find accounts in his book that would be interested in attending. I don’t have a skill for that, but for this type of request a prompt was enough. Claude checked usage data and CRM history across the book, scored each account against our ICP, and flagged the best fits with contacts worth inviting.
 
-![Asked to find the right accounts for a webinar invite, Claude sweeps the books and scores each account against the team's ideal customer profile.](../_media/claude-how-anthropic-s-business-development-team-uses-claude-to-run/John_Albert_how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale_7.png)
+![Asked to find the right accounts for a webinar invite, Claude sweeps the books and scores each account against the team's ideal customer profile.](https://assets.claude.com/ec33abd421b4f2c528c84d923daf36240784608b.png)
 
 *Asked to find the right accounts for a webinar invite, Claude sweeps the books and scores each account against the team's ideal customer profile.*
 

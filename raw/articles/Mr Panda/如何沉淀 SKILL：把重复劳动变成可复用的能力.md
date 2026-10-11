@@ -178,7 +178,7 @@ Skill 是养出来的，不是写出来的。用一次改一次，三个月后�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2067534592416915618/PandaTalk8_2067534592416915618_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLFbsdgboAEGD06.jpg)
 
 ## 💬 Replies
 

@@ -57,7 +57,7 @@ ViMax：智能体式视频生成工具，集导演、编剧、制片人和视频
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2058144012784308598/pritipatelfgoo_2058144012784308598_1.png)
+![Image 1](https://pbs.twimg.com/media/HI__Dr1agAA9hPz.png?name=orig)
 
 ## 💬 Replies
 

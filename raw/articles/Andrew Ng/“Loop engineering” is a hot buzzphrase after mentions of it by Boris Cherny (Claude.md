@@ -33,7 +33,7 @@ I will write more about how to do this in future posts, but for now, I find it e
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071988145667928442/AndrewYNg_2071988145667928442_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HMEtxp3bsAARJdi.jpg?name=orig)
 
 ## 💬 Replies
 

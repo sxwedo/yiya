@@ -57,7 +57,7 @@ We define a commerce agent as an agent that simplifies buying and selling across
 
 Some agents face consumers: they search, compare, substitute, and assemble the order. That could be a retail cart, a travel itinerary, a mobile plan change, or seats held for a show. Some agents face the business: they answer questions about sales, run promotions and campaigns, and manage inventory and pricing.
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_1.png)
+![](https://assets.claude.com/47781bb901a117a56bcb301ad769a405a42dba62.png)
 
 The core architecture is a model in a [standard agent loop](https://www.anthropic.com/engineering/building-effective-agents): reasoning about a goal, exploring context, taking actions through tools, learning procedures through skills, asking clarifying questions, and observing the results until the goal is accomplished.
 
@@ -221,13 +221,13 @@ Caching is prefix-based. A request reads from cache up to the first byte that di
 * **Session**: per-user context and conversation history, which differ across sessions but stay stable within one. This segment comes after the global one.
 * **Volatile**: anything that changes within a session, such as the current time or the current page. Put it at the very end of the request, either as a tagged block in the newest user turn or, on models that support [mid-conversation system messages](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages), as a system-role message appended to the messages array. The most common mistake we see is a timestamp or the current page at the top of the system prompt, which silently breaks the cache on every request.
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_5.png)
+![](https://assets.claude.com/e6fbdecfcdda588a29d70f54cde5c09d17a921aa.png)
 
 There are two implementation details to remember here. First, skills should be loaded as tool results rather than appended to the system prompt. The skill body then lands in the conversation prefix and is cached along with it.
 
 Second, roll your breakpoints forward in each turn: a request allows a limited number of breakpoints, so move the newest one to the end of each user turn. Each round then reads the accumulated history, including long tool results such as search responses, from cache.
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_6.png)
+![](https://assets.claude.com/bdf3f158eeed3dc122c1bb2d04eee5343405ca93.png)
 
 ### **Choosing the model and its configuration** ###
 
@@ -278,7 +278,7 @@ It also puts one more decision in front of the agent on every turn, and in our e
 
 Separating the extractor also lets you prompt it precisely. It reads only the user's and the assistant's text, never tool results, so a product description or a review can't become a fact about the user. Its prompt says what counts as a fact — a stated size, a dietary constraint, a fulfillment preference, a merchant’s usual materialized views — and what doesn't, such as anything from a listing or a one-off detail.
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_7.png)
+![](https://assets.claude.com/516a22932c1a2eea15f8ad38c385e479e1b37408.png)
 
 #### **Reading memory** ####
 
@@ -348,7 +348,7 @@ Then grade the outcome: the final state and the rendered response, including the
 
 Simulated-user evals, in which a second model plays the user and a judge grades the whole conversation, are a poor tool for measurement. Two non-deterministic systems interacting need larger samples, cost more per trial, are harder to judge, and produce failures that are hard to attribute. They are useful for finding coverage gaps and for a general vibe check on the agent, so use them to discover cases, then write each case as a snapshot.
 
-![](../_media/claude-a-guide-to-the-anatomy-of-effective-commerce-agents/Ali_Shazal_Matthew_Koen_the-anatomy-of-effective-commerce-agents_8.png)
+![](https://assets.claude.com/ec6ed374de1ca7aef245c7994c762aed2f709319.png)
 
 #### **Evaluate for behaviors in tough conditions** ####
 

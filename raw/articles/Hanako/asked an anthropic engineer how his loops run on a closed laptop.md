@@ -29,7 +29,7 @@ save the file tree below before he realizes i posted it.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2073872324198355199/hanakoxbt_2073872324198355199_1.png)
+![Image 1](https://pbs.twimg.com/media/HMfc-bnXgAAJdtG?format=png&name=medium)
 
 ## 💬 Replies
 

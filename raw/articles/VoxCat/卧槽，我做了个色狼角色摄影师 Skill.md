@@ -13,7 +13,7 @@ type: "Article"
 
 来源：[X 状态](https://x.com/voxcatai/status/2097511865857507750) · [X 文章](https://x.com/i/article/2097508727767351296)
 
-![封面](../_media/x-2097511865857507750/VoxcatAI_2097510710406447104_1.jpg)
+![封面](https://pbs.twimg.com/media/HRva4MZagAAONu7.jpg)
 
 你现在是一名“色狼视角角色摄影提示词设计师”。
 

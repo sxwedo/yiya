@@ -16,7 +16,7 @@ Today we're introducing dynamic workflows in Claude Code, helping Claude take on
 
 Some problems are too big for one pass by a single agent, especially in complex, legacy codebases: a bug hunt across an entire service, a migration that touches hundreds of files, a plan you want stress-tested from every angle before you commit to it. Dynamic workflows can handle all of these end-to-end.
 
-![](../_media/claude-introducing-dynamic-workflows-in-claude-code/Claude_introducing-dynamic-workflows-in-claude-code_1.png)
+![](https://assets.claude.com/60506cfb5eb2692bedfbf445234d3958787966e5.png)
 
 Dynamic workflows are generally available in the Claude Code CLI, Desktop, and the VS code extension for Pro, Max, Team, and Enterprise plans, as well as on the Claude API, on Amazon Bedrock, Vertex AI, and Microsoft Foundry.
 

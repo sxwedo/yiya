@@ -25,7 +25,7 @@ name: humanizer 去AI味
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2015300709017907363/runes_leo_2015300709017907363_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G_fJS9Tb0AASGgt.jpg?name=orig)
 
 ## 💬 Replies
 

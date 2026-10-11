@@ -15,7 +15,7 @@ Everyone building multi-agent systems in 2026 is still writing straight lines. S
 
 ---
 
-![Image](../_media/wast3-graph-engineering-parallel/0xWast3_2079899723947712845_1.png)
+![Image](https://pbs.twimg.com/media/HNzkvaPWoAAf53v.png)
 
 # The problem nobody checks
 
@@ -43,7 +43,7 @@ Loops have a known failure mode: they optimize exactly what you measure and noth
 
 A graph fixes this by design. Instead of one loop chasing one number, you build a network of loops that watch and correct each other. Node A's output feeds Node B. Node C runs independently and checks both. No single metric drives the whole system - the structure does.
 
-![Image](../_media/wast3-graph-engineering-parallel/0xWast3_2079899723947712845_2.png)
+![Image](https://pbs.twimg.com/media/HNzlYS5XMAAqnxh.png)
 
 For agent systems this means one concrete shift: stop writing one agent that does everything top to bottom. Design the shape of the work first - what has to happen before what, what can run at the same time, what actually needs to wait.
 
@@ -105,7 +105,7 @@ Your current "do A, then B, then C" agent is technically already a graph. It's j
 
 # Chapter 3 - Building your first graph
 
-![Image](../_media/wast3-graph-engineering-parallel/0xWast3_2079899723947712845_3.png)
+![Image](https://pbs.twimg.com/media/HNzmfHDXEAAwZRi.png)
 
 Requirements:
 
@@ -231,7 +231,7 @@ async def safe\_consolidate(results: list\[dict\], expected\_count: int):
 
 # Chapter 5 - Scaling to a real fleet
 
-![Image](../_media/wast3-graph-engineering-parallel/0xWast3_2079899723947712845_4.png)
+![Image](https://pbs.twimg.com/media/HNzns5_XcAAWnfv.png)
 
 Once the pattern works at 40 nodes, scaling to hundreds is a config change, not a redesign - provided you built the graph correctly from Chapter 2 onward.
 
@@ -313,5 +313,5 @@ Thank you for reading.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/wast3-graph-engineering-parallel/0xWast3_2079899723947712845_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HNzxE_0WEAARTN-.jpg)
 

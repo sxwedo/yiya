@@ -29,7 +29,7 @@ This PDF completely flipped my approach to building AI agents. Read it now, then
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069864261203988901/h100envy_2069864261203988901_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HLmikAsXgAADTue.jpg?name=orig)
 
 ## 💬 Replies
 

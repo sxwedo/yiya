@@ -23,7 +23,7 @@ On June 8, Peter Steinberger posted two sentences - "you shouldn't be prompting 
 
 So let me actually pin it down, because the confusion is the whole problem.
 
-![Image](../_media/x-2071584492804784468/dunik_7_2071584492804784468_1.jpg)
+![Image](https://pbs.twimg.com/media/HL-8X2VWUAAyCZH.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ This is why the timeline melted down. "Loop" hides a whole lineage:
 
 When one person says "loop" and means ReAct and another means a 30-agent orchestration, of course they talk past each other. They're five different things wearing the same word.
 
-![Image](../_media/x-2071584492804784468/dunik_7_2071584492804784468_2.jpg)
+![Image](https://pbs.twimg.com/media/HL-74W2XcAAYQBt.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ An open loop writes code and tells you it's done. That's a demo. A closed loop r
 
 The feedback has to come from something the agent can't sweet-talk. Tests pass or they don't. Types check or they don't. That's why you anchor the loop to real files - a VISION.md for where it's going, a CLAUDE.md for the rules, a loop.md for the per-tick prompt, and a test suite for the part that says "no, try again."
 
-![Image](../_media/x-2071584492804784468/dunik_7_2071584492804784468_3.jpg)
+![Image](https://pbs.twimg.com/media/HL-77iXXkAA0uf4.jpg)
 
 ---
 
@@ -136,11 +136,11 @@ So build the small one today. The next one builds itself.
 
 / follow for me /
 
-![Image](../_media/x-2071584492804784468/dunik_7_2071584492804784468_4.jpg)
+![Image](https://pbs.twimg.com/media/HL-8K5MWQAAbpZ1.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071584492804784468/dunik_7_2071584492804784468_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HL-_GevXEAAZzyv.jpg)
 
 ## 💬 Replies
 

@@ -139,7 +139,7 @@ A2A 让 Agent 之间直接协作成为常态，也会压缩人类充当信息路
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2078817732527853743/ma_zhenyuan_2078817732527853743_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HNlqJA2a0AARx31.jpg)
 
 ## 💬 Replies
 

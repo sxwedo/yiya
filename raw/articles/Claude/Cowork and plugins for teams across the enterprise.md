@@ -26,13 +26,13 @@ Today we're launching a suite of updates that make it easier to create, use, and
 
 Admins can now set up plugins from starter templates or build them from scratch, with Claude guiding you through setup by asking questions to tailor skills, commands, and connectors (MCPs) to your company. All of this lives in a new unified menu called 'Customize,' which consolidates plugins, skills, and connectors so admins can see and manage everything in one place.
 
-![](../_media/claude-cowork-and-plugins-for-teams-across-the-enterprise/Claude_cowork-plugins-across-enterprise_1.png)
+![](https://assets.claude.com/b8a7594584b08cf688085642b32ac3d7508b00f2.png)
 
 The connector experience has been overhauled too, with an improved directory, streamlined admin controls, and easier management of which connectors are bundled into plugins. Admins also get more control over what plugins their teams can access, including org-specific marketplaces, private GitHub repositories as plugin sources (in private beta), per-user provisioning, and auto-install.
 
 On the user side, slash commands now launch with structured forms, so running a workflow like 'generate report' or 'dashboard' feels as intuitive as filling out a brief. And Cowork now features company branding throughout, including a redesigned home experience tailored to your organization.
 
-![](../_media/claude-cowork-and-plugins-for-teams-across-the-enterprise/Claude_cowork-plugins-across-enterprise_2.png)
+![](https://assets.claude.com/e97245debbb07158f4ff862168f295ff3e6ec7f5.png)
 
 Additionally, we're adding [OpenTelemetry](https://claude.com/docs/cowork/monitoring#monitoring) support, letting admins track usage, costs, and tool activity across their teams.
 

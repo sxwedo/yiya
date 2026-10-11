@@ -486,7 +486,7 @@ Loop Engineering 很有用，但不要把它理解成“让 AI 无限自动跑�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2071163041597489411/369Serena_2071163041597489411_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HL4_GDHWkAAZeVr.jpg)
 
 ## 💬 Replies
 

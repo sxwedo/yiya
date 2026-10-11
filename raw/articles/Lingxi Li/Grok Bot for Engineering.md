@@ -29,7 +29,7 @@ The more I build with Grok Bot, the more I want to hand you the same superpower.
 
 # Meet my engineer bots
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_6.jpg)
+![Image](https://pbs.twimg.com/media/HQ979xwaIAA8BEA.jpg)
 
 I have five engineer bots, each specializing in a different area:
 
@@ -49,7 +49,7 @@ Every bot can create Cursor cloud agents, read transcripts, review proofs attach
 
 When they receive a task, either from me or from Slack, they kick off a cloud agent with my skills invoked, along with a thorough prompt detailing what needs to be done and what proof is expected. They can also intelligently invoke additional skills based on my personalized guidance, such as using my /lingxi-design skill for visual work, /react-native-best-practices for code quality audits, /lingxi-review for judging architecture, or /lingxi-product when they need to make opinionated product decisions.
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_3.jpg)
+![Image](https://pbs.twimg.com/media/HQ99Hx1bwAEm3mo.jpg)
 
 Grok Bot can also start cloud agents on your own worker machines, like a spare Mac mini (thanks to Grok Bot, you no longer need a dedicated machine at home running 24/7 for OpenClaw).
 
@@ -69,7 +69,7 @@ And remember: everything is now just a message away. Want them to keep pushing 1
 
 # Scale beyond the context limit
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_2.jpg)
+![Image](https://pbs.twimg.com/media/HQ99lzHakAAiYE7.jpg)
 
 To help my bots stay on top of work beyond the context limit, and to make it easy for me to scan progress without scrolling through long chats, I have each engineer bot manage a shared Notion database.
 
@@ -91,7 +91,7 @@ Almost every morning, I check in to find tasks ready to merge. The code quality 
 
 Before Grok Bot, I could manually manage 15 cloud agents at a time. Now my fleet manages more than 200 simultaneously, and we can scale further if we need to.
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_5.jpg)
+![Image](https://pbs.twimg.com/media/HQ99EjoagAA0VAP.jpg)
 
 # Grok Bot runs the mini org
 
@@ -101,7 +101,7 @@ That’s all Jenny’s job, my head of operations, and the only bot on the team 
 
 Every morning at 5 a.m., Jenny meets 1:1 with every bot on the team to review our playbook, surface blockers, and reinforce the vibe I’m aiming for. I’ve found this to be very effective. My bots rarely forget my complex workflows, even after many weeks.
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_7.jpg)
+![Image](https://pbs.twimg.com/media/HQ9-Q89bgAAQOtY.jpg)
 
 When a bot makes a mistake, like not pushing back enough to reach the real goal, I tell it to find Jenny for root-cause analysis and a postmortem. Jenny digs into the reasoning that led to the issue, then updates the playbook and announces the changes to the other engineer bots so the same mistake doesn’t happen twice.
 
@@ -109,7 +109,7 @@ Whenever I need to scale up the team, I ask Jenny to onboard new members. Jenny 
 
 The goal of a complete engineering system in Grok Bot is to minimize repetition. Offload your tasks to Grok Bot so you can focus on harder, deeper problems.
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_1.jpg)
+![Image](https://pbs.twimg.com/media/HQ9-UXLbEAAn1GZ.jpg)
 
 # Bonus use cases of Grok Bot
 
@@ -149,7 +149,7 @@ Please note that this can burn tokens much faster than you think, so only use it
 
 # Learnings & tips with Grok Bot
 
-![Image](../_media/x-2094493172516966781/lingxi_2094493172516966781_4.jpg)
+![Image](https://pbs.twimg.com/media/HQ9--_mboAA6E6z.jpg)
 
 1. Give cloud agents a complete feedback loop: It is important to give them signals about what to do next without you. They should be able to launch a dev instance and drive the stack end-to-end (e.g., via Chrome DevTools, CLI, or Apple Accessibility). If they can’t, ask them to run the flow themselves, unblock themselves as aggressively as they can, and package what they learn into a reusable repo skill.
 
@@ -173,7 +173,7 @@ Ready to welcome an engineer bot into the org? [Try Grok Bot](https://x.ai/bot),
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2094493172516966781/lingxi_2094493172516966781_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HRB_PVMaYAAGwfv.jpg)
 
 ## 💬 Replies
 

@@ -184,11 +184,11 @@ MCP 服务器和各类连接器把这种能力进一步延伸到了你的整个�
 
 侧边栏允许用户直接原地查看 Markdown 文档、电子表格、数据表、普通文档和幻灯片。你可以不打断现有的工作流，直接检查、做标记、修改文件。
 
-![Image](../_media/x-2057250417638035555/dotey_2057250417638035555_1.jpg)
+![Image](https://pbs.twimg.com/media/HIzQFlCXkAAo-jU.jpg)
 
 你的幻灯片或 PDF 就乖乖敞开在对话框旁边，随时等你检阅和修改。
 
-![Image](../_media/x-2057250417638035555/dotey_2057250417638035555_2.jpg)
+![Image](https://pbs.twimg.com/media/HIzQP6RWMAAhrRX.jpg)
 
 [应用内浏览器](https://developers.openai.com/codex/app/browser) 让 Codex 能够直接检查渲染好的网页，控制它，甚至直接响应你在网页上做的标注。对网页或文件的评论全部留在这个工作闭环里，再也不用像以前那样把它拆分成一个个单独的交接任务了。
 
@@ -260,7 +260,7 @@ Codex 虽然还是以写代码为本行起家，但现在，围绕代码的诸�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2057250417638035555/dotey_2057250417638035555_4.jpg)
+![Image 1](https://pbs.twimg.com/media/HIzPbRzXYAENc4Y.jpg)
 
 ## 💬 Replies
 

@@ -37,7 +37,7 @@ Skill-creator now helps you write evals, which are tests that check Claude does 
 
 Our PDF skill, for instance, previously struggled with non-fillable forms. Claude had to place text at exact coordinates with no defined fields to guide it. Evals isolated the failure, and we shipped a fix that anchors positioning to extracted text coordinates.
 
-![](../_media/claude-improving-skill-creator-test-measure-and-refine-agent-skills/Claude_improving-skill-creator-test-measure-and-refine-agent-skills_1.png)
+![](https://assets.claude.com/34aab7c39810d51fd6471da0fe1ea777fea3e711.png)
 
 Evals help in many ways, but two important uses are to catch quality regressions and understand model progress.
 
@@ -47,7 +47,7 @@ Second, **knowing when general model capabilities have outgrown your skill.** Th
 
 We've also added a **benchmark mode** that runs a standardized assessment using your evals. This is something you can run after model updates or as you iterate on the skill itself. It tracks eval pass rate, elapsed time, and token usage.
 
-![](../_media/claude-improving-skill-creator-test-measure-and-refine-agent-skills/Claude_improving-skill-creator-test-measure-and-refine-agent-skills_2.png)
+![](https://assets.claude.com/a17fb435f399ab7b41480ee4372ab52cef0e8ea1.png)
 
 Your evals and results stay with you. Store them locally, integrate them with a dashboard, or plug them into a CI system.
 
@@ -57,7 +57,7 @@ Running evals sequentially can be slow, and accumulating context can bleed betwe
 
 We've also added **comparator agents** for A/B comparisons: two skill versions, or skill vs. no skill. They judge outputs without knowing which is which, so you can tell whether a change actually helped.
 
-![](../_media/claude-improving-skill-creator-test-measure-and-refine-agent-skills/Claude_improving-skill-creator-test-measure-and-refine-agent-skills_3.png)
+![](https://assets.claude.com/52413cc0ceb3eba619bc5ca3845fe5bb6422d57c.png)
 
 ## **Getting skills to trigger at the right time**
 
@@ -65,7 +65,7 @@ Evals measure output quality, but that only matters if your skill triggers when 
 
 We ran it across our document-creation skills and saw improved triggering on 5 out of 6 public skills.
 
-![](../_media/claude-improving-skill-creator-test-measure-and-refine-agent-skills/Claude_improving-skill-creator-test-measure-and-refine-agent-skills_4.png)
+![](https://assets.claude.com/f3531e57903415ea85fc883ab023d59d77fd7b21.png)
 
 ## **Looking ahead**
 

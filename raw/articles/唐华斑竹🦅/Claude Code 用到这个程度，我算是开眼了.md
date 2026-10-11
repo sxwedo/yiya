@@ -111,7 +111,7 @@ Matt 在文章结尾总结了他的全部装备：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2063284267296461028/uniswap12_2063284267296461028_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HKJCEFobgAAg3xI?format=jpg&name=medium)
 
 ## 💬 Replies
 

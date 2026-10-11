@@ -32,7 +32,7 @@ type: "NoteTweet"
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2016792081076007363/op7418_2016792081076007363_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2016791544528048128/img/RMN1IV3ng3O5q2cf.jpg)
 
 ## 💬 Replies
 

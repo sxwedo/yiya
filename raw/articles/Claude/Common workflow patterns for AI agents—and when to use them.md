@@ -61,7 +61,7 @@ Sequential workflows execute tasks in a predetermined order.
 
 Agents at each stage process inputs, make decisions, make tool calls as needed, then pass results to the next stage. The result is a clear chain of operations where outputs flow linearly through the system.
 
-![](../_media/claude-common-workflow-patterns-for-ai-agents-and-when-to-use-them/Claude_common-workflow-patterns-for-ai-agents-and-when-to-use-them_1.png)
+![](https://assets.claude.com/2fdd3b26e1ebfc261a7e6b4eac1b9645affd94e4.png)
 
 **When to use:** Sequential workflows excel when tasks naturally break down into distinct stages with clear dependencies. You're trading some latency for higher accuracy by focusing each agent on a specific subtask instead of trying to handle everything at once.
 
@@ -91,7 +91,7 @@ The approach resembles the fan-out/fan-in pattern from distributed systems. You 
 
 Agents don't hand off work to each other—they operate autonomously and produce results that contribute to the overall task.
 
-![](../_media/claude-common-workflow-patterns-for-ai-agents-and-when-to-use-them/Claude_common-workflow-patterns-for-ai-agents-and-when-to-use-them_2.png)
+![](https://assets.claude.com/3c4721f857b04a10946625c9f43254700751e78c.png)
 
 **When to use:** Parallelization makes sense when you can divide work into independent subtasks that benefit from simultaneous processing, or when you need multiple perspectives on the same problem. It also enables separation of concerns: different engineers can own and optimize individual agents independently without their work interfering with each other. For complex tasks, handling each consideration with a separate AI call often outperforms trying to juggle everything in one call.
 
@@ -116,7 +116,7 @@ Evaluator-optimizer workflows pair two agents in an iterative cycle: one generat
 
 The key insight is that generation and evaluation are different cognitive tasks. Separating them lets each agent specialize—the generator focuses on producing content, the evaluator focuses on applying consistent quality criteria.
 
-![](../_media/claude-common-workflow-patterns-for-ai-agents-and-when-to-use-them/Claude_common-workflow-patterns-for-ai-agents-and-when-to-use-them_3.png)
+![](https://assets.claude.com/9a59c02f15e74f13749b2ea1d8ce2ca3f7859fb1.png)
 
 **When to use:** This pattern works when you have clear, measurable quality criteria that an AI evaluator can apply consistently, and when the gap between first-attempt and final quality is meaningful enough to justify the extra tokens and latency.
 

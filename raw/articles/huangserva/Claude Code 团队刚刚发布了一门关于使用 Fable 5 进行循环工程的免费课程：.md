@@ -22,7 +22,7 @@ Claude Code 团队刚刚发布了一门关于使用 Fable 5 进行循环工程�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2075051373390155846/servasyy_ai_2075051373390155846_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2075050645602889728/img/aQizgrpXFlI5WKaO.jpg)
 
 ## 💬 Replies
 

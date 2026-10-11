@@ -46,7 +46,7 @@ Repo link in 🧵↓
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2040357775830814798/DataChaz_2040357775830814798_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HFDOlaTaYAAZjjP.jpg?name=orig)
 
 ## 💬 Replies
 

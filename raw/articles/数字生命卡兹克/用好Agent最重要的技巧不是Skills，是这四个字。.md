@@ -47,21 +47,21 @@ type: "Article"
 
 最离谱的是命名，test\_batch是哪个Skill的测试？test\_v2又是谁的v2？我自己做的东西，放了两天我自己都看不出来。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_3.jpg)
+![Image](https://pbs.twimg.com/media/HF1UpfvasAUMFdI.jpg)
 
 我当时就有点应激了，真的，一时间无语凝噎，只能含泪打开Claude Code让它去给我规整了，然后直接给我定一个规范。
 
 没过一会，他弄完了。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_4.png)
+![Image](https://pbs.twimg.com/media/HF1UuNKasAATwSt.png)
 
 然后写了一个这个项目级别的CLAUDE.md文档，你可以把这个文档，理解为这就是Claude Code进入到这个文件夹以后，第一个必须要读且要遵守的东西，就是它以后的行为准则。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_5.png)
+![Image](https://pbs.twimg.com/media/HF1UyHybUAAgWDh.png)
 
 规范还是挺全面的。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_1.png)
+![Image](https://pbs.twimg.com/media/HF1U4n4aEAAkWSi.png)
 
 有了这个CLAUDE.md文件以后，我的这个工作区，就可以不断的进行各种各样的Skills开发和实验了，每个新的Skills，都会自动给我新建一个文件夹，一些实验性的东西会放在\_sandbox里，里面的东西超过一个月就会删除。
 
@@ -75,7 +75,7 @@ type: "Article"
 
 也就是在最最顶层，无论是打开什么文件都会加载的全局CLAUDE.md文档里面，我并没有定好这一层约束。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_7.png)
+![Image](https://pbs.twimg.com/media/HF1VD7UasAEL4oL.png)
 
 我自己脑子里过去在开发各种各样的项目的时候一直都有这个意识，一般我都会在每个项目里，让它先强制写好文档再进行开发。
 
@@ -95,7 +95,7 @@ OpenClaw很多时候越用越蠢，其实就是他的规范和记忆体系真的
 
 是一层一层叠下来的。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_6.png)
+![Image](https://pbs.twimg.com/media/HF1VUaeaEAAE9Bu.png)
 
 最顶层，是全局CLAUDE.md。放在用户目录下面，无论你打开什么项目都会加载。这是最高指令和原则，你是谁、你做事的原则、你希望AI用什么方式跟你协作。
 
@@ -176,7 +176,7 @@ OpenClaw很多时候越用越蠢，其实就是他的规范和记忆体系真的
 
 所以我在全局规范里写了五条我总结的交互设计核心原则。写进去之后Claude做出来的东西确实不一样了。
 
-![Image](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_2.png)
+![Image](https://pbs.twimg.com/media/HF1WgZhasAEjBph.png)
 
 而约束先行这条，它就两段话，但它解决的也是一个根问题。
 
@@ -236,7 +236,7 @@ OpenClaw很多时候越用越蠢，其实就是他的规范和记忆体系真的
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2043886063106830741/Khazix0918_2043886063106830741_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HF1XYkPbwAA8SAz.jpg)
 
 ## 💬 Replies
 

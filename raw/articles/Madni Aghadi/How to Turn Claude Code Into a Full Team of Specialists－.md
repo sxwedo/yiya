@@ -89,7 +89,7 @@ Let me walk you through the team.
 
 ## EngineerKit
 
-![Image](../_media/x-2069010198040326329/hey_madni_2069010198040326329_5.jpg)
+![Image](https://pbs.twimg.com/media/HLaFKD8b0AA9qnb.jpg)
 
 This is the one I reach for daily
 
@@ -129,7 +129,7 @@ If you write code with Claude Code, this is the floor.
 
 ## VideoKit
 
-![Image](../_media/x-2069010198040326329/hey_madni_2069010198040326329_4.jpg)
+![Image](https://pbs.twimg.com/media/HLaFp6PacAAcC99.jpg)
 
 I did not expect a video studio to live inside my terminal. 
 
@@ -179,7 +179,7 @@ For content creators, marketers, & agencies who are drowning in "we need it in e
 
 ## MarketingKit
 
-![Image](../_media/x-2069010198040326329/hey_madni_2069010198040326329_1.jpg)
+![Image](https://pbs.twimg.com/media/HLaGdIhbAAAv5eA.jpg)
 
 Every other kit does marketing ops. This one does the thing nobody else nails. It makes the writing sound like a human wrote it.
 
@@ -221,7 +221,7 @@ For founders doing their own marketing, content teams, and agencies tired of edi
 
 ## SEOKit
 
-![Image](../_media/x-2069010198040326329/hey_madni_2069010198040326329_3.jpg)
+![Image](https://pbs.twimg.com/media/HLaG6RGacAAxbxa.jpg)
 
 SEO is mostly knowing where the free money is hiding. 
 
@@ -259,7 +259,7 @@ For content teams, SEO agencies& founders growing on organic instead of burning 
 
 ## EcomKit
 
-![Image](../_media/x-2069010198040326329/hey_madni_2069010198040326329_6.jpg)
+![Image](https://pbs.twimg.com/media/HLaHptqbsAAphQw.jpg)
 
 This kit talks in money. 
 
@@ -291,7 +291,7 @@ For ecom founders, Shopify operators, and agencies running stores for clients wh
 
 ## TradeKit
 
-![Image](../_media/x-2069010198040326329/hey_madni_2069010198040326329_2.jpg)
+![Image](https://pbs.twimg.com/media/HLaIh34aIAAuHSp.jpg)
 
 The bonus seat at the table...
 
@@ -351,7 +351,7 @@ Go hire your department.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069010198040326329/hey_madni_2069010198040326329_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HLaK1GZaUAACtJ7.jpg)
 
 ## 💬 Replies
 

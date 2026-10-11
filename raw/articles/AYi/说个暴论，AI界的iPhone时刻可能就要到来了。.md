@@ -57,7 +57,7 @@ Elephant Alpha 是不是下一个ChatGPT 呢，我觉得不是，它更像是AI�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2045173794180895123/AYi_AInotes_2045173794180895123_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2045173031945834496/img/A30JZPq5PB5hxPrI.jpg)
 
 ## 💬 Replies
 

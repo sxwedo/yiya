@@ -35,7 +35,7 @@ GitHub 上已有 15.4K Stars 的开源工具：Agent Reach
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2041103866876367027/SUOHA_AI_2041103866876367027_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HFNy99bbkAATXSH?format=jpg&name=medium)
 
 ## 💬 Replies
 

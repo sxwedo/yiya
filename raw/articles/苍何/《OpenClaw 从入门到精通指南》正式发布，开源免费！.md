@@ -13,17 +13,17 @@ type: "Article"
 
 今天，我们打磨了很久的《OpenClaw 从入门到精通指南》终于正式和大家见面了。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_3.jpg)
+![Image](https://pbs.twimg.com/media/HDNE2KybQAA8Dyy.jpg)
 
 他是完全免费的，开源的。
 
 从 OpenClaw 还没大火的时候，我们就开始写这份文档，那个时候在 X 上先推了第一个版本，收到了不少的喜欢。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_14.png)
+![Image](https://pbs.twimg.com/media/HDNE2zQa8AAriy2.png)
 
 从 OpenClaw 还没改名的时候，就开始在整理了，甚至我们连自己都忘记了这个时间，只知道做了很久很久，至少对 AI 这个快速迭代的圈子来说，花一两个月打磨一个文档，不算短。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_13.png)
+![Image](https://pbs.twimg.com/media/HDNE3YGaMAAG8_X.png)
 
 我们陆续补充了很多新的关于 OpenClaw 的使用教程及案例，甚至是 Skills。
 
@@ -33,15 +33,15 @@ type: "Article"
 
 最关键的，教程中的每一个步骤，全部是我们亲自部署实践后做的截图，可以说很细致了。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_16.jpg)
+![Image](https://pbs.twimg.com/media/HDNE32DbEAAWleX.jpg)
 
 甚至 Windows 的本地部署，也是自己去部署了，然后把坑和难点给大家做分享，包括每一步的步骤：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_8.jpg)
+![Image](https://pbs.twimg.com/media/HDNE4hibAAAp6hl.jpg)
 
 比如自己 Windows 安装 WSL 配置，该怎么配置，用哪个命令，开哪个权限，都仔细的写上去了。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_9.jpg)
+![Image](https://pbs.twimg.com/media/HDNE5HsbQAUqlVs.jpg)
 
 写的越是细致，我们反而变得有些慢了，所以迟迟还没推出。
 
@@ -51,39 +51,39 @@ type: "Article"
 
 我老婆就骂过我，说，你写的这什么 B 玩意，我照着做，都不知道怎么打开终端。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_6.jpg)
+![Image](https://pbs.twimg.com/media/HDNE5sUasAAJhtr.jpg)
 
 后面，我们又尝试做了优化，再后面，随着国内大厂的跟进，越来越多的针对小白的OpenClaw 小龙虾出现了。
 
 于是又补充了很多的教程，专门针对小白一键部署使用。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_4.png)
+![Image](https://pbs.twimg.com/media/HDNE6SebQAMfZME.png)
 
 除此之外，除了说清楚了怎么部署，还把具体有什么好玩的也做了分享。
 
 比如做数字人：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_17.jpg)
+![Image](https://pbs.twimg.com/media/HDNE6wMbAAEpEWL.jpg)
 
 比如做小红书封面图：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_2.jpg)
+![Image](https://pbs.twimg.com/media/HDNE7WSbQAAAyfS.jpg)
 
 比如监控 X 信息：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_7.jpg)
+![Image](https://pbs.twimg.com/media/HDNE8FCbQAEn8s3.jpg)
 
 做第二大脑系统：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_12.jpg)
+![Image](https://pbs.twimg.com/media/HDNE8v0bwAAKexo.jpg)
 
 用 OpenClaw 做漫剧：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_11.jpg)
+![Image](https://pbs.twimg.com/media/HDNE9cdbAAETGNn.jpg)
 
 也搜集了很多不错的 case 直接放在了第三部分「OpenClaw的实际应用场景」：
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_15.jpg)
+![Image](https://pbs.twimg.com/media/HDNE-NibQAM8vEi.jpg)
 
 这些场景，不是简单的整理，而是实打实，我们去亲身实践的，并把教程和对应的 skill 也直接分享了。
 
@@ -95,19 +95,19 @@ OpenClaw 要想玩的好，还是需要了解不少的 Skills，虽然说在 Cla
 
 所以，我们在第四部分放了好用的技能推荐。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_1.jpg)
+![Image](https://pbs.twimg.com/media/HDNE-42bQAI0zrP.jpg)
 
 我也把所有用到的技能全部都打包放在了文档中。
 
 甚至我们团队的蜗牛还单独拉出了一个文档专门分享好用的技能。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_5.jpg)
+![Image](https://pbs.twimg.com/media/HDNE_fYaEAAJMb3.jpg)
 
 也受到了很多朋友的喜欢，每天的访问量很恐怖。
 
 是那种细致到，技能压缩包都给你下载了，你只需要丢给小龙虾，让他自己去安装就好了。
 
-![Image](../_media/x-2032044423413182827/canghe_2032044423413182827_10.png)
+![Image](https://pbs.twimg.com/media/HDNFAIQbEAAXSl7.png)
 
 相对来说，我们的文档，偏向以我们的实践为主，理论偏少。
 
@@ -151,7 +151,7 @@ https://my.feishu.cn/wiki/THLNw1vWCiXJD6kvomlcYpu5nRe?from=from\_copylink
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2032044423413182827/canghe_2032044423413182827_18.jpg)
+![Image 1](https://pbs.twimg.com/media/HDNFBHkbwAAA8W8.jpg)
 
 ## 💬 Replies
 

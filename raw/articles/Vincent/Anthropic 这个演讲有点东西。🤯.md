@@ -21,7 +21,7 @@ Anthropic 这个演讲有点东西。🤯
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2053447731797168594/Vincent_AINotes_2053447731797168594_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2053446505197879303/img/sRscuLczxewLRfZZ.jpg)
 
 ## 💬 Replies
 

@@ -23,7 +23,7 @@ Watch it today, and read the article below to improve your skills with Fable 5.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2074815526690308531/de1lymoon_2074815526690308531_1.jpg)
+![Image 1](https://pbs.twimg.com/amplify_video_thumb/2074809177591959552/img/epOsq6me1nkGlpYm.jpg)
 
 ## 💬 Replies
 

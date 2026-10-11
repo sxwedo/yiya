@@ -21,7 +21,7 @@ type: "Article"
 
 第二天他又追了一条推，直接甩出一个 GitHub Gist，叫 LLM Wiki。1600 Star，289 Fork。
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_4.jpg)
+![Image](https://pbs.twimg.com/media/HFHwOyOWYAAVzqE.jpg)
 
 他管这份 Gist 叫 Idea File。不是代码，不是 App，就是一份想法说明——你把它丢给自己的 AI Agent，Agent 会帮你把整套知识库搭出来。
 
@@ -31,7 +31,7 @@ Gist 地址：https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 ---
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_12.jpg)
+![Image](https://pbs.twimg.com/media/HFHwJkGaUAAfSSA.jpg)
 
 Karpathy 在原始推文里说了一句很关键的话：
 
@@ -47,9 +47,9 @@ Karpathy 的思路是：别每次都现场推导，让 AI 提前把知识整理�
 
 ---
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_7.jpg)
+![Image](https://pbs.twimg.com/media/HFHwDlRasAAjaX5.jpg)
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_1.jpg)
+![Image](https://pbs.twimg.com/media/HFHv-qnbIAAz4rQ.jpg)
 
 在 Gist 里，他把整个系统拆成三层：
 
@@ -67,9 +67,9 @@ AI 负责写代码（写 Wiki），你负责提需求（选资料、问问题、
 
 ---
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_8.jpg)
+![Image](https://pbs.twimg.com/media/HFHv4hXWsAAVx6H.jpg)
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_3.jpg)
+![Image](https://pbs.twimg.com/media/HFHvx5FbIAAUy2f.jpg)
 
 Karpathy 在推文和 Gist 里都提到了三个核心操作：
 
@@ -91,7 +91,7 @@ Karpathy 在 Gist 里写了一句话我很认同：人类放弃维护 Wiki，因
 
 ---
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_6.jpg)
+![Image](https://pbs.twimg.com/media/HFHvseNXYAAksIf.jpg)
 
 Karpathy 在第二条推文里解释了为什么用 Gist 而不是发一个代码仓库：
 
@@ -103,7 +103,7 @@ Karpathy 在第二条推文里解释了为什么用 Gist 而不是发一个代�
 
 ---
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_9.jpg)
+![Image](https://pbs.twimg.com/media/HFHvnUJbAAAFbkz.jpg)
 
 看完 Karpathy 的推文和 Gist，我觉得这套东西和 nexu 是天然搭配。
 
@@ -115,7 +115,7 @@ nexu 是开源的桌面 AI Agent 平台，所有数据在本地，Agent 直接�
 
 Karpathy 说这份 Gist 就是给 Agent 的工作说明。nexu 的 Skill 体系正好干这个——一份 Markdown 规格文件，定义好 Agent 的行为。我把 Gist 内容稍微改了一下，变成了一个 nexu Skill：约定了 \`raw/\`、\`wiki/\` 的结构，入库时更新哪些文件，体检时检查哪些项。换个研究方向，复制这个 Skill 就能起一个新的知识库。
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_2.jpg)
+![Image](https://pbs.twimg.com/media/HFHviLGaYAAPuQS.jpg)
 
 2\. 在微信里随手入库
 
@@ -131,7 +131,7 @@ nexu 连了微信、飞书、Slack 六大 IM。看到一篇好文章，转发给
 
 ---
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_10.jpg)
+![Image](https://pbs.twimg.com/media/HFHvYAtaQAAFzdz.jpg)
 
 Karpathy 在 Gist 最后引用了 1945 年 Vannevar Bush 的 Memex 概念——私人的、策展式的知识存储，强调文档之间的关联。Bush 当年没解决的问题是谁来做维护。80 年后，AI 能接这个活了。
 
@@ -142,17 +142,17 @@ https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 nexu 是一个可以一键安装的 OpenClaw 桌面客户端，让你在本地用 AI 操控一切。如果觉得这篇文章有帮助，去 GitHub 给我们点个 Star 吧 🌟
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_11.jpg)
+![Image](https://pbs.twimg.com/media/HFHvSkLbkAAbFd8.jpg)
 
 GitHub：https://github.com/nexu-io/nexu
 
 扫码加入龙虾社区，一起交流 AI Agent 和个人知识库搭建：
 
-![Image](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_5.jpg)
+![Image](https://pbs.twimg.com/media/HFHvDlSbAAEbGLC.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2040682055801937969/JoyLi629_2040682055801937969_13.jpg)
+![Image 1](https://pbs.twimg.com/media/HFH0fMBbUAARa_x.jpg)
 
 ## 💬 Replies
 

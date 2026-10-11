@@ -20,13 +20,13 @@ type: "Article"
 少，不代表空。
 少，是让重要的东西被看见。
 
-![Image](../_media/x-2069334347472323011/AdrianPunk115_2069334347472323011_1.jpg)
+![Image](https://pbs.twimg.com/media/HLe-kZ4aEAA0PFb.jpg)
 
-![Image](../_media/x-2069334347472323011/AdrianPunk115_2069334347472323011_2.jpg)
+![Image](https://pbs.twimg.com/media/HLe-eLbb0AAjgaQ.jpg)
 
-![Image](../_media/x-2069334347472323011/AdrianPunk115_2069334347472323011_3.jpg)
+![Image](https://pbs.twimg.com/media/HLe-Wu5acAAzr3y.jpg)
 
-![Image](../_media/x-2069334347472323011/AdrianPunk115_2069334347472323011_4.jpg)
+![Image](https://pbs.twimg.com/media/HLe9RlnbkAABDVE.jpg)
 
 \`\`\`
 你是一名法式极简艺术海报设计师、视觉隐喻导演和编辑设计师。
@@ -306,7 +306,7 @@ Punk｜中科大 MBA｜被大厂优化，在 X 上重新进化｜HerName 首席�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069334347472323011/AdrianPunk115_2069334347472323011_5.jpg)
+![Image 1](https://pbs.twimg.com/media/HLe_aD8bMAE2xz8.jpg)
 
 ## 💬 Replies
 

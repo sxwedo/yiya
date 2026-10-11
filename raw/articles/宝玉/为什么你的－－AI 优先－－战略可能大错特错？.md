@@ -13,7 +13,7 @@ type: "Article"
 
 今天刷到《Why Your”AI-First”Strategy Is Probably Wrong》这篇文章（原文翻译我放到下面）几次，说点不一样的。与其说 AI First，不如说软件工程 First。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_6.jpg)
+![Image](https://pbs.twimg.com/media/HF2UaKxXoAAw18I.jpg)
 
 这篇文章看着在讲 AI，底下全是软件工程。
 
@@ -43,7 +43,7 @@ AI 时代，人成了瓶颈。 PM 花几周做需求，AI 两小时就能实现�
 
 这几条里如果有做不到的，就得靠人去补。补不上，AI First 就只是一句口号。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_10.jpg)
+![Image](https://pbs.twimg.com/media/HF2UdioXYAArHtQ.jpg)
 
 ## 什么场景适合，什么不适合
 
@@ -63,7 +63,7 @@ AI 时代，人成了瓶颈。 PM 花几周做需求，AI 两小时就能实现�
 
 - 安全性要求高的场景。 银行系统、在线交易平台，AI 代码出个差错，那可不是回滚能解决的。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_13.jpg)
+![Image](https://pbs.twimg.com/media/HF2Uh50asAMbpM3.jpg)
 
 ## AI First 的真正终点
 
@@ -94,7 +94,7 @@ OpenAI 在 2026 年 2 月发布了一个新概念，完美总结了我们一直�
 
 ## “AI 优先”不等于“使用 AI”
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_4.png)
+![Image](https://pbs.twimg.com/media/HF2UlF4WYAA4eqO.png)
 
 大多数公司只是把 AI 强行塞进现有的工作流里。工程师打开 Cursor 辅助写代码，产品经理用 ChatGPT 帮写需求文档，测试团队 (QA) 尝试用 AI 生成测试用例。整个工作流程还是老样子。效率确实提升了 10% 到 20%，但本质上的结构没有任何改变。
 
@@ -104,7 +104,7 @@ OpenAI 在 2026 年 2 月发布了一个新概念，完美总结了我们一直�
 
 这两种思路带来的差距，是指数级的。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_7.jpg)
+![Image](https://pbs.twimg.com/media/HF2UoOKWwAEeNS8.jpg)
 
 我看到很多团队自称“AI 优先”，却依然在跑原来的敏捷冲刺周期，用着一样的 Jira 任务看板，开着一样的每周站会，还要经过一样的 QA 验收签字流程。他们只是把 AI 强加进了现有的循环里，而没有重新设计这个循环。
 
@@ -134,11 +134,11 @@ OpenAI 在 2026 年 2 月发布了一个新概念，完美总结了我们一直�
 
 我们需要把 AI 深度贯穿到三个系统中：如何设计产品、如何实现产品、以及如何测试产品。如果其中任何一个环节依然靠纯人工，它就会拖垮整个流水线。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_9.jpg)
+![Image](https://pbs.twimg.com/media/HF2Uqx5XoAAUK3L.jpg)
 
 ## 一个大胆的决定：统一架构
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_14.png)
+![Image](https://pbs.twimg.com/media/HF2UtSybsAAz3tE.png)
 
 我得先拿代码库开刀。
 
@@ -186,7 +186,7 @@ AI 代码审查：Claude
 
 自愈反馈循环
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_8.jpg)
+![Image](https://pbs.twimg.com/media/HF2UwYoasAAdNzv.jpg)
 
 这是整个体系的灵魂。
 
@@ -198,9 +198,9 @@ AI 代码审查：Claude
 
 当工程师提交修复代码时，同样的流水线会接管一切。Claude 会进行三轮审查，CI 进行验证。六阶段部署流水线将其推送到各个环境并进行测试。部署完成后，分诊引擎会再次检查监控数据。如果原先的错误解决了，工单就会自动关闭。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_3.jpg)
+![Image](https://pbs.twimg.com/media/HF2U0FPW0AAuucK.jpg)
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_11.jpg)
+![Image](https://pbs.twimg.com/media/HF2U2o_XAAA3ASI.jpg)
 
 每个工具只负责一个阶段。没有哪个工具试图包揽一切。这个日常循环创造了一个“自愈闭环”：以最少的人工干预，完成错误的检测、分诊、修复和验证。
 
@@ -216,7 +216,7 @@ Sentry 报告所有服务的结构化异常，再由分诊引擎将其与监控�
 
 ## 一个功能如何从想法走向生产环境
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_5.png)
+![Image](https://pbs.twimg.com/media/HF2U5JyXYAAMjI9.png)
 
 新功能开发路径
 
@@ -250,11 +250,11 @@ Bug 修复路径
 
 这两条路径用的是完全同一套流水线。同一个系统，同一个标准。
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_12.jpg)
+![Image](https://pbs.twimg.com/media/HF2U734W4AAUx5n.jpg)
 
 ## 成果如何
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_1.png)
+![Image](https://pbs.twimg.com/media/HF2U-VCasAcNsbN.png)
 
 在过去 14 天里，我们平均每天进行 3 到 8 次生产环境部署。在旧模式下，这整整两周的时间里，我们连一次发布都做不出来。
 
@@ -264,7 +264,7 @@ Bug 修复路径
 
 ## 全新的工程组织架构
 
-![Image](../_media/x-2043953753921847582/dotey_2043953753921847582_2.jpg)
+![Image](https://pbs.twimg.com/media/HF2VA2xXMAAxgCq.jpg)
 
 未来只会存在两种类型的工程师。
 
@@ -390,7 +390,7 @@ OpenAI、Anthropic 以及许多独立团队都在向着同样的原则靠拢：�
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2043953753921847582/dotey_2043953753921847582_15.jpg)
+![Image 1](https://pbs.twimg.com/media/HF2UW41XsAAVeu1.jpg)
 
 ## 💬 Replies
 

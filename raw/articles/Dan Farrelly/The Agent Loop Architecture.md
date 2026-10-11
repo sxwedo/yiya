@@ -246,7 +246,7 @@ What about conflicts? Flow controls, specifically, concurrency controls or singl
 
 The agent isn't just executing tasks. It's building infrastructure for itself. Each skill persists beyond the conversation that created it. Kill the agent process and restart it. The skills keep running. Swap the underlying model. The skills keep running. The agent is ephemeral — its output is durable.
 
-![Image](../_media/x-2067677007140278630/djfarrelly_2067677007140278630_1.png)
+![Image](https://pbs.twimg.com/media/HLHcdy1XEAAkAqn.png)
 
 ## The developer's view
 
@@ -317,7 +317,7 @@ The primitives exist today. Build accordingly.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2067677007140278630/djfarrelly_2067677007140278630_2.jpg)
+![Image 1](https://pbs.twimg.com/media/HLHTy-3WMAEHMBY.jpg)
 
 ## 💬 Replies
 

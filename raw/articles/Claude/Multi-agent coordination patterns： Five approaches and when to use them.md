@@ -26,7 +26,7 @@ This is the simplest multi-agent pattern and among the most deployed. We introdu
 
 ### How it works ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_1.png)
+![](https://assets.claude.com/5c6e32afcbfc38d375f25ec0f9d187c8cefd49cc.png)
 
 ‍
 
@@ -52,7 +52,7 @@ Hierarchy defines this pattern. One agent acts as a team lead that plans work, d
 
 ### How it works ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_2.png)
+![](https://assets.claude.com/c2af5db81717ec0047d62944f960e510860c3dbf.png)
 
 A lead agent receives a task and determines how to approach it. It may handle some subtasks directly while dispatching others to subagents. Subagents complete their work and return results, which the orchestrator synthesizes into a final output.
 
@@ -76,7 +76,7 @@ When work decomposes into parallel subtasks that can proceed independently for e
 
 ### How it works ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_3.png)
+![](https://assets.claude.com/c3208865ee6a6c6c0c7a071d66fa797d72b2dfcc.png)
 
 A coordinator spawns multiple worker agents as independent processes. Teammates claim tasks from a shared queue, work on them autonomously across multiple steps, and signal completion.
 
@@ -102,7 +102,7 @@ As agent count increases and interaction patterns grow complex, direct coordinat
 
 ### How it works ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_4.png)
+![](https://assets.claude.com/62e7d3b2ede639843ba270fdba84aa57f446ffad.png)
 
 Agents interact through two primitives: publish and subscribe. Agents subscribe to the topics they care about, and a router delivers matching messages. New agents with new capabilities can start receiving relevant work without rewiring existing connections.
 
@@ -122,7 +122,7 @@ Routing accuracy is also critical. If the router misclassifies or drops an event
 
 ## Pattern 5: Shared state
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_5.png)
+![](https://assets.claude.com/f4a221e1b8bc3421162b15f565fa1b46725c0e7c.png)
 
 Orchestrators, team leads, and message routers in the previous patterns all centrally manage information flow. Shared state removes the intermediary by letting agents coordinate through a persistent store that all can read and write directly.
 
@@ -150,7 +150,7 @@ The right pattern depends on a handful of structural questions about the system.
 
 ### Orchestrator-subagent vs. agent teams ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_6.png)
+![](https://assets.claude.com/742de423f421c12760fb8137e18732fc87dab10d.png)
 
 Both involve a coordinator dispatching work to other agents. The question is how long workers need to maintain their context.
 
@@ -161,7 +161,7 @@ When subagents need to retain state across invocations, agent teams are the bett
 
 ### Orchestrator-subagent vs. message bus ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_7.png)
+![](https://assets.claude.com/680a70cf3ec53a3757197be17373e6e1ec814c51.png)
 
 Both can handle multi-step workflows. The question is how predictable the workflow structure is.
 
@@ -172,7 +172,7 @@ As conditional logic accumulates in the orchestrator to handle an expanding vari
 
 ### Agent teams vs. shared state ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_8.png)
+![](https://assets.claude.com/4375086ca2c10edfec16fb20d4c95831d04ab1ad.png)
 
 Both involve agents working autonomously. The question is whether agents need each other's findings.
 
@@ -183,7 +183,7 @@ Once teammates need to communicate with each other rather than only share final 
 
 ### Message bus vs. shared state ###
 
-![](../_media/claude-multi-agent-coordination-patterns-five-approaches-and-when-t/Claude_multi-agent-coordination-patterns_9.png)
+![](https://assets.claude.com/e35f51e67250164340de169834495f360b8ff295.png)
 
 Both support complex multi-agent coordination. The question is whether work flows as discrete events or accumulates into a shared knowledge base.
 

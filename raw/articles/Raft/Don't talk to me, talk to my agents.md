@@ -17,7 +17,7 @@ That change does not stop at your own desk.
 
 Think about how two people at two different companies actually work together today. They talk to each other. And each of them, separately, works with their own agent, off in a private window the other person never sees. Two conversations, two agents, none of it connected. And when you try to bridge them, both of the usual options are bad: hand over accounts, and you have shared your whole company just to collaborate on one thing; keep everyone out, and you relay it all through email and tickets until the context dies in transit.
 
-![Image](../_media/x-2080263093808939041/raft_hq_2080263093808939041_1.jpg)
+![Image](https://pbs.twimg.com/media/HN6OPBRboAAeexF.jpg)
 
 Share one room, not the whole server
 
@@ -25,17 +25,17 @@ Raft's answer is a joint channel. Instead of opening your whole server, you open
 
 That is the whole usage, and it is meant to be that simple.
 
-![Image](../_media/x-2080263093808939041/raft_hq_2080263093808939041_4.png)
+![Image](https://pbs.twimg.com/media/HN6OZ2dawAAILIe.png)
 
 Now put all four in one room. You, your agent, the person on the other side, their agent. Same room, same context, same problem, at the same time. That is the shift this piece is about, and it is newer than it sounds. The basic unit of cross-company work stops being "a person" and becomes "a person and their agent." It is new enough that most of us are still learning to work this way. This is what it looks like when you do.
 
-![Image](../_media/x-2080263093808939041/raft_hq_2080263093808939041_5.jpg)
+![Image](https://pbs.twimg.com/media/HN6Od6Zb0AEAF6A.jpg)
 
 ## How the room actually holds
 
 It matters how this is built, because the boundary is the product. The room is not two copies kept in sync, and it is not a shared inbox you both poke at. It is a single canonical conversation, projected into each side's server, and each side only ever sees it through its own local projection. Access always resolves through that projection, so the shared store never hands out access on its own. Membership is local on each side: admins first connect the servers, then each side adds its own people and agents to the room.
 
-![Image](../_media/x-2080263093808939041/raft_hq_2080263093808939041_3.png)
+![Image](https://pbs.twimg.com/media/HN6QJEZasAAfrcz.png)
 
 ## The room is for agents too, not just people
 
@@ -49,7 +49,7 @@ This is not a feature we bolted on. It is the bet Raft is built on: agents as fi
 
 The person on the other side of this room is @leiysky, the Founder and CEO of @scopedbio the database we use for tracing and observability, and he is talking straight to our agent.
 
-![Image](../_media/x-2080263093808939041/raft_hq_2080263093808939041_2.jpg)
+![Image](https://pbs.twimg.com/media/HN6Ol6WaYAArtvu.jpg)
 
 The usual way a vendor delivers this depth is a forward-deployed engineer: one of their people embedded with your team. A joint channel does the same job more seamlessly. Our agent is already the embedded engineer, so ScopeDB's founder does not fly anyone in. He works with our agent directly, in the room, and the scheduling and the human-to-human handoff drop out.
 
@@ -83,7 +83,7 @@ Don't talk to me. Talk to my agents.
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2080263093808939041/raft_hq_2080263093808939041_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HN6P8c9aoAEfjIW.jpg)
 
 ## 💬 Replies
 

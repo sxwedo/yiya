@@ -18,7 +18,7 @@ The code deploys where you already build with Claude, including the Claude API, 
 
 It’s [available today](https://github.com/anthropics/commerce-agents), with [live demos](https://claude.com/solutions/commerce) for each vertical and an [engineering deep-dive](http://claude.com/blog/the-anatomy-of-effective-commerce-agents) on how it was built, just in time for holiday season planning.
 
-![The shopping agent running in the ACME retail example.](../_media/claude-claude-for-commerce-agents/Claude_claude-for-commerce-agents_1.webp)
+![The shopping agent running in the ACME retail example.](https://assets.claude.com/b9ec1abf25aff70e3ad5f91895c78ad550cf92e3.jpg)
 
 *The shopping agent running in the ACME retail example.*
 
@@ -51,7 +51,7 @@ The merchant agent supports the people running the store. A user can ask “what
 
 When the agent proactively suggests a change, a person approves it before anything goes live, meaning users get the final say while their agent watches the store. In the repository, these capabilities ship as skills for sales analytics, catalog and inventory management, marketing and promotions, and in-portal UI such as charts and dashboards.
 
-![](../_media/claude-claude-for-commerce-agents/Claude_claude-for-commerce-agents_2.png)
+![](https://assets.claude.com/045755d6e355214e83ca27b6378b2fb4dde6d3cf.png)
 
 ## Trusted across the industry
 

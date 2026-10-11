@@ -43,7 +43,7 @@ You are the loop. You're the one checking the work and deciding the next step, e
 
 Ask Claude to write you a one page brief on any topic. Simple task. It writes something clean and confident, with sources at the bottom.
 
-![Image](../_media/x-2069212188619805179/Raytar_2069212188619805179_5.jpg)
+![Image](https://pbs.twimg.com/media/HLcRAF0aQAAuwrJ.jpg)
 
 Now read the sources. Some of them are fake(!!!). Claude made them up and has no idea it did. They look real. The links go nowhere, or they go somewhere that doesn't say what Claude claimed. This is the quiet way Claude burns you, and a single prompt can never catch it, because Claude stays confident it's right until something opens the link.
 
@@ -71,7 +71,7 @@ Stop only when every source on the page checks out.
 
 # What a loop is
 
-![Image](../_media/x-2069212188619805179/Raytar_2069212188619805179_3.jpg)
+![Image](https://pbs.twimg.com/media/HLdPrvlWUAAVWIN.jpg)
 
 A loop is a small system that prompts Claude for you, over and over, until a job is done.
 
@@ -91,7 +91,7 @@ One line to keep: prompting is doing the work. Loop engineering is managing the 
 
 ## "Isn't this just a scheduled task?"
 
-![Image](../_media/x-2069212188619805179/Raytar_2069212188619805179_4.jpg)
+![Image](https://pbs.twimg.com/media/HLdOGUyXoAAZSoY.jpg)
 
 Good question. No.
 
@@ -105,7 +105,7 @@ That decision in the middle is the entire point. A script can't look at a broken
 
 ## The two commands that run a loop
 
-![Image](../_media/x-2069212188619805179/Raytar_2069212188619805179_2.jpg)
+![Image](https://pbs.twimg.com/media/HLdO2TKXQAA6Omo?format=jpg&name=medium)
 
 Here's where most people go wrong. You don't build a loop by typing "do this in a loop" into a normal chat. Claude Code has two commands built in, and which one you reach for depends on the kind of loop you need.
 
@@ -206,13 +206,13 @@ Pick one task you keep doing by hand, the kind with lots of small pieces. Paste 
 
 When you trust it, put it on a schedule. The first time you wake up to work that finished overnight, you'll stop typing prompts one at a time. Just like Boris.
 
-![Image](../_media/x-2069212188619805179/Raytar_2069212188619805179_1.jpg)
+![Image](https://pbs.twimg.com/media/HLcj4zWawAECxGg.jpg)
 
 Helped? Follow me. I share this stuff so you don't have to dig for it
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2069212188619805179/Raytar_2069212188619805179_6.jpg)
+![Image 1](https://pbs.twimg.com/media/HLdRbboXgAAwWuw.jpg)
 
 ## 💬 Replies
 

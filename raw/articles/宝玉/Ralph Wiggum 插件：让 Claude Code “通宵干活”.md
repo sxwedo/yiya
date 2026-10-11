@@ -71,7 +71,7 @@ Prompt 写法要点：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2007197068394164613/dotey_2007197068394164613_1.jpg)
+![Image 1](https://pbs.twimg.com/media/G9r_B73WAAALV7D?format=jpg&name=medium)
 
 ## 💬 Replies
 

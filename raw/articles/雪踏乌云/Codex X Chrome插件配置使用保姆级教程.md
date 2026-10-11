@@ -17,17 +17,17 @@ OpenAI 给 Codex 推出了 Chrome 扩展，让它能直接在浏览器里工作�
 
 打开Codex应用，左侧栏。直接在Codex的插件中找到Chrome，然后按照下图所示安装即可
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_6.jpg)
+![Image](https://pbs.twimg.com/media/HH0C1bnbkAAqPe7.jpg)
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_3.jpg)
+![Image](https://pbs.twimg.com/media/HH0DUGHbMAAOK8c.jpg)
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_1.jpg)
+![Image](https://pbs.twimg.com/media/HH0DtfOa0AAiFs9.jpg)
 
 二、使用
 
 这一步必须要确认，Codex在浏览器的插件处于连接正常状态
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_5.png)
+![Image](https://pbs.twimg.com/media/HH0EHgMaAAABnfU.png)
 
 在输入框里直接使用以下方式调用：
 
@@ -50,13 +50,13 @@ Codex 会：
 
 示例直接看图：
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_2.jpg)
+![Image](https://pbs.twimg.com/media/HH0E7Lha0AAiV53.jpg)
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_4.jpg)
+![Image](https://pbs.twimg.com/media/HH0FDRRakAApf0e.jpg)
 
 可以看到，成功打开了我的浏览器，最后看结果：
 
-![Image](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_7.jpg)
+![Image](https://pbs.twimg.com/media/HH0FIXXaYAA1m_4.jpg)
 
 注意：
 如果后续文件上传/下载失败，进入 chrome://extensions/ → 找到 Codex → 点击“详细信息” → 打开 允许访问文件网址 权限。
@@ -70,7 +70,7 @@ https://x.com/OpenAI/status/2052480800004956323?s=20
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2052804193946390541/Pluvio9yte_2052804193946390541_8.jpg)
+![Image 1](https://pbs.twimg.com/media/HH0GdG2aMAAi_rZ.jpg)
 
 ## 💬 Replies
 

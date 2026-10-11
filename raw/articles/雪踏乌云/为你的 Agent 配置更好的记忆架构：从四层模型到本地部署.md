@@ -43,7 +43,7 @@ Agent 也应该这样。
 
 结论：Hermes 的记忆不是一个东西，是四个东西。
 
-![Image](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_5.jpg)
+![Image](https://pbs.twimg.com/media/HLrVus5bEAA_95C.jpg)
 
 第一层：持久事实（Prompt Memory）
 
@@ -117,13 +117,13 @@ Claude Code 给了我一个搜集出来的对比结果。
 
 > 「调研市面上好用的AI Agent 记忆系统，技术架构、存储后端、部署方式、开源策略做横向对比。每条结论附出处。」
 
-![Image](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_2.jpg)
+![Image](https://pbs.twimg.com/media/HLrVzZabIAAlgJq.jpg)
 
-![Image](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_1.jpg)
+![Image](https://pbs.twimg.com/media/HLrV1aFaUAAAbcb.jpg)
 
 以下是结果，令我感到惊喜的是，这个调研结果比我想象中要靠谱的多，调研的内容都是最新的，基于官方的数据，而且其思考链路清晰，中间的调研过程我可以全程追踪，在这里安利一下，叫 [apodex.ai](http://apodex.ai/) ，反正现在免费用，造就完事了。
 
-![Image](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_4.jpg)
+![Image](https://pbs.twimg.com/media/HLrV4dFaoAAJ_Nf.jpg)
 
 对我个人而言，由于都是本地文件和项目，平时也就只有我自己在用，所以我会倾向于后面两个框架 EverOS 和 MemPalace。
 
@@ -139,7 +139,7 @@ Claude Code 给了我一个搜集出来的对比结果。
 
 它没附和我。它纠正了：EverOS 的存储栈是 Markdown + SQLite + LanceDB，Mem0 用的是云端托管方案。纠正附了出处。
 
-![Image](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_3.jpg)
+![Image](https://pbs.twimg.com/media/HLrV66QawAA-ynT.jpg)
 
 可以的，很叛逆，我喜欢。
 
@@ -461,11 +461,11 @@ obsidian里面可以查看我当前的记忆结构，长这样，很清楚，便
 
 欢迎关注我 @Pluvio9yte ，我在持续分享AI类干货内容
 
-![Image](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_6.jpg)
+![Image](https://pbs.twimg.com/media/HLrWBvTaUAAn8t-.jpg)
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2070318502016426008/Pluvio9yte_2070318502016426008_7.jpg)
+![Image 1](https://pbs.twimg.com/media/HLrVqeCaUAA24YW.jpg)
 
 ## 💬 Replies
 

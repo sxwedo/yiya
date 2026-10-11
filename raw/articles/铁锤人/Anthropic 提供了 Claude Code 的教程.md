@@ -14,7 +14,7 @@ Anthropic 提供了 Claude Code 的教程
 链接在下面👇
 [anthropic.skilljar.com/claude-code-in…](https://anthropic.skilljar.com/claude-code-in-action?utm_source=www.theaivalley.com&utm_medium=newsletter&utm_campaign=chinese-ceo-kicked-by-humanoid-robot&_bhlid=d648e197469bf56b1bd19d0c9d42891c08d024fd)EK
 
-![Image](../_media/x-1998330974804082999/lxfater_1998330974804082999_1.jpg)
+![Image](https://pbs.twimg.com/media/G7t_bolaoAAE6g3?format=jpg&name=medium)
 
 ## 💬 Replies
 

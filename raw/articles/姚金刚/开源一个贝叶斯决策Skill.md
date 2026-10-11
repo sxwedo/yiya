@@ -25,13 +25,13 @@ GitHub地址：
 
 ### 🖼️ Attached Media
 
-![Image 1](../_media/x-2047904344465674572/yaojingang_2047904344465674572_1.jpg)
+![Image 1](https://pbs.twimg.com/media/HGudw-ZawAADUBB?format=jpg&name=medium)
 
-![Image 2](../_media/x-2047904344465674572/yaojingang_2047904344465674572_2.jpg)
+![Image 2](https://pbs.twimg.com/media/HGud0xobMAAgtbY?format=jpg&name=medium)
 
-![Image 3](../_media/x-2047904344465674572/yaojingang_2047904344465674572_3.jpg)
+![Image 3](https://pbs.twimg.com/media/HGud6zQa0AAOKnB?format=jpg&name=medium)
 
-![Image 4](../_media/x-2047904344465674572/yaojingang_2047904344465674572_4.jpg)
+![Image 4](https://pbs.twimg.com/media/HGueIlCaUAABVKu?format=jpg&name=medium)
 
 ## 💬 Replies
 
