@@ -12,6 +12,7 @@ related:
   - production-vertical-agent
   - openviking
   - today-ai
+  - context-pollution
 sources:
   - ../references/huolala-llm-memory-online.md
   - ../references/dewu-multiagent-memory.md
@@ -46,3 +47,4 @@ sources:
 - [生产级垂类 Agent](./production-vertical-agent.md)
 - [OpenViking](../entities/openviking.md)
 - [Today AI](../entities/today-ai.md)
+- [上下文防污染](./context-pollution.md)
