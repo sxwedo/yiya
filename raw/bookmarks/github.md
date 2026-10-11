@@ -179,3 +179,4 @@
 | anthropics/knowledge-work-plugins | <https://github.com/anthropics/knowledge-work-plugins> | anthropics | 岗位插件包：Cowork / Claude Code 打包 Skills、MCP、斜杠命令 |
 | eternity4719/HowToLiveBetter | <https://github.com/eternity4719/HowToLiveBetter> | eternity4719 | 高性价比人生指南：成本/收益/证据等级；附检索页和查书 skill |
 | morluto/rea | <https://github.com/morluto/rea> | morluto | REA：本机逆向 MCP，无源码时给 Agent 查二进制/应用/运行时 |
+| wheresryan22/anatomy | <https://github.com/wheresryan22/anatomy> | wheresryan22 | Anatomy：Claude Code Skill，一句话画出可交互等距机械图 |

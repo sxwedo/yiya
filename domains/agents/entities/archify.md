@@ -13,6 +13,7 @@ related:
   - graphify
   - codegraph
   - answer-me-with-html
+  - anatomy
 sources:
   - ../../../raw/bookmarks/github.md
 ---
@@ -35,3 +36,4 @@ sources:
 - [Graphify](./graphify.md)
 - [CodeGraph](./codegraph.md)
 - [Answer me with HTML](./answer-me-with-html.md)
+- [Anatomy](./anatomy.md)

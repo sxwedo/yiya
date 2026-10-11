@@ -16,6 +16,7 @@ related:
   - inner-outer-agent-loop
   - knowledge-work-plugins
   - how-to-live-better
+  - anatomy
 sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Claude/Introducing Agent Skills.md

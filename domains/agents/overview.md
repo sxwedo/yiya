@@ -103,6 +103,7 @@ sources: []
 | [Agent Orchestrator](./entities/agent-orchestrator.md) | 本机桌面编排 coding agent 舰队 |
 | [i-have-adhd](./entities/i-have-adhd.md) | Skill：先给下一步，禁止把答案埋进长文 |
 | [Archify](./entities/archify.md) | Skill：描述/代码 → 可交互架构图 |
+| [Anatomy](./entities/anatomy.md) | Skill：想法 → 可交互等距机械图。只有入口 |
 | [Answer me with HTML](./entities/answer-me-with-html.md) | Skill：模型写草稿，CLI 出一页可读 HTML。只有入口 |
 | [Today AI](./entities/today-ai.md) | 个人 AI：活记忆、主动办事。只有入口 |
 | [Knowledge Work Plugins](./entities/knowledge-work-plugins.md) | 岗位插件包：Cowork / Claude Code。只有入口 |

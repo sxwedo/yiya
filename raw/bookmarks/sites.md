@@ -26,6 +26,7 @@
 | Model Context Protocol | <https://modelcontextprotocol.io/> | Anthropic / 社区 | 连接 AI 应用与外部系统的开放标准（工具/数据/工作流；常比作 AI 的 USB-C） |
 | Agent Skills | <https://agentskills.io> | Anthropic / 社区 | Agent Skills 开放格式：SKILL.md 文件夹按需加载规程与脚本 |
 | skills.sh | <https://skills.sh/> | Vercel | Agent Skills 开放目录与排行榜；`npx skills` 一键装到多家编码代理 |
+| Anatomy | <https://skills.wheresryan.sh/anatomy> | Ryan | Claude Code Skill：想法 → 可交互等距机械图；点名单篇再成文 |
 | AGENTS.md | <https://agents.md/> | agents.md | 仓内给编码代理读的约定文件（对人用 README，对 Agent 用 AGENTS.md） |
 
 ## 编码运行时

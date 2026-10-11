@@ -99,6 +99,7 @@
 * [Agent Orchestrator](./agent-orchestrator.md) — 本机桌面编排 coding agent 舰队：一任务一 worker、独立 worktree，看板跟 CI / PR / 评审。
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。
 * [Archify](./archify.md) — Agent Skill：代码或系统描述 → 类型化 JSON IR，再确定性编译成可交互架构图。
+* [Anatomy](./anatomy.md) — Claude Code Skill：一句话点名一个想法，画出可转、可按的等距机械图。库里只有入口。
 * [Answer me with HTML](./answer-me-with-html.md) — Skill：模型只写内容草稿，CLI 出一页可读 HTML。比让模型手写整页少输出 token。库里只有入口。
 * [Today AI](./today-ai.md) — 个人 AI：活记忆、主动办事。库里只有入口。
 * [Knowledge Work Plugins](./knowledge-work-plugins.md) — Anthropic 开源岗位插件包：给 Cowork / Claude Code 打包 Skills、MCP、斜杠命令。库里只有入口。
