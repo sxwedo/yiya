@@ -11,6 +11,7 @@ related:
   - multi-agent-failure-modes
   - plan-mode-multiagent
   - llm-as-judge-runtime
+  - context-pollution
 sources:
   - ../../../raw/articles/Datawhale/重磅！Google发布多智能体最佳实践！.md
 ---
@@ -53,3 +54,4 @@ sources:
 - [多智能体失效模式](./multi-agent-failure-modes.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
+- [上下文防污染](./context-pollution.md)

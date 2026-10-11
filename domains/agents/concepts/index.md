@@ -10,6 +10,7 @@
 * [Coding Agent Workflow](./coding-agent-workflow.md) — 用 coding agents 构建软件的高层工作流：规划→执行→部署监控，配合引导、自主度、验收、环境定制与 harness 基础。
 * [需求即交付](./requirement-as-delivery.md) — 别在旧 SDLC 里插 AI。人当翻译官是因为上下文没流通。OK 平台九阶段：需求质量第一道门，Spec 替代口头传递。
 * [复合检索 Agent](./compound-retrieval-agent.md) — Agent 自主决定多源并行检索、评估补搜与精读，再按来源权威性交织生成回答；不是单次向量召回。
+* [上下文防污染](./context-pollution.md) — 别让多智能体共享一份谁都能读的历史。MCP 管工具，A2A 管协作。写入、选取、压缩、隔离；主从比平等稳。
 * [Delivery Harness](./delivery-harness.md) — 模型外的交付控制系统：合同锁事实、边界限半径、证据控跃迁、修复写回默认规则。上限不是生成速度，是质量秩序。
 * [Engineering Bot](./engineering-bot.md) — 长期守一个领域、带岗位记忆与工具权限的带队角色：接任务、创建并跟进 Cloud Agent；人只处理产品取舍、权限和大影响面。
 * [Evidence Gate](./evidence-gate.md) — 交付状态跃迁的证据门禁：每一步结论必须对应可复查证据，答不全则停在 pending。AI 可整理证据，不能替责任人签字。

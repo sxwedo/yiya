@@ -14,6 +14,7 @@ related:
   - four-layer-agent-memory
   - loop-engineering
   - plan-with-code
+  - context-pollution
 sources:
   - ../../../raw/articles/得物技术/企业级 MultiAgent 落地：Plan 模式与主子 Agent 协作｜得物技术.md
 ---
@@ -50,3 +51,4 @@ sources:
 - [四层 Agent 记忆](./four-layer-agent-memory.md)
 - [Loop Engineering](./loop-engineering.md)
 - [用代码做计划](./plan-with-code.md)
+- [上下文防污染](./context-pollution.md)

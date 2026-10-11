@@ -22,6 +22,7 @@ related:
   - oh-my-pi
   - coding-agent-workflow
   - code-mode
+  - context-pollution
 sources:
   - ../references/mcp-site.md
   - ../references/punkpeye-awesome-mcp-servers-github.md
@@ -69,4 +70,5 @@ sources:
 - [oh-my-pi](./oh-my-pi.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Code Mode](../concepts/code-mode.md)
+- [上下文防污染](../concepts/context-pollution.md)
 - [Agent Skills](./agent-skills.md)

@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-11
+
+* **2026-10-11 ingest** | 算法狗《淘天三面：多智能体通信与上下文》→ 新建 [上下文防污染](./concepts/context-pollution.md)。MCP / 架构选型只加 Related。无 Reference。
+
 ## 2026-10-09
 
 * **2026-10-09 ingest** | yibie 译 0xSero《编码 agent 为什么不会设计软件》→ 新建 [编码 agent 不会设计](./concepts/agent-wont-design.md)。Pi / Durable 只加 Related（未进 sources：对象是设计 vs 预言机，不是产品）。无 Reference。
