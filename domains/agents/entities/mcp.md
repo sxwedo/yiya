@@ -23,6 +23,7 @@ related:
   - coding-agent-workflow
   - code-mode
   - context-pollution
+  - rea
 sources:
   - ../references/mcp-site.md
   - ../references/punkpeye-awesome-mcp-servers-github.md
@@ -71,4 +72,5 @@ sources:
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Code Mode](../concepts/code-mode.md)
 - [上下文防污染](../concepts/context-pollution.md)
+- [REA](./rea.md)
 - [Agent Skills](./agent-skills.md)
