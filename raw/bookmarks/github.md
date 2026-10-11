@@ -178,3 +178,4 @@
 | QingYunA/answer-me-with-html | <https://github.com/QingYunA/answer-me-with-html> | QingYunA | Skill：模型只写内容草稿，CLI 出一页可读 HTML |
 | anthropics/knowledge-work-plugins | <https://github.com/anthropics/knowledge-work-plugins> | anthropics | 岗位插件包：Cowork / Claude Code 打包 Skills、MCP、斜杠命令 |
 | eternity4719/HowToLiveBetter | <https://github.com/eternity4719/HowToLiveBetter> | eternity4719 | 高性价比人生指南：成本/收益/证据等级；附检索页和查书 skill |
+| morluto/rea | <https://github.com/morluto/rea> | morluto | REA：本机逆向 MCP，无源码时给 Agent 查二进制/应用/运行时 |

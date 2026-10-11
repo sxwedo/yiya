@@ -81,6 +81,7 @@
 | Google DeepMind | <https://deepmind.google/> | Google DeepMind | Google 的 AI 研究实验室总入口：Gemini/Gemma 等模型，以及科学与机器人方向 |
 | Omarchy | <https://omarchy.org> | DHH / 37signals | DHH 的意见化 Arch+Hyprland 桌面：把 coding agent 当一等公民（懒加载启动器 + 系统 skill） |
 | GitMCP | <https://gitmcp.io/> | GitMCP | 把任意公开 GitHub 仓一键变成 Remote MCP：github.com → gitmcp.io，给 AI 仓库上下文 |
+| REA | <https://rea.tools/> | morluto | 本机逆向 MCP：无源码时给 Agent 查二进制 / JS / 网站；点名单篇再成文 |
 | FastMCP | <https://gofastmcp.com/> | Prefect | 建 MCP server/client/Apps 的主流 Python 框架（官方 SDK 高层 API 渊源；文档可挂 MCP） |
 | LangChain | <https://www.langchain.com> | LangChain | 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）+ LangSmith 工程平台 |
 | Cloudflare | <https://www.cloudflare.com/> | Cloudflare | 边缘开发平台与 CDN；点名单篇再成文，不灌首页 |

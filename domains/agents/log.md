@@ -2,6 +2,7 @@
 
 ## 2026-10-11
 
+* **2026-10-11 ingest** | 书签 [morluto/rea](https://github.com/morluto/rea) → 新建 [REA](./entities/rea.md)。MCP 只加 Related。sites / docs 入口。无 Reference。
 * **2026-10-11 ingest** | 算法狗《淘天三面：多智能体通信与上下文》→ 新建 [上下文防污染](./concepts/context-pollution.md)。MCP / 架构选型只加 Related。无 Reference。
 
 ## 2026-10-09

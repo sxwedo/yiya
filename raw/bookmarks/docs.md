@@ -8,3 +8,4 @@
 | π-agent book | https://books.antinomie.org/pi/ | antinomie-lab | 从代码解读 @earendil-works/pi-agent-core：把 agent 循环做成库 |
 | TypeSafe Docs | https://docs.typesafe.ai/ | TypeSafe AI | System One / Jev 官方文档门户；单篇 introduction 已成文 |
 | 深入理解 AI Agent | https://bojieli.github.io/ai-agent-book/ | 李博杰 / bojieli | 开源书站：Agent 设计原理与工程实践（PDF/EPUB/多语言阅读） |
+| REA Guides | https://rea.tools/guides/ | morluto | REA 使用指南门户；点名单篇再成文，不灌整树 |
