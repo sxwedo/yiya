@@ -18,6 +18,7 @@
 | Trendshift | <https://trendshift.io> | Trendshift | GitHub 仓库实时动量榜（上升期捕捉，非峰值后），GitHub Trending 替代 |
 | Artificial Analysis | <https://artificialanalysis.ai> | Artificial Analysis | 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜 |
 | Grokipedia | <https://grokipedia.com/> | xAI | xAI 用 Grok 生成/核验的在线百科；条目不可直接众包编辑 |
+| Agent Use Cases | <https://agentusecases.ai/> | agentusecases.ai | 真人 Agent 用法目录，每天扫网上；点名单条再成文，不灌首页 |
 
 ## 约定与格式
 

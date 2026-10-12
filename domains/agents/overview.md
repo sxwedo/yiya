@@ -119,6 +119,7 @@ sources: []
 | [Awesome Jev](./entities/awesome-jev.md) | 已有 Key 的学习站：四句判断。只有入口 |
 | [Jev Ultrafast](./entities/jev-ultrafast.md) | 浏览器 Agent：Jev 选操作和元素；只有入口 |
 | [Artificial Analysis](./entities/artificial-analysis.md) | 独立模型与 API 评测（质量/价格/速度）；含 Coding Agents 榜 |
+| [Agent Use Cases](./entities/agent-use-cases.md) | 真人 Agent 用法目录。只有入口 |
 
 （具名产品/框架入库时在此追加；跨域权威可升 `shared/entities`。）
 

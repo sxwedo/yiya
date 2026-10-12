@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-13
+
+* **2026-10-13 ingest** | 书签 https://agentusecases.ai/ → 新建 [Agent Use Cases](./entities/agent-use-cases.md)。不灌目录。无 Reference。
+
 ## 2026-10-12
 
 * **2026-10-12 ingest** | 腾讯技术工程《老系统接入 AI 概念地图》→ 新建 [老系统接入 AI](./concepts/legacy-system-ai.md)。MCP / Skills 只加 Related。>1MB 头图未落盘。无 Reference。
