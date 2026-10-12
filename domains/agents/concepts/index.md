@@ -45,4 +45,5 @@
 * [用代码做计划](./plan-with-code.md) — 监督比你聪明的执行器：先让它用自己的话复述问题，用 /how /why /teach 和并行原型收集证据，满意后再拆必须跑过代码的小 PR。
 * [编码 agent 不会设计](./agent-wont-design.md) — 有预言机（测试、fuzz、做成/没做成）它们总能磨完。架构是过程，不在训练数据里；agent 修 bug 几乎只会加代码。
 * [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) — 把 LLM 裁判从离线评测搬进 agent 运行时：拆分判据、成对比较、审过程而非只审终答、多裁判分歧升级，并用确定性检查包住裁判。
+* [老系统接入 AI](./legacy-system-ai.md) — Model 想、Agent 干、Skill 会、MCP 接、CLI 说。老系统先体检：有 API 薄封 MCP，没 API 包 CLI，只剩网页才 RPA。鉴权一案一议。
 * [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) — 用知识图状态动态选工作与路由：固定 schema/gate，查询式 launch，按节点状态分流，永久记录纠错，并由人审元循环提议改规则。

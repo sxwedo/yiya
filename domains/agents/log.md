@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-12
+
+* **2026-10-12 ingest** | 腾讯技术工程《老系统接入 AI 概念地图》→ 新建 [老系统接入 AI](./concepts/legacy-system-ai.md)。MCP / Skills 只加 Related。>1MB 头图未落盘。无 Reference。
+
 ## 2026-10-11
 
 * **2026-10-11 ingest** | 书签 https://skills.wheresryan.sh/anatomy → 新建 [Anatomy](./entities/anatomy.md)。Agent Skills / Archify 只加 Related。github 书签 wheresryan22/anatomy。无 Reference。

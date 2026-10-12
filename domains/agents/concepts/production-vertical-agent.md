@@ -13,6 +13,7 @@ related:
   - history-vs-memory
   - mcp
   - role-first-agent
+  - legacy-system-ai
 sources:
   - ../../../raw/articles/阿里技术/垂类业务如何落地生产级 Agent.md
 ---
