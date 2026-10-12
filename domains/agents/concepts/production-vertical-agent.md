@@ -41,3 +41,4 @@ sources:
 - [历史不等于记忆](./history-vs-memory.md)
 - [MCP](../entities/mcp.md)
 - [Role-first Agent](./role-first-agent.md)
+- [老系统接入 AI](./legacy-system-ai.md)

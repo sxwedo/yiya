@@ -24,6 +24,7 @@ related:
   - code-mode
   - context-pollution
   - rea
+  - legacy-system-ai
 sources:
   - ../references/mcp-site.md
   - ../references/punkpeye-awesome-mcp-servers-github.md
@@ -73,4 +74,5 @@ sources:
 - [Code Mode](../concepts/code-mode.md)
 - [上下文防污染](../concepts/context-pollution.md)
 - [REA](./rea.md)
+- [老系统接入 AI](../concepts/legacy-system-ai.md)
 - [Agent Skills](./agent-skills.md)

@@ -12,6 +12,7 @@ related:
   - llm-wiki
   - open-knowledge-format
   - skill-whiteboard-video
+  - legacy-system-ai
 sources:
   - ../references/wikiskill-three-layer.md
   - ../../../raw/articles/飞叔慢谈/OKF 工程：一种新的语义表达范式正在形成.md
@@ -45,3 +46,4 @@ OKF 把同一分离写成个人知识库约定：raw 不可变，wiki 编纂可�
 - [字幕驱动白板手绘成片](./skill-whiteboard-video.md)
 - [LLM Wiki](../../../shared/concepts/llm-wiki.md)
 - [Open Knowledge Format](../../../shared/entities/open-knowledge-format.md)
+- [老系统接入 AI](./legacy-system-ai.md)
