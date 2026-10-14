@@ -10,6 +10,7 @@ related:
   - claude
   - coding-agent-workflow
   - role-first-agent
+  - aarivi
 sources:
   - ../references/madslorentzen-ai-job-search-github.md
 ---
@@ -31,3 +32,4 @@ sources:
 - [Claude](./claude.md)
 - [Coding Agent Workflow](../concepts/coding-agent-workflow.md)
 - [Role-first Agent](../concepts/role-first-agent.md)
+- [Aarivi](./aarivi.md)

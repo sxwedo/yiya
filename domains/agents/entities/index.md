@@ -96,6 +96,7 @@
 * [AI Coding Dictionary](./ai-coding-dictionary.md) — AI 编程行话白话词典；词条不拆库内页
 * [AI Hero](./ai-hero.md) — Matt Pocock：AI 工程课程与教程站；词典见 AI Coding Dictionary
 * [AI Job Search](./ai-job-search.md) — 本机 Claude Code 求职框架：评岗、改 CV、求职信与面试准备
+* [Aarivi](./aarivi.md) — AI 求职站：搜创业公司岗、Gmail 跟进度、冷邮件给创始人。库里只有入口。
 * [Agent Orchestrator](./agent-orchestrator.md) — 本机桌面编排 coding agent 舰队：一任务一 worker、独立 worktree，看板跟 CI / PR / 评审。
 * [i-have-adhd](./i-have-adhd.md) — Coding agent Skill：先给下一步、步骤编号，禁止把答案埋进长文。
 * [Archify](./archify.md) — Agent Skill：代码或系统描述 → 类型化 JSON IR，再确定性编译成可交互架构图。

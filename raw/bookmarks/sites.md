@@ -88,3 +88,4 @@
 | LangChain | <https://www.langchain.com> | LangChain | 开源 agent 平台与框架生态（LangChain / LangGraph / deepagents）+ LangSmith 工程平台 |
 | Cloudflare | <https://www.cloudflare.com/> | Cloudflare | 边缘开发平台与 CDN；点名单篇再成文，不灌首页 |
 | Today AI | <https://today.ai/> | Today AI | 个人 AI：活记忆、主动办事；落地页 waitlist，不灌首页 |
+| Aarivi | <https://aarivi.com/> | Aarivi | AI 求职站：创业公司岗、Gmail 跟进度、冷邮件；点名单篇再成文 |

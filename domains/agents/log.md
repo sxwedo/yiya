@@ -2,6 +2,7 @@
 
 ## 2026-10-15
 
+* **2026-10-15 ingest** | 书签 https://aarivi.com/ → 新建 [Aarivi](./entities/aarivi.md)。[AI Job Search](./ai-job-search.md) 只加 Related。无 Reference。
 * **2026-10-15 ingest** | Datawhale《OpenAI Prompt 指南升级》→ 续写 [AGENTS.md](./entities/agents-md.md)（换代后删过期约束、DoD）。Skills / Workflow 只加 Related。无新页。无 Reference。
 
 ## 2026-10-14
