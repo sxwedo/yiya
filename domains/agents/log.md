@@ -2,6 +2,8 @@
 
 ## 2026-10-14
 
+* **2026-10-14 ingest** | 得物《动态规则 Agent 资产验收》→ 续写 [LLM-as-Judge Runtime](./concepts/llm-as-judge-runtime.md)；engineering [评测驱动开发](../../engineering/concepts/eval-driven-development.md) 续写试跑/回测门禁。无新页。无 Reference。
+
 * **2026-10-14 ingest** | 阿里云云原生《15 个 Agent 研发小队》→ 续写 [多 Agent 协作模式](./concepts/multi-agent-collaboration-patterns.md)、[AgentLoop](./entities/agentloop.md)。[需求即交付](./concepts/requirement-as-delivery.md) 只加 Related。无新页。无 Reference。
 
 ## 2026-10-13

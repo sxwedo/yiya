@@ -13,6 +13,7 @@ related:
   - unreliable-components-reliable-systems
   - discovery-loop
   - looped-transformer
+  - llm-as-judge-runtime
   - ai-dev-engineer-interview
 sources:
   - ../references/ng-evals-watershed.md
@@ -20,6 +21,7 @@ sources:
   - ../../../raw/articles/阿里技术/相关性 ≠ 因果性：因果推断在 AI 评测归因中的方法与实践.md
   - ../../../raw/articles/得物技术/推荐系统体验的数字化突破：得物自动化评测平台的技术实践｜AICon 文章整理.md
   - ../../../raw/articles/字节跳动技术团队/火山引擎开源 Agent 驱动的搜索自迭代技术.md
+  - ../../../raw/articles/得物技术/动态规则的 Agent 实践：用确定性工程驾驭 LLM 的资产智能验收.md
 ---
 
 # Definition
@@ -37,6 +39,8 @@ sources:
 个人从零训练也可把单一公开分数当方向盘：Hugo Vergnes 用 CORE 导航 3.8B / $998 的训练线，早年失败跑（cosine 衰减到 0）在分数上立刻可见。
 
 复杂系统还要分清相关与因果：指标一起动不等于某组件是因。搜索调参则把「提出假设 → 分配评测预算 → 验证收益」交给 Agent，人只审候选配置。主观体验指标可用 LLM 评测员把反馈从周级收到小时级，但仍需人机校验对齐。
+
+得物资产验收把规则当线上行为：审批人认可/不认可生成金标（不认可必须写原因，快照绑规则版本）。试跑用真实单据对草稿，不回写审批。回测分层抽样假阳/假阴，数量+一致率双阈值过门才能常规发布；编辑草稿重置回测。冷启动可用权限人审试跑替代回测，全程留痕。线上/试跑/回测共用链路、四道闸隔离。裁判怎么拆见 [LLM-as-Judge Runtime](../../agents/concepts/llm-as-judge-runtime.md)。
 
 ## Boundaries
 

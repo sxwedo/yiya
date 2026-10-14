@@ -1,5 +1,9 @@
 # 工程 — Log
 
+## 2026-10-14
+
+* **2026-10-14 ingest** | 得物《动态规则 Agent 资产验收》→ 续写 [评测驱动开发](./concepts/eval-driven-development.md)（反馈金标、试跑/回测门禁）。裁判机制在 agents [LLM-as-Judge Runtime](../agents/concepts/llm-as-judge-runtime.md)。无新页。
+
 ## 2026-10-10
 
 * **2026-10-10 ingest** | 大淘宝技术《AI时代的数据研发-Semantic》→ 续写 [语义层](./concepts/semantic-layer.md)（双轨消费、CTE 适配非标仓、逻辑表解耦）。无新页。无 Reference。

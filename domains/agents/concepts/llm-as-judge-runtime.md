@@ -13,10 +13,12 @@ related:
   - playbook-feedback-loop
   - eval-driven-development
   - jev
+  - eval-driven-development
 sources:
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../../../raw/articles/Josh Rosen/LLM-as-Judge Architectures: Putting Evals Into Your Agent Runtime.md
   - ../../../raw/articles/Claude/Common workflow patterns for AI agents—and when to use them.md
+  - ../../../raw/articles/得物技术/动态规则的 Agent 实践：用确定性工程驾驭 LLM 的资产智能验收.md
 ---
 
 # Definition
@@ -37,6 +39,8 @@ Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent�
 
 与 [Evidence Gate](./evidence-gate.md)、[Loop Engineering](./loop-engineering.md) 互补；工程迭代侧见 [评测驱动开发](../../engineering/concepts/eval-driven-development.md)。
 
+得物资产验收（动态规则 Agent）：规则是自然语言、作用对象是 PDF/扫描件，硬编码规则引擎走不通。LLM 只做两件事——从材料抽事实、按规则比对。其余（解析、印章检测、数值核对、超时兜底）全是确定性代码。方向明确的工作流不用自主循环。每条规则拆成 Extract（带页码溯源的事实）和 Aggregate（结构化比对，无自由文本）。关键判定多数表决；盖章三级流水线前两级零 LLM。回答收进 `true/false/NULL/N/A` 闭集，越界回落，最坏交人工不编造。金额链路不信任模型。不是对话式多 Agent。
+
 
 ## Boundaries
 
@@ -48,6 +52,7 @@ Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent�
 - [Evidence Gate](./evidence-gate.md)
 - [Loop Engineering](./loop-engineering.md)
 - [Delivery Harness](./delivery-harness.md)
+- [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
 - [Jev](../entities/jev.md)
