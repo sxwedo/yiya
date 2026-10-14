@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-15
+
+* **2026-10-15 ingest** | Datawhale《OpenAI Prompt 指南升级》→ 续写 [AGENTS.md](./entities/agents-md.md)（换代后删过期约束、DoD）。Skills / Workflow 只加 Related。无新页。无 Reference。
+
 ## 2026-10-14
 
 * **2026-10-14 ingest** | 得物《动态规则 Agent 资产验收》→ 续写 [LLM-as-Judge Runtime](./concepts/llm-as-judge-runtime.md)；engineering [评测驱动开发](../../engineering/concepts/eval-driven-development.md) 续写试跑/回测门禁。无新页。无 Reference。

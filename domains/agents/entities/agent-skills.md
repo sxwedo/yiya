@@ -17,6 +17,7 @@ related:
   - knowledge-work-plugins
   - how-to-live-better
   - anatomy
+  - agents-md
 sources:
   - ../references/anthropics-skills-github.md
   - ../../../raw/articles/Claude/Introducing Agent Skills.md
@@ -65,3 +66,4 @@ sources:
 - [Knowledge Work Plugins](./knowledge-work-plugins.md)
 - [高性价比人生指南](../../../shared/entities/how-to-live-better.md)
 - [Anatomy](./anatomy.md)
+- [AGENTS.md](./agents-md.md)

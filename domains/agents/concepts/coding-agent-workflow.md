@@ -31,6 +31,7 @@ related:
   - inner-outer-agent-loop
   - requirement-as-delivery
   - agent-wont-design
+  - agents-md
 sources:
   - ../references/ng-coding-agents-skills.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
@@ -108,4 +109,5 @@ Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已�
 - [内外两层循环](./inner-outer-agent-loop.md)
 - [需求即交付](./requirement-as-delivery.md)
 - [编码 agent 不会设计](./agent-wont-design.md)
+- [AGENTS.md](../entities/agents-md.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)
