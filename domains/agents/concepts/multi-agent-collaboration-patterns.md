@@ -14,6 +14,8 @@ related:
   - graph-driven-agent-workflow
   - graph-engineering
   - llm-as-judge-runtime
+  - requirement-as-delivery
+  - agentloop
 sources:
   - ../../../raw/articles/Datawhale/重磅！Google发布多智能体最佳实践！.md
   - ../../../raw/articles/叶小钗/一文讲透多Agent协作：4种模式、3个判断标准、4大工程落地陷阱.md
@@ -21,6 +23,7 @@ sources:
   - ../../../raw/articles/Claude/Building multi-agent systems: When and how to use them.md
   - ../../../raw/articles/Claude/Introducing dynamic workflows in Claude Code.md
   - ../../../raw/articles/Claude/Multi-agent coordination patterns： Five approaches and when to use them.md
+  - ../../../raw/articles/阿里云云原生/15 个 Agent 组成研发小队：多智能体协作的端到端研发体系.md
 ---
 
 # Definition
@@ -59,6 +62,8 @@ Anthropic 把「工作流」与「完全自主 Agent」分开：工作流给整�
 
 协调形再拆五条（从简到复杂）：**generator-verifier**（质量可显式判据）、**orchestrator-subagent**（可拆且子任务有界，默认起点）、**agent teams**（并行、独立、长跑，工人跨任务保上下文）、**message bus**（事件驱动、生态会涨）、**shared-state**（发现要实时互见，无中心路由）。子任务短用主管分工；要长记忆用 teams；流程随事件变用总线；发现要互喂用共享状态。Dynamic workflows 是并行子代理 + 独立核验的产品形。
 
+阿里云云原生把主管分工做成 15 个 Worker 的能力池：各有 Skill、Tool、上下文和职责，Leader 按任务调度。测试不过回原来的 Code Session；方案方向错了，带着失败证据重新 Research / Explore；反复不收敛触发 Human Gate。任务状态要留下：前一个做了什么、为什么、验证发现了什么。实现和验证分给不同 Agent。他们算过：复杂 Feature 约 20 个工作日，编码只占 2 天；编码快十倍，总周期仍约 18 天。编码变快后突出的是确认、协作、验证和等待——同一判断见 [需求即交付](./requirement-as-delivery.md)，那页是腾讯 OK 单流水线，本段是多角色小队。运行面他们叫 AgentCore；优化面见 [AgentLoop](../entities/agentloop.md)。先把范围和验收钉死；受约束样例里 19 题对照专家，交付从约一个月收到一周内。
+
 与 [多智能体治理](./multi-agent-governance.md)（社会基础设施）、[多智能体失效模式](./multi-agent-failure-modes.md)、[Plan 模式与主子 Agent](./plan-mode-multiagent.md)（主子编排落地）、[Role-first Agent](./role-first-agent.md)、[Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) 互补：本页专精「何时拆 + 四种形 + 运行时任务面」。
 
 
@@ -76,3 +81,5 @@ Anthropic 把「工作流」与「完全自主 Agent」分开：工作流给整�
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [Graph Engineering](./graph-engineering.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
+- [需求即交付](./requirement-as-delivery.md)
+- [AgentLoop](../entities/agentloop.md)

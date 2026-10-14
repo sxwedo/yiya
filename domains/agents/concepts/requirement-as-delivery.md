@@ -12,6 +12,7 @@ related:
   - delivery-harness
   - evidence-gate
   - plan-with-code
+  - multi-agent-collaboration-patterns
 sources:
   - ../../../raw/articles/腾讯技术工程/别只盯着AI Coding，真正的变化发生在整个研发流程.md
 ---
@@ -48,3 +49,4 @@ OK 平台把这收成「用户提交需求描述，Agent 走完评审→匹配�
 - [Delivery Harness](./delivery-harness.md)
 - [Evidence Gate](./evidence-gate.md)
 - [用代码做计划](./plan-with-code.md)
+- [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
