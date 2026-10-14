@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-14
+
+* **2026-10-14 ingest** | 阿里云云原生《15 个 Agent 研发小队》→ 续写 [多 Agent 协作模式](./concepts/multi-agent-collaboration-patterns.md)、[AgentLoop](./entities/agentloop.md)。[需求即交付](./concepts/requirement-as-delivery.md) 只加 Related。无新页。无 Reference。
+
 ## 2026-10-13
 
 * **2026-10-13 ingest** | 书签 https://agentusecases.ai/ → 新建 [Agent Use Cases](./entities/agent-use-cases.md)。不灌目录。无 Reference。
