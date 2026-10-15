@@ -3,7 +3,7 @@
 * [Amp](./amp.md) — 前沿 coding agent + 远程 Orb：合盖续跑、门户预览、多端审阅
 * [Mirasim](./mirasim.md) — One Agent IDE：多 harness 编码 + 模拟用户试用。库里只有入口。
 * [AGENTS.md](./agents-md.md) — 仓内给编码代理读的约定：对人 README，对 Agent AGENTS.md。常驻、宜短；规程进 Skills，硬约束进 hooks/rules。
-* [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。不改模型权重；单位是成功任务成本。
+* [AgentLoop](./agentloop.md) — 阿里云 Agent 可观测、经验自进化与审计：Trace→Trajectory→经验库；成功日志之外查过宽取数和越权工具。
 * [Artificial Analysis](./artificial-analysis.md) — 独立模型与 API 评测：质量、价格、速度、延迟；含 Coding Agents 榜。外探源，不是 harness。
 * [agent-device](./agent-device.md) — 给编码代理的真机反馈环：CLI / MCP / Node API；读无障碍树验证 App，不靠截图硬猜。
 * [Agent Skills](./agent-skills.md) — 开放标准：用 SKILL.md 文件夹把规程、脚本与资源按需加载给 Agent；Anthropic 提出，跨多家 harness。
