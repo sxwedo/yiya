@@ -104,5 +104,5 @@
 * [Answer me with HTML](./answer-me-with-html.md) — Skill：模型只写内容草稿，CLI 出一页可读 HTML。比让模型手写整页少输出 token。库里只有入口。
 * [Today AI](./today-ai.md) — 个人 AI：活记忆、主动办事。库里只有入口。
 * [Knowledge Work Plugins](./knowledge-work-plugins.md) — Anthropic 开源岗位插件包：给 Cowork / Claude Code 打包 Skills、MCP、斜杠命令。库里只有入口。
-* [REA](./rea.md) — 本机逆向 MCP：无源码时给 Agent 查二进制、JS/Electron、.NET 和网站。库里只有入口。
+* [REA](./rea.md) — 本机逆向 MCP：不自研引擎，把 Hopper/Ghidra/IDA 接成统一工具。发现必须带证据和局限。
 * [Agent Use Cases](./agent-use-cases.md) — 真人在用 Agent 干什么的目录，每天扫网上。点名单条再成文，不灌首页。
