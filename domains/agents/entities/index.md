@@ -103,6 +103,8 @@
 * [Anatomy](./anatomy.md) — Claude Code Skill：一句话点名一个想法，画出可转、可按的等距机械图。库里只有入口。
 * [Answer me with HTML](./answer-me-with-html.md) — Skill：模型只写内容草稿，CLI 出一页可读 HTML。比让模型手写整页少输出 token。库里只有入口。
 * [Today AI](./today-ai.md) — 个人 AI：活记忆、主动办事。库里只有入口。
+* [火山引擎 Managed Agents](./volcengine-managed-agents.md) — 托管 AaaS：长时间 Loop、关 App 不中断的会话、隔离云端电脑、记忆和工具。
+* [Open Muse](./open-muse.md) — 搭在火山引擎 Managed Agents 上的主动式个人 Agent：关 App 还干活，敏感操作先征求同意。
 * [Knowledge Work Plugins](./knowledge-work-plugins.md) — Anthropic 开源岗位插件包：给 Cowork / Claude Code 打包 Skills、MCP、斜杠命令。库里只有入口。
 * [REA](./rea.md) — 本机逆向 MCP：不自研引擎，把 Hopper/Ghidra/IDA 接成统一工具。发现必须带证据和局限。
 * [Agent Use Cases](./agent-use-cases.md) — 真人在用 Agent 干什么的目录，每天扫网上。点名单条再成文，不灌首页。

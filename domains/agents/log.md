@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-16
+
+* **2026-10-16 ingest** | 字节跳动《Managed Agents 搭主动式个人 Agent》→ 新建 [火山引擎 Managed Agents](./entities/volcengine-managed-agents.md)、[Open Muse](./entities/open-muse.md)。不写连接器点击。无 Reference。
+
 ## 2026-10-15
 
 * **2026-10-15 ingest** | 腾讯技术工程《REA 技术原理》→ 续写 [REA](./entities/rea.md)（桥接、证据契约、skill 编排）。不写安装与逆向步骤。无新页。无 Reference。

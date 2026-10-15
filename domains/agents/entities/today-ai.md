@@ -10,6 +10,7 @@ related:
   - four-layer-agent-memory
   - history-vs-memory
   - agent-skills
+  - open-muse
 sources:
   - ../../../raw/bookmarks/sites.md
 ---
@@ -28,4 +29,5 @@ sources:
 
 - [四层 Agent 记忆](../concepts/four-layer-agent-memory.md)
 - [历史不等于记忆](../concepts/history-vs-memory.md)
+- [Open Muse](./open-muse.md)
 - [Agent Skills](./agent-skills.md)

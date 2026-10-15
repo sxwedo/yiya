@@ -80,6 +80,7 @@
 | 华润赢 | <https://huarun.win/> | 华润赢 | 翻墙/代理客户端目录：按平台与协议谱系对照选型；不提供节点、订阅或破解包 |
 | MinerU | <https://mineru.net/> | OpenDataLab | 面向 Agent 和 RAG 的文档解析：PDF / Office / 图片 → Markdown / JSON |
 | AgentLoop | <https://agentloop.console.aliyun.com> | 阿里云 | Agent 可观测与经验自进化控制台：Trace→Trajectory→经验召回 |
+| 火山引擎 Managed Agents | <https://console.volcengine.com/ark/region:cn-beijing/managed-agents/quickstart> | 火山引擎 | 托管 AaaS：长 Loop、会话、云电脑、记忆与工具 |
 | Google DeepMind | <https://deepmind.google/> | Google DeepMind | Google 的 AI 研究实验室总入口：Gemini/Gemma 等模型，以及科学与机器人方向 |
 | Omarchy | <https://omarchy.org> | DHH / 37signals | DHH 的意见化 Arch+Hyprland 桌面：把 coding agent 当一等公民（懒加载启动器 + 系统 skill） |
 | GitMCP | <https://gitmcp.io/> | GitMCP | 把任意公开 GitHub 仓一键变成 Remote MCP：github.com → gitmcp.io，给 AI 仓库上下文 |

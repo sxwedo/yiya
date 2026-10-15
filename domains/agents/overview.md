@@ -106,6 +106,8 @@ sources: []
 | [Anatomy](./entities/anatomy.md) | Skill：想法 → 可交互等距机械图。只有入口 |
 | [Answer me with HTML](./entities/answer-me-with-html.md) | Skill：模型写草稿，CLI 出一页可读 HTML。只有入口 |
 | [Today AI](./entities/today-ai.md) | 个人 AI：活记忆、主动办事。只有入口 |
+| [火山引擎 Managed Agents](./entities/volcengine-managed-agents.md) | 托管 AaaS：长 Loop、云电脑、记忆 |
+| [Open Muse](./entities/open-muse.md) | 搭在 MA 上的主动式个人 Agent |
 | [Aarivi](./entities/aarivi.md) | AI 求职站。只有入口 |
 | [Knowledge Work Plugins](./entities/knowledge-work-plugins.md) | 岗位插件包：Cowork / Claude Code。只有入口 |
 | [pstack](./entities/pstack.md) | poteto 的 Cursor 技能包：验证 / 原型 / architect，反对抽象 Plan Mode |
