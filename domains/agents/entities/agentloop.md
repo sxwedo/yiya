@@ -1,7 +1,7 @@
 ---
 type: Entity
 title: "AgentLoop"
-description: "阿里云 Agent 可观测与经验自进化：Trace→Trajectory→经验库，运行时召回。不改模型权重；单位是成功任务成本。"
+description: "阿里云 Agent 可观测、经验自进化与审计：Trace→Trajectory→经验库；成功日志之外查过宽取数和越权工具。"
 kind: product
 status: draft
 domain: agents
@@ -19,6 +19,7 @@ sources:
   - ../references/agentloop-data-ingress.md
   - ../../../raw/articles/阿里云云原生/让 Agent 越用越准、成本越来越低：AgentLoop 的 Agent 经验自进化闭环.md
   - ../../../raw/articles/阿里云云原生/15 个 Agent 组成研发小队：多智能体协作的端到端研发体系.md
+  - ../../../raw/articles/阿里云云原生/AgentLoop 审计：如何让企业级 Dify 应用的风险看得见、查得清.md
 ---
 
 # Identity
@@ -35,9 +36,11 @@ sources:
 
 研发小队实践把 AgentCore 当运行面、本产品当优化面：Trace / Session / Trajectory 进 Pipeline → Dataset → Evaluation → Experiment。三挡：手动挡由专家定 Rubric 和 Bad Case；半自动挡出 Token/步骤/工具报错报告；自动挡按 RAC 从轨迹抽经验再注入。Coding 调优两手：20 个专家 Commit 生成需求做离线对照；在线沉淀 SOP、好路径和工具反模式。改 Skill 要回归，避免修好一个、弄坏另一个。小队怎么拆见 [多 Agent 协作模式](../concepts/multi-agent-collaboration-patterns.md)。
 
+审计面（Dify 企业应用）：工作流成功、最终回答脱敏，仍可能中间过宽取数或把资料里的指令当成行动。检查不能停在终答。风险审计找该先看的线索，意图审计看用户想干什么（危险请求 ≠ 已经做成），实体调查把密钥/用户/工具串起来，自定义规则补业务口径。落到节点：HTTP 取数是否过宽、Code 是否继续传敏感字段、LLM 是否把内部资料写进对客内容。整改后用同类请求复核。不替代 Dify 运行日志，是同一段记录上的调查视角。接入步骤不在本页。
+
 ## Boundaries
 
-不改模型权重。不是通用编码 harness，不是「单次最低 Token」优化器。单位是成功任务成本。
+不改模型权重。不是通用编码 harness，不是「单次最低 Token」优化器。单位是成功任务成本。不是 Dify 产品页。审计不替代运行日志。不写接入点击。
 
 ## Related
 
