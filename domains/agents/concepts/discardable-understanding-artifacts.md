@@ -13,6 +13,7 @@ related:
   - ai-design-deslop
   - named-style-tokens
   - answer-me-with-html
+  - anatomy
 sources:
   - ../../../raw/articles/Andrej Karpathy/We'll be spending a lot more time trying to understand the outputs of language models.md
 ---
@@ -45,3 +46,4 @@ sources:
 - [AI Design De-slop](../../design/concepts/ai-design-deslop.md)
 - [命名风格词](./named-style-tokens.md)
 - [Answer me with HTML](../entities/answer-me-with-html.md)
+- [Anatomy](../entities/anatomy.md)

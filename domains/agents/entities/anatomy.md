@@ -1,7 +1,7 @@
 ---
 type: Entity
 title: "Anatomy"
-description: "Claude Code Skill：一句话点名一个想法，画出可转、可按的等距机械图。物体本身就是解释。库里只有入口。"
+description: "Claude Code Skill：一句话画出可转的等距机械图。物体就是解释；门外汉往往还要旁白讲解视频。"
 kind: product
 status: draft
 domain: agents
@@ -12,9 +12,11 @@ related:
   - archify
   - answer-me-with-html
   - skills-sh
+  - discardable-understanding-artifacts
 sources:
   - ../../../raw/bookmarks/sites.md
   - ../../../raw/bookmarks/github.md
+  - ../../../raw/articles/数字生命卡兹克/分享一个最近很惊艳的开源Skill，一句话让AI搓出任何原理的科普视频。.md
 ---
 
 # Identity
@@ -23,9 +25,13 @@ sources:
 
 对照：[Archify](./archify.md) 是描述/代码 → 架构图 IR；本页是概念 → 机械物体。格式见 [Agent Skills](./agent-skills.md)。
 
+## Mechanism
+
+数字生命卡兹克：物体运转对已经懂的人很直观；对门外汉，零件转了也不知道在算什么。他在等距图上再要一段旁白讲解视频（零件、作用、关系、原理），画面跟讲到的部分对齐。作者刻意做慢：细节要真实数字，不愿猜。精细不等于正确，关键参数仍要核对。输出主格式是可交互 HTML，和 [可弃理解制品](../concepts/discardable-understanding-artifacts.md) 的阶梯（文 → 图 → HTML → 讲解视频）对得上。
+
 ## Boundaries
 
-库里只有入口。不写安装、不编怎么画。不是架构图 Skill，不是通用 3D 引擎。细节以仓和站点为准。
+不写安装命令、不编怎么画、不保证结构或讲解正确。不是架构图 Skill，不是白板成片流水线。细节以仓和站点为准。
 
 ## Related
 
@@ -33,3 +39,4 @@ sources:
 - [Archify](./archify.md)
 - [Answer me with HTML](./answer-me-with-html.md)
 - [skills.sh](./skills-sh.md)
+- [可弃理解制品](../concepts/discardable-understanding-artifacts.md)
