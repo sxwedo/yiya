@@ -47,6 +47,7 @@ sources:
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
   - ../../../raw/articles/meng shao/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md
   - ../../../raw/articles/AI招投标实验室/当AI写出80%的代码，开发速度反而慢了.md
+  - ../../../raw/articles/腾讯云开发者/3个月用Harness重写90万行旧代码：踩过的坑都在这.md
 ---
 
 # Definition
@@ -74,6 +75,8 @@ AI-native SDLC 把同一循环写成可提交产物：`intent.md` → `spec.md` 
 中文解读补了一句错配：AI 写了大部分代码，整体交付仍可能变慢——PR 堆、故障升、合规风险，是因为还在用「节约编码人力」的旧 SDLC 接「小时级」产出。人从逐行体力审核改成决策审核；实现变充裕之后，稀缺的是信任与可控。一周起步顺序：瘦 CLAUDE.md → 统一自检命令 → 默认 Plan Mode → 先补失败测试再修 Bug → REVIEW.md 区分阻断与建议。不要一上来全自动运维。
 
 与「长跑烧大量 token」叙事相对：多数有效用法是**高迭代 + 高判断力介入**。可与本域 [Minimal Agent Harness](./minimal-agent-harness.md)、[Delivery Harness](./delivery-harness.md) 对照——前者偏原语，后者偏交付控制面，本概念偏「人如何驾驭 agent 做软件」。
+
+腾讯云开发者（视频剪辑重写）：90 万行旧仓当功能说明书全部重写，不搬代码。2～3 人 + AI，3 个月替换在用功能。人定需求边界、方案取舍、高风险、人工 CR 和验收；AI 写文档、实现、机审、测试。质量越往前控越可控；运动员和裁判分开——实现 Agent 自己再 CR 会过度自信，审查拆成专职 SubAgent、干净上下文。Rules 对模型像叮嘱，Context 一长就丢。覆盖率阈值进红线配置，防它改条件过关。同一模型写函数又写测试会定制断言，用变异测试打回。人工 CR 读需求、设计、关键路径和验收报告，不是逐行。对照 [服务重构 Skill](./service-refactor-skill.md)：那页是顺着旧调用链翻译；这里是旧仓当说明书从零写。
 
 Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已被 Agent 吃掉，人守战略层。窗口再大也只有前约 15 万 token 是「聪明区」，所以切会话。工作流：**grill me**（Agent 拷问人，对齐范围）→ spec 拆成一会话一工单 → **wayfinder**（地图+战争迷雾，超大工程）。把《Pragmatic Programmer》里的 tracer bullet、vertical slice、don't outrun headlights 当**引导词**写进提示——训练数据里这些词能激活概念。Agent 像《记忆碎片》每天失忆：代码库就是它的环境，整洁比以前更值钱。没有硬花费那种本地执念：他在放弃本机开发环境，要能在 Slack 里 @ 进拷问会话。
 

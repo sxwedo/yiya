@@ -2,6 +2,7 @@
 
 ## 2026-10-16
 
+* **2026-10-16 ingest** | 腾讯云开发者《Harness 重写 90 万行》→ 续写 [Coding Agent Workflow](./concepts/coding-agent-workflow.md)（旧仓当说明书、运动员裁判分开、变异测试）。服务重构 Skill 只 Related。无新页。无 Reference。
 * **2026-10-16 ingest** | 数字生命卡兹克《Anatomy 科普视频》→ 续写 [Anatomy](./entities/anatomy.md)（门外汉要旁白；物体运转不够）。[可弃理解制品](./concepts/discardable-understanding-artifacts.md) 只加 Related。不写安装。无新页。无 Reference。
 * **2026-10-16 ingest** | 阿里云云原生《AgentLoop 审计 Dify》→ 续写 [AgentLoop](./entities/agentloop.md)（成功日志之外的风险/意图/实体调查）。不写接入点击。无新页。无 Reference。
 * **2026-10-16 ingest** | 字节跳动《Managed Agents 搭主动式个人 Agent》→ 新建 [火山引擎 Managed Agents](./entities/volcengine-managed-agents.md)、[Open Muse](./entities/open-muse.md)。不写连接器点击。无 Reference。
