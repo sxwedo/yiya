@@ -16,6 +16,7 @@ related:
   - delivery-harness
   - engineering-bot
   - inner-outer-agent-loop
+  - risk-scaled-code-review
 sources:
   - ../../../raw/articles/Sachin Malhotra/Claude on call: How Claude Tag serves as Anthropic’s first responder for CI／CD failures.md
   - ../references/javaguide-grok-bot-engineering.md
@@ -56,3 +57,4 @@ Claude Tag（Anthropic 内部 CI 第一响应）是同一纪律的值班形态�
 - [Delivery Harness](./delivery-harness.md)
 - [Engineering Bot](./engineering-bot.md)
 - [内外两层循环](./inner-outer-agent-loop.md)
+- [风险分层代码评审](./risk-scaled-code-review.md)

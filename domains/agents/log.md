@@ -1,5 +1,9 @@
 # Agent — Log
 
+## 2026-10-17
+
+* **2026-10-17 ingest** | Claude《How the Claude Code team does code review》→ 新建 [风险分层代码评审](./concepts/risk-scaled-code-review.md)。[Coding Agent Workflow](./concepts/coding-agent-workflow.md) 只加 Related（sources 已满）。无 Reference。
+
 ## 2026-10-16
 
 * **2026-10-16 ingest** | 腾讯云开发者《Harness 重写 90 万行》→ 续写 [Coding Agent Workflow](./concepts/coding-agent-workflow.md)（旧仓当说明书、运动员裁判分开、变异测试）。服务重构 Skill 只 Related。无新页。无 Reference。

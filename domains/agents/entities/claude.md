@@ -18,6 +18,7 @@ related:
   - codex
   - grok-bot
   - skills-sh
+  - risk-scaled-code-review
   - knowledge-work-plugins
 sources:
   - ../references/claude-blog.md
@@ -68,3 +69,4 @@ sources:
 - [Grok Bot](./grok-bot.md)
 - [skills.sh](./skills-sh.md)
 - [Knowledge Work Plugins](./knowledge-work-plugins.md)
+- [风险分层代码评审](../concepts/risk-scaled-code-review.md)

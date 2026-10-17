@@ -8,6 +8,7 @@
 * [Auto Mode](./auto-mode.md) — 分类器替人批工具调用：安全的自动放行，破坏性/外泄/越权拦截或回退人工。比逐条 Approve 少打断，比跳过全部权限更有边界；文件系统与网络隔离要一起上。
 * [异步记忆沉淀](./async-memory-precipitation.md) — 请求路径并行加载短期历史与长期记忆；会话结束后异步筛选、去重并写入长期层，沉淀失败不阻断本轮。
 * [Coding Agent Workflow](./coding-agent-workflow.md) — 用 coding agents 构建软件的高层工作流：规划→执行→部署监控，配合引导、自主度、验收、环境定制与 harness 基础。
+* [风险分层代码评审](./risk-scaled-code-review.md) — Agent 产量下，评审连续跑、人只看风险层。目标是人时最少且 revert 不升。机器人批准不能顶人。
 * [需求即交付](./requirement-as-delivery.md) — 别在旧 SDLC 里插 AI。人当翻译官是因为上下文没流通。OK 平台九阶段：需求质量第一道门，Spec 替代口头传递。
 * [复合检索 Agent](./compound-retrieval-agent.md) — Agent 自主决定多源并行检索、评估补搜与精读，再按来源权威性交织生成回答；不是单次向量召回。
 * [上下文防污染](./context-pollution.md) — 别让多智能体共享一份谁都能读的历史。MCP 管工具，A2A 管协作。写入、选取、压缩、隔离；主从比平等稳。

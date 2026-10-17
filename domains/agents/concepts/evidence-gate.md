@@ -17,6 +17,7 @@ related:
   - dynamic-workflow-sop
   - agent-wont-design
   - rea
+  - risk-scaled-code-review
 sources:
   - ../references/dewu-delivery-harness.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
@@ -73,3 +74,4 @@ Grok Bot 侧落地更土：截图里必须出现需求点的变化（最好前�
 - [Dynamic Workflow 长程 SOP](../../engineering/concepts/dynamic-workflow-sop.md)
 - [编码 agent 不会设计](./agent-wont-design.md)
 - [REA](../entities/rea.md)
+- [风险分层代码评审](./risk-scaled-code-review.md)
