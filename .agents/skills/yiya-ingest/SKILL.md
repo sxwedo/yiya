@@ -97,12 +97,12 @@ argument-hint: "[url-or-path] [domain?]"
 先过「主旨判定」：过不了的 raw **不要**追加进 `sources`。
 
 - **改旧页**：通过判定才追加 `sources`（相对路径直链 raw）；只补以后还会被引用的稳定句。
-- **建新页**：用 `templates/concept.md` 或 `templates/entity.md`。`sources` 直链 raw。
+- **建新页**：用 `.template/concept.md` 或 `.template/entity.md`。`sources` 直链 raw。
 - **互链**：同文与同簇已有页加 `## Related` + 相对路径。可写 `related:` frontmatter。本地 Markdown 链接目标含空格或 `()` 时必须 `[标题](<路径.md>)`。`## Related` **禁止**链 `raw/`。
 
 **深度条（正文，不是 YAML）：**
 
-Entity 用 `templates/entity.md`（`kind` + Identity / Timeline / Mechanism / Notes / Boundaries）。空节删除。
+Entity 用 `.template/entity.md`（`kind` + Identity / Timeline / Mechanism / Notes / Boundaries）。空节删除。
 
 - **书签型 Entity**（没有成文 `sources`）：Identity + 一句 Boundaries + Related。不要空填 Timeline/Mechanism。这不是失败。
 - **专文对象**：精读 raw 后写 Identity + Mechanism + Boundaries；人可有 Timeline/Notes。须能脱离 raw 复述。Concept 对照 `harness-runtime-layer.md`。
@@ -114,7 +114,7 @@ Entity 用 `templates/entity.md`（`kind` + Identity / Timeline / Mechanism / No
 
 仅当长篇经典论文/权威规范/专著，需撰写深度评注、长篇阅读笔记时建。在目标 bundle 的 `references/`：
 
-- 复制 `templates/reference.md`；`type: Reference`
+- 复制 `.template/reference.md`；`type: Reference`
 - `resource` 相对路径指向 raw
 - 撰写核心要点与启示评注
 

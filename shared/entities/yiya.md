@@ -34,11 +34,11 @@ sources:
 
 ## Notes
 
-Entity 正文骨架见 `templates/entity.md`（`kind` + Identity / Mechanism / Boundaries）。旧页按簇回写，不是一次注水 169 张书签卡。
+Entity 正文骨架见 `.template/entity.md`（`kind` + Identity / Mechanism / Boundaries）。旧页按簇回写，不是一次注水 169 张书签卡。
 
 ## Boundaries
 
-不是云同步盘、不是当场 RAG。敏感进 `private/`。不是 [Harness 运行时](../../domains/agents/concepts/harness-runtime-layer.md)。对照 [llmwiki](./llmwiki.md)、[Grokipedia](./grokipedia.md)、[Zread](../../domains/agents/entities/zread.md) / [Code Wiki](../../domains/agents/entities/code-wiki.md)。
+不是云同步盘、不是当场 RAG。不是 [Harness 运行时](../../domains/agents/concepts/harness-runtime-layer.md)。对照 [llmwiki](./llmwiki.md)、[Grokipedia](./grokipedia.md)、[Zread](../../domains/agents/entities/zread.md) / [Code Wiki](../../domains/agents/entities/code-wiki.md)。
 
 ## Related
 

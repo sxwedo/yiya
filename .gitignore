@@ -51,9 +51,6 @@ Temporary Items
 .history
 .ionide
 ### yiya ###
-private/**
-!private/README.md
-!private/.gitkeep
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 *.local.md

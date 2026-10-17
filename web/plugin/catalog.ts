@@ -37,8 +37,6 @@ const SKIP_DIRS = new Set([
   ".obsidian",
   "node_modules",
   "web",
-  "private",
-  "templates",
   "_media",
 ]);
 

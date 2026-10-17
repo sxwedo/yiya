@@ -12,7 +12,6 @@
 raw/               原文与书签，正文不改
 domains/<id>/      分域 wiki：entities · concepts · references
 shared/            跨域实体与纲领
-private/           敏感内容，不进 git
 AGENTS.md          问答、入库、红线
 .agents/skills/    ingest · rewrite · lint · dream · explore · …
 ```

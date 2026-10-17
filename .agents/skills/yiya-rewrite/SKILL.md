@@ -10,7 +10,7 @@ argument-hint: "[cluster or page paths or 全量]"
 
 # yiya-rewrite
 
-把**已有** wiki 页按原料精读重写成可脱离 raw 复述的机制页。先读根 `AGENTS.md`。不抓新 URL（那是 `yiya-ingest`）；不扫结构（那是 `yiya-lint`）。Entity 正文骨架见 `templates/entity.md`。
+把**已有** wiki 页按原料精读重写成可脱离 raw 复述的机制页。先读根 `AGENTS.md`。不抓新 URL（那是 `yiya-ingest`）；不扫结构（那是 `yiya-lint`）。Entity 正文骨架见 `.template/entity.md`。
 
 ## 何时用
 
@@ -27,7 +27,7 @@ argument-hint: "[cluster or page paths or 全量]"
 
 ## 专文完成态
 
-Entity 按 `templates/entity.md`：Identity ·（有则）Timeline · Mechanism ·（有则）Notes · Boundaries · Related。能脱离 raw 复述。禁止停在「上游仓库是 X。一句话简介。」Concept 仍写 Definition + 何时不用 + Related。
+Entity 按 `.template/entity.md`：Identity ·（有则）Timeline · Mechanism ·（有则）Notes · Boundaries · Related。能脱离 raw 复述。禁止停在「上游仓库是 X。一句话简介。」Concept 仍写 Definition + 何时不用 + Related。
 
 ## 步骤
 
