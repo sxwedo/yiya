@@ -3,6 +3,7 @@
 ## 2026-10-17
 
 * **2026-10-17 ingest** | Claude《How the Claude Code team does code review》→ 新建 [风险分层代码评审](./concepts/risk-scaled-code-review.md)。[Coding Agent Workflow](./concepts/coding-agent-workflow.md) 只加 Related（sources 已满）。无 Reference。
+* **2026-10-17 ingest** | Felix Rieseberg《How to be more ambitious》→ 新建 [模型野心四型](./concepts/model-ambition.md)。Loop / 用代码做计划 / Workflow 只加 Related。无 Reference。
 
 ## 2026-10-16
 

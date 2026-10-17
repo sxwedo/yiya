@@ -12,6 +12,7 @@ related:
   - plan-mode-multiagent
   - discardable-understanding-artifacts
   - agent-wont-design
+  - model-ambition
 sources:
   - ../../../raw/articles/lauren/The Complete Guide to pstack Pt. 2.md
 ---
@@ -46,3 +47,4 @@ sources:
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [可弃理解制品](./discardable-understanding-artifacts.md)
 - [编码 agent 不会设计](./agent-wont-design.md)
+- [模型野心四型](./model-ambition.md)

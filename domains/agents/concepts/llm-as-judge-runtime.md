@@ -13,6 +13,7 @@ related:
   - playbook-feedback-loop
   - eval-driven-development
   - jev
+  - model-ambition
   - eval-driven-development
 sources:
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
@@ -56,3 +57,4 @@ Anthropic 的 evaluator-optimizer 工作流把生成与评判拆成两个 Agent�
 - [Playbook 反馈闭环](./playbook-feedback-loop.md)
 - [评测驱动开发](../../engineering/concepts/eval-driven-development.md)
 - [Jev](../entities/jev.md)
+- [模型野心四型](./model-ambition.md)

@@ -33,6 +33,7 @@ related:
   - agent-wont-design
   - agents-md
   - risk-scaled-code-review
+  - model-ambition
 sources:
   - ../references/ng-coding-agents-skills.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
@@ -114,5 +115,6 @@ Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已�
 - [需求即交付](./requirement-as-delivery.md)
 - [编码 agent 不会设计](./agent-wont-design.md)
 - [风险分层代码评审](./risk-scaled-code-review.md)
+- [模型野心四型](./model-ambition.md)
 - [AGENTS.md](../entities/agents-md.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)
