@@ -1,5 +1,9 @@
 # shared — Log
 
+## 2026-10-17
+
+* **2026-10-17 ingest** | Dan Koe《Human 3.0 – A Map To Reach The Top 1%》→ 新建 [Human 3.0](./entities/human-3-0.md)。[高性价比人生指南](./entities/how-to-live-better.md) 只加 Related。无 Reference。不灌后续知识库全文。
+
 ## 2026-10-05
 
 * **2026-10-05 promote** | [高性价比人生指南](./entities/how-to-live-better.md) 从 agents 升格。删除源页，不留 stub。

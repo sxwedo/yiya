@@ -8,6 +8,7 @@ domain: shared
 generated: { by: agent:yiya-librarian, at: 2026-10-05T13:10:00Z }
 related:
   - agent-skills
+  - human-3-0
 sources:
   - ../../raw/bookmarks/github.md
 ---
@@ -23,3 +24,4 @@ sources:
 ## Related
 
 - [Agent Skills](../../domains/agents/entities/agent-skills.md)
+- [Human 3.0](./human-3-0.md)

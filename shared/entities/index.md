@@ -23,3 +23,4 @@
 * [Github Ranking](./github-ranking.md) — GitHub star / fork 排行
 * [arXiv](./arxiv.md) — 康奈尔预印本库：公开论文、按学科分类；跨域文献源，不是本库知识页。
 * [高性价比人生指南](./how-to-live-better.md) — 665 条建议，写明成本、收益、证据等级和出处。附检索页和查书 skill。库里只有入口。
+* [Human 3.0](./human-3-0.md) — Dan Koe 的发展地图：Mind / Body / Spirit / Vocation 四象限，各有 1.0–3.0。合成者能并视角，不是 isolated 鸡汤。
