@@ -3,6 +3,7 @@
 ## 2026-11-05
 
 * **2026-11-05 ingest** | 0xTrackmind《Unlock Opus 5.5： The Harness Guide》→ 续写 [Harness 运行时层](./concepts/harness-runtime-layer.md)（A/B 量化、五层诊断、模型推荐 harness 决定工具执行、教训变基建）。仅此一挂（权限/门禁段在段内转述，不另挂 Auto Mode / Evidence Gate）。无新页。无 Reference。
+* **2026-11-05 ingest** | ismael《CLAUDE CODE de 0 a experto》（西语十部分完整指南）→ 续写 [Claude](./entities/claude.md)（工作台心智、十条新手错、安全五则）。无新页。无 Reference。
 
 * **2026-11-05 ingest** | 10-31~11-05 积压批次（17 源）。新建 [Karpathy](./entities/karpathy.md)（HackerTube；补齐 discardable 页悬空的 related）；续写 [Agent 个人工作法](./concepts/agent-personal-workflow.md)（Addy 过度提示/批判性思维、fanxing321 多模型气质搭配、Karpathy；页改多实践者）、[DeepSeek Harness](./entities/deepseek-harness.md)（Super-agent 连续实体：四特征、Router/Worker、dsh-superagent-prototype；Datawhale 与阿里云两篇解读同挂）、[Loop Engineering](./concepts/loop-engineering.md)（卡兹克 Agent-Autoloop 事件驱动个人系统；夕小瑶扇出公式 FO≈1+AT/IT）、[Grok Bot](./entities/grok-bot.md)（lauren 团队指南）、[多 Agent 架构选型](./concepts/multi-agent-architecture-selection.md)（Anthropic：Skills 单 Agent 常优于子 Agent，三保留条件）。书签：agent-autoloop / alma-relay / relay-kit 入 github.md；Kero / Electrobun Dash / HackerTube 入 sites.md（均未建 Entity，等授权）。工程两页见工程 log。无 Reference。
 

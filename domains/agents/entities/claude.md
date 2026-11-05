@@ -35,6 +35,7 @@ sources:
   - ../../../raw/articles/宝玉/构建 Claude Code 的经验：我们如何使用 Skills【译】.md
   - ../../../raw/articles/实践哥 Li/Claude Code 动态工作流： 每个任务都可以有自己的 Harness【译】.md
   - ../../../raw/articles/Xiao Tan/ClaudeCode 你想知道的所有秘密，源码深度研究报告.md
+  - ../../../raw/articles/ismael/CLAUDE CODE de 0 a experto： La guía completa.md
 ---
 
 # Identity
@@ -50,6 +51,8 @@ sources:
 - **工作流范式**：支持交互式配对编程、子代理委派与长程自治循环（[Loop Engineering](../concepts/loop-engineering.md)）。
 
 官方博客：<https://claude.com/blog/> ；Claude Code 文档：<https://code.claude.com/docs> ；官方学习体系见 [Claude Academy](./claude-academy.md)。
+
+西语完整入门指南（ismael，2026-10，从装到多代理团队共 10 部分）把核心心智收成「工作台」（mesa de trabajo）：上下文是有限桌面，/clear、子代理与插件都是在管理这张桌面。十条新手错含金量最高：一话跑多任务不 /clear；只说做什么不说为什么；超 10 分钟的活不先 plan；不让它「证明能跑」；CLAUDE.md 写三页（一屏放不下就该砍）；什么都用 Opus（日常 Sonnet、机械活 Haiku）；见插件就装（每个都占桌面且有机器权限）；跑偏了还等它跑完（Esc 立刻拦）；闭眼批权限（真要全批不如开 Auto Mode——它审得比赶时间的人细）；同一解释每周重复（变成 Skill）。安全五则：最小权限、生产动作必审、不贴秘密、信任要有证据、桌面要常清。
 
 ## Boundaries
 
