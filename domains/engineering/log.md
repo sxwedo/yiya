@@ -1,5 +1,19 @@
 # 工程 — Log
 
+## 2026-11-05
+
+* **2026-11-05 ingest** | 积压批次（同 agents log）→ 续写 [语义层](./concepts/semantic-layer.md)（Anthropic Agentic Analytics：95% 自动化与准确率，查数不准是上下文与验证问题）、[数仓分层](./concepts/warehouse-layering.md)（四层职责图解版一句）、[Data Agent 落地](./concepts/data-agent-landing.md)（高德上/下篇：A→B→C→D 降维升维框架）、[组织摩擦](./concepts/organizational-friction.md)（FurtherAI 九个月：逐环重建交付链、瓶颈移向决定做什么、规则固化成 checks）。无新页。无 Reference。
+
+## 2026-10-26
+
+* **2026-10-26 ingest** | ip.skk.moe（书签型工具）→ `raw/bookmarks/tools.md` 一行 + 新建短卡 Entity [ip.skk.moe](./entities/ip-skk-moe.md)（与 ping.pe 互补）。无 Reference。
+* **2026-10-26 ingest** | CnSharp AI研究《阿里 AI Native 研发范式实践手册解读》（续 agents 域五页）→ 续写 [组织摩擦](./concepts/organizational-friction.md)（execution graph、人既瓶颈也兜底、蒸馏焦虑）与 [评测驱动开发](./concepts/eval-driven-development.md)（三层度量、Session→Commit→Change→Workitem 归因链、上下文资产）。无新页。无 Reference。
+* **2026-10-26 ingest** | AI数据奇点《语义层 × 智能问数面试通关指南》→ 续写 [Text2Semantic2SQL](./concepts/text2semantic2sql.md)（三分流路由、Schema Linking 有限类型匹配、幻觉四类、对账回湖成 Eval 集）与 [语义层](./concepts/semantic-layer.md)（宽表是物化不是契约、行级权限进 SQL 谓词、最小可用语义包）。无新页。无 Reference。
+
+## 2026-10-21
+
+* **2026-10-21 ingest** | 走向AI时代《AI时代，数仓架构和语义层应该怎么搭建》→ 续写 [语义层](./concepts/semantic-layer.md)（三问公式、What/How 分家、三个「一」、AI 治理放大器）与 [数仓分层](./concepts/warehouse-layering.md)（语义层上限取决于 DWD/DWS 质量、MDM/数仓分工）。无新页。无 Reference。
+
 ## 2026-10-14
 
 * **2026-10-14 ingest** | 得物《动态规则 Agent 资产验收》→ 续写 [评测驱动开发](./concepts/eval-driven-development.md)（反馈金标、试跑/回测门禁）。裁判机制在 agents [LLM-as-Judge Runtime](../agents/concepts/llm-as-judge-runtime.md)。无新页。

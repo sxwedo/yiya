@@ -37,6 +37,9 @@
 | Pi | <https://pi.dev> | earendil-works | 极简终端编码代理官网：文档、扩展、Packages、Skills |
 | OpenCode | <https://opencode.ai> | anomalyco | 开源编码 Agent 运行时：Profile + Session Events，多客户端共用 |
 | Herdr | <https://herdr.dev/> | herdr / Can Celik | 编码代理终端运行时：后台持有会话，合盖不断；不替换各家 CLI |
+| Kero | <https://kero.sh/zh> | Kero | 为编程智能体打造的终端：退出后会话照常跑（本机/远程），边栏提醒哪些会话需要你 |
+| Electrobun Dash | <https://electrobun.dev/dash/> | Electrobun | 把多台电脑并成一个工作面给你和 AI：跑各家 coding agents、本地跑开源权重模型 |
+| HackerTube | <https://hackertube.org/> | Andrej Karpathy | HN 评论区精选视频站：6454 个被推荐过的视频/150 主题；Opus 5.5 两小时产物 |
 | Grok Build | <https://x.ai/open-source> | xAI | 开源终端编码代理：harness + TUI（xai-org/grok-build）；模型仍走 API |
 | Amp | <https://ampcode.com> | Amp | 前沿 coding agent + 开发环境：远程 Orb 跑代理，合盖后续跑，多端审阅与多人共控 |
 | Mirasim | <https://mirasim.ai/> | Mirasim | One Agent IDE：多 harness 编码 + 模拟用户试用 |

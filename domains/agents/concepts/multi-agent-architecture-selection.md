@@ -14,6 +14,7 @@ related:
   - context-pollution
 sources:
   - ../../../raw/articles/Datawhale/重磅！Google发布多智能体最佳实践！.md
+  - ../../../raw/articles/Datawhale/Anthropic最新长文：请谨慎使用子智能体.md
 ---
 
 # Definition
@@ -55,3 +56,5 @@ sources:
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
 - [上下文防污染](./context-pollution.md)
+
+Anthropic Applied AI（Datawhale 转述，2026-10）给企业实践的同向判断：**配了 Skills 的单 Agent，输出质量往往优于复杂子 Agent 架构，成本与延迟也更低**——多数企业架构在替模型做「不再必要」的工作（某客服 Agent 内部塞了 12 个专家子 Agent，品牌调性难统一、延迟高）。很多团队按部门拆子 Agent，是让技术架构照搬组织架构图（康威定律）。只有三种情况才值得保留子 Agent：①上下文膨胀到出现可测量的性能衰退；②高并发且各任务上下文独立、用完即弃；③工具过载或指令冲突。迁移法：按「上下文独立性」逐个折叠回主循环，提示词与 API 转 Skills 与工具，最后用端到端评测保稳。这与上表 Google 侧「先证单 Agent 基线」、Addy「子代理默认不更聪明」（见 [Agent 个人工作法](./agent-personal-workflow.md)）同向。

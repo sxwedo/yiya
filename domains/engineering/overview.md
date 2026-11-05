@@ -23,6 +23,7 @@ sources: []
 | [Ghostty](./entities/ghostty.md) | 原生 GPU 终端模拟器（Zig） |
 | [github/gitignore](./entities/gitignore.md) | GitHub 官方 .gitignore 模板集（语言/框架/OS） |
 | [ping.pe](./entities/ping-pe.md) | 多地 Ping / MTR / 端口 / BGP 诊断 |
+| [ip.skk.moe](./entities/ip-skk-moe.md) | 本机 IP 及归属地查询（Sukka），高精准离线库 |
 | [Real API Pricing](./entities/real-api-pricing.md) | 月费÷月 token 对照单价。只有入口 |
 | [NekoCircle](./entities/neko-circle.md) | X 互动圈：30 天公开 @提及。只有入口 |
 | [Starship](./entities/starship.md) | 跨 shell 极简提示符（Rust） |

@@ -18,6 +18,7 @@ sources:
   - ../../../raw/articles/Rahul/10 Ways People Are Making Money With GPT-6 Astra.md
   - ../../../raw/articles/Codez/How to Build a team of AI Agents that actually work together in 8 Steps (Full-course).md
   - ../references/anthropic-multiagent-failures.md
+  - ../../../raw/articles/Katelyn Lesse/The new set of problems for engineers to solve.md
 ---
 
 # Definition
@@ -30,6 +31,8 @@ sources:
 - **冲突协议**：目标不兼容时停、升级、还是隔离，不能等它们自己发明杀进程脚本。
 - **多样性保护**：对抗低方差从众（同一分支名、同一标题、同一错误策略）。故意引入不同工具、不同提示、不同搜索区域，而不是克隆 45 份相同角色。
 - **共享协调面**：中心论坛是论文提到的可能方案，有边界——论坛本身也会成为信息级联的扩音器。
+
+Katelyn Lesse（2026-10）把「数千个常驻 Agent 攻硬问题」的四类新工程问题摆出来，可当治理的基建清单：①**基础设施错配**：K8s 为无状态多副本应用设计，Agent 却是隔离、有状态、单实例的负载，会在工具/推理/等人之间闲置任意久——有的要快启动、有的要省算力、有的要疯扩展（新文件系统、沙箱服务、Google Agent Substrate 都是回应）。②**身份与授权**：鉴权可复用微服务的 workload identity（短期证书）；授权则是 OBO 的同意难题——系统跑几周，人怎么有意义地批准 Agent 能做什么；自带身份的 Agent 与 Agent 互信更未解。③**安全与隔离**：核心软件漏洞补不过来的时代，数千 Agent 在上面写不可信代码、读不可信内容，风险被放大；多智能体特有的 twists：被攻陷的 Agent 把注入指令传给同伴，还可能留在记忆里被后续 Agent 误信——**爆炸半径**成为一级问题，动作要发生在强隔离沙箱里。④**监控与停机**：跨 Agent 的 OTel tracing，且 Agent 永远不能改自己的或别人的 trace；kill switch 要真能一键停全系统并切断凭证。最难的是判方向：**好意的执拗看起来很像恶意**（反复尝试访问不在白名单里的域名）。
 
 工程落地不要和 [Engineering Bot](./engineering-bot.md) 的岗位分层混为一谈：那边是人—带队 Bot—执行 Agent；这边是多执行体之间的全局风险。叶小钗侧把协作收成可判断的模式（顺序/主管/路由/并行）和落地陷阱，见 [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)；先问该不该拆，再问怎么治，见 [多 Agent 架构选型](./multi-agent-architecture-selection.md)。
 
@@ -49,3 +52,4 @@ sources:
 - [Graph Engineering](./graph-engineering.md)
 - [多智能体失效模式](./multi-agent-failure-modes.md)
 - [Raft](../entities/raft.md)
+- [自主性分层](./autonomy-layering.md)

@@ -11,6 +11,7 @@ related:
   - tls-agentloop
 sources:
   - ../references/agentloop-data-ingress.md
+  - ../../../raw/articles/CnSharp AI研究/阿里巴巴《AI Native 研发范式实践手册》解读.md
 ---
 
 # Definition
@@ -30,6 +31,8 @@ sources:
 探针覆盖通用 Agent、框架、高代码三类；完全不想改代码时用内核级观测兜底。怎么选路见 [Agent 遥测接入形态](./agent-telemetry-ingress.md)。产品落点见 [AgentLoop](../entities/agentloop.md)。
 
 本页不写评估器、黄金指标、Rubric——那是飞轮的下一齿。本页只保证：**轨迹按标准协议进来，并且坏了采集也不坏 Agent。**
+
+阿里手册（2026-10）把可观测拆成两层：**System Observability**（OTel 同构：Metrics/Logs/Trace，指标单里 TTFT、TPOT、Tool Latency、Cost、Cache Hit Rate——命中率直接决定成本）回答「系统运行是否正常」；**Behavior Observability** 回答「Agent 为什么这样行动、是否完成、是否符合预期」，核心原语是 **Trajectory**：从输入意图到最终结果的完整执行记录（模型调用/工具调用/Skill 执行/State Change 四类子事件）。两层用统一 Trace Context 关联，才能从系统事实钻到行为语义——两套独立数据做不到。分析成本靠**级联漏斗**压：确定性规则全量筛 → LLM 筛灰区 → 只对灰区做多维分析（意图达成度、推理合理性、工具调用恰当性、检索相关性）；对全量轨迹无差别跑 LLM 评审会破产。标准化跟 OpenTelemetry GenAI Semantic Conventions + ATIF（轨迹交换格式），不自造；Sandbox/CLI/Skill 用 Context Propagation 纳入同一链路，观测契约封装进 Skill SDK，不靠业务开发者自觉埋点。观测为评测供数：真实轨迹经反馈关联与标注进评测集，好过人工编造用例——终点不是看得见，是可改进。跨 Agent 场景再加两条硬约束（Katelyn Lesse，2026-10）：Agent 永远不能修改自己的或别人的 trace（防篡改是审计前提）；kill switch 要真能一键停全系统并切断凭证，而判方向的最难点是好意的执拗看起来很像恶意。
 
 ## Related
 

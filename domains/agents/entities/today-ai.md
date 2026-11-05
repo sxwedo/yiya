@@ -31,3 +31,4 @@ sources:
 - [历史不等于记忆](../concepts/history-vs-memory.md)
 - [Open Muse](./open-muse.md)
 - [Agent Skills](./agent-skills.md)
+- [自主性分层](../concepts/autonomy-layering.md)

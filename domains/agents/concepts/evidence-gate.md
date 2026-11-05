@@ -22,6 +22,7 @@ sources:
   - ../references/dewu-delivery-harness.md
   - ../../../raw/articles/得物技术/AI Native 交易核心系统的研发范式｜得物技术.md
   - ../../../raw/articles/AI数据奇点/Data Agent二篇：查数Agent 你们的是否可信？.md
+  - ../../../raw/articles/CnSharp AI研究/阿里巴巴《AI Native 研发范式实践手册》解读.md
 ---
 
 # Definition
@@ -54,6 +55,8 @@ sources:
 
 Grok Bot 侧落地更土：截图里必须出现需求点的变化（最好前后对照）；贴测试命令和结果；说明 diff 动了哪些文件。口头「已修复」退回。截图只证明页面变了，质量还看测试和 Diff。
 
+阿里 Guardrail（2026-10）是这门禁的企业生产版：**Agent 进入高风险生产动作前的独立第三方核验**——Agent 提变更与证据、验证系统产证据、审批系统记风险承担者、Guardrail 核验证据完整性、发布系统只执行已通过变更。三态：通过/不通过/**UNKNOWN**，证据不足（如验证超时）保持暂停——不确定 ≠ 通过。禁止自我认证：Agent 不能自行声明通过，也不能改门禁结论；规则引擎与独立评审模型双轨互证。放行要可重放：ChangeSet@digest + 门禁 Spec@digest + 有效期三重绑定；证据脱敏（不带明文密钥与生产客户记录）。通过之后仍在保护下：分批发布、指标监控、阈值自动暂停。
+
 本页是跃迁门。合同锁事实、边界限半径、修复写回默认，见 [Delivery Harness](./delivery-harness.md)。执行前拦危险工具见 [Auto Mode](./auto-mode.md)。
 
 
@@ -75,3 +78,5 @@ Grok Bot 侧落地更土：截图里必须出现需求点的变化（最好前�
 - [编码 agent 不会设计](./agent-wont-design.md)
 - [REA](../entities/rea.md)
 - [风险分层代码评审](./risk-scaled-code-review.md)
+- [Agent 个人工作法](./agent-personal-workflow.md)
+- [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)

@@ -1,5 +1,27 @@
 # Agent — Log
 
+## 2026-11-05
+
+* **2026-11-05 ingest** | 0xTrackmind《Unlock Opus 5.5： The Harness Guide》→ 续写 [Harness 运行时层](./concepts/harness-runtime-layer.md)（A/B 量化、五层诊断、模型推荐 harness 决定工具执行、教训变基建）。仅此一挂（权限/门禁段在段内转述，不另挂 Auto Mode / Evidence Gate）。无新页。无 Reference。
+
+* **2026-11-05 ingest** | 10-31~11-05 积压批次（17 源）。新建 [Karpathy](./entities/karpathy.md)（HackerTube；补齐 discardable 页悬空的 related）；续写 [Agent 个人工作法](./concepts/agent-personal-workflow.md)（Addy 过度提示/批判性思维、fanxing321 多模型气质搭配、Karpathy；页改多实践者）、[DeepSeek Harness](./entities/deepseek-harness.md)（Super-agent 连续实体：四特征、Router/Worker、dsh-superagent-prototype；Datawhale 与阿里云两篇解读同挂）、[Loop Engineering](./concepts/loop-engineering.md)（卡兹克 Agent-Autoloop 事件驱动个人系统；夕小瑶扇出公式 FO≈1+AT/IT）、[Grok Bot](./entities/grok-bot.md)（lauren 团队指南）、[多 Agent 架构选型](./concepts/multi-agent-architecture-selection.md)（Anthropic：Skills 单 Agent 常优于子 Agent，三保留条件）。书签：agent-autoloop / alma-relay / relay-kit 入 github.md；Kero / Electrobun Dash / HackerTube 入 sites.md（均未建 Entity，等授权）。工程两页见工程 log。无 Reference。
+
+## 2026-10-26
+
+* **2026-10-26 ingest** | Katelyn Lesse《The new set of problems for engineers to solve》→ 续写 [多智能体治理](./concepts/multi-agent-governance.md)（四类基建问题：K8s 错配、OBO 同意、注入指令滞留记忆与爆炸半径、kill switch）；[Agent OTel 探针](./concepts/agent-otel-probe.md) 补 trace 防篡改与判方向难点。Thorsten Ball 链接查重：raw 已存在且已认领，未动。无新页。无 Reference。
+
+* **2026-10-26 ingest** | CnSharp AI研究《阿里 AI Native 研发范式实践手册解读》→ 新建 [验证与环境驱动](./concepts/verification-environment-driven.md)（骨架论点：阿姆达尔、分层验证、仓库≠项目、候选基线复验）；续写 [Harness 运行时层](./concepts/harness-runtime-layer.md)（四职责、程序性/模型推理分表）、[Agent OTel 探针](./concepts/agent-otel-probe.md)（两层可观测、Trajectory、级联漏斗）、[自主性分层](./concepts/autonomy-layering.md)（信任边界外移、交集权限、Challenge 三态）、[Evidence Gate](./concepts/evidence-gate.md)（Guardrail UNKNOWN≠PASS、禁止自我认证）。组织配套与度量三层落在 engineering 两页（见工程 log）。Coding Agent Workflow 只加 Related。无 Reference。
+
+* **2026-10-26 ingest** | 算法狗《Plan & Execute 与 ReAct 范式差异》→ 新建 [ReAct 与 Plan & Execute](./concepts/react-vs-plan-execute.md)。Plan 模式与主子 Agent / 复合检索 Agent 只加 Related。
+* **2026-10-26 ingest** | Su《官方 10 个 Bot 模板》→ 续写 [Grok Bot](./entities/grok-bot.md)（bot marketplace、一bot一事+审批线、主管+专员起步）。无新页。无 Reference。
+
+* **2026-10-26 ingest** | 搜狐技术产品《多Agent协作与AI开发团队构建实战》→ 续写 [Raft](./entities/raft.md)（首篇成文 raw：概念模型、六大原语、横评短板）与 [多 Agent 协作模式](./concepts/multi-agent-collaboration-patterns.md)（共谋问题、五拓扑、agents-zone 七原则、三层状态）。Evidence Gate 只加 Related。Orkas/Multica/LobeHub 顺带点名不建页。无新页。无 Reference。
+
+* **2026-10-26 ingest** | Addy Osmani《How the Claude Code team does code review》（claude.dev 原文重写版）→ 续写 [风险分层代码评审](./concepts/risk-scaled-code-review.md)（验证流程 2–3x、50+ 轮循环、explainer 代读 diff）。
+* **2026-10-26 ingest** | Thorsten Ball《How I work with Agents》→ 新建 [Agent 个人工作法](./concepts/agent-personal-workflow.md)。Workflow/评审/Evidence Gate 只加 Related。
+* **2026-10-26 ingest** | 阿里技术《Personal Agent 落地思考》→ 新建 [自主性分层](./concepts/autonomy-layering.md)，同时认领孤儿 raw Addy《Agentic Autonomy Levels》（agency×orchestration 同构两轴）。Open Muse / Today AI 加 Related。
+* **2026-10-26 ingest** | 走向AI时代《AI 时代，数仓架构和语义层》（qYswXulwVR）查重：raw 已存在且已被 engineering 语义层两页认领，未动。
+
 ## 2026-10-17
 
 * **2026-10-17 ingest** | Claude《How the Claude Code team does code review》→ 新建 [风险分层代码评审](./concepts/risk-scaled-code-review.md)。[Coding Agent Workflow](./concepts/coding-agent-workflow.md) 只加 Related（sources 已满）。无 Reference。

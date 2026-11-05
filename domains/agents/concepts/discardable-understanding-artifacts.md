@@ -45,5 +45,6 @@ sources:
 - [Loop Engineering](./loop-engineering.md)
 - [AI Design De-slop](../../design/concepts/ai-design-deslop.md)
 - [命名风格词](./named-style-tokens.md)
+- [Karpathy](../entities/karpathy.md)
 - [Answer me with HTML](../entities/answer-me-with-html.md)
 - [Anatomy](../entities/anatomy.md)

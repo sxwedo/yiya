@@ -180,3 +180,6 @@
 | eternity4719/HowToLiveBetter | <https://github.com/eternity4719/HowToLiveBetter> | eternity4719 | 高性价比人生指南：成本/收益/证据等级；附检索页和查书 skill |
 | morluto/rea | <https://github.com/morluto/rea> | morluto | REA：本机逆向 MCP，无源码时给 Agent 查二进制/应用/运行时 |
 | wheresryan22/anatomy | <https://github.com/wheresryan22/anatomy> | wheresryan22 | Anatomy：Claude Code Skill，一句话画出可交互等距机械图 |
+| KKKKhazix/agent-autoloop | <https://github.com/KKKKhazix/agent-autoloop> | 数字生命卡兹克 | 事件驱动个人 Agent 自动化：极简内核 + 全插件（事件/Agent/通知/CI） |
+| yetone/alma-relay | <https://github.com/yetone/alma-relay> | yetone | Alma 远程访问的自托管 relay：端到端加密，Cloudflare Workers 一键部署 |
+| nanami-0713/relay-kit | <https://github.com/nanami-0713/relay-kit> | nanami-0713 | 逆向 Alma 协议的通用盲 relay：只看密文与路由令牌，可挂任意本地 HTTP/WS |

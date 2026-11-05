@@ -14,6 +14,7 @@ related:
   - llm-as-judge-runtime
 sources:
   - ../../../raw/articles/Claude/How the Claude Code team does code review.md
+  - ../../../raw/articles/Addy Osmani/How the Claude Code team does code review.md
 ---
 
 # Definition
@@ -24,11 +25,11 @@ sources:
 
 ## Mechanism
 
-1. **评审像拼写检查，不是终点闸门。** 开 PR 前：能跑的测试/构建/截图，第二 agent 用新上下文看 diff。CLAUDE.md 短、当索引；REVIEW.md 由 owner 写「失败长什么样」，限制 nit，要文件行号当证据。
+1. **评审像拼写检查，不是终点闸门。** 开 PR 前：能跑的测试/构建/截图，第二 agent 用新上下文看 diff。Boris Cherny（Claude Code 作者）估计给 Claude 配验证流程是质量最高的单项杠杆，产出质量提 2–3 倍。CLAUDE.md 短、当索引；REVIEW.md 由 owner 写「失败长什么样」，限制 nit，要文件行号当证据。
 2. **每层漏一些，叠起来漏得少。** 开 PR 前自验 → 必过 CI → 并行找 bug 再投票 → 安全审查（未关 finding 不能合）→ 按风险要 0/1/2 个人 → merge queue 在最新 main 上重跑 → 旗标、内部先用、分通道发布 → 快关旗标/回滚。
 3. **人批按变更风险，不按作者头衔。** 文档/旗标后的加法可以无人；普通产品一人；敏感路径和列出的文件两人。Agent 的批准永不顶人。谁 prompt 谁负责，等同自己手写。批准钉死某一 commit，新 commit 要重批。
-4. **噪声在 Agent 作者身上更贵。** 人可以挥掉 nit；Agent 会改，再开一轮。要收敛：限制轮次，后几轮只看新 diff。事故做成每日 eval；改 reviewer 的 prompt/工具/模型，用全套旧事故打分，分没升就丢掉。
-5. **合入的人拥有。** 变更要小、可逆、爆炸半径定检查强度。方向不对趁早在频道里改，别等成品 PR 上拦。共享上下文靠公开频道，不是每行都设人闸。
+4. **噪声在 Agent 作者身上更贵。** 人可以挥掉 nit；Agent 会改，再开一轮：他们见过 agent 作者与 agent 评审一夜来回 50+ 轮；git blame 显示评审反复抓的 ~59% 是初版就有的旧问题。要收敛：限制轮次（三轮后重估方案），后几轮只看新 diff、只报一类 bug、不重复已见问题。事故做成每日 eval；改 reviewer 的 prompt/工具/模型，用全套旧事故打分，分没升就丢掉。
+5. **合入的人拥有。** 变更要小、可逆、爆炸半径定检查强度。方向不对趁早在频道里改，别等成品 PR 上拦。共享上下文靠公开频道，不是每行都设人闸。评审的第二个目的（共同理解代码库）也不靠读彼此 diff：要学哪一片，让 Claude 对那一片生成 explainer（几分钟出、永远最新），比逐行读琐碎 diff 教得多。
 
 产品侧 Code Review 对外仍是 findings 不是 approvals；他们自己的仓在低风险上可以走到自动检查合入，这条线还在动。
 
@@ -44,3 +45,4 @@ sources:
 - [Auto Mode](./auto-mode.md)
 - [Claude](../entities/claude.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
+- [Agent 个人工作法](./agent-personal-workflow.md)

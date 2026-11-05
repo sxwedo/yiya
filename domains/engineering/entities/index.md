@@ -5,6 +5,7 @@
 * [Ghostty](./ghostty.md) — Mitchell Hashimoto 的原生 GPU 终端模拟器（Zig）：macOS/Linux，key=value 配置，内置分屏与下拉终端。不是 shell，也不是编码代理。
 * [github/gitignore](./gitignore.md) — GitHub 官方维护的 .gitignore 模板集：按语言、框架与操作系统提供社区常用忽略规则。
 * [ping.pe](./ping-pe.md) — 多地网络诊断：Ping、MTR、TCP 端口、dig、BGP looking glass。
+* [ip.skk.moe](./ip-skk-moe.md) — 查询本机 IP 地址及归属地（Sukka）：高精准离线库，免登录无广告。
 * [Starship](./starship.md) — 跨 shell 的极简提示符（Rust）：一份配置驱动 bash/zsh/fish 等；不是编码代理，也不是容器运行时。
 * [Tailscale](./tailscale.md) — 基于 WireGuard 的 mesh VPN：设备直连加密、自动 NAT 穿透，协调面管密钥与 ACL。
 * [x-algorithm](./x-algorithm.md) — xAI 开源的 X 推荐生产栈：Phoenix 多动作预测 + RankingScorer + 安全/多样性规则。公开代码缺训练数据与完整权重。

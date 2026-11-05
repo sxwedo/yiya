@@ -48,4 +48,8 @@
 * [编码 agent 不会设计](./agent-wont-design.md) — 有预言机（测试、fuzz、做成/没做成）它们总能磨完。架构是过程，不在训练数据里；agent 修 bug 几乎只会加代码。
 * [LLM-as-Judge Runtime](./llm-as-judge-runtime.md) — 把 LLM 裁判从离线评测搬进 agent 运行时：拆分判据、成对比较、审过程而非只审终答、多裁判分歧升级，并用确定性检查包住裁判。
 * [老系统接入 AI](./legacy-system-ai.md) — Model 想、Agent 干、Skill 会、MCP 接、CLI 说。老系统先体检：有 API 薄封 MCP，没 API 包 CLI，只剩网页才 RPA。鉴权一案一议。
+* [Agent 个人工作法](./agent-personal-workflow.md) — 一线个人驾驭 agents 的姿态（Thorsten / Addy / Karpathy 等）：prompt What 不 How、新模型少写提示词、守住批判性思维不滑向认知投降、只审高爆炸半径。
+* [自主性分层](./autonomy-layering.md) — 自主度不是一个数：谁定义问题（L1–L5）×做到哪一步两轴独立；授权看问题定义权×失败代价，杠杆是把目标和验收规则说清。
+* [ReAct 与 Plan & Execute](./react-vs-plan-execute.md) — 边想边做 vs 先规划再执行：四条选型轴（决策粒度、不确定性容忍、可解释可控、工具失败鲁棒性）；成熟架构两层叠用。
+* [验证与环境驱动](./verification-environment-driven.md) — 编码只占链路两三成，AI 边界由可验证反馈决定：分层验证、约束/假设分离、仓库≠项目、候选基线复验；主战场在验证与环境。
 * [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md) — 用知识图状态动态选工作与路由：固定 schema/gate，查询式 launch，按节点状态分流，永久记录纠错，并由人审元循环提议改规则。

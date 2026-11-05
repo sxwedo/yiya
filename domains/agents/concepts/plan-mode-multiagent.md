@@ -45,6 +45,7 @@ sources:
 
 - [多 Agent 架构选型](./multi-agent-architecture-selection.md)
 - [多 Agent 协作模式](./multi-agent-collaboration-patterns.md)
+- [ReAct 与 Plan & Execute](./react-vs-plan-execute.md)
 - [多智能体治理](./multi-agent-governance.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Delivery Harness](./delivery-harness.md)

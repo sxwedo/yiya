@@ -116,5 +116,7 @@ Matt Pocock × Pragmatic Engineer（meng shao 访谈笔记）：战术编程已�
 - [编码 agent 不会设计](./agent-wont-design.md)
 - [风险分层代码评审](./risk-scaled-code-review.md)
 - [模型野心四型](./model-ambition.md)
+- [Agent 个人工作法](./agent-personal-workflow.md)
+- [验证与环境驱动](./verification-environment-driven.md)
 - [AGENTS.md](../entities/agents-md.md)
 - [ng-coding-agents-skills](../references/ng-coding-agents-skills.md)

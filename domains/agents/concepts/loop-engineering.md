@@ -27,6 +27,9 @@ sources:
   - ../../../raw/articles/Dan Farrelly/The Agent Loop Architecture.md
   - ../../../raw/articles/Hanako/You check every step your agents take. Not because you want to, but because nothing else.md
   - ../../../raw/articles/Claude/Loop engineering： Getting started with loops.md
+  - ../../../raw/articles/数字生命卡兹克/折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统.md
+  - ../../../raw/articles/数字生命卡兹克/开源我这折腾了1年的「Agent自动化系统」，愿所有人都能感受Agent的魅力.md
+  - ../../../raw/articles/夕小瑶科技说/同时管好多个Agent，我总结了3个办法.md
 ---
 
 # Definition
@@ -43,6 +46,10 @@ Anthropic 把 loop 收成「重复干活直到停条件」：按触发/停止/�
 
 与 [Coding Agent Workflow](./coding-agent-workflow.md) 互补：后者偏「规划→执行→部署」工作流；本页专讲「闭环自治」。产品侧入口仍见 [Claude](../entities/claude.md)。
 
+数字生命卡兹克的 Agent-Autoloop（折腾一年，2026-11 开源 github.com/KKKKhazix/agent-autoloop）是个人版落地样本：出发点与 DeepSeek Super-agent 同一句话——人多只能同时跟 3–5 个活跃会话，**多任务的上限是人的注意力**；解法是把任务起点从人身上拿掉，用信号触发而不是等命令（朱元璋批奏折类比：大臣能自处理的自行处理，拿不准的才上奏）。架构极简：事件（定时/Issue/业务报错）→ 统一格式进内核 → rules.json 规则派活（哪个 Agent、哪个目录、哪个 Skill）→ 短时同事件合并成轮防一窝蜂 → Agent 干完把结果放最后一条回复 → 通知通道。借鉴 Pi 的极简内核 + Extensions 与 DSH「一切皆插件」：除内核外事件、Agent、通知、CI 流水线全是插件，可热插拔魔改。人收敛到两件事：Loop 维护与关键决策——他管这叫领导力。
+
+夕小瑶给「同时管几个」算了笔账：**Fan-out 公式 FO ≈ 1 + AT/IT**（AT = Agent 两次找你之间的独立运行时长，IT = 每次接手要花的处理时长）——自己跑 10 分钟、接手花 5 分钟，可监管数就是 3，开 10 个窗口也只有 3 个在真干活。突破法只有两个方向：**拉长分子**（让 Agent 独立跑更久、防死循环防卡死）与**压短分母**（把看日志、验收等最耗神的接手动作外包出去）；OpenAI 客户案例 Third Moment Research 的万级并发、单任务 36–48 小时，就是把这两个方向推到极限的产物。
+
 ## Boundaries
 
 不是一手一手 prompt。不是 [Graph Engineering](./graph-engineering.md)（图上的边与门）。不是编译器里的 loop 向量化。停条件与上下文防腐没设计好，就不要开成「自己找活」。
@@ -52,6 +59,7 @@ Anthropic 把 loop 收成「重复干活直到停条件」：按触发/停止/�
 - [Agent On-call](./agent-oncall.md)
 - [Graph-Driven Agent Workflow](./graph-driven-agent-workflow.md)
 - [LLM-as-Judge Runtime](./llm-as-judge-runtime.md)
+- [自主性分层](./autonomy-layering.md)
 - [Plan 模式与主子 Agent](./plan-mode-multiagent.md)
 - [Graph Engineering](./graph-engineering.md)
 - [Software Factory Cost Equation](./software-factory-cost.md)
